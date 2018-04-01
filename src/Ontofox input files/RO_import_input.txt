@@ -18,15 +18,26 @@ http://purl.obolibrary.org/obo/RO_0000087  # has role     -- replance BFO_000008
 http://purl.obolibrary.org/obo/RO_0000086  # has quality  -- replance BFO_0000086, also replace BFO_0000159 has quality at all times 
 http://purl.obolibrary.org/obo/RO_0000059  # concretizes  -- replace BFO_0000059
 http://purl.obolibrary.org/obo/RO_0001025  # located in   -- replance BFO_0000082 
+http://purl.obolibrary.org/obo/BFO_0000066 # occurs in
 
-http://purl.obolibrary.org/obo/RO_0002330  #genomically related to
+http://purl.obolibrary.org/obo/RO_0002330  # genomically related to
 includeAllChildren 
+
+http://purl.obolibrary.org/obo/RO_0002609 # related via dependence to
+includeAllChildren 
+
+http://purl.obolibrary.org/obo/RO_0002502 #depends on
+includeAllChildren 
+
+http://purl.obolibrary.org/obo/RO_0000053  # bearer of
+includeAllChildren 
+
 
 [Top level source term URIs and target direct superclass URIs]
 
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeAllIntermediatesRecursively
 
 [Source annotation URIs]
 includeAllAnnotationProperties 

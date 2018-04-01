@@ -1,14 +1,25 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/IDO_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/vo/external/IDO_import.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY CHEBI "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&CHEBI;vo/external/IDO_import.owl#"
+     xml:base="&CHEBI;vo/external/IDO_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:CHEBI="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/IDO_import.owl"/>
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:CHEBI="http://purl.obolibrary.org/obo/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#">
+    <owl:Ontology rdf:about="&CHEBI;vo/external/IDO_import.owl"/>
     
 
 
@@ -20,33 +31,41 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="&CHEBI;IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&CHEBI;IAO_0000115">
         <rdfs:label>definition</rdfs:label>
-        <obo:IAO_0000111>definition</obo:IAO_0000111>
+        <CHEBI:IAO_0000111>definition</CHEBI:IAO_0000111>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&CHEBI;IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="&CHEBI;IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    
-
-
-    <!-- http://www.obofoundry.org/ro/ro.owl#has_disposition -->
-
-    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_disposition"/>
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
     
 
 
@@ -61,35 +80,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="&CHEBI;CHEBI_23367"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IDO_0000528 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000528">
+    <owl:Class rdf:about="&CHEBI;IDO_0000528">
         <rdfs:label xml:lang="en">pathogen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115 xml:lang="en">A material entity with a pathogenic disposition.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">pathogen</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_23367"/>
+        <CHEBI:IAO_0000115 xml:lang="en">A material entity with a pathogenic disposition.</CHEBI:IAO_0000115>
+        <CHEBI:IAO_0000111 xml:lang="en">pathogen</CHEBI:IAO_0000111>
+        <CHEBI:IAO_0000412 rdf:resource="&CHEBI;ido.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IDO_0000547 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000547">
+    <owl:Class rdf:about="&CHEBI;IDO_0000547">
         <rdfs:label xml:lang="en">virulence factor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115 xml:lang="en">A biological macromolecule produced by a pathogen and that has a virulence factor disposition.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">virulence factor</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_23367"/>
+        <CHEBI:IAO_0000115 xml:lang="en">A biological macromolecule produced by a pathogen and that has a virulence factor disposition.</CHEBI:IAO_0000115>
+        <CHEBI:IAO_0000111 xml:lang="en">virulence factor</CHEBI:IAO_0000111>
+        <CHEBI:IAO_0000412 rdf:resource="&CHEBI;ido.owl"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version [Not Released]) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
