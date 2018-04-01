@@ -1,0 +1,52 @@
+
+Jessica Turner: Mouse age at vaccination and mouse age at challenge capture the same issues facing a lot of the temporal problems I'm facing, too
+jie zheng: sex is the quality of an organism. Terms in OBI already.
+jie zheng: species were under organism, which is NCBItaxon
+Jessica Turner: Do we have a way to represent a quality of an organism that changes over the course of an experiment?
+Jessica Turner: Yup, the BIRN examples are similar to yours, Oliver
+jie zheng: MAGE-TAB use case shares some of it too.
+Philippe Rocca-Serra: thx Oliver, very interesting points
+jie zheng: Oliver, can you try to model your ANOVA stastical analysis in OBI?
+Helen Parkinson: JZ: suggest deeper modelling of inputs and outputs to the ontology
+Jessica Turner: Input from ANOVA should be datum measurements
+jie zheng: +1 Jessica
+Jessica Turner: reflecting the conditions of the experiment
+Helen Parkinson: so this is about connecting the annotations on the variables to the process
+Jessica Turner: Then throw data transformation into the mix
+jie zheng: time: initial time point, duration
+jie zheng: +1 Jessica
+Jessica Turner: Can you describe ANOVA as a class of data transformations that is a process applied to a class of experiments?
+Jessica Turner: Does it HAVE to be instances?
+Helen Parkinson: I think that's how anova's described, I think this is instance level for the extra Oliver needs. He's also describing continuous and disc. data
+Alan Ruttenberg: would be useful to get requirements for timing explicit
+Alan Ruttenberg: being discussed wrt bfo2 now
+Jessica Turner: good point re: numbers
+jie zheng: Animal Sex is not the input of statistical analysis. It is more about the input of vaccination process.
+Helen Parkinson: depends on the expt, I used to do anovas on timed behav data where we binned these from sampling across 7 days using averaging and sliding windows - here there are discrete time points I think. 
+Alan Ruttenberg: discretization is relatively easy - a kind of data transformation, if you have times on the "reality" side. That's where are missing it.
+Melanie Courtot: is somebody keeping track of those - ie taking notes?
+Jessica Turner: What about age at vaccination?
+Helen Parkinson: I agree 18 params is a good place to start, modelling anova, and representing temporal data. Can we ask Oliver to run through his params and check these off  - maybe we can map this list?
+jie zheng: organism has quality age
+Jessica Turner: Mmmm--some of my experiments have data from time 1 compared to data from time 2, and the organism's age in the two conditions is different.
+jie zheng: we can define it in an experiment process
+Alan Ruttenberg: age isn't a quality, imo
+Alan Ruttenberg: it is the duration of the life process until now
+Helen Parkinson: Ithink Jess is describing a variable into an analysis process, where teh has quality 2 days or 5 days 
+ is the annotation of a variable instance
+Jessica Turner: no, actually, not quite--I'm doing within-subjects analyses
+Jessica Turner: Comparing outcomes at time 1 with outcomes at time 2
+Yongqun He: challenge route
+Philippe Rocca-Serra: Oliver, admin route is already covered 
+Philippe Rocca-Serra to Yongqun He: I can show you later about the admin route, we could device a qtt
+jie zheng: +BP
+Bjoern Peters: *nearly all* of this is already covered to 
+Melanie Courtot: we should be able to have all covered and provide model to oliver/other users
+Melanie Courtot: part of the documentation maybe
+Helen Parkinson: so there are two issues
+Helen Parkinson: 1. adding new child terms
+Helen Parkinson: 2. clarifying missing relations. 
+Jessica Turner: Connecting data to analysis would be ideal, +1 HP
+Helen Parkinson: AI: OH will try and connect iao data terms to anova process in terms of inputs and outputs
+Helen Parkinson: AI: OH will do a detailed model of admin in vivo that addressed OH's params
+jie zheng: so next Mon can work on Oliver's use case.

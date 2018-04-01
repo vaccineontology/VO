@@ -1,0 +1,33 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/GO_import.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0002250 #adaptive immune response
+http://purl.obolibrary.org/obo/GO_0002385 #mucosal immune response
+http://purl.obolibrary.org/obo/GO_0006955 #immune response
+http://purl.obolibrary.org/obo/GO_0043234 #protein complex
+http://purl.obolibrary.org/obo/GO_0019814 #immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0071745 #IgA immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0071735 #IgG immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0071738 #IgD immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0071742 #IgE immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0071753 #IgM immunoglobulin complex
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0006955  #immune response
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+http://purl.obolibrary.org/obo/GO_0043234 #protein complex
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+
+http://purl.obolibrary.org/obo/GO_0019814 #immunoglobulin complex
+subClassOf http://purl.obolibrary.org/obo/GO_0043234 #protein complex
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties

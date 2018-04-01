@@ -1,0 +1,33 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/PATO_import.owl
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0000011 #age
+http://purl.obolibrary.org/obo/PATO_0001241 #physical object quality
+http://purl.obolibrary.org/obo/PATO_0001237 #quality of a single physical entity
+http://purl.obolibrary.org/obo/PATO_0001422 #dead
+http://purl.obolibrary.org/obo/PATO_0000719 #viable
+http://purl.obolibrary.org/obo/PATO_0000044 #frequency
+http://purl.obolibrary.org/obo/PATO_0000918 #volume
+http://purl.obolibrary.org/obo/PATO_0000165 #time
+http://purl.obolibrary.org/obo/PATO_0001029 #efficiency
+http://purl.obolibrary.org/obo/PATO_0001678 #efficient
+http://purl.obolibrary.org/obo/PATO_0001677 #inefficient
+http://purl.obolibrary.org/obo/PATO_0002146 #virulence
+http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
+http://purl.obolibrary.org/obo/PATO_0002147 #reduced virulence (PATO)
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0001241 #physical object quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/PATO_0000169 #viability
+subClassOf http://purl.obolibrary.org/obo/PATO_0001237 #quality of a single physical entity
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties

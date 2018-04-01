@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/ro_proposed_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/ro_proposed_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/ro_proposed_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/activates -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/activates">
+        <rdfs:label xml:lang="en">activates</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000111 xml:lang="en">activates</obo:IAO_0000111>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/positively_regulates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bearer_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bearer_of">
+        <rdfs:label xml:lang="en">bearer_of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A relation between an entity and a dependent continuant; the reciprocal relation of inheres_in</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">bearer_of</obo:IAO_0000111>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/inheres_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
+        <rdfs:label xml:lang="en">inheres_in</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A relation between a dependent continuant D and an entity E. D inheres_in E iff: given any d that instantiates D at t, there exists some e that instantiates E at t and d *inheres_in* e at t. Here *inheres_in* is the primitive instance level relation.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">inheres_in</obo:IAO_0000111>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/inheres_in_part_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/inheres_in_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in_part_of">
+        <rdfs:label xml:lang="en">inheres_in_part_of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000111 xml:lang="en">inheres_in_part_of</obo:IAO_0000111>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/positively_regulates -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/positively_regulates">
+        <rdfs:label xml:lang="en">positively_regulates</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A regulation relation in which the unfolding of the regulating process *increases* the frequency, rate or extent of the regulated process</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">positively_regulates</obo:IAO_0000111>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/regulates"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/regulates -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/regulates">
+        <rdfs:label xml:lang="en">regulates</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A relation between a process and a process or quality. A regulates B if the unfolding of A affects the frequency, rate or extent of B. A is called the regulating process, B the regulates process</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">regulates</obo:IAO_0000111>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/role_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/role_of">
+        <rdfs:label xml:lang="en">role_of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A relation between a role R and an entity E. R role_of E iff: R inheres_in E and R is a role</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">role_of</obo:IAO_0000111>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/stimulates -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/stimulates">
+        <rdfs:label xml:lang="en">stimulates</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000111 xml:lang="en">stimulates</obo:IAO_0000111>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/unfolds_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/unfolds_in">
+        <rdfs:label xml:lang="en">unfolds_in</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/obo/owl/ro_proposed</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">P unfolds_in C : the execution of P is spatially contained by C. forall pP,  forall c&#39; partipates_in p, c&#39; located_in C at t, for some t in P</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">unfolds_in</obo:IAO_0000111>
+    </owl:ObjectProperty>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.2.1782) http://owlapi.sourceforge.net -->

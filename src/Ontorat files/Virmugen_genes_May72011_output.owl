@@ -1,0 +1,3489 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>definition editor</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred term</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000161"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000164"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000169"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000172"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000185"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000793"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001400"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001402"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001403"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001404"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001405"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001406"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001407"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001408"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001409"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001410"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001411"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001413"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001414"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001415"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001416"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001417"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001418"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001419"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001420"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001421"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001422"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001423"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001424"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001425"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001426"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001427"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001428"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001429"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001430"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001431"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001432"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001433"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001434"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001435"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001436"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001437"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001438"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001439"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001440"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001441"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001442"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001443"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001444"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001445"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001446"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001447"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001448"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001449"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001450"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001451"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001452"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001453"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001454"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002504"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002515"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002516">
+        <rdfs:label>apxIA from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <rdfs:comment>The mutant strain, with deletion of apxIA gene, obtained in this study offered a level of cross-serovar protection against A. pleuropneumoniae infection in mice and pigs (Reference: PMID: 16930871).</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4850247; PMID: 16930871</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002517">
+        <rdfs:label>apxIC from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 1477456; PMID: 18062275</rdfs:seeAlso>
+        <rdfs:comment>In the intra-peritoneal mouse model, the virulence of the mutant strain decreased at least 100 fold compared with the parent strain. The mutant was evaluated as a potential vaccine using a vaccination-challenge trial. The death number and lung lesion score in the vaccinated pigs given the serovar 1 challenge were obviously lower than those in the unvaccinated pigs</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002518">
+        <rdfs:label>apxIIA from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <rdfs:comment>Deletion in ureC and apxIIA genes of Actinobacillus pleuropneumoniae serotype 2 prototype provides attenuation and protection in pigs against challenge with the virulent parent strain of A. pleuropneumoniae</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 255959000; PMID: 12438394</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002519">
+        <rdfs:label>apxIIC from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 52630373; PMID: 10085043</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>In the present study, the gene encoding the ApxII-activating protein, apxIIC, was insertionally inactivated on the chromosome of a serovar 7 strain, HS93. Pigs vaccinated with live HS93C-Ampr via the intranasal route were protected against a cross-serovar challenge with a virulent serovar 1 strain of A. pleuropneumoniae</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002520">
+        <rdfs:label>apxIIC from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>In the present study, the gene encoding the ApxII-activating protein, apxIIC, was insertionally inactivated on the chromosome of a serovar 7 strain, HS93. Pigs vaccinated with live HS93C-Ampr via the intranasal route were protected against a cross-serovar challenge with a virulent serovar 1 strain of A. pleuropneumoniae</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 52630373; PMID: 10085043</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002521">
+        <rdfs:label>apxIIIB from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <rdfs:comment>An apxIIIB mutant, in combination with an apxIIID mutation, is highly attenuated in pigs and induces significant protection from challenge with wild type A. pleuropneumoniae. The mutant also was slightly attenuated in mice and induced protection in mice against challenge from the parent strain</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Nucleotide_ID: 470686; PMID: 19887737</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002522">
+        <rdfs:label>apxIIID from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <rdfs:comment>An apxIIID mutant, in combination with an apxIIIB mutation, is highly attenuated in pigs and induces significant protection from challenge with wild type A. pleuropneumoniae. The mutant also was slightly attenuated in mice and induced protection in mice against challenge from the parent strain</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Nucleotide_ID: 470687; PMID: 19887737</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002523">
+        <rdfs:label>apxIVA from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <rdfs:comment>A precisely defined DeltaapxIICDeltaapxIVA double-deletion mutant of A. pleuropneumoniae was constructed based on HB04C(-) by transconjugation and counterselection. The results demonstrated that the DeltaapxIICDeltaapxIVA double mutant strain was less virulent than HB04C(-). Despite attenuation of virulence, the DeltaapxIICDeltaapxIVA double mutant remains immunogenic and conferred a similar level of protective immunity to pigs against challenge with a lethal dose of a heterologous fully virulent standard serovar 1 strain of A. pleuropneumoniae</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 6671152; PMID: 17767980</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002524">
+        <rdfs:label>ureC from Actinobacillus pleuropneumoniae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001384"/>
+        <rdfs:comment>Deletions were introduced into the ureC and apxIIA genes of an Actinobacillus pleuropneumoniae serotype 2 strain by homologous recombination and counterselection. The double-mutant contains no foreign DNA, is highly attenuated, protects pigs from homologous challenge upon a single aerosol application</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 303253439; PMID: 12438394</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002525">
+        <rdfs:label>mntA from Bacillus anthracis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001402"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 7848141; PMID:  16194238</rdfs:seeAlso>
+        <rdfs:comment>An mntA deletion mutant, generated by allelic replacement, in Bacillus anthracis was attenuated and provided protection for guinea pigs against lethal spore dose (60 LD50) of the virulent B. anthracis Vollum strain</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002526">
+        <rdfs:label>actA from Listeria monocytogenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001403"/>
+        <rdfs:comment>An actA mutant is attenuated in mice and induced significant protection from challenge with wild type L. monocytogenes</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 987035; PMID: 12763691</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002527">
+        <rdfs:label>actA from Listeria monocytogenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001403"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 987035; PMID: 12763691</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An actA mutant is attenuated in mice and induced significant protection from challenge with wild type L. monocytogenes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002528">
+        <rdfs:label>plcB from Listeria monocytogenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001403"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 987036; PMID: 12763691</rdfs:seeAlso>
+        <rdfs:comment>A plcB mutant, in combination with an actA mutant, is attenuated in mice and induces significant protection from challenge with wild type L. monocytogenes</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002529">
+        <rdfs:label>relA from Mycobacterium avium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001404"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2717869; PMID:  21565243</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A M. avium relA mutant is attenuated in calves and goats. This mutant also elicited an immune response in goats that limited colonization by challenge wild type M. avium</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002530">
+        <rdfs:label>drrC from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 888491; PMID: 14702160</rdfs:seeAlso>
+        <rdfs:comment>A drrC mutant is highly attenuated in mice and induces significant protection from challenge with wild type M. tuberculosis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002531">
+        <rdfs:label>fadD26 from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 887603; PMID: 15958066</rdfs:seeAlso>
+        <rdfs:comment>An fadD26 mutant is attenuated in mice and induced significant protection from challenge with wild type M. tuberculosis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002532">
+        <rdfs:label>leuD from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:comment>Deletion of leuD gene was shown to be highly attenuated. Immunocompetent BALB/c mice vaccinated with the DleuD auxotroph were protected as well as BCG in terms of survival following an intravenous or aerosol challenge with virulent M. tuberculosis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 888225; PMID: 10768986</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002533 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002533">
+        <rdfs:label>lysA from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 886960; PMID:  21264335</rdfs:seeAlso>
+        <rdfs:comment>A lysA mutant, in combination with a secA2 mutation, is highly attenuated in mice and induced significant protection from challenge with wild type M. tuberculosis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002534">
+        <rdfs:label>mce-2 from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A Mce-2 mutant in Mycobacterium tuberculosis is attenuated and provides protection against challenge for mice</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 925014; PMID: 16388878</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002535">
+        <rdfs:label>mce-3 from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 923491; PMID: 16388878</rdfs:seeAlso>
+        <rdfs:comment>A mce-3 mutant in Mycobacterium tuberculosis is attenuated and provides protection against challenge for mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002536">
+        <rdfs:label>panC from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 885459; PMID: 12219086</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A panCD mutant is attenuated in mice and induces significant protection from challenge with wild type M. tuberculosis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002537">
+        <rdfs:label>panC from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A panCD mutant is attenuated in mice and induces significant protection from challenge with wild type M. tuberculosis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 885459; PMID: 12219086</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002538">
+        <rdfs:label>panD from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:comment>A panCD mutant is attenuated in mice and induces significant protection from challenge with wild type M. tuberculosis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 885596; PMID: 12219086</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002539">
+        <rdfs:label>panD from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:comment>A panCD mutant is attenuated in mice and induces significant protection from challenge with wild type M. tuberculosis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 885596; PMID: 12219086</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002540">
+        <rdfs:label>phoP from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 888772; PMID: 19367339</rdfs:seeAlso>
+        <rdfs:comment>Study evaluated immunogenicity and protection against Mycobacterium tuberculosis in rhesus monkeys with an attenuated M. tuberculosis with a disrupted phoP gene (SO2) as a single-dose vaccine. SO2 treatment showed reduced average lung bacterial counts (1.0 and 1.2 log respectively, compared with 0.4 log for BCG) and significant protective effect by reduction in C-reactive protein levels, body weight loss, and decrease of erythrocyte-associated hematologic parameters (MCV, MCH, Hb, Ht) as markers of inflammatory infection, all relative to non-vaccinated controls</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002541">
+        <rdfs:label>proC from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:comment>A proC mutant is highly attenuated in mice and induces significant protection from challenge with wild type M. tuberculosis that is equal to the protection induced by the current vaccine BCG</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 887256; PMID: 11160012</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002542">
+        <rdfs:label>RD1 from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:comment>RD1 and panCD mutants in Mycobacterium tuberculosis were attenuated and provided protection in CD4-deficient mice against an aerosol challenge with virulent M. tuberculosis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 885777; PMID: 16860907</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002543">
+        <rdfs:label>secA2 from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Vaccination of mice and guinea pigs with a secA2 mutant significantly increased resistance to M. tuberculosis challenge compared with standard M. bovis bacille Calmette-Guérin vaccination</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 885594; PMID: 17671656</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002544">
+        <rdfs:label>secA2 from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:comment>Vaccination of mice and guinea pigs with a secA2 mutant significantly increased resistance to M. tuberculosis challenge compared with standard M. bovis bacille Calmette-Guérin vaccination</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 885594; PMID: 17671656</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002545">
+        <rdfs:label>sigE from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:comment>A sigE mutant is highly attenuated in mice and induced significant protection from challenge with wild type M. tuberculosis, more so than the existing vaccine BCG</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 888751; PMID:  20457786</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002546">
+        <rdfs:label>trpD from Mycobacterium tuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000164"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 887681; PMID:  11160012</rdfs:seeAlso>
+        <rdfs:comment>A trpD mutant is highly attenuated in mice and induces more protection from challenge with wild type M. tuberculosis than that induced by the current vaccine BCG</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002547">
+        <rdfs:label>aroA from Staphylococcus aureus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001405"/>
+        <rdfs:seeAlso>NCBI_Gene_ID:  8614197; PMID: 16714581</rdfs:seeAlso>
+        <rdfs:comment>An aroA mutant is attenuated in mice and induced significant protection from challenge with wild type S. aureus</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002548">
+        <rdfs:label>vicK from Streptococcus equi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0002504"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6760966; PMID: 19088917</rdfs:seeAlso>
+        <rdfs:comment>A vicK mutant is attenuated in mice and induced protection from challenge with wild type S. equi</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002549">
+        <rdfs:label>aroA from Aeromonas hydrophila</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001406"/>
+        <rdfs:seeAlso>NCBI_Gene_ID:  4489425; PMID: 9573055</rdfs:seeAlso>
+        <rdfs:comment>An A. hydrophila aroA mutant is highly attenuated in trout, and a single immunization conferred significant protection from challenge with wild type A. hydrophila</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002550">
+        <rdfs:label>aroA from Aeromonas salmonicida</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001408"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4997369; PMID: 8478107</rdfs:seeAlso>
+        <rdfs:comment>The aroA gene was inactivated by inserting a fragment expressing kanamycin resistance within the coding sequence and challenged in fish. The LD50 for unvaccinated fish was 71. In contrast, the LD50 was 1.8 x 104 in fish vaccinated once and 3 x 105 in fish vaccinated twice</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002551">
+        <rdfs:label>aroA from Bordetella bronchiseptica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001407"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2659145; PMID: 12009288</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Inactivation of the aroA gene highly attenuates B. bronchiseptica, severely impairing its ability to colonize and survive in the respiratory tract of mice. Upon challenge with wild type B. bronchiseptica, the mice immunised with live attenuated B. bronchiseptica aroA mutant had rapidly reduced numbers of B. bronchiseptica in their respiratory tract</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002552">
+        <rdfs:label>aroA from Bordetella bronchiseptica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001407"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2659145; PMID: 12009288</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Inactivation of the aroA gene highly attenuates B. bronchiseptica, severely impairing its ability to colonize and survive in the respiratory tract of mice. Upon challenge with wild type B. bronchiseptica, the mice immunised with live attenuated B. bronchiseptica aroA mutant had rapidly reduced numbers of B. bronchiseptica in their respiratory tract</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002553">
+        <rdfs:label>bscN from Bordetella bronchiseptica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001407"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2662485; PMID:  17452472</rdfs:seeAlso>
+        <rdfs:comment>A double mutant strain of Bordetella Bronchiseptica lacking adenylate cyclase(cyaA gene) and type III secretion(bscN gene) is attenuated and provides protection in mice against 5 × 105 CFU of RB50, the B. Bronchiseptica parent strain</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002554">
+        <rdfs:label>cyaA from Bordetella bronchiseptica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001407"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2661688; PMID: 17452472</rdfs:seeAlso>
+        <rdfs:comment>A double mutant strain of Bordetella Bronchiseptica lacking adenylate cyclase(cyaA gene) and type III secretion(bscN gene) is attenuated and provides protection in mice against 5 × 105 CFU of RB50, the B. Bronchiseptica parent strain</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002555">
+        <rdfs:label>dnt from Bordetella bronchiseptica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001407"/>
+        <rdfs:comment>A dnt mutant in Bordetella bronchiseptica was attenuated and provides protection in guinea pigs against intranasal challenge with strain L3</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2661538; PMID:  3182989</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002556">
+        <rdfs:label>trpE from Bordetella bronchiseptica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001407"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 8515760; PMID: 12694904</rdfs:seeAlso>
+        <rdfs:comment>A trpE mutant, in combination with an aroA mutation, is attenuated in mice and induces significant protection from challenge with wild type B. bronchiseptica</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002557">
+        <rdfs:label>aroA from Bordetella pertussis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001409"/>
+        <rdfs:comment>An aroA mutant is highly attenuated in mice and induces significant protection from challenge with wild type B. pertussis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 144037; PMID: 2407655</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002558">
+        <rdfs:label>dnt from Bordetella pertussis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001409"/>
+        <rdfs:comment>A live attenuated B. pertussis vaccine strain BPZE1, developed by deleting dnt gene, protects mice upon a single intranasal administration</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2666936; PMID:  18762220</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002559">
+        <rdfs:label>fla from Borrelia burgdorferi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001410"/>
+        <rdfs:comment>A flagella-less mutant of Borrelia burgdorferi (HB19Fla-) was attenuated in immunodeficient SCID mice. Mice were challenged 28 days later with virulent strain Sh. 2 and were protected from challenge</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 435009; PMID: 8627071</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002560">
+        <rdfs:label>asp24 from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000793"/>
+        <rdfs:seeAlso>NCBI_Protein_ID:  2353000; PMID: 17664263</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A asp24 mutation in Brucella abortus is attenuated and provides significant protection in mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002561">
+        <rdfs:label>bp26 from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 265991532; PMID: 15246618</rdfs:seeAlso>
+        <rdfs:comment>A bp26 mutant in Brucella melitensis was attenuated and provided protection against challenge in mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002562">
+        <rdfs:label>exsA from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000793"/>
+        <rdfs:seeAlso>NCBI_Gene_ID:  3787220; PMID: 12183550</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Brucella DeltaexsA mutant showed decreased survival in mice compared to the survival of parental strain S2308. This demonstrated that ExsA is critical for full bacterial virulence. The B. abortus exsA deletion mutant was used as a live vaccine candidate. Challenge experiments revealed that the exsA mutant strain induced superior protective immunity in BALB/c mice compared to the protective immunity induced by strain S19 or RB51</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002563">
+        <rdfs:label>manA from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <rdfs:comment>Unmarked rough B. abortus and B. melitensis deletion mutants of manBA (including manA and manB) were attenuated. These mutants provided protection against virulent Brucella challenge in mice</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 260563601; PMID: 16790778</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002564">
+        <rdfs:label>manB from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <rdfs:comment>Mutants manB and manA were attenuated in Brucella melitensis and provided protection against challenge in mice&#39;s livers</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1198671; PMID:  17664263</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002565">
+        <rdfs:label>mucR from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1197075; PMID:  21708998</rdfs:seeAlso>
+        <rdfs:comment>A mucR mutant has a significantly reduced degree of colonization in mice and protects against wild type B. melitensis 16M</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002566">
+        <rdfs:label>omp25 from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A omp25 mutant is attenuated and provides protection against challenge in mice</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1196960; PMID: 12151196</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002567">
+        <rdfs:label>omp31 from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 7676420; PMID: 15246618</rdfs:seeAlso>
+        <rdfs:comment>A omp31 mutant in Brucella melitensis was attenuated and provided protection against challenge in mice</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002568">
+        <rdfs:label>pgk from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000793"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A pgk mutant is attenuated in mice and induces significant protection from challenge with wild type B. abortus</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3788256; PMID:  20194591</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002569">
+        <rdfs:label>pgm from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000793"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3788847; PMID: 14573645</rdfs:seeAlso>
+        <rdfs:comment>A pgm mutant is attenuated in mice and induces significant protection from challenge with wild type B. abortus</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002570">
+        <rdfs:label>purE from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Mice infected with delta purE201 developed only five to eight times normal spleen weight at 1 week p.i. and produced no interleukin-6 in their serum, which is much lower than the mice infected with the parental strain (16M)</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1196006; PMID: 8675325</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002571">
+        <rdfs:label>purK from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 20141763; PMID: 7642258</rdfs:seeAlso>
+        <rdfs:comment>A purE/purK mutant of B. melitensis 16M was attenuated in mice when given intraperitoneally. Nine weeks after immunization, mice were protected from challenge with wild type B. melitensis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002572">
+        <rdfs:label>virB2 from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000793"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A virB2 mutant is attenuated in Brucella melitensis and provides protection in mice</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3827981; PMID: 17664263</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002573">
+        <rdfs:label>vjbR from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001400"/>
+        <rdfs:comment>The deletion of vjbR gene in Brucella melitensis strain 16M made a live attenuated vaccine and provided significance protection against mice</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1198888; PMID: 21530111</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002574">
+        <rdfs:label>znuA from Brucella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000793"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3827700; PMID: 16790759</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Deletion of gene znuA attenuates Brucella abortus and this live attenuated vaccine was challenged in mice. These mice showed significantly fewer spenic CFU</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002575">
+        <rdfs:label>aroC from Burkholderia pseudomallei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001411"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4899749; PMID: 19323044</rdfs:seeAlso>
+        <rdfs:comment>The aroC deletion in the resultant mutant, designated A2ΔaroC, was confirmed by PCR, Southern hybridization and failure of the mutant to grow in a defined medium without aromatic compounds. The constructed unmarked aroC mutant of B. pseudomallei is attenuated in both BALB/c and C57Bl/6 mice and is able to confer significant protection in C57Bl/6 mice</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002576">
+        <rdfs:label>asd from Burkholderia pseudomallei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001411"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An asd mutant is highly attenuated in mice. This mutant was also able to protect against acute inhalation melioidosis caused by challenge with wild type B. pseudomallei</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 2358232; PMID:  21807903</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002577">
+        <rdfs:label>purM from Burkholderia pseudomallei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001411"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3092877; PMID: 19121696</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Mice that were challenged with a higher dose of mutant 56:65 purM were protected</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002578">
+        <rdfs:label>purN from Burkholderia pseudomallei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001411"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3092878; PMID: 19121696</rdfs:seeAlso>
+        <rdfs:comment>Although 30:93a purN -immunized mice were challenged with a 10-fold higher dose of WT E8, mice were strongly protected and showed no signs of clinical illness until the experiment was terminated</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002579">
+        <rdfs:label>crp from Edwardsiella ictaluri</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001412"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 7962173; PMID: 22015784</rdfs:seeAlso>
+        <rdfs:comment>A crp mutant is attenuated in zebrafish and catfish that were immunized intramuscularly and intracoelomically, respectively. Six weeks after immunization, both zebrafish and catfish were protected from challenge with wild type E. ictaluri</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002580">
+        <rdfs:label>aroC from Edwardsiella tarda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001413"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 8608790; PMID: 21777261</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An aroC mutant is attenuated in zebra fish. The aroC mutant is also protective against challenge with wild type E. tarda and has a relative percent survival of 68.3%</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002581">
+        <rdfs:label>aroC from Edwardsiella tarda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001413"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 8608790; PMID: 21777261</rdfs:seeAlso>
+        <rdfs:comment>An aroC mutant is attenuated in zebra fish. The aroC mutant is also protective against challenge with wild type E. tarda and has a relative percent survival of 68.3%</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002582">
+        <rdfs:label>aroC from Edwardsiella tarda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001413"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An aroC mutant is attenuated in zebra fish. The aroC mutant is also protective against challenge with wild type E. tarda and has a relative percent survival of 68.3%</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 8608790; PMID: 21777261</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002583">
+        <rdfs:label>esrB from Edwardsiella tarda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001413"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 8607237; PMID: 17478097</rdfs:seeAlso>
+        <rdfs:comment>An esrB mutant is highly attenuated in fish (turbot), with an LD50 of 10(8.1)cfu/fish. Vaccination with this mutant elicited significant protection from wild type E. tarda</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002584">
+        <rdfs:label>esrC from Edwardsiella tarda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001413"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 8607212; PMID: 21777261</rdfs:seeAlso>
+        <rdfs:comment>An aroC and esrC mutant is attenuated in zebra fish. This mutant is also protective against challenge with wild type E. tarda and has a relative percent survival of 71.3%</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002585">
+        <rdfs:label>slyA from Edwardsiella tarda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001413"/>
+        <rdfs:comment>An aroC and slyA mutant is attenuated in zebra fish. This mutant is also protective against challenge from wild type E. tarda, resulting in a relative percent survival of 80.1%</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 8608031; PMID: 21777261</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002586">
+        <rdfs:label>carA from Escherichia coli</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000161"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 949025; PMID: 8063392</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A carAB mutant is attenuated in turkeys and induces significant protection from challenge with wild type E. coli</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002587">
+        <rdfs:label>carB from Escherichia coli</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000161"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 944775; PMID: 8063392</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A carAB mutant is attenuated in turkeys and induces significant protection from challenge with wild type E. coli</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002588">
+        <rdfs:label>ler from Escherichia coli</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000161"/>
+        <rdfs:comment>A ler deletion mutant derived from wild-type EHEC O157:H7 86-24 was constructed by use of suicide vector pCVD442. Following challenge of 7-day-old suckling mice with O157:H7 EDL933, 75.2% born to group B mothers (immunized with F25) sur- vived, as did 83.0% born to group C mothers (immunized with F105). The surviving suckling mice consistently gained body weight. Only 16.8% of sucking mice born to control group mice survived the challenge</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 8219269; PMID: 19682616</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002589">
+        <rdfs:label>rfaL from Escherichia coli</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000161"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 948148; PMID: 19522648</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Deletion of waaL results in a strain that stimulates enhanced urothelial cytokine secretion, which is an enhanced innate immune response. Inoculation with the vaccine strain protected mice against challenge with a broad range of clinical uropathogenic E. coli isolates and produced immunity that lasted ⩾8 weeks</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002590">
+        <rdfs:label>capB from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:comment>There was a deletion in gene capB of F. tularensis live vaccine strain. LVS capB, while much less virulent than LVS, induces potent protective immunity against lethal LVS i.n. challenge in mice, comparable to that induced by LVS</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3952402; PMID:  20643859</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002591">
+        <rdfs:label>clpB from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3192509; PMID: 20018266</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A clpB mutant in Francisella tularensis subspecies tularensis strain SCHU S4 was attenuated and provided protection against aerosol challenge in mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002592">
+        <rdfs:label>FTL0552 from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3952730; PMID: 18613792]</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A FTL0552 mutant in Francisella tularensis was attenuated and provided partial protection in mice against challenge with a lethal dose of the virulent SchuS4 strain when compared to naive mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002593">
+        <rdfs:label>FTT0918 from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:comment>An FTT0918 mutant showed significantly reduced virulence in mice. Mice that recovered from infection with the mutant were protected 2 months later from challenge with wild type F. tularensis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3191684; PMID: 16299332</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002594">
+        <rdfs:label>galU from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:comment>A galU mutant is attenuated in mice, with only transient weight loss observed. Two months after inoculation, mice were challenge with wild type F. tularensis and were protected, once again only experiencing transient weight loss</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3191600; PMID: 21819572</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002595">
+        <rdfs:label>guaA from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3951701; PMID: 19368784</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A guaA mutant is highly attenuated in mice and induces significant protection from challenge with parent strain F. tularensis LVS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002596">
+        <rdfs:label>guaB from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A guaB mutant is attenuated in mice and induces significant protection from challenge with parent strain F. tularensis LVS</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3952496; PMID: 19368784</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002597">
+        <rdfs:label>iglB from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4548125; PMID: 20016043</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Intranasal vaccination with KKF235 (F. tularensis subsp. novicida mutant (DeltaiglB) ) protected mice from subsequent homotypic challenge with U112 as well as heterotypic challenge with F. tularensis subsp. holarctica (LVS). Most significantly, oral immunization with KKF235 protected mice from a highly lethal subsp. tularensis (SCHU S4) pulmonary challenge</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002598">
+        <rdfs:label>iglC from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An iglC mutant is highly attenuated in mice. Inoculated mice were challenged 30 days later with wild type F. tularensis and were highly protected</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4548124; PMID: 16552035</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002599">
+        <rdfs:label>purC/purD from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3952576; PMID:  16861631</rdfs:seeAlso>
+        <rdfs:comment>A purMCD mutant in Francisela tularensis was attenuated. A low dosage of F. tularensis LVS delta purMCD mutant provided protection against challenge in mice</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002600">
+        <rdfs:label>purF from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4548578; PMID: 16930871</rdfs:seeAlso>
+        <rdfs:comment>Mice, which had been immunized with at least 6.95×103 cfu of F. tularensis U112 purF::Cm, were protected against the subsequent F. tularensis subspecies novicida challenge</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002601">
+        <rdfs:label>purM from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:comment>A purMCD mutant in Francisella tularensis was attenuated. A low dose of the F. tularensis LVS delta purMCD mutant provided protection against subsequent lethal challenge with the LVS parental strain</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3952575; PMID:  16861631</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002602">
+        <rdfs:label>sodB from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:comment>C57BL/6 mice were vaccinated intranasally (i.n.) with the sodB(Ft) mutant and challenged i.n. with lethal doses of F. tularensis SchuS4. SodB(Ft) vaccinated mice following SchuS4 challenge exhibited significantly reduced bacterial burden in lungs, liver and spleen, regulated production of pro-inflammatory cytokines and less severe histopathological lesions compared to the LVS vaccinated mice. The sodB(Ft) vaccination induced a potent humoral immune response and protection against SchuS4 required both CD4 and CD8 T cells in the vaccinated mice</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4548021; PMID: 18692537</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002603">
+        <rdfs:label>sodC from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 1314283; PMID: 19684141</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A sodC mutant in Francisella tularensis subspecies holarctica was attenuated and provided protection and cleared the infection against lethal challenge in nearly 50% of the mice infected with the ΔsodC mutant</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002604">
+        <rdfs:label>wbtA from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3191939; PMID: 17296751</rdfs:seeAlso>
+        <rdfs:comment>A wbtA mutant in Francisella tularensis was attenuated and provided protection in mice against challenge with an otherwise lethal dose of either F. tularensis LVS or a fully virulent clinical isolate of F. tularensis type B</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002605">
+        <rdfs:label>wbtI from Francisella tularensis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001414"/>
+        <rdfs:comment>A wbtI mutant is attenuated in mice. The mutant protected against a low dose challenge with the parental strain, but was less effective against higher doses. However, increasing the immunization dose increased the resistance to higher challenge doses</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 5522688; PMID: 17768257</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002606">
+        <rdfs:label>aroA from Mannheimia haemolytica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001415"/>
+        <rdfs:comment>An aroA mutant is highly attenuated in mice and induced significant protection after two doses from challenge with wild type M. haemolytica</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 451485; PMID: 7839583</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002607">
+        <rdfs:label>lpd from Mycoplasma gallisepticum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001416"/>
+        <rdfs:comment>An lpd mutant is highly attenuated in chickens and induces significant protection from challenge with wild type M. gallisepticum</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1089767; PMID: 18342996</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002608">
+        <rdfs:label>metH from Neisseria meningitidis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001417"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 903064; PMID:  14688114</rdfs:seeAlso>
+        <rdfs:comment>A metH mutant, in combination with a siaD mutation, is attenuated in mice and induces significant protection from challenge with wild type N. meningitidis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002609">
+        <rdfs:label>rfaF from Neisseria meningitidis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001417"/>
+        <rdfs:comment>An rfaF mutant, in combination with a siaD mutation, is attenuated in mice and induces significant protection from challenge with wild type N. meningitidis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 904029; PMID:  14688114</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002610">
+        <rdfs:label>siaD from Neisseria meningitidis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001417"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 903210; PMID:  14688114</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A siaD mutant, in combination with either a metH or rfaF mutation, is attenuated in mice and induces protection from challenge with wild type N. meningitidis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002611">
+        <rdfs:label>siaD from Neisseria meningitidis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001417"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 903210; PMID:  14688114</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A siaD mutant, in combination with either a metH or rfaF mutation, is attenuated in mice and induces protection from challenge with wild type N. meningitidis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002612">
+        <rdfs:label>aroA from Pasteurella multocida</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001418"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 581456; PMID: 17875632</rdfs:seeAlso>
+        <rdfs:comment>An aroA mutant is highly attenuated in calves and induces significant protection from challenge with wild type P. multocida</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002613">
+        <rdfs:label>aroA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001419"/>
+        <rdfs:comment>An aroA mutant is attenuated in mice and induced significant protection from challenge with wild type S. typhi Ty2</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1068996; PMID: 3039297</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002614">
+        <rdfs:label>aroC from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001419"/>
+        <rdfs:comment>Inactivation of AroC results in attenuation in humans, and the deletions of both AroC and AroD provide a high level of safety against restoration of pathogenicity by recombination. An aroC/aroD-deleted derivative of S. Typhi strain Ty2 (the parent strain of Ty21a) is designated the strain &quot;CVD 908&quot;</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1069415; PMID: 17582563</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002615">
+        <rdfs:label>aroC from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001419"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1069415; PMID: 17582563</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Inactivation of AroC results in attenuation in humans, and the deletions of both AroC and AroD provide a high level of safety against restoration of pathogenicity by recombination. An aroC/aroD-deleted derivative of S. Typhi strain Ty2 (the parent strain of Ty21a) is designated the strain &quot;CVD 908&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002616">
+        <rdfs:label>aroD from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001419"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1070649; PMID: 17582563</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Inactivation of AroD results in attenuation in humans, and the deletions of both AroC and AroD provide a high level of safety against restoration of pathogenicity by recombination. An aroC/aroD-deleted derivative of S. Typhi strain Ty2 (the parent strain of Ty21a) is designated the strain &quot;CVD 908&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002617">
+        <rdfs:label>asd from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>An asd mutant, alone or in combination with a rfc mutation, is attenuated in mice and induces significant protection from challenge with wild type Salmonella typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 267995764; PMID:  20799091</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002618 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002618">
+        <rdfs:label>asd from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 267995764; PMID:  20799091</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An asd mutant, alone or in combination with a rfc mutation, is attenuated in mice and induces significant protection from challenge with wild type Salmonella typhimurium</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002619">
+        <rdfs:label>atpA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>An atpA mutant is attenuated in mice and induces significant protection from challenge with wild type S. typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 301160399; PMID: 19649318</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002620">
+        <rdfs:label>cbiA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001420"/>
+        <rdfs:comment>A cbiA mutant, in combination with a cobS mutation, is attenuated in chickens and induces significant protection from challenge with wild type S. Gallinarum. This mutant was also able to provide some protection against S. Enteritidis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6923268; PMID: 20153354</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002621">
+        <rdfs:label>clpP from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001422"/>
+        <rdfs:comment>A guaBA and clpP mutant (CVD 1941) is attenuated in mice after oral immunization. This mutant is also protective, and had a vaccine efficacy of 76% against challenge with wild type Salmonella Enteritidis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6950532; PMID: 21807911</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002622">
+        <rdfs:label>clpP from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A mutation in clpP (CS2007) causes hyperflagellation. These hyperflagellated bacteria are attenuated in mice, and an LD50 for CS2007 could not be determined because mice did not die after inoculation with the highest dose. CS2007 also elicited protection in mice from challenge with wild type S. typhimurium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1251968; PMID: 2496146</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002623">
+        <rdfs:label>clpP from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1251968; PMID: 2496146</rdfs:seeAlso>
+        <rdfs:comment>A mutation in clpP (CS2007) causes hyperflagellation. These hyperflagellated bacteria are attenuated in mice, and an LD50 for CS2007 could not be determined because mice did not die after inoculation with the highest dose. CS2007 also elicited protection in mice from challenge with wild type S. typhimurium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002624">
+        <rdfs:label>clpP from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1251968; PMID: 2496146</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A mutation in clpP (CS2007) causes hyperflagellation. These hyperflagellated bacteria are attenuated in mice, and an LD50 for CS2007 could not be determined because mice did not die after inoculation with the highest dose. CS2007 also elicited protection in mice from challenge with wild type S. typhimurium</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002625">
+        <rdfs:label>cobS from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001420"/>
+        <rdfs:comment>A cobS mutant, in combination with a cbiA mutation, is attenuated in chickens and induces significant protection from challenge with wild type S. Gallinarum. This mutant was also able to provide some protection against S. Enteritidis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6923296; PMID: 20153354</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002626">
+        <rdfs:label>cpxA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1255585; PMID: 15542179</rdfs:seeAlso>
+        <rdfs:comment>A gyrA-cpxA-rpoB Salmonella Typhimurium mutant was attenuated and protected against challenge in pigs</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002627">
+        <rdfs:label>cpxR from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001420"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A cpxR mutant, in combination with a lon mutation, is highly attenuated in mice and induces significant protection from challenge with wild type S. gallinarum</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6923307; PMID: 20487719</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002628">
+        <rdfs:label>crp from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A cya and crp mutant is attenuated in mice. Thirty days after immunization, mice were protected from oral challenge with wild type S. typhimurium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1254989; PMID: 3316029</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002629">
+        <rdfs:label>crp from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001420"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 46811321; PMID: 17488512</rdfs:seeAlso>
+        <rdfs:comment>A crp mutant is attenuated in mice and induces significant protection from challenge with wild type S. gallinarum</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002630">
+        <rdfs:label>cya from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A cya and crp mutant is attenuated in mice. Thirty days after immunization, mice were protected from oral challenge with wild type S. typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 581756; PMID: 3316029</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002631">
+        <rdfs:label>fliC from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001422"/>
+        <rdfs:comment>A fliC mutant, in combination with a guaB mutant, is attenuated in mice and chickens and induces significant protection from challenge with wild type S. enterica</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 119351647; PMID: 17261603</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002632">
+        <rdfs:label>fliD from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A guaBA, clpP, and fliD mutant (CVD 1923) is attenuated in mice after oral immunization. This mutant is also protective, with a vaccine efficacy of 80% in mice against wild type challenge from Salmonella Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1253481; PMID: 21807911</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002633">
+        <rdfs:label>galE from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001419"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1067209; PMID: 1092768</rdfs:seeAlso>
+        <rdfs:comment>A gal E mutant in strain Ty2 was isolated, attenuated, and protected mice against lethal challenge</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002634">
+        <rdfs:label>guaA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001422"/>
+        <rdfs:comment>A guaBA and clpP mutant (CVD 1941) is attenuated in mice after oral immunization. This mutant is also protective in mice and had a vaccine efficacy of 76% against challenge with wild type Salmonella Enteritidis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6948075; PMID: 21807911</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002635">
+        <rdfs:label>guaA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A guaBA and clpP mutant (CVD 1921) of Salmonella Typhimurium is attenuated in mice after oral immunization. The mutant was also protective, rendering a vaccine efficacy of 86% in mice against challenge with wild type Salmonella Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1254032; PMID: 21807911</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002636">
+        <rdfs:label>guaA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A guaBA and clpP mutant (CVD 1921) of Salmonella Typhimurium is attenuated in mice after oral immunization. The mutant was also protective, rendering a vaccine efficacy of 86% in mice against challenge with wild type Salmonella Typhimurium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1254032; PMID: 21807911</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002637">
+        <rdfs:label>guaB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1254033; PMID: 21807911</rdfs:seeAlso>
+        <rdfs:comment>A guaBA and clpP mutant (CVD 1921) of Salmonella Typhimurium is attenuated in mice after oral immunization. The mutant was also protective, rendering a vaccine efficacy of 86% in mice against challenge with wild type Salmonella Typhimurium</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002638">
+        <rdfs:label>guaB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A guaBA and clpP mutant (CVD 1921) of Salmonella Typhimurium is attenuated in mice after oral immunization. The mutant was also protective, rendering a vaccine efficacy of 86% in mice against challenge with wild type Salmonella Typhimurium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1254033; PMID: 21807911</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002639">
+        <rdfs:label>guaB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001422"/>
+        <rdfs:comment>A guaB mutant, in combination with a fliC mutant, is attenuated in mice and chickens and induced significant protection from challenge with wild type S. enterica</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6949287; PMID: 17261603</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002640">
+        <rdfs:label>guaB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001422"/>
+        <rdfs:comment>A guaB mutant, in combination with a fliC mutant, is attenuated in mice and chickens and induced significant protection from challenge with wild type S. enterica</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6949287; PMID: 17261603</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002641">
+        <rdfs:label>gyrA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1253794; PMID: 15542179</rdfs:seeAlso>
+        <rdfs:comment>A gyrA-cpxA-rpoB Salmonella Typhimurium mutant was attenuated and protected against challenge in pigs</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002642">
+        <rdfs:label>hfq from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>Oral immunization with the Salmonella hfq deletion mutant efficiently protects mice against subsequent oral challenge with virulent strain of Salmonella Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1255887; PMID: 21347426</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002643">
+        <rdfs:label>htrA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 301156836; PMID: 1584006]</rdfs:seeAlso>
+        <rdfs:comment>A htrA mutant in Salmonella typhimurium is attenuated and provides protection in mice against an oral challenge with virulent S. typhimurium SL1344</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002644">
+        <rdfs:label>lon from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001420"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A lon mutant, in combination with a cpxR mutation, is highly attenuated in mice and induces significant protection from challenge with wild type S. gallinarum</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6923289; PMID: 20487719</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002645">
+        <rdfs:label>lppA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An lppA mutant, in combination with an lppB/msbB mutation, is attenuated in mice and induces significant protection from challenge with wild type S. Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 323129647; PMID: 17997275</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002646">
+        <rdfs:label>lppB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>An lppB mutant, in combination with an msbB mutant or an msbB/lppA mutant, is attenuated in mice and induces significant protection from challenge with wild type S. Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 267993263; PMID: 17997275</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002647">
+        <rdfs:label>lppB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An lppB mutant, in combination with an msbB mutant or an msbB/lppA mutant, is attenuated in mice and induces significant protection from challenge with wild type S. Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 267993263; PMID: 17997275</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002648">
+        <rdfs:label>msbB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An msbB mutant, in combination with an lppB or lppAB mutation, is attenuated in mice and induces significant protection from challenge with S. Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 4104731; PMID: 17997275</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002649">
+        <rdfs:label>msbB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>An msbB mutant, in combination with an lppB or lppAB mutation, is attenuated in mice and induces significant protection from challenge with S. Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 4104731; PMID: 17997275</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002650">
+        <rdfs:label>nmpC from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>In a pig infection experiment including two oral immunizations with SalmoporcDeltaompD (OmpD, nmpC) and challenge with a multiresistant S. enterica serovar Typhimurium DT104 clinical isolate, we confirmed the protective efficacy of SalmoporcDeltaompD in pigs, showing a significant reduction of both clinical symptoms and colonization of lymph nodes and intestinal tract</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 517159; PMID: 17296750</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002651">
+        <rdfs:label>nuoG from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001420"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6924283; PMID: 9682335</rdfs:seeAlso>
+        <rdfs:comment>A nuoG mutant is attenuated in chickens and induced significant protection from challenge with wild type S. Gallinarum</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002652">
+        <rdfs:label>ompR from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 301160045; PMID: 2543631</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An ompR mutant is attenuated in mice after oral challenge. Twenty eight days after immunization, mice were challenged with wild type S. typhimurium and were significantly protected</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002653">
+        <rdfs:label>phoP from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001419"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1071307; PMID: 17725620</rdfs:seeAlso>
+        <rdfs:comment>Three S. typhi deletion mutants (phoP, rpoS, and rpoS-phoP double mutant) were constructed and characterized with respect to invasiveness, virulence, and protective immune response compared with wild-type Ty2. All S. typhi mutants showed an increase in the specific serum IgG levels and T-cell-mediated immunity, and showed equal protection abilities against a wild-type Ty2 challenge after two rounds of immunization in BALB/c mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002654">
+        <rdfs:label>poxA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1255870; PMID: 9826331</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A poxA mutant is attenuated in mice and induces significant protection from challenge with wild type S. typhimurium</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002655">
+        <rdfs:label>relA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001420"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6922678; PMID: 21046347</rdfs:seeAlso>
+        <rdfs:comment>A ppGpp-defective Salmonella Gallinarum, which is attained by mutating the relA and spoT genes, is attenuated in chickens and induces protection from oral challenge with wild type S. Gallinarum</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002656">
+        <rdfs:label>rfc from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>An rfc mutant, in combination with an asd mutation, is attenuated in mice and induces significant protection from challenge with wild type S. typhimurium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 267993210; PMID: 20799091</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002657">
+        <rdfs:label>rpoB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A gyrA-cpxA-rpoB Salmonella Typhimurium mutant was attenuated and protected against challenge in pigs</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 255679; PMID: 15542179</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002658">
+        <rdfs:label>rpoS from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 301159483; PMID: 8899717</rdfs:seeAlso>
+        <rdfs:comment>Immunizations with Salmonella typhimurium rpoS and rpoS aroA mutants protected susceptible BALB/c mice against subsequent oral challenge with virulent S. typhimurium. When administered orally or intraperitoneally, rpoS derivatives of the mouse-virulent S. typhimurium strains, C52 and SL1344, were highly attenuated and were efficient single-dose live vaccines</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002659">
+        <rdfs:label>ruvB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1253415; PMID: 20670908</rdfs:seeAlso>
+        <rdfs:comment>A ruvB mutant is attenuated in mice and induced significant protection from challenge with wild type S. Typhimurium</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002660">
+        <rdfs:label>spoT from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001420"/>
+        <rdfs:comment>A ppGpp-defective Salmonella Gallinarum, which is attained by mutating the relA and spoT genes, is attenuated in chickens and induces protection from oral challenge with wild type S. Gallinarum</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 6924903; PMID: 21046347</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002661">
+        <rdfs:label>surA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A surA mutant (BRD1115) is attenuated in BALB/c mice and induces protection from challenge with wild type S. typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1251610; PMID: 10678914</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002662">
+        <rdfs:label>tolA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A tolA mutant is attenuated in mice and induced significant protection from challenge with wild type S. Typhimurium</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 301157338; PMID: 19118362</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002663">
+        <rdfs:label>trxA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 301160436; PMID: 19884329</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A trxA mutant is attenuated in mice and induced significant protection from challenge with wild type S. Typhimurium</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002664">
+        <rdfs:label>wecA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A wecA mutant (DSM645) is attenuated in C57BL/6J mice through i.p. and oral immunization. This mutant also protects against challenge with S. typhimurium strains TML and SL1344 30 days after immunization</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 20140863; PMID: 22025511</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002665">
+        <rdfs:label>znuA from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:comment>A znuABC mutant is attenuated in mice and induced significant protection against a challenge infection in the large intestine with wild type Salmonella typhimurium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 253412; PMID: 21219981</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002666">
+        <rdfs:label>znuB from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1253414; PMID: 21219981</rdfs:seeAlso>
+        <rdfs:comment>A znuABC mutant is attenuated in mice and induced significant protection against a challenge infection in the large intestine with wild type Salmonella typhimurium</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002667">
+        <rdfs:label>znuC from Salmonella spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001421"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1253413; PMID: 21219981</rdfs:seeAlso>
+        <rdfs:comment>A znuABC mutant is attenuated in mice and induced significant protection against a challenge infection in the large intestine with wild type Salmonella typhimurium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002668">
+        <rdfs:label>aroA from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1077373; PMID: 7927802</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An aroA and virG mutant (CVD 1203) is attenuated in guinea pigs, as shown by the Sereny test. Guinea pigs inoculated with CVD 1203 were also protected from challenge with wild type S. flexneri</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002669">
+        <rdfs:label>aroA from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1077373; PMID: 7927802</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An aroA and virG mutant (CVD 1203) is attenuated in guinea pigs, as shown by the Sereny test. Guinea pigs inoculated with CVD 1203 were also protected from challenge with wild type S. flexneri</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002670">
+        <rdfs:label>aroA from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:comment>An aroA and virG mutant (CVD 1203) is attenuated in guinea pigs, as shown by the Sereny test. Guinea pigs inoculated with CVD 1203 were also protected from challenge with wild type S. flexneri</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1077373; PMID: 7927802</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002671">
+        <rdfs:label>aroA from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1077373; PMID: 7927802</rdfs:seeAlso>
+        <rdfs:comment>An aroA and virG mutant (CVD 1203) is attenuated in guinea pigs, as shown by the Sereny test. Guinea pigs inoculated with CVD 1203 were also protected from challenge with wild type S. flexneri</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002672">
+        <rdfs:label>aroD from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:comment>An aroD mutant is highly attenuated in monkeys and induces significant protection from challenge with wild type S. flexneri</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1078189; PMID: 8356844</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002673">
+        <rdfs:label>aroD from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1078189; PMID: 8356844</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An aroD mutant is highly attenuated in monkeys and induces significant protection from challenge with wild type S. flexneri</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002674">
+        <rdfs:label>envZ from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:comment>An envZ mutant (SC433) is greatly decreased in virulence in macaque monkeys, though some mild clinical signs were still recorded. This mutant is also highly protective against a challenge of wild type S. flexneri delivered 1 month after inoculation</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4207729; PMID: 1887672</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002675">
+        <rdfs:label>icsA/virG from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1238021; PMID: 7927802</rdfs:seeAlso>
+        <rdfs:comment>An aroA and virG mutant (CVD 1203) is attenuated in guinea pigs, as shown by the Sereny test. Guinea pigs inoculated with CVD 1203 were also protected from challenge with wild type S. flexneri</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002676">
+        <rdfs:label>icsA/virG from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:comment>An aroA and virG mutant (CVD 1203) is attenuated in guinea pigs, as shown by the Sereny test. Guinea pigs inoculated with CVD 1203 were also protected from challenge with wild type S. flexneri</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1238021; PMID: 7927802</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002677">
+        <rdfs:label>msbB2 from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3670926; PMID: 19932216]</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A virG, senA, senB, and msbB2 mutant (WRSs3) is attenuated in guinea pigs and induced significant protection from challenge with wild type S. sonnei. Attenuation and protection from WRSs3 is comparable to live attenuated vaccine strain WRSS1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002678">
+        <rdfs:label>senA from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3671021; PMID: 19932216</rdfs:seeAlso>
+        <rdfs:comment>A virG, senA, and senB mutant (WRSs2) is attenuated in guinea pigs and induced significant protection from challenge with wild type S. sonnei. Attenuation and protection from WRSs2 is comparable to live attenuated vaccine strain WRSS1</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002679">
+        <rdfs:label>senA from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A virG, senA, and senB mutant (WRSs2) is attenuated in guinea pigs and induced significant protection from challenge with wild type S. sonnei. Attenuation and protection from WRSs2 is comparable to live attenuated vaccine strain WRSS1</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3671021; PMID: 19932216</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002680">
+        <rdfs:label>senB from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3668265; PMID: 19932216</rdfs:seeAlso>
+        <rdfs:comment>A virG, senA, and senB mutant (WRSs2) is attenuated in guinea pigs and induced significant protection from challenge with wild type S. sonnei. Attenuation and protection from WRSs2 is comparable to live attenuated vaccine strain WRSS1</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002681">
+        <rdfs:label>senB from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3668265; PMID: 19932216</rdfs:seeAlso>
+        <rdfs:comment>A virG, senA, and senB mutant (WRSs2) is attenuated in guinea pigs and induced significant protection from challenge with wild type S. sonnei. Attenuation and protection from WRSs2 is comparable to live attenuated vaccine strain WRSS1</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002682">
+        <rdfs:label>virG from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3670887; PMID: 9712824</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A virG mutant (WRSS1) is attenuated in guinea pigs and induced significant protection from challenge with wild type Shigella sonnei</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002683">
+        <rdfs:label>virG from Shigella</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000169"/>
+        <rdfs:comment>A virG mutant (WRSS1) is attenuated in guinea pigs and induced significant protection from challenge with wild type Shigella sonnei</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3670887; PMID: 9712824</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002684">
+        <rdfs:label>hemA from Vibrio cholerae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001423"/>
+        <rdfs:comment>A hemA mutant is highly attenuated in mice and rabbits and induces protection from challenge with wild type V. cholerae in rabbits</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 12656010; PMID: 16102875</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002685">
+        <rdfs:label>aroA from Yersinia enterocolitica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001425"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An aroA mutant is highly attenuated in mice, and after 3 doses induces significant protection from challenge with wild type Y. enterocolitica</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4713234; PMID: 2777382</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002686">
+        <rdfs:label>htrA from Yersinia enterocolitica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001425"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4715899; PMID: 8675311</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A htrA mutant in Yersinia enterocolitica was attenuated and provided partial protection against challenge in mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002687">
+        <rdfs:label>ompR from Yersinia enterocolitica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001425"/>
+        <rdfs:comment>A ompR mutant in Yersinia enterocolitica was attenuated and provided a partial protection from challenge in mice</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4716266; PMID: 9711851</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002688">
+        <rdfs:label>sodA from Yersinia enterocolitica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001425"/>
+        <rdfs:comment>A sodA mutant in Yersinia enterocolitica was highly attenuated and mice immunized with a single oral dose of the mutant strain were protected against a lethal oral-challenge infection with wild-type Y. enterocolitica</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 4716532; PMID: 10496939</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002689">
+        <rdfs:label>guaA from Yersinia pestis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001426"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A guaBA mutant is attenuated in mice and induced significant protection from challenge with wild type Y. pestis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1146310; PMID: 0096773</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002690">
+        <rdfs:label>guaB from Yersinia pestis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001426"/>
+        <rdfs:comment>A guaBA mutant is attenuated in mice and induced significant protection from challenge with wild type Y. pestis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1146309; PMID: 0096773</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002691">
+        <rdfs:label>ipxM from Yersinia pestis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001426"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1174901; PMID: 17913308</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An IpxM mutant is attenuated in mice and guinea pigs. This mutant also conferred modest protection from challenge with wild type Y. pestis in Balb/c mice and significant protection in guinea pigs and outbred mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002692">
+        <rdfs:label>nlpD from Yersinia pestis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001426"/>
+        <rdfs:comment>An nlpD mutant is highly attenuated in mice and induced significant protection from challenge with wild type Y. pestis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 224483371; PMID: 19759820</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002693">
+        <rdfs:label>pcm from Yersinia pestis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001426"/>
+        <rdfs:comment>A pcm mutant is highly attenuated in mice and induced significant protection from challenge with wild type Y. pestis</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 224483370; PMID: 14742535</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002694">
+        <rdfs:label>smpB from Yersinia pestis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001426"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An smpB mutant, in combination with an ssrA mutation, is attenuated in mice and induces significant protection from challenge with wild type Y. pestis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1173949; PMID: 20065026</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002695">
+        <rdfs:label>ssrA from Yersinia pestis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001426"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1173948; PMID: 20065026</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An smpB mutant, in combination with an ssrA mutation, is attenuated in mice and induces significant protection from challenge with wild type Y. pestis</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002696">
+        <rdfs:label>yopH from Yersinia pestis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001426"/>
+        <rdfs:comment>A yopH mutant is highly attenuated in mice and induced significant protection from challenge with wild type Y. pestis</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1172712; PMID: 17652523</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002697">
+        <rdfs:label>phoP from Yersinia pseudotuberculosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001427"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2956268; PMID: 17194509</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A phoP mutant in Yersinia pseudotuberculosis (Yptb) was attenuated and provided protection against oral challenge with virulent Yptb in mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002698">
+        <rdfs:label>aroA from Yersinia ruckeri</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001428"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 15420539; PMID: 16083447</rdfs:seeAlso>
+        <rdfs:comment>An aroA mutant is highly attenuated in rainbow trout and induces significant protection from challenge with wild type Y. ruckeri</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002699">
+        <rdfs:label>UL23 from Bovine herpesvirus 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001424"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1487380; PMID: 2994602</rdfs:seeAlso>
+        <rdfs:comment>A thymidine kinase-deficient mutant (B8-D53) showed no detectable thymidine kinase-inducing activity and was attenuated in calves. B8-D53 also induced protection from challenge with wild type BHV-1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002700">
+        <rdfs:label>US8 from Bovine herpesvirus 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001424"/>
+        <rdfs:comment>A deletion of BHV-1 gE gene in strain A is considered as a live attenuated vaccine. After challenge, vaccinated calves were protected against disease and virus shedding was reduced</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1487407; PMID: 8023552</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002701">
+        <rdfs:label>glycoprotein G from Bovine Respiratory Syncytial Virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001429"/>
+        <rdfs:comment>A glycoprotein G deletion in bovine respiratory syncytial virus(rBRSV) and recombinant rBRSV was attenuated and provided protection against a BRSV challenge infection in calves</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1489813; PMID: 12414977</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002702">
+        <rdfs:label>E(rns) from Classical swine fever virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001430"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 130457; PMID: 17904607</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An N269A/Q mutation in the E(rns) protein created an attenuated mutant in swine. This mutant was able to induce effective protection in swine against challenge with wild type CSFV</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002703">
+        <rdfs:label>E1 from Classical swine fever virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001430"/>
+        <rdfs:comment>An N to A amino acid substitution was made in the N594 site of the E1 glycoprotein, resulting in attenuation of the virus in swine. This attenuated virus induced protection against challenge with wild type CSFV</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 325461; PMID: 19203774</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002704">
+        <rdfs:label>E2 from Classical swine fever virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001430"/>
+        <rdfs:comment>A E2 mutant in Classical swine fever virus is attenuated and provides protection in pigs after oronasal vaccination (not intradermal vaccination) against lethal challenge dose of CSFV strain Eystrup</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 920146; PMID: 15837238</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002705">
+        <rdfs:label>gE from Equid herpesvirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001431"/>
+        <rdfs:comment>A glycoprotein E mutant is attenuated in mice and hamsters and induced significant protection from challenge with wild type Equid herpesvirus in mice</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 330789; PMID: 17085880</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002706">
+        <rdfs:label>gI from Equid herpesvirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001431"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 330788; PMID: 17085880</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A glycoprotein I mutant is attenuated in mice and hamsters and induced significant protection from challenge with wild type Equid herpesvirus in mice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002707">
+        <rdfs:label>TK from Equid herpesvirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001431"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A thymidine kinase-deficient mutant (PR1) is attenuated in mice and induced significant protection from challenge with wild type EHV-1 5 weeks after vaccination. In foals, PR1 also showed attenuation; however, the mutant induced only partial protection from challenge with EHV-1</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 59214; PMID: 16930871</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002708">
+        <rdfs:label>UL23 from Feline herpesvirus 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001432"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 8658565; PMID: 8645090</rdfs:seeAlso>
+        <rdfs:comment>A thymidine kinase-deficient mutant (C7301dlTK) is attenuated in cats and induced significant protection from wild type FHV-1 4 weeks after vaccination</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002709">
+        <rdfs:label>ORF-A from Feline immunodeficiency virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001433"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Feline immunodeficiency virus (FIV) made defective in the accessory gene ORF-A were previously shown to be greatly attenuated in its ability to replicate in lymphocytes but to grow normally or near normally in other cell types. 3/9 vaccinees (cats) showed no evidence of the challenge virus over a 15-month observation period. In the other vaccinees, the challenge virus was predominant for various periods of time, but pre-existing viral loads and CD4 lymphocyte counts were either unaffected or altered only marginally and transiently</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1724707; PMID: 15680433</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002710">
+        <rdfs:label>vif from Feline immunodeficiency virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001433"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1724709; PMID: 10891409</rdfs:seeAlso>
+        <rdfs:comment>A vif mutant in feline immunodeficiency virus was attenuated and FIV-pPPRΔvif proviral DNA protected cats against challenge with the homologous FIV-PPR biological isolate.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002711">
+        <rdfs:label>3a from Feline infectious peritonitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001434"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 10040181; PMID: 15047802</rdfs:seeAlso>
+        <rdfs:comment>A 3abc deletion mutant in Feline infectious peritonitis virus (FIPV) was attenuated and provided protection against virulent FIPV strain 79-1146 challenge in kittens</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002712">
+        <rdfs:label>3b from Feline infectious peritonitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001434"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 10040182; PMID: 15047802</rdfs:seeAlso>
+        <rdfs:comment>A 3abc deletion mutant in Feline infectious peritonitis virus (FIPV) was attenuated and provided protection against virulent FIPV strain 79-1146 challenge in kittens</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002713">
+        <rdfs:label>3c from Feline infectious peritonitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001434"/>
+        <rdfs:comment>A 3abc deletion mutant in Feline infectious peritonitis virus (FIPV) was attenuated and provided protection against virulent FIPV strain 79-1146 challenge in kittens</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 10040183; PMID: 15047802</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002714">
+        <rdfs:label>7a from Feline infectious peritonitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001434"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 10040187; PMID: 15047802</rdfs:seeAlso>
+        <rdfs:comment>A 7ab deletion mutant in Feline infectious peritonitis virus is attenuated and provides protection against virulent FIPV strain 79-1146 challenge in kittens</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002715">
+        <rdfs:label>7b from Feline infectious peritonitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001434"/>
+        <rdfs:comment>A 7ab deletion mutant in Feline infectious peritonitis virus is attenuated and provides protection against virulent FIPV strain 79-1146 challenge in kittens</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 10040188; PMID: 15047802</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002716">
+        <rdfs:label>UL0 from Gallid herpesvirus 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001435"/>
+        <rdfs:comment>A UL0 mutant in infectious laryngotracheitis virus (ILTV) was attenuated. Chickens immunized with UL0-negative ILTV were protected from clinical disease after subsequent infection with virulent ILTV</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3239037; PMID: 14645915</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002717">
+        <rdfs:label>UL23 from Gallid herpesvirus 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001435"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A thymidine-kinase mutant is attenuated in chickens and induced protection from challenge with wild type GHV-1</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3239035; PMID: 12021870</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002718">
+        <rdfs:label>UL47 from Gallid herpesvirus 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001435"/>
+        <rdfs:comment>A UL47 mutant in avian infectious laryngotracheitis virus is attenuated and provides protection in chicken against subsequent challenge infection with virulent ILTV</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3239064; PMID: 17325345</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002719">
+        <rdfs:label>HBVgp3 X protein from Hepatitis B virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001436"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 944566; PMID: 11714744</rdfs:seeAlso>
+        <rdfs:comment>Researchers generated a series of woodchuck hepatitis virus (WHV) X mutants. Woodchucks inoculated with X mutants, including those with no serologic evidence of infection, were protected from later challenge with infectious Woodchuck Hepatitis Virus, suggesting previous infection with resulting protective immunity</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002720">
+        <rdfs:label>gD from Herpes simplex virus type 1 and 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001437"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>KOS-gDA3C is attenuated with mutations in gD gene in causing skin lesions at the inoculation and zosteriform sites, yet it is as effective as rKOS-gDA3C in protecting mice against HSV-1 challenge</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 19548971; PMID: 18243431</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002721">
+        <rdfs:label>gH from Herpes simplex virus type 1 and 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001437"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A gH mutant is attenuated in mice and induces significant protection from challenge with wild type HSV-1</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 138315; PMID: 8289395</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002722">
+        <rdfs:label>iCP0 from Herpes simplex virus type 1 and 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001454"/>
+        <rdfs:comment>A live-attenuated HSV-2 ICP0 virus provides significant protection against wild-type HSV-2 (MS strain) challenge in mice</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1487289; PMID:  21412438</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002723">
+        <rdfs:label>TK from Herpes simplex virus type 1 and 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001437"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2703374; PMID: 212476</rdfs:seeAlso>
+        <rdfs:comment>A thymidine kinase-deficient (TK) mutant was found to be attenuated in mice. This mutant induced complete protection from challenge with wild type HSV</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002724">
+        <rdfs:label>UL29 from Herpes simplex virus type 1 and 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001437"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2703458; PMID: 8289372</rdfs:seeAlso>
+        <rdfs:comment>A UL29 mutant is attenuated in mice and induces significant protection from challenge with wild type HSV-1</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002725">
+        <rdfs:label>US8 from Herpes simplex virus type 1 and 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001437"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An HSV-1 gE (Us8) deletion strain, NS-gEnull, was used as a live attenuated vaccine. After HSV-1 challenge, latent virus was recovered by DRG explant cocultures from &lt;10% of vaccinated mice compared with 100% of mock-vaccinated mice</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2703448; PMID: 18562543</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002726">
+        <rdfs:label>G protein from Human metapneumovirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001438"/>
+        <rdfs:comment>A G mutant is attenuated in African green monkeys and induces protection from challenge with wild type HMPV</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 75549950; PMID: 16160190</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002727">
+        <rdfs:label>M2-2 from Human metapneumovirus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001438"/>
+        <rdfs:comment>An M2-2 mutant is attenuated in African green monkeys and induced protection from challenge with wild type HMPV</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 75549952; PMID: 16160190</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002728">
+        <rdfs:label>M2-2 from Human Respiratory Syncytial Virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001439"/>
+        <rdfs:comment>An M2-2 mutant of human respiratory syncytial virus A2 is attenuated in African green monkeys. When challenged with wild type RSV, two doses provided complete protection against challenge in the lower respiratory tract and a significant reduction of the challenge virus in the upper respiratory tract</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 81925031; PMID: 12922094</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002729">
+        <rdfs:label>NV from Infectious Hematopoietic Necrosis Virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001440"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1489849; PMID: 15047826</rdfs:seeAlso>
+        <rdfs:comment>A mutation in the non-virion protein of IHNV causes attenuated growth in rainbow trout and is able to provide significant protection from subsequent challenge with wild type IHNV</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002730">
+        <rdfs:label>M2 from Influenza virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000185"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Mutant influenza virus that lacks the transmembrane and cytoplasmic tail domains of M2 (M2 knockout [M2KO]) from Influenza A virus (A/Puerto Rico/8/34(H1N1)) is attenuated in both cell culture and mice. Mice intranasally vaccinated with M2KO virus developed protective immune responses and survived a lethal challenge with the wild-type virus, suggesting that the M2KO virus has potential as a live attenuated vaccine</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 956528; PMID: 19321619</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002731">
+        <rdfs:label>NS1 from Influenza virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000185"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 505039; PMID: 19768406</rdfs:seeAlso>
+        <rdfs:comment>Intranasal inoculation of mice, pigs, horses, and macaques with NS1-modified influenza virus strains induced robust humoral and cellular immune responses, and generated immune protection against challenge with wild-type virus</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002732">
+        <rdfs:label>GP5 protein from Porcine respiratory and reproductive syndrome virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001441"/>
+        <rdfs:comment>A mutation in the GP5 protein attenuates HP-PRRSV in piglets. This mutant (HuN4-F112) induces protection against challenge with wild type HP-PRRSV</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 149389584; PMID: 19339125</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002733">
+        <rdfs:label>glycoprotein E from Pseudorabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001442"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A glycoprotein E mutant, in combination with UL23 and glycoprotein G mutations, is attenuated in raccoons, with a 75% survival rate. This mutant also provides some protection from wild type PRV</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 307634504; PMID: 12488067</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002734">
+        <rdfs:label>glycoprotein G from Pseudorabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001442"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 15422177; PMID: 12488067</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A glycoprotein G mutant, in combination with UL23 and glycoprotein E mutations, is attenuated in raccoons, with a 75% survival rate. This mutant also provides some protection from wild type PRV</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002735">
+        <rdfs:label>glycoprotein M from Pseudorabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001442"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 1478255; PMID: 9292000</rdfs:seeAlso>
+        <rdfs:comment>A glycoprotein M, gM, deletion in pseudorabies virus was attenuated and induced protection in piglets against intranasal challenge with 108 p.f.u. of the highly virulent PrV strain NIA-3</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002736">
+        <rdfs:label>gp50 from Pseudorabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001442"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2952548; PMID: 8178562</rdfs:seeAlso>
+        <rdfs:comment>A gp50+gp63 deletion mutant in Pseudorabies virus was attenuated and provided protection from clinical signs of Aujeszky&#39;s disease after a challenge inoculation with the virulent wild-type PRV strain NIA-3</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002737">
+        <rdfs:label>gp63 from Pseudorabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001442"/>
+        <rdfs:comment>A gp50+gp63 deletion mutant in Pseudorabies virus was attenuated and provided protection from clinical signs of Aujeszky&#39;s disease after a challenge inoculation with the virulent wild-type PRV strain NIA-3</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2952540; PMID: 8178562</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002738">
+        <rdfs:label>UL23 from Pseudorabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001442"/>
+        <rdfs:comment>A UL23 mutant, in combination with mutations in glycoproteins G and E, is attenuated in raccoons, with a 75% survival rate. This mutant also provides some protection from wild type PRV</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2952559; PMID: 12488067</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002739">
+        <rdfs:label>UL50 from Pseudorabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001442"/>
+        <rdfs:comment>A UL50 mutant is attenuated in pseudorabies virus and induces significant protection in pigs from challenge with the highly virulent NIA-3 strain of PrV</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2952537; PMID: 9228681</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002740">
+        <rdfs:label>US3 from Pseudorabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001442"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 2952561; PMID: 7975253</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Researchers intranasally inoculated pigs, the natural host of this virus, with mutant PRV strains in which the genes encoding the protein kinase (US3) proteins were inactivated. After challenge infection with the virulent PRV strain NIA-3, no virus was excreted by wt PRV- and PK- mutant-immunized animals, indicating complete protective immunity</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002741">
+        <rdfs:label>glycoprotein G from Rabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001443"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1489856; PMID: 21514343</rdfs:seeAlso>
+        <rdfs:comment>A glycoprotein G mutant in rabies virus is attenuated. After a one-dose intramuscular vaccination, the ERAg3m virus protected 100% of mice and hamsters from lethal challenge. In co-infections, using a lethal dose of street rabies virus mixed with ERAg3m, 100% of hamsters and 90% of mice survived and were protected against subsequent infection</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002742">
+        <rdfs:label>P protein from Rabies virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001443"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A P gene mutant is attenuated in mice and induces significant protection from challenge with wild type Rabies virus</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 291220682; PMID: 15896403</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002743">
+        <rdfs:label>E from SARS-CoV</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001444"/>
+        <rdfs:comment>An E mutant is attenuated in hamsters and induces significant protection from challenge with wild type SARS</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1489671; PMID: 18463152</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002744">
+        <rdfs:label>nef from Simian Immunodeficiency Virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001445"/>
+        <rdfs:comment>A SIV nef mutant is attenuated in rhesus monkeys and induces protection from challenge with wild type SIV</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 1490008; PMID: 1470917</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002745">
+        <rdfs:label>C protein from Tick-borne Encephalitis Virus (TBEV)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001446"/>
+        <rdfs:comment>A virus with a mutation in protein C is attenuated in mice and induced protection from challenge with wild type TBE virus</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 206570298; PMID: 11884577</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002746">
+        <rdfs:label>E1 glycoprotein from VEE Virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001447"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 798795; PMID: 7676619</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A VEE mutant with a PE2 cleavage signal mutation and a suppressor mutation in E1 is highly attenuated in mice and provides complete protection against challenge with wild type VEE</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002747">
+        <rdfs:label>PE2 from VEE Virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001447"/>
+        <rdfs:comment>A VEE mutant with a PE2 cleavage signal mutation and a suppressor mutation in E1 is highly attenuated in mice and provides complete protection against challenge with wild type VEE</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 229558446; PMID: 7676619</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002748">
+        <rdfs:label>C protein from West Nile virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001448"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 158516889; PMID: 20600500</rdfs:seeAlso>
+        <rdfs:comment>A virus with a C protein mutation is attenuated in mice and induces significant protection from challenge with wild type West Nile virus</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002749">
+        <rdfs:label>E1 from Western equine encephalomyelitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001449"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A PE2 mutant combined with a deletion in E1 (WE2130) induced low-level viremia in chickens and protected against challenge with wild type WEE after 2 weeks. This study also found that it is unlikely that mosquito transmission of this strain would occur</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 17148717; PMID: 12641414</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002750">
+        <rdfs:label>E1 from Western equine encephalomyelitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001449"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 17148717; PMID: 12641414</rdfs:seeAlso>
+        <rdfs:comment>A PE2 mutant combined with a deletion in E1 (WE2130) induced low-level viremia in chickens and protected against challenge with wild type WEE after 2 weeks. This study also found that it is unlikely that mosquito transmission of this strain would occur</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002751">
+        <rdfs:label>E2 from Western equine encephalomyelitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001449"/>
+        <rdfs:comment>A PE2 mutant combined with a deletion in E2 (WE2102) induced low-level viremia in chickens and protected against challenge with wild type WEE after 2 weeks. This study also found that it is unlikely that mosquito transmission of this strain would occur</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 29611992; PMID: 12641414</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002752">
+        <rdfs:label>E2 from Western equine encephalomyelitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001449"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 29611992; PMID: 12641414</rdfs:seeAlso>
+        <rdfs:comment>A PE2 mutant combined with a deletion in E2 (WE2102) induced low-level viremia in chickens and protected against challenge with wild type WEE after 2 weeks. This study also found that it is unlikely that mosquito transmission of this strain would occur</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002753">
+        <rdfs:label>PE2 from Western equine encephalomyelitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001449"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A PE2 mutant combined with either a deletion in E2 (WE2102) or E1 (WE2130) induced low-level viremia in chickens and protected against challenge with wild type WEE after 2 weeks. This study also found that it is unlikely that mosquito transmission of these two strains would occur</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 90811336; PMID: 12641414</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002754">
+        <rdfs:label>PE2 from Western equine encephalomyelitis virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001449"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Protein_ID: 90811336; PMID: 12641414</rdfs:seeAlso>
+        <rdfs:comment>A PE2 mutant combined with either a deletion in E2 (WE2102) or E1 (WE2130) induced low-level viremia in chickens and protected against challenge with wild type WEE after 2 weeks. This study also found that it is unlikely that mosquito transmission of these two strains would occur</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002755">
+        <rdfs:label>cen1 from Leishmania donovani</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001450"/>
+        <rdfs:comment>A cen1 mutant is attenuated in mice and hamsters and induces significant protection from challenge with wild type L. donovani</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Protein_ID: 15488542; PMID: 19592661</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002756">
+        <rdfs:label>HSP70 II from Leishmania infantum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0002515"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:seeAlso>NCBI_Gene_ID: 5073319; PMID: 21794145</rdfs:seeAlso>
+        <rdfs:comment>A Leishmania infantum deletion mutant of HSP70-II gene is attenuated and provides protection against Leishmania infection in the L. major-BALB/c infection model. Also, DeltaHSP70-II is a safe live vaccine as immunodeficient SCID mice, and hamsters, infected with mutant parasites did not develp any sign of pathology</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002757">
+        <rdfs:label>fabB/fabF from Plasmodium spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000172"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3885996; PMID: 21669394</rdfs:seeAlso>
+        <rdfs:comment>A genetically attenuated parasite (GAP) with a mutation in the FabB/FabF gene is attenuated in mice by arresting in the late liver stage. It also conferred complete protection in mice from challenge with wild type Plasmodium</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002758">
+        <rdfs:label>p36p from Plasmodium spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001451"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3424772; PMID: 7604034</rdfs:seeAlso>
+        <rdfs:comment>Genetically attenuated P36p-deficient Plasmodium berghei sporozoites provide protection against sporozoites challenge in mice</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002759">
+        <rdfs:label>py36 from Plasmodium spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001452"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 23479924; PMID: 17517871</rdfs:seeAlso>
+        <rdfs:comment>A genetically attenuated parasite (GAP) with deletions in p52 and p36 are attenuated in mice. Mice immunized with the mutant were completely protected against challenge with wild type Plasmodium sporozoites</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002760">
+        <rdfs:label>py52 from Plasmodium spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001452"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 15193062; PMID: 17517871</rdfs:seeAlso>
+        <rdfs:comment>A genetically attenuated parasite (GAP) with deletions in p52 and p36 are attenuated in mice. Mice immunized with the mutant were completely protected against challenge with wild type Plasmodium sporozoites</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002761">
+        <rdfs:label>UIS3 from Plasmodium spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001452"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>Deletion of UIS3 in Plasmodium yoelii provided attenuation and full protection in mice by Pyuis3(-) sporozoites required at least 2 immunizations against challenges with infectious sporozoites</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 3830198; PMID: 17624848</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002762">
+        <rdfs:label>mic2 from Toxoplasma gondii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001453"/>
+        <rdfs:seeAlso>NCBI_Protein_ID: 1923217; PMID: 16933991</rdfs:seeAlso>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>A mic2 mutant is attenuated in mice and induces protection from challenge with wild type T. gondii</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002763">
+        <rdfs:label>OMPDC from Toxoplasma gondii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001453"/>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <rdfs:comment>An OMPDC mutant, alone or in combination with an UP mutation, is attenuated in mice and induces significant protection from challenge with wild type T. gondii</rdfs:comment>
+        <rdfs:seeAlso>NCBI_Gene_ID: 7899615; PMID: 20605980</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002764">
+        <rdfs:label>OMPDC from Toxoplasma gondii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001453"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 7899615; PMID: 20605980</rdfs:seeAlso>
+        <rdfs:comment>An OMPDC mutant, alone or in combination with an UP mutation, is attenuated in mice and induces significant protection from challenge with wild type T. gondii</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002765">
+        <rdfs:label>UP from Toxoplasma gondii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001453"/>
+        <rdfs:seeAlso>NCBI_Gene_ID: 900273; PMID: 20605980</rdfs:seeAlso>
+        <rdfs:comment>A UP mutant, in combination with an OMPDC mutation, is attenuated in mice and induces significant protection from wild type T. gondii</rdfs:comment>
+        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

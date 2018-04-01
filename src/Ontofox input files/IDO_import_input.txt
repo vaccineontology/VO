@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/IDO_import.owl
+
+[Source ontology]
+IDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
+http://purl.obolibrary.org/obo/IDO_0000547 #virulence factor
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+
+http://purl.obolibrary.org/obo/IDO_0000547 #virulence factor
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
