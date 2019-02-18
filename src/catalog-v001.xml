@@ -1,34 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obcs/2017-04-29/obcs.owl" uri="OBCS_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="file:/F:/Dropbox/Ronak%20and%20Oliver%20shared/Ontorat_output.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/RO_import.owl" uri="RO_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/vo/RO_import.owl" uri="RO_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/vo/external/OGG_import.owl" uri="OGG_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/OAE_import.owl" uri="OAE_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/vo/external/RO_dev_import.owl" uri="ro_dev_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/vo/external/OBI_import.owl" uri="OBI_import.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/vo/external/OBI_import.owl" uri="OBI_import_1.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro.owl" uri="external/ro.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo.owl" uri="VO.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl" uri="UBERON_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/external_byhand.owl" uri="external_byhand.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/UO_import.owl" uri="UO_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/IAO_import.owl" uri="IAO_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/CARO_import.owl" uri="CARO_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl" uri="CHEBI_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/DOID_import.owl" uri="DOID_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/FMA_import.owl" uri="FMA_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/GO_import.owl" uri="GO_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/IDO_import.owl" uri="IDO_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl" uri="NCBITaxon_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/OBI_import.owl" uri="OBI_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl" uri="OGMS_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/PATO_import.owl" uri="PATO_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/PRO_import.owl" uri="PRO_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/SO_import.owl" uri="SO_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/ro_proposed_import.owl" uri="ro_proposed_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://www.obofoundry.org/ro/ro.owl" uri="external/ro.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl" uri="external/ontology-metadata.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/RO_import.owl" uri="imports/RO_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/vo/external/OGG_import.owl" uri="imports/OGG_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/OAE_import.owl" uri="imports/OAE_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl" uri="imports/UBERON_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/UO_import.owl" uri="imports/UO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/IAO_import.owl" uri="imports/IAO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/CARO_import.owl" uri="imports/CARO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl" uri="imports/CHEBI_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/DOID_import.owl" uri="imports/DOID_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/FMA_import.owl" uri="imports/FMA_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/GO_import.owl" uri="imports/GO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/IDO_import.owl" uri="imports/IDO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl" uri="imports/NCBITaxon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/OBI_import.owl" uri="imports/OBI_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl" uri="imports/OGMS_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/PATO_import.owl" uri="imports/PATO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/PRO_import.owl" uri="imports/PRO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/vo/external/SO_import.owl" uri="imports/SO_import.owl"/>
     <group id="Folder Repository, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base=""/>
 </catalog>
