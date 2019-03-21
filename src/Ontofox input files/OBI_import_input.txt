@@ -13,6 +13,7 @@ http://purl.obolibrary.org/obo/BFO_0000020 #specifically dependent continuant
 http://purl.obolibrary.org/obo/BFO_0000038
 http://purl.obolibrary.org/obo/BFO_0000034
 http://purl.obolibrary.org/obo/BFO_0000029
+http://purl.obolibrary.org/obo/BFO_0000019
 
 http://purl.obolibrary.org/obo/CARO_0001008 #gross anatomical part (OBI)
 
@@ -72,4 +73,4 @@ subClassOf http://purl.obolibrary.org/obo/OBI_0000011  #planned process
 includeAllIntermediates 
 
 [Source annotation URIs]
-includeAllAnnotationProperties
+includeAllAxiomsRecursively
