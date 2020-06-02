@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/ontorat/VO_CoV_vaccines_06022020.owl#"
      xml:base="http://purl.obolibrary.org/obo/vo/ontorat/VO_CoV_vaccines_06022020.owl"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/ontorat/VO_CoV_vaccines_06022020.owl"/>
     
 
@@ -21,252 +22,657 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
-        <rdfs:label>has associated axiom(fol)</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <rdfs:label>BFO OWL specification label</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
-        <rdfs:label>has associated axiom(nl)</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
-        <rdfs:label>temporal interpretation</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
-        <rdfs:label>elucidation</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label>has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
-        <rdfs:label>taxon_notes</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000007">
-        <rdfs:label>has_relational_adjective</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000202">
-        <rdfs:label>fma_set_term</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003">
-        <rdfs:label>homology_notes</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
-        <rdfs:label>external_definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject">
-        <rdfs:label>Subject and Keywords</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000006">
-        <rdfs:label>NCBI GeneID</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000007">
-        <rdfs:label>NCBI LocusTag</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003147">
-        <rdfs:label>has vaccine ingredient</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000009">
-        <rdfs:label>modification date</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
-        <rdfs:label>has_narrow_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label>in_subset</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003146">
-        <rdfs:label>has vaccine active ingredient</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
-        <rdfs:label>Date</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label>alternative term</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
-        <rdfs:label>Contributor</rdfs:label>
-        <rdfs:label>contributor</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <rdfs:label>term editor</rdfs:label>
-        <rdfs:label>definition editor</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <rdfs:label>definition source</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
-        <rdfs:label>has curation status</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000113">
-        <rdfs:label>in branch</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
-        <rdfs:label>editor note</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label>textual definition</rdfs:label>
-        <rdfs:label>definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231">
-        <rdfs:label>has obsolescence reason</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label>database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
         <rdfs:label>BFO CLIF specification label</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
         <rdfs:label>example of usage</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
-        <rdfs:label>editor preferred term</rdfs:label>
-        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
-        <rdfs:label>editor preferred label</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000113 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000113">
+        <rdfs:label>in branch</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>definition editor</rdfs:label>
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231">
+        <rdfs:label>has obsolescence reason</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
         <rdfs:label>curator note</rdfs:label>
         <rdfs:label>curator notes</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
-        <rdfs:label>has_broad_synonym</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label>imported from</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
-        <rdfs:label>has_rank</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000424 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
+        <rdfs:label>expand expression to</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003558">
-        <rdfs:label>has Protegen annotation</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+        <rdfs:label>OBO foundry unique label</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label>has_obo_namespace</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
+        <rdfs:label>elucidation</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label>has_exact_synonym</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000601 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
+        <rdfs:label>has associated axiom(nl)</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003159">
-        <rdfs:label>manufacturer</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
+        <rdfs:label>has associated axiom(fol)</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
-        <rdfs:label>shorthand</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
+        <rdfs:label>has axiom label</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003158">
-        <rdfs:label>vaccine proper name</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
+        <rdfs:label>ISA alternative term</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003557">
-        <rdfs:label>has Protegen id</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
+        <rdfs:label>IEDB alternative term</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003198">
-        <rdfs:label>RxNORM ID</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000006 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000006">
+        <rdfs:label>NCBI GeneID</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:label>label</rdfs:label>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000007">
+        <rdfs:label>NCBI LocusTag</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000009">
+        <rdfs:label>modification date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000015 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000015">
+        <rdfs:label>organism NCBITaxon ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000017 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000017">
+        <rdfs:label>chromosome ID of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000018 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000018">
+        <rdfs:label>type of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000019 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000019">
+        <rdfs:label>nomenclature status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000030 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000030">
+        <rdfs:label>has PubMed association</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
+        <rdfs:label>temporal interpretation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002416 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002416">
+        <rdfs:label>logical macro assertion</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002421 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002421">
+        <rdfs:label>logical macro assertion on a property</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002422 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002422">
+        <rdfs:label>logical macro assertion on an object property</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002423 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002423">
+        <rdfs:label>logical macro assertion on an annotation property</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002575 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002575">
+        <rdfs:label>is direct form of</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002579 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002579">
+        <rdfs:label>is indirect form of</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004048 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004048">
+        <rdfs:label>is directional form of</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004049 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004049">
+        <rdfs:label>is positive form of</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004050 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004050">
         <rdfs:label>is negative form of</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
+        <rdfs:label>external_definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000003 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003">
+        <rdfs:label>homology_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000007">
+        <rdfs:label>has_relational_adjective</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000008">
+        <rdfs:label>taxon_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000011 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000011">
+        <rdfs:label>development_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000012 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000012">
+        <rdfs:label>external_ontology_notes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000202 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000202">
+        <rdfs:label>fma_set_term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001818 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001818">
+        <rdfs:label>VIOLIN vaccine ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003099 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003099">
+        <rdfs:label>trade name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003146 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003146">
+        <rdfs:label>has vaccine active ingredient</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003147 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003147">
+        <rdfs:label>has vaccine ingredient</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003151 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003151">
         <rdfs:label>vaccine dose annotation</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003158 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003158">
+        <rdfs:label>vaccine proper name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003159 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003159">
+        <rdfs:label>manufacturer</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003160 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003160">
+        <rdfs:label>FDA vaccine indications</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003161">
+        <rdfs:label>vaccine package insert PDF URL</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003162 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003162">
+        <rdfs:label>vaccine STN</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003198 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003198">
+        <rdfs:label>RxNORM ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003557 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003557">
+        <rdfs:label>has Protegen id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003558 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003558">
+        <rdfs:label>has Protegen annotation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003560 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003560">
+        <rdfs:label>RxNORM Preferred Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
+        <rdfs:label>has_rank</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
+        <rdfs:label>Contributor</rdfs:label>
+        <rdfs:label>contributor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
         <rdfs:label>Creator</rdfs:label>
         <rdfs:label>creator</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
-        <rdfs:label>IEDB alternative term</rdfs:label>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
+        <rdfs:label>Date</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003160">
-        <rdfs:label>FDA vaccine indications</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002416">
-        <rdfs:label>logical macro assertion</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
-        <rdfs:label>OBO foundry unique label</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000424">
-        <rdfs:label>expand expression to</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
-        <rdfs:label>BFO OWL specification label</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002579">
-        <rdfs:label>is indirect form of</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001818">
-        <rdfs:label>VIOLIN vaccine ID</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000030">
-        <rdfs:label>has PubMed association</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004048">
-        <rdfs:label>is directional form of</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004049">
-        <rdfs:label>is positive form of</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002423">
-        <rdfs:label>logical macro assertion on an annotation property</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label>has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002422">
-        <rdfs:label>logical macro assertion on an object property</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002421">
-        <rdfs:label>logical macro assertion on a property</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003162">
-        <rdfs:label>vaccine STN</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003161">
-        <rdfs:label>vaccine package insert PDF URL</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003560">
-        <rdfs:label>RxNORM Preferred Name</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
-        <rdfs:label>Format</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label>imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source">
-        <rdfs:label>Source</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000012">
-        <rdfs:label>external_ontology_notes</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000011">
-        <rdfs:label>development_notes</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000015">
-        <rdfs:label>organism NCBITaxon ID</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000017">
-        <rdfs:label>chromosome ID of gene</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000018">
-        <rdfs:label>type of gene</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000019">
-        <rdfs:label>nomenclature status</rdfs:label>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
         <rdfs:label>Description</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
-        <rdfs:label>ISA alternative term</rdfs:label>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
+        <rdfs:label>Format</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003099">
-        <rdfs:label>trade name</rdfs:label>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source">
+        <rdfs:label>Source</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002575">
-        <rdfs:label>is direct form of</rdfs:label>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject">
+        <rdfs:label>Subject and Keywords</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000">
-        <rdfs:label>has axiom label</rdfs:label>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     
 
 
@@ -422,7 +828,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005100">
-        <rdfs:label>SARS N protein DNA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -433,6 +838,7 @@
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5732</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:16423399</rdfs:comment>
+        <rdfs:label>SARS N protein DNA vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5732</rdfs:seeAlso>
     </owl:Class>
     
@@ -441,7 +847,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005101">
-        <rdfs:label>SARS N + SARS M DNA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -449,10 +854,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5733</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5733</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5733</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:16423399</rdfs:comment>
+        <rdfs:label>SARS N + SARS M DNA vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5733</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -460,7 +866,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005102">
-        <rdfs:label>SARS M protein DNA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -469,8 +874,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:comment>PubMed ID:16423399</rdfs:comment>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5731</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:16423399</rdfs:comment>
+        <rdfs:label>SARS M protein DNA vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5731</rdfs:seeAlso>
     </owl:Class>
     
@@ -479,7 +885,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005103">
-        <rdfs:label>Salmonella-CTLA4-S SARS DNA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -487,10 +892,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:15993989</rdfs:comment>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5738</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5738</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5738</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:15993989</rdfs:comment>
+        <rdfs:label>Salmonella-CTLA4-S SARS DNA vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5738</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -498,7 +904,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005104">
-        <rdfs:label>Recombinant SARS spike polypeptide vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -507,9 +912,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:seeAlso>VIOLIN ID: 5734</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:15993989</rdfs:comment>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5734</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:15993989</rdfs:comment>
+        <rdfs:label>Recombinant SARS spike polypeptide vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5734</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -517,7 +923,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005105">
-        <rdfs:label>SARS CTLA4-S DNA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -525,9 +930,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:15993989</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5737</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:15993989</rdfs:comment>
+        <rdfs:label>SARS CTLA4-S DNA vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5737</rdfs:seeAlso>
     </owl:Class>
     
@@ -536,7 +942,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005106">
-        <rdfs:label>SARS tPA-S DNA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -544,10 +949,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5736</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5736</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5736</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:15993989</rdfs:comment>
+        <rdfs:label>SARS tPA-S DNA vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5736</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -555,7 +961,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005107">
-        <rdfs:label>Salmonella-tPA-S SARS DNA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -564,9 +969,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:comment>PubMed ID:15993989</rdfs:comment>
-        <rdfs:seeAlso>VIOLIN ID: 5739</rdfs:seeAlso>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5739</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:15993989</rdfs:comment>
+        <rdfs:label>Salmonella-tPA-S SARS DNA vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5739</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -574,7 +980,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005108">
-        <rdfs:label>SARS MA-ExoN vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -582,9 +987,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:23142821</rdfs:comment>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5729</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5729</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:23142821</rdfs:comment>
+        <rdfs:label>SARS MA-ExoN vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5729</rdfs:seeAlso>
     </owl:Class>
     
@@ -593,7 +999,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005109">
-        <rdfs:label>SARS rMA15-ΔE vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -602,9 +1007,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:seeAlso>VIOLIN ID: 5728</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:16423399</rdfs:comment>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5728</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:16423399</rdfs:comment>
+        <rdfs:label>SARS rMA15-ΔE vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5728</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -612,7 +1018,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005110">
-        <rdfs:label>SARS ADS-MVA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -620,10 +1025,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5726</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5726</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:15708987</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5726</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:15708987</rdfs:comment>
+        <rdfs:label>SARS ADS-MVA vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5726</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -631,7 +1037,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005111">
-        <rdfs:label>MERS-CoV S vaccine adjuvanted with CpG and Alum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -642,6 +1047,7 @@
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5714</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:29618723</rdfs:comment>
+        <rdfs:label>MERS-CoV S vaccine adjuvanted with Alum</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5714</rdfs:seeAlso>
     </owl:Class>
     
@@ -650,7 +1056,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005112">
-        <rdfs:label>Inactivated whole MERS-CoV (IV) vaccine with CpG and Alum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -658,10 +1063,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:29618723</rdfs:comment>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5721</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5721</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5721</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:29618723</rdfs:comment>
+        <rdfs:label>Inactivated whole MERS-CoV (IV) vaccine with CpG and Alum</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5721</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -669,7 +1075,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005113">
-        <rdfs:label>SARS MVA/S vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -678,9 +1083,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:comment>PubMed ID:15096611</rdfs:comment>
-        <rdfs:seeAlso>VIOLIN ID: 5725</rdfs:seeAlso>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5725</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:15096611</rdfs:comment>
+        <rdfs:label>SARS MVA/S vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5725</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -688,7 +1094,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005114">
-        <rdfs:label>β-propiolactone-inactivated SARS-CoV vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -696,10 +1101,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:16476986</rdfs:comment>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5730</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5730</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5730</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:16476986</rdfs:comment>
+        <rdfs:label>β-propiolactone-inactivated SARS-CoV vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5730</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -707,7 +1113,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005115">
-        <rdfs:label>SARS Ad S/N vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -715,10 +1120,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5727</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5727</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5727</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:16476986</rdfs:comment>
+        <rdfs:label>SARS Ad S/N vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5727</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -726,7 +1132,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005116">
-        <rdfs:label>Ad5.MERS-S1 vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -735,9 +1140,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:comment>PubMed ID:25192975</rdfs:comment>
-        <rdfs:seeAlso>VIOLIN ID: 5719</rdfs:seeAlso>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5719</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:25192975</rdfs:comment>
+        <rdfs:label>Ad5.MERS-S1 vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5719</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -745,7 +1151,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005117">
-        <rdfs:label>Ad5.MERS-S vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -753,10 +1158,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:seeAlso>VIOLIN ID: 5720</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:25192975</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5720</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:25192975</rdfs:comment>
+        <rdfs:label>Ad5.MERS-S vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5720</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -764,7 +1170,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005118">
-        <rdfs:label>MERS England1 S1 protein subunit Vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -774,8 +1179,9 @@
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5715</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5715</rdfs:seeAlso>
         <rdfs:comment>PubMed ID:26218507</rdfs:comment>
+        <rdfs:label>MERS England1 S1 protein subunit Vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5715</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -783,7 +1189,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005119">
-        <rdfs:label>MERS England1 S DNA + England1 S protein subunit vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -798,9 +1203,10 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5717</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:26218507</rdfs:comment>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>MERS England1 S DNA + England1 S protein subunit vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5717</rdfs:seeAlso>
     </owl:Class>
     
@@ -809,7 +1215,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005120">
-        <rdfs:label>MERS England1 S DNA Vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -817,10 +1222,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5716</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5716</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:26218507</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5716</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:26218507</rdfs:comment>
+        <rdfs:label>MERS England1 S DNA Vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5716</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -828,7 +1234,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005121">
-        <rdfs:label>MERS rRBD plus alum vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -836,10 +1241,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5723</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5723</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5723</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:28536429</rdfs:comment>
+        <rdfs:label>MERS rRBD plus alum vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5723</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -847,7 +1253,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005122">
-        <rdfs:label>MERS-CoV pcDNA3.1-S1 DNA vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -855,10 +1260,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:seeAlso>VIOLIN ID: 5718</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:28314561</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5718</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:28314561</rdfs:comment>
+        <rdfs:label>MERS-CoV pcDNA3.1-S1 DNA vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5718</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -866,7 +1272,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005123">
-        <rdfs:label>VSVΔG-MERS vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -874,10 +1279,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5722</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:seeAlso>VIOLIN ID: 5722</rdfs:seeAlso>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5722</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:29246504</rdfs:comment>
+        <rdfs:label>VSVΔG-MERS vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5722</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -885,7 +1291,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005124">
-        <rdfs:label>MERS rNTD vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -893,10 +1298,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:28536429</rdfs:comment>
-        <rdfs:seeAlso>VIOLIN ID: 5724</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5724</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:28536429</rdfs:comment>
+        <rdfs:label>MERS rNTD vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5724</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -904,7 +1310,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005125">
-        <rdfs:label>inactivated whole (formalin and UV radiation) SARS-CoV vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -912,9 +1317,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5742</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:22536382</rdfs:comment>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label>inactivated whole (formalin and UV radiation) SARS-CoV vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5742</rdfs:seeAlso>
     </owl:Class>
     
@@ -923,7 +1329,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005126">
-        <rdfs:label>recombinant SARS DNA spike protein vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -933,8 +1338,9 @@
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5743</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5743</rdfs:seeAlso>
         <rdfs:comment>PubMed ID:22536382</rdfs:comment>
+        <rdfs:label>recombinant SARS DNA spike protein vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5743</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -942,7 +1348,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005127">
-        <rdfs:label>Viral-like-particle  S-MHV SARS vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -950,10 +1355,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:22536382</rdfs:comment>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5747</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5747</rdfs:seeAlso>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5747</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:22536382</rdfs:comment>
+        <rdfs:label>Viral-like-particle  S-MHV SARS vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5747</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -961,7 +1367,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005128">
-        <rdfs:label>UV-Inactivated SARS + TLR agonist vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -971,8 +1376,9 @@
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5741</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5741</rdfs:seeAlso>
         <rdfs:comment>PubMed ID:22536382</rdfs:comment>
+        <rdfs:label>UV-Inactivated SARS + TLR agonist vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5741</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -980,7 +1386,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005129">
-        <rdfs:label>UV-Inactivated SARS vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -988,10 +1393,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5740</obo:IAO_0000119>
-        <rdfs:seeAlso>VIOLIN ID: 5740</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:22536382</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5740</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:22536382</rdfs:comment>
+        <rdfs:label>UV-Inactivated SARS vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5740</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -999,7 +1405,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005130">
-        <rdfs:label>VRP-MERS-N vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1007,10 +1412,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5748</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:26954467</rdfs:comment>
+        <rdfs:label>VRP-MERS-N vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5748</rdfs:seeAlso>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1018,7 +1424,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005131">
-        <rdfs:label>VRP-SARS-N vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1026,10 +1431,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:26954467</rdfs:comment>
-        <rdfs:seeAlso>VIOLIN ID: 5749</rdfs:seeAlso>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5749</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5749</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:26954467</rdfs:comment>
+        <rdfs:label>VRP-SARS-N vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5749</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1037,7 +1443,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005132">
-        <rdfs:label>rVV-SARS vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1045,10 +1450,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:26954467</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:seeAlso>VIOLIN ID: 5750</rdfs:seeAlso>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5750</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:26954467</rdfs:comment>
+        <rdfs:label>rVV-SARS vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5750</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1056,7 +1462,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005133">
-        <rdfs:label>MVvac2-MERS-S(H) vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1064,10 +1469,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:26355094</rdfs:comment>
-        <rdfs:seeAlso>VIOLIN ID: 5757</rdfs:seeAlso>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5757</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5757</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:26355094</rdfs:comment>
+        <rdfs:label>MVvac2-MERS-S(H) vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5757</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1075,7 +1481,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005134">
-        <rdfs:label>MVvac2-MERS-N vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1084,9 +1489,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:seeAlso>VIOLIN ID: 5760</rdfs:seeAlso>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5760</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:29902727</rdfs:comment>
+        <rdfs:label>MVvac2-MERS-N vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5760</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1094,7 +1500,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005135">
-        <rdfs:label>ChAdOx1-MERS-S vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1102,9 +1507,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5751</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5751</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:29263883</rdfs:comment>
+        <rdfs:label>ChAdOx1-MERS-S vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5751</rdfs:seeAlso>
     </owl:Class>
     
@@ -1113,7 +1519,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005136">
-        <rdfs:label>Ad41.MERS vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1122,9 +1527,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <rdfs:seeAlso>VIOLIN ID: 5760</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:25762305</rdfs:comment>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5760</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:25762305</rdfs:comment>
+        <rdfs:label>Ad41.MERS vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5760</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1132,7 +1538,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005137">
-        <rdfs:label>MVA-MERS vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1140,10 +1545,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:seeAlso>VIOLIN ID: 5758</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:23986586</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5758</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:23986586</rdfs:comment>
+        <rdfs:label>MVA-MERS vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5758</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1151,7 +1557,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005138">
-        <rdfs:label>CRT-N SARS vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1159,10 +1564,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:seeAlso>VIOLIN ID: 5753</rdfs:seeAlso>
-        <rdfs:comment>PubMed ID:15078946</rdfs:comment>
-        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5753</obo:IAO_0000119>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5753</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:15078946</rdfs:comment>
+        <rdfs:label>CRT-N SARS vaccine</rdfs:label>
+        <rdfs:seeAlso>VIOLIN ID: 5753</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1170,7 +1576,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005139 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005139">
-        <rdfs:label>rSARS-CoV-ΔE vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1178,9 +1583,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>PubMed ID:18463152</rdfs:comment>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=3155</obo:IAO_0000119>
+        <rdfs:comment>PubMed ID:18463152</rdfs:comment>
+        <rdfs:label>rSARS-CoV-ΔE vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 3155</rdfs:seeAlso>
     </owl:Class>
     
@@ -1189,7 +1595,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0005140 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005140">
-        <rdfs:label>MVvac2-MERS-solS vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1200,6 +1605,7 @@
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5759</obo:IAO_0000119>
         <rdfs:comment>PubMed ID:26355094</rdfs:comment>
+        <rdfs:label>MVvac2-MERS-solS vaccine</rdfs:label>
         <rdfs:seeAlso>VIOLIN ID: 5759</rdfs:seeAlso>
     </owl:Class>
     
@@ -1212,5 +1618,5 @@
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
