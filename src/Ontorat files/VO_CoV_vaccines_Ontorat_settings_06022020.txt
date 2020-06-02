@@ -3,7 +3,8 @@
 
 [Online URL of the target OWL file (RDF/XML format)]
 # Note: Local file won't be used by Ontorat for security reason.   
-https://raw.githubusercontent.com/vaccineontology/VO/master/src/VO_merged.owl
+# http://purl.obolibrary.org/obo/vo.owl
+https://raw.githubusercontent.com/vaccineontology/VO/master/src/VO_merged.owl 
 
 [Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
 # Note: Local file won't be used by Ontorat for security reason. 
@@ -19,9 +20,11 @@ generate new classes
   
 [Annotations]
 # Note: Use comma to separate annotations
-'label' "{$columnA}", 
-'seeAlso' "VIOLIN ID: {$columnJ}", 
-'definition source' "VIOLIN: {$columnK}"
+'label' "{$columnA}",
+'seeAlso' "VIOLIN ID: {$columnJ}",
+'definition source' "VIOLIN: {$columnK}{$columnJ}",
+'comment' "PubMed ID:{$columnL}", 
+'definition editor' "Anthony Huffman"
 
 [Equivalent classes]
 # Note: Use comma to separate classes 
@@ -29,14 +32,20 @@ generate new classes
 
 [Superclasses]
 # Note: Use comma to separate classes 
-<http://purl.obolibrary.org/obo/{$columnC}>
+<http://purl.obolibrary.org/obo/{$columnC}>,
+'has role' some ({$columnI})
 
 [Terms used to define anntoations, equivalent classes and superclasses]
 # Note: One line per term
 AnnotationProperty:
 Class:
 ObjectProperty:
+'has role': <http://purl.obolibrary.org/obo/RO_00000087>
 'expresses': <http://purl.obolibrary.org/obo/RO_0002292>
+'is_manufactured_by': <http://purl.obolibrary.org/obo/OBI_0000304>
+'bearer_of': <http://purl.obolibrary.org/obo/bearer_of>
+'vaccine immunization for host': <http://purl.obolibrary.org/obo/VO_0001243>
+'vaccine immunization against microbe': <http://purl.obolibrary.org/obo/VO_0003355>
 DataProperty:
 
 [Term URIs start with]
@@ -47,4 +56,4 @@ http://purl.obolibrary.org/obo/
 # Note: Prefix like "VO_", number of digits like "7", and start from like "1".
 Prefix: VO_
 Number of digits: 7
-Start from:  1
+Start from:  5100
