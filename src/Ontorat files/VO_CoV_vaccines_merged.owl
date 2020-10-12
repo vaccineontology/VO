@@ -1801,7 +1801,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A SARS-CoV-2 VLP  vaccine made of virus-like particles derived from cucumber mosaic virus that expresses a highly repetitive display of the receptor bidning domain of the spike protein.</obo:IAO_0000115>
+        <obo:IAO_0000115>A SARS-CoV-2 VLP  vaccine made of virus-like particles derived from cucumber mosaic virus that expresses a highly repetitive display of the receptor binding domain of the spike protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5764</obo:IAO_0000119>
         <rdfs:label>RBD-CuMVTT vaccine</rdfs:label>
@@ -2126,7 +2126,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2141,10 +2141,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A SARS-CoV-2 whole virus vaccine made from a purified inactivated SARS-CoV-2 virus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A SARS-CoV 2 (rSARS-CoV-2) subunit vaccine made of  nanoparticle composed of a  trimeric full-length SARS-CoV-2 spike glycoproteins and Matrix-M1 adjuvant.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PubMed:32376603</obo:IAO_0000119>
-        <rdfs:label>PiCoVacc vaccine</rdfs:label>
+        <rdfs:label>NVX-CoV2373 vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -2174,7 +2174,7 @@
         <obo:IAO_0000115>A SARS-CoV-2 RNA vaccine that is made up of a lipid nanoparticle encapsulating a self-amplifiying of SARS-CoV-2 spike protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PubMed:32647131</obo:IAO_0000119>
-        <rdfs:label>saRNA vaccine</rdfs:label>
+        <rdfs:label>COVAC1 vaccine</rdfs:label>
         <rdfs:seeAlso>violinID:ISRCTN17072692</rdfs:seeAlso>
     </owl:Class>
     
