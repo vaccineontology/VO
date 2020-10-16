@@ -13,7 +13,7 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/ontorat/VO_CoV_vaccines_merged.owl">
         <obo:IAO_0000232>This is used as we expect to be updating COVID-19 vaccines more frequently as they are added to VIOLIN. As such, we are primarily adding new versions into this document to place into VO-merge for now.</obo:IAO_0000232>
         <dc:creator>Anthony Huffman</dc:creator>
-        <owl:versionInfo>1.3.</owl:versionInfo>
+        <owl:versionInfo>1.4.</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -793,6 +793,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -859,6 +865,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that indicates the vaccine being a combination vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label>combination vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that is not licensed or in clinical trial; instead, it has been experimently approved to induce protection or treatment effect in vivo in at least an experimental animal model. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label>vaccine in research role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000484 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000484"/>
@@ -867,31 +895,134 @@
 
     <!-- http://purl.obolibrary.org/obo/VO_0000504 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000504"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that indicates the vaccine being a combination vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label>whole organism vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>a role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. </obo:IAO_0000117>
+        <rdfs:label xml:lang="en">vaccine role</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_0000623 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000623"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that indicates the vaccine being a DNA vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">DNA vaccine role</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_0000624 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000624"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that indicates the vaccine being a subunit vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">subunit vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that indicates the vaccine being a conjugate vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">conjugate vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>licensed vaccine role is a regulation-assigned role that indicates that a vaccine obtains official approval for commercial production and selling on the market.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label>licensed vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>vaccine in clinical trial role is a regulation-assigned role that inheres in a vaccine that is currently in clinical trial.</obo:IAO_0000115>
+        <obo:IAO_0000116>In medical research, clinical trials are conducted to allow safety and efficacy data to be collected for new drugs or devices.</obo:IAO_0000116>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label>vaccine in clinical trial role</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_0000636 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000636"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that indicates the vaccine being a recombinant vector vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">recombinant vector vaccine role</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_0000728 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000728"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000728">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that indicates the vaccine being a RNA vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">RNA vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000807">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that indicates the vaccine being a toxoid vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">toxoid vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that is borne by an organism strain serving as a vaccine</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">vaccine strain role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>A vaccine role that indicates a clinical trial status of a vaccine</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">clinical trial vaccine role</rdfs:label>
+    </owl:Class>
     
 
 
@@ -916,7 +1047,14 @@
 
     <!-- http://purl.obolibrary.org/obo/VO_0004913 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004913"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>a vaccine role that inheres in a vaccine using virus-like particles (VLPs), multiprotein structures that mimic the organization and conformation of authentic native viruses but lack the viral genome, potentially yielding safer and cheaper vaccines.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>virus like particle vaccine role</obo:IAO_0000118>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/20923267/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">virus-like particle vaccine role</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1867,7 +2005,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 vaccine made from a recombinant adinvorius type-5 expressing SARS-CoV-2 S protein.</obo:IAO_0000115>
@@ -2591,6 +2729,66 @@
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>NCT04445389</obo:IAO_0000119>
         <rdfs:label>GX19 COVID19 Vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A SARS-CoV-2 subunit vaccine with a protein subunit.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:32973505</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">KBP-COVID-19 vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A DNA vaccine that expresses S protein from the pGX9501 vector</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID:32433465</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">INO-4800 vaccine</rdfs:label>
     </owl:Class>
     
 
