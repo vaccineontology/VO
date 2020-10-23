@@ -7,6 +7,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
@@ -680,6 +681,12 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/depicted_by -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depicted_by"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -758,21 +765,287 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002087">
+        <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
+        <obo:IAO_0000118>starts_at_end_of</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:comment xml:lang="en">X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)</rdfs:comment>
+        <rdfs:label xml:lang="en">immediately preceded by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002292 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002292"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002404 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002404"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002405 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002405">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">immediately causally downstream of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000016 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000016">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>a type of &apos;has vaccine component&apos; relation that specifies a vaccine conjugate protein for a specific vaccine</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has vaccine conjugate protein</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000138 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000138">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <obo:IAO_0000115>YH</obo:IAO_0000115>
+        <obo:IAO_0000115>a type of &apos;has vaccine vector&apos; relation that specifies a bacterial vaccine vector</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has bacterial vaccine vector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000270 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000270">
+        <obo:IAO_0000115>has_vaccine_contraindication is a relation that specifies contraindication of a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000116>This relation may be replaced by has_vaccine_allergen. We need to determine if any vaccine contraindicator is not a vaccine allergen.</obo:IAO_0000116>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label>has vaccine contraindication</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000281 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000281">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+        <obo:IAO_0000115>a type of &apos;has vaccine vector&apos; that is specifically for viral vaccine vector</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has viral vaccine vector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000369 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000369">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>a &apos;has vaccine component&apos; relation that specifies the plasmid used for development of a particular DNA vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has DNA vaccine plasmid</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000476 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000476">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0000787"/>
+        <obo:IAO_0000115>a &apos;has vaccine component&apos; relation that specifies a gene inserted to DNA vaccine plasmid for development of a particular DNA vaccine, and this gene encodes for a protein antigen. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has DNA vaccine antigen gene</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000520 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000520">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000115>an object property that defines a relation between a vaccine and its component</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:label>has vaccine component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000524 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000524">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>an object property that specifies a vaccine antigen</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:comment>This relation only works for those vaccine antigen that is physically part of a vaccine preparation. It does not include those antigens that are not part of vaccine. For example, a protein antigen expressed in a DNA vaccine is not a part of vaccine pe ser. In this case, the vaccine expresses the protein, but the gene is part of the vaccine, not the protein. For the case, we can use the relation &apos;DNA vaccine expresses protein antigen&apos; under the relation &apos;expresses&apos;. </rdfs:comment>
+        <rdfs:label>has vaccine antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000525 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000525">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+        <obo:IAO_0000115>a type of &apos;has vaccine antigen&apos; relation that is specifically for vaccine protective protein antigen used in subunit vaccine development</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:label>has subunit vaccine antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000527 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000527">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+        <obo:IAO_0000115>a type of &apos;has vaccine antigen&apos; relation that is specifically for vaccine protective antigen component</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:label>has vaccine protective antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000529 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000529">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>a type of &apos;has vaccine component&apos; relation that is specifically for vaccine adjuvant component</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:label>has vaccine adjuvant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000530 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000530">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0000599"/>
+        <obo:IAO_0000115>a type of &apos;has vaccine component&apos; relation that is specifically for vaccine vector component</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <rdfs:label>has vaccine vector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000531 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000531">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000115>a object property that specifies a relation between a vaccine and a vaccine allergen</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <rdfs:label>has vaccine allergen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000538 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000538">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <obo:IAO_0000117>a &apos;has vaccine component&apos; relation that is specifically used for vaccine preservative</obo:IAO_0000117>
+        <rdfs:label>has vaccine preservative</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000553 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000553">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000115>an object property that specifies a relation between a vaccine and its vaccinee</obo:IAO_0000115>
+        <rdfs:label>has vaccinee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000818 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000818">
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>an object property that specifies a relation between a vaccine and a vaccine virmugen. </obo:IAO_0000117>
+        <rdfs:comment>This is a short cut relation.
+Domain: vaccine
+Range: a gene
+
+Shortcut:
+is_specified_output_of some 
+(&apos;preparation of gene mutant vaccine&apos; and (has_specified_input some gene))</rdfs:comment>
+        <rdfs:label>has vaccine virmugen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001011 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001011">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000115>a shortcut relation that equals to:
+&apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine host role&apos; and (role_of some &apos;organism&apos; and has_disposition some disease)))))))).
+The domain of this relation is a vaccine.
+The range of this relation is a disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>immunization against disease</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">vaccine immunization against disease</obo:IAO_0000118>
+        <rdfs:label>immunizes against disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0001243 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115 xml:lang="en">a shortcut relation that equals to:
+&apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine host role&apos; and (role_of some &apos;organism&apos;)))))))).
+The domain of this relation is a vaccine.
+The range of this relation is a organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>immunization for host</obo:IAO_0000118>
+        <obo:IAO_0000118>vaccine immunization for host</obo:IAO_0000118>
+        <rdfs:label>immunizes host</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_0003355 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003355"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003355">
+        <obo:IAO_0000115>a shortcut relation that equals to:
+
+processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some (&apos;immunization target role&apos; and (role_of some &apos;MICROBE&apos;))))))))
+
+The domain of this relation is a vaccine. 
+The range of this relation is a microbe (a bacterium, a virus, a fungus, and a parasite)</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>immunization against microbe</obo:IAO_0000118>
+        <obo:IAO_0000118>vaccine immunization against microbe</obo:IAO_0000118>
+        <rdfs:label>immunizes against microbe</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004909 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0004909">
+        <obo:IAO_0000115>a shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">immunizes against disease process</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -799,6 +1072,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -808,6 +1087,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     
 
 
@@ -865,6 +1150,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000136"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000137">
@@ -901,6 +1210,12 @@
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <rdfs:label>whole organism vaccine role</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000599"/>
     
 
 
@@ -993,6 +1308,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000787"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000807 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000807">
@@ -1000,6 +1321,25 @@
         <obo:IAO_0000115>a vaccine role that indicates the vaccine being a toxoid vaccine. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">toxoid vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000136"/>
+        <obo:IAO_0000115>an adenovirus vaccine vector that uses an Adenovirus serotype 5 strain.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000118>human adenovirus 5 vaccine vector</obo:IAO_0000118>
+        <rdfs:label>adenovirus serotype 5 vaccine vector</rdfs:label>
+        <rdfs:seeAlso>NCBI Taxonomy ID: 28285</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -1041,7 +1381,14 @@
 
     <!-- http://purl.obolibrary.org/obo/VO_0004908 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004908"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004908">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -1062,12 +1409,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>&apos;A SARS DNA vaccine that is made from recombinant plasmid containing nucleocapsid protein (N) sequence constructed then expressed and purified from E. coli bacteria’</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5732</obo:IAO_0000119>
@@ -1082,12 +1423,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>&apos;A SARS DNA combination vaccine that is made from recombinant plasmids’ containing membrane protein (M) and nucleocapsid protein (N) sequences constructed then expressed and purified from E. coli bacteria’</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5733</obo:IAO_0000119>
@@ -1102,12 +1437,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>&apos;A SARS  DNA vaccine that is made from recombinant plasmid containing membrane protein (M) sequence constructed then expressed and purified from E. coli bacteria’</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5731</obo:IAO_0000119>
@@ -1122,12 +1451,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>&apos;A SARS DNA vaccine that is made from  oral live-attenuated auxotrophic S. typhimurium aroA strain SL7207 that contained CTLA4HingeSARS800 with SARS-CoV S protein‘</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5738</obo:IAO_0000119>
@@ -1162,12 +1485,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS DNA vaccine that is made from  CTLA4HingeSARS800 DNA with SARS-CoV S protein</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5737</obo:IAO_0000119>
@@ -1182,12 +1499,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS DNA vaccine that is made from tpa-optimize800 DNA with SARS-CoV S protein</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5736</obo:IAO_0000119>
@@ -1202,12 +1513,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS DNA vaccine made from  CTLA4HingeSARS800 DNA with SARS-CoV S protein</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5739</obo:IAO_0000119>
@@ -1222,12 +1527,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS recombinant vector vaccine that is made  from of the highly attenuated modified vaccinia virus Ankara (MVA) containing the gene encoding full-length SARS-CoV S</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5729</obo:IAO_0000119>
@@ -1242,12 +1541,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS recombinant vector vaccine that is made from  recombinant MA15 virulent mouse-adapted SARS-CoV (MA15) background of E-deleted vaccine candidate (rMA15-ΔE)</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5728</obo:IAO_0000119>
@@ -1262,12 +1555,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS recombinant vector vaccine that is made from a recombinant live-attenuated modified vaccinia virus Ankara (MVA) that had a full-length SARS-CoV envelope Spike (S) glycoprotein gene introduced into the deletion III region of the MVA genome.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5726</obo:IAO_0000119>
@@ -1282,12 +1569,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS subunit vaccine that has a combined adjuvant of aluminum hydroxide and CpG oligodeoxynucleotides.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5714</obo:IAO_0000119>
@@ -1304,8 +1585,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS inactivated whole virus vaccine that has a combined adjuvant that has a combined adjuvant of aluminum hydroxide and CpG oligodeoxynucleotides.</obo:IAO_0000115>
@@ -1322,12 +1603,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS recombinant vector vaccine made from a recombinant form of the highly attenuated modified vaccinia virus Ankara (MVA) containing the gene encoding full-length SARS-CoV S</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5725</obo:IAO_0000119>
@@ -1344,8 +1619,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS inactivated vaccine made from whole killed (inactivated by beta-propiolactone) SARS-CoV</obo:IAO_0000115>
@@ -1362,12 +1637,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS recombinant vector vaccine made of combination of two adenovirus-based vectors, one expressing the nucleocapsid (N) and the other expressing the spike (S) protein</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5727</obo:IAO_0000119>
@@ -1384,8 +1653,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector vaccine made of a recombinant adenoviral vector encoding the  the S1 extracellular domain of S protein</obo:IAO_0000115>
@@ -1404,8 +1673,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector vaccine made of a recombinant adenoviral vector encoding the full-length MERS-CoV S protein (Ad5.MERS-S)</obo:IAO_0000115>
@@ -1422,12 +1691,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS DNA vaccine made of plasmid  that encoded S1 subunit only</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5715</obo:IAO_0000119>
@@ -1442,19 +1705,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000623"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000624"/>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS combination vaccine made of made of the VRC8400 plasmid that encodes the full-length, membrane anchore MERS spike protein and a DNA vaccine that is a plasmid  that encoded S1 subunit</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5717</obo:IAO_0000119>
@@ -1469,12 +1719,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS DNA vaccine made of the VRC8400 plasmid that encodes the full-length, membrane anchore MERS spike protein</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5716</obo:IAO_0000119>
@@ -1489,12 +1733,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS subunit vaccine made of neutralizing monoclonal antibodiesagainst MERS-CoV which bind to the ribosomal binding domain (RBD) of the MERS-CoV S protein that was expressed by baculovirus-insect cell sf9-derived recombinant MERS-CoV.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5723</obo:IAO_0000119>
@@ -1509,12 +1747,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS DNA vaccine made of plasmid that encodes the first 725 amino acids of S from MERS-CoV</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5718</obo:IAO_0000119>
@@ -1529,12 +1761,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector virus made from chimeric virus based on the vesicular stomatitis virus (VSV) in which the G gene was replaced by MERS-CoV S gene (VSVΔG-MERS).</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5722</obo:IAO_0000119>
@@ -1549,12 +1775,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS subunit vaccine made of a neutralizing monoclonal antibodiesagainst MERS-CoV which bind to the N-terminal domain (NTD) of the MERS-CoV S1 subunit that was expressed by baculovirus-insect cell sf9-derived recombinant MERS-CoV.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5724</obo:IAO_0000119>
@@ -1571,8 +1791,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS inactivated vaccine made from inactivated whole virus by formalin and Ultraviolet radiation, hence Double Inactivated (DI) Vaccine</obo:IAO_0000115>
@@ -1609,12 +1829,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS VLP vaccine made from the SARS-CoV spike protein (S) and the Nucleocapsid (N), envelope (E) and membrane (M) proteins from mouse hepatitis coronavirus (MHV)</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5747</obo:IAO_0000119>
@@ -1631,8 +1845,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS inactivated vaccine made from SARS-CoV inactivated by ultraviolet radiation and a Toll-Like Receptor Agonist Adjuvant is added to prevent eosinophilic immunopathology</obo:IAO_0000115>
@@ -1651,8 +1865,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS inactivated vaccine made from SARS-CoV inactivated by ultraviolet radiation</obo:IAO_0000115>
@@ -1669,12 +1883,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector made from Venezuelan equine encephalitis replicons bearing epitopes of N protein from MERS. Crosslisted as SARS vaccine (VIOLINID:5754). Efficacy higher intranasally than subcutaneously.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5748</obo:IAO_0000119>
@@ -1689,12 +1897,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS recombinant vector vaccine made from Venezuelan equine encephalitis replicons (VRP) encoding a SARS-CoV CD4+ T cell epitope vaccinated intranasally. Crosslisted as MERS vaccine (VIOLINID:5789). Efficacy higher intranasally than subcutaneously.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5749</obo:IAO_0000119>
@@ -1709,12 +1911,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS DNA vaccine made of plasmid vaccines that encoded S1 subunit only</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5750</obo:IAO_0000119>
@@ -1729,12 +1925,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector vaccine made of live-attenuated measles virus (MV) vaccine encoding the MERS-CoV spike protein (MERS-S).</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5757</obo:IAO_0000119>
@@ -1749,12 +1939,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector vaccine made of live-attenuated measles virus (MV) vaccine encoding the MERS-CoV nucleocapsid protein (MERS-N).</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5760</obo:IAO_0000119>
@@ -1771,8 +1955,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005181"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector made of  Chimpanzee adenovirus Oxford 1 vector expressing S protein from MERS-CoV’</obo:IAO_0000115>
@@ -1789,12 +1973,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector made of Adenovirus type 41 used as vector for MERS-CoV S protein.’</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5760</obo:IAO_0000119>
@@ -1809,12 +1987,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS VLP vaccine made from  a recombinant baculovirus co-expresssing the spike S, envelope (E), and membrane (M) proteins of MERS.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5758</obo:IAO_0000119>
@@ -1829,12 +2001,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS DNA vaccine made from  encoding calrectulin linked to a SARS-CoV N protein</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5753</obo:IAO_0000119>
@@ -1849,12 +2015,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS recombinant vector vaccine made from a line attenuated and recombinant SARS-CoV lacking the E gene</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=3155</obo:IAO_0000119>
@@ -1869,12 +2029,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS recombinant vector made of MVvac2 (measle virus) expressing a soluble, truncated version of spike glycoprotein of MERS-CoV in its full length cloned into the MVvac2 genome and rescued.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5759</obo:IAO_0000119>
@@ -1891,8 +2045,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1921,12 +2075,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
@@ -1960,6 +2108,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005179"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
             </owl:Restriction>
@@ -1986,8 +2140,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2000,12 +2160,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 vaccine made from a recombinant adinvorius type-5 expressing SARS-CoV-2 S protein.</obo:IAO_0000115>
@@ -2025,12 +2179,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
             </owl:Restriction>
@@ -2038,7 +2186,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A MERS DNA Vaccine that is made of the plasmid pGX9109 expressing MERS S protein.</obo:IAO_0000115>
@@ -2055,12 +2203,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005146">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
@@ -2083,12 +2225,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9534"/>
             </owl:Restriction>
@@ -2107,12 +2243,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
@@ -2135,12 +2265,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5745"/>
             </owl:Restriction>
@@ -2159,12 +2283,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
@@ -2187,12 +2305,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5763"/>
             </owl:Restriction>
@@ -2211,12 +2323,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004900"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
@@ -2239,12 +2345,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012183"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
             </owl:Restriction>
@@ -2263,20 +2363,20 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV 2 (rSARS-CoV-2) subunit vaccine made of  nanoparticle composed of a  trimeric full-length SARS-CoV-2 spike glycoproteins and Matrix-M1 adjuvant.</obo:IAO_0000115>
@@ -2293,20 +2393,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 RNA vaccine that is made up of a lipid nanoparticle encapsulating a self-amplifiying of SARS-CoV-2 spike protein.</obo:IAO_0000115>
@@ -2330,14 +2424,14 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005179"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV2 RNA vaccine made of lipid nanoparticle with mRNA which encodes the S-2P antigen, made of the SARS-CoV-2 glycoprotein with a transmembrane anchor and intact S1-S2 cleavage site.</obo:IAO_0000115>
@@ -2354,20 +2448,20 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005181"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV2 recombinat vector vaccine made of a chimpanzee adenovirus-vectored vaccine (ChAdOx1 nCoV-19) expressing the SARS-CoV-2 spike protein</obo:IAO_0000115>
@@ -2385,20 +2479,20 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9526"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 recombinant viral vector vaccine composed of Ad26 vector expressing S protein.</obo:IAO_0000115>
@@ -2415,20 +2509,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 inactivated whole virus vaccine that is developed by the Wuhan Institute of Biological Products.</obo:IAO_0000115>
@@ -2445,20 +2533,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005179"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 mRNA vaccine made of lipid nanoparticle-encapsulated mRNA (mRNA-LNP) encoding the receptor binding domain (RBD) of SARS-CoV-2</obo:IAO_0000115>
@@ -2475,20 +2557,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/vo/ontorat/PR_P0DTC4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2  plasmid DNA vaccine that encodes the envelope protein.</obo:IAO_0000115>
@@ -2511,14 +2587,27 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0001081"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005178"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 recombinant viral vector vaccine composed of Ad26 and Ad5 vectors expressing S protein that lyophilised.</obo:IAO_0000115>
@@ -2535,20 +2624,20 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005179"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 investigational vaccine comprising a self-replicating (replicon) mRNA that encodes for the prefusion spike protein of 2019-nCoV formulated in a lipid nanoparticle</obo:IAO_0000115>
@@ -2565,20 +2654,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 DNA vaccine developed by AnGes.</obo:IAO_0000115>
@@ -2595,20 +2672,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 inactivated whole virus vaccine that produced in Vero cells that is developed by the Beijin Institute of Biological Products.</obo:IAO_0000115>
@@ -2625,20 +2696,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000504"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 inactivated whole virus vaccine that is developed by the Chinese Academy of Medical Sciences .</obo:IAO_0000115>
@@ -2655,20 +2720,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 mRNA vaccine developed by CureVac AG and CEPI.</obo:IAO_0000115>
@@ -2685,14 +2738,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005177"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV 2 recombinant viral vector using Gorilla Adenovirus that encodes for SARS-CoV-2 Spike protein.</obo:IAO_0000115>
@@ -2709,20 +2762,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A SARS-CoV-2 DNA vaccine experessing SARS-CoV-2 protein</obo:IAO_0000115>
@@ -2739,8 +2780,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2749,13 +2796,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A SARS-CoV-2 subunit vaccine with a protein subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>A SARS-CoV-2 subunit vaccine that is made of a protein subunit made of the RBD domain of the S protein.</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:32973505</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">KBP-COVID-19 vaccine</rdfs:label>
@@ -2769,8 +2810,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2779,16 +2820,63 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A DNA vaccine that expresses S protein from the pGX9501 vector</obo:IAO_0000115>
         <obo:IAO_0000119>PMID:32433465</obo:IAO_0000119>
         <dc:creator>Anthony Huffman</dc:creator>
         <rdfs:label xml:lang="en">INO-4800 vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000136"/>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">gorilla adenovirus vector</rdfs:label>
+        <rdfs:seeAlso>an adenovirus vaccine vector that uses a gorilla adenovirus.</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000136"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">adenovirus serotype 26 vaccine vector</rdfs:label>
+        <rdfs:seeAlso>NCBI Taxonomy ID: 46928</rdfs:seeAlso>
+        <foaf:depicted_by>an adenovirus vaccine vector that uses an Adenovirus serotype 26 strain.</foaf:depicted_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005180"/>
+        <obo:IAO_0000115>A nanoparticle vector composed of lipids.</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 20402623</obo:IAO_0000119>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">lipid nanoparticle vector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005180"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001055"/>
+        <obo:IAO_0000115>A chimpanzee adenovirus vaccine vector that  patented by Oxford and derived from ChAd serotype Y25 that exchanges the native E4 orf4, orf6 and orf6/7 genes for those from HAdV-C5</obo:IAO_0000115>
+        <obo:IAO_0000119>PMID: 29527232</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">chimpanzee adenovirus Oxford1 vaccine vector</rdfs:label>
+        <rdfs:seeAlso>ChAdOx1</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -2806,9 +2894,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
+    <!-- http://purl.obolibrary.org/obo/vo/ontorat/PR_P0DTC4 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/vo/ontorat/PR_P0DTC4"/>
 </rdf:RDF>
 
 
