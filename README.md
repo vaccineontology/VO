@@ -5,11 +5,15 @@ The Vaccine Ontology (VO) is a community-based ontology in the domain of vaccino
 
 See more information in the VO website: http://www.violinet.org/vaccineontology 
 
-### VO website in VIOLIN (default home page of VO for now): 
+### VO website in VIOLIN (default home page of VO): 
 http://www.violinet.org/vaccineontology 
 
 ### VO Source Link (free for downloading):
 OWL format: https://raw.githubusercontent.com/vaccineontology/VO/master/src/VO_merged.owl
+
+### VO in ontology repositories:
+Ontobee: http://www.ontobee.org/ontology/VO 
+BioPortal: https://bioportal.bioontology.org/ontologies/VO 
 
 ### Tracker link:  
 https://github.com/vaccineontology/VO/issues 
