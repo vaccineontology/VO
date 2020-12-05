@@ -26,7 +26,7 @@ http://obofoundry.org/ontology/vo.html
 - Google Scholar citations related to VO: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=%22Vaccine+Ontology%22. 
 
 Selected VO references:
-- Ozgur A, Xiang Z, Radev D, He Y. Mining of vaccine-associated IFN-γ gene interaction networks using the Vaccine Ontology. Journal of Biomedical Semantics. 2011, 2(Suppl 2):S8. PMID: [21624163](https://pubmed.ncbi.nlm.nih.gov/21624163/). PMCID: PMC3102897.
 - Y Zhang, C Tao, Y He, P Kanjamala, H Liu. Network-based analysis of vaccine-related associations reveals consistent knowledge with the vaccine ontology. Journal of Biomedical Semantics 2013, 4:33  doi:10.1186/2041-1480-4-33. PMID: [24209834](https://pubmed.ncbi.nlm.nih.gov/24209834/).
+- Hur J, Xiang Z, Feldman EL, He Y. Ontology-based Brucella vaccine literature indexing and systematic analysis of gene-vaccine association network. BMC Immunology. 12(1):49 2011 Aug 26. PMID: [21871085](https://pubmed.ncbi.nlm.nih.gov/21871085/). PMCID: PMC3180695. 
+- Ozgur A, Xiang Z, Radev D, He Y. Mining of vaccine-associated IFN-γ gene interaction networks using the Vaccine Ontology. Journal of Biomedical Semantics. 2011, 2(Suppl 2):S8. PMID: [21624163](https://pubmed.ncbi.nlm.nih.gov/21624163/). PMCID: PMC3102897.
 - Yongqun He, Lindsay Cowell, Alexander Diehl, Harry Mobley, Bjoern Peters, Alan Ruttenberg, Richard Scheuermann, Ryan Brinkman, Melanie Courtot, Chris Mungall, Zuoshuang Xiang, Fang Chen, Thomas Todd, Lesley Colby, Howard Rush, Trish Whetzel, Mark Musen, Brian Athey, Gilbert Omenn & Barry Smith. VO: Vaccine Ontology. The 1st International Conference on Biomedical Ontology (ICBO 2009), Buffalo, NY, USA. Nature Precedings. 2009. URL: https://www.nature.com/articles/npre.2009.3552.1  
-
