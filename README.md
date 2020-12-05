@@ -13,6 +13,7 @@ OWL format: https://raw.githubusercontent.com/vaccineontology/VO/master/src/VO_m
 
 ### VO in ontology repositories:
 Ontobee: http://www.ontobee.org/ontology/VO 
+
 BioPortal: https://bioportal.bioontology.org/ontologies/VO 
 
 ### Tracker link:  
