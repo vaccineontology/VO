@@ -12,9 +12,8 @@ http://www.violinet.org/vaccineontology
 OWL format: https://raw.githubusercontent.com/vaccineontology/VO/master/src/VO_merged.owl
 
 ### VO in ontology repositories:
-Ontobee: http://www.ontobee.org/ontology/VO 
-
-BioPortal: https://bioportal.bioontology.org/ontologies/VO 
+- Ontobee: http://www.ontobee.org/ontology/VO 
+- BioPortal: https://bioportal.bioontology.org/ontologies/VO 
 
 ### Tracker link:  
 https://github.com/vaccineontology/VO/issues 
