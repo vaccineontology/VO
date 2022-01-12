@@ -1,0 +1,7 @@
+#search all human vaccines in VO_inferred
+select distinct ?class ?label
+where {
+  	?class rdfs:label ?label .
+	?class rdfs:subClassOf ?o .
+    ?o owl:onProperty <http://purl.obolibrary.org/obo/VO_0001243>; owl:someValuesFrom <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+}
