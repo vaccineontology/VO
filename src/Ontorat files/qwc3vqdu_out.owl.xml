@@ -1,0 +1,2066 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000304 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001243 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003355 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003355"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bearer_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bearer_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10255"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10407"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10535"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10912"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11036"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11072"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11103"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11292"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11318"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_114727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_114727"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12092"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12637"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12814"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1491"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1513"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1678143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1678143"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1717"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1769"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_205488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2169991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2169991"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_36470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36470"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_666"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_780"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_90370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90370"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_VO_0000741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_VO_0000741"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000037"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000165"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000508"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000592"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000609"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000640"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000642"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000644"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000646"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000650"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000651"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000662"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000665"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000667"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000671"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000675"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000725"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000726"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000727"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000753"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000763"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000767"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000952"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001499"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004908"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005199"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005202"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005265"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005269"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006000">
+        <rdfs:label>adenovirus vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10535"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>adenovirus unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:82</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006001">
+        <rdfs:label>botulinum antitoxin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012187"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1491"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>botulinum antitoxin</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:27</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006002">
+        <rdfs:label>cholera vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000763"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>cholera unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:26</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006003">
+        <rdfs:label>cholera BivWC</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000763"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:173</rdfs:seeAlso>
+        <obo:IAO_0000118>cholera BivWC</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006004">
+        <rdfs:label>cholera live attenuated</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000763"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:174</rdfs:seeAlso>
+        <obo:IAO_0000118>cholera live attenuated</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006005">
+        <rdfs:label>diphtheria antitoxin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000508"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1717"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>diphtheria antitoxin</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:12</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006006">
+        <rdfs:label>Haemophilus influenzae type b vaccine conjugate unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000662"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_VO_0000741"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:17</rdfs:seeAlso>
+        <obo:IAO_0000118>Hib unspecified formulation</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006007">
+        <rdfs:label>Haemophilus influenzae type b vaccine PRP-D conjugate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000662"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_VO_0000741"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Hib (PRP-D)</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:46</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006008">
+        <rdfs:label>Hep A live attenuated-IM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000646"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Hep A live attenuated</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:169</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006009">
+        <rdfs:label>hepatitis A vaccine adult dosage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000646"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:52</rdfs:seeAlso>
+        <obo:IAO_0000118>Hep A adult</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006010">
+        <rdfs:label>hepatitis A vaccine pediatric dosage unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000646"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Hep A pediatric unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:31</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006011">
+        <rdfs:label>hepatitis A vaccine pediatric/adolescent dosage 3 dose schedule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000646"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:84</rdfs:seeAlso>
+        <obo:IAO_0000118>Hep A ped/adol 3 dose</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006012">
+        <rdfs:label>hepatitis A vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000646"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Hep A unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:85</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006013">
+        <rdfs:label>Hepatitis B vaccine (recombinant) 3-antigen Al(OH)3 adjuvanted</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000644"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10407"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:220</rdfs:seeAlso>
+        <obo:IAO_0000118>HepB recombinant 3-antigen Al(OH)3</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006014">
+        <rdfs:label>hepatitis B vaccine adolescent/high risk infant dosage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000644"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10407"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:42</rdfs:seeAlso>
+        <obo:IAO_0000118>Hep B adolescent/high risk infant</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006015">
+        <rdfs:label>hepatitis B vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000644"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10407"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Hep B unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:45</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006016">
+        <rdfs:label>hepatitis C vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:58</rdfs:seeAlso>
+        <obo:IAO_0000118>Hep C</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006017">
+        <rdfs:label>hepatitis E vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1678143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:59</rdfs:seeAlso>
+        <obo:IAO_0000118>Hep E</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006018">
+        <rdfs:label>herpes simplex virus type 2 vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000727"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>herpes simplex 2</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:60</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006019">
+        <rdfs:label>Historical record of a typhus vaccination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000767"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_780"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:131</rdfs:seeAlso>
+        <obo:IAO_0000118>typhus historical</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006020">
+        <rdfs:label>HPV unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000667"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:137</rdfs:seeAlso>
+        <obo:IAO_0000118>HPV unspecified formulation</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006021">
+        <rdfs:label>Human Rabies vaccine from human diploid cell culture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000650"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Rabies - IM Diploid cell culture</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:175</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006022">
+        <rdfs:label>influenza nasal unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>influenza nasal unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:151</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006023">
+        <rdfs:label>influenza virus vaccine split virus (incl. purified surface antigen)-retired CODE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>influenza split (incl. purified surface antigen)</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:15</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006024">
+        <rdfs:label>influenza virus vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>influenza unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:88</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006025">
+        <rdfs:label>influenza virus vaccine whole virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:16</rdfs:seeAlso>
+        <obo:IAO_0000118>influenza whole</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006026">
+        <rdfs:label>Japanese Encephalitis vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000665"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Japanese Encephalitis unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:129</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006027">
+        <rdfs:label>Junin virus vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2169991"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:63</rdfs:seeAlso>
+        <obo:IAO_0000118>Junin virus</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006028">
+        <rdfs:label>leprosy vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000592"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1769"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>leprosy</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:65</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006029">
+        <rdfs:label>meningococcal A polysaccharide vaccine (non-US)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:191</rdfs:seeAlso>
+        <obo:IAO_0000118>meningococcal A polysaccharide (non-US)</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006030">
+        <rdfs:label>meningococcal AC polysaccharide vaccine (non-US)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:192</rdfs:seeAlso>
+        <obo:IAO_0000118>meningococcal AC polysaccharide (non-US)</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006031">
+        <rdfs:label>meningococcal ACWY vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:108</rdfs:seeAlso>
+        <obo:IAO_0000118>meningococcal ACWY unspecified formulation</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006032">
+        <rdfs:label>meningococcal B unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:164</rdfs:seeAlso>
+        <obo:IAO_0000118>meningococcal B unspecified</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006033">
+        <rdfs:label>meningococcal C conjugate vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:103</rdfs:seeAlso>
+        <obo:IAO_0000118>meningococcal C conjugate</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006034">
+        <rdfs:label>meningococcal vaccine of unknown formulation and unknown serogroups</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:167</rdfs:seeAlso>
+        <obo:IAO_0000118>meningococcal unknown serogroups</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006035">
+        <rdfs:label>meningococcal polysaccharide (groups A C Y W-135) tetanus toxoid conjugate vaccine 0.5mL dose preservative free</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:203</rdfs:seeAlso>
+        <obo:IAO_0000118>meningococcal polysaccharide (groups A C Y W-135) TT conjugate</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006036">
+        <rdfs:label>Meningococcal MCV4 unspecified conjugate formulation(groups A C Y and W-135)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:147</rdfs:seeAlso>
+        <obo:IAO_0000118>meningococcal MCV4 unspecified formulation</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006037">
+        <rdfs:label>Novel influenza-H1N1-09 all formulations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_114727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Novel Influenza-H1N1-09 all formulations</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:128</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006038">
+        <rdfs:label>Novel influenza-H1N1-09 injectable</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_114727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Novel influenza-H1N1-09</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:127</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006039">
+        <rdfs:label>Novel Influenza-H1N1-09 live virus for nasal administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_114727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:125</rdfs:seeAlso>
+        <obo:IAO_0000118>Novel Influenza-H1N1-09 nasal</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006040">
+        <rdfs:label>Novel influenza-H1N1-09 preservative-free injectable</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_114727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Novel influenza-H1N1-09 preservative-free</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:126</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006041">
+        <rdfs:label>Pneumococcal conjugate vaccine 15-valent (PCV15) polysaccharide CRM197 conjugate adjuvant preservative free</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000675"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Pneumococcal conjugate PCV15 polysaccharide CRM197 conjugate adjuvant PF</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:215</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006042">
+        <rdfs:label>Pneumococcal conjugate vaccine 20-valent (PCV20) polysaccharide CRM197 conjugate adjuvant preservative free</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000675"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:216</rdfs:seeAlso>
+        <obo:IAO_0000118>c conjugate PCV20 polysaccharide CRM197 conjugate adjuvant PF</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006043">
+        <rdfs:label>pneumococcal conjugate vaccine 10 valent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000675"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:177</rdfs:seeAlso>
+        <obo:IAO_0000118>PCV10</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006044">
+        <rdfs:label>Pneumococcal Conjugate unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000675"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Pneumococcal Conjugate unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:152</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006045">
+        <rdfs:label>rabies vaccine for intradermal injection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000650"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:40</rdfs:seeAlso>
+        <obo:IAO_0000118>rabies intradermal injection</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006046">
+        <rdfs:label>rabies vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000650"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:90</rdfs:seeAlso>
+        <obo:IAO_0000118>rabies unspecified formulation</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006047">
+        <rdfs:label>respiratory syncytial virus monoclonal antibody (motavizumab) intramuscular</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000753"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12814"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>RSV-MAb (new)</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:145</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006048">
+        <rdfs:label>respiratory syncytial virus monoclonal antibody (palivizumab) intramuscular</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000753"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12814"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>RSV-MAb</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:93</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006049">
+        <rdfs:label>rheumatic fever vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000165"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_36470"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>rheumatic fever</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:72</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006050">
+        <rdfs:label>rotavirus vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10912"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:122</rdfs:seeAlso>
+        <obo:IAO_0000118>rotavirus unspecified formulation</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006051">
+        <rdfs:label>rotavirus live tetravalent vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10912"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:74</rdfs:seeAlso>
+        <obo:IAO_0000118>rotavirus tetravalent</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006052">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine D614 prefusion spike recombinant protein subunit (CoV2 preS dTM) AS03 adjuvant added preservative free 10mcg/0.5mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 D614 recomb preS dTM AS03 adjuvant add PF 10mcg/0.5mL</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:226</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006053">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine D614 prefusion spike recombinant protein subunit (CoV2 preS dTM) AS03 adjuvant added preservative free 5mcg/0.5mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:225</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 D614 recomb preS dTM AS03 adjuvant add PF 5mcg/0.5mL</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006054">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP bivalent booster preservative free 10 mcg/0.2 mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S bivalent booster PF 10 mcg/0.2 mL</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:230</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006055">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP bivalent booster preservative free 10 mcg/0.2 mL dose tris-sucrose formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:301</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S bivalent booster PF 10 mcg/0.2 mL dose</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006056">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP bivalent booster preservative free 30 mcg/0.3 mL dose tris-sucrose formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S bivalent booster PF 30 mcg/0.3 mL dose</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:300</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006057">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP bivalent booster preservative free 50 mcg/0.5 mL or 25 mcg/0.25 mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:229</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S bivalent booster PF 50 mcg/0.5 mL or 25mcg/0.25 mL dose</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006058">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP bivalent preservative free 3 mcg/0.2 mL dose tris-sucrose formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S bivalent PF 3 mcg/0.2 mL dose</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:302</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006059">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP preservative free 10 mcg/0.2mL dose tris-sucrose formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S PF 10 mcg/0.2 mL dose tris-sucrose</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:218</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006060">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP preservative free 100 mcg/0.5mL dose or 50 mcg/0.25mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:207</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S PF 100 mcg/0.5mL dose or 50 mcg/0.25mL dose</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006061">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP preservative free 3 mcg/0.2mL dose tris-sucrose formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S PF 3 mcg/0.2 mL dose tris-sucrose</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:219</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006062">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP preservative free 30 mcg/0.3mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:208</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S PF 30 mcg/0.3 mL dose</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006063">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP preservative free 30 mcg/0.3mL dose tris-sucrose formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S PF 30 mcg/0.3 mL dose tris-sucrose</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:217</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006064">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP preservative free 50 mcg/0.5 mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S PF 50 mcg/0.5 mL dose</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:221</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006065">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP preservative free pediatric 25 mcg/0.25 mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S PF pediatric 25 mcg/0.25 mL dose</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:228</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006066">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine mRNA spike protein LNP preservative free pediatric 50 mcg/0.5 mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:227</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 mRNA LNP-S PF pediatric 50 mcg/0.5 mL dose</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006067">
+        <rdfs:label>SARS-COV-2 (COVID-19) vaccine UNSPECIFIED</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:213</rdfs:seeAlso>
+        <obo:IAO_0000118>SARS-COV-2 (COVID-19) vaccine UNSPECIFIED</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006068">
+        <rdfs:label>SARS-COV-2 COVID-19 mRNA bivalent original/Omicron BA.1 Non-US Vaccine (Spikevax Bivalent) Moderna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA bivalent original/Omicron BA.1 Non-US Vaccine (Spikevax Bivalent) Moderna</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:519</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006069">
+        <rdfs:label>SARS-COV-2 COVID-19 mRNA bivalent original/Omicron BA.1 Non-US Vaccine Product (Comirnaty Bivalent) Pfizer-BioNTech</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 mRNA bivalent original/Omicron BA.1 Non-US Vaccine Product Pfizer-BioNTech</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:520</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006070">
+        <rdfs:label>SARS-COV-2 COVID-19 Non-US Vaccine Specific Product Unknown</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:500</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 Non-US Vaccine Product Unknown</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006071">
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product  (Jiangsu Province Centers for Disease Control and Prevention)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005202"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:508</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006072">
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Anhui Zhifei Longcom Biopharmaceutical + Institute of Microbiology Chinese Academy of Sciences)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005202"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro Chinese Acad of Sciences)</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:507</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006073">
+        <rdfs:label>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Anhui Zhifei Longcom Zifivax)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005202"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:513</rdfs:seeAlso>
+        <obo:IAO_0000118>SARS-COV-2 COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Zifivax)</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006074">
+        <rdfs:label>SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (CONVIDECIA) CanSino Biological Inc./Beijing Institute of Biotechnology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005199"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:506</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006075">
+        <rdfs:label>SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (Sputnik Light)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005199"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:504</rdfs:seeAlso>
+        <obo:IAO_0000118>COVID-19 VVnr Non-US Vaccine (Sputnik Light)</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006076">
+        <rdfs:label>tetanus toxoid not adsorbed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000640"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:142</rdfs:seeAlso>
+        <obo:IAO_0000118>tetanus toxoid not adsorbed</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006077">
+        <rdfs:label>tetanus toxoid unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000640"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>tetanus toxoid unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:112</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006078">
+        <rdfs:label>Tick-borne encephalitis vaccine (non-US)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000952"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Tick-borne encephalitis vaccine (non-US)</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:77</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006079">
+        <rdfs:label>Tick-borne encephalitis vaccine inactivated preservative free 0.25mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000952"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:223</rdfs:seeAlso>
+        <obo:IAO_0000118>Tick-borne encephalitis inactivated PF 0.25mL</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006080">
+        <rdfs:label>Tick-borne encephalitis vaccine inactivated preservative free 0.5mL dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000952"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:224</rdfs:seeAlso>
+        <obo:IAO_0000118>Tick-borne encephalitis inactivated PF 0.5mL</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006081">
+        <rdfs:label>Tick-borne encephalitis vaccine unspecified</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000952"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:222</rdfs:seeAlso>
+        <obo:IAO_0000118>Tick-borne encephalitis unspecified</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006082">
+        <rdfs:label>Typhoid conjugate vaccine (non-US)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000671"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_90370"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:190</rdfs:seeAlso>
+        <obo:IAO_0000118>Typhoid conjugate vaccine (TCV)</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006083">
+        <rdfs:label>typhoid vaccine parenteral acetone-killed dried (U.S. military)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000671"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_90370"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:53</rdfs:seeAlso>
+        <obo:IAO_0000118>typhoid parenteral AKD (U.S. military)</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006084">
+        <rdfs:label>typhoid vaccine parenteral other than acetone-killed dried</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000671"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_90370"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>typhoid parenteral</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:41</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006085">
+        <rdfs:label>typhoid vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000671"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_90370"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>typhoid unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:91</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006086">
+        <rdfs:label>vaccinia (smallpox) vaccine diluted</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000651"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10255"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:105</rdfs:seeAlso>
+        <obo:IAO_0000118>vaccinia (smallpox) diluted</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006087">
+        <rdfs:label>Vaccinia smallpox monkeypox vaccine live attenuated preservative free subcutaneous or intradermal injection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000651"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10255"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>Vaccinia smallpox monkeypox vaccine live PF SQ or ID injection</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:206</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006088">
+        <rdfs:label>Venezuelan equine encephalitis vaccine unspecified formulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001499"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>VEE unspecified formulation</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:92</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006089">
+        <rdfs:label>Venezuelan equine encephalitis inactivated</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001499"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>VEE inactivated</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:81</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006090">
+        <rdfs:label>dengue fever vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000725"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12637"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000118>dengue fever</obo:IAO_0000118>
+        <rdfs:seeAlso>CVX:56</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006091">
+        <rdfs:label>Ebola unspecified</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000726"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:seeAlso>CVX:214</rdfs:seeAlso>
+        <obo:IAO_0000118>Ebola unspecified</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012187"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+
