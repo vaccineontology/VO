@@ -116,6 +116,508 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0004227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:9725239</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3053</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/369</obo:IAO_0000233>
+        <obo:OGG_0000000006>1489079</obo:OGG_0000000006>
+        <obo:VO_0001818>3053</obo:VO_0001818>
+        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
+        <rdfs:comment>Gene name: E7</rdfs:comment>
+        <rdfs:label>Cancer Vaccine using E7 protein of human papillomavirus 16 and Algammulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:10931134</obo:IAO_0000119>
+        <obo:IAO_0000119>PubMed:9725239</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3054</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/370</obo:IAO_0000233>
+        <obo:OGG_0000000006>1489079</obo:OGG_0000000006>
+        <obo:VO_0001818>3054</obo:VO_0001818>
+        <obo:VO_0005500>Licensed</obo:VO_0005500>
+        <rdfs:comment>Gene name: E7</rdfs:comment>
+        <rdfs:label>Cancer Vaccine using E7 protein of human papillomavirus 16 and Quil-A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:28706878</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3081</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/241</obo:IAO_0000233>
+        <obo:OGG_0000000006>1489079</obo:OGG_0000000006>
+        <obo:VO_0001818>3081</obo:VO_0001818>
+        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
+        <rdfs:comment>Gene name: E7</rdfs:comment>
+        <rdfs:label>attenuated Listeria expressing cancer antigen vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An autologous dendritic cell vaccine with potential immunostimulatory activity. Dendritic cells harvested from a prostate cancer patient are transfected with the mRNA encoding for prostate specific antigen (PSA), a tumor marker secreted by prostatic epithelial and ductal cells. When reintroduced back to the patient, these PSA RNA pulsed autologous dendritic cells may elicit a cytotoxic T-cell (CTL) response against PSA-positive prostate cancer cells. </obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3643</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/175</obo:IAO_0000233>
+        <obo:VO_0001818>3643</obo:VO_0001818>
+        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
+        <rdfs:label>Glypican-3-derived peptide vaccine for human hepatocellular carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:15879128</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3695</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/316</obo:IAO_0000233>
+        <obo:OGG_0000000006>8132375</obo:OGG_0000000006>
+        <obo:VO_0001818>3695</obo:VO_0001818>
+        <obo:VO_0005500>Research</obo:VO_0005500>
+        <rdfs:comment>Gene name: Fragment C from tetanus toxin</rdfs:comment>
+        <rdfs:label>Cancer DNA vaccine p.DOM-AH1 encoding fragment C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:18273615</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3696</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/378</obo:IAO_0000233>
+        <obo:OGG_0000000006>21423</obo:OGG_0000000006>
+        <obo:VO_0001818>3696</obo:VO_0001818>
+        <obo:VO_0005500>Research</obo:VO_0005500>
+        <rdfs:comment>Gene name: E2A</rdfs:comment>
+        <rdfs:label>Carcinoma DNA vaccine pVAX/E2A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:12384547</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3698</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/292</obo:IAO_0000233>
+        <obo:OGG_0000000006>1945467</obo:OGG_0000000006>
+        <obo:VO_0001818>3698</obo:VO_0001818>
+        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
+        <rdfs:comment>Gene name: Immunoglobulin</rdfs:comment>
+        <rdfs:label>B-cell lymphoma DNA vaccine VCL-1642.XXX encoding a chimeric immunoglobulin molecule onsisting of tumor-specific variable (Id) regions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:12231517</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3699</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/387</obo:IAO_0000233>
+        <obo:OGG_0000000006>1048</obo:OGG_0000000006>
+        <obo:OGG_0000000006>128168861</obo:OGG_0000000006>
+        <obo:VO_0001818>3699</obo:VO_0001818>
+        <obo:VO_0005500>Research</obo:VO_0005500>
+        <rdfs:comment>Gene name: S|CEA</rdfs:comment>
+        <rdfs:label>Colorectal cancer DNA vaccine pCEA/HBsAg encoding carcinoembryonic antigen and hepatitis B surface antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004429">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:12496961</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3700</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/294</obo:IAO_0000233>
+        <obo:OGG_0000000006>22178</obo:OGG_0000000006>
+        <obo:OGG_0000000006>7306</obo:OGG_0000000006>
+        <obo:VO_0001818>3700</obo:VO_0001818>
+        <obo:VO_0005500>Research</obo:VO_0005500>
+        <rdfs:comment>Gene name: TYRP1|Gene name: Tyrp1</rdfs:comment>
+        <rdfs:label>B16 melanoma DNA vaccine pSin-hTRP-1 encoding TRP-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004430">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>PubMed:12496961</obo:IAO_0000119>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3701</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/293</obo:IAO_0000233>
+        <obo:OGG_0000000006>22178</obo:OGG_0000000006>
+        <obo:OGG_0000000006>7306</obo:OGG_0000000006>
+        <obo:VO_0001818>3701</obo:VO_0001818>
+        <obo:VO_0005500>Research</obo:VO_0005500>
+        <rdfs:comment>Gene name: TYRP1|Gene name: Tyrp1</rdfs:comment>
+        <rdfs:label>B16 melanoma DNA vaccine pCMV-hTRP-1 encoding TRP-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004432">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3713</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/518</obo:IAO_0000233>
+        <obo:VO_0001818>3713</obo:VO_0001818>
+        <rdfs:comment>Gene name: Survivin</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine VR-S8/VR-IL2/AD-S8 encoding survivin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004433 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004433">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3717</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/512</obo:IAO_0000233>
+        <obo:OGG_0000000006>2922</obo:OGG_0000000006>
+        <obo:VO_0001818>3717</obo:VO_0001818>
+        <rdfs:comment>Gene name: GRP</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine pCR3.1-VS-HSP65-TP-GRP6-M2 encoding 6 tandem repeats of GRP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004434">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3718</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/514</obo:IAO_0000233>
+        <obo:OGG_0000000006>12981</obo:OGG_0000000006>
+        <obo:OGG_0000000006>4100</obo:OGG_0000000006>
+        <obo:VO_0001818>3718</obo:VO_0001818>
+        <rdfs:comment>Gene name: GM-CSF|Gene name: MAGEA1</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine pNL3-MAGE-1-GM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3719</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/513</obo:IAO_0000233>
+        <obo:OGG_0000000006>12981</obo:OGG_0000000006>
+        <obo:OGG_0000000006>4100</obo:OGG_0000000006>
+        <obo:VO_0001818>3719</obo:VO_0001818>
+        <rdfs:comment>Gene name: GM-CSF|Gene name: MAGEA1</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine pN4a-MAGE-1-GM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004436">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3720</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/516</obo:IAO_0000233>
+        <obo:OGG_0000000006>84004</obo:OGG_0000000006>
+        <obo:VO_0001818>3720</obo:VO_0001818>
+        <rdfs:comment>Gene name: Mcam</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine SINCp c-muMUC18 encoding MCAM/MUC18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004437">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3723</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/485</obo:IAO_0000233>
+        <obo:OGG_0000000006>17829</obo:OGG_0000000006>
+        <obo:OGG_0000000006>4582</obo:OGG_0000000006>
+        <obo:VO_0001818>3723</obo:VO_0001818>
+        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
+        <rdfs:comment>Gene name: MUC1|Gene name: Muc1</rdfs:comment>
+        <rdfs:label>Lung metastasis DNA vaccine pCEP4-MUC1 encoding MUC1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004438">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3724</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/511</obo:IAO_0000233>
+        <obo:OGG_0000000006>6490</obo:OGG_0000000006>
+        <obo:VO_0001818>3724</obo:VO_0001818>
+        <rdfs:comment>Gene name: gp100</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine hugp100 encoding gp100</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3726</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/519</obo:IAO_0000233>
+        <obo:OGG_0000000006>20431</obo:OGG_0000000006>
+        <obo:VO_0001818>3726</obo:VO_0001818>
+        <rdfs:comment>Gene name: Pmel17</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine VR1012/mPmel17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3728</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/521</obo:IAO_0000233>
+        <obo:OGG_0000000006>22178</obo:OGG_0000000006>
+        <obo:VO_0001818>3728</obo:VO_0001818>
+        <rdfs:comment>Gene name: TRP-1</rdfs:comment>
+        <rdfs:label>Melanoma recombinant vector vaccine rVVmTRP-1 encoding TRP-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3730</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/515</obo:IAO_0000233>
+        <obo:OGG_0000000006>104042</obo:OGG_0000000006>
+        <obo:OGG_0000000006>55118</obo:OGG_0000000006>
+        <obo:VO_0001818>3730</obo:VO_0001818>
+        <rdfs:comment>Gene name: Ubiquitin|Gene name: Trp2</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine pUB-TRP-2 encoding a fusion protein linking murine ubiquitin (UB) to the N-terminus of the full-length mTRP-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3768</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/520</obo:IAO_0000233>
+        <obo:OGG_0000000006>7299</obo:OGG_0000000006>
+        <obo:VO_0001818>3768</obo:VO_0001818>
+        <rdfs:comment>Gene name: Tyrosinase</rdfs:comment>
+        <rdfs:label>Melanoma DNA vaccine xenogeneic DNA encoding murine tyrosinase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <obo:IAO_0000115>The approach focuses on the use of five primary patient derived melanoma cells (MEL-2, MEL-V, 3MM, KFM, and GLM-2). These cells display differential in vitro migratory and invasive properties as well as have the ability to form solid tumors when implanted into BALB/c nude mice. The retention of the innate phenotype of these primary patient derived cells together with the expression of a multitude repertoire of melanoma associated antigens offers a novel opportunity to target melanoma so as to avoid immune evasion</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=4064</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/557</obo:IAO_0000233>
+        <obo:OGG_0000000006>2315</obo:OGG_0000000006>
+        <obo:OGG_0000000006>6490</obo:OGG_0000000006>
+        <obo:VO_0001818>4064</obo:VO_0001818>
+        <rdfs:comment>Gene name: MLANA|Gene name: gp100</rdfs:comment>
+        <rdfs:label>Multivalent immunotherapeutic vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0005425 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005425"/>
@@ -6460,7 +6962,7 @@
         <obo:VO_0001818>4999</obo:VO_0001818>
         <obo:VO_0005500>Clinical trial</obo:VO_0005500>
         <rdfs:comment>Gene name: Prostate-specific membrane antigen</rdfs:comment>
-        <rdfs:label>Adenovector-transduced AP1903-inducible MyD88/CD40-expressing Autologous PSMA-specific Prostate Cancer</rdfs:label>
+        <rdfs:label>Adenovector-transduced AP1903-inducible MyD88/CD40-expressing Autologous PSMA-specific Prostate Cancer Vaccine BPX-201</rdfs:label>
     </owl:Class>
     
 
@@ -8417,32 +8919,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0007273 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007273">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:28706878</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3081</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/241</obo:IAO_0000233>
-        <obo:OGG_0000000006>1489079</obo:OGG_0000000006>
-        <obo:VO_0001818>3081</obo:VO_0001818>
-        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
-        <rdfs:comment>Gene name: E7</rdfs:comment>
-        <rdfs:label>attenuated Listeria expressing cancer antigen vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0007274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007274">
@@ -9097,7 +9573,7 @@
         <obo:VO_0001818>5266</obo:VO_0001818>
         <obo:VO_0005500>Clinical trial</obo:VO_0005500>
         <rdfs:comment>Gene name: HSPA4</rdfs:comment>
-        <rdfs:label>Autologous GM-CSF-Secreting Lethally Irradiated Leukemia Cell Vaccine</rdfs:label>
+        <rdfs:label>Autologous Heat-Shock Protein 70 Peptide Vaccine AG-858</rdfs:label>
     </owl:Class>
     
 
@@ -9744,92 +10220,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0007323 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:12384547</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=1683</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/292</obo:IAO_0000233>
-        <obo:OGG_0000000006>1945467</obo:OGG_0000000006>
-        <obo:VO_0001818>1683</obo:VO_0001818>
-        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
-        <rdfs:comment>Gene name: Immunoglobulin</rdfs:comment>
-        <rdfs:label>B-cell lymphoma DNA vaccine VCL-1642.XXX encoding a chimeric immunoglobulin molecule onsisting of tumor-specific variable (Id) regions</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007324 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007324">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:12496961</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3701</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/293</obo:IAO_0000233>
-        <obo:OGG_0000000006>22178</obo:OGG_0000000006>
-        <obo:OGG_0000000006>7306</obo:OGG_0000000006>
-        <obo:VO_0001818>3701</obo:VO_0001818>
-        <obo:VO_0005500>Research</obo:VO_0005500>
-        <rdfs:comment>Gene name: TYRP1|Gene name: Tyrp1</rdfs:comment>
-        <rdfs:label>B16 melanoma DNA vaccine pCMV-hTRP-1 encoding TRP-1</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:12496961</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3700</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/294</obo:IAO_0000233>
-        <obo:OGG_0000000006>22178</obo:OGG_0000000006>
-        <obo:OGG_0000000006>7306</obo:OGG_0000000006>
-        <obo:VO_0001818>3700</obo:VO_0001818>
-        <obo:VO_0005500>Research</obo:VO_0005500>
-        <rdfs:comment>Gene name: TYRP1|Gene name: Tyrp1</rdfs:comment>
-        <rdfs:label>B16 melanoma DNA vaccine pSin-hTRP-1 encoding TRP-1</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0007326 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007326">
@@ -10127,38 +10517,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0007337 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007337">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:15879128</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3695</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/316</obo:IAO_0000233>
-        <obo:OGG_0000000006>8132375</obo:OGG_0000000006>
-        <obo:VO_0001818>3695</obo:VO_0001818>
-        <obo:VO_0005500>Research</obo:VO_0005500>
-        <rdfs:comment>Gene name: Fragment C from tetanus toxin</rdfs:comment>
-        <rdfs:label>Cancer DNA vaccine p.DOM-AH1 encoding fragment C</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0007338 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007338">
@@ -10400,59 +10758,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0007346 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007346">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:9725239</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3053</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/369</obo:IAO_0000233>
-        <obo:OGG_0000000006>1489079</obo:OGG_0000000006>
-        <obo:VO_0001818>3053</obo:VO_0001818>
-        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
-        <rdfs:comment>Gene name: E7</rdfs:comment>
-        <rdfs:label>Cancer Vaccine using E7 protein of human papillomavirus 16 and Algammulin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007347 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007347">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:10931134</obo:IAO_0000119>
-        <obo:IAO_0000119>PubMed:9725239</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3054</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/370</obo:IAO_0000233>
-        <obo:OGG_0000000006>1489079</obo:OGG_0000000006>
-        <obo:VO_0001818>3054</obo:VO_0001818>
-        <obo:VO_0005500>Licensed</obo:VO_0005500>
-        <rdfs:comment>Gene name: E7</rdfs:comment>
-        <rdfs:label>Cancer Vaccine using E7 protein of human papillomavirus 16 and Quil-A</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0007348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007348">
@@ -10632,32 +10937,6 @@
         <obo:VO_0005500>Clinical trial</obo:VO_0005500>
         <rdfs:comment>Gene name: CEACAM5 (CEA)</rdfs:comment>
         <rdfs:label>Carcinoembryonic Antigen RNA-pulsed DC Cancer Vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007355 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007355">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:18273615</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3696</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/378</obo:IAO_0000233>
-        <obo:OGG_0000000006>21423</obo:OGG_0000000006>
-        <obo:VO_0001818>3696</obo:VO_0001818>
-        <obo:VO_0005500>Research</obo:VO_0005500>
-        <rdfs:comment>Gene name: E2A</rdfs:comment>
-        <rdfs:label>Carcinoma DNA vaccine pVAX/E2A</rdfs:label>
     </owl:Class>
     
 
@@ -10873,33 +11152,6 @@
         <obo:VO_0005500>Clinical trial</obo:VO_0005500>
         <rdfs:comment>Gene name: UL83</rdfs:comment>
         <rdfs:label>CMVpp65/gB Plasmid Vaccine ASP0113</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007364 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007364">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
-        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
-        <obo:IAO_0000119>PubMed:12231517</obo:IAO_0000119>
-        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=3699</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/387</obo:IAO_0000233>
-        <obo:OGG_0000000006>1048</obo:OGG_0000000006>
-        <obo:OGG_0000000006>128168861</obo:OGG_0000000006>
-        <obo:VO_0001818>3699</obo:VO_0001818>
-        <obo:VO_0005500>Research</obo:VO_0005500>
-        <rdfs:comment>Gene name: S|CEA</rdfs:comment>
-        <rdfs:label>Colorectal cancer DNA vaccine pCEA/HBsAg encoding carcinoembryonic antigen and hepatitis B surface antigen</rdfs:label>
     </owl:Class>
     
 
@@ -11756,28 +12008,6 @@
         <obo:OGG_0000000006>2315</obo:OGG_0000000006>
         <rdfs:comment>Gene name: MLANA-Dupli|Gene name: ERBB2</rdfs:comment>
         <rdfs:label>Modified Vaccinia Ankara (Bavarian Nordic)-HER2 Vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007400 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007400">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An autologous dendritic cell vaccine with potential immunostimulatory activity. Dendritic cells harvested from a prostate cancer patient are transfected with the mRNA encoding for prostate specific antigen (PSA), a tumor marker secreted by prostatic epithelial and ductal cells. When reintroduced back to the patient, these PSA RNA pulsed autologous dendritic cells may elicit a cytotoxic T-cell (CTL) response against PSA-positive prostate cancer cells. </obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/175</obo:IAO_0000233>
-        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
-        <rdfs:label>Glypican-3-derived peptide vaccine for human hepatocellular carcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -13029,30 +13259,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0007462 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007462">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/485</obo:IAO_0000233>
-        <obo:OGG_0000000006>17829</obo:OGG_0000000006>
-        <obo:OGG_0000000006>4582</obo:OGG_0000000006>
-        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
-        <rdfs:comment>Gene name: MUC1|Gene name: Muc1</rdfs:comment>
-        <rdfs:label>Lung metastasis DNA vaccine pCEP4-MUC1 encoding MUC1</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0007463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007463">
@@ -14133,105 +14339,6 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0007512 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007512">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/511</obo:IAO_0000233>
-        <obo:OGG_0000000006>6490</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: gp100</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine hugp100 encoding gp100</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007513 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007513">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/512</obo:IAO_0000233>
-        <obo:OGG_0000000006>2922</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: GRP</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine pCR3.1-VS-HSP65-TP-GRP6-M2 encoding 6 tandem repeats of GRP</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007514 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007514">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/513</obo:IAO_0000233>
-        <obo:OGG_0000000006>12981</obo:OGG_0000000006>
-        <obo:OGG_0000000006>4100</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: GM-CSF|Gene name: MAGEA1</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine pN4a-MAGE-1-GM</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007515 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007515">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/514</obo:IAO_0000233>
-        <obo:OGG_0000000006>12981</obo:OGG_0000000006>
-        <obo:OGG_0000000006>4100</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: GM-CSF|Gene name: MAGEA1</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine pNL3-MAGE-1-GM</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007516 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007516">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/515</obo:IAO_0000233>
-        <obo:OGG_0000000006>104042</obo:OGG_0000000006>
-        <obo:OGG_0000000006>55118</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: Ubiquitin|Gene name: Trp2</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine pUB-TRP-2 encoding a fusion protein linking murine ubiquitin (UB) to the N-terminus of the full-length mTRP-2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007517 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007517">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/516</obo:IAO_0000233>
-        <obo:OGG_0000000006>84004</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: Mcam</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine SINCp c-muMUC18 encoding MCAM/MUC18</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0007518 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007518">
@@ -14244,69 +14351,6 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         <obo:OGG_0000000006>7299</obo:OGG_0000000006>
         <rdfs:comment>Gene name: Tyrosinase</rdfs:comment>
         <rdfs:label>Melanoma DNA vaccine TA2M(TM) encoding tyrosinase peptides</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007519 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007519">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/518</obo:IAO_0000233>
-        <rdfs:comment>Gene name: Survivin</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine VR-S8/VR-IL2/AD-S8 encoding survivin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007520 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007520">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/519</obo:IAO_0000233>
-        <obo:OGG_0000000006>20431</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: Pmel17</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine VR1012/mPmel17</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007521 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007521">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/520</obo:IAO_0000233>
-        <obo:OGG_0000000006>7299</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: Tyrosinase</rdfs:comment>
-        <rdfs:label>Melanoma DNA vaccine xenogeneic DNA encoding murine tyrosinase</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007522 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007522">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/521</obo:IAO_0000233>
-        <obo:OGG_0000000006>22178</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: TRP-1</rdfs:comment>
-        <rdfs:label>Melanoma recombinant vector vaccine rVVmTRP-1 encoding TRP-1</rdfs:label>
     </owl:Class>
     
 
@@ -14423,24 +14467,6 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         <obo:OGG_0000000006>768</obo:OGG_0000000006>
         <rdfs:comment>Gene name: CA9</rdfs:comment>
         <rdfs:label>mRNA-Electroporated Dendritic Cells Vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0007530 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007530">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
-        <obo:IAO_0000115>The approach focuses on the use of five primary patient derived melanoma cells (MEL-2, MEL-V, 3MM, KFM, and GLM-2). These cells display differential in vitro migratory and invasive properties as well as have the ability to form solid tumors when implanted into BALB/c nude mice. The retention of the innate phenotype of these primary patient derived cells together with the expression of a multitude repertoire of melanoma associated antigens offers a novel opportunity to target melanoma so as to avoid immune evasion</obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/557</obo:IAO_0000233>
-        <obo:OGG_0000000006>2315</obo:OGG_0000000006>
-        <obo:OGG_0000000006>6490</obo:OGG_0000000006>
-        <rdfs:comment>Gene name: MLANA|Gene name: gp100</rdfs:comment>
-        <rdfs:label>Multivalent immunotherapeutic vaccine</rdfs:label>
     </owl:Class>
     
 
