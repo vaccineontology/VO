@@ -305,9 +305,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_VO_0000741 -->
+    <!-- http://purl.obolibrary.org/obo/VO_0000741 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_VO_0000741"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000741"/>
     
 
 
@@ -601,7 +601,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_VO_0000741"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000741"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:seeAlso>CVX:17</rdfs:seeAlso>
@@ -618,7 +618,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_VO_0000741"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000741"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>Hib (PRP-D)</obo:IAO_0000118>
