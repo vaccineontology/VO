@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl"
-     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl"/>
     
 
@@ -20,50 +21,102 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/charge -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/formula -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
     
 
 
@@ -87,63 +140,63 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_15882 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15882">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenol</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94.04186</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94.11120</chebi:mass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic hydroxy compound that consists of benzene bearing a single hydroxy substituent. The parent of the class of phenols.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:969616</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzenol</oboInOwl:hasRelatedSynonym>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6H6O</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:108-95-2</oboInOwl:hasDbXref>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:14777</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:15882</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25966</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:43543</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:8071</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbolsaeure</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB03255</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Central:4266</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:2794</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:HMDB0000228</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydroxybenzene</oboInOwl:hasRelatedSynonym>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISWSIDIOOBJBQZ-UHFFFAOYSA-N</chebi:inchikey>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C6H6O/c7-6-4-2-1-3-5-6/h1-5,7H</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00146</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C15584</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00033</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D06536</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KNApSAcK:C00002664</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karbolsaeure</oboInOwl:hasRelatedSynonym>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oc1ccccc1</chebi:smiles>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxybenzene</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:IPH</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PHENOL</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12058733</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16953321</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17852157</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19029204</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20886261</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21492257</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21689881</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21809019</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21822930</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PhOH</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenic acid</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenol</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenylic acid</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenylic alcohol</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:969616</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UM-BBD_compID:c0128</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Phenol</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acide carbolique</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acide phenique</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbolic acid</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenol</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>An organic hydroxy compound that consists of benzene bearing a single hydroxy substituent. The parent of the class of phenols.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C6H6O</chebi:formula>
+        <chebi:inchi>InChI=1S/C6H6O/c7-6-4-2-1-3-5-6/h1-5,7H</chebi:inchi>
+        <chebi:inchikey>ISWSIDIOOBJBQZ-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>94.11120</chebi:mass>
+        <chebi:monoisotopicmass>94.04186</chebi:monoisotopicmass>
+        <chebi:smiles>Oc1ccccc1</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:14777</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:25966</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:43543</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:8071</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:969616</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:108-95-2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB03255</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:4266</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:2794</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0000228</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00146</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C15584</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D06536</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KNApSAcK:C00002664</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:IPH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12058733</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16953321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17852157</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19029204</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20886261</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21492257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21689881</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21809019</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21822930</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:969616</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UM-BBD_compID:c0128</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Phenol</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>PHENOL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phenol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>phenol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Benzenol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Carbolsaeure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Hydroxybenzene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Karbolsaeure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Oxybenzene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>PhOH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Phenic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Phenylic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Phenylic alcohol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acide carbolique</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acide phenique</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>carbolic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:15882</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>phenol</rdfs:label>
     </owl:Class>
     
 
@@ -151,56 +204,56 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16199">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1728</oboInOwl:hasRelatedSynonym>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60.03236</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60.05534</chebi:mass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carbonyl group with two C-bound amine groups. The commercially available fertilizer has an analysis of 46-0-0 (N-P2O5-K2O).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:635724</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:57-13-6</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CH4N2O</chebi:formula>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:15292</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16199</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:27218</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:46379</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:9888</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbamide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB03904</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Central:4264</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E927b</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECMDB:ECMDB04172</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:1378</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H2NC(O)NH2</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:HMDB0000294</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harnstoff</oboInOwl:hasRelatedSynonym>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/CH4N2O/c2-1(3)4/h(H4,2,3,4)</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00086</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00023</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KNApSAcK:C00007314</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karbamid</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MetaCyc:UREA</oboInOwl:hasDbXref>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NC(N)=O</chebi:smiles>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:URE</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18037357</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22770225</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPDB:1728</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:635724</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UM-BBD_compID:c0165</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UREA</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urea</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Urea</oboInOwl:hasDbXref>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XSQUKJJJFZCRTK-UHFFFAOYSA-N</chebi:inchikey>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YMDB:YMDB00003</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbamide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonyldiamide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ur</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uree</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A carbonyl group with two C-bound amine groups. The commercially available fertilizer has an analysis of 46-0-0 (N-P2O5-K2O).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>CH4N2O</chebi:formula>
+        <chebi:inchi>InChI=1S/CH4N2O/c2-1(3)4/h(H4,2,3,4)</chebi:inchi>
+        <chebi:inchikey>XSQUKJJJFZCRTK-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>60.05534</chebi:mass>
+        <chebi:monoisotopicmass>60.03236</chebi:monoisotopicmass>
+        <chebi:smiles>NC(N)=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:15292</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:27218</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:46379</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:9888</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:635724</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:57-13-6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB03904</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:4264</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ECMDB:ECMDB04172</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:1378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0000294</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00086</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KNApSAcK:C00007314</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:UREA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:URE</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18037357</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22770225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PPDB:1728</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:635724</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UM-BBD_compID:c0165</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Urea</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>YMDB:YMDB00003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>UREA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Urea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>urea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>1728</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Carbamide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>E927b</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>H2NC(O)NH2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Harnstoff</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Karbamid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>carbamide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>carbonyldiamide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ur</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>uree</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:16199</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>urea</rdfs:label>
     </owl:Class>
     
 
@@ -208,25 +261,25 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16412">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipopolysaccharide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:14520</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16412</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25062</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:6494</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00338</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPS</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lipopolysaccharide</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liposaccharide natural compounds consisting of a trisaccharide repeating unit (two heptose units and octulosonic acid) with oligosaccharide side chains and 3-hydroxytetradecanoic acid units (they are a major constituent of the cell walls of Gram-negative bacteria).</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15589368</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24186868</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24506665</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24642373</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24659348</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipopolysaccharides</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>Liposaccharide natural compounds consisting of a trisaccharide repeating unit (two heptose units and octulosonic acid) with oligosaccharide side chains and 3-hydroxytetradecanoic acid units (they are a major constituent of the cell walls of Gram-negative bacteria).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:14520</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:25062</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:6494</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:C00338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15589368</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24186868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24506665</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24642373</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24659348</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Lipopolysaccharide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>LPS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>lipopolysaccharides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:16412</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>lipopolysaccharide</rdfs:label>
     </owl:Class>
     
 
@@ -234,24 +287,24 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16670 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(C2H2NOR)nC2H3NOR</chebi:formula>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:14753</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16670</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25906</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:7990</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00012</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptid</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptide</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptides</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptido</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptidos</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>(C2H2NOR)nC2H3NOR</chebi:formula>
+        <oboInOwl:hasAlternativeId>CHEBI:14753</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:25906</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:7990</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:C00012</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Peptide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>peptides</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Peptid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>peptido</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>peptidos</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:16670</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>peptide</rdfs:label>
     </owl:Class>
     
 
@@ -259,60 +312,60 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_16842 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16842">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formaldehyde</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30.01056</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30.02598</chebi:mass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aldehyde resulting from the formal oxidation of methanol.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:1209228</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:50-00-0</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CH2O</chebi:formula>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:14274</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16842</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24077</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:337763</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:5142</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB03843</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Central:3244</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORMALDEHYDE</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FORMALIN</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formaldehyd</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formaldehyde</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formalin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:445</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:HMDB0001426</oboInOwl:hasDbXref>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/CH2O/c1-2/h1H2</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00067</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00017</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MetaCyc:FORMALDEHYDE</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methanal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methylene oxide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxomethane</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxomethylene</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:FOR</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:110589</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12686735</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15091529</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16423181</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17618393</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18837732</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25042713</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7381846</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7548723</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7689168</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7896413</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9686972</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPDB:359</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:1209228</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UM-BBD_compID:c0122</oboInOwl:hasDbXref>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSFSSNUMVMOOMR-UHFFFAOYSA-N</chebi:inchikey>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Formaldehyde</oboInOwl:hasDbXref>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H]C([H])=O</chebi:smiles>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formaldehyde</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>An aldehyde resulting from the formal oxidation of methanol.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>CH2O</chebi:formula>
+        <chebi:inchi>InChI=1S/CH2O/c1-2/h1H2</chebi:inchi>
+        <chebi:inchikey>WSFSSNUMVMOOMR-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>30.02598</chebi:mass>
+        <chebi:monoisotopicmass>30.01056</chebi:monoisotopicmass>
+        <chebi:smiles>[H]C([H])=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:14274</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:24077</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:337763</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:5142</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:1209228</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:50-00-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB03843</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:3244</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:445</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0001426</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:FORMALDEHYDE</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:FOR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:110589</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12686735</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15091529</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16423181</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17618393</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18837732</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25042713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:7381846</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:7548723</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:7689168</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:7896413</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9686972</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PPDB:359</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:1209228</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UM-BBD_compID:c0122</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Formaldehyde</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>FORMALDEHYDE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Formaldehyde</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>formaldehyde</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>FORMALIN</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Formaldehyd</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Formalin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Methanal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Methylene oxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Oxomethane</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Oxomethylene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:16842</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>formaldehyde</rdfs:label>
     </owl:Class>
     
 
@@ -320,76 +373,76 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_17076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17076">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streptomycin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,4-Diguanidino-3,5,6-trihydroxycyclohexyl 5-deoxy-2-O-(2-deoxy-2-methylamino-alpha-L-glucopyranosyl)-3-C-formyl-beta-L-lyxopentanofuranoside</oboInOwl:hasRelatedSynonym>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">581.26567</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">581.57434</chebi:mass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A amino cyclitol glycoside that consists of streptidine having a disaccharyl moiety attached at the 4-position. The parent of the streptomycin class</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:74498</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21H39N7O12</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:57-92-1</oboInOwl:hasDbXref>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:15119</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:17076</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26784</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:45745</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:9284</oboInOwl:hasAlternativeId>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@@H](O[C@@H](C)[C@]1(O)C=O)O[C@H]1[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]1NC(N)=N</chebi:smiles>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB01082</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Central:2481</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:HMDB0015214</oboInOwl:hasDbXref>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C21H39N7O12/c1-5-21(36,4-30)16(40-17-9(26-2)13(34)10(31)6(3-29)38-17)18(37-5)39-15-8(28-20(24)25)11(32)7(27-19(22)23)12(33)14(15)35/h4-18,26,29,31-36H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/t5-,6-,7+,8-,9-,10-,11+,12-,13-,14+,15+,16-,17-,18-,21+/m0/s1</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00413</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D08531</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kantrex</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MetaCyc:STREPTOMYCIN</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N,N&#39;&#39;&#39;-[(1R,2R,3S,4R,5R,6S)-4-{5-deoxy-2-O-[2-deoxy-2-(methylamino)-alpha-L-glucopyranosyl]-3-C-formyl-alpha-L-lyxofuranosyloxy}-2,5,6-trihydroxycyclohexane-1,3-diyl]diguanidine</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:SRY</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11228320</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11905029</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12118520</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13030054</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13116094</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13136149</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13596285</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13691614</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13985260</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13990247</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:14623118</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:14828344</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:14852338</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:14939639</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15081082</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15137533</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15207172</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15686853</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15736038</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16904706</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17105735</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17238915</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17429930</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18173084</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18916143</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19052412</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19335957</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21350946</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21362244</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21593257</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21937264</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22101040</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pesticides:streptomycin</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:74498</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SM</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STREPTOMYCIN</oboInOwl:hasExactSynonym>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCSJYZPVAKXKNQ-HZYVHMACSA-N</chebi:inchikey>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Streptomycin</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[2-deoxy-2-(dimethylamino)-alpha-L-glucopyranosyl]-(1-&gt;2)-[5-deoxy-3-C-formyl-alpha-L-lyxofuranosyl]-(1-&gt;4)-{N&#39;,N&#39;&#39;&#39;-[(1,3,5/2,4,6)-2,4,5,6-tetrahydroxycyclohexane-1,3-diyl]diguanidine}</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streomycin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">streptomycin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A amino cyclitol glycoside that consists of streptidine having a disaccharyl moiety attached at the 4-position. The parent of the streptomycin class</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C21H39N7O12</chebi:formula>
+        <chebi:inchi>InChI=1S/C21H39N7O12/c1-5-21(36,4-30)16(40-17-9(26-2)13(34)10(31)6(3-29)38-17)18(37-5)39-15-8(28-20(24)25)11(32)7(27-19(22)23)12(33)14(15)35/h4-18,26,29,31-36H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/t5-,6-,7+,8-,9-,10-,11+,12-,13-,14+,15+,16-,17-,18-,21+/m0/s1</chebi:inchi>
+        <chebi:inchikey>UCSJYZPVAKXKNQ-HZYVHMACSA-N</chebi:inchikey>
+        <chebi:mass>581.57434</chebi:mass>
+        <chebi:monoisotopicmass>581.26567</chebi:monoisotopicmass>
+        <chebi:smiles>CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@@H](O[C@@H](C)[C@]1(O)C=O)O[C@H]1[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]1NC(N)=N</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:15119</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:26784</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:45745</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:9284</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:74498</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:57-92-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB01082</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:2481</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0015214</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00413</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D08531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:STREPTOMYCIN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:SRY</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11228320</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11905029</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12118520</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:13030054</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:13116094</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:13136149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:13596285</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:13691614</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:13985260</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:13990247</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:14623118</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:14828344</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:14852338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:14939639</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15081082</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15137533</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15207172</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15686853</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15736038</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16904706</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17105735</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17238915</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17429930</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18173084</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18916143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19052412</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19335957</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21350946</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21362244</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21593257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21937264</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22101040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Pesticides:streptomycin</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:74498</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Streptomycin</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>N,N&apos;&apos;&apos;-[(1R,2R,3S,4R,5R,6S)-4-{5-deoxy-2-O-[2-deoxy-2-(methylamino)-alpha-L-glucopyranosyl]-3-C-formyl-alpha-L-lyxofuranosyloxy}-2,5,6-trihydroxycyclohexane-1,3-diyl]diguanidine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>STREPTOMYCIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>2,4-Diguanidino-3,5,6-trihydroxycyclohexyl 5-deoxy-2-O-(2-deoxy-2-methylamino-alpha-L-glucopyranosyl)-3-C-formyl-beta-L-lyxopentanofuranoside</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Kantrex</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>SM</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>[2-deoxy-2-(dimethylamino)-alpha-L-glucopyranosyl]-(1-&gt;2)-[5-deoxy-3-C-formyl-alpha-L-lyxofuranosyl]-(1-&gt;4)-{N&apos;,N&apos;&apos;&apos;-[(1,3,5/2,4,6)-2,4,5,6-tetrahydroxycyclohexane-1,3-diyl]diguanidine}</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>streomycin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>streptomycin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:17076</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>streptomycin</rdfs:label>
     </owl:Class>
     
 
@@ -397,76 +450,76 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_17716 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17716">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactose</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(+)-lactose</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Gal)1 (Glc)1</oboInOwl:hasRelatedSynonym>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-beta-D-Galactopyranosyl-4-D-glucopyranose</oboInOwl:hasRelatedSynonym>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">342.11621</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">342.297</chebi:mass>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-(beta-D-galactosido)-D-glucose</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-O-beta-D-galactopyranosyl-D-glucose</oboInOwl:hasRelatedSynonym>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycosylglucose disaccharide, found most notably in milk, that consists of D-galactose and D-glucose fragments bonded through a beta-1-&gt;4 glycosidic linkage. The glucose fragment can be in either the alpha- or beta-pyranose form, whereas the galactose fragment can only have the beta-pyranose form.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:1292745</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C12H22O11</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:63-42-3</oboInOwl:hasDbXref>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:10296</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:10380</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:14497</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:17716</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:22460</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:22760</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25005</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:27755</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:613009</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D-lactose</oboInOwl:hasRelatedSynonym>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GUBGYTABKSRVRQ-QKKXKWKRSA-N</chebi:inchikey>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galbeta1-4Glc</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GlyGen:G74621DY</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GlyTouCan:G74621DY</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:882872</oboInOwl:hasDbXref>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5+,6+,7-,8-,9-,10-,11?,12+/m1/s1</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00243</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00046</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:G10504</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KNApSAcK:C00001136</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lac</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laktobiose</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laktose</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milchzucker</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk sugar</oboInOwl:hasRelatedSynonym>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)C(O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@H]1O</chebi:smiles>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1292745</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17329833</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18300214</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19053747</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19846069</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19913595</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20094999</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20503067</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20699559</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20873837</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20961532</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21403918</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2432147</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2456994</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28690131</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:28807538</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:6194884</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7574700</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:1292745</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WURCS=2.0/2,2,1/[a2122h-1x_1-5][a2112h-1b_1-5]/1-2/a4-b1</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-D-Gal-(1-&gt;4)-D-Glc</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-D-Galp-(1-&gt;4)-D-Glcp</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-D-galactopyranosyl-(1-&gt;4)-D-glucopyranose</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Gal1,4-Glc</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactobiose</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactose</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk sugar</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A glycosylglucose disaccharide, found most notably in milk, that consists of D-galactose and D-glucose fragments bonded through a beta-1-&gt;4 glycosidic linkage. The glucose fragment can be in either the alpha- or beta-pyranose form, whereas the galactose fragment can only have the beta-pyranose form.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C12H22O11</chebi:formula>
+        <chebi:inchi>InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5+,6+,7-,8-,9-,10-,11?,12+/m1/s1</chebi:inchi>
+        <chebi:inchikey>GUBGYTABKSRVRQ-QKKXKWKRSA-N</chebi:inchikey>
+        <chebi:mass>342.297</chebi:mass>
+        <chebi:monoisotopicmass>342.11621</chebi:monoisotopicmass>
+        <chebi:smiles>OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)C(O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@H]1O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:10296</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:10380</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:14497</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:22460</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:22760</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:25005</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:27755</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:613009</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:1292745</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:63-42-3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GlyGen:G74621DY</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GlyTouCan:G74621DY</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:882872</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00243</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00046</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:G10504</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KNApSAcK:C00001136</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:1292745</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17329833</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18300214</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19053747</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19846069</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19913595</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20094999</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20503067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20699559</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20873837</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20961532</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21403918</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:2432147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:2456994</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28690131</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28807538</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:6194884</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:7574700</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:1292745</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>beta-D-galactopyranosyl-(1-&gt;4)-D-glucopyranose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lactose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(+)-lactose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>(Gal)1 (Glc)1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1-beta-D-Galactopyranosyl-4-D-glucopyranose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>4-(beta-D-galactosido)-D-glucose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>4-O-beta-D-galactopyranosyl-D-glucose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>D-lactose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Galbeta1-4Glc</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Lac</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Laktobiose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Laktose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Milchzucker</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Milk sugar</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>WURCS=2.0/2,2,1/[a2122h-1x_1-5][a2112h-1b_1-5]/1-2/a4-b1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-D-Gal-(1-&gt;4)-D-Glc</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-D-Galp-(1-&gt;4)-D-Glcp</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-Gal1,4-Glc</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>lactobiose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>milk sugar</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:17716</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>lactose</rdfs:label>
     </owl:Class>
     
 
@@ -474,23 +527,23 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_17833 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17833">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gentamycin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4,6-diamino-3-[3-deoxy-4-C-methyl-3-(methylamino)pentopyranosyloxy]-2-hydroxycyclohexyl 2-amino-2,3,4,6,7-pentadeoxy-6-(methylamino)heptopyranoside</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of a group of aminoglycoside antibiotics produced by fermentation of some Micromonospora spp.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:1403-66-3</oboInOwl:hasDbXref>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:14293</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:17833</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24206</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24212</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:5306</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB00798</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentamicin</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00505</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gentamycins</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>Any of a group of aminoglycoside antibiotics produced by fermentation of some Micromonospora spp.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:14293</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:24206</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:24212</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:5306</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>CAS:1403-66-3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00798</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00505</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>4,6-diamino-3-[3-deoxy-4-C-methyl-3-(methylamino)pentopyranosyloxy]-2-hydroxycyclohexyl 2-amino-2,3,4,6,7-pentadeoxy-6-(methylamino)heptopyranoside</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Gentamicin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>gentamycins</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:17833</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>gentamycin</rdfs:label>
     </owl:Class>
     
 
@@ -498,81 +551,81 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_17992 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17992">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sucrose</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-alpha-D-Glucopyranosyl-2-beta-D-fructofuranoside</oboInOwl:hasRelatedSynonym>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">342.11621</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">342.29650</chebi:mass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycosyl glycoside formed by glucose and fructose units joined by an acetal oxygen bridge from hemiacetal of glucose to the hemiketal of the fructose.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:90825</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C12H22O11</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:57-50-1</oboInOwl:hasDbXref>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:15128</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:17992</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26812</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:45795</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:9314</oboInOwl:hasAlternativeId>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CZMRCDWAGMRECN-UGDNZRGBSA-N</chebi:inchikey>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cane sugar</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB02772</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Central:4610</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:97695</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:HMDB0000258</oboInOwl:hasDbXref>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2/t4-,5-,6-,7-,8+,9-,10+,11-,12+/m1/s1</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00089</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00025</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D06533</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:G00370</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KNApSAcK:C00001151</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MetaCyc:SUCROSE</oboInOwl:hasDbXref>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC[C@H]1O[C@H](O[C@]2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O</chebi:smiles>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:SUC</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11021636</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11093712</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11111003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12065720</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12706980</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:13508893</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15291457</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15660210</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15792978</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15845855</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16228482</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16304615</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16313996</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16525719</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16660545</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16663947</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16665852</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17233733</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17439666</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17597061</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18625236</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19199566</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19726178</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21703290</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21972845</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22085755</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22311778</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22404833</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22751876</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:1435311</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:90825</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCROSE</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharose</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sacharose</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sucrose</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White sugar</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Sucrose</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-D-Fruf-(2&lt;-&gt;1)-alpha-D-Glcp</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-D-fructofuranosyl alpha-D-glucopyranoside</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sacarosa</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sucrose</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">table sugar</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A glycosyl glycoside formed by glucose and fructose units joined by an acetal oxygen bridge from hemiacetal of glucose to the hemiketal of the fructose.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C12H22O11</chebi:formula>
+        <chebi:inchi>InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2/t4-,5-,6-,7-,8+,9-,10+,11-,12+/m1/s1</chebi:inchi>
+        <chebi:inchikey>CZMRCDWAGMRECN-UGDNZRGBSA-N</chebi:inchikey>
+        <chebi:mass>342.29650</chebi:mass>
+        <chebi:monoisotopicmass>342.11621</chebi:monoisotopicmass>
+        <chebi:smiles>OC[C@H]1O[C@H](O[C@]2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:15128</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:26812</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:45795</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:9314</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:90825</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:57-50-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB02772</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:4610</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:97695</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0000258</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00025</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D06533</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:G00370</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KNApSAcK:C00001151</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:SUCROSE</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:SUC</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11021636</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11093712</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11111003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12065720</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12706980</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:13508893</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15291457</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15660210</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15792978</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15845855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16228482</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16304615</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16313996</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16525719</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16660545</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16663947</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16665852</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17233733</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17439666</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17597061</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18625236</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19199566</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19726178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21703290</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21972845</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22085755</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22311778</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22404833</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22751876</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:1435311</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:90825</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Sucrose</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>SUCROSE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sucrose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>beta-D-fructofuranosyl alpha-D-glucopyranoside</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sucrose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>1-alpha-D-Glucopyranosyl-2-beta-D-fructofuranoside</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Cane sugar</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Saccharose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Sacharose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>White sugar</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>beta-D-Fruf-(2&lt;-&gt;1)-alpha-D-Glcp</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sacarosa</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>table sugar</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:17992</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>sucrose</rdfs:label>
     </owl:Class>
     
 
@@ -580,19 +633,19 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>entidad molecular</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>entidades moleculares</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>entite moleculaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>molekulare Entitaet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:23367</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>molecular entity</rdfs:label>
     </owl:Class>
     
 
@@ -600,14 +653,14 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>chemical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:24431</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>chemical entity</rdfs:label>
     </owl:Class>
     
 
@@ -615,86 +668,89 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_2877 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2877">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspartame</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-methyl N-L-alpha-aspartyl-L-phenylalanate</oboInOwl:hasRelatedSynonym>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">294.12157</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">294.304</chebi:mass>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid</oboInOwl:hasRelatedSynonym>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dipeptide obtained by formal condensation of the alpha-carboxy group of L-aspartic acid with the amino group of methyl L-phenylalaninate. Commonly used as an artificial sweetener.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AminoSweet</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asp-phe-ome</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspartame</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspartylphenylalanine methyl ester</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:2223850</oboInOwl:hasDbXref>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C(C[C@@H](C(N[C@@H](CC1=CC=CC=C1)C(=O)OC)=O)N)(=O)O</chebi:smiles>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C14H18N2O5</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:22839-47-0</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:2877</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:45047</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB00168</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E 951</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:HMDB0001894</oboInOwl:hasDbXref>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAOZJIPTCAWIRG-QWRGUYRKSA-N</chebi:inchikey>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C14H18N2O5/c1-21-14(20)11(7-9-5-3-2-4-6-9)16-13(19)10(15)8-12(17)18/h2-6,10-11H,7-8,15H2,1H3,(H,16,19)(H,17,18)/t10-,11-/m0/s1</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C11045</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D02381</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-Aspartyl-L-phenylalanine methyl ester</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MetaCyc:CPD-5583</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NutraSweet</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:PME</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1771173</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2013754</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21150094</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21372000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22354473</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24355796</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24925367</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24944748</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24965331</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25431414</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25543075</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25786106</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25951455</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25991916</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26015492</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26099025</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26159964</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26247507</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26308194</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26321723</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26377607</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26582819</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26593524</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26912665</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27015640</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27038223</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27088715</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27127997</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27216413</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27298583</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27492574</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27565676</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27614095</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27640132</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27699780</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27728881</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27840415</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:27845306</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patent:US3492131</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:2223850</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sanecta</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aspartame</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspartam</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspartamo</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspartamum</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methyl L-alpha-aspartyl-L-phenylalaninate</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A dipeptide obtained by formal condensation of the alpha-carboxy group of L-aspartic acid with the amino group of methyl L-phenylalaninate. Commonly used as an artificial sweetener.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C14H18N2O5</chebi:formula>
+        <chebi:inchi>InChI=1S/C14H18N2O5/c1-21-14(20)11(7-9-5-3-2-4-6-9)16-13(19)10(15)8-12(17)18/h2-6,10-11H,7-8,15H2,1H3,(H,16,19)(H,17,18)/t10-,11-/m0/s1</chebi:inchi>
+        <chebi:inchikey>IAOZJIPTCAWIRG-QWRGUYRKSA-N</chebi:inchikey>
+        <chebi:mass>294.304</chebi:mass>
+        <chebi:monoisotopicmass>294.12157</chebi:monoisotopicmass>
+        <chebi:smiles>C(C[C@@H](C(N[C@@H](CC1=CC=CC=C1)C(=O)OC)=O)N)(=O)O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:45047</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:2223850</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:22839-47-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00168</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0001894</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C11045</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D02381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:PME</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:1771173</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:2013754</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21150094</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21372000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22354473</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24355796</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24925367</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24944748</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24965331</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25431414</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25543075</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25786106</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25951455</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25991916</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26015492</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26099025</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26159964</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26247507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26308194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26321723</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26377607</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26582819</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26593524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26912665</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27015640</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27038223</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27088715</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27127997</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27216413</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27298583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27492574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27565676</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27614095</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27640132</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27699780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27728881</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27840415</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:27845306</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:30000570</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37291632</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37297402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37454665</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:US3492131</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:2223850</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aspartame</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Aspartame</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>methyl L-alpha-aspartyl-L-phenylalaninate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>1-methyl N-L-alpha-aspartyl-L-phenylalanate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>AminoSweet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Asp-phe-ome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Aspartylphenylalanine methyl ester</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>E 951</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>L-Aspartyl-L-phenylalanine methyl ester</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>NutraSweet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Sanecta</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>aspartam</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>aspartamo</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>aspartamum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:2877</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>aspartame</rdfs:label>
     </owl:Class>
     
 
@@ -702,29 +758,29 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_30911 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30911">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucitol</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">182.07904</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">182.172</chebi:mass>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:1721909</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C6H14O6</chebi:formula>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:15093</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26724</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26726</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30911</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33795</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33796</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:9201</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:83165</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorbitol</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Sorbitol</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucitol</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gulitol</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rel-(2R,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C6H14O6</chebi:formula>
+        <chebi:mass>182.172</chebi:mass>
+        <chebi:monoisotopicmass>182.07904</chebi:monoisotopicmass>
+        <oboInOwl:hasAlternativeId>CHEBI:15093</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:26724</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:26726</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:33795</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:33796</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:9201</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:1721909</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:83165</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Sorbitol</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>glucitol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Sorbitol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>gulitol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>rel-(2R,3R,4R,5S)-hexane-1,2,3,4,5,6-hexol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:30911</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>glucitol</rdfs:label>
     </owl:Class>
     
 
@@ -732,59 +788,59 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_32111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32111">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saccharin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,1-Dioxo-1,2-benzisothiazol-3(2H)-one</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,1-Dioxo-1,2-dihydro-benzo[d]isothiazol-3-one</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,2-Benzisothiazol-3(2H)-one 1,1-dioxide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,2-Benzisothiazolin-3-one 1,1-dioxide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,2-Dihydro-2-ketobenzisosulfonazole</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,2-Dihydro-2-ketobenzisosulphonazole</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,2-benzisothiazol-3(2H)-one 1,1-dioxide</oboInOwl:hasExactSynonym>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">182.99901</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">183.18500</chebi:mass>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,3-Dihydro-3-oxobenzisosulfonazole</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,3-Dihydro-3-oxobenzisosulphonazole</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-Hydroxybenzisothiazole-S,S-dioxide</oboInOwl:hasRelatedSynonym>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 1,2-benzisothiazole having a keto-group at the 3-position and two oxo substituents at the 1-position. It is used as an artificial sweetening agent.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anhydro-o-sulfaminebenzoic acid</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:6888</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzo-2-sulphimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzoic acid sulfimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzoic sulfimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzoic sulphimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzosulfimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzosulphimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzoylsulfonic Imide</oboInOwl:hasRelatedSynonym>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C7H5NO3S</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:81-07-2</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:32111</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:49717</oboInOwl:hasAlternativeId>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVHZOJJKTDOEJC-UHFFFAOYSA-N</chebi:inchikey>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:4203</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:HMDB0029723</oboInOwl:hasDbXref>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C7H5NO3S/c9-7-5-3-1-2-4-6(5)12(10,11)8-7/h1-4H,(H,8,9)</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D01085</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MetaCyc:CPD-5581</oboInOwl:hasDbXref>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O=C1NS(=O)(=O)c2ccccc12</chebi:smiles>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:LSA</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24456165</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24549104</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24739358</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24780866</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:6888</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saccharine</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Saccharin</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o-Benzoic sulfimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o-Benzosulfimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o-Sulfobenzimide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o-Sulfobenzoic acid imide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A 1,2-benzisothiazole having a keto-group at the 3-position and two oxo substituents at the 1-position. It is used as an artificial sweetening agent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C7H5NO3S</chebi:formula>
+        <chebi:inchi>InChI=1S/C7H5NO3S/c9-7-5-3-1-2-4-6(5)12(10,11)8-7/h1-4H,(H,8,9)</chebi:inchi>
+        <chebi:inchikey>CVHZOJJKTDOEJC-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>183.18500</chebi:mass>
+        <chebi:monoisotopicmass>182.99901</chebi:monoisotopicmass>
+        <chebi:smiles>O=C1NS(=O)(=O)c2ccccc12</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:49717</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:6888</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:81-07-2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:4203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0029723</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D01085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:CPD-5581</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:LSA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24456165</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24549104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24739358</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24780866</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:6888</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Saccharin</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>1,2-benzisothiazol-3(2H)-one 1,1-dioxide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Saccharin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>1,1-Dioxo-1,2-benzisothiazol-3(2H)-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1,1-Dioxo-1,2-dihydro-benzo[d]isothiazol-3-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1,2-Benzisothiazol-3(2H)-one 1,1-dioxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1,2-Benzisothiazolin-3-one 1,1-dioxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1,2-Dihydro-2-ketobenzisosulfonazole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1,2-Dihydro-2-ketobenzisosulphonazole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2,3-Dihydro-3-oxobenzisosulfonazole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2,3-Dihydro-3-oxobenzisosulphonazole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>3-Hydroxybenzisothiazole-S,S-dioxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Anhydro-o-sulfaminebenzoic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Benzo-2-sulphimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Benzoic acid sulfimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Benzoic sulfimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Benzoic sulphimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Benzosulfimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Benzosulphimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Benzoylsulfonic Imide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Saccharimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Saccharine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>o-Benzoic sulfimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>o-Benzosulfimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>o-Sulfobenzimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>o-Sulfobenzoic acid imide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:32111</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>saccharin</rdfs:label>
     </owl:Class>
     
 
@@ -792,34 +848,34 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33130">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aluminium hydroxide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77.98976</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">78.00356</chebi:mass>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al(OH)3</oboInOwl:hasRelatedSynonym>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AlH3O3</chebi:formula>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aluminiumhydroxid</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aluminum hydroxide</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:21645-51-2</oboInOwl:hasDbXref>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30193</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:31195</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33130</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Central:4250</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:22216</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H3AlO3</chebi:formula>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/Al.3H2O/h;3*1H2/q+3;;;/p-3</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C13391</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D02859</oboInOwl:hasDbXref>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WNROFYMDJYEPJX-UHFFFAOYSA-K</chebi:inchikey>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aluminum_Hydroxide</oboInOwl:hasDbXref>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H]O[Al](O[H])O[H]</chebi:smiles>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aluminium(3+) hydroxide</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aluminium(III) hydroxide</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trihydroxidoaluminium</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>AlH3O3</chebi:formula>
+        <chebi:formula>H3AlO3</chebi:formula>
+        <chebi:inchi>InChI=1S/Al.3H2O/h;3*1H2/q+3;;;/p-3</chebi:inchi>
+        <chebi:inchikey>WNROFYMDJYEPJX-UHFFFAOYSA-K</chebi:inchikey>
+        <chebi:mass>78.00356</chebi:mass>
+        <chebi:monoisotopicmass>77.98976</chebi:monoisotopicmass>
+        <chebi:smiles>[H]O[Al](O[H])O[H]</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:30193</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:31195</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>CAS:21645-51-2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Drug_Central:4250</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:22216</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C13391</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D02859</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Aluminum_Hydroxide</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>aluminium(3+) hydroxide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>aluminium(III) hydroxide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trihydroxidoaluminium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Al(OH)3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Aluminiumhydroxid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Aluminum hydroxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33130</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>aluminium hydroxide</rdfs:label>
     </owl:Class>
     
 
@@ -827,32 +883,32 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_52071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52071">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextran</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1,6-alpha-D-Glucosyl)m</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1,6-alpha-D-Glucosyl)m+1</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1,6-alpha-D-Glucosyl)n</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1,6-alpha-D-Glucosyl)n+1</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,6-alpha-D-Glucan</oboInOwl:hasRelatedSynonym>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A (1-&gt;6)-alpha-D-glucan which has extra branching consisting of (1-&gt;2), (1-&gt;3) or (1-&gt;4) linkages.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:9004-54-0</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52071</oboInOwl:id>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextran 40</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextran 70</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextran 75</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00372</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00060</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D06541</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:G10502</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8154046</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextran</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextrane</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextrano</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextrans</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dextranum</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A (1-&gt;6)-alpha-D-glucan which has extra branching consisting of (1-&gt;2), (1-&gt;3) or (1-&gt;4) linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasDbXref>CAS:9004-54-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00372</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00060</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D06541</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:G10502</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:8154046</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(1,6-alpha-D-Glucosyl)m</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>(1,6-alpha-D-Glucosyl)m+1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>(1,6-alpha-D-Glucosyl)n</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>(1,6-alpha-D-Glucosyl)n+1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1,6-alpha-D-Glucan</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Dextran 40</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Dextran 70</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Dextran 75</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dextran</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dextrane</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dextrano</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dextrans</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dextranum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:52071</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>dextran</rdfs:label>
     </owl:Class>
     
 
@@ -860,32 +916,32 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_53424 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53424">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysorbate 20</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1226.75977</chebi:mass>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1226.760</chebi:monoisotopicmass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polymer composed of PEG-ylated sorbitan, where the total number of poly(ethylene glycol) units is 20 (w + x + y + z = 20) and a single terminal is capped by a dodecanoyl group.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:8973037</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C58H114O26</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:9005-64-5</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:53424</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C11624</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D05565</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyoxyethylene (20) sorbitan monolaurate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyoxyethylene sorbitan monolaurate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polysorbate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polysorbate 20</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:8187252</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:8973037</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tween 20</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Polysorbate_20</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polisorbato</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysorbate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysorbatum</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A polymer composed of PEG-ylated sorbitan, where the total number of poly(ethylene glycol) units is 20 (w + x + y + z = 20) and a single terminal is capped by a dodecanoyl group.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C58H114O26</chebi:formula>
+        <chebi:mass>1226.75977</chebi:mass>
+        <chebi:monoisotopicmass>1226.760</chebi:monoisotopicmass>
+        <oboInOwl:hasDbXref>Beilstein:8973037</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:9005-64-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C11624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D05565</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:8187252</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:8973037</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Polysorbate_20</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Polyoxyethylene (20) sorbitan monolaurate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Polyoxyethylene sorbitan monolaurate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Polysorbate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Polysorbate 20</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Tween 20</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>polisorbato</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>polysorbate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>polysorbatum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:53424</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>polysorbate 20</rdfs:label>
     </owl:Class>
     
 
@@ -893,37 +949,37 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_53426 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53426">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysorbate 80</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1308.838</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1308.83802</chebi:mass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polymer composed of PEG-ylated sorbitan, where the total number of poly(ethylene glycol) units is 20 (w + x + y + z = 20) and a single terminal is capped by an oleoyl group.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:8187125</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C64H124O26</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:9005-65-6</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:53426</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:9785</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycol (polysorbate 80)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C11625</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D01067</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyethylene oxide sorbitan mono-oleate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyoxyethylene (20) sorbitan monooleate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyoxyethylene sorbitan monooleate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyoxyethylene sorbitan oleate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polysorbate 80</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:8187125</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:8190601</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:8898414</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:9040798</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tween 80</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Polysorbate_80</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polisorbato</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysorbate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polysorbatum</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A polymer composed of PEG-ylated sorbitan, where the total number of poly(ethylene glycol) units is 20 (w + x + y + z = 20) and a single terminal is capped by an oleoyl group.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C64H124O26</chebi:formula>
+        <chebi:mass>1308.83802</chebi:mass>
+        <chebi:monoisotopicmass>1308.838</chebi:monoisotopicmass>
+        <oboInOwl:hasAlternativeId>CHEBI:9785</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:8187125</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:9005-65-6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C11625</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D01067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:8187125</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:8190601</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:8898414</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:9040798</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Polysorbate_80</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Glycol (polysorbate 80)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Polyethylene oxide sorbitan mono-oleate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Polyoxyethylene (20) sorbitan monooleate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Polyoxyethylene sorbitan monooleate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Polyoxyethylene sorbitan oleate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Polysorbate 80</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Tween 80</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>polisorbato</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>polysorbate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>polysorbatum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:53426</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>polysorbate 80</rdfs:label>
     </owl:Class>
     
 
@@ -931,26 +987,26 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_64220 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64220">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monosodium glutamate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">169.03510</chebi:monoisotopicmass>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">169.11110</chebi:mass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic sodium salt that is the monosodium salt of glutamic acid.</obo:IAO_0000115>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5H8NNaO4</chebi:formula>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:64220</oboInOwl:id>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C5H9NO4.Na/c6-3(5(9)10)1-2-4(7)8;/h3H,1-2,6H2,(H,7,8)(H,9,10);/q;+1/p-1</chebi:inchi>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPUQAYUQRXPFSQ-UHFFFAOYSA-M</chebi:inchikey>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSG</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22293291</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:17003240</oboInOwl:hasDbXref>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Na+].[NH3+]C(CCC([O-])=O)C([O-])=O</chebi:smiles>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium 2-ammoniopentanedioate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium 2-azaniumylpentanedioate</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium glutamate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>An organic sodium salt that is the monosodium salt of glutamic acid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C5H8NNaO4</chebi:formula>
+        <chebi:inchi>InChI=1S/C5H9NO4.Na/c6-3(5(9)10)1-2-4(7)8;/h3H,1-2,6H2,(H,7,8)(H,9,10);/q;+1/p-1</chebi:inchi>
+        <chebi:inchikey>LPUQAYUQRXPFSQ-UHFFFAOYSA-M</chebi:inchikey>
+        <chebi:mass>169.11110</chebi:mass>
+        <chebi:monoisotopicmass>169.03510</chebi:monoisotopicmass>
+        <chebi:smiles>[Na+].[NH3+]C(CCC([O-])=O)C([O-])=O</chebi:smiles>
+        <oboInOwl:hasDbXref>PMID:22293291</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:17003240</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>sodium 2-azaniumylpentanedioate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>MSG</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sodium 2-ammoniopentanedioate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sodium glutamate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:64220</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>monosodium glutamate</rdfs:label>
     </owl:Class>
     
 
@@ -958,18 +1014,18 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_7507 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7507">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neomycin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A broad-spectrum highly toxic antibiotic or mixture of antibiotics produced by a streptomyces (Streptomyces fradiae) and used medically especially to treat local infections.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:1404-04-2</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:7507</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB00994</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00384</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D08260</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neomycin</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>A broad-spectrum highly toxic antibiotic or mixture of antibiotics produced by a streptomyces (Streptomyces fradiae) and used medically especially to treat local infections.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasDbXref>CAS:1404-04-2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00994</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00384</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D08260</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Neomycin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:7507</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>neomycin</rdfs:label>
     </owl:Class>
     
 
@@ -977,66 +1033,66 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_9546 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9546">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thimerosal</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
-        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">404.81233</chebi:mass>
-        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">405.99274</chebi:monoisotopicmass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alkylmercury compound (approximately 49% mercury by weight) used as an antiseptic and antifungal agent.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:8169555</oboInOwl:hasDbXref>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C9H9HgNaO2S</chebi:formula>
-        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C9H9HgO2S.Na</chebi:formula>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:54-64-8</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:9546</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:1677155</oboInOwl:hasDbXref>
-        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C7H6O2S.C2H5.Hg.Na/c8-7(9)5-3-1-2-4-6(5)10;1-2;;/h1-4,10H,(H,8,9);1H2,2H3;;/q;;2*+1/p-2</chebi:inchi>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00864</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Merthiolate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18837732</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21616561</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21785120</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22015977</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22366633</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22658806</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22811707</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23145070</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23223227</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23282150</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23401210</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23554557</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23843785</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23949514</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23965928</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23992327</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25042713</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPDB:3062</oboInOwl:hasDbXref>
-        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTKIYNMVFMVABJ-UHFFFAOYSA-L</chebi:inchikey>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:8169555</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thimerosal</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiomersal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSDB:3062</oboInOwl:hasDbXref>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[(o-carboxyphenyl)thio]ethylmercury sodium salt</oboInOwl:hasRelatedSynonym>
-        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Na+].CC[Hg]Sc1ccccc1C([O-])=O</chebi:smiles>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethyl(2-mercaptobenzoato-S)mercury sodium salt</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethylmercurithiosalicylate sodium</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethylmercurithiosalicylic acid sodium salt</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mercurothiolate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">o-(ethylmercurithio)benzoic acid sodium salt</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium [(2-carboxylatophenyl)sulfanyl](ethyl)mercurate(1-)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium ethyl[2-(sulfanyl-kappaS)benzoato(2-)]mercurate(1-)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium ethylmercurithiosalicylate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium merthiolate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiomersal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiomersalate</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thiomersalum</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tiomersal</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <obo:IAO_0000115>An alkylmercury compound (approximately 49% mercury by weight) used as an antiseptic and antifungal agent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C9H9HgNaO2S</chebi:formula>
+        <chebi:formula>C9H9HgO2S.Na</chebi:formula>
+        <chebi:inchi>InChI=1S/C7H6O2S.C2H5.Hg.Na/c8-7(9)5-3-1-2-4-6(5)10;1-2;;/h1-4,10H,(H,8,9);1H2,2H3;;/q;;2*+1/p-2</chebi:inchi>
+        <chebi:inchikey>RTKIYNMVFMVABJ-UHFFFAOYSA-L</chebi:inchikey>
+        <chebi:mass>404.81233</chebi:mass>
+        <chebi:monoisotopicmass>405.99274</chebi:monoisotopicmass>
+        <chebi:smiles>[Na+].CC[Hg]Sc1ccccc1C([O-])=O</chebi:smiles>
+        <oboInOwl:hasDbXref>Beilstein:8169555</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:54-64-8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:1677155</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00864</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18837732</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21616561</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21785120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22015977</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22366633</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22658806</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22811707</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23145070</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23223227</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23282150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23401210</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23554557</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23843785</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23949514</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23965928</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23992327</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25042713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PPDB:3062</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:8169555</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VSDB:3062</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Thimerosal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sodium [(2-carboxylatophenyl)sulfanyl](ethyl)mercurate(1-)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sodium ethyl[2-(sulfanyl-kappaS)benzoato(2-)]mercurate(1-)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Merthiolate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Thiomersal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>[(o-carboxyphenyl)thio]ethylmercury sodium salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ethyl(2-mercaptobenzoato-S)mercury sodium salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ethylmercurithiosalicylate sodium</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ethylmercurithiosalicylic acid sodium salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mercurothiolate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>o-(ethylmercurithio)benzoic acid sodium salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sodium ethylmercurithiosalicylate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sodium merthiolate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>thiomersal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>thiomersalate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>thiomersalum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>tiomersal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:9546</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>thimerosal</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
