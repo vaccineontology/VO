@@ -281,6 +281,30 @@
         <rdfs:comment>Note: This includes single proteins and derivatives thereof (PR:000000001), protein-containing complexes (GO:0032991), and protein aggregates (PR:000050566).</rdfs:comment>
         <rdfs:label>protein-containing material entity</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the S gene in SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>GenPept:YP_009724390</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:P0DTC2</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>E2 (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>S (SARS2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>S glycoprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>peplomer protein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>surface glycoprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>GU280_gp02</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>S</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:P0DTC2</oboInOwl:id>
+        <rdfs:comment>Category=organism-gene. Note: 1273 aa protein. Undergoes additional processing by proteolytic cleavage.</rdfs:comment>
+        <rdfs:label>spike glycoprotein (SARS-CoV-2)</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
