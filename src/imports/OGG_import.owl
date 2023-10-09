@@ -3,10 +3,11 @@
      xml:base="http://purl.obolibrary.org/obo/vo/external/OGG_import.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/OGG_import.owl"/>
     
 
@@ -19,156 +20,116 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
-        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
-        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
-        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000017">
-        <rdfs:label xml:lang="en">chromosome ID of gene</rdfs:label>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000115>A chromosome ID where a gene is located.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000015">
-        <rdfs:label xml:lang="en">organism NCBITaxon ID</rdfs:label>
-        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
-        <obo:IAO_0000115>The NCBITaxon ontology ID of an organism.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000018">
-        <rdfs:label xml:lang="en">type of gene</rdfs:label>
-        <obo:IAO_0000115>an annotation property that specifies the type of a gene</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000019">
-        <rdfs:label xml:lang="en">nomenclature status</rdfs:label>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000115>an annotation property that specifies a nomenclature status</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
-        <rdfs:label xml:lang="en">editor note</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
-        <rdfs:label xml:lang="en">has curation status</rdfs:label>
-        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <rdfs:label xml:lang="en">definition source</rdfs:label>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
-        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
-        <rdfs:label xml:lang="en">curator note</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <rdfs:label xml:lang="en">term editor</rdfs:label>
-        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
-        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
-        <rdfs:label xml:lang="en">example of usage</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">example</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
-        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
-        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
-        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000007">
-        <rdfs:label xml:lang="en">NCBI LocusTag</rdfs:label>
-        <obo:IAO_0000115>the NCBI LocusTag name of a gene </obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000009">
-        <rdfs:label xml:lang="en">modification date</rdfs:label>
-        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
-        <obo:IAO_0000115>a date of content modification</obo:IAO_0000115>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000006 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000006">
-        <rdfs:label xml:lang="en">NCBI GeneID</rdfs:label>
-        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
         <obo:IAO_0000115>A GeneID in the NCBI Gene database </obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
-        <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
-        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000030">
-        <rdfs:label xml:lang="en">has PubMed association</rdfs:label>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
-        <obo:IAO_0000115>An annotation property that represents a gene&#39;s association with PubMed publication(s). </obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
-        <rdfs:label xml:lang="en">elucidation</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">NCBI GeneID</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000007 -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000007">
+        <obo:IAO_0000115>the NCBI LocusTag name of a gene </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">NCBI LocusTag</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000009">
+        <obo:IAO_0000115>a date of content modification</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">modification date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000015 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000015">
+        <obo:IAO_0000115>The NCBITaxon ontology ID of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yue Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">organism NCBITaxon ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000017 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000017">
+        <obo:IAO_0000115>A chromosome ID where a gene is located.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chromosome ID of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000018 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000018">
+        <obo:IAO_0000115>an annotation property that specifies the type of a gene</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">type of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000019 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000019">
+        <obo:IAO_0000115>an annotation property that specifies a nomenclature status</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">nomenclature status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000030 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000030">
+        <obo:IAO_0000115>An annotation property that represents a gene&apos;s association with PubMed publication(s). </obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has PubMed association</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
 
 
@@ -185,46 +146,19 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
-        <rdfs:label xml:lang="en">material entity</rdfs:label>
-        <obo:IAO_0000602>(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] </obo:IAO_0000602>
-        <obo:BFO_0000179>material</obo:BFO_0000179>
-        <obo:BFO_0000180>MaterialEntity</obo:BFO_0000180>
-        <obo:IAO_0000602>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </obo:IAO_0000602>
-        <obo:IAO_0000602>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </obo:IAO_0000602>
-        <obo:IAO_0000600 xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</obo:IAO_0000600>
-        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.</obo:IAO_0000116>
-        <obo:IAO_0000601 xml:lang="en">Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])</obo:IAO_0000601>
-        <obo:IAO_0000112 xml:lang="en">a flame</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a forest fire</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a human being</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a hurricane</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a photon</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a puff of smoke</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a sea wave</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">a tornado</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">an aggregate of human beings.</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">an energy wave</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">an epidemic</obo:IAO_0000112>
-        <obo:IAO_0000601 xml:lang="en">every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])</obo:IAO_0000601>
-        <obo:IAO_0000112 xml:lang="en">the undetached arm of a human being</obo:IAO_0000112>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OGG_0000000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_0000000002">
-        <rdfs:label xml:lang="en">gene</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. </obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/books/NBK21640/</obo:IAO_0000119>
-        <obo:IAO_0000115>A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <rdfs:label xml:lang="en">gene</rdfs:label>
     </owl:Class>
     
 
@@ -232,12 +166,12 @@
     <!-- http://purl.obolibrary.org/obo/OGG_2000000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000000002">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene of Bacteria</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</obo:OGG_0000000015>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of an organism of Bacteria</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A gene of an organism of Bacteria</obo:IAO_0000115>
+        <obo:IAO_0000117>Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000015>2</obo:OGG_0000000015>
+        <rdfs:label>gene of Bacteria</rdfs:label>
     </owl:Class>
     
 
@@ -245,12 +179,12 @@
     <!-- http://purl.obolibrary.org/obo/OGG_2000001224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000001224">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene of Proteobacteria</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000000002"/>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1224</obo:OGG_0000000015>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of an organism of Proteobacteria</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A gene of an organism of Proteobacteria</obo:IAO_0000115>
+        <obo:IAO_0000117>Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000015>1224</obo:OGG_0000000015>
+        <rdfs:label>gene of Proteobacteria</rdfs:label>
     </owl:Class>
     
 
@@ -258,12 +192,12 @@
     <!-- http://purl.obolibrary.org/obo/OGG_2000083332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000083332">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene of Mycobacterium tuberculosis H37Rv</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000000002"/>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of an organism of Mycobacterium tuberculosis H37Rv</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A gene of an organism of Mycobacterium tuberculosis H37Rv</obo:IAO_0000115>
+        <obo:IAO_0000117>Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <rdfs:label>gene of Mycobacterium tuberculosis H37Rv</rdfs:label>
     </owl:Class>
     
 
@@ -271,12 +205,12 @@
     <!-- http://purl.obolibrary.org/obo/OGG_2000224914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2000224914">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene of Brucella melitensis bv. 1 str. 16M</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000001224"/>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">224914</obo:OGG_0000000015>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of an organism of Brucella melitensis bv. 1 str. 16M</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A gene of an organism of Brucella melitensis bv. 1 str. 16M</obo:IAO_0000115>
+        <obo:IAO_0000117>Yue Liu, Bin Zhao, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000015>224914</obo:OGG_0000000015>
+        <rdfs:label>gene of Brucella melitensis bv. 1 str. 16M</rdfs:label>
     </owl:Class>
     
 
@@ -284,12 +218,12 @@
     <!-- http://purl.obolibrary.org/obo/OGG_2060083332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2060083332">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding gene of Mycobacterium tuberculosis H37Rv</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000083332"/>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of Mycobacterium tuberculosis H37Rv that has a protein-coding gene disposition</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A gene of Mycobacterium tuberculosis H37Rv that has a protein-coding gene disposition</obo:IAO_0000115>
+        <obo:IAO_0000117>Bin Zhao, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <rdfs:label>protein-coding gene of Mycobacterium tuberculosis H37Rv</rdfs:label>
     </owl:Class>
     
 
@@ -297,12 +231,12 @@
     <!-- http://purl.obolibrary.org/obo/OGG_2060224914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_2060224914">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding gene of Brucella melitensis bv. 1 str. 16M</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2000224914"/>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">224914</obo:OGG_0000000015>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gene of Brucella melitensis bv. 1 str. 16M that has a protein-coding gene disposition</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>A gene of Brucella melitensis bv. 1 str. 16M that has a protein-coding gene disposition</obo:IAO_0000115>
+        <obo:IAO_0000117>Bin Zhao, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000015>224914</obo:OGG_0000000015>
+        <rdfs:label>protein-coding gene of Brucella melitensis bv. 1 str. 16M</rdfs:label>
     </owl:Class>
     
 
@@ -310,19 +244,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000885459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000885459">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">panC</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140405</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">885459</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 20980199</obo:OGG_0000000030>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantoate--beta-alanine ligase PanC (pantothenate synthetase) (pantoate activating enzyme)</dc:description>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv3602c</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>885459</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv3602c</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140405</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 20980199</obo:OGG_0000000030>
+        <dc:description>Pantoate--beta-alanine ligase PanC (pantothenate synthetase) (pantoate activating enzyme)</dc:description>
+        <rdfs:label>panC</rdfs:label>
     </owl:Class>
     
 
@@ -330,19 +264,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000885594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000885594">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secA2</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140329</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">885594</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 17030572; 18487341; 19240020; 20980199; 24297168</obo:OGG_0000000030>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Possible preprotein translocase ATPase SecA2</dc:description>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv1821</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>885594</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv1821</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140329</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 17030572; 18487341; 19240020; 20980199; 24297168</obo:OGG_0000000030>
+        <dc:description>Possible preprotein translocase ATPase SecA2</dc:description>
+        <rdfs:label>secA2</rdfs:label>
     </owl:Class>
     
 
@@ -350,19 +284,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000885596 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000885596">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">panD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140405</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">885596</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 20980199</obo:OGG_0000000030>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probable aspartate 1-decarboxylase precursor PanD (aspartate alpha-decarboxylase)</dc:description>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv3601c</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>885596</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv3601c</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140405</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 20980199</obo:OGG_0000000030>
+        <dc:description>Probable aspartate 1-decarboxylase precursor PanD (aspartate alpha-decarboxylase)</dc:description>
+        <rdfs:label>panD</rdfs:label>
     </owl:Class>
     
 
@@ -370,19 +304,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000886960 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000886960">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140405</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">886960</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diaminopimelate decarboxylase LysA (DAP decarboxylase)</dc:description>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 16511157; 19543810; 20980199</obo:OGG_0000000030>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv1293</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>886960</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv1293</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140405</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 16511157; 19543810; 20980199</obo:OGG_0000000030>
+        <dc:description>Diaminopimelate decarboxylase LysA (DAP decarboxylase)</dc:description>
+        <rdfs:label>lysA</rdfs:label>
     </owl:Class>
     
 
@@ -390,19 +324,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000887603 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000887603">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fadD26</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140322</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">887603</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatty-acid-AMP ligase FadD26 (fatty-acid-AMP synthetase) (fatty-acid-AMP synthase)</dc:description>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 15749014; 20553505; 20980199</obo:OGG_0000000030>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv2930</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>887603</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv2930</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140322</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 15749014; 20553505; 20980199</obo:OGG_0000000030>
+        <dc:description>Fatty-acid-AMP ligase FadD26 (fatty-acid-AMP synthetase) (fatty-acid-AMP synthase)</dc:description>
+        <rdfs:label>fadD26</rdfs:label>
     </owl:Class>
     
 
@@ -410,19 +344,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000887681 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000887681">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trpD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140405</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">887681</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 16337227; 20980199; 23363292</obo:OGG_0000000030>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probable anthranilate phosphoribosyltransferase TrpD</dc:description>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv2192c</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>887681</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv2192c</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140405</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 16337227; 20980199; 23363292</obo:OGG_0000000030>
+        <dc:description>Probable anthranilate phosphoribosyltransferase TrpD</dc:description>
+        <rdfs:label>trpD</rdfs:label>
     </owl:Class>
     
 
@@ -430,19 +364,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000888225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000888225">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leuD</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140405</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">888225</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 19194004; 20980199</obo:OGG_0000000030>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probable 3-isopropylmalate dehydratase (small subunit) LeuD (isopropylmalate isomerase) (alpha-IPM isomerase) (IPMI)</dc:description>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv2987c</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>888225</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv2987c</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140405</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 19194004; 20980199</obo:OGG_0000000030>
+        <dc:description>Probable 3-isopropylmalate dehydratase (small subunit) LeuD (isopropylmalate isomerase) (alpha-IPM isomerase) (IPMI)</dc:description>
+        <rdfs:label>leuD</rdfs:label>
     </owl:Class>
     
 
@@ -450,19 +384,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000888491 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000888491">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drrC</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140322</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">888491</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 20980199</obo:OGG_0000000030>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probable daunorubicin-dim-transport integral membrane protein ABC transporter DrrC</dc:description>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv2938</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>888491</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv2938</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140322</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 20980199</obo:OGG_0000000030>
+        <dc:description>Probable daunorubicin-dim-transport integral membrane protein ABC transporter DrrC</dc:description>
+        <rdfs:label>drrC</rdfs:label>
     </owl:Class>
     
 
@@ -470,19 +404,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000888751 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000888751">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sigE</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140406</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">888751</obo:OGG_0000000006>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternative RNA polymerase sigma factor SigE</dc:description>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 16513743; 18192397; 18606740; 18657035; 20980199</obo:OGG_0000000030>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv1221</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>888751</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv1221</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140406</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 16513743; 18192397; 18606740; 18657035; 20980199</obo:OGG_0000000030>
+        <dc:description>Alternative RNA polymerase sigma factor SigE</dc:description>
+        <rdfs:label>sigE</rdfs:label>
     </owl:Class>
     
 
@@ -490,19 +424,19 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3000888772 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000888772">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phoP</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060083332"/>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140322</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83332</obo:OGG_0000000015>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">888772</obo:OGG_0000000006>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 9634230; 12368430; 16573683; 18052041; 18065542; 18065544; 18282096; 18757548; 18946503; 19820095; 20363229; 20814030; 20980199; 21634789; 22072719; 22880126</obo:OGG_0000000030>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Possible two component system response transcriptional positive regulator PhoP</dc:description>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rv0757</obo:OGG_0000000007>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>888772</obo:OGG_0000000006>
+        <obo:OGG_0000000007>Rv0757</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140322</obo:OGG_0000000009>
+        <obo:OGG_0000000015>83332</obo:OGG_0000000015>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 9634230; 12368430; 16573683; 18052041; 18065542; 18065544; 18282096; 18757548; 18946503; 19820095; 20363229; 20814030; 20980199; 21634789; 22072719; 22880126</obo:OGG_0000000030>
+        <dc:description>Possible two component system response transcriptional positive regulator PhoP</dc:description>
+        <rdfs:label>phoP</rdfs:label>
     </owl:Class>
     
 
@@ -510,24 +444,24 @@
     <!-- http://purl.obolibrary.org/obo/OGG_3001197075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001197075">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMEI1364</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_2060224914"/>
-        <obo:OGG_0000000006 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1197075</obo:OGG_0000000006>
-        <obo:OGG_0000000009 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20140222</obo:OGG_0000000009>
-        <obo:OGG_0000000015 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">224914</obo:OGG_0000000015>
-        <obo:OGG_0000000007 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMEI1364</obo:OGG_0000000007>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
-        <obo:OGG_0000000017 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I</obo:OGG_0000000017>
-        <obo:OGG_0000000019 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI-supplied</obo:OGG_0000000019>
-        <obo:OGG_0000000030 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 11756688; 12271122; 23161025</obo:OGG_0000000030>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
-        <obo:OGG_0000000018 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</obo:OGG_0000000018>
-        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptional regulatory protein MUCR</dc:description>
+        <obo:IAO_0000117>Bin Zhao, Yue Liu, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>1197075</obo:OGG_0000000006>
+        <obo:OGG_0000000007>BMEI1364</obo:OGG_0000000007>
+        <obo:OGG_0000000009>20140222</obo:OGG_0000000009>
+        <obo:OGG_0000000015>224914</obo:OGG_0000000015>
+        <obo:OGG_0000000017>I</obo:OGG_0000000017>
+        <obo:OGG_0000000018>protein-coding</obo:OGG_0000000018>
+        <obo:OGG_0000000019>NCBI-supplied</obo:OGG_0000000019>
+        <obo:OGG_0000000030>PMID: 11756688; 12271122; 23161025</obo:OGG_0000000030>
+        <dc:description>transcriptional regulatory protein MUCR</dc:description>
+        <rdfs:label>BMEI1364</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
