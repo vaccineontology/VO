@@ -665,6 +665,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>An inorganic chloride salt having sodium(1+) as the counterion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>ClNa</chebi:formula>
+        <chebi:inchi>InChI=1S/ClH.Na/h1H;/q;+1/p-1</chebi:inchi>
+        <chebi:inchikey>FAPWRFPIFSIZLT-UHFFFAOYSA-M</chebi:inchikey>
+        <chebi:mass>58.44247</chebi:mass>
+        <chebi:monoisotopicmass>57.95862</chebi:monoisotopicmass>
+        <chebi:smiles>[Na+].[Cl-]</chebi:smiles>
+        <oboInOwl:hasDbXref>Beilstein:3534976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:7647-14-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:13673</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C13563</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D02056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:NACL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PPDB:595</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:3534976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Sodium_Chloride</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>sodium chloride</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Kochsalz</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>NaCl</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Natriumchlorid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>chlorure de sodium</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cloruro sodico</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>common salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>halite</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>natrii chloridum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>rock salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>table salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:26710</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>sodium chloride</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_2877 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2877">
@@ -876,6 +918,27 @@
         <oboInOwl:id>CHEBI:33130</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
         <rdfs:label>aluminium hydroxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasDbXref>CAS:7632-05-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Sodium_phosphates</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>sodium phosphate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>phosphoric acid, sodium salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sodium orthophosphate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sodium phosphates</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sodium salt of phosphoric acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:37586</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>sodium phosphate</rdfs:label>
     </owl:Class>
     
 
