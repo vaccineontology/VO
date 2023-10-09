@@ -1,25 +1,15 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY PATO "http://purl.obolibrary.org/obo/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY snap "http://www.ifomis.org/bfo/1.1/snap#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
-<rdf:RDF xmlns="&PATO;vo/external/PATO_import.owl#"
-     xml:base="&PATO;vo/external/PATO_import.owl"
-     xmlns:PATO="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/PATO_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/PATO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="&PATO;vo/external/PATO_import.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/PATO_import.owl"/>
     
 
 
@@ -31,24 +21,90 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&PATO;IAO_0000115"/>
-    <owl:AnnotationProperty rdf:about="&PATO;IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="&PATO;IAO_0000118"/>
-    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
-    <owl:AnnotationProperty rdf:about="&PATO;IAO_0000111"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002604 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002604"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
     
 
 
@@ -63,204 +119,314 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
-    <owl:Class rdf:about="&PATO;BFO_0000019"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasAlternativeId>PATO:0000072</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000001</oboInOwl:id>
+        <rdfs:label>quality</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0000011">
-        <rdfs:label xml:lang="en">age</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000165"/>
-        <PATO:IAO_0000115 xml:lang="en">A time quality inhering in a bearer by virtue of how long the bearer has existed.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">age</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
+        <obo:IAO_0000115>A time quality inhering in a bearer by virtue of how long the bearer has existed.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000011</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim"/>
+        <rdfs:label>age</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000044 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0000044">
-        <rdfs:label xml:lang="en">frequency</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001018"/>
-        <PATO:IAO_0000115 xml:lang="en">A physical quality which inheres in a bearer by virtue of the number of the bearer&apos;s repetitive actions in a particular time.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">frequency</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <obo:IAO_0000115>A physical quality which inheres in a bearer by virtue of the number of the bearer&apos;s repetitive actions in a particular time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000044</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim"/>
+        <rdfs:label>frequency</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000047 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0000047">
-        <rdfs:label xml:lang="en">biological sex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
-        <PATO:IAO_0000115 xml:lang="en">An organismal quality inhering in a bearer by virtue of the bearer&apos;s ability to undergo sexual reproduction in order to differentiate the individuals or types involved.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">biological sex</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <obo:IAO_0000115>An organismal quality inhering in a bearer by virtue of the bearer&apos;s ability to undergo sexual reproduction in order to differentiate the individuals or types involved.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000047</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <rdfs:label>biological sex</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000165 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0000165">
-        <rdfs:label xml:lang="en">time</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001018"/>
-        <PATO:IAO_0000115 xml:lang="en">A quality in which events occur in sequence.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">time</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A quality in which events occur in sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000165</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim"/>
+        <rdfs:label>time</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000169 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0000169">
-        <rdfs:label xml:lang="en">viability</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001237"/>
-        <PATO:IAO_0000115 xml:lang="en">An organismal quality inhering in a bearer or a population by virtue of the bearer&apos;s ability or inability to survive and develop normally or the number of surviving individuals in a given population.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">viability</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001237"/>
+        <obo:IAO_0000115>An organismal quality inhering in a bearer or a population by virtue of the bearer&apos;s disposition to survive and develop normally or the number of surviving individuals in a given population.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000169</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#disposition_slim"/>
+        <rdfs:label>viability</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000719 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0000719">
-        <rdfs:label xml:lang="en">viable</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000169"/>
-        <PATO:IAO_0000115 xml:lang="en">A viability quality inhering in a bearer or a population by virtue of the bearer&apos;s ability to survive and develop normally or the long term survival ability of a given population.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">viable</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000169"/>
+        <obo:IAO_0000115>A viability quality inhering in a bearer or a population by virtue of the bearer&apos;s ability to survive or the long term survival ability of a given population.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000719</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#disposition_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim"/>
+        <rdfs:label>viable</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000918 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0000918">
-        <rdfs:label xml:lang="en">volume</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001237"/>
-        <PATO:IAO_0000115 xml:lang="en">A 3-D extent quality inhering in a bearer by virtue of the bearer&apos;s amount of 3-dimensional space it occupies.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">volume</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000918">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A 3-D extent quality inhering in a bearer by virtue of the bearer&apos;s amount of 3-dimensional space it occupies.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000918</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#mpath_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim"/>
+        <rdfs:label>volume</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0001018">
-        <rdfs:label xml:lang="en">physical quality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001237"/>
-        <PATO:IAO_0000115 xml:lang="en">A quality of a single physical entity that exists through action of continuants at the physical level of organisation.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">physical quality</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasAlternativeId>PATO:0002079</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Physical_property</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>relational physical quality</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001018</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <rdfs:label>physical quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001029 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0001029">
-        <rdfs:label xml:lang="en">efficiency</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001018"/>
-        <PATO:IAO_0000115 xml:lang="en">A physical quality inhering in a bearer by virtue of ratio of the bearer&apos;s output to the bearer&apos;s input.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">efficiency</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A physical quality inhering in a bearer by virtue of ratio of the bearer&apos;s output to the bearer&apos;s input.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001029</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <rdfs:label>efficiency</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001237 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0001237">
-        <rdfs:label xml:lang="en">quality of a single physical entity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
-        <PATO:IAO_0000115 xml:lang="en">A physical object quality which inheres in a single-bearer.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">quality of a single physical entity</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001237">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0001241">
-        <rdfs:label xml:lang="en">physical object quality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;BFO_0000019"/>
-        <PATO:IAO_0000115 xml:lang="en">A quality which inheres in a continuant.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">physical object quality</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>A quality which inheres in a continuant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasAlternativeId>PATO:0001237</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>PATO:0001238</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>snap:Quality</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>monadic quality of a continuant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>multiply inhering quality of a physical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of a continuant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of a single physical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of an object</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of continuant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>monadic quality of an object</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>monadic quality of continuant</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001241</oboInOwl:id>
+        <rdfs:comment>Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles.</rdfs:comment>
+        <rdfs:label>physical object quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001422 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0001422">
-        <rdfs:label xml:lang="en">dead</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000169"/>
-        <PATO:IAO_0000115 xml:lang="en">A viability quality inhering in a bearer by virtue of the cessation of the bearer&apos;s life.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">dead</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000169"/>
+        <obo:IAO_0000115>A viability quality inhering in a bearer by virtue of the cessation of the bearer&apos;s life.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001422</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim"/>
+        <rdfs:label>dead</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001677 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0001677">
-        <rdfs:label xml:lang="en">inefficient</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001029"/>
-        <PATO:IAO_0000115 xml:lang="en">An efficiency quality inhering in a bearer by virtue of the bearer&apos;s lacking efficiency.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">inefficient</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001677">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001029"/>
+        <obo:IAO_0000115>An efficiency quality inhering in a bearer by virtue of the bearer&apos;s lacking efficiency.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001678"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001677</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim"/>
+        <rdfs:label>inefficient</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001678 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0001678">
-        <rdfs:label xml:lang="en">efficient</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001029"/>
-        <PATO:IAO_0000115 xml:lang="en">An efficiency quality inhering in a bearer by virtue of the bearer&apos;s having efficiency.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">efficient</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001678">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001029"/>
+        <obo:IAO_0000115>An efficiency quality inhering in a bearer by virtue of the bearer&apos;s having efficiency.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0001677"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001678</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim"/>
+        <rdfs:label>efficient</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0001995">
-        <rdfs:label xml:lang="en">organismal quality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001237"/>
-        <PATO:IAO_0000115 xml:lang="en">A quality that inheres in an entire organism or part of an organism.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">organismal quality</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A quality that inheres in an entire organism or part of an organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0001995</oboInOwl:id>
+        <rdfs:label>organismal quality</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0002146 -->
 
-    <owl:Class rdf:about="&PATO;PATO_0002146">
-        <rdfs:label xml:lang="en">virulence</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
-        <PATO:IAO_0000115 xml:lang="en">A quality inhering in a bearer by virtue of the bearer&apos;s pathogenicity.</PATO:IAO_0000115>
-        <PATO:IAO_0000111 xml:lang="en">virulence</PATO:IAO_0000111>
-        <PATO:IAO_0000412 rdf:resource="http://purl.org/obo/owl/PATO"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <obo:IAO_0000115>A quality inhering in a bearer by virtue of the severity of infectious disease caused by the bearer in a target organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2061-091X"/>
+        <oboInOwl:creation_date>2009-10-30T05:04:06Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0002146</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#scalar_slim"/>
+        <rdfs:label>virulence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
+        <obo:IAO_0000115>A virulence that is relatively low.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0002148"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2061-091X"/>
+        <oboInOwl:creation_date>2009-10-30T05:05:02Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>attenuated</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0002147</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim"/>
+        <rdfs:label>reduced virulence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A quality of an object that has a value that is decreased compared to normal or average.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <obo:RO_0002604 rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-2061-091X"/>
+        <oboInOwl:creation_date>2011-06-16T06:51:54Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0002303</oboInOwl:id>
+        <rdfs:label>decreased object quality</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.5.1928) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 

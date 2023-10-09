@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/PR_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/PR_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/PR_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasExactSynonym>natural protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>native protein</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000000001</oboInOwl:id>
+        <rdfs:comment>The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</rdfs:comment>
+        <rdfs:label>protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that has a core domain composition consisting of a signal peptide, an extracellular domain with multiple Leucine rich repeat (Pfam:PF13855) domain (LRR), a cysteine-rich region, a single-pass transmembrane domain and a C-terminal cytoplasmic tail containing a TIR domain (Pfam:PF01582).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>PIRSF:PIRSF800008</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>fam:TLR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000001096</oboInOwl:id>
+        <rdfs:comment>Category=family.</rdfs:comment>
+        <rdfs:label>Toll-like receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1752</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CD282</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TLR2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Toll/interleukin-1 receptor-like protein 4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>TIL4</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001153</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1753</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CD283</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TLR3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000001154</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasBroadSynonym>Toll</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>IUPHARobj:1754</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CD284</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TLR4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Lps</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001155</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR7 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1757</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>TLR7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>UNQ248/PRO285</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001158</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR8 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1758</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CD288</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TLR8</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>UNQ249/PRO286</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001159</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human NLRP3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1770</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CLR1.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NLRP3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PYRIN-containing APAF1-like protein 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>angiotensin/vasopressin receptor AII/AVP-like</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>caterpiller protein 1.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cold autoinflammatory syndrome 1 protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cold autoinflammatory syndrome 1 protein homolog</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cryopyrin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mast cell maturation-associated-inducible protein 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>C1orf7</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>CIAS1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Mmig1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>NALP3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>PYPAF1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000011271</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>NACHT, LRR and PYD domains-containing protein 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A SODC domain protein that is a translation product of the human SOD1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasExactSynonym>SOD1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000015399</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>superoxide dismutase [Cu-Zn]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity that minimally consists of a protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasNarrowSynonym>protein</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein aggregate</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein complex</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein-containing complex</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000050567</oboInOwl:id>
+        <rdfs:comment>Note: This includes single proteins and derivatives thereof (PR:000000001), protein-containing complexes (GO:0032991), and protein aggregates (PR:000050566).</rdfs:comment>
+        <rdfs:label>protein-containing material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the S gene in SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>GenPept:YP_009724390</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:P0DTC2</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>E2 (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>S (SARS2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>S glycoprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>peplomer protein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>surface glycoprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>GU280_gp02</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>S</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:P0DTC2</oboInOwl:id>
+        <rdfs:comment>Category=organism-gene. Note: 1273 aa protein. Undergoes additional processing by proteolytic cleavage.</rdfs:comment>
+        <rdfs:label>spike glycoprotein (SARS-CoV-2)</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+
