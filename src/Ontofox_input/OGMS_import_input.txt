@@ -5,11 +5,19 @@ http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl
 OGMS
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OGMS_0000045 #disorder
+http://purl.obolibrary.org/obo/OGMS_0000061 #pathological bodily process
+http://purl.obolibrary.org/obo/OGMS_0000060 #bodily process
+http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
+
+#http://purl.obolibrary.org/obo/OGMS_0000045 #disorder (not used in VO)
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OGMS_0000045 #disorder
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/OGMS_0000061 #pathological bodily process
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000060 #bodily process
+http://purl.obolibrary.org/obo/OGMS_0000060 #bodily process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
 
 [Source term retrieval setting]
 includeAllIntermediates
