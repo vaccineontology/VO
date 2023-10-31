@@ -10,4 +10,11 @@ We can seperate the task to several sections:
   - ...
 
 - Vaccine Host response design patterns 
+  - Vaccine administration
+
+
+
+## References:
+
+https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-3-17 
 
