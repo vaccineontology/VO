@@ -8,7 +8,7 @@ Lin Y, He Y. [Ontology representation and analysis of vaccine formulation and ad
 
 ## VO evaluation
 
-Warren Manuel, Rashmie Abeysinghe, Yongqun He, Cui Tao, Licong Cui. [Identifcation of missing hierarchical relations in the vaccine ontology using acquired term pairs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9375092/). Journal of Biomedical Semantics. 2022. 13:22. PMID: 35964149. PMCID: PMC9375092.
+Warren Manuel, Rashmie Abeysinghe, Yongqun He, Cui Tao, Licong Cui. Identifcation of missing hierarchical relations in the vaccine ontology using acquired term pairs. Journal of Biomedical Semantics. 2022. 13:22. PMID: 35964149. PMCID: [PMC9375092](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9375092/).
 
 
 
