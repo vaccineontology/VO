@@ -1,0 +1,1013 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo2="http://pur.obolibrary.og/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001818"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000304 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001243 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003355 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003355"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bearer_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bearer_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000056 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000056"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000059 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000059"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000060 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000060"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000061 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000061"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000204 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000204"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000264 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000264"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000265 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000265"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000570 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000570"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000701 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000701"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000890 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000890"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0000901 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0000901"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0001027 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0001027"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0001119 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0001119"/>
+    
+
+
+    <!-- http://pur.obolibrary.og/obo/VO_0001458 -->
+
+    <owl:Class rdf:about="http://pur.obolibrary.og/obo/VO_0001458"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10264"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10512"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11082"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11978"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1392"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1648"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_40051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_518"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_521"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_691956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_691956"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_70796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_70796"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85708"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_996"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_USA -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000013"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000041"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000126"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000394"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000395"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000637"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000642"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000752"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001456"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001481"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001489"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001509"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001515"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001522"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001524"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001528"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005800">
+        <rdfs:label>Pigeon Pox Live Virus Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001481"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0001027"/>
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0001119"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:VO_0001818>violinID:Pigeonpox virus vaccine</obo:VO_0001818>
+        <obo:IAO_0000115>A USDA: 1881.10 that immunizes against 175121 VO_0000812.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005801">
+        <rdfs:label>Fox Encephalitis Killed Virus Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001489"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10512"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A USDA: 1635.20 that immunizes against 9625 VO_0000812.</obo:IAO_0000115>
+        <obo:IAO_0000119>VO_0000395</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:VO_0001818>violinID:Canine adenovirus type 1  vaccine</obo:VO_0001818>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005802">
+        <rdfs:label>Feline calicivirus Killed Virus Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001509"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0000701"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11978"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VO_0000395</obo:IAO_0000119>
+        <obo:VO_0001818>violinID:Feline calicivirus vaccine</obo:VO_0001818>
+        <obo:IAO_0000115>A USDA: 15C5.21 that immunizes against 9685 VO_0000812.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005803">
+        <rdfs:label>Anthrax Spore live culture Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000013"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0000890"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1392"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:VO_0001818>violinID:Bacillus anthracis vaccine</obo:VO_0001818>
+        <obo:IAO_0000115>A USDA: 1011.00 that immunizes against 9913 VO_0000812.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005804">
+        <rdfs:label>Avian Encephalomyelitis Killed Virus Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001522"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70796"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>VO_0000395</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A USDA: 1015.I0 that immunizes against 9031 VO_0000812.</obo:IAO_0000115>
+        <obo:VO_0001818>violinID:Avian Encephalomyelitis Virus vaccine</obo:VO_0001818>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005805">
+        <rdfs:label>Duck Virus Hepatitis Modified Live Virus Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001528"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_691956"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0001458"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:VO_0001818>violinID:Duck hepatitis virus 1 vaccine</obo:VO_0001818>
+        <obo:IAO_0000115>A USDA: 14B1.10 that immunizes against 8835 VO_0000812.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005806">
+        <rdfs:label>Flavobacterium Columnare Avirulent Live Culture Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000637"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_996"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0000204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:VO_0001818>violinID:Flavobacterium columnare vaccine</obo:VO_0001818>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A USDA: 17F1.00 that immunizes against 117565 VO_0000812.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005807">
+        <rdfs:label>Bordetella Bronchiseptica  Avirulent Live Culture Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000394"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000060"/>
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000061"/>
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000701"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_518"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:IAO_0000115>A USDA: 1081.00 that immunizes against 9612 VO_0000812.</obo:IAO_0000115>
+        <obo:VO_0001818>violinID:Bordetella bronchiseptica vaccine</obo:VO_0001818>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005808">
+        <rdfs:label>Equine Influenza Killed Virus Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0000264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>VO_0000395</obo:IAO_0000119>
+        <obo:VO_0001818>violinID:Influenza virus vaccine</obo:VO_0001818>
+        <obo:IAO_0000115>A USDA: 1505.10 that immunizes against 9796 VO_0000812.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005809">
+        <rdfs:label>Erysipelothrix Rhusiopathiae Avirulent Live Culture Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001456"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1648"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000265"/>
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000570"/>
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000901"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A USDA: 1541.00 that immunizes against 9823 VO_0000812.</obo:IAO_0000115>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:VO_0001818>violinID:Erysipelothrix rhusiopathiae vaccine</obo:VO_0001818>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005810">
+        <rdfs:label>West Nile Virus Killed Virus Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000752"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000701"/>
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000901"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>VO_0000395</obo:IAO_0000119>
+        <obo:IAO_0000115>A USDA: 1995.20 that immunizes against 9768 VO_0000812.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:VO_0001818>violinID:West Nile virus vaccine</obo:VO_0001818>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005811">
+        <rdfs:label>Bluetongue Modified Live Virus Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001515"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0000890"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:IAO_0000115>A USDA: 1061.00 that immunizes against 9940 VO_0000812.</obo:IAO_0000115>
+        <obo:VO_0001818>violinID:Bluetongue virus vaccine</obo:VO_0001818>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005812">
+        <rdfs:label>Bordetella Avium Avirulent Live Culture Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001114"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000204"/>
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000265"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_521"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A USDA: 1021.01 that immunizes against 9103 VO_0000812.</obo:IAO_0000115>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:VO_0001818>violinID:Bordetella avium vaccine</obo:VO_0001818>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005813">
+        <rdfs:label>Escherichia Coli Avirulent Live Culture Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000041"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom rdf:resource="http://pur.obolibrary.og/obo/VO_0000265"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>VO_0000126</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>A USDA: 1551.02 that immunizes against 9103 VO_0000812.</obo:IAO_0000115>
+        <obo:VO_0001818>violinID:Escherichia coli vaccine</obo:VO_0001818>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005814">
+        <rdfs:label>Porcine Circovirus Type 2, Killed Baculovirus Vector Vaccine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001524"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000204"/>
+                            <rdf:Description rdf:about="http://pur.obolibrary.og/obo/VO_0000901"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85708"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000395"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:VO_0001818>violinID:Porcine circovirus 2 vaccine</obo:VO_0001818>
+        <obo:IAO_0000115>A USDA: 19K5.R0 that immunizes against 9823 VO_0000812.</obo:IAO_0000115>
+        <obo:IAO_0000119>VO_0000395</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+
