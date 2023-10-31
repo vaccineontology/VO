@@ -4,7 +4,7 @@ This document provides a list of VO references published by He Group.
 
 ## VO references with design patterns:
 
-Lin Y, He Y. Ontology representation and analysis of vaccine formulation and administration and their effects on vaccine immune responses. Journal of Biomedical Semantics. 2012, 3:17. PMID: 23256535. PMCID: PMC3639077.
+Lin Y, He Y. [Ontology representation and analysis of vaccine formulation and administration and their effects on vaccine immune responses](https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-3-17). Journal of Biomedical Semantics. 2012, 3:17. PMID: 23256535. PMCID: PMC3639077.
 
 ## VO evaluation
 
