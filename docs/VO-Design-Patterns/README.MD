@@ -62,5 +62,6 @@ What VO has for now:
 
 ## References:
 
-https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-3-17 
+- https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-3-17 
+- VEuPathDB ontology design pattern: https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/wiki/Design-patterns 
 
