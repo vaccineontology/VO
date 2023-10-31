@@ -21,7 +21,16 @@ We can seperate the task to several sections:
     - veterinary vaccine
   - ...
 
-What VO has for now:
+## Tasks or questions:
+
+We need to determine which one is primary hierarchy.
+The others will be inferred.
+
+For inferred hierarchies, we will need to generated some equivalent classes. So what they are? 
+
+
+
+## What VO has for now:
 - DNA vaccine
 - RNA vaccine
 - conjugate vaccine
