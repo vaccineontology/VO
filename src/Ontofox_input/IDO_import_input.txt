@@ -6,6 +6,7 @@ IDO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
+http://purl.obolibrary.org/obo/IDO_0000450 #pathogenic disposition
 http://purl.obolibrary.org/obo/IDO_0000547 #virulence factor
 http://purl.obolibrary.org/obo/IDO_0000403 #parasite role
 http://purl.obolibrary.org/obo/IDO_0000409 #definitive host role
@@ -14,7 +15,9 @@ http://purl.obolibrary.org/obo/IDO_0000420 #biological vector of infectious agen
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/IDO_0000450 #pathogenic disposition
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
 http://purl.obolibrary.org/obo/IDO_0000547 #virulence factor
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/IDO_0000403 #parasite role
