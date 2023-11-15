@@ -1,0 +1,3758 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/OPL_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/OPL_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/OPL_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000182"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000403"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_40674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7164"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000119"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000119"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An exflagellated microgametocyte stage in the lifecycle of Plasmodium falciparum that occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum exflagellated microgametocyte stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum exflagellated microgametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000143"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000192"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000291"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A microgametocyte stage in the Plasmodium falciparum lifecycle that occurs either in the bloodstream of a human host or the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>P. Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan.</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum microgametocyte stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum microgametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000260"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gamete stage in apicomplexan parasites when exflagellated microgametocyte divides into microgamete.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Matt Berriman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>microgamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000150"/>
+        <obo:IAO_0000115>A gametocyte stage where a cell differentiates into a female sexual form called macrogametocyte.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>macrogametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000032">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7164"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001045"/>
+        <obo:IAO_0000115>A midgut that is a part of or originated from an Anopheles mosquito.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Anopheles midgut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000035">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000078"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000298"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An erythrocytic schizont stage in the Plasmodium falciparum lifecycle that occurs in the infected erythrocytes of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000116>updated according to OPL terms Plasmodium final excel file from C. Janse, S. Khan</obo:IAO_0000116>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythorcytic schizont stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum erythrocytic schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A parasite lifecycle stage of apicomplexan species where a daughter cell, called merozoite is produced from schizont through schizogony.</obo:IAO_0000115>
+        <obo:IAO_0000116>adjusted to be more general</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.biology.ualberta.ca/parasites/parpub/text/text/glossarM.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000040">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000182"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+        <obo:IAO_0000115>A hepatocyte that is a part of or originated from a human (Homo sapiens).</obo:IAO_0000115>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>human hepatocyte</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <oboInOwl:hasDbXref>FMA:14515</oboInOwl:hasDbXref>
+        <rdfs:label>Homo sapiens hepatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000042">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000140"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000207"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000305"/>
+        <obo:IAO_0000115>An erythrocytic ring trophozoite stage in the Plasmodium falciparum life cycle that occurs in erythrocytes of a human host. During this stage some Plasmodium falciparum merozoites undergo asexual reproduction cycle in erythrocytes and form young trophozoites that are referred to as &quot;ring form&quot; due to their morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic ring trophozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000119>Wikipedia: Plasmodium falciparum biology</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum erythrocytic ring trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum gametocyte that is a male gametocyte and found in either bloodstream of a human host or midgut of a mosquito vector. The microgametocyte is a precursor cell of the microgamete.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum microgametocyte</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum microgametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A parasite lifecycle stage of some protozoan parasites that is a non-reproductive, feeding and growing stage.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.biology.ualberta.ca/parasites/parpub/text/text/glossarT.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000084"/>
+        <obo:IAO_0000115>A schizont stage that occurs in hepatocyte where sporozoites mature into a schizont.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Matt Berriman</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:11006474</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>hepatic schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum divides through schizogony. Depending on its location, it is either called hepatic or erythrocytic schizont. The schizont is a dividing stage with 2 or more nuclei.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum schizont</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000068">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000028"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000192"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A macrogametocyte stage in the Plasmodium falciparum lifecycle that occurs either in the bloodstream of a human host or the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000116>gametocytes are mainly found in the blood</obo:IAO_0000116>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum macrogametocyte stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum macrogametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A parasite lifecycle stage of sporozoa consisting of a zygote enclosed by cyst wall.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>Mosby&apos;s Medical Dictionary, 8th edition. � 2009, Elsevier. (http://medical-dictionary.thefreedictionary.com/oocyst)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>oocyst stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000075">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000085"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000262"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A macrogamete stage in the Plasmodium falciparum lifecycle that occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum macrogamete stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum macrogamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000084"/>
+        <obo:IAO_0000115>A schizont stage that occurs in erythrocytes where trophozoites mature into a schizont and schizont produces daughter trophozoites or merozoites.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Matt Berriman</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID: 11006474</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>erythrocytic schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A parasite lifecycle stage that is the multinucleate stage in the development of some members of the Sarcodina and some sporozoans during schizogony.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>http://medical-dictionary.thefreedictionary.com/schizont</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000260"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gamete stage in parasites when macrogametocytes produce macrogametes through the process known as gametogenesis.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.tulane.edu/~wiser/malaria/mal_lc.PDF</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>macrogamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000274"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum that is a &apos;banana-shaped&apos; form and originates from the round zygote. The ookinete is found in the midgut of a mosquito vector and traverses the midgut wall of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum ookinete</obo:IAO_0000118>
+        <obo:IAO_0000119>Wikipedia: Plasmodium falciparum biology</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum ookinete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000093">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000059"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000299"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A hepatic schizont stage in the lifecycle of Plasmodium falciparum that occurs in the infected hepatocytes of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum hepatic schizont stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum hepatic schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000096">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000232"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+        <obo:IAO_0000115>An erythrocyte that is a part of or originated from a human (Homo sapiens).</obo:IAO_0000115>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>human RBC</obo:IAO_0000118>
+        <obo:IAO_0000118>human erythrocyte</obo:IAO_0000118>
+        <obo:IAO_0000118>human red blood cell</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <oboInOwl:hasDbXref>FMA:62845</oboInOwl:hasDbXref>
+        <rdfs:label>Homo sapiens erythrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000103">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000036"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000292"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A merozoite stage in the Plasmodium falciparum lifecycle that occurs in the bloodstream or hepatocytes of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum merozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000060"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000276"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum schizont that is found in infected erythrocytes of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic schizont</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum erythrocytic schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000113">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000073"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000295"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An oocyst stage in the Plasmodium falciparum lifecycle that occurs on the hemocoel side of the midgut of a mosquito vector. During this stage Plasmodium falciparum ookinete invades and escapes midgut wall of mosquito and embed itself onto the exterior of the gut membrane and develop encysted zygote, called oocyst.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum oocyst stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum oocyst stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000115">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000152"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000300"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium falciparum lifecycle that occurs in the salivary glands of the mosquito and invades hepatocytes in the human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Matt Berrimen</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum sporozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000117">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000320"/>
+        <obo:IAO_0000115>Blood that is part of or originated from a human (Homo sapiens).</obo:IAO_0000115>
+        <obo:IAO_0000116>previous def was: blood of human</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000118>human blood</obo:IAO_0000118>
+        <obo:IAO_0000119>OPL</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Homo sapiens blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000143"/>
+        <obo:IAO_0000115>A microgametocyte stage in some apicomplexan parasites where microgametocyte gets matured and form microgamete through the process known as exflagellation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>exflagellated microgametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000121">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001044"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7164"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001044"/>
+        <obo:IAO_0000115>A salivary gland that is a part of or originated from an Anopheles mosquito.</obo:IAO_0000115>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Anopheles salivary gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000270"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum that is produced in a schizont, found in the bloodstream of a human host and invades erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum merozoite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000278"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum is formed in the oocyst. It migrates to and resides in the salivary glands of the mosquito vector. A distinction is made between oocyst-derived and salivary gland-derived sporozoites. Sporozoites invade hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum sporozoite</obo:IAO_0000118>
+        <obo:IAO_0000119>Wikipedia: Plasmodium falciparum biology</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000273"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum that oocyst is formed, after traversal of the midgut wall by the ookinete stage, on the hemocoel side of the midgut wall of the mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum oocyst</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum oocyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000243"/>
+        <obo:IAO_0000115>An early trophozoite stage of Plasmodium sp. where a large central vacuole and peripheral nucleus give an appearance of a signet ring.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.biology.ualberta.ca/parasites/parpub/text/text/glossarR.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>erythrocytic ring trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000150"/>
+        <obo:IAO_0000115>A gametocyte stage where a cell differentiates into a male sexual form called microgametocyte.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>microgametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000251"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum is a feeding form. The trophozoite stage has only 1 nucleus. Depending on its location, it is either called hepatic or erythrocytic trophozoite.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum trophozoite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <obo:IAO_0000115>A life cycle stage where a cell differentiates into male or female sexual forms.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>gametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A parasite lifecycle stage of some sporozoans where cells divide through sporogony producing daughter cells called sporozoites that infect new hosts.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.biology.ualberta.ca/parasites/parpub/text/text/glossarS.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A parasite lifecycle stage of some sporozoans where motile and elongated zygote is formed by the fertilization of the macrogamete during the sexual reproductive phase of the sporozoan life cycle, specifically the malarial parasite Plasmodium.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>Mosby&apos;s Medical Dictionary, 8th edition. � 2009, Elsevier. (http://medical-dictionary.thefreedictionary.com/ookinete)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>ookinete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000158">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000084"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000297"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A schizont stage in the Plasmodium falciparum lifecycle that occurs in erythrocytes or in hepatocytes.</obo:IAO_0000115>
+        <obo:IAO_0000116>updated according to OPL terms Plasmodium final excel file from C. Janse, S. Khan</obo:IAO_0000116>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum schizont stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000285"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum zygote is formed after fertilisation of the macrogamete by a microgamete in the midgut of the mosquito vector. This round form is the only diploid stage in the Plasmodium falciparum life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>P. Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum zygote</obo:IAO_0000118>
+        <obo:IAO_0000119>Wikipedia: Plasmodium falciparum biology</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum zygote</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000050"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum microgametocyte that is matured with flagellated motile microgametes still attached to its central body. Exflagellated microgametocyte of Plasmodium falciparum is found in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Matt Berriman</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum exflagellated microgametocyte</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum exflagellated microgametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000165">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000181"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <obo:IAO_0000115>A lifecycle stage of Plasmodium falciparum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum lifecycle stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000258"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum gamete that is a matured form of the macrogametocyte and is found in the midgut of a mosquito vector. The macrogamete is fertilized by the microgamete, forming the zygote</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum macrogamete</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum macrogamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000170">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000026"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000262"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000288"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A microgamete stage in the Plasmodium falciparum lifecycle that occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum microgamete stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum microgamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000403"/>
+        <obo:IAO_0000115>A parasite role which is realized only during parasitic infection of a human.</obo:IAO_0000115>
+        <obo:IAO_0000116>previous def was not about a role.</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>human parasite role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000258"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000266"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000170"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum gamete that is a matured form of exflagellated microgametocyte and found in the midgut of a mosquito vector. The microgamete fertilizes the macrogamete, forming the zygote.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum microgamete</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum microgamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000181">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <obo:IAO_0000115>A life cycle stage of a parasite.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>parasite lifecycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000187">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000153"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An ookinete stage in the Plasmodium falciparum lifecycle that occurs in the midgut of a mosquito vector and on the outside of the midgut.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum ookinete stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum ookinete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000060"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000277"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum schizont that is found in infected hepatocytes (i.e., liver cells) of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum hepatic schizont</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum hepatic schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000192">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000150"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000289"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gametocyte stage in the lifecycle of Plasmodium falciparum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum gametocyte stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum gametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000199">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000106"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zygote stage in the Plasmodium falciparum lifecycle that occurs in the midgut of the mosquito vector where a microgamete and a macrogamete fertilizes each other to produce a diploid cell.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum zygote stage</obo:IAO_0000118>
+        <obo:IAO_0000119>Wikipedia: Plasmodium falciparum biology</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum zygote stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum gametocyte that is a female gametocyte and found either in bloodstream of a human host or midgut of mosquito vector. The macrogametocyte is a precursor of the macrogamete.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum macrogametocyte</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum macrogametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000207">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000243"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000251"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000304"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An erythrocytic trophozoite stage in the Plasmodium falciparum life cycle that occurs in erythrocytes of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic trophozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum erythrocytic trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000244"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000283"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum erythrocytic trophozoite that is found in erythrocytes. It is a young trophozoite stage that has a typical &apos;ring-like&apos; appearance. Ring-form trophozoites of Plasmodium falciparum are often thin and delicate, measuring on average 1/5 the diameter of the red blood cell.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parkh</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic ring trophozoite</obo:IAO_0000118>
+        <obo:IAO_0000119>http://www.dpd.cdc.gov/dpdx/html/frames/m-r/malaria/falciparum/body_malariadffalcring.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum erythrocytic ring trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000232">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000403"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115>An organism living in, with, or on another organism in parasitism. Individual members of parasite species, such as Leishmania, Plasmodium, Trypanosoma, etc. are members of this class.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Priti Parikh</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.merriam-webster.com/dictionary/parasite?show=0&amp;t=1310398415</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>parasite organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000130"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000272"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000246"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum merozoite that is produced in a hepatic schizont and released into the bloodstream of a human host. These forms invade erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum hepatic merozoite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum hepatic merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000130"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000271"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000245"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum merozoite that is produced in an erythrocytic schizont and released into the bloodstream of a human host. These forms invade erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic merozoite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum erythrocytic merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A trophozoite stage in some protozoan parasite life cycle that occurs in erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000116>definition adapted from that for P. falciparum erythrocytic trophozoite stage and parent trophozoite stage</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>erythrocytic trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000282"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum trophozoite that is found in erythrocytes. It is a feeding stage with a single nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic trophozoite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum erythrocytic trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000245">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000248"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000103"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000293"/>
+        <obo:IAO_0000115>An erythrocytic merozoite stage in the Plasmodium falciparum lifecycle that occurs in the bloodstream of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum erythrocytic merozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum erythrocytic merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000246">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000247"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000103"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000294"/>
+        <obo:IAO_0000115>A hepatic merozoite stage in the Plasmodium falciparum lifecycle that occurs in the hepatocyte of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum hepatic merozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum hepatic merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000036"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A merozoite stage in the Plasmodium lifecycle that occurs in the hepatocyte of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000116>definition adapted from that for P. falciparum hepatic merozoite stage</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>hepatic merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000036"/>
+        <obo:IAO_0000115>A merozoite stage in the apicomplexan lifecycle that occurrs in the bloodstream of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000116>definition adapted from that for P. falciparum salivary erythrocytic merozoite stage and from the general merozoite definition</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>erythrocytic merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000267"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum that is located either in the bloodstream of the human host or midgut of mosquito vector. Gametocytes are the precursor cells of the macro- or micro-gametes.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>K. Louis</obo:IAO_0000117>
+        <obo:IAO_0000117>S Khan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum gametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000250">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000261"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000251"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000306"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A hepatic trophozoite stage in the Plasmodium falciparum life cycle that occurs in hepatocytes of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum hepatic trophozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum hepatic trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000251">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000057"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000303"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A trophozoite stage in the Plasmodium falciparum lifecycle that occurs in a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum trophozoite stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000252">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000256"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000301"/>
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium falciparum lifecycle that occurs in the hemocoel and the salivary glands of the mosquito. Sporozoites invade hepatocytes in the human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum oocyst-derived sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000152"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium lifecycle that occurs in the hemocoel and the salivary glands of the mosquito. Sporozoites invade hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000116>definition adapted from that for P. falciparum salivary gland derived sporozoite stage</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>salivary gland-derived sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000254">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000253"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000302"/>
+        <obo:IAO_0000115>A salivary gland-derived sporozoite stage in the Plasmodium falciparum lifecycle that occurs in the hemocoel and the salivary glands of the mosquito. Sporozoites invade hepatocytes in the human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum salivary gland-derived sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000137"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000280"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000254"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum sporozoite that is formed in the oocyst. It migrates to and resides in the salivary glands of the mosquito vector. Sporozoites invade hepatocytes in a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum salivary gland-derived sporozoite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum salivary gland-derived sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000152"/>
+        <obo:IAO_0000115>A sporozoite stage in some parasite lifecycle that occurs in the hemocoel and the salivary glands of the mosquito. Sporozoites invade hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000116>definition adapted from that for P. falciparum oocyte derived sporozoite stage</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>oocyst-derived sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum trophozoite that is found in hepatocytes of a human host. It is a feeding stage with a single nucleus</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum hepatic trophozoite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum hepatic trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000262"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum that is found in midgut of mosquito vector. There are two forms of gametes: micro- and macrogametocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum gamete</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum gamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000137"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000279"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000252"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium falciparum sporozoite that is found in the infected hepatocytes of a human host.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum oocyst-derived sporozoite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum oocyst-derived sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <obo:IAO_0000115>A life cycle stage of some parasites that develop into mature sexual cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>gamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A trophozoite stage in some protozoan parasite life cycle that occurs in hepatocytes.</obo:IAO_0000115>
+        <obo:IAO_0000116>definition adapted from that for P. falciparum hepatic trophozoite stage and from parent trophozoite stage</obo:IAO_0000116>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>hepatic trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000262">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000260"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gamete stage in the Plasmodium falciparum lifecycle that occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>C. Janse</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>S. Khan</obo:IAO_0000117>
+        <obo:IAO_0000118>P. falciparum gamete stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium falciparum gamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000264">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000260"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115>A Plasmodium that is found in the midgut of a mosquito vector during gamete lifecycle stage. There are two forms of gametes: micro- and macrogametocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium gamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000265">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000085"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium gamete that is in a matured form of the macrogametocyte and found in the midgut of a mosquito vector. The macrogamete is fertilized by the microgamete, forming the zygote.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium macrogamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000266">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000026"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium gamete that is in a matured form of exflagellated microgametocyte and found in the midgut of a mosquito vector. The microgamete fertilises the macrogamete, forming the zygote.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium microgamete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000267">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000150"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115>A Plasmodium that is located either in the bloodstream of the vertebrate host or midgut of mosquito vector during gametocyte stage. Gametocytes are the precursor cells of the macro- or microgametes</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium gametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000268">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000028"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000267"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium gametocyte that is a female gametocyte of Plasmodium and found either in the bloodstream of the vertebrate host or midgut of mosquito vector. The macrogametocyte is a precursor of the macrogamete.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium macrogametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000269">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000143"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000267"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium gametocyte that is a male gametocyte of Plasmodium and found either in the bloodstream of a vertebrate host or midgut of a mosquito vector. The microgametocyte is a precursor cell of the microgamete</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium microgametocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000270">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000036"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115>A Plasmodium that is during merozoite lifecycle stage, occurs in the bloodstream of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000271">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000248"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000270"/>
+        <obo:IAO_0000115>A Plasmodium merozoite that is produced in an erythrocytic schizont and released into the bloodstream of a vertebrate host. These forms invade erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium erythrocytic merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000272">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000247"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000270"/>
+        <obo:IAO_0000115>A Plasmodium merozoite that is produced in a hepatic schizont and released into the bloodstream of a vertebrate host. These forms invade erythrocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium hepatic merozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000273">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000073"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium that is formed after traversal of the midgut wall by the ookinete stage, on the hemocoel side of the midgut wall of the mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium oocyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000274">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000153"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium that is a &apos;banana-shaped&apos; form originates from the round zygote. The ookinete is found in the midgut of a mosquito vector and traverses the midgut wall of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium ookinete</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000275">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000084"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <obo:IAO_0000115>A Plasmodium that is a form divides through schizogony. Depending on its location, it is either called hepatic or erythrocytic schizont. The schizont is a dividing stage with 2 or more nuclei.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000276">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000078"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium schizont that is found in infected erythrocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium erythrocytic schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000277">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000059"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium schizont that is found in infected hepatocytes (i.e. liver cells) of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium hepatic schizont</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000278">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000152"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium that is formed in the oocyst and migrates to and reside in the salivary glands of the mosquito vector. A distinction is made between oocyst-derived and salivary gland-derived sporozoites. Sporozoites invade hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000279">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000256"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000278"/>
+        <obo:IAO_0000115>A Plasmodium sporozoite that is found in the infected hepatocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium oocyst-derived sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000280">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000253"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000278"/>
+        <obo:IAO_0000115>A Plasmodium sporozoite that is found in the salivary glands of the mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium salivary gland-derived sporozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000281">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000057"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium that is a feeding form which has a single nucleus during the trophozoite stage. Depending on its location, it is either called hepatic or erythrocytic trophozoite.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000282">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000243"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium trophozoite that is found in erythrocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium erythrocytic trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000283">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000140"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000282"/>
+        <obo:IAO_0000115>A Plasmodium erythrocytic trophozoite that has a typical &apos;ring-like&apos; appearance. Ring-form trophozoites of Plasmodium are often thin and delicate, measuring on average 1/5 the diameter of the red blood cell.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium erythrocytic ring trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000284">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000261"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium trophozoite that is found in hepatocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium hepatic trophozoite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000285">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000106"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A Plasmodium that is formed after fertilization of the macrogamete by a microgamete in the midgut of the mosquito vector. This round form is the only diploid stage in the Plasmodium life cycle.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Ulrike Boehme</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/OPL-ontology/OPL/issues/2</obo:IAO_0000233>
+        <obo:IAO_0000234>GeneDB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium zygote</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000286">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000260"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000260"/>
+        <obo:IAO_0000115>A gamete stage in the Plasmodium lifecycle that occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium gamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000287">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000085"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A macrogamete stage in the Plasmodium lifecycle that occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium macrogamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000288">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000026"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000286"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A microgamete stage in the Plasmodium lifecycle that occurs in the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium microgamete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000289">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000150"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <obo:IAO_0000115>A gametocyte stage in the lifecycle of Plasmodium.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium gametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000290">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000028"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000028"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000289"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A macrogametocyte stage in the Plasmodium lifecycle that occurs either in the bloodstream of a vertebrate host or the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium macrogametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000291">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000143"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000143"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000289"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A microgametocyte stage in the Plasmodium lifecycle that occurs either in the bloodstream of a vertebrate host or the midgut of a mosquito vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium microgametocyte stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000292">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000036"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000036"/>
+        <obo:IAO_0000115>A merozoite stage in the Plasmodium lifecycle that occurs in the bloodstream or hepatocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000293">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000248"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000248"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000292"/>
+        <obo:IAO_0000115>An erythrocytic merozoite stage in the Plasmodium lifecycle that occurs in the bloodstream of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium erythrocytic merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000294">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000247"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000247"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000292"/>
+        <obo:IAO_0000115>A hepatic merozoite stage in the Plasmodium lifecycle that occurs in the hepatocyte of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium hepatic merozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000295">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000073"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000073"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An oocyst stage in the Plasmodium lifecycle that occurs on the hemocoel side of the midgut of a mosquito vector. During this stage Plasmodium ookinete invades and escapes midgut wall of mosquito and embed itself onto the exterior of the gut membrane and develop encysted zygote, called oocyst.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium oocyst stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000296">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000153"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000153"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An ookinete stage in the Plasmodium lifecycle that occurs in the midgut of a mosquito vector and on the outside of the midgut.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium ookinete stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000297">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000084"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000084"/>
+        <obo:IAO_0000115>A schizont stage in the Plasmodium lifecycle that occurs in erythrocytes or in hepatocytes.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000298">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000078"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000297"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An erythrocytic schizont stage in the Plasmodium lifecycle that occurs in the infected erythrocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium erythrocytic schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000299">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000059"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000059"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000297"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A hepatic schizont stage in the Plasmodium lifecycle that occurs in the infected hepatocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium hepatic schizont stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000300">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000152"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000152"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000310"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium lifecycle that occurs in the salivary glands of the mosquito and invades hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000301">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000256"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000256"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000300"/>
+        <obo:IAO_0000115>A sporozoite stage in the Plasmodium lifecycle that develops in oocyst of the mosquito midgut.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Omar harb</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium oocyst-derived sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000302">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000253"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000253"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000300"/>
+        <obo:IAO_0000115>A salivary gland-derived sporozoite stage in the Plasmodium lifecycle that occurs in the salivary glands of the mosquito and invades hepatocytes in the vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Omar harb</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium salivary gland-derived sporozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000303">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000057"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A trophozoite stage in the Plasmodium lifecycle that occurs in a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000304">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000243"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000243"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000303"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An erythrocytic trophozoite stage in the Plasmodium life cycle that occurs in erythrocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium erythrocytic trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000305">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000140"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000140"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000304"/>
+        <obo:IAO_0000115>An erythrocytic ring trophozoite stage in the Plasmodium life cycle that occurs in erythrocytes of a vertebrate host. During this stage some Plasmodium merozoites undergo asexual reproduction cycle in erythrocytes and form young trophozoites that are referred to as &quot;ring form&quot; due to their morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium erythrocytic ring trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000306">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPL_0000261"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000261"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000303"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A hepatic trophozoite stage in the Plasmodium life cycle that occurs in hepatocytes of a vertebrate host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium hepatic trophozoite stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000307">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000106"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000106"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A zygote stage in the Plasmodium lifecycle that occurs in the midgut of the mosquito vector where a microgamete and a macrogamete fertilizes each other to produce a diploid cell.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Plasmodium zygote stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000310">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <obo:IAO_0000115>Blood that is part of or originated from a vertebrate.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>OPL</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Vertebrate blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000311">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000232"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000232"/>
+        <obo:IAO_0000115>An erythrocyte that is a part of or originated from a vertebrate.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>OPL</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Vertebrate erythrocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000312">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000182"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
+        <obo:IAO_0000115>A hepatocyte that is a part of or originated from a vertebrate.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>OPL</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Vertebrate hepatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000320">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000310"/>
+        <obo:IAO_0000115>Blood that is part of or originated from a mammalia.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>Mammalia blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001044"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001045"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+

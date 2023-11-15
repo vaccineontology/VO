@@ -1,25 +1,13 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY CHEBI "http://purl.obolibrary.org/obo/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
-<rdf:RDF xmlns="&CHEBI;vo/external/IDO_import.owl#"
-     xml:base="&CHEBI;vo/external/IDO_import.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/external/IDO_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/external/IDO_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:CHEBI="http://purl.obolibrary.org/obo/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#">
-    <owl:Ontology rdf:about="&CHEBI;vo/external/IDO_import.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/external/IDO_import.owl"/>
     
 
 
@@ -34,38 +22,27 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="&CHEBI;IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
-    <owl:AnnotationProperty rdf:about="&CHEBI;IAO_0000115">
-        <rdfs:label>definition</rdfs:label>
-        <CHEBI:IAO_0000111>definition</CHEBI:IAO_0000111>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="&CHEBI;IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
-    <owl:AnnotationProperty rdf:about="&CHEBI;IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     
 
 
@@ -80,36 +57,142 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
 
-    <owl:Class rdf:about="&CHEBI;CHEBI_23367"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont role borne by an organism in virtue of the fact that it derives a growth, survival, or fitness advantage from symbiosis while the other symbiont&apos;s growth, survival, or fitness is reduced.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:comment>In the medical community, the term &apos;parasite&apos; is used with the narrower meaning of eukaryotic pathogen.</rdfs:comment>
+        <rdfs:comment>The role is realized in processes that result in the parasite&apos;s growth, survival, or fitness advantage or in the other organism&apos;s growth, survival, or fitness reduction.</rdfs:comment>
+        <rdfs:label xml:lang="en">parasite role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000725"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont host role borne by an organism in virtue of the fact that its partner in symbiosis reaches developmental maturity or reproduces sexually in the host.  </obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">primary host role</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:comment>The role is realized in developmental and reproduction processes of the host&apos;s partner in symbiosis.</rdfs:comment>
+        <rdfs:label xml:lang="en">definitive host role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent transporter role that is borne by an organism active in the transfer of an infectious agent to an organism of another Species and in which the agent is infectious.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:comment>The role is realized in a transmission process.  A bearer of a vector role is also a bearer of a host role.</rdfs:comment>
+        <rdfs:label xml:lang="en">infectious agent vector role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000420">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000418"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent vector role borne by an organism in virtue of the fact that the infectious agent multiplies in the vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">biological vector of infectious agent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">A disposition to initiate processes that result in a disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">pathogenicity</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:comment>A pathogenic disposition is realized in processes that create a disorder.</rdfs:comment>
+        <rdfs:comment>The use of &apos;initiates&apos; is intended to convey that a pathogenic disposition is realized when processes resulting in a disorder begin because of some action on the part of the bearer of the disposition.  By this interpretation of &apos;initiates&apos;, disorder-causing entities such as glass, UV light, and toxins do not have a pathogenic disposition.</rdfs:comment>
+        <rdfs:label xml:lang="en">pathogenic disposition</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IDO_0000528 -->
 
-    <owl:Class rdf:about="&CHEBI;IDO_0000528">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A material entity with a pathogenic disposition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <rdfs:label xml:lang="en">pathogen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_23367"/>
-        <CHEBI:IAO_0000115 xml:lang="en">A material entity with a pathogenic disposition.</CHEBI:IAO_0000115>
-        <CHEBI:IAO_0000111 xml:lang="en">pathogen</CHEBI:IAO_0000111>
-        <CHEBI:IAO_0000412 rdf:resource="&CHEBI;ido.owl"/>
     </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IDO_0000547 -->
 
-    <owl:Class rdf:about="&CHEBI;IDO_0000547">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 xml:lang="en">A biological macromolecule produced by a pathogen and that has a virulence factor disposition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>Alexander Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <rdfs:label xml:lang="en">virulence factor</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_23367"/>
-        <CHEBI:IAO_0000115 xml:lang="en">A biological macromolecule produced by a pathogen and that has a virulence factor disposition.</CHEBI:IAO_0000115>
-        <CHEBI:IAO_0000111 xml:lang="en">virulence factor</CHEBI:IAO_0000111>
-        <CHEBI:IAO_0000412 rdf:resource="&CHEBI;ido.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000725"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 
