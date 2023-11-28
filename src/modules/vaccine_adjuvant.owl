@@ -400,16 +400,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000580">
         <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000179"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+            </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000179"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine component that is chemical substance added to vaccine and enhance and direct immune response to protective antigen. Many of vaccine adjuvants cause a range of serious side-effects.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label>vaccine adjuvant</rdfs:label>
