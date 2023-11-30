@@ -1,15 +1,24 @@
-ontology ID,entity type,label,alternative term,definition,definition source,example of usage,term editor,editor note,comment,term tracker item,VIOLIN vaccine ID,obsolete,obsolescence reason,replacement term
-ID,TYPE,LABEL,A alternative term SPLIT=|,A http://purl.obolibrary.org/obo/IAO_0000115,A definition source SPLIT=|,A example of usage SPLIT=|,A term editor SPLIT=|,A editor note SPLIT=|,A rdfs:comment SPLIT=|,AI term tracker item,,AT deprecated^^xsd:boolean,AI has obsolescence reason,AI term replaced by
-VO:0004989,class,obsolete S protein of SARS-CoV-2,,,,,Anthony Huffman,Replaced term with S protein of SARS-CoV-2 Wuhan strain (PR_P0DTC2) for ontology harmonization,,,,true,,
-VO:0000034,class,obsolete Diphtheria and Tetanus Toxoids Adsorbed by Sanofi Pasteur Ltd,,,,,Oliver He,,Product Name: Diphtheria & Tetanus Toxoids Adsorbed|This term is obsolete since there is another term with the same meaning.,,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0000033
-VO:0000141,class,obsolete virulence factor,,,,,Oliver He,,,,,true,,
-VO:0000155,class,obsolete bacterial gene,,,,,Oliver He,,,,,true,,
-VO:0000597,class,obsolete class,,,,,,,,,,true,http://purl.obolibrary.org/obo/IAO_0000226,
+ontology ID,entity type,label,alternative term,definition,definition source,example of usage,term editor,editor note,comment,term tracker item,VIOLIN vaccine ID,,obsolete,obsolescence reason,replacement term,,,
+ID,TYPE,LABEL,A alternative term SPLIT=|,A http://purl.obolibrary.org/obo/IAO_0000115,A definition source SPLIT=|,A example of usage SPLIT=|,A term editor SPLIT=|,A editor note SPLIT=|,A rdfs:comment SPLIT=|,AI term tracker item,,,AT deprecated^^xsd:boolean,AI has obsolescence reason,AI term replaced by,,,
+VO:0004989,class,obsolete S protein of SARS-CoV-2,,,,,Anthony Huffman,Replaced term with S protein of SARS-CoV-2 Wuhan strain (PR_P0DTC2) for ontology harmonization,,,,,true,,,,,
+VO:0000034,class,obsolete Diphtheria and Tetanus Toxoids Adsorbed by Sanofi Pasteur Ltd,,,,,Oliver He,,Product Name: Diphtheria & Tetanus Toxoids Adsorbed|This term is obsolete since there is another term with the same meaning.,,,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0000033,,,
+VO:0000141,class,obsolete virulence factor,,,,,Oliver He,,,,,,true,,,,,
+VO:0000155,class,obsolete bacterial gene,,,,,Oliver He,,,,,,true,,,,,
+VO:0000597,class,obsolete class,,,,,,,,,,,true,http://purl.obolibrary.org/obo/IAO_0000226,,,,
 VO:0000787,class,obsolete gene,,,,,Oliver He,"A gene that is a pathogen gene used for vaccine preparation or a host gene encoding for an immune factor important in induction of protective immunity.
-a vaccine-associated gene that exists in a pathogen and has been engineered for vaccine develoment. This gene can encode for protective antigen that is overexpressed for vaccine development. This gene can also be a virulence factor that is mutated to attenuate a virulent pathogen with the purpose of making attenuated vaccine.|The term 'gene' has appears in several ontologies, such as Sequence Ontology (SO) and Protein Ontology (PRO). We may choose to use a 'gene' term from other ontologies. The 'gene' term in SO has ID: SO:0000704.",,,,true,,
-VO:0000899,class,obsolete dose,,"dose is a measurement data that measures the quantity of something that may be eaten by or administered to an organism, or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.",http://en.wikipedia.org/wiki/Dose_%28biochemistry%29,,Oliver He|Melanie Courtot,,"obsolete on 2/1/2020, using the OBI dose term (OBI_0000984) instead.",,,true,http://purl.obolibrary.org/obo/IAO_0000228,http://purl.obolibrary.org/obo/OBI_0000984
-VO:0003124,class,obsolete Fluogen,,,,,,,,,,true,,
-VO:0010732,class,obsolete Pneumovax 23 (Canada),,,,,Oliver He|Allen Xiang,,Trade Name: Pneumovax 23,,,true,,
-VO:0010733,class,obsolete Prevnar (Canada),,,https://www.prevnar13.com/,,Oliver He|Allen Xiang,,Trade Name: Prevnar,,,true,,
-VO:0011483,class,obsolete Td Polio Adsorbed,,,,,Oliver He|Allen Xiang,,This term is obsolete since there is another term with the same name.,,629,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0011482
-VO:0011484,class,obsolete Td Polio Adsorbed,,,,,Oliver He|Allen Xiang,,This term is obsolete since there is another term with the same name.,,628,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0011482
+a vaccine-associated gene that exists in a pathogen and has been engineered for vaccine develoment. This gene can encode for protective antigen that is overexpressed for vaccine development. This gene can also be a virulence factor that is mutated to attenuate a virulent pathogen with the purpose of making attenuated vaccine.|The term 'gene' has appears in several ontologies, such as Sequence Ontology (SO) and Protein Ontology (PRO). We may choose to use a 'gene' term from other ontologies. The 'gene' term in SO has ID: SO:0000704.",,,,,true,,,,,
+VO:0000899,class,obsolete dose,,"dose is a measurement data that measures the quantity of something that may be eaten by or administered to an organism, or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.",http://en.wikipedia.org/wiki/Dose_%28biochemistry%29,,Oliver He|Melanie Courtot,,"obsolete on 2/1/2020, using the OBI dose term (OBI_0000984) instead.",,,,true,http://purl.obolibrary.org/obo/IAO_0000228,http://purl.obolibrary.org/obo/OBI_0000984,,,
+VO:0003124,class,obsolete Fluogen,,,,,,,,,,,true,,,,,
+VO:0010732,class,obsolete Pneumovax 23 (Canada),,,,,Oliver He|Allen Xiang,,Trade Name: Pneumovax 23,,,,true,,,,,
+VO:0010733,class,obsolete Prevnar (Canada),,,https://www.prevnar13.com/,,Oliver He|Allen Xiang,,Trade Name: Prevnar,,,,true,,,,,
+VO:0011483,class,obsolete Td Polio Adsorbed,,,,,Oliver He|Allen Xiang,,This term is obsolete since there is another term with the same name.,,629,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0011482,,,
+VO:0011484,class,obsolete Td Polio Adsorbed,,,,,Oliver He|Allen Xiang,,This term is obsolete since there is another term with the same name.,,628,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0011482,,,
+VO:0007576,class,obsolete Autologous Dendritic Cell Vaccine ACT2001,,,VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5085,,Jie Zheng|Oliver He ,,,,5085,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0007283,,,
+VO:0007577,class,obsolete Autologous Dendritic Cell-Tumor Fusion Vaccine,,,,,Jie Zheng|Oliver He ,,,,,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0007289,,,
+VO:0007579,class,obsolete Autologous Immunoglobulin Idiotype-KLH Conjugate Vaccine,,,,,Jie Zheng|Oliver He ,,,,,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0007301,,,
+VO:0007589,class,obsolete Bcl-Xs Adenovirus Vaccine,,,VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5399,,Jie Zheng|Oliver He ,,,,5399,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0007328,,,
+VO:0007592,class,obsolete CD80 Breast Cancer Vaccine,,,VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5476,,Jie Zheng|Oliver He ,,,,5476,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0007358,,,
+VO:0007471,class,obsolete Lymphoma DNA vaccine V_V_V_-FrC,,,,,Justin Song|Penny Pan|Jie Zheng|Oliver He,,Gene name: Fragment C from tetanus toxin,https://github.com/vaccineontology/VO/issues/487,,,true,http://purl.obolibrary.org/obo/IAO_0000227,VO:0004398,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
