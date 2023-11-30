@@ -52,6 +52,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
@@ -157,6 +163,91 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000116>Replaced term with S protein of SARS-CoV-2 Wuhan strain (PR_P0DTC2) for ontology harmonization</obo:IAO_0000116>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <rdfs:label>obsolete S protein of SARS-CoV-2</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007471">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/487"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004398"/>
+        <rdfs:comment>Gene name: Fragment C from tetanus toxin</rdfs:comment>
+        <rdfs:label>obsolete Lymphoma DNA vaccine V_V_V_-FrC</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007576">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5085</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007283"/>
+        <rdfs:label>obsolete Autologous Dendritic Cell Vaccine ACT2001</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007577">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007289"/>
+        <rdfs:label>obsolete Autologous Dendritic Cell-Tumor Fusion Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007579">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007301"/>
+        <rdfs:label>obsolete Autologous Immunoglobulin Idiotype-KLH Conjugate Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007589">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5399</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007328"/>
+        <rdfs:label>obsolete Bcl-Xs Adenovirus Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007592">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5476</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007358"/>
+        <rdfs:label>obsolete CD80 Breast Cancer Vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
