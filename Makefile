@@ -1,7 +1,7 @@
 # Vaccine Ontology (VO) Makefile
 # Jie Zheng
 #
-# This Makefile is used to build artifacts for the Occupation Ontology.
+# This Makefile is used to build artifacts for the Vaccine Ontology.
 #
 
 ### Configuration
@@ -57,3 +57,28 @@ IMPORT_FILES := $(wildcard src/imports/*_import.owl)
 
 .PHONY: imports
 imports: $(IMPORT_FILES)
+
+### Templates
+#
+src/modules/%.owl: src/templates/%.csv | build/robot.jar
+	echo '' > $@
+	$(ROBOT) merge \
+	--input src/VO.owl \
+	template \
+	--template $< \
+	--prefix "VO: http://purl.obolibrary.org/obo/VO_" \
+	--ontology-iri "http://purl.obolibrary.org/obo/vo/dev/$(notdir $@)" \
+	--output $@
+
+# Update all modules
+MODULE_NAMES := cancer_vaccine\
+ vaccine_adjuvant\
+ ontorat\
+ vo_annotationProp\
+ obsolete
+
+MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/modules/$(x).owl)
+
+.PHONY: modules
+modules: $(MODULE_FILES)
+

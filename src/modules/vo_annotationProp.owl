@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/dev/vo_annotationProp.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/dev/vo_annotationProp.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/dev/vo_annotationProp.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001818 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001818">
+        <obo:IAO_0000115>An annotation property that represents a matched vaccine identifier used in the VIOLIN database.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Omar Tibi</obo:IAO_0000117>
+        <rdfs:label>VIOLIN vaccine ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003099 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003099">
+        <obo:IAO_0000115>An annotation property that represents the trade name of a product.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>trade name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003146 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003146">
+        <obo:IAO_0000115>An annotation property that represents the active ingredient of a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine active ingredient</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003147"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003147 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003147">
+        <obo:IAO_0000115>An annotation property that represents the vaccine ingredient of a vaccine. Such an ingredient may not be active.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine ingredient</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003151 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003151">
+        <obo:IAO_0000115>An annotation property that describes the dose information of a vaccine</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>vaccine dose annotation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003158 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003158">
+        <obo:IAO_0000112>The vaccine Prevnar (trade name) has a FDA-defined proper name: Pneumococcal 7-valent Conjugate Vaccine (Diphtheria CRM197 Protein). Reference:  https://www.fda.gov/biologicsbloodvaccines/vaccines/approvedproducts/ucm180017.htm</obo:IAO_0000112>
+        <obo:IAO_0000115>An annotation property that represents the proper name of a vaccine, which is defined in an official way such as one defined by FDA.</obo:IAO_0000115>
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>vaccine proper name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003159 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003159">
+        <obo:IAO_0000112>The vaccine Prevnar has the manufacturer: Wyeth Pharmaceuticals Inc. Reference: https://www.fda.gov/biologicsbloodvaccines/vaccines/approvedproducts/ucm180017.htm</obo:IAO_0000112>
+        <obo:IAO_0000115>An annotation property that represents the manufacturer of a product such as vaccine</obo:IAO_0000115>
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>manufacturer</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003160 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003160">
+        <obo:IAO_0000112>The vaccine Prevnar has the indications:
+- Immunization of infants 2, 4, 6 and 12-15 months of age to prevent invasive pneumococcal disease.
+- Immunization of infants and toddlers against otitis media caused by vaccine serotypes.
+Reference: https://www.fda.gov/biologicsbloodvaccines/vaccines/approvedproducts/ucm180017.htm</obo:IAO_0000112>
+        <obo:IAO_0000115>An annotation property that represents the indications of a vaccine defined by the USA FDA.</obo:IAO_0000115>
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>FDA vaccine indications</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003161">
+        <obo:IAO_0000112>Prevnar has the package insert PDF URL: https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM137038.pdf . Recorded on 11/26/2018.</obo:IAO_0000112>
+        <obo:IAO_0000115>An annotation property that represents a URL of the package insert PDF document of a licensed vaccine</obo:IAO_0000115>
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>vaccine package insert PDF URL</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003162 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003162">
+        <obo:IAO_0000115>An annotation property that indicate the number that is generated by FDA based on a request from an applicant of a product licensing.</obo:IAO_0000115>
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/downloads/BiologicsBloodVaccines/GuidanceComplianceRegulatoryInformation/ProceduresSOPPs/UCM461225.pdf</obo:IAO_0000119>
+        <rdfs:label>vaccine STN</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003198 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003198">
+        <rdfs:label>RxNORM ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003557 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003557">
+        <rdfs:label>has Protegen id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003558 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003558">
+        <rdfs:label>has Protegen annotation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003560 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003560">
+        <obo:IAO_0000112>As seen: http://purl.bioontology.org/ontology/RXNORM/901644, the RxNORM vaccine term &quot;Prevnar 13 vaccine 0.5 ML Prefilled Syringe&quot; has Preferred Name of: 0.5 ML Streptococcus pneumoniae serotype 1 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 14 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 18C capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 19A capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 19F capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 23F capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 3 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 4 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 5 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 6A capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 6B capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0088 MG/ML / Streptococcus pneumoniae serotype 7F capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 9V capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML Prefilled Syringe [Prevnar 13]&quot;. In this case, the whole preferred name is annotated under the annotation property &quot;RxNORM Preferred Name&quot;.</obo:IAO_0000112>
+        <rdfs:label>RxNORM Preferred Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005328 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005328">
+        <obo:IAO_0000115>An identifier assigned by the Vaccine Adjuvant Compendium (VAC: https://vac.niaid.nih.gov/)</obo:IAO_0000115>
+        <obo:IAO_0000119>https://vac.niaid.nih.gov/</obo:IAO_0000119>
+        <rdfs:label>VAC adjuvant ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005431 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005431">
+        <obo:IAO_0000115>An annotation property that represents the annotated information about the antigens used for a specific vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Antigen</obo:IAO_0000119>
+        <rdfs:label>vaccine antigen annotation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005432 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005432">
+        <rdfs:label>vaccine preparation annotation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005433 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005433">
+        <rdfs:label>vaccine response annotation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005438 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005438">
+        <obo:IAO_0000115>An annotation property that refers to a specific CVX ID.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</obo:IAO_0000119>
+        <rdfs:label>CVX code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005500 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005500">
+        <obo:IAO_0000115>An annotation property that shows the status of vaccine developmeint including: clinical trial, research, licensed, or Emergency Use Authorization (EUA).</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <rdfs:label>status of vaccine development</rdfs:label>
+    </owl:AnnotationProperty>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+
