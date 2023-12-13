@@ -119,7 +119,19 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000093">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that is formed as a mineral salt.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -399,19 +411,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000580 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000580">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000179"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine component that is chemical substance added to vaccine and enhance and direct immune response to protective antigen. Many of vaccine adjuvants cause a range of serious side-effects.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label>vaccine adjuvant</rdfs:label>
@@ -670,7 +670,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001354"/>
-        <obo:IAO_0000115>A combination vaccine adjuvant that is a combination of 50 μg of the immunoenhancer MPL (3-O-desacyl-4′-monophosphoryl lipid A) with 500 μg of aluminium salt.</obo:IAO_0000115>
+        <obo:IAO_0000115>A combination vaccine adjuvant that is a combination of 50 Œºg of the immunoenhancer MPL (3-O-desacyl-4‚Ä≤-monophosphoryl lipid A) with 500 Œºg of aluminium salt.</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:21527299</obo:IAO_0000119>
         <rdfs:label>AS04 vaccine adjuvant</rdfs:label>
@@ -796,7 +796,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001354"/>
-        <obo:IAO_0000115>A combination vaccine adjuvant that suspension of 1-2Œºm ovoids of immune stimulant gamma inulin (g-IN) in which alum is embedded as a carrier for protein or other anionic antigens.</obo:IAO_0000115>
+        <obo:IAO_0000115>A combination vaccine adjuvant that suspension of 1-2≈í¬∫m ovoids of immune stimulant gamma inulin (g-IN) in which alum is embedded as a carrier for protein or other anionic antigens.</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:1887671</obo:IAO_0000119>
         <rdfs:label>Algammulin vaccine adjuvant</rdfs:label>
@@ -808,7 +808,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001287">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001357"/>
-        <obo:IAO_0000115>A synthetic vaccine adjuvant that is Bay R1005 (N-(2-Deoxy-2-L-leucylamino β-D-glucopyranosyl)-N-octadecyldodecanoylamide hydroacetate ).</obo:IAO_0000115>
+        <obo:IAO_0000115>A synthetic vaccine adjuvant that is Bay R1005 (N-(2-Deoxy-2-L-leucylamino Œ≤-D-glucopyranosyl)-N-octadecyldodecanoylamide hydroacetate ).</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000118>BAY R1005</obo:IAO_0000118>
         <obo:IAO_0000118>N-( 2-Deoxy-2-L-leucylamino-β-D-glucopyranosyl)-N-octadecyldodecanoylamide hydroacetate</obo:IAO_0000118>
@@ -822,11 +822,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001357"/>
-        <obo:IAO_0000115>A synthetic vaccine adjuvant that is N, N-dioctadecyl-N′, N′-bis( 2-hydroxyethyl) propanediamine (Avridine).</obo:IAO_0000115>
+        <obo:IAO_0000115>A synthetic vaccine adjuvant that is N, N-dioctadecyl-N‚Ä≤, N‚Ä≤-bis( 2-hydroxyethyl) propanediamine (Avridine).</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000118>Avridine</obo:IAO_0000118>
         <obo:IAO_0000118>CP20,96</obo:IAO_0000118>
-        <obo:IAO_0000118>N, N-dioctadecyl-N′, N′-bis( 2-hydroxyethyl) propanediamine</obo:IAO_0000118>
+        <obo:IAO_0000118>N, N-dioctadecyl-N&apos;, N&apos;-bis( 2-hydroxyethyl) propanediamine</obo:IAO_0000118>
         <obo:IAO_0000119>PMID:7551218</obo:IAO_0000119>
         <rdfs:label>Avridine vaccine adjuvant</rdfs:label>
     </owl:Class>
@@ -1116,7 +1116,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001267"/>
-        <obo:IAO_0000115>A saponin vaccine adjuvant that is composed of extracts from the bark of the Quillaja saponaria Molina tree. Specifically, it is an acylated 3, 28-bisdesmodic triterpene glycosides (1,3) or ‚Äö√Ñ√∫saponin‚Äö√Ñ√π with a molecular formula of C92O46H148 and molecular weight of 1990 Da. QS-21 is one of the active fractions of the bark of Chilean tree, Quillaja saponaria, purified using a reverse-phase chromatography (RP-HPLC).</obo:IAO_0000115>
+        <obo:IAO_0000115>A saponin vaccine adjuvant that is composed of extracts from the bark of the Quillaja saponaria Molina tree. Specifically, it is an acylated 3, 28-bisdesmodic triterpene glycosides (1,3) or ‚Äö√Ñ√∂‚àö√ë‚àö‚à´saponin‚Äö√Ñ√∂‚àö√ë‚àöœÄ with a molecular formula of C92O46H148 and molecular weight of 1990 Da. QS-21 is one of the active fractions of the bark of Chilean tree, Quillaja saponaria, purified using a reverse-phase chromatography (RP-HPLC).</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -1249,7 +1249,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001355"/>
-        <obo:IAO_0000115>An emusion vaccine adjuvant that contains Œ±-tocopherol and squalene, two biodegradable polyprenyls, in an oil-in-water emulsion.</obo:IAO_0000115>
+        <obo:IAO_0000115>An emusion vaccine adjuvant that contains ≈í¬±-tocopherol and squalene, two biodegradable polyprenyls, in an oil-in-water emulsion.</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000118>AS03</obo:IAO_0000118>
         <obo:IAO_0000119>PMID:21256188</obo:IAO_0000119>
@@ -1527,7 +1527,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001344">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000388"/>
-        <obo:IAO_0000115>An E. coli LT toxin derived vaccine adjuvant that is a mutant form of heat-labile Escherichia coli enterotoxin (LT) that contains a substitution Ala ‚Üí Arg in position 72 of the A subunit.</obo:IAO_0000115>
+        <obo:IAO_0000115>An E. coli LT toxin derived vaccine adjuvant that is a mutant form of heat-labile Escherichia coli enterotoxin (LT) that contains a substitution Ala ‚Äö√ú√≠ Arg in position 72 of the A subunit.</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:9529328</obo:IAO_0000119>
         <rdfs:label>LTK72 vaccine adjuvant</rdfs:label>
@@ -1577,7 +1577,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001354"/>
-        <obo:IAO_0000115>A combination vaccine adjuvant that is composed of threonyl-MDP (0.05-1%) in an emulsion vehicle [5% squalane, 2.5% Pluronic¬Æ L121, 0.2% Polysorbate 80 and phosphate buffered saline (pH 7.4)].</obo:IAO_0000115>
+        <obo:IAO_0000115>A combination vaccine adjuvant that is composed of threonyl-MDP (0.05-1%) in an emulsion vehicle [5% squalane, 2.5% Pluronic¬¨√Ü L121, 0.2% Polysorbate 80 and phosphate buffered saline (pH 7.4)].</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:7551218</obo:IAO_0000119>
         <rdfs:label>SAF-1 vaccine adjuvant</rdfs:label>
@@ -1867,7 +1867,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=12</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A vaccine adjuvant that includes IV270, which is a low–molecular weight TLR7 agonist conjugated to a phospholipid and is a highly potent and stable immune activator.</obo:IAO_0000115>
+        <obo:IAO_0000115>A vaccine adjuvant that includes IV270, which is a low‚Äìmolecular weight TLR7 agonist conjugated to a phospholipid and is a highly potent and stable immune activator.</obo:IAO_0000115>
         <obo:IAO_0000116>Chemical Nature: Small molecule
 Receptor: TLR7
 Mechanism of Action: Activation of innate immune pathways
@@ -1951,7 +1951,7 @@ Point of Contact: Dennis Carson, UCSD</obo:IAO_0000116>
         <obo:IAO_0000117>Dennis Carson</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Wolfgang Leitner</obo:IAO_0000117>
-        <obo:IAO_0000118>2.00E+151</obo:IAO_0000118>
+        <obo:IAO_0000118>2E151</obo:IAO_0000118>
         <obo:IAO_0000119>https://vac.niaid.nih.gov/view?id=9</obo:IAO_0000119>
         <obo:VO_0005328>9</obo:VO_0005328>
         <rdfs:label>2E151 vaccine adjuvant</rdfs:label>
@@ -3207,7 +3207,7 @@ Point of Contact: Elizabeth Norton, Tulane University</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005356">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001359"/>
-        <obo:IAO_0000115>A carbohydrate vaccine adjuvant that is a glucan carbohydrate microcapsules with a β(1-3)/β(1-6)-linked glucan structure to allow targeting of antigens to macrophages or neutrophils through interactions with the β-glucan receptor found uniquely on the surface of these cell types. Adjuvax-ligand complexes are formed by physically entrapping or crosslinking the ligand within the β-glucan.</obo:IAO_0000115>
+        <obo:IAO_0000115>A carbohydrate vaccine adjuvant that is a glucan carbohydrate microcapsules with a Œ≤(1-3)/Œ≤(1-6)-linked glucan structure to allow targeting of antigens to macrophages or neutrophils through interactions with the Œ≤-glucan receptor found uniquely on the surface of these cell types. Adjuvax-ligand complexes are formed by physically entrapping or crosslinking the ligand within the Œ≤-glucan.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000119>DOI: 10.1021</obo:IAO_0000119>
@@ -3251,7 +3251,7 @@ Point of Contact: Nikolai Petrovsky, Vaxine LTD</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001354"/>
-        <obo:IAO_0000115>A combination vaccine adjuvant includes 3-O-desacyl-4’-monophosphoryl lipid A (MPL) from Salmonella minnesota and a saponin molecule (QS-21) purified from plant extract Quillaja saponaria Molina, combined in a liposomal formulation consisting of dioleoyl phosphatidylcholine (DOPC) and cholesterol in phosphate-buffered saline solution.</obo:IAO_0000115>
+        <obo:IAO_0000115>A combination vaccine adjuvant includes 3-O-desacyl-4‚Äô-monophosphoryl lipid A (MPL) from Salmonella minnesota and a saponin molecule (QS-21) purified from plant extract Quillaja saponaria Molina, combined in a liposomal formulation consisting of dioleoyl phosphatidylcholine (DOPC) and cholesterol in phosphate-buffered saline solution.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.fda.gov/media/107538/download#:~:text=The%20AS01B%20adjuvant%20suspension%20is,DOPC)%20and%20cholesterol%20in%20phosphate%2D</obo:IAO_0000119>
@@ -3276,7 +3276,7 @@ Point of Contact: Nikolai Petrovsky, Vaxine LTD</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001359"/>
-        <obo:IAO_0000115>A carbohydrate vaccine adjuvant that is aminoglycan consisting of β-(1-&gt;4)-linked D-glucosamine residues.</obo:IAO_0000115>
+        <obo:IAO_0000115>A carbohydrate vaccine adjuvant that is aminoglycan consisting of Œ≤-(1-&gt;4)-linked¬†D-glucosamine residues.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000119>CHEBI:16261</obo:IAO_0000119>
@@ -4997,5 +4997,5 @@ https://clinicaltrials.gov/ct2/show/NCT02464163</obo:IAO_0000116>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 
