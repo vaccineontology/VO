@@ -15,13 +15,132 @@ http://purl.obolibrary.org/obo/DOID_526 #HIV infection
 http://purl.obolibrary.org/obo/DOID_162 #Cancer
 http://purl.obolibrary.org/obo/DOID_1909 #melanoma
 http://purl.obolibrary.org/obo/DOID_104  #bacterial infectious disease
+http://purl.obolibrary.org/obo/DOID_4606 #bile duct cancer
+http://purl.obolibrary.org/obo/DOID_11054 #bladder cancer
+http://purl.obolibrary.org/obo/DOID_1319  #brain cancer 
+http://purl.obolibrary.org/obo/DOID_1612 #breast cancer
+http://purl.obolibrary.org/obo/DOID_4362 #cervical cancer
+http://purl.obolibrary.org/obo/DOID_4947 #cholangiocarcinoma
+http://purl.obolibrary.org/obo/DOID_219 #colon cancer 
+http://purl.obolibrary.org/obo/DOID_9256 #colorectal cancer 
+http://purl.obolibrary.org/obo/DOID_5041 #esophageal cancer
+http://purl.obolibrary.org/obo/DOID_3369  #Ewing sarcoma
+http://purl.obolibrary.org/obo/DOID_3717 #gastric adenocarcinoma
+http://purl.obolibrary.org/obo/DOID_10534 #gastric cancer 
+http://purl.obolibrary.org/obo/DOID_3068 #glioblastoma
+http://purl.obolibrary.org/obo/DOID_0081267 #GVHD
+http://purl.obolibrary.org/obo/DOID_11934 #head and neck cancer
+http://purl.obolibrary.org/obo/DOID_5520 #head and neck squamous cell carcinoma
+http://purl.obolibrary.org/obo/DOID_2531 #hematologic cancer
+http://purl.obolibrary.org/obo/DOID_684 #hepatocellular carcinoma
+http://purl.obolibrary.org/obo/DOID_3571 #liver cancer
+http://purl.obolibrary.org/obo/DOID_1324  #lung cancer
+http://purl.obolibrary.org/obo/DOID_0060058 #lymphoma
+http://purl.obolibrary.org/obo/DOID_0050746 #mantle cell lymphoma
+http://purl.obolibrary.org/obo/DOID_1909 #melanoma
+http://purl.obolibrary.org/obo/DOID_1789 #mesothelioma
+http://purl.obolibrary.org/obo/DOID_9538 #myeloma
+http://purl.obolibrary.org/obo/DOID_9561 #nasopharyngeal cancer
+http://purl.obolibrary.org/obo/DOID_769 #neuroblastoma
+http://purl.obolibrary.org/obo/DOID_3908 #non-small cell lung carcinoma
+http://purl.obolibrary.org/obo/DOID_8557 #oropharyngeal carcinoma
+http://purl.obolibrary.org/obo/DOID_3347 #osteosarcoma
+http://purl.obolibrary.org/obo/DOID_2394 #ovarian cancer 
+http://purl.obolibrary.org/obo/DOID_1793 #pancreatic cancer
+http://purl.obolibrary.org/obo/DOID_6536 #plasma cell neoplasm
+http://purl.obolibrary.org/obo/DOID_1993 #rectal cancer
+http://purl.obolibrary.org/obo/DOID_263 #renal cancer 
+http://purl.obolibrary.org/obo/DOID_1115 #sarcoma
+http://purl.obolibrary.org/obo/DOID_3908 #small cell lung carcinoma
+http://purl.obolibrary.org/obo/DOID_10154 #small intestine cancer
+http://purl.obolibrary.org/obo/DOID_1964 #fallopian tube cancer
+http://purl.obolibrary.org/obo/DOID_3856 #male reproductive organ cancer
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_4 #disease
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #BFO disposition
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
 includeAllAnnotationProperties
+
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_10283
+http://purl.obolibrary.org/obo/DOID_1240  #leukemia
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_3856
+http://purl.obolibrary.org/obo/DOID_2531
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_1240
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_2531
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_1319
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_3620
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_3369
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_201
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+
+
+
+
