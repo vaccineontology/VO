@@ -338,6 +338,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0060119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3119"/>
+        <obo:IAO_0000115>A gastrointestinal system cancer that is located_in the pharynx.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-07-27T01:26:34Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>MESH:D010610</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3325</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126685009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0031347</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">pharyngeal neoplasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">pharynx neoplasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">pharyngeal cancer</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:0060119</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
+        <rdfs:label>pharynx cancer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0080355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080355">
@@ -2488,6 +2512,29 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_5409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3905"/>
+        <obo:IAO_0000115>A lung carcinoma that has_material_basis_in primitive-appearing cells that are smaller than normal cells and is located_in the lung.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:0050875</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:05222</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D055752</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C4917</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:182280</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:254632001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0149925</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:5409</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>lung small cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_5517 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5517">
@@ -2783,7 +2830,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_8557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8557">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060119"/>
         <obo:IAO_0000115>A pharynx cancer that is located_in the oropharynx.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:8684</oboInOwl:hasAlternativeId>
@@ -2872,6 +2919,66 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_9261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050615"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060119"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_305"/>
+        <obo:IAO_0000115>A pharynx cancer that is located in the nasopharynx, the uppermost region of the pharynx or throat, where the nasal passages and auditory tubes join the remainder of the upper respiratory tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:8813</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:8814</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9057</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9144</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9197</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9229</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GARD:7163</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C11.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:147.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009303</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C9321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:161550</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:607107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187692001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187693006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187700006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:363398003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93919005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:94078000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153393</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153395</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153396</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0238301</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Nasopharyngeal carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant Nasopharyngeal tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm of nasopharynx</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">nasopharynx cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">carcinoma of nasopharynx</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:9261</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>nasopharynx carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_934 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_934">
@@ -2929,23 +3036,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label>multiple myeloma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_9561 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9561">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:hasDbXref>MESH:D009302</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCI:C35723</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:123952009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS_CUI:C0027438</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>DOID:9561</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <rdfs:label>nasopharyngeal disease</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
