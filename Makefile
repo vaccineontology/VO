@@ -18,10 +18,10 @@ SHELL := bash
 
 ### Definitions
 
-SHELL   := /bin/bash
-OBO     := http://purl.obolibrary.org/obo
-VO  := $(OBO)/VO_
-TODAY   := $(shell date +%Y-%m-%d)
+SHELL := /bin/bash
+OBO   := http://purl.obolibrary.org/obo
+VO    := $(OBO)/VO_
+TODAY := $(shell date +%Y-%m-%d)
 
 ### Directories
 #
@@ -72,13 +72,68 @@ src/modules/%.owl: src/templates/%.csv | build/robot.jar
 
 # Update all modules
 MODULE_NAMES := cancer_vaccine\
+ vaccine\
  vaccine_adjuvant\
- ontorat\
+ vaccine_component\
+ data_item\
+ process\
+ site\
+ gene\
+ protein\
+ other\
+ individuals\
  vo_annotationProp\
+ vo_objectProp\
  obsolete
 
 MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/modules/$(x).owl)
 
 .PHONY: modules
 modules: $(MODULE_FILES)
+
+### Build
+#
+# Here we create a standalone OWL file appropriate for release.
+# This involves merging, reasoning, annotating,
+# and removing any remaining import declarations.
+
+build/vo-merged.owl: src/VO.owl | build/robot.jar build
+	$(ROBOT) merge \
+	--input $< \
+	annotate \
+	--ontology-iri "$(OBO)/vo/vo-merged.owl" \
+	--version-iri "$(OBO)/vo/$(TODAY)/vo-merged.owl" \
+	--annotation owl:versionInfo "$(TODAY)" \
+	--output build/vo-merged.tmp.owl
+	sed '/<owl:imports/d' build/vo-merged.tmp.owl > $@
+	rm build/vo-merged.tmp.owl
+
+vo.owl: build/vo-merged.owl
+	$(ROBOT) reason \
+	--input $< \
+	--reasoner ELK \
+	annotate \
+	--ontology-iri "$(OBO)/vo.owl" \
+	--version-iri "$(OBO)/vo/$(TODAY)/vo.owl" \
+	--annotation owl:versionInfo "$(TODAY)" \
+	--output $@
+
+robot_report.tsv: build/vo-merged.owl
+	$(ROBOT) report \
+	--input $< \
+        --fail-on none \
+	--output $@
+
+### 
+#
+# Full build
+.PHONY: all
+all: vo.owl robot_report.tsv
+
+# Remove generated files
+.PHONY: clean
+clean:
+	rm -rf build
+
+
 
