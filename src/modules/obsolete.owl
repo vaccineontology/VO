@@ -1730,6 +1730,19 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0005176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005176">
+        <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
+        <obo:IAO_0000119>A synthetic modified vaccinia Ankara (MVA)-based SARS-CoV-2 vaccine.</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0005394"/>
+        <rdfs:label>obsolete COH04S1</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0007471 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007471">
