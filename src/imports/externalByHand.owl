@@ -62,6 +62,7 @@
         <obo:IAO_0000111 xml:lang="en">precedes</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) &lt;= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">precedes</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
     </owl:ObjectProperty>    
 
 
@@ -92,6 +93,7 @@
         <obo:IAO_0000118 xml:lang="en">preceded_by</obo:IAO_0000118>
         <terms:source>http://www.obofoundry.org/ro/#OBO_REL:preceded_by</terms:source>
         <rdfs:label xml:lang="en">preceded by</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
     </owl:ObjectProperty>
         
 
@@ -110,6 +112,22 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0023644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0023644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1542"/>
+        <obo:IAO_0000115>A carcinoma arising in the lip or oral cavity. Most oral cavity carcinomas are squamous cell carcinomas of the tongue, buccal mucosa, or gums. Less frequent morphologic variants include mucoepidermoid carcinoma and adenocarcinoma. Lip carcinomas are usually basal cell or squamous cell carcinomas.</obo:IAO_0000115>
+        <rdfs:label>lip and oral cavity carcinoma</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_14566"/>
+        <obo:IAO_0000115>A usually malignant and aggressive neoplasm of the mesothelium which is often associated with exposure to asbestos.</obo:IAO_0000115>
+        <rdfs:label>mesothelioma</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
 </rdf:RDF>
 
 

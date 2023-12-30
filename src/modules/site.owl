@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/dev/site.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/dev/site.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/dev/site.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003247"/>
+        <obo:IAO_0000115>A vaccination site that is used for injection of a vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>vaccine injection site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that inject the material(such as vaccines, allergens) directly into a muscle.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH,YL</obo:IAO_0000117>
+        <obo:IAO_0000118>intramuscular injection route</obo:IAO_0000118>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intramuscular route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A rounte of administration that located in nose.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intranasal route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000341"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intranasal route by drop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000341"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intranasal route by spray</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that located in the peritoneum.</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intraperitoneal route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that is through the membrane covering the muscles and nerves at the back of the eyeball</obo:IAO_0000115>
+        <obo:IAO_0000117>Y.L.</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>subtenon route</rdfs:label>
+        <rdfs:seeAlso>http://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&amp;code=CL426248</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000886"/>
+        <obo:IAO_0000115>An oral route of administration that is underneath the tongue.</obo:IAO_0000115>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>sublingual route</rdfs:label>
+        <rdfs:seeAlso>http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C38300</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000117>Y.L.</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intravaginal route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that is located in the vein</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, Thom Todd</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intravenous route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that is loacted in the hypodermis (subcutaneous tissue) region. </obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>subcutaneous route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115>A path that is located in gross anatomical part of an organism (e.g., human) and is used for administering a vaccine, a drug, fluid, poison, or other substance into the body. </obo:IAO_0000115>
+        <obo:IAO_0000116>CDISC has a codelist: Rout of Administration. Desription from CDISC: The course by which a substance was administered in order to reach the site of action in the body. CDISC_SDTM_Route_of_Administration_Terminology</obo:IAO_0000116>
+        <obo:IAO_0000117>YH,YL</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Route_of_administration</obo:IAO_0000119>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>route of administration</rdfs:label>
+        <rdfs:seeAlso>http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C38114</rdfs:seeAlso>
+        <rdfs:seeAlso>http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C66729</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000862 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000862">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010632"/>
+        <obo:IAO_0000115>Canada is a country that exists in north America.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>Canada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000886">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that located in the mouth</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>oral route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000887">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that inject the material(such as vaccines, allergens) into the skin itself.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH,YL</obo:IAO_0000117>
+        <obo:IAO_0000118>intradermal injection route</obo:IAO_0000118>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intradermal route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000953">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000886"/>
+        <obo:IAO_0000115>Pharyngeal mucosal route is an oral route of administration.</obo:IAO_0000115>
+        <obo:IAO_0000117>TT, YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>pharyngeal mucosal route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that located in the stomach, so that the material is taken into body through stomach directly. </obo:IAO_0000115>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intragastric route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003016"/>
+        <obo:IAO_0000115>An intragastric route that has a vaccine injection site located in stomach.</obo:IAO_0000115>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intragastric injection route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:comment>epicutaneous (application onto the skin)</rdfs:comment>
+        <rdfs:label>percutaneous route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intravesical route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The site that is the part of the host body and the entrance point where a vaccine is administered. </obo:IAO_0000115>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:comment>it is not the natural anatomical part where the body has access toward outside, such as mouth or nose. But rather the holes on the skin made by needdles used for vaccination.</rdfs:comment>
+        <rdfs:label>vaccination site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010632"/>
+        <obo:IAO_0000115>USA is a country that exists in north America.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>USA</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

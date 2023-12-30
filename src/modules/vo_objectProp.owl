@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/dev/vo_objectProp.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/dev/vo_objectProp.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/dev/vo_objectProp.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002292 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002292"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000016 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000016">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>A type of &apos;has vaccine component&apos; relation that specifies a vaccine conjugate protein for a specific vaccine</obo:IAO_0000115>
+        <rdfs:label>has vaccine conjugate protein</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000138 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000138">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <obo:IAO_0000115>A type of &apos;has vaccine vector&apos; relation that specifies a bacterial vaccine vector</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has bacterial vaccine vector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000270 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000270">
+        <obo:IAO_0000115>A relation that specifies contraindication of a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000116>This relation may be replaced by has_vaccine_allergen. We need to determine if any vaccine contraindicator is not a vaccine allergen.</obo:IAO_0000116>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine contraindication</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000281 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000281">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
+        <obo:IAO_0000115>A type of &apos;has vaccine vector&apos; that is specifically for viral vaccine vector</obo:IAO_0000115>
+        <rdfs:label>has viral vaccine vector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000369 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000369">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>A &apos;has vaccine component&apos; relation that specifies the plasmid used for development of a particular DNA vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has DNA vaccine plasmid</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000445 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000445">
+        <obo:IAO_0000115>A relation between a disorder and an infectious pathogen.</obo:IAO_0000115>
+        <obo:IAO_0000116>The relation &apos;infection_of&apos; is introduced to represent an infection caused by an infectious pathogen. A pathogen infection is a disorder. Since the number of pathogens is large, there are numerous infections. To make the description of a specific infection simple, the shortcut term &apos;infection_of&apos; is defined: 
+infection_of X = infection and has_part some (organism X and has_disposition some infectious disposition)</obo:IAO_0000116>
+        <obo:IAO_0000117>Alan Ruttenburg</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>infection_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000462 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000462">
+        <obo:IAO_0000115>An object property that specifies a process that is induced by vaccination of a vaccine</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>induced by vaccination of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000476 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000476">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>A &apos;has vaccine component&apos; relation that specifies a gene inserted to DNA vaccine plasmid for development of a particular DNA vaccine, and this gene encodes for a protein antigen. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has DNA vaccine antigen gene</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000520 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000520">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000115>An object property that defines a relation between a vaccine and its component</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000524 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000524">
+        <obo:IAO_0000115>An object property that specifies a vaccine antigen</obo:IAO_0000115>
+        <obo:IAO_0000116>This relation only works for those vaccine antigen that is physically part of a vaccine preparation. It does not include those antigens that are not part of vaccine. For example, a protein antigen expressed in a DNA vaccine is not a part of vaccine pe ser. In this case, the vaccine expresses the protein, but the gene is part of the vaccine, not the protein. For the case, we can use the relation &apos;DNA vaccine expresses protein antigen&apos; under the relation &apos;expresses&apos;. </obo:IAO_0000116>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000525 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000525">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+        <obo:IAO_0000115>A type of &apos;has vaccine antigen&apos; relation that is specifically for vaccine protective protein antigen used in subunit vaccine development</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has subunit vaccine antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000527 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000527">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000524"/>
+        <obo:IAO_0000115>A type of &apos;has vaccine antigen&apos; relation that is specifically for vaccine protective antigen component</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine protective antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000529 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000529">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>A type of &apos;has vaccine component&apos; relation that is specifically for vaccine adjuvant component</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine adjuvant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000530 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000530">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0000599"/>
+        <obo:IAO_0000115>A type of &apos;has vaccine component&apos; relation that is specifically for vaccine vector component</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine vector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000531 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000531">
+        <obo:IAO_0000115>An object property that specifies a relation between a vaccine and a vaccine allergen</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine allergen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000537 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000537">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000115>An object property that indicates a secretion of a material (e.g., protein) from a vaccine organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>vaccine organism secretes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000538 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000538">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000520"/>
+        <obo:IAO_0000115>A &apos;has vaccine component&apos; relation that is specifically used for vaccine preservative</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine preservative</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000547 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000547">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>An object property that specifies a relation between a vaccine and a vaccinate route</obo:IAO_0000115>
+        <rdfs:label>vaccinated in route</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000553 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000553">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000115>An object property that specifies a relation between a vaccine and its vaccinee</obo:IAO_0000115>
+        <rdfs:label>has vaccinee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000608 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000608">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+        <obo:IAO_0000115>An &apos;expresses&apos; relation that specifies a relation between a DNA vaccine and a  protein antigen to be expressed by the DNA vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>DNA vaccine expresses protein antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000799 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000799">
+        <obo:IAO_0000115>An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>vaccine organism has mutation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000818 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000818">
+        <obo:IAO_0000115>An object property that specifies a relation between a vaccine and a vaccine virmugen. </obo:IAO_0000115>
+        <obo:IAO_0000116>This is a shortcut relation.
+Domain: vaccine
+Range: a gene
+
+Shortcut:
+is_specified_output_of some 
+(&apos;preparation of gene mutant vaccine&apos; and (has_specified_input some gene))</obo:IAO_0000116>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine virmugen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000894 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000894">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000525"/>
+        <obo:IAO_0000115>A &apos;has subunit vaccine antigen&apos; relation that indicates the antigen is protective.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has subunit vaccine protective antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000908 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000908">
+        <obo:IAO_0000115>A relation that specifies a company that distributes a product (e.g., vaccine). The company is very likely not the manufacturer of the product.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>is_distributed_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001011 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001011">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000115>A shortcut relation that equals to:
+&apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine host role&apos; and (role_of some &apos;organism&apos; and has_disposition some disease)))))))).
+The domain of this relation is a vaccine.
+The range of this relation is a disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>immunization against disease</obo:IAO_0000118>
+        <obo:IAO_0000118>vaccine immunization against disease</obo:IAO_0000118>
+        <rdfs:label>immunizes against disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001039 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001039">
+        <obo:IAO_0000115>An object property that represents an organism has a mutation of a specific gene from the organism genome.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has gene mutation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001243 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115>A shortcut relation that equals to:
+&apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine host role&apos; and (role_of some &apos;organism&apos;)))))))).
+The domain of this relation is a vaccine.
+The range of this relation is a organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>immunization for host</obo:IAO_0000118>
+        <obo:IAO_0000118>vaccine immunization for host</obo:IAO_0000118>
+        <rdfs:label>immunizes organism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003127 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003127">
+        <obo:IAO_0000115>An object property that represents a relation between a vaccine with a prime-boost schedule and a vaccine used for priming.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has prime vaccine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003128 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003128">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000115>An object property that represents a relation between a vaccine with a prime-boost schedule and a vaccine used for boost.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has boost vaccine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003355 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003355">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115>A shortcut relation that equals to:
+
+processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some (&apos;immunization target role&apos; and (role_of some &apos;MICROBE&apos;))))))))
+
+The domain of this relation is a vaccine. 
+The range of this relation is a microbe (a bacterium, a virus, a fungus, and a parasite)</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>immunization against microbe</obo:IAO_0000118>
+        <obo:IAO_0000118>vaccine immunization against microbe</obo:IAO_0000118>
+        <rdfs:label>immunizes against microbe</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004909 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0004909">
+        <obo:IAO_0000115>A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>immunizes against disease process</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005242 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005242">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>An object property that represents a relation between a material entity and biological process</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>up-expressed as immune signature of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005312">
+        <obo:IAO_0000115>An object property that represents a relation between a material entity (such as vaccine or vaccine adjuvant) and an immune profile where the material entity can induce the immune profile in a host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>induces immune profile</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005377 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005377">
+        <obo:IAO_0000112>A vaccine adjuvant T-vant has molecular receptor of TLR4. Reference: https://vac.niaid.nih.gov/view?id=61.</obo:IAO_0000112>
+        <obo:IAO_0000115>An object property that represents a relation between a material entity and a molecular entitiy that serves as the molecular receptor to the material entity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has molecular receptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005481 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005481">
+        <obo:IAO_0000115>A relation between a material entity  and a parasite where the material entity causes some processagainst some parasite such that transmitting to additional hosts or vectors.</obo:IAO_0000115>
+        <rdfs:label>capable of blocking transmission (of life cycle)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005561 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005561">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005481"/>
+        <obo:IAO_0000115>A relation between a vaccine and a parasite where the vaccine immunizes against some parasite such that transmitting to additional hosts or vectors.</obo:IAO_0000115>
+        <rdfs:label>blocks transmission of pathogen via vaccine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005562 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005562">
+        <obo:IAO_0000115>A relation between a vaccine X and organism Y where the vaccine X generates an immune response in a vaccinated organism and the immune product (e.g., antibody) can be transferred to the organism Y</obo:IAO_0000115>
+        <rdfs:label>vaccine immunity response transferrable to organism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000574"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000599"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

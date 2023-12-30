@@ -1,0 +1,25 @@
+﻿ID,LABEL,InSubset,SubClass Of [NAMED],part of,definition,definition source,term editor,alternative label,seeAlso,editor note,comment
+ID,A rdfs:label,A http://www.geneontology.org/formats/oboInOwl#inSubset,C %,C 'part of' some % SPLIT=|,A definition,A definition source SPLIT=|,A term editor SPLIT=|,A alternative label SPLIT=|,A rdfs:seeAlso SPLIT=|,A editor note SPLIT=|,A rdfs:comment SPLIT=|
+VO:0000862,Canada,site,country,,Canada is a country that exists in north America.,,YH,,,,
+VO:0010632,country,site,site,,,,YH,,,,
+VO:0000887,intradermal route,site,route of administration,,"A route of administration that inject the material(such as vaccines, allergens) into the skin itself.",,"YH,YL",intradermal injection route,,,
+VO:0003017,intragastric injection route,site,intragastric route,,An intragastric route that has a vaccine injection site located in stomach.,,YL,,,,
+VO:0003016,intragastric route,site,route of administration,,"A route of administration that located in the stomach, so that the material is taken into body through stomach directly. ",,YL,,,,
+VO:0000340,intramuscular route,site,route of administration,,"A route of administration that inject the material(such as vaccines, allergens) directly into a muscle.",,"YH,YL",intramuscular injection route,,,
+VO:0000341,intranasal route,site,route of administration,,A rounte of administration that located in nose.,,YH,,,,
+VO:0000342,intranasal route by drop,site,intranasal route,,,,YH,,,,
+VO:0000343,intranasal route by spray,site,intranasal route,,,,YH,,,,
+VO:0000344,intraperitoneal route,site,route of administration,,A route of administration that located in the peritoneum.,,"YL, YH",,,,
+VO:0000378,intravaginal route,site,route of administration,,,,Y.L.,,,,
+VO:0000416,intravenous route,site,route of administration,,A route of administration that is located in the vein,,"YH, Thom Todd",,,,
+VO:0003053,intravesical route,site,route of administration,,,,,,,,
+VO:0000886,oral route,site,route of administration,,A route of administration that located in the mouth,,YH,,,,
+VO:0003051,percutaneous route,site,route of administration,,,,YL,,,,epicutaneous (application onto the skin)
+VO:0000953,pharyngeal mucosal route,site,oral route,,Pharyngeal mucosal route is an oral route of administration.,,"TT, YH",,,,
+VO:0000574,route of administration,site,site,,"A path that is located in gross anatomical part of an organism (e.g., human) and is used for administering a vaccine, a drug, fluid, poison, or other substance into the body. ",http://en.wikipedia.org/wiki/Route_of_administration,"YH,YL",,http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C38114|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C66729,CDISC has a codelist: Rout of Administration. Desription from CDISC: The course by which a substance was administered in order to reach the site of action in the body. CDISC_SDTM_Route_of_Administration_Terminology,
+VO:0000532,subcutaneous route,site,route of administration,,A route of administration that is loacted in the hypodermis (subcutaneous tissue) region. ,,"YL, YH",,,,
+VO:0000377,sublingual route,site,oral route,,An oral route of administration that is underneath the tongue.,,,,http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C38300,,
+VO:0000376,subtenon route,site,route of administration,,A route of administration that is through the membrane covering the muscles and nerves at the back of the eyeball,,Y.L.,,http://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=CL426248,,
+VO:0010633,USA,site,country,,USA is a country that exists in north America.,,YH,,,,
+VO:0003247,vaccination site,site,site,route of administration,The site that is the part of the host body and the entrance point where a vaccine is administered. ,,YL,,,,"it is not the natural anatomical part where the body has access toward outside, such as mouth or nose. But rather the holes on the skin made by needdles used for vaccination."
+VO:0000335,vaccine injection site,site,vaccination site,,A vaccination site that is used for injection of a vaccine. ,,"YH, YL",,,,
