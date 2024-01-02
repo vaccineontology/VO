@@ -91,6 +91,22 @@ MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/modules/$(x).owl)
 .PHONY: modules
 modules: $(MODULE_FILES)
 
+# Build views 
+CVO/cvo.owl: vo.owl src/views/cvo.txt | build/robot.jar
+	$(ROBOT) extract \
+	--input $< \
+	--method STAR \
+	--term-file $(word 2,$^) \
+	--individuals definitions \
+	--copy-ontology-annotations true \
+	annotate \
+	--ontology-iri "$(OBO)/vo/cvo.owl" \
+	--version-iri "$(OBO)/vo/$(TODAY)/cvo.owl" \
+	--output $@
+.PHONY: views
+views: CVO/cvo.owl
+
+
 ### Build
 #
 # Here we create a standalone OWL file appropriate for release.
