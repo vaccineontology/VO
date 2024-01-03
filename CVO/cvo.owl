@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/2024-01-02/cvo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/2024-01-03/cvo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor>Chris mungall</dc:contributor>
         <dc:contributor>Erica Marcos</dc:contributor>
@@ -59,7 +59,7 @@
         <dc:subject xml:lang="en">An ontology in the domain of vaccine and vaccination</dc:subject>
         <dc:title xml:lang="en">Vaccine Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-01-02</owl:versionInfo>
+        <owl:versionInfo>2024-01-03</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -5715,6 +5715,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0000177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000177">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005503"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5877,6 +5883,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0000422 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000422">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6491,7 +6503,13 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0003140 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003140">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3908"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -6644,7 +6662,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004248 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004248">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -6715,7 +6733,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004254 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004254">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -6794,7 +6812,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004400 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004400">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -7973,7 +7991,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004609 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004609">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -7999,7 +8017,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004610 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004610">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -8025,7 +8043,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004611 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004611">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -8051,7 +8069,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004612 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004612">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -8077,7 +8095,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004613 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004613">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -8131,7 +8149,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004615">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -8189,7 +8207,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004617 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004617">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -8215,7 +8233,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004705 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004705">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -8297,7 +8315,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0004716 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004716">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -8461,6 +8479,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005425 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005425">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10283"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8480,6 +8504,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005426 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005426">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8499,6 +8529,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005427 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005427">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060058"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8518,6 +8554,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005428 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005428">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1319"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8537,6 +8579,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005429 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005429">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3571"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8556,6 +8604,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005430 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005430">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1793"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8575,6 +8629,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005484 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005484">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1612"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8592,6 +8652,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005485 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005485">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11054"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8609,6 +8675,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005486 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005486">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1324"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8626,6 +8698,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005487 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005487">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8643,6 +8721,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005488 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005488">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4362"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8660,7 +8744,13 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005489 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_219"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005426"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -8677,6 +8767,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005490 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005490">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10534"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8694,6 +8790,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005491 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005491">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005065"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8711,6 +8813,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005492 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005492">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9538"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8728,6 +8836,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005493 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005493">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2394"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8745,6 +8859,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005494 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005494">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_263"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8762,6 +8882,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005495 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005495">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1115"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8779,6 +8905,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005496 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005496">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5041"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8799,6 +8931,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005497 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005497">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11934"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8819,6 +8957,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005498 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005498">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9261"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8839,7 +8983,13 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005499 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005499">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_684"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005429"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -9923,7 +10073,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005487"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -9964,8 +10115,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005496"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10025,7 +10178,11 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003140"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005485"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005495"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005496"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10098,8 +10255,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005495"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10171,7 +10332,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10225,7 +10386,11 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005429"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005485"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -10288,8 +10453,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005497"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10348,8 +10513,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10538,8 +10704,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10585,8 +10752,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005430"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10822,8 +10991,11 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005430"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10937,7 +11109,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005430"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005495"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -10995,8 +11169,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -11044,8 +11219,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -11337,8 +11513,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -11437,8 +11615,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005496"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -11522,7 +11700,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005487"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -11568,8 +11747,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005487"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -11620,8 +11801,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005429"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005487"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -11667,8 +11849,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005487"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -11707,8 +11889,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007059">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005487"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -17269,8 +17453,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005495"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -17659,8 +17844,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -17724,7 +17913,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005495"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -17937,7 +18128,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005490"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -18110,7 +18301,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007207">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -18181,8 +18372,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007209">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -18379,7 +18571,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007214">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -19119,7 +19311,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005430"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -19343,7 +19537,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007239">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -19436,7 +19632,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -20927,7 +21123,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007282 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
@@ -21058,8 +21255,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007285 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007285">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -21598,8 +21796,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007299 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007299">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005497"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -22324,8 +22522,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007319">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -22371,8 +22570,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007320 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007320">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -22529,7 +22729,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007328">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -22718,7 +22918,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -23874,7 +24074,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007379">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -24024,8 +24224,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007383 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007383">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -24108,7 +24308,11 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007385">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005485"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -25025,7 +25229,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007413 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007413">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -25056,7 +25260,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007414 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007414">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005495"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -25105,7 +25311,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007415 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007415">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005495"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -25154,7 +25362,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007416 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007416">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005495"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -25313,7 +25523,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007421 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007421">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -25343,7 +25553,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007422 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007422">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -25405,8 +25617,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007424 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007424">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -25442,8 +25654,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007425 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007425">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -25629,8 +25842,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007431">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -25674,7 +25887,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007432 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007432">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005426"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -25745,7 +25958,11 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007434 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007434">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005426"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005496"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -26579,8 +26796,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007460">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005487"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -26649,8 +26867,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007463">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005490"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -26712,8 +26932,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007464">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005490"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -26775,7 +26997,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007465">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -26813,7 +27036,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007466">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -26851,7 +27075,9 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007467">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005430"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -26990,7 +27216,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007472 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007472">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -27028,7 +27254,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007473">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -27064,7 +27290,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0007474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007474">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -28433,7 +28659,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007532 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007532">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -28465,8 +28691,12 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007533">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005485"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -28528,8 +28758,12 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007534 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007534">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005485"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005499"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -28592,7 +28826,8 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007535">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -28786,8 +29021,9 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007541 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007541">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -28831,7 +29067,8 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007542 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007542">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005492"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -29384,7 +29621,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007559 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007559">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -29421,8 +29658,10 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007560">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005430"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -29565,7 +29804,11 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007564">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005426"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005430"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005496"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -29737,7 +29980,8 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007568">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -29806,8 +30050,8 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007570">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005494"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30011,7 +30255,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007581 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007581">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30031,7 +30275,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007582 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007582">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30051,7 +30295,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007583 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007583">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30071,7 +30315,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007584 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007584">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30091,7 +30335,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007585 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007585">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30111,7 +30355,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007586 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007586">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30131,7 +30375,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007587">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30151,7 +30395,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007588 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007588">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30172,7 +30416,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007590">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30190,7 +30434,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=4017</obo:IAO_0000119>
         <obo:VO_0001818>4017</obo:VO_0001818>
         <obo:VO_0005500>Research</obo:VO_0005500>
-        <rdfs:label>Biolistic DNA vaccination</rdfs:label>
+        <rdfs:label>Biolistic DNA vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -30198,7 +30442,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007591">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30218,7 +30462,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007593 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007593">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -30325,8 +30569,8 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007598 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007598">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005485"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30380,7 +30624,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007600">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30426,7 +30670,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007602 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007602">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30447,7 +30691,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007603">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30580,7 +30824,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007609 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007609">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -30627,7 +30871,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007611 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007611">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30667,7 +30911,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007613 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007613">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30687,7 +30931,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007614 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007614">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -30734,7 +30978,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007616 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007616">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30754,7 +30998,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007617 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007617">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -30781,7 +31025,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007618 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007618">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30801,7 +31045,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007619 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007619">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30821,7 +31065,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007620 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007620">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30841,7 +31085,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007621 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007621">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30861,7 +31105,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007622 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007622">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30881,7 +31125,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007623 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007623">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30901,7 +31145,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007624">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30921,7 +31165,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007625 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007625">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30941,7 +31185,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007626">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30961,7 +31205,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007627 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007627">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -30981,7 +31225,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007628 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007628">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31001,7 +31245,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007629 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007629">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31041,7 +31285,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007631 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007631">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31061,7 +31305,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007632">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31081,7 +31325,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007633 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007633">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -31108,7 +31352,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007634 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007634">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31128,7 +31372,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007635 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007635">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31148,7 +31392,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007636">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31168,7 +31412,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007637 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007637">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31188,7 +31432,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007638 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007638">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31228,7 +31472,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007640 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007640">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31248,7 +31492,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007641 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007641">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31268,7 +31512,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007642">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -31315,7 +31559,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007644 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007644">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -31342,7 +31586,8 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007645 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007645">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31368,7 +31613,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007646 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007646">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -31395,7 +31640,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007647 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007647">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31415,7 +31660,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007648 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007648">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31435,7 +31680,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007649 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007649">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
@@ -31455,7 +31700,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007650 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007650">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>

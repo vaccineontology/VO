@@ -1,0 +1,42 @@
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT distinct ?ID ?label ?type
+WHERE {
+   {
+	?entity a owl:Class .
+	?entity rdfs:label ?l .
+	BIND (str(?l) AS ?label) .
+  	FILTER (contains(str(?entity), "VO_")) .
+  	BIND(STRAFTER(STR(?entity), "/obo/") AS ?ID) . 
+	BIND("Class" AS ?type)
+   }
+   UNION
+   {
+	?entity a owl:AnnotationProperty .
+	?entity rdfs:label ?l .
+	BIND (str(?l) AS ?label) .
+  	FILTER (contains(str(?entity), "VO_")) .
+  	BIND(STRAFTER(STR(?entity), "/obo/") AS ?ID) . 
+	BIND("AnnotationProperty" AS ?type)
+   }
+   UNION
+   {
+	?entity a owl:ObjectProperty .
+	?entity rdfs:label ?l .
+	BIND (str(?l) AS ?label) .
+  	FILTER (contains(str(?entity), "VO_")) .
+  	BIND(STRAFTER(STR(?entity), "/obo/") AS ?ID) . 
+	BIND("ObjectProperty" AS ?type)
+   }
+   UNION
+   {
+	?entity a owl:NamedIndividual .
+	?entity rdfs:label ?l .
+	BIND (str(?l) AS ?label) .
+  	FILTER (contains(str(?entity), "VO_")) .
+  	BIND(STRAFTER(STR(?entity), "/obo/") AS ?ID) . 
+	BIND("NamedIndividual" AS ?type)
+   }
+}
+ORDER BY ASC(?ID)
