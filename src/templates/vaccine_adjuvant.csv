@@ -256,7 +256,7 @@ Mechanism of Action: Squalene emulsion possibly triggering inflammasome or throu
 Immune profile induced: None
 Other Features/Characteristics: None
 Point of Contact: Darrick Carter, PAI Life Sciences",,,,,,
-VO:0005294,DDO (Defective viral genome-Derived Oligonucleotide) vaccine adjuvant,vaccine adjuvant,DDO|DDO (Defective viral genome-Derived Oligonucleotide)|Defective viral genome-Derived Oligonucleotide,,https://vac.niaid.nih.gov/view?id=30|https://www.ncbi.nlm.nih.gov/pubmed/?term=24099876|https://www.ncbi.nlm.nih.gov/pubmed/?term=29861183,Carolina Lopez|Wolfgang Leitner|Amogh Madireddi|Oliver He,,,"Chemical Nature: (1) Synthetic derivative of natural compound, (2) Nucleic acid
+VO:0005294,DDO (Defective viral genome-Derived Oligonucleotide) vaccine adjuvant,oligonucleotide vaccine adjuvant,DDO|DDO (Defective viral genome-Derived Oligonucleotide)|Defective viral genome-Derived Oligonucleotide,,https://vac.niaid.nih.gov/view?id=30|https://www.ncbi.nlm.nih.gov/pubmed/?term=24099876|https://www.ncbi.nlm.nih.gov/pubmed/?term=29861183,Carolina Lopez|Wolfgang Leitner|Amogh Madireddi|Oliver He,,,"Chemical Nature: (1) Synthetic derivative of natural compound, (2) Nucleic acid
 Receptor: TLR3
 Mechanism of Action: TLR3, possibly RIG-I - agonist
 Immune profile induced: Th1-biased
@@ -977,3 +977,32 @@ https://clinicaltrials.gov/ct2/show/NCT03330899
 https://clinicaltrials.gov/ct2/show/NCT01612000
 https://clinicaltrials.gov/ct2/show/NCT02464163
 https://clinicaltrials.gov/ct2/show/NCT02464163",84,https://github.com/vaccineontology/VO/issues/652,,,Th1/Th2 mixed immune profile,
+VO:0006102,oligonucleotide vaccine adjuvant,vaccine adjuvant,,,,Jie Zheng,,,,,,,,,
+VO:0006103,A-910823 vaccine adjuvant,emulsion vaccine adjuvant,A-910823,"An emulsion vaccine adjuvant that is squalene-based adjuvant, induces T follicular helper cells and humoral immune responses via alpha-tocopherol component.",PMID:36891311,Nilufer kosar|Maki Hayase|Jie Zheng,,,"Chemical Nature: Emulsion
+Mechanism of Action: n/a
+Immune profile induced: Th1-biased
+
+Route of immunization: IM
+Point of Contact: Maki Hayase, Shionogi &Co., Ltd
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=36372670
+https://www.ncbi.nlm.nih.gov/pubmed/?term=36891311
+https://www.ncbi.nlm.nih.gov/pubmed/?term=36460696
+https://www.ncbi.nlm.nih.gov/pubmed/?term=35691872
+
+Ongoing clinical trials:
+https://clinicaltrials.gov/ct2/show/NCT05212948",90,https://github.com/vaccineontology/VO/issues/666,,,Th1-biased immune profile,
+VO:0006104,S-540956 vaccine adjuvant,oligonucleotide vaccine adjuvant,S-540956,"An oligonucleotide vaccine adjuvant that is a TLR9-agonistic adjuant containing a CpG oligonucleotide annealed to a complementary strand with an amphiphilic chain unit, acts as a potent cancer vaccine adjuvant by targeting draining lymph nodes.",PMID:35003132|PMID:37243234,Nilufer kosar|Maki Hayase|Jie Zheng,,,"Chemical Nature: Oligonucleotide
+Mechanism of Action: Activation of TLR9 signaling pathway
+Immune profile induced: Th1-biased
+
+Route of immunization: IM, SQ
+Point of Contact: Maki Hayase, Shionogi &Co., Ltd
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=35003132
+https://www.ncbi.nlm.nih.gov/pubmed/?term=37243234
+
+Ongoing clinical trials:
+N/A",91,https://github.com/vaccineontology/VO/issues/667,,,Th1-biased immune profile,
