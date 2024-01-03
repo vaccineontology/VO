@@ -2350,7 +2350,7 @@ Point of Contact: Darrick Carter, PAI Life Sciences</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0005294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005294">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0006102"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -4992,6 +4992,91 @@ https://clinicaltrials.gov/ct2/show/NCT02464163</obo:IAO_0000116>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/652</obo:IAO_0000233>
         <obo:VO_0005328>84</obo:VO_0005328>
         <rdfs:label>Stable Emulsion (SE) vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <rdfs:label>oligonucleotide vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001355"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An emulsion vaccine adjuvant that is squalene-based adjuvant, induces T follicular helper cells and humoral immune responses via alpha-tocopherol component.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Emulsion
+Mechanism of Action: n/a
+Immune profile induced: Th1-biased
+
+Route of immunization: IM
+Point of Contact: Maki Hayase, Shionogi &amp;Co., Ltd
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=36372670
+https://www.ncbi.nlm.nih.gov/pubmed/?term=36891311
+https://www.ncbi.nlm.nih.gov/pubmed/?term=36460696
+https://www.ncbi.nlm.nih.gov/pubmed/?term=35691872
+
+Ongoing clinical trials:
+https://clinicaltrials.gov/ct2/show/NCT05212948</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Maki Hayase</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000118>A-910823</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:36891311</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/666</obo:IAO_0000233>
+        <obo:VO_0005328>90</obo:VO_0005328>
+        <rdfs:label>A-910823 vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0006102"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An oligonucleotide vaccine adjuvant that is a TLR9-agonistic adjuant containing a CpG oligonucleotide annealed to a complementary strand with an amphiphilic chain unit, acts as a potent cancer vaccine adjuvant by targeting draining lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Oligonucleotide
+Mechanism of Action: Activation of TLR9 signaling pathway
+Immune profile induced: Th1-biased
+
+Route of immunization: IM, SQ
+Point of Contact: Maki Hayase, Shionogi &amp;Co., Ltd
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=35003132
+https://www.ncbi.nlm.nih.gov/pubmed/?term=37243234
+
+Ongoing clinical trials:
+N/A</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Maki Hayase</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000118>S-540956</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:35003132</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:37243234</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/667</obo:IAO_0000233>
+        <obo:VO_0005328>91</obo:VO_0005328>
+        <rdfs:label>S-540956 vaccine adjuvant</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
