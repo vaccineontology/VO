@@ -140,17 +140,11 @@ robot_report.tsv: build/vo-merged.owl
         --fail-on none \
 	--output $@
 
-vo_terms.tsv: build/vo-merged.owl
-	$(ROBOT) query \
-	--input $< \
-        --query SPARQL/get_VO_terms.rq $@
-
-
 ### 
 #
 # Full build
 .PHONY: all
-all: vo.owl robot_report.tsv vo_terms.tsv
+all: vo.owl robot_report.tsv
 
 # Remove generated files
 .PHONY: clean
