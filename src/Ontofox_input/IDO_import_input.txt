@@ -12,6 +12,7 @@ http://purl.obolibrary.org/obo/IDO_0000403 #parasite role
 http://purl.obolibrary.org/obo/IDO_0000409 #definitive host role
 http://purl.obolibrary.org/obo/IDO_0000418 #infectious agent vector role
 http://purl.obolibrary.org/obo/IDO_0000420 #biological vector of infectious agent role
+http://purl.obolibrary.org/obo/IDO_0000586 #infection
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
@@ -28,6 +29,8 @@ http://purl.obolibrary.org/obo/IDO_0000418 #infectious agent vector role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 http://purl.obolibrary.org/obo/IDO_0000420 #biological vector of infectious agent role
 subClassOf http://purl.obolibrary.org/obo/IDO_0000418 #infectious agent vector role
+http://purl.obolibrary.org/obo/IDO_0000586 #infection
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Source term retrieval setting]
 includeNoIntermediates

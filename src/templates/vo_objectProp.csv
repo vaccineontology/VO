@@ -41,7 +41,7 @@ processed material and (is_specified_output_of some vaccine preparation) and (ha
 The domain of this relation is a vaccine.
 The range of this relation is a pathogen (a bacterium, a virus, a fungus, and a parasite)
 Ranges: organism and 'has role' some 'pathogen role'",Oliver He,,,vaccine,'organism' and 'has role' some 'pathogen role'
-VO:0001243,immunizes organism,Object property,,immunization for host|vaccine immunization for host,"A shortcut relation that equals to:
+VO:0001243,immunizes host,Object property,,immunization for host|vaccine immunization for host,"A shortcut relation that equals to:
 'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine host role' and (role_of some 'organism')))))))).
 The domain of this relation is a vaccine.
 The range of this relation is a organism.",Asiyah Yu Lin|Oliver He,,,vaccine,organism

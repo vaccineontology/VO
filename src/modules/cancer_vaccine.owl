@@ -94,6 +94,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000085 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000085"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -121,6 +127,12 @@
     <!-- http://purl.obolibrary.org/obo/VO_0001243 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003355 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003355"/>
     
 
 
@@ -393,6 +405,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -528,9 +546,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000452"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000532 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000532"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000562"/>
     
 
 
@@ -2486,6 +2516,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007653"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>NF</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>RS</obo:IAO_0000117>
@@ -3400,7 +3436,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A personalized peptide-based cancer vaccine comprised of one or two de novo synthesized patient-specific tumor-mutated peptides associated with glioblastoma (GB), with potential immunomodulating and antineoplastic activities. Vaccination with synthetic GB mutated tumor-specific peptides vaccine therapy APVAC2 stimulates the host immune system to mount a cytotoxic T-lymphocyte (CTL) response against tumor cells expressing the selected mutated tumor-associated peptides, which results in decreased GB growth. These peptides are specifically selected and synthesized based on the expression of the patient√ïs own mutated tumor-associated antigens, which were detected during individual tumor genome sequencing.</obo:IAO_0000115>
+        <obo:IAO_0000115>A personalized peptide-based cancer vaccine comprised of one or two de novo synthesized patient-specific tumor-mutated peptides associated with glioblastoma (GB), with potential immunomodulating and antineoplastic activities. Vaccination with synthetic GB mutated tumor-specific peptides vaccine therapy APVAC2 stimulates the host immune system to mount a cytotoxic T-lymphocyte (CTL) response against tumor cells expressing the selected mutated tumor-associated peptides, which results in decreased GB growth. These peptides are specifically selected and synthesized based on the expression of the patient‚àö√Øs own mutated tumor-associated antigens, which were detected during individual tumor genome sequencing.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -3701,7 +3737,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An√äimmunotherapeutic√äcomposed of the Wilms tumor 1 (WT1) and an as of yet undisclosed adjuvant, with potential antineoplastic activity. Upon administration, the immune system may be stimulated to exert a cytotoxic T-lymphocyte (CTL) response against√äWT1-expressing tumor cells. The adjuvant stimulates the immune system&apos;s response to√äWT1.√äWT1, a tumor-associated antigen (TAA) and transcription factor, is overexpressed in a variety of tumor cell types.</obo:IAO_0000115>
+        <obo:IAO_0000115>An‚àö√§immunotherapeutic‚àö√§composed of the Wilms tumor 1 (WT1) and an as of yet undisclosed adjuvant, with potential antineoplastic activity. Upon administration, the immune system may be stimulated to exert a cytotoxic T-lymphocyte (CTL) response against‚àö√§WT1-expressing tumor cells. The adjuvant stimulates the immune system&apos;s response to‚àö√§WT1.‚àö√§WT1, a tumor-associated antigen (TAA) and transcription factor, is overexpressed in a variety of tumor cell types.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -4263,7 +4299,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A√äplasmid√äDNA√äencoding an immunogenic peptide derived from the√äcancer-testis antigen√äNY-ESO-1√äwith potential immunostimulating and antitumor activities. Upon administration,√äNY-ESO-1√äplasmid√äDNA√äcancer√ävaccine√ämay stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against tumor cells expressing the√äNY-ESO-1√äantigen, resulting in tumor cell lysis.√äNY-ESO-1√äis a tumor associated antigen (TAA) found in normal testes and expressed on the surfaces of various tumor cells, including melanoma, breast, bladder, prostate, lung, ovarian, and hepatocellular tumor cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>A‚àö√§plasmid‚àö√§DNA‚àö√§encoding an immunogenic peptide derived from the‚àö√§cancer-testis antigen‚àö√§NY-ESO-1‚àö√§with potential immunostimulating and antitumor activities. Upon administration,‚àö√§NY-ESO-1‚àö√§plasmid‚àö√§DNA‚àö√§cancer‚àö√§vaccine‚àö√§may stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against tumor cells expressing the‚àö√§NY-ESO-1‚àö√§antigen, resulting in tumor cell lysis.‚àö√§NY-ESO-1‚àö√§is a tumor associated antigen (TAA) found in normal testes and expressed on the surfaces of various tumor cells, including melanoma, breast, bladder, prostate, lung, ovarian, and hepatocellular tumor cells.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -4745,7 +4781,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A cancer vaccine consisting of Her2/neu peptides incorporated into microspheres of poly (lactide-co-glycolide) (PLGA), a biodegradable polymer. Poly microsphere encapsulated HER2/neu oral vaccine has been investigated for use in immunotherapy for tumors positive for HER-2/neu, a tumor associated antigen that is overexpressed in various cancers, including breast and ovarian cancer.√ä</obo:IAO_0000115>
+        <obo:IAO_0000115>A cancer vaccine consisting of Her2/neu peptides incorporated into microspheres of poly (lactide-co-glycolide) (PLGA), a biodegradable polymer. Poly microsphere encapsulated HER2/neu oral vaccine has been investigated for use in immunotherapy for tumors positive for HER-2/neu, a tumor associated antigen that is overexpressed in various cancers, including breast and ovarian cancer.‚àö√§</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -5042,7 +5078,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An admixture of√ärecombinant√ävaccinia√ävirus encoding MUC-1 and√ärecombinant√ävaccinia√ävirus encoding the murine T-cell co-stimulatory molecule√äB7.1. MUC-1 is a glycosylated mucin that is overexpressed in breast, lung, pancreatic, prostate, stomach, colon, and ovarian carcinomas. Vaccination with MUC-1 in combination with√äB7.1 may enhance the cytotoxic T cell (CTL) immune response to tumors expressing MUC-1, compared to vaccination with MUC-1 alone.</obo:IAO_0000115>
+        <obo:IAO_0000115>An admixture of‚àö√§recombinant‚àö√§vaccinia‚àö√§virus encoding MUC-1 and‚àö√§recombinant‚àö√§vaccinia‚àö√§virus encoding the murine T-cell co-stimulatory molecule‚àö√§B7.1. MUC-1 is a glycosylated mucin that is overexpressed in breast, lung, pancreatic, prostate, stomach, colon, and ovarian carcinomas. Vaccination with MUC-1 in combination with‚àö√§B7.1 may enhance the cytotoxic T cell (CTL) immune response to tumors expressing MUC-1, compared to vaccination with MUC-1 alone.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -5483,7 +5519,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A cancer vaccine consisting of a recombinant vector encoding the tumor-associated carcinoembryonic antigen (CEA) that is√äcontaminated√äwith bovine viral diarrhea virus (BVDV). The carcinoembryonic antigen (CEA) is a prevalent tumor marker expressed by a number of different cancers such as colorectal, breast, lung and ovarian carcinomas; vaccination with vaccinia virus genetically engineered to express√äCEA√ämay generate antitumoral T-cell responses.√äBVDV√äis an RNA pestivirus that may contaminate vaccines due to its presence in fetal calf serum used as a growth supplement in the tissue culture of mammalian cells used in vaccine production.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cancer vaccine consisting of a recombinant vector encoding the tumor-associated carcinoembryonic antigen (CEA) that is‚àö√§contaminated‚àö√§with bovine viral diarrhea virus (BVDV). The carcinoembryonic antigen (CEA) is a prevalent tumor marker expressed by a number of different cancers such as colorectal, breast, lung and ovarian carcinomas; vaccination with vaccinia virus genetically engineered to express‚àö√§CEA‚àö√§may generate antitumoral T-cell responses.‚àö√§BVDV‚àö√§is an RNA pestivirus that may contaminate vaccines due to its presence in fetal calf serum used as a growth supplement in the tissue culture of mammalian cells used in vaccine production.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -6070,7 +6106,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A non-infectious, recombinant, nonavalent vaccine prepared from highly purified virus-like particles (VLPs) comprised of the major capsid (L1) proteins from human papillomavirus (HPV) types 6, 11, 16, 18, 31, 33, 45, 52, and 58, with active immunizing activity. Upon administration, the recombinant HPV nonavalent vaccine activates the immune system to produce antibodies against the 9 HPV types. This protects against HPV infection and HPV-related cancers. Altogether, HPV types 6, 11, 16, 18, 31, 33, 45, 52, and 58 account for the majority of the HPV types that cause cervical, vulvar, vaginal and anal cancers.√ä</obo:IAO_0000115>
+        <obo:IAO_0000115>A non-infectious, recombinant, nonavalent vaccine prepared from highly purified virus-like particles (VLPs) comprised of the major capsid (L1) proteins from human papillomavirus (HPV) types 6, 11, 16, 18, 31, 33, 45, 52, and 58, with active immunizing activity. Upon administration, the recombinant HPV nonavalent vaccine activates the immune system to produce antibodies against the 9 HPV types. This protects against HPV infection and HPV-related cancers. Altogether, HPV types 6, 11, 16, 18, 31, 33, 45, 52, and 58 account for the majority of the HPV types that cause cervical, vulvar, vaginal and anal cancers.‚àö√§</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -6297,7 +6333,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A synthetic vaccine used for cancer immunotherapy also known as Ras(val 12)-Vaccinia Vaccine,√äRASVAC-C√äis based on a mutant peptide epitope of the Ras oncoprotein at codon 12 (valine instead of glycine) that induces recognition and induction of tumor-specific, cell-mediated immune responses. Ras is an intracellular GTP-binding protein involved in signal transduction and regulation of proliferation and differentiation.√ä</obo:IAO_0000115>
+        <obo:IAO_0000115>A synthetic vaccine used for cancer immunotherapy also known as Ras(val 12)-Vaccinia Vaccine,‚àö√§RASVAC-C‚àö√§is based on a mutant peptide epitope of the Ras oncoprotein at codon 12 (valine instead of glycine) that induces recognition and induction of tumor-specific, cell-mediated immune responses. Ras is an intracellular GTP-binding protein involved in signal transduction and regulation of proliferation and differentiation.‚àö√§</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -6649,7 +6685,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A√äpeptide√äcancer√ävaccine√äcomprised of a√äpeptide√äderived from Wilms tumor gene 1 (WT1) protein, with potential immunomodulating and antineoplastic activities. Upon subcutaneous administration,√äWT1√äpeptide√ävaccine√äOCV-501√ämay stimulate a CD4-positive helper T-lymphocyte-mediated immune response against√äWT1√äexpressing cells.√äWT1√äprotein, a zinc finger DNA-binding protein, is overexpressed in leukemic cells and in some solid tumors.</obo:IAO_0000115>
+        <obo:IAO_0000115>A‚àö√§peptide‚àö√§cancer‚àö√§vaccine‚àö√§comprised of a‚àö√§peptide‚àö√§derived from Wilms tumor gene 1 (WT1) protein, with potential immunomodulating and antineoplastic activities. Upon subcutaneous administration,‚àö√§WT1‚àö√§peptide‚àö√§vaccine‚àö√§OCV-501‚àö√§may stimulate a CD4-positive helper T-lymphocyte-mediated immune response against‚àö√§WT1‚àö√§expressing cells.‚àö√§WT1‚àö√§protein, a zinc finger DNA-binding protein, is overexpressed in leukemic cells and in some solid tumors.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -7300,7 +7336,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A vaccine consisting of lymphoma-specific immunoglobulin that is not conjugated to a carrier molecule. Vaccination with unconjugated lymphoma Ig Id may stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against lymphoma cells, resulting in decreased tumor growth.√ä</obo:IAO_0000115>
+        <obo:IAO_0000115>A vaccine consisting of lymphoma-specific immunoglobulin that is not conjugated to a carrier molecule. Vaccination with unconjugated lymphoma Ig Id may stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against lymphoma cells, resulting in decreased tumor growth.‚àö√§</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -7526,7 +7562,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A cancer√ävaccine√äconsisting of√äPEP-3, a synthetic peptide encompassing a tumor-specific mutated segment of the epidermal growth factor receptor type vIII (EGFRvIII), conjugated to the naturally-occurring immunoadjuvant keyhole limpet hemocyanin (KLH) with potential immunostimulating and antineoplastic activities. Upon administration,√äPEP-3-KLH√äconjugate√ävaccine√ämay induce a cytotoxic immune response against tumor cells that overexpress EGFRvIII; this antitumoral immune response may involve antibody-dependent cellular cytotoxicity (ADCC).</obo:IAO_0000115>
+        <obo:IAO_0000115>A cancer‚àö√§vaccine‚àö√§consisting of‚àö√§PEP-3, a synthetic peptide encompassing a tumor-specific mutated segment of the epidermal growth factor receptor type vIII (EGFRvIII), conjugated to the naturally-occurring immunoadjuvant keyhole limpet hemocyanin (KLH) with potential immunostimulating and antineoplastic activities. Upon administration,‚àö√§PEP-3-KLH‚àö√§conjugate‚àö√§vaccine‚àö√§may induce a cytotoxic immune response against tumor cells that overexpress EGFRvIII; this antitumoral immune response may involve antibody-dependent cellular cytotoxicity (ADCC).</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -7667,7 +7703,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A viral vaccine comprised of a√ärecombinant√äfowlpox√ävector construct encoding a modified epitope of the melanoma antigen glycoprotein 100 (gp100), ES-2092M(gp100), containing an endoplasmic reticulum signal sequence targeted to the endoplasmic reticulum apparatus. Vaccination with√ärecombinant√äfowlpox-gp100p209√ävaccine may stimulate the host immune system more efficiently to mount a cytotoxic T lymphocyte response against tumor cells expressing the gp100 antigen.</obo:IAO_0000115>
+        <obo:IAO_0000115>A viral vaccine comprised of a‚àö√§recombinant‚àö√§fowlpox‚àö√§vector construct encoding a modified epitope of the melanoma antigen glycoprotein 100 (gp100), ES-2092M(gp100), containing an endoplasmic reticulum signal sequence targeted to the endoplasmic reticulum apparatus. Vaccination with‚àö√§recombinant‚àö√§fowlpox-gp100p209‚àö√§vaccine may stimulate the host immune system more efficiently to mount a cytotoxic T lymphocyte response against tumor cells expressing the gp100 antigen.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -7712,7 +7748,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A√ävaccine√äconsisting of a replication-defective√ärecombinant√äfowlpox√ävirus that encodes for the murine melanoma antigen glycoprotein 100 (mgp100) with potential antineoplastic activity. Vaccination with√ärecombinant√äfowlpox-mgp100√ävaccine√ämay stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against tumor cells positive for the gp100 antigen, resulting in decreased tumor growth.</obo:IAO_0000115>
+        <obo:IAO_0000115>A‚àö√§vaccine‚àö√§consisting of a replication-defective‚àö√§recombinant‚àö√§fowlpox‚àö√§virus that encodes for the murine melanoma antigen glycoprotein 100 (mgp100) with potential antineoplastic activity. Vaccination with‚àö√§recombinant‚àö√§fowlpox-mgp100‚àö√§vaccine‚àö√§may stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against tumor cells positive for the gp100 antigen, resulting in decreased tumor growth.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -7841,7 +7877,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A recombinant vaccinia virus encoding a modified peptide of the gp100 melanoma-melanocyte antigen with potential use in cancer immunotherapy. gp100 human antigen is a wild type self-antigen expressed by melanocytes, pigmented retinal cells and most melanomas. gp100p209 is a fragment epitope of gp100 in which the threonine in position 2 is replaced with methionine; this modification may stimulate tumor infiltrating lymphocytes (TIL) more efficiently.√ä</obo:IAO_0000115>
+        <obo:IAO_0000115>A recombinant vaccinia virus encoding a modified peptide of the gp100 melanoma-melanocyte antigen with potential use in cancer immunotherapy. gp100 human antigen is a wild type self-antigen expressed by melanocytes, pigmented retinal cells and most melanomas. gp100p209 is a fragment epitope of gp100 in which the threonine in position 2 is replaced with methionine; this modification may stimulate tumor infiltrating lymphocytes (TIL) more efficiently.‚àö√§</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -7888,7 +7924,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A√ärecombinant√ävaccinia√ävirus encoding a modified peptide of the gp100 melanoma-melanocyte antigen with potential use in cancer immunotherapy. gp100 human antigen is a wild type self-antigen expressed by melanocytes, pigmented retinal cells and most melanomas. This√ärecombinant√ävaccinia√äMgp100√äencodes a fragment epitope of gp100 bearing 2 amino acids substitution; T-&gt;M at position 210 and 288 A -&gt;V at position 210. This modification may stimulate tumor infiltrating lymphocytes (TIL) more efficiently.</obo:IAO_0000115>
+        <obo:IAO_0000115>A‚àö√§recombinant‚àö√§vaccinia‚àö√§virus encoding a modified peptide of the gp100 melanoma-melanocyte antigen with potential use in cancer immunotherapy. gp100 human antigen is a wild type self-antigen expressed by melanocytes, pigmented retinal cells and most melanomas. This‚àö√§recombinant‚àö√§vaccinia‚àö√§Mgp100‚àö√§encodes a fragment epitope of gp100 bearing 2 amino acids substitution; T-&gt;M at position 210 and 288 A -&gt;V at position 210. This modification may stimulate tumor infiltrating lymphocytes (TIL) more efficiently.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -8070,7 +8106,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A recombinant plasmid DNA vaccine that encodes two peptides, tyrosinase 207√ê216 and tyrosinase 1√ê17, both of which are derived from human tyrosinase.</obo:IAO_0000115>
+        <obo:IAO_0000115>A recombinant plasmid DNA vaccine that encodes two peptides, tyrosinase 207‚àö√™216 and tyrosinase 1‚àö√™17, both of which are derived from human tyrosinase.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -8519,7 +8555,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1909"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Immunotherapy with√äVMCL√äwas not associated with a statistically significant improvement in OS or RFS, with CIs not ruling out important gains from such treatment.</obo:IAO_0000115>
+        <obo:IAO_0000115>Immunotherapy with‚àö√§VMCL‚àö√§was not associated with a statistically significant improvement in OS or RFS, with CIs not ruling out important gains from such treatment.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -8914,7 +8950,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A cancer vaccine containing immunogenic, HLA-A2-specific epitopes derived from X-box√êbinding protein 1-unspliced (XBP1-US), XBP1-spliced (SP), syndecan-1 (CD138), and CS1 (CD2 subset 1, CRACC, SLAMF7, CD319) with potential immunomodulating and antineoplastic activities. Upon subcutaneous administration, XBP1-US/XBP1-SP/CD138/CS1 multipeptide vaccine PVX-410 may stimulate the immune system to induce a cytotoxic T-lymphocyte response against the four myeloma-specific antigens. The tumor associated antigens (TAAs) XBP1-US, XBP1-SP, CD138 and CS1, are overexpressed on the surface of multiple myeloma (MM) cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cancer vaccine containing immunogenic, HLA-A2-specific epitopes derived from X-box‚àö√™binding protein 1-unspliced (XBP1-US), XBP1-spliced (SP), syndecan-1 (CD138), and CS1 (CD2 subset 1, CRACC, SLAMF7, CD319) with potential immunomodulating and antineoplastic activities. Upon subcutaneous administration, XBP1-US/XBP1-SP/CD138/CS1 multipeptide vaccine PVX-410 may stimulate the immune system to induce a cytotoxic T-lymphocyte response against the four myeloma-specific antigens. The tumor associated antigens (TAAs) XBP1-US, XBP1-SP, CD138 and CS1, are overexpressed on the surface of multiple myeloma (MM) cells.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -10254,7 +10290,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A cancer√ävaccine√äcontaining xenogenic√äDNA√äfrom rhesus macaque (Macaca mulatta) that encodes prostate specific antigen (PSA) with potential immunostimulating and antineoplastic activities. Upon repeated intradermal administration via electroporation,√äpVAXrcPSAv53l√ävaccine√ämay induce a cytotoxic T-lymphocyte (CTL) response against PSA-expressing prostate cancer cells. Rhesus PSA is 89% homologous to human PSA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cancer‚àö√§vaccine‚àö√§containing xenogenic‚àö√§DNA‚àö√§from rhesus macaque (Macaca mulatta) that encodes prostate specific antigen (PSA) with potential immunostimulating and antineoplastic activities. Upon repeated intradermal administration via electroporation,‚àö√§pVAXrcPSAv53l‚àö√§vaccine‚àö√§may induce a cytotoxic T-lymphocyte (CTL) response against PSA-expressing prostate cancer cells. Rhesus PSA is 89% homologous to human PSA.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -11255,7 +11291,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A recombinant retroviral virus derived from SR-A strain of Rous sarcoma virus carrying a constitutively active form of the√äAKT√äGene. The viral vector√äRCAS√äharbors a Replication Competent ALV Splice acceptor. This recombinant virus was use in animal model to study gliomagenesis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A recombinant retroviral virus derived from SR-A strain of Rous sarcoma virus carrying a constitutively active form of the‚àö√§AKT‚àö√§Gene. The viral vector‚àö√§RCAS‚àö√§harbors a Replication Competent ALV Splice acceptor. This recombinant virus was use in animal model to study gliomagenesis.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -11294,7 +11330,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A recombinant retroviral virus derived from SR-A strain of Rous sarcoma virus carrying a human gene encoding the G12D mutant form of K-Ras. The viral vector,√äRCAS√äharbors a Replication Competent ALV Splice acceptor. This recombinant virus was use in animal model to study gliomagenesis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A recombinant retroviral virus derived from SR-A strain of Rous sarcoma virus carrying a human gene encoding the G12D mutant form of K-Ras. The viral vector,‚àö√§RCAS‚àö√§harbors a Replication Competent ALV Splice acceptor. This recombinant virus was use in animal model to study gliomagenesis.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -11492,7 +11528,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>2 class major histocompatibility complex√êrestricted melanoma peptides</obo:IAO_0000115>
+        <obo:IAO_0000115>2 class major histocompatibility complex‚àö√™restricted melanoma peptides</obo:IAO_0000115>
         <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
         <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
@@ -11605,6 +11641,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007653"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A topical gel containing a peptide derived from the human papillomavirus (HPV). Application of 851B gel may stimulate the host immune system to trigger a cytotoxic T-lymphocyte response to cells that express HPV.</obo:IAO_0000115>
@@ -17918,6 +17960,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A DNA vaccine consisting of plasmids encoding the E6 and E7 genes of human papilloma virus subtype 6 (HPV-6), with potential immunostimulating and antineoplastic activities. Administered via intramuscular electroporation, HPV-6-targeting immunotherapeutic vaccine INO-3106 expresses the HPV-6 E6 and E7 proteins, which may elicit a cytotoxic T-lymphocyte (CTL) response against tumor cells that are expressing those proteins, resulting in tumor cell lysis. HPV-6 infections are associated with aerodigestive malignancies.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
@@ -19897,6 +19945,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A peptide derived from the oncogenic human papillomavirus (HPV) early gene product E6. The HPV 16 transforming protein E6 is expressed in precancerous and malignant cervical lesions and has a high affinity for the most common human lymphocyte antigen (HLA), HLA-A2. Immunogenic peptides from the HPV 16 E6 may be used to trigger a T-cell-mediated immune response to HPV.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
@@ -19935,6 +19989,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A synthetic peptide vaccine consisting of amino acids 86 through 93 (TLGIVCPI) of the viral oncoprotein human papillomavirus (HPV) 16 E7. Vaccination with HPV-16 E7:86-93 peptide, which binds to HLA-A* 0201 molecule, may stimulate the host immune system to mount a cytotoxic T-lymphocyte (CTL) response against tumor cells positive for HPV-16 E7.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
@@ -19965,6 +20025,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine consisting of human papillomavirus-derived noninfectious virus-like particles (VLPs), containing the L. major capsid protein. Vaccination with HPV 16 L1-VLP results in increases in T cell-proliferative response to HPV 16 L1-VLP, as well as significant increases in cytokine (interferon-gamma, interleukin-5 and -10) responses to L1 VLP. This agent may reduce the incidence of persistent HPV-16 infection, which may be responsible for half of all cases of cervical cancer including high-grade cervical intraepithelial neoplasia.</obo:IAO_0000115>
@@ -20005,6 +20071,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A synthetic peptide vaccine consisting of amino acids 13 through 21 of the viral oncoprotein human papillomavirus (HPV) 18 E6. The HPV 18E6 peptide cross-reacts immunologically with both HPV type 16 and HPV type 18, the most common HPV types involved in cervical cancer. Vaccination with HPV-18 E6:13-21 peptide may stimulate the host immune system to mount a cytotoxic T-lymphocyte (CTL) response against tumor cells positive for HPV 16 and 18.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
@@ -20033,6 +20105,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Noninfectious, synthetic, virus-like particles (VLP) containing the major viral capsid protein, L1, of the human papillomavirus type 18 with potential immunoprotective activity. Vaccination with HPV 18 L1-VLP may stimulate the host immune system to mount cytotoxic T lymphocyte (CTL) response against cells positive for HPV 18, thereby preventing cervical infection upon exposure to HPV type 18.</obo:IAO_0000115>
@@ -20071,6 +20149,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A DNA vaccine consisting of plasmids encoding the E6 and E7 genes of human papilloma virus (HPV) subtypes 16 and 18, respectively, with potential immunostimulating and antineoplastic activities. Administered via intramuscular electroporation, HPV DNA plasmids therapeutic vaccine VGX-3100 expresses E6 and E7 proteins, which may elicit a cytotoxic T-lymphocyte (CTL) response against cervical cancer cells expressing E6 and E7 proteins, resulting in tumor cell lysis. HPV type 16 and HPV type 18 are the most common HPV types involved in cervical carcinogenesis.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
@@ -20102,6 +20186,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine directed against Human Papillomavirus Type 11 that causes majority of the genital warts and anogenital cancers.</obo:IAO_0000115>
@@ -20140,6 +20230,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A synthetic agent derived from human papillomavirus (HPV) E7 nuclear protein which is used to produce vaccines against HPV infection and HPV-related neoplasms. HPV E7 oncogenic protein binds the retinoblastoma tumor suppressor protein, pRB, as well as a number of other cellular proteins, and serves as a transcriptional activator. This protein is important in the induction and maintenance of cellular transformation and is co-expressed in the majority of HPV-containing carcinomas. PADRE(R) is a proprietary family of molecules that enhances the immune systems response against an administered immunogen such as the HPV E7 nuclear protein.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
@@ -20172,6 +20268,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A recombinant, bivalent, human papillomavirus (HPV) vaccine, containing virus-like particles for HPV types 16 and 18 linked to the adjuvant ASO4, with potential immunoprotective and antineoplastic properties. Upon administration, HPV 16/18 L1 virus-like particle/ASO4 vaccine may generate humoral and cellular immunity against HPV types-16 and -18 antigens, thereby preventing cervical infection upon exposure to HPV types 16 and 18. In addition, this agent may stimulate an antitumoral cellular immune response against cervical cancer associated with HPV infection.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
@@ -20200,6 +20302,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccinia viral based vaccine, encoding epitopes of E6 and E7 proteins from human papillomavirus (HPV) types 16 and 18, with immunostimulatory and antineoplastic activities. HPV types 16 and 18 account for approximately 70% of cervical cancers. Vaccination with this HPV-TA (tumor antigen) vaccine may stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against tumor cells positive for E6 and E7 from either type 16 or 18 HPV, resulting in decreased tumor growth.</obo:IAO_0000115>
@@ -20233,6 +20341,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine consisting of noninfectious, recombinant virus-like particles (VLP) containing the major viral capsid protein L1 of nine strains of human papillomavirus (HPV), with potential immunoprotective activity. Vaccination with HPV V503 may stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against cells positive for any of these nine strains of HPV, thereby preventing cervical infection upon exposure to certain HPV subtypes.</obo:IAO_0000115>
@@ -20272,6 +20386,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A peptide based vaccine consisting of amino acids 12 through 20 of the E7 gene of the Human Papilloma Virus type 16. HPV-16 E7 12-20 peptide vaccine may elicit a specific CD8 T-cell response to the E7 oncogene protein, thereby inhibiting the abrogation of p53 and pRb function and thus prevent tumorigenesis.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
@@ -20308,6 +20428,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A therapeutic DNA vaccine encoding the E6/E7 fusion protein of human papillomavirus (HPV) subtypes 16 and 18, plus the immune-enhancer, Fms-like tyrosine kinase-3 ligand (FLT3L), with potential immunostimulating and antineoplastic activities. DNA vaccine GX-188E is administered using a proprietary delivery system that electroporates the vaccine into cervical cells. Expression of the E6/E7 fusion product may elicit a cytotoxic T-lymphocyte (CTL) response against cervical cancer cells expressing E6 and E7 oncoproteins, resulting in tumor cell lysis. FLT3L is a ligand for the FLT3 tyrosine kinase receptor, which upon activation stimulates the proliferation of hematopoietic progenitor cells. HPV type 16 and 18 are the most common HPV types involved in cervical carcinogenesis</obo:IAO_0000115>
@@ -25337,6 +25463,44 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007653 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007653"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007656">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <obo:IAO_0000115>A cancer vaccine that prevents cancer development associated with viral infections.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>preventive cancer vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007657">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <obo:IAO_0000115>A cancer vaccine that aims to kill or control tumor cells by recognizing the tumor cells and stimulating the immune system via tumor antigens.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>therapeutic cancer vaccine</rdfs:label>
+    </owl:Class>
     
 
 
