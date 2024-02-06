@@ -3443,6 +3443,13 @@
         <oboInOwl:hasAlternativeId>NCBITaxon:2572075</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:2572080</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:2572086</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2870880</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2870881</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2893406</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2916035</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2916036</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2939732</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2950109</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:3042472</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:3042475</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:3042476</oboInOwl:hasAlternativeId>
@@ -3682,28 +3689,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2092 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
-        <oboInOwl:hasDbXref>GC_ID:4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:13403276</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:16350067</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Borrelomycetaceae</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Parasitaceae</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Pleuropneumoniaceae</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Mycoplasmataceae</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:29500</oboInOwl:hasAlternativeId>
@@ -3736,7 +3725,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2790996"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasDbXref>GC_ID:4</oboInOwl:hasDbXref>
@@ -3750,7 +3739,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2099">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2895623"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasDbXref>GC_ID:4</oboInOwl:hasDbXref>
@@ -3790,7 +3779,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2895623"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasDbXref>GC_ID:4</oboInOwl:hasDbXref>
@@ -4392,6 +4381,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2790996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2790996">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <oboInOwl:hasDbXref>GC_ID:4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31385780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31971499</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35947640</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Mycoplasmoidales</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28115">
@@ -4578,6 +4583,22 @@
         <oboInOwl:hasRelatedSynonym>Pseudomonas pyocyanea</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>probable synonym or variety: &quot;Pseudomonas polycolor&quot; Clara 1930</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pseudomonas aeruginosa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2895623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2895623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2790996"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+        <oboInOwl:hasDbXref>GC_ID:4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31385780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31971499</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35947640</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Metamycoplasmataceae</rdfs:label>
     </owl:Class>
     
 
@@ -7739,8 +7760,11 @@
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Corynebacteriales</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Corynebacteriales Goodfellow and Jones 2015</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Corynebacteriineae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Corynebacteriineae corrig. Stackebrandt et al. 1997</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Corynebacterineae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacteriales Janke 1924 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Mycobacteriineae</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Mycobacteriales</rdfs:label>
     </owl:Class>
     
@@ -8402,7 +8426,6 @@
         <oboInOwl:hasExactSynonym>domestic cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>domestic cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ox</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>oxen</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Bos bovis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bos primigenius taurus</oboInOwl:hasRelatedSynonym>
