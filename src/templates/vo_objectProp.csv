@@ -1,4 +1,4 @@
-﻿ID,LABEL,Type,Parent,alternative label,definition,term editor,editor note,example of usage,domain,range
+ID,LABEL,Type,Parent,alternative label,definition,term editor,editor note,example of usage,domain,range
 ID,A rdfs:label,TYPE,SP %  SPLIT=|,A alternative label SPLIT=|,A definition SPLIT=|,A term editor SPLIT=|,A editor note SPLIT=|,A example of usage SPLIT=|,DOMAIN,RANGE
 VO:0000608,DNA vaccine expresses protein antigen,Object property,expresses,,An 'expresses' relation that specifies a relation between a DNA vaccine and a  protein antigen to be expressed by the DNA vaccine. ,Oliver He,,,,
 VO:0000894,has subunit vaccine protective antigen,Object property,has subunit vaccine antigen,,A 'has subunit vaccine antigen' relation that indicates the antigen is protective.,Oliver He,,,,
@@ -12,8 +12,8 @@ VO:0000538,has vaccine preservative,Object property,has vaccine component,,A 'ha
 VO:0000530,has vaccine vector,Object property,has vaccine component,,A type of 'has vaccine component' relation that is specifically for vaccine vector component,Asiyah Yu Lin|Oliver He,,,,recombinant vaccine vector
 VO:0000138,has bacterial vaccine vector,Object property,has vaccine vector,,A type of 'has vaccine vector' relation that specifies a bacterial vaccine vector,Oliver He,,,,Bacteria
 VO:0000281,has viral vaccine vector,Object property,has vaccine vector,,A type of 'has vaccine vector' that is specifically for viral vaccine vector,,,,,
-VO:0005561,blocks transmission of pathogen via vaccine,Object property,immunizes against microbe|capable of blocking transmission (of life cycle),,A relation between a vaccine and a parasite where the vaccine immunizes against some parasite such that transmitting to additional hosts or vectors.,,,,,
-VO:0005481,capable of blocking transmission (of life cycle),Object property,,,A relation between a material entity  and a parasite where the material entity causes some processagainst some parasite such that transmitting to additional hosts or vectors.,,,,,
+VO:0005561,blocks transmission of pathogen via vaccine,Object property,immunizes against pathogen|capable of blocking transmission (of life cycle),,A relation between a vaccine and a parasite where the vaccine immunizes against some parasite such that the parasite is blocked transmitting to additional hosts or vectors.,,,,,
+VO:0005481,capable of blocking transmission (of life cycle),Object property,,,A relation between a material entity  and a parasite where the material entity causes some process against some parasite such that transmitting to additional hosts or vectors.,,,,,
 VO:0003128,has boost vaccine,Object property,,,An object property that represents a relation between a vaccine with a prime-boost schedule and a vaccine used for boost.,Oliver He,,,vaccine,vaccine
 VO:0001039,has gene mutation,Object property,,,An object property that represents an organism has a mutation of a specific gene from the organism genome.,Oliver He,,,,
 VO:0005377,has molecular receptor,Object property,,,An object property that represents a relation between a material entity and a molecular entitiy that serves as the molecular receptor to the material entity.,Oliver He,,A vaccine adjuvant T-vant has molecular receptor of TLR4. Reference: https://vac.niaid.nih.gov/view?id=61.,,
@@ -35,12 +35,12 @@ VO:0001011,immunizes against disease,Object property,,immunization against disea
 The domain of this relation is a vaccine.
 The range of this relation is a disease.",Asiyah Yu Lin|Oliver He,,,vaccine,disease
 VO:0004909,immunizes against disease process,Object property,,,A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.,Oliver He,,,,
-VO:0003355,immunizes against microbe,Object property,,immunization against microbe|vaccine immunization against microbe,"A shortcut relation that equals to:
+VO:0003355,immunizes against pathogen,Object property,,immunization against pathogen|vaccine immunization against pathogen|immunizes against microbe,"A shortcut relation that equals to:
+processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some ('immunization target role' and (role_of some 'pathogen'))))))))
 
-processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some ('immunization target role' and (role_of some 'MICROBE'))))))))
-
-The domain of this relation is a vaccine. 
-The range of this relation is a microbe (a bacterium, a virus, a fungus, and a parasite)",Oliver He,,,vaccine,organism
+The domain of this relation is a vaccine.
+The range of this relation is a pathogen (a bacterium, a virus, a fungus, and a parasite)
+Ranges: organism and 'has role' some 'pathogen role'",Oliver He,,,vaccine,'organism' and 'has role' some 'pathogen role'
 VO:0001243,immunizes organism,Object property,,immunization for host|vaccine immunization for host,"A shortcut relation that equals to:
 'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine host role' and (role_of some 'organism')))))))).
 The domain of this relation is a vaccine.
