@@ -1,57 +1,57 @@
-ID,LABEL,Type,Parent,alternative label,definition,term editor,editor note,example of usage,domain,range
-ID,A rdfs:label,TYPE,SP %  SPLIT=|,A alternative label SPLIT=|,A definition SPLIT=|,A term editor SPLIT=|,A editor note SPLIT=|,A example of usage SPLIT=|,DOMAIN,RANGE
-VO:0000608,DNA vaccine expresses protein antigen,Object property,expresses,,An 'expresses' relation that specifies a relation between a DNA vaccine and a  protein antigen to be expressed by the DNA vaccine. ,Oliver He,,,,
-VO:0000894,has subunit vaccine protective antigen,Object property,has subunit vaccine antigen,,A 'has subunit vaccine antigen' relation that indicates the antigen is protective.,Oliver He,,,,
-VO:0000525,has subunit vaccine antigen,Object property,has vaccine antigen,,A type of 'has vaccine antigen' relation that is specifically for vaccine protective protein antigen used in subunit vaccine development,Asiyah Yu Lin|Oliver He,,,,
-VO:0000527,has vaccine protective antigen,Object property,has vaccine antigen,,A type of 'has vaccine antigen' relation that is specifically for vaccine protective antigen component,Asiyah Yu Lin|Oliver He,,,,
-VO:0000476,has DNA vaccine antigen gene,Object property,has vaccine component,,"A 'has vaccine component' relation that specifies a gene inserted to DNA vaccine plasmid for development of a particular DNA vaccine, and this gene encodes for a protein antigen. ",Oliver He,,,,
-VO:0000369,has DNA vaccine plasmid,Object property,has vaccine component,,A 'has vaccine component' relation that specifies the plasmid used for development of a particular DNA vaccine. ,Oliver He,,,,
-VO:0000529,has vaccine adjuvant,Object property,has vaccine component,,A type of 'has vaccine component' relation that is specifically for vaccine adjuvant component,Asiyah Yu Lin|Oliver He,,,,
-VO:0000016,has vaccine conjugate protein,Object property,has vaccine component,,A type of 'has vaccine component' relation that specifies a vaccine conjugate protein for a specific vaccine,,,,,
-VO:0000538,has vaccine preservative,Object property,has vaccine component,,A 'has vaccine component' relation that is specifically used for vaccine preservative,Asiyah Yu Lin|Oliver He,,,,
-VO:0000530,has vaccine vector,Object property,has vaccine component,,A type of 'has vaccine component' relation that is specifically for vaccine vector component,Asiyah Yu Lin|Oliver He,,,,recombinant vaccine vector
-VO:0000138,has bacterial vaccine vector,Object property,has vaccine vector,,A type of 'has vaccine vector' relation that specifies a bacterial vaccine vector,Oliver He,,,,Bacteria
-VO:0000281,has viral vaccine vector,Object property,has vaccine vector,,A type of 'has vaccine vector' that is specifically for viral vaccine vector,,,,,
-VO:0005561,blocks transmission of pathogen via vaccine,Object property,immunizes against pathogen|capable of blocking transmission (of life cycle),,A relation between a vaccine and a parasite where the vaccine immunizes against some parasite such that the parasite is blocked transmitting to additional hosts or vectors.,,,,,
-VO:0005481,capable of blocking transmission (of life cycle),Object property,,,A relation between a material entity  and a parasite where the material entity causes some process against some parasite such that transmitting to additional hosts or vectors.,,,,,
-VO:0003128,has boost vaccine,Object property,,,An object property that represents a relation between a vaccine with a prime-boost schedule and a vaccine used for boost.,Oliver He,,,vaccine,vaccine
-VO:0001039,has gene mutation,Object property,,,An object property that represents an organism has a mutation of a specific gene from the organism genome.,Oliver He,,,,
-VO:0005377,has molecular receptor,Object property,,,An object property that represents a relation between a material entity and a molecular entitiy that serves as the molecular receptor to the material entity.,Oliver He,,A vaccine adjuvant T-vant has molecular receptor of TLR4. Reference: https://vac.niaid.nih.gov/view?id=61.,,
-VO:0003127,has prime vaccine,Object property,,,An object property that represents a relation between a vaccine with a prime-boost schedule and a vaccine used for priming.,Oliver He,,,,
-VO:0000531,has vaccine allergen,Object property,,,An object property that specifies a relation between a vaccine and a vaccine allergen,Oliver He,,,,
-VO:0000524,has vaccine antigen,Object property,,,An object property that specifies a vaccine antigen,Asiyah Yu Lin|Oliver He,"This relation only works for those vaccine antigen that is physically part of a vaccine preparation. It does not include those antigens that are not part of vaccine. For example, a protein antigen expressed in a DNA vaccine is not a part of vaccine pe ser. In this case, the vaccine expresses the protein, but the gene is part of the vaccine, not the protein. For the case, we can use the relation 'DNA vaccine expresses protein antigen' under the relation 'expresses'. ",,,
-VO:0000520,has vaccine component,Object property,,,An object property that defines a relation between a vaccine and its component,Asiyah Yu Lin|Oliver He,,,vaccine,
-VO:0000270,has vaccine contraindication,Object property,,,A relation that specifies contraindication of a vaccine.,Oliver He,This relation may be replaced by has_vaccine_allergen. We need to determine if any vaccine contraindicator is not a vaccine allergen.,,,
+ID,LABEL,Type,Parent,alternative label,definition,term editor,editor note,example of usage,domain,range,term tracker item
+ID,A rdfs:label,TYPE,SP %  SPLIT=|,A alternative label SPLIT=|,A definition SPLIT=|,A term editor SPLIT=|,A editor note SPLIT=|,A example of usage SPLIT=|,DOMAIN,RANGE,A term tracker item SPLIT=|
+VO:0000608,DNA vaccine expresses protein antigen,Object property,expresses,,An 'expresses' relation that specifies a relation between a DNA vaccine and a  protein antigen to be expressed by the DNA vaccine. ,Oliver He,,,,,
+VO:0000894,has subunit vaccine protective antigen,Object property,has subunit vaccine antigen,,A 'has subunit vaccine antigen' relation that indicates the antigen is protective.,Oliver He,,,,,
+VO:0000525,has subunit vaccine antigen,Object property,has vaccine antigen,,A type of 'has vaccine antigen' relation that is specifically for vaccine protective protein antigen used in subunit vaccine development,Asiyah Yu Lin|Oliver He,,,,,
+VO:0000527,has vaccine protective antigen,Object property,has vaccine antigen,,A type of 'has vaccine antigen' relation that is specifically for vaccine protective antigen component,Asiyah Yu Lin|Oliver He,,,,,
+VO:0000476,has DNA vaccine antigen gene,Object property,has vaccine component,,"A 'has vaccine component' relation that specifies a gene inserted to DNA vaccine plasmid for development of a particular DNA vaccine, and this gene encodes for a protein antigen. ",Oliver He,,,,,
+VO:0000369,has DNA vaccine plasmid,Object property,has vaccine component,,A 'has vaccine component' relation that specifies the plasmid used for development of a particular DNA vaccine. ,Oliver He,,,,,
+VO:0000529,has vaccine adjuvant,Object property,has vaccine component,,A type of 'has vaccine component' relation that is specifically for vaccine adjuvant component,Asiyah Yu Lin|Oliver He,,,,,
+VO:0000016,has vaccine conjugate protein,Object property,has vaccine component,,A type of 'has vaccine component' relation that specifies a vaccine conjugate protein for a specific vaccine,,,,,,
+VO:0000538,has vaccine preservative,Object property,has vaccine component,,A 'has vaccine component' relation that is specifically used for vaccine preservative,Asiyah Yu Lin|Oliver He,,,,,
+VO:0000530,has vaccine vector,Object property,has vaccine component,,A type of 'has vaccine component' relation that is specifically for vaccine vector component,Asiyah Yu Lin|Oliver He,,,,recombinant vaccine vector,
+VO:0000138,has bacterial vaccine vector,Object property,has vaccine vector,,A type of 'has vaccine vector' relation that specifies a bacterial vaccine vector,Oliver He,,,,Bacteria,
+VO:0000281,has viral vaccine vector,Object property,has vaccine vector,,A type of 'has vaccine vector' that is specifically for viral vaccine vector,,,,,,
+VO:0005561,blocks transmission of pathogen via vaccine,Object property,immunizes against pathogen|capable of blocking transmission (of life cycle),,A relation between a vaccine and a parasite where the vaccine immunizes against some parasite such that the parasite is blocked transmitting to additional hosts or vectors.,,,,,,https://github.com/vaccineontology/VO/issues/675
+VO:0005481,capable of blocking transmission (of life cycle),Object property,,,A relation between a material entity  and a parasite where the material entity causes some process against some parasite such that transmitting to additional hosts or vectors.,,,,,,
+VO:0003128,has boost vaccine,Object property,,,An object property that represents a relation between a vaccine with a prime-boost schedule and a vaccine used for boost.,Oliver He,,,vaccine,vaccine,
+VO:0001039,has gene mutation,Object property,,,An object property that represents an organism has a mutation of a specific gene from the organism genome.,Oliver He,,,,,
+VO:0005377,has molecular receptor,Object property,,,An object property that represents a relation between a material entity and a molecular entitiy that serves as the molecular receptor to the material entity.,Oliver He,,A vaccine adjuvant T-vant has molecular receptor of TLR4. Reference: https://vac.niaid.nih.gov/view?id=61.,,,
+VO:0003127,has prime vaccine,Object property,,,An object property that represents a relation between a vaccine with a prime-boost schedule and a vaccine used for priming.,Oliver He,,,,,
+VO:0000531,has vaccine allergen,Object property,,,An object property that specifies a relation between a vaccine and a vaccine allergen,Oliver He,,,,,
+VO:0000524,has vaccine antigen,Object property,,,An object property that specifies a vaccine antigen,Asiyah Yu Lin|Oliver He,"This relation only works for those vaccine antigen that is physically part of a vaccine preparation. It does not include those antigens that are not part of vaccine. For example, a protein antigen expressed in a DNA vaccine is not a part of vaccine pe ser. In this case, the vaccine expresses the protein, but the gene is part of the vaccine, not the protein. For the case, we can use the relation 'DNA vaccine expresses protein antigen' under the relation 'expresses'. ",,,,
+VO:0000520,has vaccine component,Object property,,,An object property that defines a relation between a vaccine and its component,Asiyah Yu Lin|Oliver He,,,vaccine,,
+VO:0000270,has vaccine contraindication,Object property,,,A relation that specifies contraindication of a vaccine.,Oliver He,This relation may be replaced by has_vaccine_allergen. We need to determine if any vaccine contraindicator is not a vaccine allergen.,,,,
 VO:0000818,has vaccine virmugen,Object property,,,An object property that specifies a relation between a vaccine and a vaccine virmugen. ,Oliver He,"This is a shortcut relation.
 Domain: vaccine
 Range: a gene
 
 Shortcut:
 is_specified_output_of some 
-('preparation of gene mutant vaccine' and (has_specified_input some gene))",,,
-VO:0000553,has vaccinee,Object property,,,An object property that specifies a relation between a vaccine and its vaccinee,,,,vaccine,
+('preparation of gene mutant vaccine' and (has_specified_input some gene))",,,,
+VO:0000553,has vaccinee,Object property,,,An object property that specifies a relation between a vaccine and its vaccinee,,,,vaccine,,
 VO:0001011,immunizes against disease,Object property,,immunization against disease|vaccine immunization against disease,"A shortcut relation that equals to:
 'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine host role' and (role_of some 'organism' and has_disposition some disease)))))))).
 The domain of this relation is a vaccine.
-The range of this relation is a disease.",Asiyah Yu Lin|Oliver He,,,vaccine,disease
-VO:0004909,immunizes against disease process,Object property,,,A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.,Oliver He,,,,
+The range of this relation is a disease.",Asiyah Yu Lin|Oliver He,,,vaccine,disease,
+VO:0004909,immunizes against disease process,Object property,,,A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.,Oliver He,,,,,
 VO:0003355,immunizes against pathogen,Object property,,immunization against pathogen|vaccine immunization against pathogen|immunizes against microbe,"A shortcut relation that equals to:
 processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some ('immunization target role' and (role_of some 'pathogen'))))))))
 
 The domain of this relation is a vaccine.
 The range of this relation is a pathogen (a bacterium, a virus, a fungus, and a parasite)
-Ranges: organism and 'has role' some 'pathogen role'",Oliver He,,,vaccine,'organism' and 'has role' some 'pathogen role'
+Ranges: organism and 'has role' some 'pathogen role'",Oliver He,,,vaccine,'organism' and 'has role' some 'pathogen role',https://github.com/vaccineontology/VO/issues/675
 VO:0001243,immunizes host,Object property,,immunization for host|vaccine immunization for host,"A shortcut relation that equals to:
 'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine host role' and (role_of some 'organism')))))))).
 The domain of this relation is a vaccine.
-The range of this relation is a organism.",Asiyah Yu Lin|Oliver He,,,vaccine,organism
-VO:0000462,induced by vaccination of,Object property,,,An object property that specifies a process that is induced by vaccination of a vaccine,Oliver He,,,,
-VO:0005312,induces immune profile,Object property,,,An object property that represents a relation between a material entity (such as vaccine or vaccine adjuvant) and an immune profile where the material entity can induce the immune profile in a host.,Oliver He|Amogh Madireddi,,,,
+The range of this relation is a organism.",Asiyah Yu Lin|Oliver He,,,vaccine,organism,
+VO:0000462,induced by vaccination of,Object property,,,An object property that specifies a process that is induced by vaccination of a vaccine,Oliver He,,,,,
+VO:0005312,induces immune profile,Object property,,,An object property that represents a relation between a material entity (such as vaccine or vaccine adjuvant) and an immune profile where the material entity can induce the immune profile in a host.,Oliver He|Amogh Madireddi,,,,,
 VO:0000445,infection_of,Object property,,,A relation between a disorder and an infectious pathogen.,Oliver He|Allen Xiang|Melanie Courtot|Bjoern Peters|Alan Ruttenburg,"The relation 'infection_of' is introduced to represent an infection caused by an infectious pathogen. A pathogen infection is a disorder. Since the number of pathogens is large, there are numerous infections. To make the description of a specific infection simple, the shortcut term 'infection_of' is defined: 
-infection_of X = infection and has_part some (organism X and has_disposition some infectious disposition)",,,
-VO:0000908,is_distributed_by,Object property,,,"A relation that specifies a company that distributes a product (e.g., vaccine). The company is very likely not the manufacturer of the product.",Oliver He|Allen Xiang,,,,
-VO:0005242,up-expressed as immune signature of,Object property,,,An object property that represents a relation between a material entity and biological process,Anthony Huffman|Oliver He,,,material entity,process
-VO:0000547,vaccinated in route,Object property,,,An object property that specifies a relation between a vaccine and a vaccinate route,,,,vaccine,route of administration
-VO:0005562,vaccine immunity response transferrable to organism,Object property,,,"A relation between a vaccine X and organism Y where the vaccine X generates an immune response in a vaccinated organism and the immune product (e.g., antibody) can be transferred to the organism Y",,,,,
-VO:0000799,vaccine organism has mutation,Object property,,,"An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. ",Oliver He,,,,
-VO:0000537,vaccine organism secretes,Object property,,,"An object property that indicates a secretion of a material (e.g., protein) from a vaccine organism.",Oliver He,,,vaccine,
+infection_of X = infection and has_part some (organism X and has_disposition some infectious disposition)",,,,
+VO:0000908,is_distributed_by,Object property,,,"A relation that specifies a company that distributes a product (e.g., vaccine). The company is very likely not the manufacturer of the product.",Oliver He|Allen Xiang,,,,,
+VO:0005242,up-expressed as immune signature of,Object property,,,An object property that represents a relation between a material entity and biological process,Anthony Huffman|Oliver He,,,material entity,process,
+VO:0000547,vaccinated in route,Object property,,,An object property that specifies a relation between a vaccine and a vaccinate route,,,,vaccine,route of administration,
+VO:0005562,vaccine immunity response transferrable to organism,Object property,,,"A relation between a vaccine X and organism Y where the vaccine X generates an immune response in a vaccinated organism and the immune product (e.g., antibody) can be transferred to the organism Y",,,,,,
+VO:0000799,vaccine organism has mutation,Object property,,,"An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. ",Oliver He,,,,,
+VO:0000537,vaccine organism secretes,Object property,,,"An object property that indicates a secretion of a material (e.g., protein) from a vaccine organism.",Oliver He,,,vaccine,,

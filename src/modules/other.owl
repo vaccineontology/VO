@@ -53,6 +53,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003198 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003198"/>
@@ -2392,6 +2398,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000117> Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117> ZX</obo:IAO_0000117>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine host role</rdfs:label>
     </owl:Class>
@@ -2927,6 +2934,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000116>placeholder, will send new term requst to DOID</obo:IAO_0000116>
         <obo:IAO_0000117> Xingxian Li</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>HPV associated cancer</rdfs:label>
     </owl:Class>
@@ -2939,6 +2947,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000586"/>
         <obo:IAO_0000115>An infection that has as part organisms of the human papillomavirus (HPV).</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>HPV infection</rdfs:label>
     </owl:Class>
@@ -2951,6 +2960,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110034"/>
         <obo:IAO_0000115>An antigen that is expressed by the tumor cells. The antigen could be only present on the tumor cells or overexpressed on the tumor cells.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>tumor antigen</rdfs:label>
     </owl:Class>
