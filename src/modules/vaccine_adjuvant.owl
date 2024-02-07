@@ -5000,6 +5000,7 @@ https://clinicaltrials.gov/ct2/show/NCT02464163</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <obo:IAO_0000115>A vaccine adjuvant which is an oligonucleotide.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <rdfs:label>oligonucleotide vaccine adjuvant</rdfs:label>
     </owl:Class>
@@ -5077,6 +5078,34 @@ N/A</obo:IAO_0000116>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/667</obo:IAO_0000233>
         <obo:VO_0005328>91</obo:VO_0005328>
         <rdfs:label>S-540956 vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A vaccine adjuvant which is a small molecule adjuvant that is able to induce a mixed Th1/Th2 response and active innate immunity. </obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Small molecule
+Mechanism of Action: Activation of innate immunity
+Immune profile induced: Mixed Th1/Th2
+
+Route of immunization: IM, ID
+Point of Contact: Ofer Levy, Precision Vaccines Program at Boston Children&apos;s Hospital</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000117>Ofer Levy</obo:IAO_0000117>
+        <obo:IAO_0000118>Precision Vaccines Program (PVP)-057</obo:IAO_0000118>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/676</obo:IAO_0000233>
+        <obo:VO_0005328>86</obo:VO_0005328>
+        <rdfs:label>precision vaccines program-057 vaccine adjuvant</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
