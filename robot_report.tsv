@@ -96,6 +96,8 @@ WARN	annotation_whitespace	RO:0002093	rdfs:comment	X ends_during Y iff: ((start(
 WARN	annotation_whitespace	RO:0002161	IAO:0000425	Class: ?X DisjointWith: RO_0002162 some ?Y 
 WARN	annotation_whitespace	VO:0000031	IAO:0000115	A vaccine for active immunization to prevent invasive disease caused by Neisseria meningitidis serogroups C and Y and Haemophilus influenzae type b. MENHIBRIX is approved for use in children 6 weeks of age through 18 months of age. 
 WARN	annotation_whitespace	VO:0000035	IAO:0000115	"a vaccinia virus vaccine that is a freeze-dried calf lymph smallpox vaccine, specifically, Dryvax is a live-virus preparation of vaccinia prepared from calf lymph. "
+WARN	annotation_whitespace	VO:0000048	IAO:0000117	 YL
+WARN	annotation_whitespace	VO:0000048	IAO:0000117	 ZX
 WARN	annotation_whitespace	VO:0000069	IAO:0000115	"A Measles-Mumps-Rubella vaccine that is live attenuated and manufactured by Merck & Co, Inc. "
 WARN	annotation_whitespace	VO:0000070	IAO:0000115	A Measles-Mumps vaccine that is manufactured by Merck and used for human. 
 WARN	annotation_whitespace	VO:0000079	IAO:0000115	an influenza vaccine that is similar to Fluzone but has high dose. 
@@ -103,37 +105,55 @@ WARN	annotation_whitespace	VO:0000091	IAO:0000115	"A Measles-Mumps-Rubella-Veric
 WARN	annotation_whitespace	VO:0000137	IAO:0000115	a vaccine role that indicates the vaccine being a combination vaccine. 
 WARN	annotation_whitespace	VO:0000145	IAO:0000115	a vaccine component role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. 
 WARN	annotation_whitespace	VO:0000147	IAO:0000115	an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. 
+WARN	annotation_whitespace	VO:0000151	IAO:0000117	 YL
 WARN	annotation_whitespace	VO:0000154	IAO:0000115	A Brucella abortus gene that has the name sodC and comes from strain 2308. 
 WARN	annotation_whitespace	VO:0000166	IAO:0000115	a vaccine vector that uses a live bacterium as the vector 
 WARN	annotation_whitespace	VO:0000194	IAO:0000115	a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. 
 WARN	annotation_whitespace	VO:0000207	IAO:0000115	A vaccine contraindication is a contraindication that increases the risks of a vaccination. 
 WARN	annotation_whitespace	VO:0000208	IAO:0000115	"a vaccine role that is not licensed or in clinical trial; instead, it has been experimently approved to induce protection or treatment effect in vivo in at least an experimental animal model. "
 WARN	annotation_whitespace	VO:0000211	IAO:0000115	an organismal quality of a whole organism vaccine where the whole organism is inactivated/killed and lacks the capability of replication. 
+WARN	annotation_whitespace	VO:0000245	IAO:0000117	 MC
+WARN	annotation_whitespace	VO:0000278	IAO:0000117	 MC
+WARN	annotation_whitespace	VO:0000278	IAO:0000117	 XZ
+WARN	annotation_whitespace	VO:0000278	IAO:0000117	 and AR
 WARN	annotation_whitespace	VO:0000310	IAO:0000115	a vaccine additive that stabilizes the vaccine emulsification manufacturing process and makes emulsion of the vaccine easier. 
 WARN	annotation_whitespace	VO:0000310	IAO:0000119	WEB: http://www.ncbi.nlm.nih.gov/pubmed/16337664 
 WARN	annotation_whitespace	VO:0000310	rdfs:comment	"Emulsifiers help bind ingredients together and keep them from separating, most commonly with oil and water. An emulsifier is also a surfactant that reduces the surface tension of a liquid and results in an easier, smoother spread. Reference: http://www.wisegeek.org/what-is-polysorbate-80.htm "
+WARN	annotation_whitespace	VO:0000330	IAO:0000117	 MC
 WARN	annotation_whitespace	VO:0000335	IAO:0000115	A vaccination site that is used for injection of a vaccine. 
 WARN	annotation_whitespace	VO:0000369	IAO:0000115	A 'has vaccine component' relation that specifies the plasmid used for development of a particular DNA vaccine. 
 WARN	annotation_whitespace	VO:0000375	IAO:0000112	'Mycobacterium avium relA mutant vaccine' includes a gene mutation of relA from virulent Mycobacterium avium. 
 WARN	annotation_whitespace	VO:0000384	IAO:0000119	"PMID:18472194
 "
+WARN	annotation_whitespace	VO:0000395	IAO:0000117	 YL
+WARN	annotation_whitespace	VO:0000395	IAO:0000117	 ZX
 WARN	annotation_whitespace	VO:0000400	IAO:0000115	a vaccine that contains one vaccine for priming and at least one other vaccine for boosting. 
 WARN	annotation_whitespace	VO:0000401	IAO:0000115	a vaccine that contains one DNA vaccine for priming and at least one other vaccine for boosting. 
+WARN	annotation_whitespace	VO:0000426	IAO:0000117	 MC
 WARN	annotation_whitespace	VO:0000435	IAO:0000115	a vaccine component that is composed of a plasmid and used in the generation of a DNA vaccine. 
 WARN	annotation_whitespace	VO:0000441	IAO:0000115	"vaccine candidate role is the role of a material entity in an investigation, which has not been experimentally or clinically verified to induce a protection or treatment in vivo in a host organism. "
+WARN	annotation_whitespace	VO:0000441	IAO:0000117	 YH
 WARN	annotation_whitespace	VO:0000465	IAO:0000115	a S. aureus vaccine that uses bacterin as the protective antigen. 
 WARN	annotation_whitespace	VO:0000467	IAO:0000115	a S. aureus vaccine that uses the bacterial phage lysate as the protective antigen. 
 WARN	annotation_whitespace	VO:0000469	IAO:0000115	a bacterial vaccine that uses bacterin from a bacterial strain isolated from a herd with a purpose to generate hard-specific vaccine. 
 WARN	annotation_whitespace	VO:0000470	IAO:0000115	an autogenous bacterin vaccine that is prepared for poultry use. 
 WARN	annotation_whitespace	VO:0000476	IAO:0000115	"A 'has vaccine component' relation that specifies a gene inserted to DNA vaccine plasmid for development of a particular DNA vaccine, and this gene encodes for a protein antigen. "
 WARN	annotation_whitespace	VO:0000483	IAO:0000115	A subunit vaccine that is made using a part of whole organism as subunit for vaccine development. 
+WARN	annotation_whitespace	VO:0000499	IAO:0000117	 XZ
 WARN	annotation_whitespace	VO:0000504	IAO:0000115	a vaccine role that indicates the vaccine being a whole organism vaccine. 
 WARN	annotation_whitespace	VO:0000512	IAO:0000115	a viral vaccine against a disease caused by a virus belong to Poxviridae. 
 WARN	annotation_whitespace	VO:0000519	rdfs:seeAlso	GenBank: AC020633; Protein RefSeq: NP_001090 
 WARN	annotation_whitespace	VO:0000524	IAO:0000116	"This relation only works for those vaccine antigen that is physically part of a vaccine preparation. It does not include those antigens that are not part of vaccine. For example, a protein antigen expressed in a DNA vaccine is not a part of vaccine pe ser. In this case, the vaccine expresses the protein, but the gene is part of the vaccine, not the protein. For the case, we can use the relation 'DNA vaccine expresses protein antigen' under the relation 'expresses'. "
 WARN	annotation_whitespace	VO:0000532	IAO:0000115	A route of administration that is loacted in the hypodermis (subcutaneous tissue) region. 
-WARN	annotation_whitespace	VO:0000560	IAO:0000115	A toxin (from Ancient Greek: œÑŒøŒæŒπŒ∫œåŒΩ toxikon) is a poisonous substance produced within living cells or organisms; man-made substances created by artificial processes are thus excluded. 
+WARN	annotation_whitespace	VO:0000540	IAO:0000117	 MC
+WARN	annotation_whitespace	VO:0000560	IAO:0000115	A toxin (from Ancient Greek: ≈ì√ë≈í√∏≈í√¶≈íœÄ≈í‚à´≈ì√•≈íŒ© toxikon) is a poisonous substance produced within living cells or organisms; man-made substances created by artificial processes are thus excluded. 
 WARN	annotation_whitespace	VO:0000574	IAO:0000115	"A path that is located in gross anatomical part of an organism (e.g., human) and is used for administering a vaccine, a drug, fluid, poison, or other substance into the body. "
+WARN	annotation_whitespace	VO:0000575	IAO:0000117	 AR
+WARN	annotation_whitespace	VO:0000575	IAO:0000117	 BP
+WARN	annotation_whitespace	VO:0000575	IAO:0000117	 LC
+WARN	annotation_whitespace	VO:0000575	IAO:0000117	 MC
+WARN	annotation_whitespace	VO:0000575	IAO:0000117	 and ZX
+WARN	annotation_whitespace	VO:0000585	IAO:0000117	 XZ
 WARN	annotation_whitespace	VO:0000599	IAO:0000116	"a vaccine component that uses a microbe (e.g., bacterium, virus, and parasitic organism) as a vector that is inserted with the DNA(s) of a heterologous protective antigen(s) to generate a \""recombinant vector vaccine\"". The microorganism used as a vector generally has a stable non or low pathogenic phenotype for the species the vaccine is intended for. "
 WARN	annotation_whitespace	VO:0000608	IAO:0000115	An 'expresses' relation that specifies a relation between a DNA vaccine and a  protein antigen to be expressed by the DNA vaccine. 
 WARN	annotation_whitespace	VO:0000615	IAO:0000115	A role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. 
@@ -158,6 +178,13 @@ WARN	annotation_whitespace	VO:0000794	IAO:0000115	A Brucella abortus gene that h
 WARN	annotation_whitespace	VO:0000799	IAO:0000115	"An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. "
 WARN	annotation_whitespace	VO:0000807	IAO:0000115	a vaccine role that indicates the vaccine being a toxoid vaccine. 
 WARN	annotation_whitespace	VO:0000818	IAO:0000115	An object property that specifies a relation between a vaccine and a vaccine virmugen. 
+WARN	annotation_whitespace	VO:0000910	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0000912	IAO:0000117	 MC
+WARN	annotation_whitespace	VO:0000912	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0000913	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0000915	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0000916	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0000917	IAO:0000117	 ZX
 WARN	annotation_whitespace	VO:0000922	IAO:0000115	a vaccine stablizer that is based on monosodium glutamate. 
 WARN	annotation_whitespace	VO:0000929	rdfs:comment	"Potential Acute Health Effects: Slightly hazardous in case of skin contact (irritant), of eye contact (irritant), of ingestion, of inhalation. Reference: http://www.sciencelab.com/msds.php?msdsId=9926640 "
 WARN	annotation_whitespace	VO:0000930	IAO:0000119	WEB: http://www.wisegeek.org/what-is-polysorbate-80.htm 
@@ -180,10 +207,26 @@ WARN	annotation_whitespace	VO:0001060	IAO:0000118	NDV vaccine vector
 WARN	annotation_whitespace	VO:0001068	IAO:0000115	A Herpes simplex virus vaccine vector that uses a virus type 1 strain 
 WARN	annotation_whitespace	VO:0001082	IAO:0000115	"an adenovirus vaccine vector that contains a deletion of the gp64 gene. As a result of the deletion, this vector is unable to propagate infection from cell to cell, and this defect results from both a severe reduction in the production of budded virions and the absence of GP64 on virions. "
 WARN	annotation_whitespace	VO:0001084	IAO:0000115	a viral vaccine vector that uses a baculovirus as the vector 
+WARN	annotation_whitespace	VO:0001089	IAO:0000117	 XZ
+WARN	annotation_whitespace	VO:0001090	IAO:0000117	  XZ
+WARN	annotation_whitespace	VO:0001094	IAO:0000117	 XZ
+WARN	annotation_whitespace	VO:0001098	IAO:0000117	 XZ
+WARN	annotation_whitespace	VO:0001099	IAO:0000117	 XZ
+WARN	annotation_whitespace	VO:0001100	IAO:0000117	 XZ
+WARN	annotation_whitespace	VO:0001101	IAO:0000117	 XZ
 WARN	annotation_whitespace	VO:0001107	IAO:0000115	a vaccinia virus vector that uses the Modified Vaccinia Ankara (MVA) virus. 
 WARN	annotation_whitespace	VO:0001109	IAO:0000115	a vaccinia virus vector that uses the MVTT vaccine strain as the vector. MVTT is an attenuated vaccine strain. 
 WARN	annotation_whitespace	VO:0001111	IAO:0000115	A poxvirus vaccine vector that uses an attenuated lumpy skin disease virus as the vector.  
 WARN	annotation_whitespace	VO:0001128	IAO:0000115	a canarypox vaccine vector that uses an attenuated canarypox virus strain ALVAC. The ALVAC vector is a canarypox virus clone obtained after four rounds of plaque purification of a strain from a vaccine for canaries. 
+WARN	annotation_whitespace	VO:0001139	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001145	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001148	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001149	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001150	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001160	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001161	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001162	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001163	IAO:0000117	 ZX
 WARN	annotation_whitespace	VO:0001186	IAO:0000119	"Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. "
 WARN	annotation_whitespace	VO:0001188	IAO:0000115	A measurement datum that represents a vaccine strain. Different strains can be represented using distinct digital numbers. 
 WARN	annotation_whitespace	VO:0001188	IAO:0000119	"Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. "
@@ -221,11 +264,303 @@ WARN	annotation_whitespace	VO:0001220	rdfs:comment	"This term has an equivalent 
 
 However, running the reasoner takes time. As a way to reducing the time, I have tentatively made tern two subclasses instead of equivalent class. If needed, the equivalent class can be used in SPARQL or converted back in VO. --Oliver
 "
+WARN	annotation_whitespace	VO:0001232	IAO:0000117	 ZX
 WARN	annotation_whitespace	VO:0001245	IAO:0000115	"SYNFLORIX is indicated for active immunization of infants and children from 6 weeks up to 5 years of age against Streptococcus pneumoniae serotypes 1, 4, 5, 6B, 7F, 9V, 14, 18C, 19F and 23F and invasive disease caused by these serotypes (including sepsis, meningitis, bacteraemic pneumonia, pleural empyema and bacteraemia). "
+WARN	annotation_whitespace	VO:0001274	IAO:0000117	 Jie Zheng
+WARN	annotation_whitespace	VO:0001274	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001275	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001281	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001282	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001283	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001284	IAO:0000117	 ZX
+WARN	annotation_whitespace	VO:0001361	IAO:0000117	 YL
+WARN	annotation_whitespace	VO:0001374	IAO:0000117	 MC
+WARN	annotation_whitespace	VO:0001374	IAO:0000117	 YL
 WARN	annotation_whitespace	VO:0001380	IAO:0000117	Oliver He 
+WARN	annotation_whitespace	VO:0001381	IAO:0000117	 MC
+WARN	annotation_whitespace	VO:0001381	IAO:0000117	 YL
+WARN	annotation_whitespace	VO:0001383	IAO:0000117	 MC
+WARN	annotation_whitespace	VO:0001383	IAO:0000117	 YL
+WARN	annotation_whitespace	VO:0001384	IAO:0000117	 RR
 WARN	annotation_whitespace	VO:0001395	IAO:0000115	a vaccine that contains two or more individual vaccines. 
+WARN	annotation_whitespace	VO:0001400	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001402	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001403	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001404	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001405	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001406	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001407	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001408	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001409	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001410	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001411	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001412	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001413	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001414	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001415	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001416	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001417	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001418	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001419	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001420	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001421	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001422	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001423	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001424	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001425	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001426	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001427	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001428	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001429	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001430	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001431	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001432	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001433	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001434	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001435	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001436	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001437	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001438	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001439	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001440	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001441	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001442	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001443	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001444	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001445	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001446	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001447	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001448	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001449	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001450	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001451	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001452	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001453	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0001454	IAO:0000117	 RR
 WARN	annotation_whitespace	VO:0002115	IAO:0000115	A horse Encephalomyelitis-Influenza-West Nile Virus vaccine that is inactivated and manufactured by Wyeth Pharmaceuticals Inc. 
 WARN	annotation_whitespace	VO:0002483	IAO:0000115	"A horse vaccine that protects against EEE, VEE, WEE, influenza virius infection, and West Nile virus infection. "
+WARN	annotation_whitespace	VO:0002503	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0002504	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0002515	IAO:0000117	 RR
+WARN	annotation_whitespace	VO:0002516	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002517	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002518	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002519	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002521	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002522	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002523	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002524	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002525	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002526	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002528	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002529	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002530	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002531	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002532	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002533	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002534	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002535	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002536	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002538	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002540	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002541	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002542	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002543	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002545	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002546	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002547	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002548	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002549	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002550	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002551	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002553	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002554	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002555	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002556	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002557	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002558	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002559	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002560	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002561	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002562	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002563	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002564	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002565	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002566	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002567	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002568	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002569	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002570	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002571	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002572	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002573	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002574	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002575	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002576	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002577	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002578	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002579	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002580	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002583	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002584	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002585	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002586	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002587	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002588	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002589	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002590	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002591	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002592	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002593	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002594	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002595	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002596	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002597	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002598	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002599	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002600	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002601	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002602	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002603	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002604	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002605	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002606	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002607	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002608	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002609	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002610	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002612	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002613	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002614	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002616	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002617	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002619	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002620	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002621	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002622	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002625	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002626	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002627	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002628	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002629	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002630	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002631	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002632	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002633	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002634	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002635	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002637	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002639	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002641	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002642	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002643	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002644	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002645	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002646	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002648	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002650	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002651	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002652	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002653	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002654	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002655	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002656	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002657	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002658	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002659	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002660	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002661	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002662	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002663	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002664	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002665	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002666	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002667	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002668	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002672	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002674	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002675	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002677	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002678	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002680	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002682	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002684	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002685	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002686	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002687	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002688	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002689	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002690	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002691	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002692	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002693	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002694	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002695	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002696	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002697	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002698	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002699	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002700	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002701	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002702	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002703	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002704	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002705	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002706	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002708	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002709	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002710	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002711	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002712	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002713	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002714	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002715	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002716	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002717	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002718	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002719	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002720	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002721	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002722	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002723	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002724	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002725	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002726	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002727	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002728	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002729	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002730	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002731	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002732	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002733	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002734	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002735	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002736	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002737	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002738	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002739	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002740	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002741	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002742	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002743	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002744	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002745	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002746	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002747	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002748	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002749	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002751	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002753	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002755	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002756	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002757	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002758	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002759	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002760	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002761	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002762	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002763	IAO:0000117	 Yongqun He
+WARN	annotation_whitespace	VO:0002765	IAO:0000117	 Yongqun He
 WARN	annotation_whitespace	VO:0003016	IAO:0000115	"A route of administration that located in the stomach, so that the material is taken into body through stomach directly. "
 WARN	annotation_whitespace	VO:0003023	IAO:0000115	A vaccine prepration process that mixes vaccine lyophilized powder and diluent liquid. The process forms a vaccine that can be used for administration. This term can also be considered as a child term of OBI term 'material combination'. 
 WARN	annotation_whitespace	VO:0003023	rdfs:comment	"A vaccine may include vaccine powder and solvent. When the two mix, we get a vaccine solution, which can be used to inject. Examples:
@@ -258,13 +593,29 @@ WARN	annotation_whitespace	VO:0004429	IAO:0000117	Oliver He
 WARN	annotation_whitespace	VO:0004430	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0004604	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0004739	IAO:0000117	Oliver He 
+WARN	annotation_whitespace	VO:0004913	IAO:0000117	 Oliver He
+WARN	annotation_whitespace	VO:0004921	IAO:0000117	 Anthony Huffman
+WARN	annotation_whitespace	VO:0004921	IAO:0000117	 Oliver He
+WARN	annotation_whitespace	VO:0004922	IAO:0000117	 Anthony Huffman
+WARN	annotation_whitespace	VO:0004922	IAO:0000117	 Oliver He
+WARN	annotation_whitespace	VO:0004923	IAO:0000117	 Anthony Huffman
+WARN	annotation_whitespace	VO:0004923	IAO:0000117	 Oliver He
+WARN	annotation_whitespace	VO:0004924	IAO:0000117	 Anthony Huffman
+WARN	annotation_whitespace	VO:0004924	IAO:0000117	 Oliver He
+WARN	annotation_whitespace	VO:0004925	IAO:0000117	 Anthony Huffman
+WARN	annotation_whitespace	VO:0004925	IAO:0000117	 Oliver He
 WARN	annotation_whitespace	VO:0005278	IAO:0000117	Oliver He 
+WARN	annotation_whitespace	VO:0005304	IAO:0000117	 Amogh Madireddi
+WARN	annotation_whitespace	VO:0005305	IAO:0000117	 Amogh Madireddi
+WARN	annotation_whitespace	VO:0005306	IAO:0000117	 Amogh Madireddi
+WARN	annotation_whitespace	VO:0005307	IAO:0000117	 Amogh Madireddi
 WARN	annotation_whitespace	VO:0006094	IAO:0000116	"Chemical Nature: Nucleic acid
 Mechanism of Action: TLR9 agonist
 Immune profile induced: Mixed Th1/Th2
 Route of immunization: IM, SQ
 Point of Contact: Nikolai Petrovsky, Vaxine LTD
 "
+WARN	annotation_whitespace	VO:0006105	IAO:0000115	A vaccine adjuvant which is a small molecule adjuvant that is able to induce a mixed Th1/Th2 response and active innate immunity. 
 WARN	annotation_whitespace	VO:0007186	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007187	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007188	IAO:0000117	Oliver He 
@@ -530,6 +881,7 @@ WARN	annotation_whitespace	VO:0007649	IAO:0000117	Oliver He
 WARN	annotation_whitespace	VO:0007650	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007651	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007652	IAO:0000117	Oliver He 
+WARN	annotation_whitespace	VO:0007653	IAO:0000117	 Xingxian Li
 WARN	annotation_whitespace	VO:0010735	IAO:0000115	A Measles-Mumps-Rubella-Vericella vaccine that is live attenuated and manufactured by GlaxoSmithKline Biologicals. 
 WARN	annotation_whitespace	VO:0011363	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0011364	IAO:0000117	Oliver He 
@@ -542,6 +894,7 @@ WARN	annotation_whitespace	VO:0011371	IAO:0000117	Oliver He
 WARN	annotation_whitespace	VO:0011373	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0011507	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0011510	IAO:0000117	Oliver He 
+WARN	annotation_whitespace	VO:0015978	IAO:0000117	 YH
 WARN	duplicate_exact_synonym	VO:0000436	IAO:0000118	pCIBLSOmp31
 WARN	duplicate_exact_synonym	VO:0001144	IAO:0000118	pCIBLSOmp31
 WARN	duplicate_exact_synonym	VO:0001017	IAO:0000118	Marek's; disease virus
@@ -781,6 +1134,8 @@ WARN	equivalent_class_axiom_no_genus	VO:0005496	VO:0001011	DOID:5041
 WARN	equivalent_class_axiom_no_genus	VO:0005497	VO:0001011	DOID:11934
 WARN	equivalent_class_axiom_no_genus	VO:0005498	VO:0001011	DOID:9261
 WARN	equivalent_class_axiom_no_genus	VO:0005499	VO:0001011	DOID:684
+WARN	equivalent_class_axiom_no_genus	VO:0007656	RO:0000085	VO:0000452
+WARN	equivalent_class_axiom_no_genus	VO:0007657	RO:0000085	VO:0000562
 WARN	equivalent_class_axiom_no_genus	VO:0012158	VO:0003355	NCBITaxon:5659
 WARN	equivalent_class_axiom_no_genus	VO:0012160	VO:0003355	NCBITaxon:5807
 WARN	equivalent_class_axiom_no_genus	VO:0012171	VO:0003355	NCBITaxon:5759
@@ -1012,7 +1367,6 @@ WARN	missing_definition	NCBITaxon:203692	IAO:0000115
 WARN	missing_definition	NCBITaxon:204722	IAO:0000115	
 WARN	missing_definition	NCBITaxon:205488	IAO:0000115	
 WARN	missing_definition	NCBITaxon:206351	IAO:0000115	
-WARN	missing_definition	NCBITaxon:2092	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2093	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2096	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2099	IAO:0000115	
@@ -1056,6 +1410,7 @@ WARN	missing_definition	NCBITaxon:2732541	IAO:0000115
 WARN	missing_definition	NCBITaxon:2732543	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2759	IAO:0000115	
 WARN	missing_definition	NCBITaxon:27592	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2790996	IAO:0000115	
 WARN	missing_definition	NCBITaxon:28115	IAO:0000115	
 WARN	missing_definition	NCBITaxon:28174	IAO:0000115	
 WARN	missing_definition	NCBITaxon:28211	IAO:0000115	
@@ -1064,6 +1419,7 @@ WARN	missing_definition	NCBITaxon:28344	IAO:0000115
 WARN	missing_definition	NCBITaxon:28450	IAO:0000115	
 WARN	missing_definition	NCBITaxon:286	IAO:0000115	
 WARN	missing_definition	NCBITaxon:287	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2895623	IAO:0000115	
 WARN	missing_definition	NCBITaxon:29176	IAO:0000115	
 WARN	missing_definition	NCBITaxon:29459	IAO:0000115	
 WARN	missing_definition	NCBITaxon:29461	IAO:0000115	
@@ -1323,6 +1679,9 @@ WARN	missing_definition	RO:0002092	IAO:0000115
 WARN	missing_definition	RO:0002093	IAO:0000115	
 WARN	missing_definition	RO:0002222	IAO:0000115	
 WARN	missing_definition	RO:0002502	IAO:0000115	
+WARN	missing_definition	RO:0004017	IAO:0000115	
+WARN	missing_definition	RO:0004019	IAO:0000115	
+WARN	missing_definition	RO:0004023	IAO:0000115	
 WARN	missing_definition	obo:UBPROP_0000001	IAO:0000115	
 WARN	missing_definition	obo:UBPROP_0000002	IAO:0000115	
 WARN	missing_definition	obo:UBPROP_0000003	IAO:0000115	
@@ -5112,7 +5471,6 @@ WARN	missing_definition	VO:0006088	IAO:0000115
 WARN	missing_definition	VO:0006089	IAO:0000115	
 WARN	missing_definition	VO:0006090	IAO:0000115	
 WARN	missing_definition	VO:0006091	IAO:0000115	
-WARN	missing_definition	VO:0006102	IAO:0000115	
 WARN	missing_definition	VO:0007005	IAO:0000115	
 WARN	missing_definition	VO:0007012	IAO:0000115	
 WARN	missing_definition	VO:0007113	IAO:0000115	
@@ -6352,6 +6710,7 @@ INFO	lowercase_definition	RO:0002314	IAO:0000115	q characteristic of part of w i
 INFO	lowercase_definition	RO:0002330	IAO:0000115	"holds between two entities when some genome-level process such as gene expression is involved. This includes transcriptional, spliceosomal events. These relations can be used between either macromolecule entities (such as regions of nucleic acid) or between their abstract informational counterparts."
 INFO	lowercase_definition	RO:0002350	IAO:0000115	is member of is a mereological relation between a item and a collection.
 INFO	lowercase_definition	RO:0002351	IAO:0000115	has member is a mereological relation between a collection and an item.
+INFO	lowercase_definition	RO:0002410	IAO:0000115	"relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause."
 INFO	lowercase_definition	RO:0002503	IAO:0000115	"q towards e2 if and only if q is a relational quality such that q inheres-in some e, and e != e2 and q is dependent on e2"
 INFO	lowercase_definition	RO:0002510	IAO:0000115	x is transcribed from y if and only if x is synthesized from template y
 INFO	lowercase_definition	RO:0002511	IAO:0000115	inverse of transcribed from
@@ -6447,7 +6806,6 @@ INFO	lowercase_definition	VO:0000498	IAO:0000115	"modification of adaptive immun
 INFO	lowercase_definition	VO:0000500	IAO:0000115	infection disorder prevention is a process that prevents a disorder that is the physical basis of an infectious disease.
 INFO	lowercase_definition	VO:0000504	IAO:0000115	a vaccine role that indicates the vaccine being a whole organism vaccine. 
 INFO	lowercase_definition	VO:0000506	IAO:0000115	an organism that is used as part of a vaccine
-INFO	lowercase_definition	VO:0000507	IAO:0000115	a Canada  licensed vaccine role that indicates the vaccine is for veterinary uses.
 INFO	lowercase_definition	VO:0000508	IAO:0000115	a diphtheria vaccine that uses diphtheria toxoid
 INFO	lowercase_definition	VO:0000512	IAO:0000115	a viral vaccine against a disease caused by a virus belong to Poxviridae. 
 INFO	lowercase_definition	VO:0000513	IAO:0000115	a Pox vaccine for Quail pox
@@ -6472,7 +6830,6 @@ INFO	lowercase_definition	VO:0000587	IAO:0000115	a bacterial vaccine against inf
 INFO	lowercase_definition	VO:0000590	IAO:0000115	vaccine preparation is a manufacturing process to produce a vaccine.
 INFO	lowercase_definition	VO:0000600	IAO:0000115	an orthopoxvirus vaccine vector that uses vaccinia virus as the vector
 INFO	lowercase_definition	VO:0000604	IAO:0000115	a bacterial vaccine against Mycoplasma bacterial infection
-INFO	lowercase_definition	VO:0000605	IAO:0000115	a Canada licensed vaccine role that indicates the vaccine is used for human
 INFO	lowercase_definition	VO:0000610	IAO:0000115	a vaccine vector that uses a virus as the vector.
 INFO	lowercase_definition	VO:0000611	IAO:0000115	bacterial vaccine that is used to protect against Haemophilus parasuis infection
 INFO	lowercase_definition	VO:0000612	IAO:0000115	a virulence of vaccine that shows a virulent pheontype of the organism as the major component of a vaccine. The virulent phenotype means that an vaccine organism is virulent and is able to cause a pathogenic phenotype in a host organism.
@@ -6509,7 +6866,6 @@ INFO	lowercase_definition	VO:0000802	IAO:0000115	"vaccine storage that is execut
 INFO	lowercase_definition	VO:0000803	IAO:0000115	vaccine storage that is executed in freezer under 0^C.
 INFO	lowercase_definition	VO:0000807	IAO:0000115	a vaccine role that indicates the vaccine being a toxoid vaccine. 
 INFO	lowercase_definition	VO:0000812	IAO:0000115	a licensed vaccine role that indicates the vaccine occurs in USA.
-INFO	lowercase_definition	VO:0000813	IAO:0000115	a cattle vaccine with license that is used in USA.
 INFO	lowercase_definition	VO:0000823	IAO:0000115	a bacterial vaccine against V. anguillarum infection
 INFO	lowercase_definition	VO:0000850	IAO:0000115	"a vaccine component that is added to the immunogen by the vaccine manufacturer for a specific purpose. Additives include adjuvants, preservatives and stablizers, as well as materials that are added to affect pH and isotonicity."
 INFO	lowercase_definition	VO:0000851	IAO:0000115	"vaccine preservative is an vaccine additive that is added to a vaccine formulation to prevent the growth of bacteria or fungi that inadvertently may be introduced into the vaccine during use.
@@ -6654,7 +7010,6 @@ INFO	lowercase_definition	VO:0001221	IAO:0000115	a B. abortus vaccine that uses 
 INFO	lowercase_definition	VO:0001230	IAO:0000115	a bacterial vaccine against Treponema pallidum infection
 INFO	lowercase_definition	VO:0001252	IAO:0000115	"is a bacterial toxin (usually an exotoxin) whose toxicity has been weakened or suppressed either by chemical (formalin) or heat treatment, while other properties, typically immunogenicity, are maintained."
 INFO	lowercase_definition	VO:0001255	IAO:0000115	a subunit vaccine that uses polysaccharide as protective antigen
-INFO	lowercase_definition	VO:0001274	IAO:0000115	a role of host that contains vaccine. It is a role that inheres in an organism that is the target of a vaccine administration (vaccination process).
 INFO	lowercase_definition	VO:0001346	IAO:0000115	a vaccine preservative that contains formaldehyde.
 INFO	lowercase_definition	VO:0001361	IAO:0000115	"a role that is inherenced in a gene that can be mutated in a virulent pathogen, leading to an attenuated strain serving as a live attenuated vaccine strain."
 INFO	lowercase_definition	VO:0001362	IAO:0000115	a vaccine that targets for allergy.
