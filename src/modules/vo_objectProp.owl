@@ -52,6 +52,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -446,6 +452,7 @@ Ranges: organism and &apos;has role&apos; some &apos;pathogen role&apos;</obo:IA
         <obo:IAO_0000118>immunization against pathogen</obo:IAO_0000118>
         <obo:IAO_0000118>immunizes against microbe</obo:IAO_0000118>
         <obo:IAO_0000118>vaccine immunization against pathogen</obo:IAO_0000118>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/675</obo:IAO_0000233>
         <rdfs:label>immunizes against pathogen</rdfs:label>
     </owl:ObjectProperty>
     
@@ -511,6 +518,7 @@ Ranges: organism and &apos;has role&apos; some &apos;pathogen role&apos;</obo:IA
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005481"/>
         <obo:IAO_0000115>A relation between a vaccine and a parasite where the vaccine immunizes against some parasite such that the parasite is blocked transmitting to additional hosts or vectors.</obo:IAO_0000115>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/675</obo:IAO_0000233>
         <rdfs:label>blocks transmission of pathogen via vaccine</rdfs:label>
     </owl:ObjectProperty>
     
