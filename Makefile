@@ -101,7 +101,7 @@ CVO/cvo.owl: vo.owl src/views/cvo.txt | build/robot.jar
 	--copy-ontology-annotations true \
 	annotate \
 	--ontology-iri "$(OBO)/vo/cvo.owl" \
-	--version-iri "$(OBO)/vo/$(TODAY)/cvo.owl" \
+	--version-iri "$(OBO)/vo/releases/$(TODAY)/cvo.owl" \
 	--output $@
 .PHONY: views
 views: CVO/cvo.owl
@@ -118,7 +118,7 @@ build/vo-merged.owl: src/VO.owl | build/robot.jar build
 	--input $< \
 	annotate \
 	--ontology-iri "$(OBO)/vo/vo-merged.owl" \
-	--version-iri "$(OBO)/vo/$(TODAY)/vo-merged.owl" \
+	--version-iri "$(OBO)/vo/releases/$(TODAY)/vo-merged.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output build/vo-merged.tmp.owl
 	sed '/<owl:imports/d' build/vo-merged.tmp.owl > $@
@@ -130,7 +130,7 @@ vo.owl: build/vo-merged.owl
 	--reasoner ELK \
 	annotate \
 	--ontology-iri "$(OBO)/vo.owl" \
-	--version-iri "$(OBO)/vo/$(TODAY)/vo.owl" \
+	--version-iri "$(OBO)/vo/releases/$(TODAY)/vo.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@
 
