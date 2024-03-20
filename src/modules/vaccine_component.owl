@@ -671,17 +671,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000179">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2492,7 +2481,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000930">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000310"/>
-        <obo:IAO_0000115>a vaccine emulsifier that uses polysorbate 80, also known as polyoxyethylene sorbitan monooleate or Tween‚Ñ¢ 80.</obo:IAO_0000115>
+        <obo:IAO_0000115>a vaccine emulsifier that uses polysorbate 80, also known as polyoxyethylene sorbitan monooleate or Tween‚Äö√ë¬¢ 80.</obo:IAO_0000115>
         <obo:IAO_0000117>YH,YL</obo:IAO_0000117>
         <obo:IAO_0000118>Tween 80 vaccine emulsifier</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://www.wisegeek.org/what-is-polysorbate-80.htm </obo:IAO_0000119>
@@ -6433,7 +6422,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000435"/>
-        <obo:IAO_0000115>A DNA vaccine plasmid vector that has the plasmid label VCL-1632.  This plasmid contains a CMV promoter, kanamycin resistance gene, the murine Œ∫ constant region sequence, a translational enhancer, the murine IgG2a heavy-chain sequence, and a translation terminator.  This plasmid is derived from pUC-18.</obo:IAO_0000115>
+        <obo:IAO_0000115>A DNA vaccine plasmid vector that has the plasmid label VCL-1632.  This plasmid contains a CMV promoter, kanamycin resistance gene, the murine ≈í‚à´ constant region sequence, a translational enhancer, the murine IgG2a heavy-chain sequence, and a translation terminator.  This plasmid is derived from pUC-18.</obo:IAO_0000115>
         <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
         <rdfs:label>VCL-1632 DNA vaccine plasmid</rdfs:label>
@@ -6958,7 +6947,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000435"/>
-        <obo:IAO_0000115>A DNA vaccine plasmid vector that has the plasmid label proVAX.  This plasmid contains a CMV promoter and a hCG-Œ≤ leader sequence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A DNA vaccine plasmid vector that has the plasmid label proVAX.  This plasmid contains a CMV promoter and a hCG-≈í‚â§ leader sequence.</obo:IAO_0000115>
         <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
         <rdfs:label>proVAX DNA vaccine plasmid</rdfs:label>
