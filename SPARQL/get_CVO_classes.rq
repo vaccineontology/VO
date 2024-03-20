@@ -1,0 +1,11 @@
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT distinct ?ID ?label
+WHERE {
+	?entity a owl:Class .
+	?entity rdfs:label ?l .
+	BIND (str(?l) AS ?label) .
+  	BIND(STRAFTER(STR(?entity), "/obo/") AS ?ID) . 
+}
+ORDER BY ASC(?ID)
