@@ -102,7 +102,7 @@ WARN	annotation_whitespace	VO:0000069	IAO:0000115	"A Measles-Mumps-Rubella vacci
 WARN	annotation_whitespace	VO:0000070	IAO:0000115	A Measles-Mumps vaccine that is manufactured by Merck and used for human. 
 WARN	annotation_whitespace	VO:0000079	IAO:0000115	an influenza vaccine that is similar to Fluzone but has high dose. 
 WARN	annotation_whitespace	VO:0000091	IAO:0000115	"A Measles-Mumps-Rubella-Vericella vaccine that is live and manufactured by Merck & Co, Inc. "
-WARN	annotation_whitespace	VO:0000137	IAO:0000115	a vaccine role that indicates the vaccine being a combination vaccine. 
+WARN	annotation_whitespace	VO:0000137	IAO:0000115	A vaccine role that indicates the vaccine being a combination vaccine. 
 WARN	annotation_whitespace	VO:0000145	IAO:0000115	a vaccine component role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. 
 WARN	annotation_whitespace	VO:0000147	IAO:0000115	an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. 
 WARN	annotation_whitespace	VO:0000151	IAO:0000117	 YL
@@ -110,7 +110,7 @@ WARN	annotation_whitespace	VO:0000154	IAO:0000115	A Brucella abortus gene that h
 WARN	annotation_whitespace	VO:0000166	IAO:0000115	a vaccine vector that uses a live bacterium as the vector 
 WARN	annotation_whitespace	VO:0000194	IAO:0000115	a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. 
 WARN	annotation_whitespace	VO:0000207	IAO:0000115	A vaccine contraindication is a contraindication that increases the risks of a vaccination. 
-WARN	annotation_whitespace	VO:0000208	IAO:0000115	"a vaccine role that is not licensed or in clinical trial; instead, it has been experimently approved to induce protection or treatment effect in vivo in at least an experimental animal model. "
+WARN	annotation_whitespace	VO:0000208	IAO:0000115	"A vaccine role that is not licensed or in clinical trial; instead, it has been experimently approved to induce protection or treatment effect in vivo in at least an experimental animal model. "
 WARN	annotation_whitespace	VO:0000211	IAO:0000115	an organismal quality of a whole organism vaccine where the whole organism is inactivated/killed and lacks the capability of replication. 
 WARN	annotation_whitespace	VO:0000245	IAO:0000117	 MC
 WARN	annotation_whitespace	VO:0000278	IAO:0000117	 MC
@@ -127,8 +127,8 @@ WARN	annotation_whitespace	VO:0000384	IAO:0000119	"PMID:18472194
 "
 WARN	annotation_whitespace	VO:0000395	IAO:0000117	 YL
 WARN	annotation_whitespace	VO:0000395	IAO:0000117	 ZX
-WARN	annotation_whitespace	VO:0000400	IAO:0000115	a vaccine that contains one vaccine for priming and at least one other vaccine for boosting. 
-WARN	annotation_whitespace	VO:0000401	IAO:0000115	a vaccine that contains one DNA vaccine for priming and at least one other vaccine for boosting. 
+WARN	annotation_whitespace	VO:0000400	IAO:0000115	A vaccine that contains one vaccine for priming and at least one other vaccine for boosting. 
+WARN	annotation_whitespace	VO:0000401	IAO:0000115	A prime-boost vaccine that contains one DNA vaccine for priming and at least one other vaccine for boosting. 
 WARN	annotation_whitespace	VO:0000426	IAO:0000117	 MC
 WARN	annotation_whitespace	VO:0000435	IAO:0000115	a vaccine component that is composed of a plasmid and used in the generation of a DNA vaccine. 
 WARN	annotation_whitespace	VO:0000441	IAO:0000115	"vaccine candidate role is the role of a material entity in an investigation, which has not been experimentally or clinically verified to induce a protection or treatment in vivo in a host organism. "
@@ -146,7 +146,11 @@ WARN	annotation_whitespace	VO:0000519	rdfs:seeAlso	GenBank: AC020633; Protein Re
 WARN	annotation_whitespace	VO:0000524	IAO:0000116	"This relation only works for those vaccine antigen that is physically part of a vaccine preparation. It does not include those antigens that are not part of vaccine. For example, a protein antigen expressed in a DNA vaccine is not a part of vaccine pe ser. In this case, the vaccine expresses the protein, but the gene is part of the vaccine, not the protein. For the case, we can use the relation 'DNA vaccine expresses protein antigen' under the relation 'expresses'. "
 WARN	annotation_whitespace	VO:0000532	IAO:0000115	A route of administration that is loacted in the hypodermis (subcutaneous tissue) region. 
 WARN	annotation_whitespace	VO:0000540	IAO:0000117	 MC
-WARN	annotation_whitespace	VO:0000560	IAO:0000115	A toxin (from Ancient Greek: ≈ì√ë≈í√∏≈í√¶≈íœÄ≈í‚à´≈ì√•≈íŒ© toxikon) is a poisonous substance produced within living cells or organisms; man-made substances created by artificial processes are thus excluded. 
+WARN	annotation_whitespace	VO:0000560	IAO:0000115	A toxin (from Ancient Greek: τοξικόν toxikon) is a poisonous substance produced within living cells or organisms; man-made substances created by artificial processes are thus excluded. 
+WARN	annotation_whitespace	VO:0000560	rdfs:comment	"The term was first used by organic chemist Ludwig Brieger (1849-1919).[3]
+For a toxic substance not produced within living organisms, \""toxicant\"" and \""toxics\"" are also sometimes used.[citation needed].
+Toxins can be small molecules, peptides, or proteins that are capable of causing disease on contact with or absorption by body tissues interacting with biological macromolecules such as enzymes or cellular receptors. Toxins vary greatly in their severity, ranging from usually minor and acute (as in a bee sting) to almost immediately deadly (as in botulinum toxin).-- from Wikipedia.
+"
 WARN	annotation_whitespace	VO:0000574	IAO:0000115	"A path that is located in gross anatomical part of an organism (e.g., human) and is used for administering a vaccine, a drug, fluid, poison, or other substance into the body. "
 WARN	annotation_whitespace	VO:0000575	IAO:0000117	 AR
 WARN	annotation_whitespace	VO:0000575	IAO:0000117	 BP
@@ -159,10 +163,10 @@ WARN	annotation_whitespace	VO:0000608	IAO:0000115	An 'expresses' relation that s
 WARN	annotation_whitespace	VO:0000615	IAO:0000115	A role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. 
 WARN	annotation_whitespace	VO:0000617	IAO:0000115	A role that inheres in a material entity that becomes an ingredient of a vaccine. 
 WARN	annotation_whitespace	VO:0000622	IAO:0000115	a vaccine antigen role that inheres in a vaccine antigen which is capable of inducing protective immunity. 
-WARN	annotation_whitespace	VO:0000623	IAO:0000115	a vaccine role that indicates the vaccine being a DNA vaccine. 
-WARN	annotation_whitespace	VO:0000624	IAO:0000115	a vaccine role that indicates the vaccine being a subunit vaccine. 
-WARN	annotation_whitespace	VO:0000625	IAO:0000115	a vaccine role that indicates the vaccine being a conjugate vaccine. 
-WARN	annotation_whitespace	VO:0000636	IAO:0000115	a vaccine role that indicates the vaccine being a recombinant vector vaccine. 
+WARN	annotation_whitespace	VO:0000623	IAO:0000115	A vaccine role that indicates the vaccine being a DNA vaccine. 
+WARN	annotation_whitespace	VO:0000624	IAO:0000115	A vaccine role that indicates the vaccine being a subunit vaccine. 
+WARN	annotation_whitespace	VO:0000625	IAO:0000115	A vaccine role that indicates the vaccine being a conjugate vaccine. 
+WARN	annotation_whitespace	VO:0000636	IAO:0000115	A vaccine role that indicates the vaccine being a recombinant vector vaccine. 
 WARN	annotation_whitespace	VO:0000642	rdfs:comment	"There is no single 'influenza virus' in NCBI_Taxon. We usually use:
 ('unidentified influenza virus' or 'Influenzavirus A' or 'Influenzavirus B' or 'Influenzavirus C')
 However, even this may not be comprehensive. "
@@ -171,12 +175,12 @@ WARN	annotation_whitespace	VO:0000671	IAO:0000115	"a Salmonella vaccine against 
 WARN	annotation_whitespace	VO:0000675	IAO:0000115	"a Streptococcal vaccine that is used against S. pneumoniae infection, which causes pneumococcal diseases. "
 WARN	annotation_whitespace	VO:0000685	IAO:0000115	a recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine 
 WARN	annotation_whitespace	VO:0000702	IAO:0000115	a recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine 
-WARN	annotation_whitespace	VO:0000728	IAO:0000115	a vaccine role that indicates the vaccine being a RNA vaccine. 
+WARN	annotation_whitespace	VO:0000728	IAO:0000115	A vaccine role that indicates the vaccine being a RNA vaccine. 
 WARN	annotation_whitespace	VO:0000731	rdfs:comment	MMR is usually live attenuated. 
 WARN	annotation_whitespace	VO:0000767	IAO:0000115	A bacterial vaccine that protects against diseases caused by various species of Rickettsia. Typhus is any of several similar diseases caused by Rickettsia bacteria. So Rickettsial vaccine is also called typhus vaccine. 
 WARN	annotation_whitespace	VO:0000794	IAO:0000115	A Brucella abortus gene that has the name wboA and comes from strain 2308. 
 WARN	annotation_whitespace	VO:0000799	IAO:0000115	"An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. "
-WARN	annotation_whitespace	VO:0000807	IAO:0000115	a vaccine role that indicates the vaccine being a toxoid vaccine. 
+WARN	annotation_whitespace	VO:0000807	IAO:0000115	A vaccine role that indicates the vaccine being a toxoid vaccine. 
 WARN	annotation_whitespace	VO:0000818	IAO:0000115	An object property that specifies a relation between a vaccine and a vaccine virmugen. 
 WARN	annotation_whitespace	VO:0000910	IAO:0000117	 ZX
 WARN	annotation_whitespace	VO:0000912	IAO:0000117	 MC
@@ -576,7 +580,7 @@ WARN	annotation_whitespace	VO:0003040	IAO:0000115	a polysorbate 20 vaccine stabi
 WARN	annotation_whitespace	VO:0003041	IAO:0000115	an antibiotics vaccine residual that has the antibiotics of neomycin. 
 WARN	annotation_whitespace	VO:0003042	IAO:0000115	the vaccine antiegn that induces protective immune response. 
 WARN	annotation_whitespace	VO:0003048	IAO:0000115	"when the vaccination of a significant portion of a population (or herd), in contagious diseases that are transmitted from individual to individual, chains of infection are likely to be disrupted, so the large numbers of a population are immue or less susceptible to the disease. "
-WARN	annotation_whitespace	VO:0003050	IAO:0000115	role inheres in a material eneitity that union itself chemically with a relative weak vaccine antigen to form a new whole that can create an effective miinuogen. The 
+WARN	annotation_whitespace	VO:0003050	IAO:0000115	A role inheres in a material eneitity that union itself chemically with a relative weak vaccine antigen to form a new whole that can create an effective miinuogen. The 
 WARN	annotation_whitespace	VO:0003057	IAO:0000115	an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. 
 WARN	annotation_whitespace	VO:0003247	IAO:0000115	The site that is the part of the host body and the entrance point where a vaccine is administered. 
 WARN	annotation_whitespace	VO:0003336	IAO:0000115	a vaccine-induced down-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. 
@@ -609,6 +613,7 @@ WARN	annotation_whitespace	VO:0005304	IAO:0000117	 Amogh Madireddi
 WARN	annotation_whitespace	VO:0005305	IAO:0000117	 Amogh Madireddi
 WARN	annotation_whitespace	VO:0005306	IAO:0000117	 Amogh Madireddi
 WARN	annotation_whitespace	VO:0005307	IAO:0000117	 Amogh Madireddi
+WARN	annotation_whitespace	VO:0005506	IAO:0000117	 Anna Maria Masci
 WARN	annotation_whitespace	VO:0006094	IAO:0000116	"Chemical Nature: Nucleic acid
 Mechanism of Action: TLR9 agonist
 Immune profile induced: Mixed Th1/Th2
@@ -881,7 +886,9 @@ WARN	annotation_whitespace	VO:0007649	IAO:0000117	Oliver He
 WARN	annotation_whitespace	VO:0007650	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007651	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007652	IAO:0000117	Oliver He 
+WARN	annotation_whitespace	VO:0007653	IAO:0000117	 Anna Maria Masci
 WARN	annotation_whitespace	VO:0007653	IAO:0000117	 Xingxian Li
+WARN	annotation_whitespace	VO:0007655	IAO:0000117	 Anna Maria Masci
 WARN	annotation_whitespace	VO:0010735	IAO:0000115	A Measles-Mumps-Rubella-Vericella vaccine that is live attenuated and manufactured by GlaxoSmithKline Biologicals. 
 WARN	annotation_whitespace	VO:0011363	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0011364	IAO:0000117	Oliver He 
@@ -982,7 +989,6 @@ WARN	equivalent_class_axiom_no_genus	VO:0000041	VO:0003355	NCBITaxon:562
 WARN	equivalent_class_axiom_no_genus	VO:0000048	RO:0000087	VO:0001361
 WARN	equivalent_class_axiom_no_genus	VO:0000077	VO:0003355	NCBITaxon:1773
 WARN	equivalent_class_axiom_no_genus	VO:0000087	VO:0003355	NCBITaxon:5833
-WARN	equivalent_class_axiom_no_genus	VO:0000093	RO:0000087	VO:0000147
 WARN	equivalent_class_axiom_no_genus	VO:0000165	VO:0003355	NCBITaxon:2
 WARN	equivalent_class_axiom_no_genus	VO:0000177	VO:0001011	DOID:162
 WARN	equivalent_class_axiom_no_genus	VO:0000186	RO:0000087	VO:0000728
@@ -1001,6 +1007,7 @@ WARN	equivalent_class_axiom_no_genus	VO:0000534	RO:0000087	VO:0000624
 WARN	equivalent_class_axiom_no_genus	VO:0000550	RO:0000085	VO:0000562
 WARN	equivalent_class_axiom_no_genus	VO:0000561	RO:0000087	VO:0000807
 WARN	equivalent_class_axiom_no_genus	VO:0000566	VO:0003355	NCBITaxon:662
+WARN	equivalent_class_axiom_no_genus	VO:0000580	RO:0000087	VO:0000147
 WARN	equivalent_class_axiom_no_genus	VO:0000609	VO:0003355	NCBITaxon:10239
 WARN	equivalent_class_axiom_no_genus	VO:0000635	RO:0000087	VO:0000489
 WARN	equivalent_class_axiom_no_genus	VO:0000640	VO:0003355	NCBITaxon:1513
@@ -1281,6 +1288,7 @@ WARN	missing_definition	NCBITaxon:12091	IAO:0000115
 WARN	missing_definition	NCBITaxon:12092	IAO:0000115	
 WARN	missing_definition	NCBITaxon:12110	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1224	IAO:0000115	
+WARN	missing_definition	NCBITaxon:12264	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1236	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1238	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1239	IAO:0000115	
@@ -6728,7 +6736,6 @@ INFO	lowercase_definition	VO:0000098	IAO:0000115	a lentivirus vaccine vector tha
 INFO	lowercase_definition	VO:0000122	IAO:0000115	a viral vaccine vector that uses Yellow fever vaccine strain 17D as the vector.
 INFO	lowercase_definition	VO:0000126	IAO:0000115	a vaccine organism that is live and attenuated
 INFO	lowercase_definition	VO:0000136	IAO:0000115	a viral vaccine vector that uses an adenovirus as the vector.
-INFO	lowercase_definition	VO:0000137	IAO:0000115	a vaccine role that indicates the vaccine being a combination vaccine. 
 INFO	lowercase_definition	VO:0000144	IAO:0000115	a viral vaccine vector that uses an alphavirus as the vector.
 INFO	lowercase_definition	VO:0000145	IAO:0000115	a vaccine component role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. 
 INFO	lowercase_definition	VO:0000147	IAO:0000115	an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. 
@@ -6739,7 +6746,6 @@ INFO	lowercase_definition	VO:0000166	IAO:0000115	a vaccine vector that uses a li
 INFO	lowercase_definition	VO:0000173	IAO:0000115	a virulence of vaccine organism that shows an attenuated pheontype of the organism as the major component of a vaccine.
 INFO	lowercase_definition	VO:0000179	IAO:0000115	a processed material that is output of the vaccine preparation and part of a vaccine.
 INFO	lowercase_definition	VO:0000194	IAO:0000115	a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. 
-INFO	lowercase_definition	VO:0000208	IAO:0000115	"a vaccine role that is not licensed or in clinical trial; instead, it has been experimently approved to induce protection or treatment effect in vivo in at least an experimental animal model. "
 INFO	lowercase_definition	VO:0000210	IAO:0000115	"an immune response detection assay that detects specific antiviral antibodies in a test serum. The serum, usually a twofold dilution series, is mixed with a standard number, usually 4 to 8 HA units, of virus and incubated prior to the addition of a standard suspension of erythrocytes. The highest dilution of serum that inhibits hemagglutination is the HI titer of the serum. For example, influenza (AI) viruses agglutinate erythrocytes through the interaction of the virus surface glycoprotein, the hemagglutinin (HA), with receptors on the surface of the erythrocyte. Inhibition of the agglutination reaction by HA subtype-specific antisera is the basis of the hemagglutination-inhibition (HI) assay."
 INFO	lowercase_definition	VO:0000211	IAO:0000115	an organismal quality of a whole organism vaccine where the whole organism is inactivated/killed and lacks the capability of replication. 
 INFO	lowercase_definition	VO:0000212	IAO:0000115	a DNA vaccine plasmid that uses the plasmid labeled pCI.
@@ -6767,8 +6773,6 @@ INFO	lowercase_definition	VO:0000391	IAO:0000115	bacterial vaccine that is used 
 INFO	lowercase_definition	VO:0000392	IAO:0000115	a Campylobacter bacterial vaccine that is used to protect against Campylobacter fetus infection
 INFO	lowercase_definition	VO:0000393	IAO:0000115	bacterial vaccine that is used to protect against Pseudomonas aeruginosa infection
 INFO	lowercase_definition	VO:0000394	IAO:0000115	a Bordetella bacterial vaccine that is used to protect against Bordetella bronchiseptica infection
-INFO	lowercase_definition	VO:0000400	IAO:0000115	a vaccine that contains one vaccine for priming and at least one other vaccine for boosting. 
-INFO	lowercase_definition	VO:0000401	IAO:0000115	a vaccine that contains one DNA vaccine for priming and at least one other vaccine for boosting. 
 INFO	lowercase_definition	VO:0000419	IAO:0000115	a Varicella-zoster virus vaccine that is live attenuated.
 INFO	lowercase_definition	VO:0000420	IAO:0000115	a vaccine component that originates from an organism such as a pathogen or a modified organism.
 INFO	lowercase_definition	VO:0000424	IAO:0000115	a pneumococcal vaccine that is formed using polyvalent polysaccharides
@@ -6835,13 +6839,7 @@ INFO	lowercase_definition	VO:0000611	IAO:0000115	bacterial vaccine that is used 
 INFO	lowercase_definition	VO:0000612	IAO:0000115	a virulence of vaccine that shows a virulent pheontype of the organism as the major component of a vaccine. The virulent phenotype means that an vaccine organism is virulent and is able to cause a pathogenic phenotype in a host organism.
 INFO	lowercase_definition	VO:0000620	IAO:0000115	bacterial vaccine that is used to protect against Pasteurella multocida infection
 INFO	lowercase_definition	VO:0000622	IAO:0000115	a vaccine antigen role that inheres in a vaccine antigen which is capable of inducing protective immunity. 
-INFO	lowercase_definition	VO:0000623	IAO:0000115	a vaccine role that indicates the vaccine being a DNA vaccine. 
-INFO	lowercase_definition	VO:0000624	IAO:0000115	a vaccine role that indicates the vaccine being a subunit vaccine. 
-INFO	lowercase_definition	VO:0000625	IAO:0000115	a vaccine role that indicates the vaccine being a conjugate vaccine. 
-INFO	lowercase_definition	VO:0000630	IAO:0000115	licensed vaccine role is a regulation-assigned role that indicates that a vaccine obtains official approval for commercial production and selling on the market.
-INFO	lowercase_definition	VO:0000631	IAO:0000115	vaccine in clinical trial role is a regulation-assigned role that inheres in a vaccine that is currently in clinical trial.
 INFO	lowercase_definition	VO:0000635	IAO:0000115	a licensed vaccine with license for human use.
-INFO	lowercase_definition	VO:0000636	IAO:0000115	a vaccine role that indicates the vaccine being a recombinant vector vaccine. 
 INFO	lowercase_definition	VO:0000637	IAO:0000115	bacterial vaccine that is used to protect against Flavobacterium columnare infection
 INFO	lowercase_definition	VO:0000640	IAO:0000115	a Clostridium vaccine that protects against infection with Clostridium tetani that causes tenanus.
 INFO	lowercase_definition	VO:0000643	IAO:0000115	a vaccine with license that is used for cattle.
@@ -6856,7 +6854,6 @@ INFO	lowercase_definition	VO:0000711	IAO:0000115	has_vaccine_allegen is a relati
 INFO	lowercase_definition	VO:0000712	IAO:0000115	a viral vaccine that is inactivated
 INFO	lowercase_definition	VO:0000714	IAO:0000115	a licensed human vaccine that is licensed in Canada
 INFO	lowercase_definition	VO:0000721	IAO:0000115	a Brucella vaccine against infection wtih B. suis
-INFO	lowercase_definition	VO:0000728	IAO:0000115	a vaccine role that indicates the vaccine being a RNA vaccine. 
 INFO	lowercase_definition	VO:0000746	IAO:0000115	a viral vaccine against Hepatitis B virus and at the same time against bacterial H. influenzae serotype b.
 INFO	lowercase_definition	VO:0000756	IAO:0000115	"acellular vaccine is a subunit vaccine that is produced by using only the antigenic part of the disease causing organism. It often requires a \""booster\"" every few years to maintain their effectiveness. MeSH term: D20.215.894.860.900."
 INFO	lowercase_definition	VO:0000762	IAO:0000115	a protozoan vaccine that prevents against infection with Leishmania.
@@ -6864,7 +6861,6 @@ INFO	lowercase_definition	VO:0000800	IAO:0000115	a storage process that is speci
 INFO	lowercase_definition	VO:0000801	IAO:0000115	"a vaccine storage that is execuated at room temperature. Room temperature is also referred to as ambient temperature. Room temperature denotes a certain temperature within enclosed space at which humans are accustomed. Room temperature is usually indicated by general human comfort, with the common range of 10 degree C (50 degree F) to 28 degree C (82.4 degree F)."
 INFO	lowercase_definition	VO:0000802	IAO:0000115	"vaccine storage that is executed in refrigerator, usually 0-10^C."
 INFO	lowercase_definition	VO:0000803	IAO:0000115	vaccine storage that is executed in freezer under 0^C.
-INFO	lowercase_definition	VO:0000807	IAO:0000115	a vaccine role that indicates the vaccine being a toxoid vaccine. 
 INFO	lowercase_definition	VO:0000812	IAO:0000115	a licensed vaccine role that indicates the vaccine occurs in USA.
 INFO	lowercase_definition	VO:0000823	IAO:0000115	a bacterial vaccine against V. anguillarum infection
 INFO	lowercase_definition	VO:0000850	IAO:0000115	"a vaccine component that is added to the immunogen by the vaccine manufacturer for a specific purpose. Additives include adjuvants, preservatives and stablizers, as well as materials that are added to affect pH and isotonicity."
@@ -6889,7 +6885,7 @@ INFO	lowercase_definition	VO:0000922	IAO:0000115	a vaccine stablizer that is bas
 INFO	lowercase_definition	VO:0000926	IAO:0000115	a cell culture residual in vaccine that is human albumin.
 INFO	lowercase_definition	VO:0000927	IAO:0000115	a cell culture residual in vaccine that is human serum.
 INFO	lowercase_definition	VO:0000929	IAO:0000115	a vaccine stabilizer that is a polysorbate 20. It encourages the suspension of one liquid in another and has mild toxicity.
-INFO	lowercase_definition	VO:0000930	IAO:0000115	"a vaccine emulsifier that uses polysorbate 80, also known as polyoxyethylene sorbitan monooleate or Tween‚Ñ¢ 80."
+INFO	lowercase_definition	VO:0000930	IAO:0000115	"a vaccine emulsifier that uses polysorbate 80, also known as polyoxyethylene sorbitan monooleate or Tween‚Äö√ë¬¢ 80."
 INFO	lowercase_definition	VO:0000931	IAO:0000115	a cell culture residual in vaccine that is residual protein from cell culture. 
 INFO	lowercase_definition	VO:0000934	IAO:0000115	a vaccine stabilizer that is specifically made by sorbitol.
 INFO	lowercase_definition	VO:0000937	IAO:0000115	a cell culture residual in vaccine that is sucrose albumin.
@@ -6950,7 +6946,6 @@ INFO	lowercase_definition	VO:0001085	IAO:0000115	a Chlamydia bacterial vaccine a
 INFO	lowercase_definition	VO:0001086	IAO:0000115	an adenovirus vaccine vector that uses a complex adenovirus as the vector strain.
 INFO	lowercase_definition	VO:0001087	IAO:0000115	an adenovirus vaccine vector that uses a human adenovirus as the vector strain.
 INFO	lowercase_definition	VO:0001088	IAO:0000115	a viral vaccine vector that uses a murine leukemia virus as the vaccine vector
-INFO	lowercase_definition	VO:0001090	IAO:0000115	a population group that have priority for  vaccination when a vaccine is first available.
 INFO	lowercase_definition	VO:0001093	IAO:0000115	a vaccinia vaccine vector that uses the highly attenuated NYVAC  as vector
 INFO	lowercase_definition	VO:0001095	IAO:0000115	"passive immunization by injecting a recipient with pre-made antibody, antitoxin, epitope, etc."
 INFO	lowercase_definition	VO:0001102	IAO:0000115	a viral vaccine vector that uses a retroviral strain
@@ -7113,7 +7108,6 @@ INFO	lowercase_definition	VO:0003040	IAO:0000115	a polysorbate 20 vaccine stabil
 INFO	lowercase_definition	VO:0003041	IAO:0000115	an antibiotics vaccine residual that has the antibiotics of neomycin. 
 INFO	lowercase_definition	VO:0003042	IAO:0000115	the vaccine antiegn that induces protective immune response. 
 INFO	lowercase_definition	VO:0003048	IAO:0000115	"when the vaccination of a significant portion of a population (or herd), in contagious diseases that are transmitted from individual to individual, chains of infection are likely to be disrupted, so the large numbers of a population are immue or less susceptible to the disease. "
-INFO	lowercase_definition	VO:0003050	IAO:0000115	role inheres in a material eneitity that union itself chemically with a relative weak vaccine antigen to form a new whole that can create an effective miinuogen. The 
 INFO	lowercase_definition	VO:0003057	IAO:0000115	an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. 
 INFO	lowercase_definition	VO:0003060	IAO:0000115	viral vaccine that is used to protect against Monkeypox virus infection
 INFO	lowercase_definition	VO:0003061	IAO:0000115	viral vaccine that is used to protect against Bovine viral diarrhea virus 2 infection
@@ -7131,15 +7125,14 @@ INFO	lowercase_definition	VO:0004917	IAO:0000115	vaccine-induced T-helper 2 type
 INFO	lowercase_definition	VO:0004918	IAO:0000115	vaccine-induced T-helper 2 type immune response that is indicated by the presence of interleukin-10 production
 INFO	lowercase_definition	VO:0004919	IAO:0000115	vaccine-induced T-helper 1 type immune response that is indicated by the presence of IgG2a production
 INFO	lowercase_definition	VO:0004920	IAO:0000115	vaccine-induced T-helper 2 type immune response that is indicated by the presence of IgG1 production
-INFO	lowercase_definition	VO:0005100	IAO:0000115	'A SARS DNA vaccine that is made from recombinant plasmid containing nucleocapsid protein (N) sequence constructed then expressed and purified from E. coli bacteria‚Äô
-INFO	lowercase_definition	VO:0005101	IAO:0000115	'A SARS DNA combination vaccine that is made from recombinant plasmids‚Äô containing membrane protein (M) and nucleocapsid protein (N) sequences constructed then expressed and purified from E. coli bacteria‚Äô
-INFO	lowercase_definition	VO:0005102	IAO:0000115	'A SARS  DNA vaccine that is made from recombinant plasmid containing membrane protein (M) sequence constructed then expressed and purified from E. coli bacteria‚Äô
-INFO	lowercase_definition	VO:0005103	IAO:0000115	'A SARS DNA vaccine that is made from  oral live-attenuated auxotrophic S. typhimurium aroA strain SL7207 that contained CTLA4HingeSARS800 with SARS-CoV S protein‚Äò
+INFO	lowercase_definition	VO:0005100	IAO:0000115	'A SARS DNA vaccine that is made from recombinant plasmid containing nucleocapsid protein (N) sequence constructed then expressed and purified from E. coli bacteria‚Äö√Ñ√¥
+INFO	lowercase_definition	VO:0005101	IAO:0000115	'A SARS DNA combination vaccine that is made from recombinant plasmids‚Äö√Ñ√¥ containing membrane protein (M) and nucleocapsid protein (N) sequences constructed then expressed and purified from E. coli bacteria‚Äö√Ñ√¥
+INFO	lowercase_definition	VO:0005102	IAO:0000115	'A SARS  DNA vaccine that is made from recombinant plasmid containing membrane protein (M) sequence constructed then expressed and purified from E. coli bacteria‚Äö√Ñ√¥
+INFO	lowercase_definition	VO:0005103	IAO:0000115	'A SARS DNA vaccine that is made from  oral live-attenuated auxotrophic S. typhimurium aroA strain SL7207 that contained CTLA4HingeSARS800 with SARS-CoV S protein‚Äö√Ñ√≤
 INFO	lowercase_definition	VO:0005177	IAO:0000115	an adenovirus vaccine vector that uses a gorilla adenovirus.
 INFO	lowercase_definition	VO:0005479	IAO:0000115	a malaria vaccine that protects against malaria caused by Plasmodium knowlesi.
 INFO	lowercase_definition	VO:0005480	IAO:0000115	a malaria vaccine that protects against malaria caused by Plasmodium chabaudi.
 INFO	lowercase_definition	VO:0005503	IAO:0000115	a grouping class for vaccines for specific diseases
-INFO	lowercase_definition	VO:0005504	IAO:0000115	a grouping class for vaccines for specific pathogens
 INFO	lowercase_definition	VO:0005505	IAO:0000115	a grouping class for vaccines for specific platforms
 INFO	lowercase_definition	VO:0007098	IAO:0000115	"rime/boost vaccination proved to be of no advantage or even detrimental in therapeutic settings in B16F1 and transgenic adenocarcinoma of the mouse prostate (TRAMP) models, respectively"
 INFO	lowercase_definition	VO:0007287	IAO:0000115	"cancer vaccine consisting of autologous dendritic cells transfected with autologous tumor mRNA and the human CD40 ligand (CD40L) gene with immunostimulatory and antitumor activities. Vaccination with autologous dendritic cell-autologous tumor mRNA-human CD40L vaccine may elicit a cytotoxic T cell response against tumor cells from which the autologous tumor mRNA was derived. When expressed by dendritic cells, tumor antigens and the co-stimulatory molecule CD40L, which binds to CD40 receptors on antigen presenting cells (APC), facilitate both humoral and cellular immune responses against tumor cells."
