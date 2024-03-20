@@ -2080,6 +2080,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_464095"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasBroadSynonym>CPMV</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Cowpea mosaic virus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1236">
@@ -2599,6 +2612,7 @@
         <oboInOwl:hasDbXref>PMID:27488356</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Anaerobacter</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Anaerobacter Duda et al. 1996</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Clostridium</rdfs:label>
     </owl:Class>
     
@@ -2697,9 +2711,8 @@
         <oboInOwl:hasDbXref>PMID:1374625</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:184898</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>&apos;Clostridium plagarum&apos;</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Bacillus perfringens</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacterium welchii</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Clostridium perfringens (Veillon and Zuber 1898) Hauduroy et al. 1937 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Clostridium plagarum</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Clostridium perfringens</rdfs:label>
     </owl:Class>
@@ -3219,9 +3232,9 @@
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Bacillus tuberculosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacterium tuberculosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis (Zopf 1883) Lehmann and Neumann 1896 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis typus humanus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis var. hominis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis variant tuberculosis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Mycobacterium tuberculosis</rdfs:label>
     </owl:Class>
     
@@ -4054,14 +4067,14 @@
         <oboInOwl:hasBroadSynonym>NDV</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Avian Paramyxovirus Serotype I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Avian avulavirus 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Avian orthoavulavirus 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Avian paramyxovirus type 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Avian paramyxovirus type-1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Newcastle disease virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Newcastle disease virus NDV</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>avian paramyxovirus 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Avian avulavirus 1</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Avian orthoavulavirus 1</rdfs:label>
+        <rdfs:label>avian paramyxovirus 1</rdfs:label>
     </owl:Class>
     
 

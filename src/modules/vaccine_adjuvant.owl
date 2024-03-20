@@ -104,6 +104,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12264">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116>Chemical Nature: Nucleoprotein complex
+Mechanism of Action: recognized by PRRs
+Immune profile induced: Th1-biased
+A particulate antigen delivery system.
+
+Route of immunization: Intratumoral, intraperitoneally , IV
+Point of Contact: Nicole Steinmetz, University of California, San Diego
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=26689376
+https://www.ncbi.nlm.nih.gov/pubmed/?term=37844250</obo:IAO_0000116>
+        <obo:IAO_0000116>Logic axioms added by Jie Zheng in VO</obo:IAO_0000116>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/684</obo:IAO_0000233>
+        <obo:VO_0005328>93</obo:VO_0005328>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000001155 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001155"/>
@@ -119,19 +152,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000093">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that is formed as a mineral salt.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -411,7 +432,19 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000580 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000580">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000179"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine component that is chemical substance added to vaccine and enhance and direct immune response to protective antigen. Many of vaccine adjuvants cause a range of serious side-effects.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label>vaccine adjuvant</rdfs:label>
@@ -5099,6 +5132,7 @@ Immune profile induced: Mixed Th1/Th2
 
 Route of immunization: IM, ID
 Point of Contact: Ofer Levy, Precision Vaccines Program at Boston Children&apos;s Hospital</obo:IAO_0000116>
+        <obo:IAO_0000116>It may actually be the world’s first small-molecule TLR3 agonist.</obo:IAO_0000116>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
         <obo:IAO_0000117>Ofer Levy</obo:IAO_0000117>
@@ -5106,6 +5140,42 @@ Point of Contact: Ofer Levy, Precision Vaccines Program at Boston Children&apos;
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/676</obo:IAO_0000233>
         <obo:VO_0005328>86</obo:VO_0005328>
         <rdfs:label>precision vaccines program-057 vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001355"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An emulsion vaccine adjuvant that targets on TLR-agonist for target. It is a nucleic acid-based adjuvant for chemical nature</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Nucleic acid, Emulsion
+Mechanism of Action: Innate Immune Activation, preferential uptake by APCs
+Immune profile induced: Th1-biased
+Definition: TLR-agonist for target; nucleic acid-based adjuvant for chemical nature
+
+Route of immunization: SQ, IN, IM
+Point of Contact: Madhavan Nallani, ACM Biolabs
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=34618423
+https://www.ncbi.nlm.nih.gov/pubmed/?term=36223228
+
+Ongoing clinical trials:
+https://clinicaltrials.gov/ct2/show/NCT05385991</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Madhavan Nallani</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000118>ACM-CpG</obo:IAO_0000118>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/690</obo:IAO_0000233>
+        <obo:VO_0005328>92</obo:VO_0005328>
+        <rdfs:label>ACM-CpG vaccine adjuvant</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
