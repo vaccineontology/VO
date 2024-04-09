@@ -445,7 +445,7 @@
         <oboInOwl:hasExactSynonym>infectious bovine rhinotracheitis virus BHV-1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Infectious bovine rhinotracheitis virus</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Bovine alphaherpesvirus 1</rdfs:label>
+        <rdfs:label>bovine alphaherpesvirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -2142,16 +2142,17 @@
         <oboInOwl:hasDbXref>PMID:15143038</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:25403554</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:37409558</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Firmicutes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>PMID:38376502</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>low G+C Gram-positive bacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>low GC Gram+</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>&quot;Firmicutes&quot; corrig. Gibbons and Murray 1978 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillota corrig. Gibbons and Murray 2021</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillus/Clostridium group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Clostridium group firmicutes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmacutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Firmicuteota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Low G+C firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>clostridial firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>firmicutes</oboInOwl:hasRelatedSynonym>
@@ -3249,6 +3250,7 @@
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:12089250</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20668542</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:38415640</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Mycobacterium balnei</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacterium platypoecilus</oboInOwl:hasRelatedSynonym>
@@ -3647,7 +3649,6 @@
         <oboInOwl:hasDbXref>PMID:25288668</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:26654112</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>&quot;Leptospiria&quot; Cavalier-Smith 2020</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Spirochaetes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Spirochaetia</rdfs:label>
     </owl:Class>
@@ -5139,6 +5140,22 @@
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>carnivores</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Carnivora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1765"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasBroadSynonym>BCG</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Mycobacterium bovis BCG</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>bacillus Calmette-Guerin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>bacillus Calmette-Guerin BCG</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Mycobacterium tuberculosis variant bovis BCG</rdfs:label>
     </owl:Class>
     
 
@@ -8186,9 +8203,11 @@
         <oboInOwl:hasExactSynonym>dog</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>dogs</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Canis borealis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Canis canis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Canis domesticus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Canis familiaris</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Canis lupus borealis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Canis lupus familiaris</rdfs:label>
     </owl:Class>
     
