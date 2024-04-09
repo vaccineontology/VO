@@ -81,6 +81,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0005312 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005312"/>
@@ -106,34 +112,7 @@
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_12264 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12264">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000116>Chemical Nature: Nucleoprotein complex
-Mechanism of Action: recognized by PRRs
-Immune profile induced: Th1-biased
-A particulate antigen delivery system.
-
-Route of immunization: Intratumoral, intraperitoneally , IV
-Point of Contact: Nicole Steinmetz, University of California, San Diego
-
-Pubmed References:
-https://www.ncbi.nlm.nih.gov/pubmed/?term=26689376
-https://www.ncbi.nlm.nih.gov/pubmed/?term=37844250</obo:IAO_0000116>
-        <obo:IAO_0000116>Logic axioms added by Jie Zheng in VO</obo:IAO_0000116>
-        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/684</obo:IAO_0000233>
-        <obo:VO_0005328>93</obo:VO_0005328>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12264"/>
     
 
 
@@ -383,7 +362,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=37844250</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001356"/>
-        <obo:IAO_0000115>A particulate antigen delivery system that contains particles made up of concentric lipid membranes containing phospholipids and other lipids in a bilayer configuration separated by aqueous compartments. It is a relatively stable but non-covalently-bound complex of saponin adjuvant Quil-A, cholesterol and amphipathic antigen in a molar ratio of approximately 1:1:1. The spectrum of viral capsid antigens and non-viral amphipathic antigens of relevance for human vaccination, incorporated into ISCOMs, comprises influenza, measles, rabies, gp340 from EB-virus, gp120 from HIV, Plasmodium falciparum and Trypanosoma cruzi.</obo:IAO_0000115>
+        <obo:IAO_0000115>A particulate antigen delivery system vaccine adjuvant that contains particles made up of concentric lipid membranes containing phospholipids and other lipids in a bilayer configuration separated by aqueous compartments. It is a relatively stable but non-covalently-bound complex of saponin adjuvant Quil-A, cholesterol and amphipathic antigen in a molar ratio of approximately 1:1:1. The spectrum of viral capsid antigens and non-viral amphipathic antigens of relevance for human vaccination, incorporated into ISCOMs, comprises influenza, measles, rabies, gp340 from EB-virus, gp120 from HIV, Plasmodium falciparum and Trypanosoma cruzi.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://www.vaccination.inoz.com/adjuvants.html</obo:IAO_0000119>
         <rdfs:label>liposome-based vaccine adjuvant</rdfs:label>
@@ -456,7 +435,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=37844250</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000757">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001356"/>
-        <obo:IAO_0000115>A particulate antigen delivery system that consists of an assembly of antigens in multimeric form and presents an antigen to induce specific immunologic responses. The assembly is attached to a matrix with a built-in adjuvant, saponin. ISCOMs induce strong serum antibody responses, and are used as highly immunogenic forms of subunit vaccines. MeSH term: D20.215.894.860.449.</obo:IAO_0000115>
+        <obo:IAO_0000115>A particulate antigen delivery system vaccine adjuvant that consists of an assembly of antigens in multimeric form and presents an antigen to induce specific immunologic responses. The assembly is attached to a matrix with a built-in adjuvant, saponin. ISCOMs induce strong serum antibody responses, and are used as highly immunogenic forms of subunit vaccines. MeSH term: D20.215.894.860.449.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>ISCOM</obo:IAO_0000118>
         <obo:IAO_0000118>The immunostimulating complex</obo:IAO_0000118>
@@ -1415,7 +1394,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=37844250</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001333">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001356"/>
-        <obo:IAO_0000115>A particulate antigen delivery system that is a vaccine adjuvant comprising cholesterol, phospholipid and saponin but without antigen.</obo:IAO_0000115>
+        <obo:IAO_0000115>A particulate antigen delivery system vaccine adjuvant that is a vaccine adjuvant comprising cholesterol, phospholipid and saponin but without antigen.</obo:IAO_0000115>
         <obo:IAO_0000116>ISCOMATRIX is identical to ISCOMs except that it does not contain antigen. Ref: PMID: 17336431.</obo:IAO_0000116>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:19450632</obo:IAO_0000119>
@@ -1441,7 +1420,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=37844250</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001356"/>
-        <obo:IAO_0000115>A particulate antigen delivery system  that is albumin-heparin microparticles vaccine adjuvant that is prepared from albumin and heparin stabilized by cross-linking reaction with EDC.</obo:IAO_0000115>
+        <obo:IAO_0000115>A particulate antigen delivery system vaccine adjuvant  that is albumin-heparin microparticles vaccine adjuvant that is prepared from albumin and heparin stabilized by cross-linking reaction with EDC.</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:16734558</obo:IAO_0000119>
         <rdfs:label>albumin-heparin microparticles vaccine adjuvant</rdfs:label>
@@ -1698,7 +1677,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=37844250</obo:IAO_0000116>
         <obo:IAO_0000115>A vaccine adjuvant that serves as a particulate antigen delivery system.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
-        <rdfs:label>particulate antigen delivery system</rdfs:label>
+        <rdfs:label>particulate antigen delivery system vaccine adjuvant</rdfs:label>
     </owl:Class>
     
 
@@ -2412,7 +2391,7 @@ Point of Contact: Carolina Lopez, University of Washington at St Louis</obo:IAO_
         <obo:IAO_0000119>https://vac.niaid.nih.gov/view?id=30</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=24099876</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/?term=29861183</obo:IAO_0000119>
-        <rdfs:label>DDO (Defective viral genome-Derived Oligonucleotide) vaccine adjuvant</rdfs:label>
+        <rdfs:label>defective viral genome-derived oligonucleotide vaccine adjuvant</rdfs:label>
     </owl:Class>
     
 
@@ -5032,8 +5011,8 @@ https://clinicaltrials.gov/ct2/show/NCT02464163</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0006102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <obo:IAO_0000115>A vaccine adjuvant which is an oligonucleotide.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0006109"/>
+        <obo:IAO_0000115>A nucleic acid vaccine adjuvant that is primarily composed of oligonucleotide.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <rdfs:label>oligonucleotide vaccine adjuvant</rdfs:label>
     </owl:Class>
@@ -5154,7 +5133,7 @@ Point of Contact: Ofer Levy, Precision Vaccines Program at Boston Children&apos;
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An emulsion vaccine adjuvant that targets on TLR-agonist for target. It is a nucleic acid-based adjuvant for chemical nature</obo:IAO_0000115>
+        <obo:IAO_0000115>An emulsion vaccine adjuvant that targets on TLR-agonist. It is a nucleic acid-based adjuvant for chemical nature</obo:IAO_0000115>
         <obo:IAO_0000116>Chemical Nature: Nucleic acid, Emulsion
 Mechanism of Action: Innate Immune Activation, preferential uptake by APCs
 Immune profile induced: Th1-biased
@@ -5176,6 +5155,105 @@ https://clinicaltrials.gov/ct2/show/NCT05385991</obo:IAO_0000116>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/690</obo:IAO_0000233>
         <obo:VO_0005328>92</obo:VO_0005328>
         <rdfs:label>ACM-CpG vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001356"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A particulate antigen delivery system vaccine adjuvant derived from Cowpea mosaic virus that is able to induce a Th1-biased response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Nucleoprotein complex
+Mechanism of Action: recognized by PRRs
+Immune profile induced: Th1-biased
+
+Route of immunization: Intratumoral, intraperitoneally , IV
+Point of Contact: Nicole Steinmetz, University of California, San Diego
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=26689376
+https://www.ncbi.nlm.nih.gov/pubmed/?term=37844250
+
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Nicole Steinmetz</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000117>Wolfgang Leitner</obo:IAO_0000117>
+        <obo:IAO_0000118>Cowpea mosaic virus</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:26689376</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:37844250</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/684</obo:IAO_0000233>
+        <obo:VO_0005328>93</obo:VO_0005328>
+        <rdfs:label>cowpea mosaic virus vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0006109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A nucleic acid vaccine adjuvant that targets on TLR3 agonist to induce a mixed Th1/Th2 response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: dsRNA
+Mechanism of Action: TLR3 agonist
+Immune profile induced: Mixed Th1/Th2
+category: nucleic-acid based adjuvant (TLR-agonist)
+synthetic derivative of natural compound
+Route of immunization: IM
+Point of Contact: Seungbin Cha, NA Vaccine Institute
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=36761735
+https://www.ncbi.nlm.nih.gov/pubmed/?term=38136298
+
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000117>Seungbin Cha</obo:IAO_0000117>
+        <obo:IAO_0000118>Nexavant</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:36761735</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:38136298</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/694</obo:IAO_0000233>
+        <obo:VO_0005328>94</obo:VO_0005328>
+        <rdfs:label>nexavant vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0006109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <obo:IAO_0000115>A vaccine adjuvant that is primarily composed of nucleic acid.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <rdfs:label>nucleic acid vaccine adjuvant</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
