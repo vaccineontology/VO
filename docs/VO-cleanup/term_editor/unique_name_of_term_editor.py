@@ -17,7 +17,7 @@ def process_file(filename):
         return None, filename
 
 # Specify the path to your CSV files
-path = r'C:\Users\00000\Downloads\VO-master\src\templates\*.csv'
+path = r'C:\Users\00000\Downloads\VO\src\templates\*.csv'
 
 # Get a list of all CSV files in the specified directory
 csv_files = glob.glob(path)
@@ -35,7 +35,7 @@ for file in csv_files:
 print("Files not encoded in UTF-8:", non_utf8_files)
 
 # Step 1: Read the CSV file
-with open('C:\\Users\\00000\\Downloads\\VO-master\\src\\templates\\cancer_vaccine.csv', 'r', encoding='latin-1') as f_in:
+with open('C:\\Users\\00000\\Downloads\\VO\\src\\templates\\cancer_vaccine.csv', 'r', encoding='latin-1') as f_in:
     reader = csv.DictReader(f_in)
     term_editors = []
     next(reader)
