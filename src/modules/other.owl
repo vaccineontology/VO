@@ -1924,6 +1924,12 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000091"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000713"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>vaccine allergen is a material entity that is capable of stimulating a type-I hypersensitivity reaction in atopic individuals who has been vaccinated with a vaccine.</obo:IAO_0000115>
         <obo:IAO_0000117> ZX</obo:IAO_0000117>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
@@ -2299,10 +2305,15 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001170">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001182"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000506"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001182"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000506"/>
         <rdfs:subClassOf>
@@ -2335,10 +2346,15 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001232">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110034"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110034"/>
         <rdfs:subClassOf>
@@ -2944,6 +2960,12 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004019"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007654"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A cancer that is caused by human papillomavirus (HPV) infection. HPV infection can lead to six types of cancer including anal, cervical, oropharyngeal, penile, vaginal, and vulvar cancer.</obo:IAO_0000115>
         <obo:IAO_0000116>placeholder, will send new term requst to DOID</obo:IAO_0000116>
         <obo:IAO_0000117> Anna Maria Masci</obo:IAO_0000117>
