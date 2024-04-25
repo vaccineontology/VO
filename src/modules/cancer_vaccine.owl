@@ -423,12 +423,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000547"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003053"/>
             </owl:Restriction>
@@ -452,7 +446,6 @@
         <obo:IAO_0000119>https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm134033.htm</obo:IAO_0000119>
         <obo:VO_0001818>351</obo:VO_0001818>
         <obo:VO_0005500>Clinical trial</obo:VO_0005500>
-        <oboInOwl:hasDbXref>CVX:19</oboInOwl:hasDbXref>
         <rdfs:label>TICE BCG</rdfs:label>
     </owl:Class>
     
