@@ -40,6 +40,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -253,6 +259,25 @@ Reference: https://www.fda.gov/biologicsbloodvaccines/vaccines/approvedproducts/
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
         <rdfs:label>status of vaccine development</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_1000000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_1000000">
+        <obo:IAO_0000115>An annotation property that refers to full vaccine name in CVX code set.</obo:IAO_0000115>
+        <rdfs:label>CVX full vaccine name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_1000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_1000001">
+        <obo:IAO_0000115>An annotation property that refers to short description in CVX code set.</obo:IAO_0000115>
+        <rdfs:label>CVX short description</rdfs:label>
     </owl:AnnotationProperty>
 </rdf:RDF>
 
