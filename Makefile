@@ -104,8 +104,20 @@ CVO/cvo.owl: vo.owl src/views/cvo.txt | build/robot.jar
 	--ontology-iri "$(OBO)/vo/cvo.owl" \
 	--version-iri "$(OBO)/vo/releases/$(TODAY)/cvo.owl" \
 	--output $@
+
+CVX-VO/cvx-vo.owl: vo.owl src/views/cvx-vo.txt | build/robot.jar
+	$(ROBOT) extract \
+	--input $< \
+	--method STAR \
+	--term-file $(word 2,$^) \
+	--individuals definitions \
+	--copy-ontology-annotations true \
+	annotate \
+	--ontology-iri "$(OBO)/vo/cvx-vo.owl" \
+	--version-iri "$(OBO)/vo/releases/$(TODAY)/cvx-vo.owl" \
+	--output $@
 .PHONY: views
-views: CVO/cvo.owl
+views: CVO/cvo.owl CVX-VO/cvx-vo.owl
 
 
 ### Build
@@ -151,7 +163,7 @@ vo_terms.tsv: build/vo-merged.owl
 #
 # Full build
 .PHONY: all
-all: vo.owl robot_report.tsv vo_terms.tsv
+all: vo.owl robot_report.tsv vo_terms.tsv CVO/cvo.owl CVX-VO/cvx-vo.owl
 
 # Remove generated files
 .PHONY: clean
