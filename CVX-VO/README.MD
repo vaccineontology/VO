@@ -9,7 +9,7 @@ This is a project collaboratively conducted by Dr. Oliver He's lab in the Univer
 ## Links: to the VO-CVX code mapping csv file: 
 - https://github.com/vaccineontology/VO/blob/master/src/templates/vo_CVX_code.csv
 
-## Link: CVX code:  
-
+## Link: CVX mapped VO code:  
+https://raw.githubusercontent.com/vaccineontology/VO/master/CVX-VO/cvx-vo.owl 
 
 
