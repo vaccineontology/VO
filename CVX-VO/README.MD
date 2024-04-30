@@ -16,10 +16,8 @@ Cui Lab:
 - Rashmie Abeyshinghe
 - Licong Cui
 
-## Links: to the VO-CVX code mapping csv file: 
-- https://github.com/vaccineontology/VO/blob/master/src/templates/vo_CVX_code.csv
-
-## Link: CVX mapped VO code:  
-https://raw.githubusercontent.com/vaccineontology/VO/master/CVX-VO/cvx-vo.owl 
+## Links
+- VO-CVX code mapping csv file: https://github.com/vaccineontology/VO/blob/master/src/templates/vo_CVX_code.csv
+- CVX mapped VO code: https://raw.githubusercontent.com/vaccineontology/VO/master/CVX-VO/cvx-vo.owl 
 
 
