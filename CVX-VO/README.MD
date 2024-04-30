@@ -6,6 +6,16 @@ This is a project collaboratively conducted by Dr. Oliver He's lab in the Univer
 
 ## Developers:  
 
+He Lab:
+- Yuanyi "Penny" Pan
+- Jie Zheng
+- Oliver He
+
+Cui Lab: 
+- Warren Manuel
+- Rashmie Abeyshinghe
+- Licong Cui
+
 ## Links: to the VO-CVX code mapping csv file: 
 - https://github.com/vaccineontology/VO/blob/master/src/templates/vo_CVX_code.csv
 
