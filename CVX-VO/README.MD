@@ -19,6 +19,9 @@ Cui Lab:
 - Licong Cui
 
 ## Links
+- CVX background web links:
+  - https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx
+  - https://www.nlm.nih.gov/research/umls/rxnorm/sourcereleasedocs/cvx.html 
 - VO-CVX code mapping csv file: https://github.com/vaccineontology/VO/blob/master/src/templates/vo_CVX_code.csv
 - CVX mapped VO code: https://raw.githubusercontent.com/vaccineontology/VO/master/CVX-VO/cvx-vo.owl 
 
