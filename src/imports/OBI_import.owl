@@ -710,7 +710,7 @@ objectives is a planned process.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003610"/>
         <obo:IAO_0000111>reagent role</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Buffer, dye, a catalyst, a solvating agent.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -945,20 +945,35 @@ for now.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0000281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000281">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000429"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000422"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000426"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000429"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000434"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111>intraperitoneal injection</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>is the injection of a material entity (bearing the administered substance role) into the peritoneum (bearing the target role) of an organism using a syringe</obo:IAO_0000115>
         <obo:IAO_0000117>BP</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label xml:lang="en">intraperitoneal injection</rdfs:label>
+        <rdfs:label>intraperitoneal injection</rdfs:label>
     </owl:Class>
     
 
@@ -1068,20 +1083,35 @@ for now.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0000429 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000429">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0600007"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000319"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002358"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600007"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000434"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111>intraperitoneal administration</obo:IAO_0000111>
         <obo:IAO_0000112>Rats were injected intraperitoneally with either rrIL-6 (250 ng/0.5 ml) or equal-volume sterile saline twice within an interval of 24 h</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115>The administration of a substance into the peritoneum of an organism</obo:IAO_0000115>
         <obo:IAO_0000117>Person:Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label xml:lang="en">intraperitoneal administration</rdfs:label>
+        <rdfs:label>intraperitoneal administration</rdfs:label>
     </owl:Class>
     
 
@@ -1691,6 +1721,23 @@ for now.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000852">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000111>record of missing knowledge</obo:IAO_0000111>
+        <obo:IAO_0000112>A statement in a journal article indicating that the age of a patient at the onset of disease is not known. A statement indicating that the weight of a mouse was not measured.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>An information content entity created to indicate that information about something is not available to the person recording it.</obo:IAO_0000115>
+        <obo:IAO_0000116>This class should probably end up in IAO. It could be further breaken down to indicate different kinds of lack of knowledge, e.g. inability to determine something vs. no attempt made to determine something vs. no informatino available if it was even attempted to determine something. The design pattern should be generalizable. &apos;unknown sex&apos; is the first example, and needed immediately.</obo:IAO_0000116>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119></obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>record of missing knowledge</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000938 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000938">
@@ -1823,6 +1870,20 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000119>IEDB</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>in vivo challenge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000111 xml:lang="en">reactant role</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A role borne by a biological or chemical entity that participates or has molecular components that participate in a chemical reaction.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sebastian Duesing</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">reactant role</rdfs:label>
     </owl:Class>
     
 
@@ -2079,7 +2140,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0302732 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0302732">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003610"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
@@ -2187,6 +2248,37 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0600007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600007">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000319"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000444"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000111 xml:lang="en">administering substance in vivo</obo:IAO_0000111>
         <obo:IAO_0000112>Balb/c mice received an intracameral or subconjunctival injection of trinitrophenylated spleen cells</obo:IAO_0000112>
@@ -2231,9 +2323,21 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OGMS_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000063"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002358"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
 
