@@ -1502,7 +1502,6 @@
         <oboInOwl:hasBroadSynonym>BRS</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>BRSV</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Bovine respiratory syncytial virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>bovine RSV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>bovine respiratory syncytial virus BRSV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -1518,10 +1517,10 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <oboInOwl:hasBroadSynonym>HRSV</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Human respiratory syncytial virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Human orthopneumovirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>human RSV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <rdfs:label>Human orthopneumovirus</rdfs:label>
+        <rdfs:label>human respiratory syncytial virus</rdfs:label>
     </owl:Class>
     
 
@@ -2153,6 +2152,7 @@
         <oboInOwl:hasRelatedSynonym>Firmacutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Firmicuteota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Firmicutes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicutes corrig. Gibbons and Murray 1978 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Low G+C firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>clostridial firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>firmicutes</oboInOwl:hasRelatedSynonym>
@@ -2659,6 +2659,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_149539">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59201"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:1245786</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:2588446</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:2588447</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:41533</oboInOwl:hasAlternativeId>
@@ -2837,7 +2838,7 @@
         <oboInOwl:hasBroadSynonym>HMPV</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <rdfs:label>Human metapneumovirus</rdfs:label>
+        <rdfs:label>human metapneumovirus</rdfs:label>
     </owl:Class>
     
 
@@ -3402,6 +3403,7 @@
         <oboInOwl:hasDbXref>PMID:1704793</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19801389</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29034857</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:38530055</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Campylobacter</rdfs:label>
     </owl:Class>
@@ -3479,6 +3481,11 @@
         <oboInOwl:hasAlternativeId>NCBITaxon:3042485</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:3042486</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:3042488</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:3109033</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:3109035</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:3109036</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:3109054</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:3109055</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11321120</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -4851,7 +4858,6 @@
         <oboInOwl:hasAlternativeId>NCBITaxon:11232</oboInOwl:hasAlternativeId>
         <oboInOwl:hasBroadSynonym>CDV</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Canine distemper virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Canine morbillivirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>canine distemper virus CDV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -4890,6 +4896,7 @@
         <oboInOwl:hasAlternativeId>NCBITaxon:1511906</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Carnivore protoparvovirus 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Protoparvovirus carnivoran 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Protoparvovirus carnivoran1</rdfs:label>
     </owl:Class>
@@ -5356,7 +5363,7 @@
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Avian pneumovirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <rdfs:label>Avian metapneumovirus</rdfs:label>
+        <rdfs:label>avian metapneumovirus</rdfs:label>
     </owl:Class>
     
 
@@ -8016,10 +8023,10 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>whales, hippos, ruminants, pigs, camels etc.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>even-toed ungulates &amp; whales</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Cetartiodactyla</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>even-toed ungulates</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>even-toed ungulates &amp; whales</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Artiodactyla</rdfs:label>
     </owl:Class>
     
