@@ -225,6 +225,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
@@ -318,6 +324,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000712"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000852"/>
     
 
 
@@ -3001,6 +3013,31 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>tumor antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that specify no vaccine adminstered.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>no vaccine administered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000852"/>
+        <obo:IAO_0000115>A record of missing knowledge indicating that vaccine or immune globulin is unknown.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>unknown vaccine or immune globulin</obo:IAO_0000118>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>record of unknown vaccine or immune globulin</rdfs:label>
     </owl:Class>
     
 
