@@ -73,6 +73,7 @@ src/modules/%.owl: src/templates/%.csv | build/robot.jar
 # Update all modules
 MODULE_NAMES := cancer_vaccine\
  vaccine\
+ vaccine_RxNorm\
  vaccine_adjuvant\
  vaccine_component\
  brand_name\
