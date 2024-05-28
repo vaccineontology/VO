@@ -81,6 +81,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0015076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015076"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1800,6 +1806,46 @@ http://www.hoovers.com/company-information/cs/company-profile.advent_srl.aebb99e
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.syneoshealth.com</obo:IAO_0000119>
         <rdfs:label>Syneos Health</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015078 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/VO_0015078">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/VO_0015076"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <rdfs:label>Box of 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015079 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/VO_0015079">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/VO_0015076"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <rdfs:label>Box of 10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015082 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/VO_0015082">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/VO_0015076"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <rdfs:label>Box of 20</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015083 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/VO_0015083">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/VO_0015076"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <rdfs:label>Box of 50</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 

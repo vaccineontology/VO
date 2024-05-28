@@ -237,6 +237,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0020000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IDO_0000586 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000586"/>
@@ -3038,6 +3044,111 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000118>unknown vaccine or immune globulin</obo:IAO_0000118>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>record of unknown vaccine or immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity of a drug based on their general physical form and how they are administered.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>dose form group</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.nlm.nih.gov/research/umls/rxnorm/docs/appendix3.html</obo:IAO_0000119>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>drug form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015061"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>injectable product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015062"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>prefilled syringe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015062"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>injectable suspension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015062"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>injectable solution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015062"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>injection</obo:IAO_0000118>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>injection form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015061"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>intramuscular solution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>drug package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115>An identifier for a family of drug products containing a specific active ingredient.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.nlm.nih.gov/research/umls/rxnorm/docs/appendix5.html</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>drug brand name</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

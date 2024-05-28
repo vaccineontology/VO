@@ -73,8 +73,10 @@ src/modules/%.owl: src/templates/%.csv | build/robot.jar
 # Update all modules
 MODULE_NAMES := cancer_vaccine\
  vaccine\
+ vaccine_RxNorm\
  vaccine_adjuvant\
  vaccine_component\
+ brand_name\
  data_item\
  process\
  site\
@@ -85,6 +87,7 @@ MODULE_NAMES := cancer_vaccine\
  vo_annotationProp\
  vo_objectProp\
  vo_CVX_code\
+ vo_RxNorm\
  obsolete
 
 MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/modules/$(x).owl)
