@@ -170,7 +170,7 @@ Reference: https://www.fda.gov/biologicsbloodvaccines/vaccines/approvedproducts/
     <!-- http://purl.obolibrary.org/obo/VO_0003198 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003198">
-        <rdfs:label>RxNORM ID</rdfs:label>
+        <rdfs:label>RxNorm ID</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -195,7 +195,7 @@ Reference: https://www.fda.gov/biologicsbloodvaccines/vaccines/approvedproducts/
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003560">
         <obo:IAO_0000112>As seen: http://purl.bioontology.org/ontology/RXNORM/901644, the RxNORM vaccine term &quot;Prevnar 13 vaccine 0.5 ML Prefilled Syringe&quot; has Preferred Name of: 0.5 ML Streptococcus pneumoniae serotype 1 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 14 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 18C capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 19A capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 19F capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 23F capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 3 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 4 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 5 capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 6A capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 6B capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0088 MG/ML / Streptococcus pneumoniae serotype 7F capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML / Streptococcus pneumoniae serotype 9V capsular antigen diphtheria CRM197 protein conjugate vaccine 0.0044 MG/ML Prefilled Syringe [Prevnar 13]&quot;. In this case, the whole preferred name is annotated under the annotation property &quot;RxNORM Preferred Name&quot;.</obo:IAO_0000112>
-        <rdfs:label>RxNORM Preferred Name</rdfs:label>
+        <rdfs:label>RxNorm Preferred Name</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -259,6 +259,24 @@ Reference: https://www.fda.gov/biologicsbloodvaccines/vaccines/approvedproducts/
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
         <rdfs:label>status of vaccine development</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010151 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0010151">
+        <obo:IAO_0000115>An annotation property that represents an identifier of RxNorm or RxNorm extension concept assigned by OMOP.</obo:IAO_0000115>
+        <rdfs:label>OMOP concept ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010152 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0010152">
+        <obo:IAO_0000115>An annotation property that represents an identifier of RxNorm extension term assigned by OMOP.</obo:IAO_0000115>
+        <rdfs:label>RxNorm OMOP extension ID</rdfs:label>
     </owl:AnnotationProperty>
     
 
