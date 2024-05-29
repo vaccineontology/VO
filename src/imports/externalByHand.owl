@@ -128,7 +128,16 @@
         <rdfs:label>mesothelioma</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
     </owl:Class>
+
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85994">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>A test to determine if a subject has ever had a tuberculosis infection. A small amount of purified tuberculosis protein is placed under the skin of the forearm and a positive skin reaction indicates previous exposure to Mycobacterium tuberculosis.</obo:IAO_0000115>
+        <rdfs:label>Tuberculin Skin Test</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
 </rdf:RDF>
+
 
 
 
