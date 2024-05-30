@@ -285,12 +285,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C85994 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85994"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000055"/>
@@ -3058,54 +3052,6 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000119>https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>reserved cvx code for not using</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010230 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010230">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85994"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118>TST-OT tine test</obo:IAO_0000118>
-        <oboInOwl:inSubset>assay</oboInOwl:inSubset>
-        <rdfs:label>tuberculin skin test; old tuberculin, multipuncture device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010231 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010231">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85994"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118>TST-PPD intradermal</obo:IAO_0000118>
-        <oboInOwl:inSubset>assay</oboInOwl:inSubset>
-        <rdfs:label>tuberculin skin test; purified protein derivative solution, intradermal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010232 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85994"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118>TST-PPD tine test</obo:IAO_0000118>
-        <oboInOwl:inSubset>assay</oboInOwl:inSubset>
-        <rdfs:label>tuberculin skin test; purified protein derivative, multipuncture device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010233 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85994"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000118>TST, unspecified formulation</obo:IAO_0000118>
-        <oboInOwl:inSubset>assay</oboInOwl:inSubset>
-        <rdfs:label>tuberculin skin test; unspecified formulation</rdfs:label>
     </owl:Class>
     
 
