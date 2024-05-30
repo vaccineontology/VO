@@ -76,7 +76,6 @@ MODULE_NAMES := cancer_vaccine\
  vaccine_RxNorm\
  vaccine_adjuvant\
  vaccine_component\
- brand_name\
  data_item\
  process\
  site\
