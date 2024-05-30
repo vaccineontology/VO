@@ -1,4 +1,6 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative label@en
+ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term@en
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
@@ -94,6 +96,7 @@ WARN	annotation_whitespace	OMO:0001002	IAO:0000116	This obsolesence reason shoul
 WARN	annotation_whitespace	OPL:0000359	IAO:0000116	Tachyzoites can be found in various organs and tissues during the acute phase of Toxoplasma gondii infection, including lymph nodes, spleen, liver, lungs, and the central nervous system. 
 WARN	annotation_whitespace	RO:0002093	rdfs:comment	X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). @en
 WARN	annotation_whitespace	RO:0002161	IAO:0000425	Class: ?X DisjointWith: RO_0002162 some ?Y 
+WARN	annotation_whitespace	VO:0000018	IAO:0000115	A Brucella abortus vaccine that expresses Cu/Zn SOD with DNA plasmid pcDNA. 
 WARN	annotation_whitespace	VO:0000031	IAO:0000115	A vaccine for active immunization to prevent invasive disease caused by Neisseria meningitidis serogroups C and Y and Haemophilus influenzae type b. MENHIBRIX is approved for use in children 6 weeks of age through 18 months of age. 
 WARN	annotation_whitespace	VO:0000035	IAO:0000115	a vaccinia virus vaccine that is a freeze-dried calf lymph smallpox vaccine, specifically, Dryvax is a live-virus preparation of vaccinia prepared from calf lymph. 
 WARN	annotation_whitespace	VO:0000048	IAO:0000117	 YL
@@ -102,6 +105,7 @@ WARN	annotation_whitespace	VO:0000069	IAO:0000115	A Measles-Mumps-Rubella vaccin
 WARN	annotation_whitespace	VO:0000070	IAO:0000115	A Measles-Mumps vaccine that is manufactured by Merck and used for human. 
 WARN	annotation_whitespace	VO:0000079	IAO:0000115	an influenza vaccine that is similar to Fluzone but has high dose. 
 WARN	annotation_whitespace	VO:0000091	IAO:0000115	A Measles-Mumps-Rubella-Vericella vaccine that is live and manufactured by Merck & Co, Inc. 
+WARN	annotation_whitespace	VO:0000096	rdfs:seeAlso	 UMLS_CUI: C0695130
 WARN	annotation_whitespace	VO:0000137	IAO:0000115	A vaccine role that indicates the vaccine being a combination vaccine. 
 WARN	annotation_whitespace	VO:0000145	IAO:0000115	a vaccine component role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. 
 WARN	annotation_whitespace	VO:0000147	IAO:0000115	an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. 
@@ -172,7 +176,7 @@ WARN	annotation_whitespace	VO:0000642	rdfs:comment	"There is no single 'influenz
 ('unidentified influenza virus' or 'Influenzavirus A' or 'Influenzavirus B' or 'Influenzavirus C')
 However, even this may not be comprehensive. "
 WARN	annotation_whitespace	VO:0000663	IAO:0000115	A live attenuated Shigella flexneri 2a vaccine that carries deletions of the plasmid-borne virulence gene icsA (mediating intra- and intercellular spread) and the chromosomal locus iuc (encoding aerobactin). 
-WARN	annotation_whitespace	VO:0000671	IAO:0000115	a Salmonella vaccine against typhoid fever (or called typoid), caused by Salmonella enterica enterica, serovar Typhi. 
+WARN	annotation_whitespace	VO:0000671	IAO:0000115	A Salmonella vaccine against typhoid fever (or called typoid), caused by Salmonella enterica enterica, serovar Typhi. 
 WARN	annotation_whitespace	VO:0000675	IAO:0000115	a Streptococcal vaccine that is used against S. pneumoniae infection, which causes pneumococcal diseases. 
 WARN	annotation_whitespace	VO:0000685	IAO:0000115	a recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine 
 WARN	annotation_whitespace	VO:0000692	IAO:0000115	A subunit vaccine role that indicates the vaccine being a peptide vaccine. 
@@ -903,21 +907,20 @@ WARN	annotation_whitespace	VO:0011371	IAO:0000117	Oliver He
 WARN	annotation_whitespace	VO:0011373	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0011507	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0011510	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0015978	IAO:0000117	 YH
-WARN	duplicate_exact_synonym	VO:0000436	IAO:0000118	pCIBLSOmp31
-WARN	duplicate_exact_synonym	VO:0001144	IAO:0000118	pCIBLSOmp31
-WARN	duplicate_exact_synonym	VO:0001017	IAO:0000118	Marek's; disease virus
-WARN	duplicate_exact_synonym	VO:0012162	IAO:0000118	Marek's; disease virus
-WARN	duplicate_exact_synonym	NCBITaxon:38568	oboInOwl:hasExactSynonym	Leishmania
-WARN	duplicate_exact_synonym	NCBITaxon:5658	oboInOwl:hasExactSynonym	Leishmania
-WARN	duplicate_exact_synonym	NCBITaxon:117565	oboInOwl:hasExactSynonym	fishes
-WARN	duplicate_exact_synonym	NCBITaxon:7898	oboInOwl:hasExactSynonym	fishes
-WARN	duplicate_exact_synonym	NCBITaxon:117565	oboInOwl:hasExactSynonym	fish
-WARN	duplicate_exact_synonym	NCBITaxon:7898	oboInOwl:hasExactSynonym	fish
-WARN	duplicate_exact_synonym	VO:0000942	IAO:0000118	DTP-Hib vaccine
-WARN	duplicate_exact_synonym	VO:0003169	IAO:0000118	DTP-Hib vaccine
-WARN	duplicate_exact_synonym	VO:0000738	IAO:0000118	DTP vaccine
-WARN	duplicate_exact_synonym	VO:0003106	IAO:0000118	DTP vaccine
+WARN	duplicate_exact_synonym	VO:0000436	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0001144	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0001347	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0005419	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0001017	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0012162	IAO:0000118	
+WARN	duplicate_exact_synonym	NCBITaxon:38568	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	NCBITaxon:5658	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	NCBITaxon:117565	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	NCBITaxon:7898	oboInOwl:hasExactSynonym	
+WARN	duplicate_exact_synonym	VO:0000942	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0003169	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0000738	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0003106	IAO:0000118	
 WARN	duplicate_label_synonym	CHEBI:15882	oboInOwl:hasExactSynonym	phenol
 WARN	duplicate_label_synonym	CHEBI:16199	oboInOwl:hasExactSynonym	urea
 WARN	duplicate_label_synonym	CHEBI:16842	oboInOwl:hasExactSynonym	formaldehyde
@@ -948,7 +951,6 @@ WARN	duplicate_label_synonym	VO:0000017	IAO:0000118	killed vaccine
 WARN	duplicate_label_synonym	VO:0003390	IAO:0000118	acellular pertussis vaccine, inactivated
 WARN	duplicate_label_synonym	VO:0003800	IAO:0000118	0.5 ML Shingrix 0.1 MG/ML Injection
 WARN	duplicate_label_synonym	VO:0005462	IAO:0000118	Influenza, injectable,quadrivalent, preservative free, pediatric
-WARN	duplicate_label_synonym	VO:0005463	IAO:0000118	Influenza, injectable, MDCK, quadrivalent, preservative
 WARN	duplicate_label_synonym	VO:0006001	IAO:0000118	botulinum antitoxin
 WARN	duplicate_label_synonym	VO:0006003	IAO:0000118	cholera BivWC
 WARN	duplicate_label_synonym	VO:0006004	IAO:0000118	cholera live attenuated
@@ -974,6 +976,8 @@ WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrate
 WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
 WARN	duplicate_scoped_synonym	NCBITaxon:8782	oboInOwl:hasExactSynonym	birds
 WARN	duplicate_scoped_synonym	NCBITaxon:8782	oboInOwl:hasRelatedSynonym	birds
+WARN	duplicate_scoped_synonym	NCBITaxon:91561	oboInOwl:hasExactSynonym	even-toed ungulates & whales
+WARN	duplicate_scoped_synonym	NCBITaxon:91561	oboInOwl:hasRelatedSynonym	even-toed ungulates & whales
 WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasExactSynonym	fertilized egg stage
 WARN	duplicate_scoped_synonym	UBERON:0000106	oboInOwl:hasRelatedSynonym	fertilized egg stage
 WARN	equivalent_class_axiom_no_genus	OBI:0000070	OBI:0000417	OBI:0000441
@@ -985,174 +989,6 @@ WARN	equivalent_class_axiom_no_genus	OBI:0000673	OBI:0000417	OBI:0000675
 WARN	equivalent_class_axiom_no_genus	OBI:0000838	OBI:0000417	OBI:0000806
 WARN	equivalent_class_axiom_no_genus	OBI:0200000	OBI:0000417	OBI:0200166
 WARN	equivalent_class_axiom_no_genus	OBI:1110034	RO:0000087	OBI:0000237
-WARN	equivalent_class_axiom_no_genus	VO:0000001	RO:0000087	VO:0000615
-WARN	equivalent_class_axiom_no_genus	VO:0000025	VO:0003355	NCBITaxon:234
-WARN	equivalent_class_axiom_no_genus	VO:0000032	RO:0000087	VO:0000623
-WARN	equivalent_class_axiom_no_genus	VO:0000041	VO:0003355	NCBITaxon:562
-WARN	equivalent_class_axiom_no_genus	VO:0000048	RO:0000087	VO:0001361
-WARN	equivalent_class_axiom_no_genus	VO:0000077	VO:0003355	NCBITaxon:1773
-WARN	equivalent_class_axiom_no_genus	VO:0000087	VO:0003355	NCBITaxon:5833
-WARN	equivalent_class_axiom_no_genus	VO:0000165	VO:0003355	NCBITaxon:2
-WARN	equivalent_class_axiom_no_genus	VO:0000177	VO:0001011	DOID:162
-WARN	equivalent_class_axiom_no_genus	VO:0000186	RO:0000087	VO:0000728
-WARN	equivalent_class_axiom_no_genus	VO:0000195	RO:0000087	VO:0000625
-WARN	equivalent_class_axiom_no_genus	VO:0000267	VO:0003355	NCBITaxon:4751
-WARN	equivalent_class_axiom_no_genus	VO:0000315	RO:0000086	VO:0000211
-WARN	equivalent_class_axiom_no_genus	VO:0000362	RO:0000087	VO:0000194
-WARN	equivalent_class_axiom_no_genus	VO:0000363	RO:0000087	VO:0000630
-WARN	equivalent_class_axiom_no_genus	VO:0000367	RO:0000086	VO:0000173
-WARN	equivalent_class_axiom_no_genus	VO:0000370	RO:0000086	VO:0000612
-WARN	equivalent_class_axiom_no_genus	VO:0000393	VO:0003355	NCBITaxon:287
-WARN	equivalent_class_axiom_no_genus	VO:0000417	VO:0003355	VO:0000333
-WARN	equivalent_class_axiom_no_genus	VO:0000422	VO:0001011	DOID:1909
-WARN	equivalent_class_axiom_no_genus	VO:0000484	RO:0000087	VO:0000636
-WARN	equivalent_class_axiom_no_genus	VO:0000534	RO:0000087	VO:0000624
-WARN	equivalent_class_axiom_no_genus	VO:0000550	RO:0000085	VO:0000562
-WARN	equivalent_class_axiom_no_genus	VO:0000561	RO:0000087	VO:0000807
-WARN	equivalent_class_axiom_no_genus	VO:0000566	VO:0003355	NCBITaxon:662
-WARN	equivalent_class_axiom_no_genus	VO:0000577	RO:0000087	VO:0000692
-WARN	equivalent_class_axiom_no_genus	VO:0000580	RO:0000087	VO:0000147
-WARN	equivalent_class_axiom_no_genus	VO:0000609	VO:0003355	NCBITaxon:10239
-WARN	equivalent_class_axiom_no_genus	VO:0000635	RO:0000087	VO:0000489
-WARN	equivalent_class_axiom_no_genus	VO:0000640	VO:0003355	NCBITaxon:1513
-WARN	equivalent_class_axiom_no_genus	VO:0000646	VO:0003355	NCBITaxon:12092
-WARN	equivalent_class_axiom_no_genus	VO:0000667	VO:0003355	NCBITaxon:10566
-WARN	equivalent_class_axiom_no_genus	VO:0000675	VO:0003355	NCBITaxon:1313
-WARN	equivalent_class_axiom_no_genus	VO:0000679	VO:0003355	NCBITaxon:624
-WARN	equivalent_class_axiom_no_genus	VO:0000680	VO:0003355	NCBITaxon:623
-WARN	equivalent_class_axiom_no_genus	VO:0000681	VO:0003355	NCBITaxon:622
-WARN	equivalent_class_axiom_no_genus	VO:0000714	RO:0000087	VO:0000605
-WARN	equivalent_class_axiom_no_genus	VO:0000726	VO:0003355	NCBITaxon:205488
-WARN	equivalent_class_axiom_no_genus	VO:0000735	VO:0003355	NCBITaxon:1717
-WARN	equivalent_class_axiom_no_genus	VO:0000758	VO:0003355	NCBITaxon:5855
-WARN	equivalent_class_axiom_no_genus	VO:0000761	VO:0003355	NCBITaxon:5820
-WARN	equivalent_class_axiom_no_genus	VO:0000762	VO:0003355	NCBITaxon:38568
-WARN	equivalent_class_axiom_no_genus	VO:0000766	VO:0003355	NCBITaxon:286
-WARN	equivalent_class_axiom_no_genus	VO:0000767	VO:0003355	NCBITaxon:780
-WARN	equivalent_class_axiom_no_genus	VO:0000768	VO:0003355	NCBITaxon:590
-WARN	equivalent_class_axiom_no_genus	VO:0000769	VO:0003355	NCBITaxon:620
-WARN	equivalent_class_axiom_no_genus	VO:0000770	VO:0003355	NCBITaxon:1279
-WARN	equivalent_class_axiom_no_genus	VO:0000772	VO:0003355	NCBITaxon:1301
-WARN	equivalent_class_axiom_no_genus	VO:0000865	VO:0003355	NCBITaxon:836
-WARN	equivalent_class_axiom_no_genus	VO:0000906	VO:0003355	NCBITaxon:5800
-WARN	equivalent_class_axiom_no_genus	VO:0000909	VO:0003355	NCBITaxon:5874
-WARN	equivalent_class_axiom_no_genus	VO:0000925	VO:0003355	NCBITaxon:5865
-WARN	equivalent_class_axiom_no_genus	VO:0000935	VO:0003355	NCBITaxon:42890
-WARN	equivalent_class_axiom_no_genus	VO:0000948	VO:0003355	NCBITaxon:1336
-WARN	equivalent_class_axiom_no_genus	VO:0000994	VO:0003355	NCBITaxon:5811
-WARN	equivalent_class_axiom_no_genus	VO:0001033	VO:0003355	NCBITaxon:5866
-WARN	equivalent_class_axiom_no_genus	VO:0001061	VO:0003355	NCBITaxon:5875
-WARN	equivalent_class_axiom_no_genus	VO:0001065	VO:0003355	NCBITaxon:29176
-WARN	equivalent_class_axiom_no_genus	VO:0001074	VO:0003355	NCBITaxon:5867
-WARN	equivalent_class_axiom_no_genus	VO:0001083	VO:0003355	NCBITaxon:5741
-WARN	equivalent_class_axiom_no_genus	VO:0001170	RO:0000087	VO:0001182
-WARN	equivalent_class_axiom_no_genus	VO:0001213	VO:0003355	NCBITaxon:12110
-WARN	equivalent_class_axiom_no_genus	VO:0001216	VO:0003355	NCBITaxon:3052303
-WARN	equivalent_class_axiom_no_genus	VO:0001224	VO:0003355	NCBITaxon:11287
-WARN	equivalent_class_axiom_no_genus	VO:0001227	VO:0003355	NCBITaxon:10359
-WARN	equivalent_class_axiom_no_genus	VO:0001228	VO:0003355	NCBITaxon:12066
-WARN	equivalent_class_axiom_no_genus	VO:0001229	VO:0003355	NCBITaxon:6182
-WARN	equivalent_class_axiom_no_genus	VO:0001230	VO:0003355	NCBITaxon:160
-WARN	equivalent_class_axiom_no_genus	VO:0001231	VO:0003355	NCBITaxon:5664
-WARN	equivalent_class_axiom_no_genus	VO:0001232	RO:0000087	VO:0000457
-WARN	equivalent_class_axiom_no_genus	VO:0001365	VO:0003355	NCBITaxon:3052518
-WARN	equivalent_class_axiom_no_genus	VO:0001366	VO:0003355	NCBITaxon:39944
-WARN	equivalent_class_axiom_no_genus	VO:0001375	VO:0003355	NCBITaxon:1311
-WARN	equivalent_class_axiom_no_genus	VO:0001382	VO:0003355	NCBITaxon:11976
-WARN	equivalent_class_axiom_no_genus	VO:0001385	VO:0003355	NCBITaxon:5693
-WARN	equivalent_class_axiom_no_genus	VO:0001455	VO:0003355	NCBITaxon:11241
-WARN	equivalent_class_axiom_no_genus	VO:0001457	VO:0003355	NCBITaxon:56690
-WARN	equivalent_class_axiom_no_genus	VO:0001459	VO:0003355	NCBITaxon:5800
-WARN	equivalent_class_axiom_no_genus	VO:0001480	VO:0003355	NCBITaxon:40050
-WARN	equivalent_class_axiom_no_genus	VO:0001483	VO:0003355	NCBITaxon:12455
-WARN	equivalent_class_axiom_no_genus	VO:0001484	VO:0003355	NCBITaxon:39944
-WARN	equivalent_class_axiom_no_genus	VO:0001485	RO:0000087	VO:0000812
-WARN	equivalent_class_axiom_no_genus	VO:0001503	VO:0003355	NCBITaxon:11128
-WARN	equivalent_class_axiom_no_genus	VO:0001512	VO:0003355	NCBITaxon:34085
-WARN	equivalent_class_axiom_no_genus	VO:0001519	VO:0003355	NCBITaxon:1765
-WARN	equivalent_class_axiom_no_genus	VO:0002455	VO:0003355	NCBITaxon:1980915
-WARN	equivalent_class_axiom_no_genus	VO:0002502	VO:0003355	NCBITaxon:1280
-WARN	equivalent_class_axiom_no_genus	VO:0002513	VO:0003355	NCBITaxon:5821
-WARN	equivalent_class_axiom_no_genus	VO:0002544	VO:0003355	NCBITaxon:11636
-WARN	equivalent_class_axiom_no_genus	VO:0002785	VO:0003355	NCBITaxon:37124
-WARN	equivalent_class_axiom_no_genus	VO:0002788	VO:0003355	NCBITaxon:1307
-WARN	equivalent_class_axiom_no_genus	VO:0002789	VO:0003355	NCBITaxon:1719
-WARN	equivalent_class_axiom_no_genus	VO:0002792	VO:0003355	NCBITaxon:5867
-WARN	equivalent_class_axiom_no_genus	VO:0002852	VO:0003355	NCBITaxon:1314
-WARN	equivalent_class_axiom_no_genus	VO:0002925	VO:0003355	NCBITaxon:236
-WARN	equivalent_class_axiom_no_genus	VO:0003043	VO:0003355	NCBITaxon:11034
-WARN	equivalent_class_axiom_no_genus	VO:0003044	VO:0003355	NCBITaxon:3052303
-WARN	equivalent_class_axiom_no_genus	VO:0003046	VO:0003355	NCBITaxon:5866
-WARN	equivalent_class_axiom_no_genus	VO:0003047	VO:0003355	NCBITaxon:6181
-WARN	equivalent_class_axiom_no_genus	VO:0003055	VO:0003355	NCBITaxon:11002
-WARN	equivalent_class_axiom_no_genus	VO:0003056	VO:0003355	NCBITaxon:11287
-WARN	equivalent_class_axiom_no_genus	VO:0003059	VO:0003355	NCBITaxon:12475
-WARN	equivalent_class_axiom_no_genus	VO:0003060	VO:0003355	NCBITaxon:10244
-WARN	equivalent_class_axiom_no_genus	VO:0003062	VO:0003355	NCBITaxon:10366
-WARN	equivalent_class_axiom_no_genus	VO:0003130	VO:0000530	VO:0000771
-WARN	equivalent_class_axiom_no_genus	VO:0003140	VO:0001011	DOID:3908
-WARN	equivalent_class_axiom_no_genus	VO:0003150	VO:0000525	VO:0011093
-WARN	equivalent_class_axiom_no_genus	VO:0003484	VO:0003355	NCBITaxon:206351
-WARN	equivalent_class_axiom_no_genus	VO:0003494	VO:0003355	NCBITaxon:136
-WARN	equivalent_class_axiom_no_genus	VO:0003518	VO:0003355	NCBITaxon:64895
-WARN	equivalent_class_axiom_no_genus	VO:0003531	VO:0003355	NCBITaxon:1224
-WARN	equivalent_class_axiom_no_genus	VO:0003532	VO:0003355	NCBITaxon:28216
-WARN	equivalent_class_axiom_no_genus	VO:0003533	VO:0003355	NCBITaxon:1903411
-WARN	equivalent_class_axiom_no_genus	VO:0003534	VO:0003355	NCBITaxon:1716
-WARN	equivalent_class_axiom_no_genus	VO:0003535	VO:0003355	NCBITaxon:1236
-WARN	equivalent_class_axiom_no_genus	VO:0003536	VO:0003355	NCBITaxon:1386
-WARN	equivalent_class_axiom_no_genus	VO:0003537	VO:0003355	NCBITaxon:10319
-WARN	equivalent_class_axiom_no_genus	VO:0003538	VO:0003355	NCBITaxon:151340
-WARN	equivalent_class_axiom_no_genus	VO:0003539	VO:0003355	NCBITaxon:10242
-WARN	equivalent_class_axiom_no_genus	VO:0003540	VO:0003355	NCBITaxon:10405
-WARN	equivalent_class_axiom_no_genus	VO:0003541	VO:0003355	NCBITaxon:2732541
-WARN	equivalent_class_axiom_no_genus	VO:0003542	VO:0003355	NCBITaxon:2946186
-WARN	equivalent_class_axiom_no_genus	VO:0003543	VO:0003355	NCBITaxon:11229
-WARN	equivalent_class_axiom_no_genus	VO:0003544	VO:0003355	NCBITaxon:39744
-WARN	equivalent_class_axiom_no_genus	VO:0003545	VO:0003355	NCBITaxon:11286
-WARN	equivalent_class_axiom_no_genus	VO:0003546	VO:0003355	NCBITaxon:11050
-WARN	equivalent_class_axiom_no_genus	VO:0003547	VO:0003355	NCBITaxon:12059
-WARN	equivalent_class_axiom_no_genus	VO:0003548	VO:0003355	NCBITaxon:12091
-WARN	equivalent_class_axiom_no_genus	VO:0003549	VO:0003355	NCBITaxon:11040
-WARN	equivalent_class_axiom_no_genus	VO:0003550	VO:0003355	NCBITaxon:28211
-WARN	equivalent_class_axiom_no_genus	VO:0003551	VO:0003355	NCBITaxon:91347
-WARN	equivalent_class_axiom_no_genus	VO:0003552	VO:0003355	NCBITaxon:543
-WARN	equivalent_class_axiom_no_genus	VO:0003553	VO:0003355	NCBITaxon:203692
-WARN	equivalent_class_axiom_no_genus	VO:0003554	VO:0003355	NCBITaxon:1239
-WARN	equivalent_class_axiom_no_genus	VO:0003555	VO:0003355	NCBITaxon:91061
-WARN	equivalent_class_axiom_no_genus	VO:0004897	VO:0003355	NCBITaxon:11118
-WARN	equivalent_class_axiom_no_genus	VO:0004900	VO:0003355	NCBITaxon:1335626
-WARN	equivalent_class_axiom_no_genus	VO:0004914	RO:0000087	VO:0004913
-WARN	equivalent_class_axiom_no_genus	VO:0005425	VO:0001011	DOID:10283
-WARN	equivalent_class_axiom_no_genus	VO:0005426	VO:0001011	DOID:9256
-WARN	equivalent_class_axiom_no_genus	VO:0005427	VO:0001011	DOID:0060058
-WARN	equivalent_class_axiom_no_genus	VO:0005428	VO:0001011	DOID:1319
-WARN	equivalent_class_axiom_no_genus	VO:0005429	VO:0001011	DOID:3571
-WARN	equivalent_class_axiom_no_genus	VO:0005430	VO:0001011	DOID:1793
-WARN	equivalent_class_axiom_no_genus	VO:0005484	VO:0001011	DOID:1612
-WARN	equivalent_class_axiom_no_genus	VO:0005485	VO:0001011	DOID:11054
-WARN	equivalent_class_axiom_no_genus	VO:0005486	VO:0001011	DOID:1324
-WARN	equivalent_class_axiom_no_genus	VO:0005487	VO:0001011	DOID:1240
-WARN	equivalent_class_axiom_no_genus	VO:0005488	VO:0001011	DOID:4362
-WARN	equivalent_class_axiom_no_genus	VO:0005489	VO:0001011	DOID:219
-WARN	equivalent_class_axiom_no_genus	VO:0005490	VO:0001011	DOID:10534
-WARN	equivalent_class_axiom_no_genus	VO:0005491	VO:0001011	MONDO:0005065
-WARN	equivalent_class_axiom_no_genus	VO:0005492	VO:0001011	DOID:9538
-WARN	equivalent_class_axiom_no_genus	VO:0005493	VO:0001011	DOID:2394
-WARN	equivalent_class_axiom_no_genus	VO:0005494	VO:0001011	DOID:263
-WARN	equivalent_class_axiom_no_genus	VO:0005495	VO:0001011	DOID:1115
-WARN	equivalent_class_axiom_no_genus	VO:0005496	VO:0001011	DOID:5041
-WARN	equivalent_class_axiom_no_genus	VO:0005497	VO:0001011	DOID:11934
-WARN	equivalent_class_axiom_no_genus	VO:0005498	VO:0001011	DOID:9261
-WARN	equivalent_class_axiom_no_genus	VO:0005499	VO:0001011	DOID:684
-WARN	equivalent_class_axiom_no_genus	VO:0007656	RO:0000085	VO:0000452
-WARN	equivalent_class_axiom_no_genus	VO:0007657	RO:0000085	VO:0000562
-WARN	equivalent_class_axiom_no_genus	VO:0012158	VO:0003355	NCBITaxon:5659
-WARN	equivalent_class_axiom_no_genus	VO:0012160	VO:0003355	NCBITaxon:5807
-WARN	equivalent_class_axiom_no_genus	VO:0012171	VO:0003355	NCBITaxon:5759
-WARN	equivalent_class_axiom_no_genus	VO:0012183	VO:0003355	NCBITaxon:694009
-WARN	equivalent_class_axiom_no_genus	VO:0012184	VO:0003355	NCBITaxon:5691
-WARN	equivalent_class_axiom_no_genus	VO:0012187	VO:0003355	NCBITaxon:1491
 WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	CHEBI:30911	IAO:0000115	
 WARN	missing_definition	CHEBI:33130	IAO:0000115	
@@ -1907,7 +1743,6 @@ WARN	missing_definition	VO:0000347	IAO:0000115
 WARN	missing_definition	VO:0000348	IAO:0000115	
 WARN	missing_definition	VO:0000349	IAO:0000115	
 WARN	missing_definition	VO:0000350	IAO:0000115	
-WARN	missing_definition	VO:0000352	IAO:0000115	
 WARN	missing_definition	VO:0000353	IAO:0000115	
 WARN	missing_definition	VO:0000354	IAO:0000115	
 WARN	missing_definition	VO:0000355	IAO:0000115	
@@ -1954,7 +1789,6 @@ WARN	missing_definition	VO:0000453	IAO:0000115
 WARN	missing_definition	VO:0000454	IAO:0000115	
 WARN	missing_definition	VO:0000458	IAO:0000115	
 WARN	missing_definition	VO:0000459	IAO:0000115	
-WARN	missing_definition	VO:0000461	IAO:0000115	
 WARN	missing_definition	VO:0000464	IAO:0000115	
 WARN	missing_definition	VO:0000466	IAO:0000115	
 WARN	missing_definition	VO:0000471	IAO:0000115	
@@ -2024,7 +1858,6 @@ WARN	missing_definition	VO:0000659	IAO:0000115
 WARN	missing_definition	VO:0000660	IAO:0000115	
 WARN	missing_definition	VO:0000666	IAO:0000115	
 WARN	missing_definition	VO:0000668	IAO:0000115	
-WARN	missing_definition	VO:0000670	IAO:0000115	
 WARN	missing_definition	VO:0000672	IAO:0000115	
 WARN	missing_definition	VO:0000673	IAO:0000115	
 WARN	missing_definition	VO:0000674	IAO:0000115	
@@ -3614,7 +3447,6 @@ WARN	missing_definition	VO:0003106	IAO:0000115
 WARN	missing_definition	VO:0003111	IAO:0000115	
 WARN	missing_definition	VO:0003112	IAO:0000115	
 WARN	missing_definition	VO:0003120	IAO:0000115	
-WARN	missing_definition	VO:0003134	IAO:0000115	
 WARN	missing_definition	VO:0003143	IAO:0000115	
 WARN	missing_definition	VO:0003144	IAO:0000115	
 WARN	missing_definition	VO:0003155	IAO:0000115	
@@ -3658,6 +3490,7 @@ WARN	missing_definition	VO:0003232	IAO:0000115
 WARN	missing_definition	VO:0003233	IAO:0000115	
 WARN	missing_definition	VO:0003234	IAO:0000115	
 WARN	missing_definition	VO:0003235	IAO:0000115	
+WARN	missing_definition	VO:0003236	IAO:0000115	
 WARN	missing_definition	VO:0003237	IAO:0000115	
 WARN	missing_definition	VO:0003238	IAO:0000115	
 WARN	missing_definition	VO:0003239	IAO:0000115	
@@ -5298,7 +5131,6 @@ WARN	missing_definition	VO:0004942	IAO:0000115
 WARN	missing_definition	VO:0004943	IAO:0000115	
 WARN	missing_definition	VO:0004988	IAO:0000115	
 WARN	missing_definition	VO:0004990	IAO:0000115	
-WARN	missing_definition	VO:0005096	IAO:0000115	
 WARN	missing_definition	VO:0005178	IAO:0000115	
 WARN	missing_definition	VO:0005198	IAO:0000115	
 WARN	missing_definition	VO:0005199	IAO:0000115	
@@ -5594,6 +5426,103 @@ WARN	missing_definition	VO:0007649	IAO:0000115
 WARN	missing_definition	VO:0007650	IAO:0000115	
 WARN	missing_definition	VO:0007651	IAO:0000115	
 WARN	missing_definition	VO:0007652	IAO:0000115	
+WARN	missing_definition	VO:0010125	IAO:0000115	
+WARN	missing_definition	VO:0010127	IAO:0000115	
+WARN	missing_definition	VO:0010128	IAO:0000115	
+WARN	missing_definition	VO:0010133	IAO:0000115	
+WARN	missing_definition	VO:0010135	IAO:0000115	
+WARN	missing_definition	VO:0010136	IAO:0000115	
+WARN	missing_definition	VO:0010137	IAO:0000115	
+WARN	missing_definition	VO:0010138	IAO:0000115	
+WARN	missing_definition	VO:0010139	IAO:0000115	
+WARN	missing_definition	VO:0010140	IAO:0000115	
+WARN	missing_definition	VO:0010141	IAO:0000115	
+WARN	missing_definition	VO:0010142	IAO:0000115	
+WARN	missing_definition	VO:0010143	IAO:0000115	
+WARN	missing_definition	VO:0010144	IAO:0000115	
+WARN	missing_definition	VO:0010146	IAO:0000115	
+WARN	missing_definition	VO:0010147	IAO:0000115	
+WARN	missing_definition	VO:0010148	IAO:0000115	
+WARN	missing_definition	VO:0010153	IAO:0000115	
+WARN	missing_definition	VO:0010154	IAO:0000115	
+WARN	missing_definition	VO:0010155	IAO:0000115	
+WARN	missing_definition	VO:0010156	IAO:0000115	
+WARN	missing_definition	VO:0010157	IAO:0000115	
+WARN	missing_definition	VO:0010158	IAO:0000115	
+WARN	missing_definition	VO:0010159	IAO:0000115	
+WARN	missing_definition	VO:0010160	IAO:0000115	
+WARN	missing_definition	VO:0010161	IAO:0000115	
+WARN	missing_definition	VO:0010162	IAO:0000115	
+WARN	missing_definition	VO:0010163	IAO:0000115	
+WARN	missing_definition	VO:0010164	IAO:0000115	
+WARN	missing_definition	VO:0010165	IAO:0000115	
+WARN	missing_definition	VO:0010166	IAO:0000115	
+WARN	missing_definition	VO:0010167	IAO:0000115	
+WARN	missing_definition	VO:0010168	IAO:0000115	
+WARN	missing_definition	VO:0010169	IAO:0000115	
+WARN	missing_definition	VO:0010170	IAO:0000115	
+WARN	missing_definition	VO:0010171	IAO:0000115	
+WARN	missing_definition	VO:0010172	IAO:0000115	
+WARN	missing_definition	VO:0010173	IAO:0000115	
+WARN	missing_definition	VO:0010174	IAO:0000115	
+WARN	missing_definition	VO:0010175	IAO:0000115	
+WARN	missing_definition	VO:0010176	IAO:0000115	
+WARN	missing_definition	VO:0010177	IAO:0000115	
+WARN	missing_definition	VO:0010178	IAO:0000115	
+WARN	missing_definition	VO:0010179	IAO:0000115	
+WARN	missing_definition	VO:0010180	IAO:0000115	
+WARN	missing_definition	VO:0010181	IAO:0000115	
+WARN	missing_definition	VO:0010182	IAO:0000115	
+WARN	missing_definition	VO:0010183	IAO:0000115	
+WARN	missing_definition	VO:0010184	IAO:0000115	
+WARN	missing_definition	VO:0010185	IAO:0000115	
+WARN	missing_definition	VO:0010186	IAO:0000115	
+WARN	missing_definition	VO:0010187	IAO:0000115	
+WARN	missing_definition	VO:0010188	IAO:0000115	
+WARN	missing_definition	VO:0010189	IAO:0000115	
+WARN	missing_definition	VO:0010190	IAO:0000115	
+WARN	missing_definition	VO:0010191	IAO:0000115	
+WARN	missing_definition	VO:0010192	IAO:0000115	
+WARN	missing_definition	VO:0010193	IAO:0000115	
+WARN	missing_definition	VO:0010194	IAO:0000115	
+WARN	missing_definition	VO:0010195	IAO:0000115	
+WARN	missing_definition	VO:0010196	IAO:0000115	
+WARN	missing_definition	VO:0010197	IAO:0000115	
+WARN	missing_definition	VO:0010198	IAO:0000115	
+WARN	missing_definition	VO:0010199	IAO:0000115	
+WARN	missing_definition	VO:0010200	IAO:0000115	
+WARN	missing_definition	VO:0010201	IAO:0000115	
+WARN	missing_definition	VO:0010202	IAO:0000115	
+WARN	missing_definition	VO:0010203	IAO:0000115	
+WARN	missing_definition	VO:0010204	IAO:0000115	
+WARN	missing_definition	VO:0010205	IAO:0000115	
+WARN	missing_definition	VO:0010206	IAO:0000115	
+WARN	missing_definition	VO:0010207	IAO:0000115	
+WARN	missing_definition	VO:0010208	IAO:0000115	
+WARN	missing_definition	VO:0010209	IAO:0000115	
+WARN	missing_definition	VO:0010210	IAO:0000115	
+WARN	missing_definition	VO:0010211	IAO:0000115	
+WARN	missing_definition	VO:0010212	IAO:0000115	
+WARN	missing_definition	VO:0010213	IAO:0000115	
+WARN	missing_definition	VO:0010214	IAO:0000115	
+WARN	missing_definition	VO:0010215	IAO:0000115	
+WARN	missing_definition	VO:0010216	IAO:0000115	
+WARN	missing_definition	VO:0010217	IAO:0000115	
+WARN	missing_definition	VO:0010218	IAO:0000115	
+WARN	missing_definition	VO:0010219	IAO:0000115	
+WARN	missing_definition	VO:0010220	IAO:0000115	
+WARN	missing_definition	VO:0010221	IAO:0000115	
+WARN	missing_definition	VO:0010222	IAO:0000115	
+WARN	missing_definition	VO:0010223	IAO:0000115	
+WARN	missing_definition	VO:0010224	IAO:0000115	
+WARN	missing_definition	VO:0010225	IAO:0000115	
+WARN	missing_definition	VO:0010226	IAO:0000115	
+WARN	missing_definition	VO:0010227	IAO:0000115	
+WARN	missing_definition	VO:0010228	IAO:0000115	
+WARN	missing_definition	VO:0010230	IAO:0000115	
+WARN	missing_definition	VO:0010231	IAO:0000115	
+WARN	missing_definition	VO:0010232	IAO:0000115	
+WARN	missing_definition	VO:0010233	IAO:0000115	
 WARN	missing_definition	VO:0010632	IAO:0000115	
 WARN	missing_definition	VO:0010705	IAO:0000115	
 WARN	missing_definition	VO:0010706	IAO:0000115	
@@ -6477,10 +6406,12 @@ WARN	missing_definition	VO:0012407	IAO:0000115
 WARN	missing_definition	VO:0012408	IAO:0000115	
 WARN	missing_definition	VO:0012409	IAO:0000115	
 WARN	missing_definition	VO:0015001	IAO:0000115	
+WARN	missing_definition	VO:0015002	IAO:0000115	
 WARN	missing_definition	VO:0015003	IAO:0000115	
 WARN	missing_definition	VO:0015004	IAO:0000115	
 WARN	missing_definition	VO:0015005	IAO:0000115	
 WARN	missing_definition	VO:0015006	IAO:0000115	
+WARN	missing_definition	VO:0015007	IAO:0000115	
 WARN	missing_definition	VO:0015008	IAO:0000115	
 WARN	missing_definition	VO:0015009	IAO:0000115	
 WARN	missing_definition	VO:0015010	IAO:0000115	
@@ -6491,8 +6422,10 @@ WARN	missing_definition	VO:0015014	IAO:0000115
 WARN	missing_definition	VO:0015015	IAO:0000115	
 WARN	missing_definition	VO:0015016	IAO:0000115	
 WARN	missing_definition	VO:0015017	IAO:0000115	
+WARN	missing_definition	VO:0015018	IAO:0000115	
 WARN	missing_definition	VO:0015019	IAO:0000115	
 WARN	missing_definition	VO:0015020	IAO:0000115	
+WARN	missing_definition	VO:0015021	IAO:0000115	
 WARN	missing_definition	VO:0015022	IAO:0000115	
 WARN	missing_definition	VO:0015023	IAO:0000115	
 WARN	missing_definition	VO:0015024	IAO:0000115	
@@ -6532,19 +6465,280 @@ WARN	missing_definition	VO:0015057	IAO:0000115
 WARN	missing_definition	VO:0015058	IAO:0000115	
 WARN	missing_definition	VO:0015059	IAO:0000115	
 WARN	missing_definition	VO:0015060	IAO:0000115	
+WARN	missing_definition	VO:0015062	IAO:0000115	
 WARN	missing_definition	VO:0015063	IAO:0000115	
 WARN	missing_definition	VO:0015064	IAO:0000115	
+WARN	missing_definition	VO:0015065	IAO:0000115	
 WARN	missing_definition	VO:0015066	IAO:0000115	
 WARN	missing_definition	VO:0015067	IAO:0000115	
 WARN	missing_definition	VO:0015068	IAO:0000115	
 WARN	missing_definition	VO:0015069	IAO:0000115	
 WARN	missing_definition	VO:0015070	IAO:0000115	
 WARN	missing_definition	VO:0015071	IAO:0000115	
+WARN	missing_definition	VO:0015072	IAO:0000115	
+WARN	missing_definition	VO:0015073	IAO:0000115	
+WARN	missing_definition	VO:0015074	IAO:0000115	
+WARN	missing_definition	VO:0015075	IAO:0000115	
+WARN	missing_definition	VO:0015076	IAO:0000115	
 WARN	missing_definition	VO:0015080	IAO:0000115	
 WARN	missing_definition	VO:0015081	IAO:0000115	
 WARN	missing_definition	VO:0015084	IAO:0000115	
 WARN	missing_definition	VO:0015085	IAO:0000115	
 WARN	missing_definition	VO:0015086	IAO:0000115	
+WARN	missing_definition	VO:0015087	IAO:0000115	
+WARN	missing_definition	VO:0015088	IAO:0000115	
+WARN	missing_definition	VO:0015089	IAO:0000115	
+WARN	missing_definition	VO:0015090	IAO:0000115	
+WARN	missing_definition	VO:0015091	IAO:0000115	
+WARN	missing_definition	VO:0015092	IAO:0000115	
+WARN	missing_definition	VO:0015093	IAO:0000115	
+WARN	missing_definition	VO:0015094	IAO:0000115	
+WARN	missing_definition	VO:0015095	IAO:0000115	
+WARN	missing_definition	VO:0015096	IAO:0000115	
+WARN	missing_definition	VO:0015097	IAO:0000115	
+WARN	missing_definition	VO:0015098	IAO:0000115	
+WARN	missing_definition	VO:0015099	IAO:0000115	
+WARN	missing_definition	VO:0015100	IAO:0000115	
+WARN	missing_definition	VO:0015101	IAO:0000115	
+WARN	missing_definition	VO:0015102	IAO:0000115	
+WARN	missing_definition	VO:0015103	IAO:0000115	
+WARN	missing_definition	VO:0015104	IAO:0000115	
+WARN	missing_definition	VO:0015105	IAO:0000115	
+WARN	missing_definition	VO:0015106	IAO:0000115	
+WARN	missing_definition	VO:0015107	IAO:0000115	
+WARN	missing_definition	VO:0015108	IAO:0000115	
+WARN	missing_definition	VO:0015109	IAO:0000115	
+WARN	missing_definition	VO:0015110	IAO:0000115	
+WARN	missing_definition	VO:0015111	IAO:0000115	
+WARN	missing_definition	VO:0015112	IAO:0000115	
+WARN	missing_definition	VO:0015113	IAO:0000115	
+WARN	missing_definition	VO:0015114	IAO:0000115	
+WARN	missing_definition	VO:0015115	IAO:0000115	
+WARN	missing_definition	VO:0015116	IAO:0000115	
+WARN	missing_definition	VO:0015117	IAO:0000115	
+WARN	missing_definition	VO:0015118	IAO:0000115	
+WARN	missing_definition	VO:0015119	IAO:0000115	
+WARN	missing_definition	VO:0015120	IAO:0000115	
+WARN	missing_definition	VO:0015121	IAO:0000115	
+WARN	missing_definition	VO:0015122	IAO:0000115	
+WARN	missing_definition	VO:0015123	IAO:0000115	
+WARN	missing_definition	VO:0015124	IAO:0000115	
+WARN	missing_definition	VO:0015125	IAO:0000115	
+WARN	missing_definition	VO:0015126	IAO:0000115	
+WARN	missing_definition	VO:0015127	IAO:0000115	
+WARN	missing_definition	VO:0015128	IAO:0000115	
+WARN	missing_definition	VO:0015129	IAO:0000115	
+WARN	missing_definition	VO:0015130	IAO:0000115	
+WARN	missing_definition	VO:0015131	IAO:0000115	
+WARN	missing_definition	VO:0015132	IAO:0000115	
+WARN	missing_definition	VO:0015133	IAO:0000115	
+WARN	missing_definition	VO:0015134	IAO:0000115	
+WARN	missing_definition	VO:0015135	IAO:0000115	
+WARN	missing_definition	VO:0015136	IAO:0000115	
+WARN	missing_definition	VO:0015137	IAO:0000115	
+WARN	missing_definition	VO:0015138	IAO:0000115	
+WARN	missing_definition	VO:0015139	IAO:0000115	
+WARN	missing_definition	VO:0015140	IAO:0000115	
+WARN	missing_definition	VO:0015141	IAO:0000115	
+WARN	missing_definition	VO:0015142	IAO:0000115	
+WARN	missing_definition	VO:0015143	IAO:0000115	
+WARN	missing_definition	VO:0015144	IAO:0000115	
+WARN	missing_definition	VO:0015145	IAO:0000115	
+WARN	missing_definition	VO:0015146	IAO:0000115	
+WARN	missing_definition	VO:0015147	IAO:0000115	
+WARN	missing_definition	VO:0015148	IAO:0000115	
+WARN	missing_definition	VO:0015149	IAO:0000115	
+WARN	missing_definition	VO:0015150	IAO:0000115	
+WARN	missing_definition	VO:0015151	IAO:0000115	
+WARN	missing_definition	VO:0015152	IAO:0000115	
+WARN	missing_definition	VO:0015153	IAO:0000115	
+WARN	missing_definition	VO:0015154	IAO:0000115	
+WARN	missing_definition	VO:0015155	IAO:0000115	
+WARN	missing_definition	VO:0015156	IAO:0000115	
+WARN	missing_definition	VO:0015157	IAO:0000115	
+WARN	missing_definition	VO:0015158	IAO:0000115	
+WARN	missing_definition	VO:0015159	IAO:0000115	
+WARN	missing_definition	VO:0015160	IAO:0000115	
+WARN	missing_definition	VO:0015161	IAO:0000115	
+WARN	missing_definition	VO:0015162	IAO:0000115	
+WARN	missing_definition	VO:0015163	IAO:0000115	
+WARN	missing_definition	VO:0015164	IAO:0000115	
+WARN	missing_definition	VO:0015165	IAO:0000115	
+WARN	missing_definition	VO:0015166	IAO:0000115	
+WARN	missing_definition	VO:0015167	IAO:0000115	
+WARN	missing_definition	VO:0015168	IAO:0000115	
+WARN	missing_definition	VO:0015169	IAO:0000115	
+WARN	missing_definition	VO:0015170	IAO:0000115	
+WARN	missing_definition	VO:0015171	IAO:0000115	
+WARN	missing_definition	VO:0015172	IAO:0000115	
+WARN	missing_definition	VO:0015173	IAO:0000115	
+WARN	missing_definition	VO:0015174	IAO:0000115	
+WARN	missing_definition	VO:0015175	IAO:0000115	
+WARN	missing_definition	VO:0015176	IAO:0000115	
+WARN	missing_definition	VO:0015177	IAO:0000115	
+WARN	missing_definition	VO:0015178	IAO:0000115	
+WARN	missing_definition	VO:0015179	IAO:0000115	
+WARN	missing_definition	VO:0015180	IAO:0000115	
+WARN	missing_definition	VO:0015181	IAO:0000115	
+WARN	missing_definition	VO:0015182	IAO:0000115	
+WARN	missing_definition	VO:0015183	IAO:0000115	
+WARN	missing_definition	VO:0015184	IAO:0000115	
+WARN	missing_definition	VO:0015185	IAO:0000115	
+WARN	missing_definition	VO:0015186	IAO:0000115	
+WARN	missing_definition	VO:0015187	IAO:0000115	
+WARN	missing_definition	VO:0015188	IAO:0000115	
+WARN	missing_definition	VO:0015189	IAO:0000115	
+WARN	missing_definition	VO:0015190	IAO:0000115	
+WARN	missing_definition	VO:0015191	IAO:0000115	
+WARN	missing_definition	VO:0015192	IAO:0000115	
+WARN	missing_definition	VO:0015193	IAO:0000115	
+WARN	missing_definition	VO:0015194	IAO:0000115	
+WARN	missing_definition	VO:0015195	IAO:0000115	
+WARN	missing_definition	VO:0015196	IAO:0000115	
+WARN	missing_definition	VO:0015197	IAO:0000115	
+WARN	missing_definition	VO:0015198	IAO:0000115	
+WARN	missing_definition	VO:0015199	IAO:0000115	
+WARN	missing_definition	VO:0015200	IAO:0000115	
+WARN	missing_definition	VO:0015201	IAO:0000115	
+WARN	missing_definition	VO:0015202	IAO:0000115	
+WARN	missing_definition	VO:0015203	IAO:0000115	
+WARN	missing_definition	VO:0015204	IAO:0000115	
+WARN	missing_definition	VO:0015205	IAO:0000115	
+WARN	missing_definition	VO:0015206	IAO:0000115	
+WARN	missing_definition	VO:0015207	IAO:0000115	
+WARN	missing_definition	VO:0015208	IAO:0000115	
+WARN	missing_definition	VO:0015209	IAO:0000115	
+WARN	missing_definition	VO:0015210	IAO:0000115	
+WARN	missing_definition	VO:0015211	IAO:0000115	
+WARN	missing_definition	VO:0015212	IAO:0000115	
+WARN	missing_definition	VO:0015213	IAO:0000115	
+WARN	missing_definition	VO:0015214	IAO:0000115	
+WARN	missing_definition	VO:0015215	IAO:0000115	
+WARN	missing_definition	VO:0015216	IAO:0000115	
+WARN	missing_definition	VO:0015217	IAO:0000115	
+WARN	missing_definition	VO:0015218	IAO:0000115	
+WARN	missing_definition	VO:0015219	IAO:0000115	
+WARN	missing_definition	VO:0015220	IAO:0000115	
+WARN	missing_definition	VO:0015221	IAO:0000115	
+WARN	missing_definition	VO:0015222	IAO:0000115	
+WARN	missing_definition	VO:0015223	IAO:0000115	
+WARN	missing_definition	VO:0015224	IAO:0000115	
+WARN	missing_definition	VO:0015225	IAO:0000115	
+WARN	missing_definition	VO:0015226	IAO:0000115	
+WARN	missing_definition	VO:0015227	IAO:0000115	
+WARN	missing_definition	VO:0015228	IAO:0000115	
+WARN	missing_definition	VO:0015229	IAO:0000115	
+WARN	missing_definition	VO:0015230	IAO:0000115	
+WARN	missing_definition	VO:0015231	IAO:0000115	
+WARN	missing_definition	VO:0015232	IAO:0000115	
+WARN	missing_definition	VO:0015233	IAO:0000115	
+WARN	missing_definition	VO:0015234	IAO:0000115	
+WARN	missing_definition	VO:0015235	IAO:0000115	
+WARN	missing_definition	VO:0015236	IAO:0000115	
+WARN	missing_definition	VO:0015237	IAO:0000115	
+WARN	missing_definition	VO:0015238	IAO:0000115	
+WARN	missing_definition	VO:0015239	IAO:0000115	
+WARN	missing_definition	VO:0015240	IAO:0000115	
+WARN	missing_definition	VO:0015241	IAO:0000115	
+WARN	missing_definition	VO:0015242	IAO:0000115	
+WARN	missing_definition	VO:0015243	IAO:0000115	
+WARN	missing_definition	VO:0015244	IAO:0000115	
+WARN	missing_definition	VO:0015245	IAO:0000115	
+WARN	missing_definition	VO:0015246	IAO:0000115	
+WARN	missing_definition	VO:0015247	IAO:0000115	
+WARN	missing_definition	VO:0015248	IAO:0000115	
+WARN	missing_definition	VO:0015249	IAO:0000115	
+WARN	missing_definition	VO:0015250	IAO:0000115	
+WARN	missing_definition	VO:0015251	IAO:0000115	
+WARN	missing_definition	VO:0015252	IAO:0000115	
+WARN	missing_definition	VO:0015253	IAO:0000115	
+WARN	missing_definition	VO:0015254	IAO:0000115	
+WARN	missing_definition	VO:0015255	IAO:0000115	
+WARN	missing_definition	VO:0015256	IAO:0000115	
+WARN	missing_definition	VO:0015257	IAO:0000115	
+WARN	missing_definition	VO:0015258	IAO:0000115	
+WARN	missing_definition	VO:0015259	IAO:0000115	
+WARN	missing_definition	VO:0015260	IAO:0000115	
+WARN	missing_definition	VO:0015261	IAO:0000115	
+WARN	missing_definition	VO:0015262	IAO:0000115	
+WARN	missing_definition	VO:0015263	IAO:0000115	
+WARN	missing_definition	VO:0015264	IAO:0000115	
+WARN	missing_definition	VO:0015265	IAO:0000115	
+WARN	missing_definition	VO:0015266	IAO:0000115	
+WARN	missing_definition	VO:0015267	IAO:0000115	
+WARN	missing_definition	VO:0015268	IAO:0000115	
+WARN	missing_definition	VO:0015269	IAO:0000115	
+WARN	missing_definition	VO:0015270	IAO:0000115	
+WARN	missing_definition	VO:0015271	IAO:0000115	
+WARN	missing_definition	VO:0015272	IAO:0000115	
+WARN	missing_definition	VO:0015273	IAO:0000115	
+WARN	missing_definition	VO:0015274	IAO:0000115	
+WARN	missing_definition	VO:0015275	IAO:0000115	
+WARN	missing_definition	VO:0015276	IAO:0000115	
+WARN	missing_definition	VO:0015277	IAO:0000115	
+WARN	missing_definition	VO:0015278	IAO:0000115	
+WARN	missing_definition	VO:0015279	IAO:0000115	
+WARN	missing_definition	VO:0015280	IAO:0000115	
+WARN	missing_definition	VO:0015281	IAO:0000115	
+WARN	missing_definition	VO:0015282	IAO:0000115	
+WARN	missing_definition	VO:0015283	IAO:0000115	
+WARN	missing_definition	VO:0015284	IAO:0000115	
+WARN	missing_definition	VO:0015285	IAO:0000115	
+WARN	missing_definition	VO:0015286	IAO:0000115	
+WARN	missing_definition	VO:0015287	IAO:0000115	
+WARN	missing_definition	VO:0015288	IAO:0000115	
+WARN	missing_definition	VO:0015289	IAO:0000115	
+WARN	missing_definition	VO:0015290	IAO:0000115	
+WARN	missing_definition	VO:0015291	IAO:0000115	
+WARN	missing_definition	VO:0015292	IAO:0000115	
+WARN	missing_definition	VO:0015293	IAO:0000115	
+WARN	missing_definition	VO:0015294	IAO:0000115	
+WARN	missing_definition	VO:0015295	IAO:0000115	
+WARN	missing_definition	VO:0015296	IAO:0000115	
+WARN	missing_definition	VO:0015297	IAO:0000115	
+WARN	missing_definition	VO:0015298	IAO:0000115	
+WARN	missing_definition	VO:0015299	IAO:0000115	
+WARN	missing_definition	VO:0015300	IAO:0000115	
+WARN	missing_definition	VO:0015301	IAO:0000115	
+WARN	missing_definition	VO:0015302	IAO:0000115	
+WARN	missing_definition	VO:0015303	IAO:0000115	
+WARN	missing_definition	VO:0015304	IAO:0000115	
+WARN	missing_definition	VO:0015305	IAO:0000115	
+WARN	missing_definition	VO:0015306	IAO:0000115	
+WARN	missing_definition	VO:0015307	IAO:0000115	
+WARN	missing_definition	VO:0015308	IAO:0000115	
+WARN	missing_definition	VO:0015309	IAO:0000115	
+WARN	missing_definition	VO:0015310	IAO:0000115	
+WARN	missing_definition	VO:0015311	IAO:0000115	
+WARN	missing_definition	VO:0015312	IAO:0000115	
+WARN	missing_definition	VO:0015313	IAO:0000115	
+WARN	missing_definition	VO:0015314	IAO:0000115	
+WARN	missing_definition	VO:0015315	IAO:0000115	
+WARN	missing_definition	VO:0015316	IAO:0000115	
+WARN	missing_definition	VO:0015317	IAO:0000115	
+WARN	missing_definition	VO:0015318	IAO:0000115	
+WARN	missing_definition	VO:0015319	IAO:0000115	
+WARN	missing_definition	VO:0015320	IAO:0000115	
+WARN	missing_definition	VO:0015321	IAO:0000115	
+WARN	missing_definition	VO:0015322	IAO:0000115	
+WARN	missing_definition	VO:0015323	IAO:0000115	
+WARN	missing_definition	VO:0015324	IAO:0000115	
+WARN	missing_definition	VO:0015325	IAO:0000115	
+WARN	missing_definition	VO:0015326	IAO:0000115	
+WARN	missing_definition	VO:0015327	IAO:0000115	
+WARN	missing_definition	VO:0015328	IAO:0000115	
+WARN	missing_definition	VO:0015329	IAO:0000115	
+WARN	missing_definition	VO:0015330	IAO:0000115	
+WARN	missing_definition	VO:0015331	IAO:0000115	
+WARN	missing_definition	VO:0015332	IAO:0000115	
+WARN	missing_definition	VO:0015333	IAO:0000115	
+WARN	missing_definition	VO:0015334	IAO:0000115	
+WARN	missing_definition	VO:0015335	IAO:0000115	
+WARN	missing_definition	VO:0015336	IAO:0000115	
+WARN	missing_definition	VO:0015337	IAO:0000115	
+WARN	missing_definition	VO:0015338	IAO:0000115	
+WARN	missing_definition	VO:0015339	IAO:0000115	
+WARN	missing_definition	VO:0015340	IAO:0000115	
 WARN	missing_definition	VO:0015471	IAO:0000115	
 WARN	missing_definition	VO:0015472	IAO:0000115	
 WARN	missing_definition	VO:0015473	IAO:0000115	
@@ -6557,6 +6751,7 @@ WARN	missing_definition	obo:ncbitaxon#has_rank	IAO:0000115
 WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115	
 WARN	missing_obsolete_label	RO:0004096	rdfs:label	DEPRECATED inheres in@en
 WARN	missing_obsolete_label	RO:0004097	rdfs:label	DEPRECATED bearer of@en
+WARN	missing_obsolete_label	VO:0002821	rdfs:label	B. melitensis WR201 (16M-delta-purEK)
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/RO_0002259	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim	rdfs:subPropertyOf	
@@ -6757,7 +6952,7 @@ INFO	lowercase_definition	VO:0000212	IAO:0000115	a DNA vaccine plasmid that uses
 INFO	lowercase_definition	VO:0000219	IAO:0000115	a vaccine component that is used to dissolve vaccine powder into liquid. The vaccine in a powder form has to be reconstituted by mixing vaccine powder with vaccine solvent before administered.
 INFO	lowercase_definition	VO:0000228	IAO:0000115	a vaccine component that contains the solid form of all vaccine components. A vaccine can be reconstituted by mixing vaccine powder with vaccine solvent.
 INFO	lowercase_definition	VO:0000243	IAO:0000115	assay of CFU reduction in spleen is a CFU reduction assay that is measured using the extracted spleen as the tissue for isolation of infected pathogens.
-INFO	lowercase_definition	VO:0000263	IAO:0000115	sodBFt is a live vaccine strain mutant of Francisella tularensis with reduced Fe-superoxide dismutase gene expression. Ref: PMID: 18692537.
+INFO	lowercase_definition	VO:0000263	IAO:0000115	sodBFt is a live vaccine strain mutant of Francisella tularensis with reduced Fe-superoxide dismutase gene expression. Ref: PMID:18692537.
 INFO	lowercase_definition	VO:0000278	IAO:0000115	vaccine function is a function that inheres in a vaccine that induces protective immune response against a disease. It is realized in the immunization process in the host.
 INFO	lowercase_definition	VO:0000283	IAO:0000115	a viral vaccine vector that uses a herpesvirus as the vector.
 INFO	lowercase_definition	VO:0000288	IAO:0000115	a processual entity that specifies host response to a vaccine.
@@ -6850,7 +7045,6 @@ INFO	lowercase_definition	VO:0000640	IAO:0000115	a Clostridium vaccine that prot
 INFO	lowercase_definition	VO:0000643	IAO:0000115	a vaccine with license that is used for cattle.
 INFO	lowercase_definition	VO:0000667	IAO:0000115	a vaccine against human papillomavirus infection
 INFO	lowercase_definition	VO:0000669	IAO:0000115	a Herpesvirus vaccine that is used against Varicella-zoster virus infection.
-INFO	lowercase_definition	VO:0000671	IAO:0000115	a Salmonella vaccine against typhoid fever (or called typoid), caused by Salmonella enterica enterica, serovar Typhi. 
 INFO	lowercase_definition	VO:0000675	IAO:0000115	a Streptococcal vaccine that is used against S. pneumoniae infection, which causes pneumococcal diseases. 
 INFO	lowercase_definition	VO:0000685	IAO:0000115	a recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine 
 INFO	lowercase_definition	VO:0000702	IAO:0000115	a recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine 
@@ -6860,7 +7054,6 @@ INFO	lowercase_definition	VO:0000712	IAO:0000115	a viral vaccine that is inactiv
 INFO	lowercase_definition	VO:0000714	IAO:0000115	a licensed human vaccine that is licensed in Canada
 INFO	lowercase_definition	VO:0000721	IAO:0000115	a Brucella vaccine against infection wtih B. suis
 INFO	lowercase_definition	VO:0000746	IAO:0000115	a viral vaccine against Hepatitis B virus and at the same time against bacterial H. influenzae serotype b.
-INFO	lowercase_definition	VO:0000756	IAO:0000115	"acellular vaccine is a subunit vaccine that is produced by using only the antigenic part of the disease causing organism. It often requires a \""booster\"" every few years to maintain their effectiveness. MeSH term: D20.215.894.860.900."
 INFO	lowercase_definition	VO:0000762	IAO:0000115	a protozoan vaccine that prevents against infection with Leishmania.
 INFO	lowercase_definition	VO:0000800	IAO:0000115	a storage process that is specifically for vaccine.
 INFO	lowercase_definition	VO:0000801	IAO:0000115	a vaccine storage that is execuated at room temperature. Room temperature is also referred to as ambient temperature. Room temperature denotes a certain temperature within enclosed space at which humans are accustomed. Room temperature is usually indicated by general human comfort, with the common range of 10 degree C (50 degree F) to 28 degree C (82.4 degree F).
@@ -6890,7 +7083,7 @@ INFO	lowercase_definition	VO:0000922	IAO:0000115	a vaccine stablizer that is bas
 INFO	lowercase_definition	VO:0000926	IAO:0000115	a cell culture residual in vaccine that is human albumin.
 INFO	lowercase_definition	VO:0000927	IAO:0000115	a cell culture residual in vaccine that is human serum.
 INFO	lowercase_definition	VO:0000929	IAO:0000115	a vaccine stabilizer that is a polysorbate 20. It encourages the suspension of one liquid in another and has mild toxicity.
-INFO	lowercase_definition	VO:0000930	IAO:0000115	a vaccine emulsifier that uses polysorbate 80, also known as polyoxyethylene sorbitan monooleate or Tween‚Äö√ë¬¢ 80.
+INFO	lowercase_definition	VO:0000930	IAO:0000115	a vaccine emulsifier that uses polysorbate 80, also known as polyoxyethylene sorbitan monooleate or Tween(TM) 80.
 INFO	lowercase_definition	VO:0000931	IAO:0000115	a cell culture residual in vaccine that is residual protein from cell culture. 
 INFO	lowercase_definition	VO:0000934	IAO:0000115	a vaccine stabilizer that is specifically made by sorbitol.
 INFO	lowercase_definition	VO:0000937	IAO:0000115	a cell culture residual in vaccine that is sucrose albumin.
@@ -7071,7 +7264,7 @@ INFO	lowercase_definition	VO:0001510	IAO:0000115	viral vaccine that is used to p
 INFO	lowercase_definition	VO:0001511	IAO:0000115	viral vaccine that is used to protect against Porcine respiratory and reproductive syndrome virus (Porcine reproductive and respiratory syndrome virus) infection
 INFO	lowercase_definition	VO:0001512	IAO:0000115	bacterial vaccine that is used to protect against Riemerella anatipestifer infection
 INFO	lowercase_definition	VO:0001513	IAO:0000115	viral vaccine that is used to protect against Avian Reovirus (Avian orthoreovirus) infection
-INFO	lowercase_definition	VO:0001514	IAO:0000115	viral vaccine that is used to protect against Avian pneumovirus (Avian metapneumovirus) infection
+INFO	lowercase_definition	VO:0001514	IAO:0000115	viral vaccine that is used to protect against avian pneumovirus (avian metapneumovirus) infection
 INFO	lowercase_definition	VO:0001515	IAO:0000115	viral vaccine that is used to protect against Bluetongue virus infection
 INFO	lowercase_definition	VO:0001516	IAO:0000115	viral vaccine that is used to protect against Turkey hemorrhagic enteritis virus (Turkey adenoirus 3) infection
 INFO	lowercase_definition	VO:0001517	IAO:0000115	viral vaccine that is used to protect against Canarypox virus infection
@@ -7129,10 +7322,6 @@ INFO	lowercase_definition	VO:0004917	IAO:0000115	vaccine-induced T-helper 2 type
 INFO	lowercase_definition	VO:0004918	IAO:0000115	vaccine-induced T-helper 2 type immune response that is indicated by the presence of interleukin-10 production
 INFO	lowercase_definition	VO:0004919	IAO:0000115	vaccine-induced T-helper 1 type immune response that is indicated by the presence of IgG2a production
 INFO	lowercase_definition	VO:0004920	IAO:0000115	vaccine-induced T-helper 2 type immune response that is indicated by the presence of IgG1 production
-INFO	lowercase_definition	VO:0005100	IAO:0000115	'A SARS DNA vaccine that is made from recombinant plasmid containing nucleocapsid protein (N) sequence constructed then expressed and purified from E. coli bacteria‚Äö√Ñ√¥
-INFO	lowercase_definition	VO:0005101	IAO:0000115	'A SARS DNA combination vaccine that is made from recombinant plasmids‚Äö√Ñ√¥ containing membrane protein (M) and nucleocapsid protein (N) sequences constructed then expressed and purified from E. coli bacteria‚Äö√Ñ√¥
-INFO	lowercase_definition	VO:0005102	IAO:0000115	'A SARS  DNA vaccine that is made from recombinant plasmid containing membrane protein (M) sequence constructed then expressed and purified from E. coli bacteria‚Äö√Ñ√¥
-INFO	lowercase_definition	VO:0005103	IAO:0000115	'A SARS DNA vaccine that is made from  oral live-attenuated auxotrophic S. typhimurium aroA strain SL7207 that contained CTLA4HingeSARS800 with SARS-CoV S protein‚Äö√Ñ√≤
 INFO	lowercase_definition	VO:0005177	IAO:0000115	an adenovirus vaccine vector that uses a gorilla adenovirus.
 INFO	lowercase_definition	VO:0005479	IAO:0000115	a malaria vaccine that protects against malaria caused by Plasmodium knowlesi.
 INFO	lowercase_definition	VO:0005480	IAO:0000115	a malaria vaccine that protects against malaria caused by Plasmodium chabaudi.

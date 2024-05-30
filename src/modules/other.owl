@@ -59,12 +59,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003198 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003198"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
@@ -2739,7 +2733,6 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004869">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10508"/>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1299785</obo:IAO_0000119>
-        <obo:VO_0003198>1299785</obo:VO_0003198>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:comment>CUI: C3159361</rdfs:comment>
         <rdfs:comment>RXAUI: 4624424</rdfs:comment>
@@ -2754,7 +2747,6 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004871">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10508"/>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1802483</obo:IAO_0000119>
-        <obo:VO_0003198>1802483</obo:VO_0003198>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:comment>CUI: C4083103</rdfs:comment>
         <rdfs:comment>RXAUI: 8240118</rdfs:comment>
@@ -3029,6 +3021,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An information content entity that specify no vaccine adminstered.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>no vaccine administered</rdfs:label>
     </owl:Class>
@@ -3042,8 +3035,23 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000115>A record of missing knowledge indicating that vaccine or immune globulin is unknown.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>unknown vaccine or immune globulin</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>record of unknown vaccine or immune globulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that specify the CVX code that will not be used to avoid confusion with code 999.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>RESERVED - do not use</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>reserved cvx code for not using</rdfs:label>
     </owl:Class>
     
 
