@@ -1,0 +1,44 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red36\green36\blue36;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c18824\c18824\c18824;\cssrgb\c100000\c100000\c100000;
+}
+\margl1440\margr1440\vieww16940\viewh10200\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 robot merge \\\
+	--input src/VO.owl \\\
+	template \\\
+	--template src/templates/vaccine_RxNorm.csv \\\
+	--prefix "VO: http://purl.obolibrary.org/obo/VO_" \\\
+	--ontology-iri "http://purl.obolibrary.org/obo/vo/dev/vaccine_RxNorm.owl" \\\
+	--output src/modules/vaccine_RxNorm.owl
+\f1\fs24 \cf0 \CocoaLigature1 \
+\
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/dev/vaccine_RxNorm.owl"/>\
+\
+\
+
+\f0\fs22 \cf2 \CocoaLigature0 robot merge \\\
+	--input src/VO.owl \\\
+	template \\\
+	--template src/templates/vo_RxNorm.csv \\\
+	--prefix "VO: http://purl.obolibrary.org/obo/VO_" \\\
+	--ontology-iri "http://purl.obolibrary.org/obo/vo/dev/vo_RxNorm.owl" \\\
+	--output src/modules/vo_RxNorm.owl\
+\
+\
+java -jar build/robot.jar merge \\\
+	--input src/VO.owl \\\
+	template \\\
+	--template src/templates/other.csv \\\
+	--prefix "VO: http://purl.obolibrary.org/obo/VO_" \\\
+	--ontology-iri "http://purl.obolibrary.org/obo/vo/dev/other.owl" \\\
+	--output src/modules/other.owl\
+\
+\pard\pardeftab720\li960\fi-960\sa220\partightenfactor0
+
+\f1\fs26\fsmilli13333 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+}
