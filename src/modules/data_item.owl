@@ -873,9 +873,261 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
         <rdfs:label>human age within one month at vaccination</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurement datum that records the presence of a disease process in a host during the implementation of a vaccine study.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>host disease state datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001194"/>
+        <obo:IAO_0000115>A biological sex datum that records the biological sex of the target of a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>host sex datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records  the age of thost.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>host age datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurement datum that records to involvement of the host of the pregnancy process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>host pregnancy datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the quality of the host to have a comorbidity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>host comorbidity datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that  records the presence of a prior infection or immune memory to a pathogen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>host pathogen exposure datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that  records the interval between the vaccine challenge and the sacrifice of the organism during a vaccine challenge.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>challenge-killing interval datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the route of a pathogen challenge occurs in.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>challenge admistration route datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the method of sacrifice (i.e. killing). </obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>sacrifice process datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the presence or abasence of adverse event in a host in response of some vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>host adverse event  to vaccine datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the measurement of an assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>assay mesurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the time point between the start of a first intervention in a planned process and the measurment of a sample.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>assay  measurement sample  interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the type of assay used.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>assay type datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the version of an analysis tool (software) used for an assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>assay analysis tool version datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the type of platform used for an assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>assay platform datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the utilization of an attenaution process on a pathogen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>pathogen attenuation datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the number of occurences the host was vaccinated as part of the vaccination process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>vaccination frequency datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the interval between vaccinations of a host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>vaccination interval datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the intended target of a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>vaccine target datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the vaccine vector of a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>vaccine vector datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115>A measurment datum that records the vaccine preservative of a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>data item</oboInOwl:inSubset>
+        <rdfs:label>vaccine preservative datum</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
