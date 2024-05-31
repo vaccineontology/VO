@@ -17,50 +17,16 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvx-vo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-05-29/cvx-vo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-05-31/cvx-vo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
-        <dc:contributor>Chris mungall</dc:contributor>
-        <dc:contributor>Erica Marcos</dc:contributor>
-        <dc:contributor>Ningxian Fan</dc:contributor>
-        <dc:contributor>Paul Fabry</dc:contributor>
-        <dc:contributor>Randi Vita</dc:contributor>
-        <dc:contributor>Ryan R. Brinkman</dc:contributor>
-        <dc:contributor>Shunzhou Deng</dc:contributor>
-        <dc:creator>Alan Ruttenburg</dc:creator>
-        <dc:creator>Alexander D. Diehl</dc:creator>
-        <dc:creator>Amogh Madireddi</dc:creator>
-        <dc:creator>Anna Maria Masci</dc:creator>
-        <dc:creator>Anthony Huffman</dc:creator>
-        <dc:creator>Barry Smith</dc:creator>
-        <dc:creator>Bjoern Peters</dc:creator>
-        <dc:creator>Edison Ong</dc:creator>
-        <dc:creator>Hong Yu</dc:creator>
-        <dc:creator>Jason Hu</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
-        <dc:creator>Kallan Roan</dc:creator>
-        <dc:creator>Khadeejah Khan</dc:creator>
-        <dc:creator>Lindsay Cowell</dc:creator>
-        <dc:creator>Melanie Courtot</dc:creator>
-        <dc:creator>Ningxian Fan</dc:creator>
-        <dc:creator>Omar Tibi</dc:creator>
-        <dc:creator>Philip Huang</dc:creator>
-        <dc:creator>Randi Vita</dc:creator>
-        <dc:creator>Rebecca Racz</dc:creator>
-        <dc:creator>Richard H. Scheuermann</dc:creator>
-        <dc:creator>Rohit Goru</dc:creator>
-        <dc:creator>Ronak Sutariya</dc:creator>
-        <dc:creator>Samantha G. Sayers (SGS)</dc:creator>
-        <dc:creator>Thomas Todd</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
-        <dc:creator>Yu Lin (YL)</dc:creator>
         <dc:creator>Yuanyi (Penny) Pan</dc:creator>
-        <dc:creator>Zuoshuang &quot;Allen&quot; Xiang</dc:creator>
-        <dc:description xml:lang="en">The Vaccine Ontology (VO) is a community-based biomedical ontology in the domain of vaccine and vaccination. VO aims to standardize vaccine types and annotations, integrate various vaccine data, and support computer-assisted reasoning. The VO supports basic vaccine R&amp;D and clincal vaccine usage. VO is being developed as a community-based ontology with support and collaborations from the vaccine and bio-ontology communities.</dc:description>
+        <dc:description xml:lang="en">The Vaccine Ontology (VO) subset for CVX codeset.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <dc:subject xml:lang="en">An ontology in the domain of vaccine and vaccination</dc:subject>
         <dc:title xml:lang="en">Vaccine Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-05-29</owl:versionInfo>
+        <owl:versionInfo>2024-05-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -238,7 +204,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">alternative label</rdfs:label>
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -8000,6 +7965,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine component that is chemical substance added to vaccine and enhance and direct immune response to protective antigen. Many of vaccine adjuvants cause a range of serious side-effects.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
         <rdfs:label>vaccine adjuvant</rdfs:label>
     </owl:Class>
     
@@ -10412,6 +10378,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
         <obo:VO_0005438>801</obo:VO_0005438>
         <obo:VO_1000000>AS03 Adjuvant</obo:VO_1000000>
         <obo:VO_1000001>AS03 Adjuvant</obo:VO_1000001>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
         <rdfs:label>AS03 vaccine adjuvant</rdfs:label>
     </owl:Class>
     
@@ -10421,6 +10388,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001355">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
         <rdfs:label>emulsion vaccine adjuvant</rdfs:label>
     </owl:Class>
     
@@ -17605,5 +17573,5 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
 
 
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
