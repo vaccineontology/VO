@@ -17,16 +17,16 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvx-vo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-05-31/cvx-vo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-06-01/cvx-vo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Yuanyi (Penny) Pan</dc:creator>
         <dc:description xml:lang="en">The Vaccine Ontology (VO) subset for CVX codeset.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
-        <dc:title xml:lang="en">Vaccine Ontology</dc:title>
+        <dc:title xml:lang="en">Vaccine Ontology CVX code View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-05-31</owl:versionInfo>
+        <owl:versionInfo>2024-06-01</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -16720,7 +16720,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that specify the CVX code that will not be used to avoid confusion with code 999.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity that specifies the CVX code that will not be used to avoid confusion with code 999.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>RESERVED - do not use</obo:IAO_0000118>
         <obo:IAO_0000119>https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</obo:IAO_0000119>
