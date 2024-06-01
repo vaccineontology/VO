@@ -225,6 +225,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
@@ -321,6 +327,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000750"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000751"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000852 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000852"/>
@@ -336,6 +354,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
     
 
 
@@ -3009,6 +3033,97 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the species of the host used for a study.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host species variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the host&apos;s participation in a disease state (i.e. healthy, or diabetic).</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32516066</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host disease state variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the biological sex of the host</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host sex variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the age of the host</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32347787</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host age variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the presence of another developing organism in an animal host</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:34082643</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host pregnancy variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing host quality&apos;s that leads to a wore outcome to vaccination or pathogen disease state.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32516066</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host comorbidity variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the prior immungenic memory a host has against a specific pathogen</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:32668444</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host pathogen exposure variable</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0010149 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010149">
@@ -3040,12 +3155,418 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010229">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that specify the CVX code that will not be used to avoid confusion with code 999.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity that specifies the CVX code that will not be used to avoid confusion with code 999.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118>RESERVED - do not use</obo:IAO_0000118>
         <obo:IAO_0000119>https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>reserved cvx code for not using</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the lineage (breed, ethnicity) of the animal host</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:35469999</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host lineage variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the interval between vaccination and pathogen challenge</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:34328699</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccination-challenge interval variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the interval between the vaccination and pathogen challenge start</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:34328699</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>intevention interval variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the interval between the pathogen challenge start and end</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:34328699</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>challenge-killing interval variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the administration route of the pathogen challenge</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:34328699</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>challenge admistration route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the planned process used for the sacrifice</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:34328699</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>sacrifice process variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the presence of host adverse events from the vaccination process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:34153517</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host adverse event variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the measurement used for an assay</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>assay mesurement variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the timepoint a biological sample was taken after vaccination</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>assay sample endpoint variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the assay type (ELISA, microarray) etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>assay type variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the programs used to analyze an assay</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>assay analysis tool version variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the tissue or source of sample used for an assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>assay sample source variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the assay platform used (Nanopore,) etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>assay platform variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the species or type of the pathogen</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>pathogen variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the lineage of pathogen strain (incljuding presence or absence of virulence factors)</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>pathogen strain variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the presence of an attenuation process (killed microbe) on a pathogen challenge</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>pathogen attenuation variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the host vaccination frequency etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:29485622</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host vaccination frequency variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the vaccination route etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccination route variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing dose representing the vaccination </obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:34328699</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccination dose variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable represting the number of occurences a vaccination was administered</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccination frequency variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the interval between multiple vaccinations.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccination interval variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the vaccine target (pathogen, disease) etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine target variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the vaccine antigen (SARS-CoV-2 protein, whole organism) etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine antigen variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the vaccine adjuvant (silver) etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine adjuvant variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the vaccine vector (DNA plasmid, viral vector) etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine vector variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A variable representing the vaccine preservative </obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:24259431</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine preservative variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010288"/>
+        <obo:IAO_0000115>A study design variable that is used in a vaccine study.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine study design variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115>A study design that is about a vaccine study.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010261"/>
+        <obo:IAO_0000115>A vaccine study design that is about the host response to a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>host response to vaccine study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010261"/>
+        <obo:IAO_0000115>A vaccine study design that is about the vaccine challenge to a host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine challenge study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010288">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000750"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000751"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115>A directive information entity that is part of a study design. It can be eithor independent variables whose values are selected to determine its relationship to an observed phenomenon (the dependent variable) or dependent variables that are studied and expected to change when the independent variable varies.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>study design variable</rdfs:label>
     </owl:Class>
     
 
@@ -3146,7 +3667,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An identifier for a family of drug products containing a specific active ingredient.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity that specifies a family of drug products containing a specific active ingredient.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.nlm.nih.gov/research/umls/rxnorm/docs/appendix5.html</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>

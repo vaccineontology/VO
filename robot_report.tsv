@@ -1,6 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative label@en
-ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term@en
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
@@ -895,6 +893,9 @@ WARN	annotation_whitespace	VO:0007652	IAO:0000117	Oliver He
 WARN	annotation_whitespace	VO:0007653	IAO:0000117	 Anna Maria Masci
 WARN	annotation_whitespace	VO:0007653	IAO:0000117	 Xingxian Li
 WARN	annotation_whitespace	VO:0007655	IAO:0000117	 Anna Maria Masci
+WARN	annotation_whitespace	VO:0010252	IAO:0000115	A variable representing dose representing the vaccination 
+WARN	annotation_whitespace	VO:0010259	IAO:0000115	A variable representing the vaccine preservative 
+WARN	annotation_whitespace	VO:0010272	IAO:0000115	A measurment datum that records the method of sacrifice (i.e. killing). 
 WARN	annotation_whitespace	VO:0010735	IAO:0000115	A Measles-Mumps-Rubella-Vericella vaccine that is live attenuated and manufactured by GlaxoSmithKline Biologicals. 
 WARN	annotation_whitespace	VO:0011363	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0011364	IAO:0000117	Oliver He 
@@ -964,6 +965,11 @@ WARN	duplicate_label_synonym	VO:0006077	IAO:0000118	tetanus toxoid unspecified f
 WARN	duplicate_label_synonym	VO:0006078	IAO:0000118	Tick-borne encephalitis vaccine (non-US)
 WARN	duplicate_label_synonym	VO:0006091	IAO:0000118	Ebola unspecified
 WARN	duplicate_label_synonym	VO:0011303	IAO:0000118	FliC
+WARN	duplicate_label_synonym	VO:0015341	IAO:0000118	Vaqta
+WARN	duplicate_label_synonym	VO:0015342	IAO:0000118	Epaxal
+WARN	duplicate_label_synonym	VO:0015344	IAO:0000118	Havrix
+WARN	duplicate_label_synonym	VO:0015345	IAO:0000118	Vivaxim
+WARN	duplicate_label_synonym	VO:0015346	IAO:0000118	Hepatyrix
 WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
 WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
 WARN	duplicate_scoped_synonym	NCBITaxon:33554	oboInOwl:hasExactSynonym	carnivores
@@ -6739,6 +6745,14 @@ WARN	missing_definition	VO:0015337	IAO:0000115
 WARN	missing_definition	VO:0015338	IAO:0000115	
 WARN	missing_definition	VO:0015339	IAO:0000115	
 WARN	missing_definition	VO:0015340	IAO:0000115	
+WARN	missing_definition	VO:0015341	IAO:0000115	
+WARN	missing_definition	VO:0015342	IAO:0000115	
+WARN	missing_definition	VO:0015343	IAO:0000115	
+WARN	missing_definition	VO:0015344	IAO:0000115	
+WARN	missing_definition	VO:0015345	IAO:0000115	
+WARN	missing_definition	VO:0015346	IAO:0000115	
+WARN	missing_definition	VO:0015347	IAO:0000115	
+WARN	missing_definition	VO:0015348	IAO:0000115	
 WARN	missing_definition	VO:0015471	IAO:0000115	
 WARN	missing_definition	VO:0015472	IAO:0000115	
 WARN	missing_definition	VO:0015473	IAO:0000115	
@@ -6805,6 +6819,7 @@ WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/ubprop#
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_annotation_extension	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_go_ontology	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/valid_for_gocam	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
