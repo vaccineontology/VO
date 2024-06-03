@@ -200,12 +200,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000014"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000019">
@@ -284,12 +278,6 @@
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
         <rdfs:label>pAp031 DNA vaccine plasmid</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000031"/>
     
 
 
@@ -697,84 +685,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003584"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003616"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003627"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003715"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003721"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003757"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003763"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003886"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003890"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003910"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003911"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0015080"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1657331</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -3975,24 +3885,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003066 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003066"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003081 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003081"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003082 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003082"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003235">
@@ -4021,12 +3913,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003960"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003066"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1601231</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4051,12 +3937,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003362">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003960"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003066"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1601233</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4081,12 +3961,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003960"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1593127</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4147,30 +4021,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003453">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003675"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003681"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003693"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003698"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1657222</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4195,60 +4045,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015085"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003616"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003675"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003693"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003698"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003763"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003806"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003886"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003910"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0015080"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1657224</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4309,18 +4105,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003475">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015085"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003715"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003779"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1657130</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4345,18 +4129,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003477">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003779"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003784"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1657127</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4381,156 +4153,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003479">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015086"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003584"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003589"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003616"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003627"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003638"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003681"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003687"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003693"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003698"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003703"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003721"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003727"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003745"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003757"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003763"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003767"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003806"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003807"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003808"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003890"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003894"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003898"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003911"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003912"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1657226</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.fludb.org/brc/fluStrainDetails.spg?strainName=B/Brisbane/60/2008&amp;decorator=influenza</obo:IAO_0000119>
@@ -4604,24 +4226,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003486">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015086"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003779"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003784"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003791"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1657133</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4646,156 +4250,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003488">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015086"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003616"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003627"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003638"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003649"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003675"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003693"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003698"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003703"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003708"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003715"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003745"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003751"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003757"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003763"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003767"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003773"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003806"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003807"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003808"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003820"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003886"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003898"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003903"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0015080"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1657228</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -4864,148 +4318,10 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003584 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003584"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003589 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003589"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003594 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003594"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003599 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003599">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015085"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003584"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003589"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003627"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003638"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003681"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003687"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003698"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003703"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003721"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003727"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003745"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003757"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003767"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003784"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003890"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003894"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003898"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003911"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003912"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1794331</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5021,48 +4337,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003600">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003589"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003594"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003638"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003649"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003894"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003898"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003903"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1928289</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5078,72 +4352,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003601">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015085"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003594"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003649"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003687"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003708"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003733"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003751"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003773"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003791"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003820"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003903"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/2048564</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5159,54 +4367,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003602">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015086"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003594"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003649"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003708"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003733"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003751"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003773"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003903"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/2048563</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5279,30 +4439,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
         <rdfs:comment>TUI: T200</rdfs:comment>
         <rdfs:label>influenza A virus A/Hong Kong/4801/2014 (H3N2) antigen 0.12 MG/ML</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003616 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003616"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003627 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003627"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003638 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003638"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003649 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003649"/>
     
 
 
@@ -5411,118 +4547,10 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003675 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003675"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003681 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003681"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003687 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003687"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003693 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003693"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003698 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003698"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003703 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003703"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003708 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003708"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003713 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003713">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003703"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003708"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003727"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003733"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003745"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003751"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003767"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003773"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003791"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003912"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1928290</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5549,100 +4577,10 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003715 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003715"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003721 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003721"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003727 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003727"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003733 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003733"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003744 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003744"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003745 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003745"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003751 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003751"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003757 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003757"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003763 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003763"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003767 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003767"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003773 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003773"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003779 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003779"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003784 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003784"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003789 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003789">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015086"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003784"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003791"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1801603</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5669,28 +4607,10 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003791 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003791"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003804 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003804">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003806"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003807"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1664639</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
         <rdfs:comment>CUI: C4026651</rdfs:comment>
@@ -5715,40 +4635,10 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003806 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003806"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003807 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003807"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003808 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003808"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003811 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003811">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015085"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003807"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003808"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1801767</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5794,18 +4684,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003818">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015084"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003808"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003820"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1946964</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5832,22 +4710,10 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003820 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003820"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003821 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003821">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015086"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003820"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/2054177</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -5889,36 +4755,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003886 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003886"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003890 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003890"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003894 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003894"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003898 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003898"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003903 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003903"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003908 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003908">
@@ -5947,40 +4783,10 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003910 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003910"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003911 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003911"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003912 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003912"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003913 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003913"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003914">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015086"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003910"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1723997</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -6011,12 +4817,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003955">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000919"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003082"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1812935</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -6057,12 +4857,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000919"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1368371</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -6093,12 +4887,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004859">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000919"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000031"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/29503</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -7356,12 +6144,6 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0015080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015080"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0015084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015084">
@@ -7428,5 +6210,5 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
