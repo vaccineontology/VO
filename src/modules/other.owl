@@ -2973,6 +2973,17 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0006019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000118>typhus historical</obo:IAO_0000118>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>Historical record of a typhus vaccination</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0007653 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007653">
