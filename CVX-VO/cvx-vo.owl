@@ -17,7 +17,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvx-vo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-06-01/cvx-vo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-06-09/cvx-vo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
@@ -26,7 +26,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">Vaccine Ontology CVX code View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-06-01</owl:versionInfo>
+        <owl:versionInfo>2024-06-09</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4477,31 +4477,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28211 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
-        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:11541974</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:11837318</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:16166687</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:16403855</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:19060069</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Alphabacteria</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Proteobacteria alpha subdivision</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Purple bacteria, alpha subdivision</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>a-proteobacteria</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>alpha proteobacteria</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>alpha subdivision</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>alpha subgroup</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Alphaproteobacteria</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28216">
@@ -4728,6 +4703,21 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314145"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>carnivores</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>carnivores</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Carnivora</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_35324 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_35324">
@@ -4778,6 +4768,19 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Chikungunya virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_379584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_379584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33554"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_suborder"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Caniformia</rdfs:label>
     </owl:Class>
     
 
@@ -5299,23 +5302,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_766 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_766">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
-        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:11760958</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:8240958</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>rickettsias</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>alpha-1 proteobacteria</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Rickettsiales</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_76804 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_76804">
@@ -5357,23 +5343,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:hasRelatedSynonym>Rickettsia burneti</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Rickettsia diaporica</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Coxiella burnetii</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_780 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_780">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_766"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
-        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:10939649</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:11491333</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:14662925</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:9103608</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <rdfs:label>Rickettsia</rdfs:label>
     </owl:Class>
     
 
@@ -5569,6 +5538,48 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:hasExactSynonym>human</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Homo sapiens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_379584"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>dog, coyote, wolf, fox</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Canidae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9608"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Canis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9611"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>gray wolf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>grey wolf</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Canis lupus</rdfs:label>
     </owl:Class>
     
 
@@ -7421,7 +7432,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.who.int/vaccines/en/pneumococcus.shtml</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:comment>The most common form of the polyvalent pneumococcal vaccine is called the protein-polysaccharide combinations which is known as conjugate vaccines and contain 7‚Äö√Ñ√¨11 selected polysaccharides bound to a protein carrier. The protein-polysaccharide combinations are able to induce a T-cell dependent immune response. These vaccines are likely to be protective even in children under two years of age, and may reduce pneumococcal transmission through a herd effect.</rdfs:comment>
+        <rdfs:comment>The most common form of the polyvalent pneumococcal vaccine is called the protein-polysaccharide combinations which is known as conjugate vaccines and contain 7-11 selected polysaccharides bound to a protein carrier. The protein-polysaccharide combinations are able to induce a T-cell dependent immune response. These vaccines are likely to be protective even in children under two years of age, and may reduce pneumococcal transmission through a herd effect.</rdfs:comment>
         <rdfs:label>polyvalent pneumococcal vaccine</rdfs:label>
     </owl:Class>
     
@@ -7532,6 +7543,43 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>protective antigen role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000461">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000642"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8782"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An influenza vaccine for avian use</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <oboInOwl:hasAlternativeId>VO:0000986</oboInOwl:hasAlternativeId>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>avian influenza vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -7937,7 +7985,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
         <obo:IAO_0000115>H1N1 Influenza vaccine is an Influenza virus vaccine that is used to vaccinate against H1N1 Influenza subtype vaccine.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>H1N1 Influenza vaccine</rdfs:label>
+        <rdfs:label>H1N1 influenza vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -8273,7 +8321,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
         <rdfs:comment>There is no single &apos;influenza virus&apos; in NCBI_Taxon. We usually use:
 (&apos;unidentified influenza virus&apos; or &apos;Influenzavirus A&apos; or &apos;Influenzavirus B&apos; or &apos;Influenzavirus C&apos;)
 However, even this may not be comprehensive. </rdfs:comment>
-        <rdfs:label>Influenza virus vaccine</rdfs:label>
+        <rdfs:label>influenza virus vaccine</rdfs:label>
         <rdfs:seeAlso>MeSH: D007252</rdfs:seeAlso>
         <rdfs:seeAlso>SNOMEDCT: 46233009</rdfs:seeAlso>
         <rdfs:seeAlso>UMLS_CUI: C0021403</rdfs:seeAlso>
@@ -9495,39 +9543,6 @@ However, even this may not be comprehensive. </rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000767 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000767">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000165"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_780"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003550"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_780"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A bacterial vaccine that protects against diseases caused by various species of Rickettsia. Typhus is any of several similar diseases caused by Rickettsia bacteria. So Rickettsial vaccine is also called typhus vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000118>typhus vaccine</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Typhus_vaccine</obo:IAO_0000119>
-        <obo:IAO_0000119>WEB: http://www.violinet.org/vaxquery/query_detail.php?c_pathogen_id=108</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Rickettsial vaccine</rdfs:label>
-        <rdfs:seeAlso>MeSH: D012290</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000768 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000768">
@@ -9994,7 +10009,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000461"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
@@ -10004,7 +10019,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
         <obo:IAO_0000116>Chimera virus on NDV backbone; field trials in 2007</obo:IAO_0000116>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Intervet Avian Influenza virus vaccine</rdfs:label>
+        <rdfs:label>Intervet avian influenza virus vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -10063,6 +10078,36 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>viral vaccine organism live attenuated</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001024">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000461"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000461"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001176"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>an avian influenza vaccine that uses inactivated viral organism</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>inactivated avian influenza vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -10869,6 +10914,40 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003495">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000642"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Khadeejah Khan, Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>human influenza virus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003518 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003518">
@@ -11433,33 +11512,6 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0003550 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003550">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0003531"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003531"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Alphaproteobacteria vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0003551 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003551">
@@ -11645,6 +11697,15 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>rVSV-EBOV</rdfs:label>
         <rdfs:seeAlso>violinID: 4140</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003495"/>
+        <rdfs:label>quadrivalent influenza vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -12992,7 +13053,13 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005458 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004673"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
@@ -13072,7 +13139,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005462">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004673"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
@@ -13085,7 +13152,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <obo:VO_1000000>Influenza, injectable,quadrivalent, preservative free, pediatric</obo:VO_1000000>
         <obo:VO_1000001>Influenza, injectable,quadrivalent, preservative free, pediatric</obo:VO_1000001>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Influenza, injectable,quadrivalent, preservative free, pediatric</rdfs:label>
+        <rdfs:label>influenza, injectable, quadrivalent, preservative free, pediatric</rdfs:label>
     </owl:Class>
     
 
@@ -13093,7 +13160,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005463">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000642"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004673"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
@@ -13851,18 +13918,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000767"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_780"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000118>typhus historical</obo:IAO_0000118>
         <obo:VO_0005438>131</obo:VO_0005438>
         <obo:VO_1000000>Historical record of a typhus vaccination</obo:VO_1000000>
         <obo:VO_1000001>typhus, historical</obo:VO_1000001>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>Historical record of a typhus vaccination</rdfs:label>
     </owl:Class>
     
@@ -14252,6 +14313,13 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001176"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
@@ -16061,7 +16129,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004673"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Yuanyi Pan</obo:IAO_0000117>
         <obo:VO_0005438>149</obo:VO_0005438>
         <obo:VO_1000000>Influenza, live, quadrivalent, intranasal</obo:VO_1000000>
