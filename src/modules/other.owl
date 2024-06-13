@@ -3591,7 +3591,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000118>dose form group</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.nlm.nih.gov/research/umls/rxnorm/docs/appendix3.html</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
-        <rdfs:label>drug form</rdfs:label>
+        <rdfs:label>drug dose form</rdfs:label>
     </owl:Class>
     
 
@@ -3683,6 +3683,61 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000119>https://www.nlm.nih.gov/research/umls/rxnorm/docs/appendix5.html</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>drug brand name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0018843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0018843">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015061"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>oral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0018844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0018844">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015061"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>oral suspension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0018845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0018845">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015061"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>powder for oral suspension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0018846 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0018846">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015061"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>oral capsule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0018847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0018847">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015061"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>oral tablet</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
