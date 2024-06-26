@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010151 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0010151"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_1000000 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_1000000"/>
@@ -65,6 +71,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000096">
         <obo:VO_0005438>143</obo:VO_0005438>
+        <obo:VO_0010151>40213264</obo:VO_0010151>
         <obo:VO_1000000>Adenovirus, type 4 and type 7, live, oral</obo:VO_1000000>
         <obo:VO_1000001>Adenovirus types 4 and 7</obo:VO_1000001>
     </owl:Class>
@@ -75,6 +82,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000152">
         <obo:VO_0005438>78</obo:VO_0005438>
+        <obo:VO_0010151>40213241</obo:VO_0010151>
         <obo:VO_1000000>tularemia vaccine</obo:VO_1000000>
         <obo:VO_1000001>tularemia vaccine</obo:VO_1000001>
     </owl:Class>
@@ -85,6 +93,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000295">
         <obo:VO_0005438>61</obo:VO_0005438>
+        <obo:VO_0010151>40213318</obo:VO_0010151>
         <obo:VO_1000000>human immunodeficiency virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>HIV</obo:VO_1000001>
     </owl:Class>
@@ -95,6 +104,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000422">
         <obo:VO_0005438>68</obo:VO_0005438>
+        <obo:VO_0010151>40213171</obo:VO_0010151>
         <obo:VO_1000000>melanoma vaccine</obo:VO_1000000>
         <obo:VO_1000001>melanoma</obo:VO_1000001>
     </owl:Class>
@@ -105,6 +115,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000433">
         <obo:VO_0005438>75</obo:VO_0005438>
+        <obo:VO_0010151>40213248</obo:VO_0010151>
         <obo:VO_1000000>vaccinia (smallpox) vaccine</obo:VO_1000000>
         <obo:VO_1000001>vaccinia (smallpox)</obo:VO_1000001>
     </owl:Class>
@@ -115,6 +126,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000451">
         <obo:VO_0005438>69</obo:VO_0005438>
+        <obo:VO_0010151>40213194</obo:VO_0010151>
         <obo:VO_1000000>parainfluenza-3 virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>parainfluenza-3</obo:VO_1000001>
     </owl:Class>
@@ -125,8 +137,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000463">
         <obo:VO_0005438>70</obo:VO_0005438>
+        <obo:VO_0010151>40213204</obo:VO_0010151>
         <obo:VO_1000000>Q fever vaccine</obo:VO_1000000>
         <obo:VO_1000001>Q fever</obo:VO_1000001>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000487">
+        <obo:VO_0005438>25</obo:VO_0005438>
+        <obo:VO_0010151>40213242</obo:VO_0010151>
+        <obo:VO_1000000>typhoid vaccine, live, oral</obo:VO_1000000>
     </owl:Class>
     
 
@@ -135,6 +158,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000648">
         <obo:VO_0005438>23</obo:VO_0005438>
+        <obo:VO_0010151>40213197</obo:VO_0010151>
         <obo:VO_1000000>plague vaccine</obo:VO_1000000>
         <obo:VO_1000001>plague</obo:VO_1000001>
     </owl:Class>
@@ -145,6 +169,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000654">
         <obo:VO_0005438>05</obo:VO_0005438>
+        <obo:VO_0010151>40213170</obo:VO_0010151>
         <obo:VO_1000000>measles virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>measles</obo:VO_1000001>
     </owl:Class>
@@ -155,6 +180,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000656">
         <obo:VO_0005438>07</obo:VO_0005438>
+        <obo:VO_0010151>40213185</obo:VO_0010151>
         <obo:VO_1000000>mumps virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>mumps</obo:VO_1000001>
     </owl:Class>
@@ -165,8 +191,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000731">
         <obo:VO_0005438>03</obo:VO_0005438>
+        <obo:VO_0010151>40213183</obo:VO_0010151>
         <obo:VO_1000000>measles, mumps and rubella virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>MMR</obo:VO_1000001>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000737">
+        <obo:VO_0005438>94</obo:VO_0005438>
+        <obo:VO_0010151>40213184</obo:VO_0010151>
+        <obo:VO_1000000>measles, mumps, rubella, and varicella virus vaccine</obo:VO_1000000>
     </owl:Class>
     
 
@@ -175,6 +212,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000738">
         <obo:VO_0005438>01</obo:VO_0005438>
+        <obo:VO_0005438>20</obo:VO_0005438>
+        <obo:VO_0010151>40213291</obo:VO_0010151>
+        <obo:VO_1000000>diphtheria, tetanus toxoids and acellular pertussis vaccine</obo:VO_1000000>
         <obo:VO_1000000>diphtheria, tetanus toxoids and pertussis vaccine</obo:VO_1000000>
         <obo:VO_1000001>DTP</obo:VO_1000001>
     </owl:Class>
@@ -185,8 +225,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000743">
         <obo:VO_0005438>110</obo:VO_0005438>
+        <obo:VO_0010151>40213286</obo:VO_0010151>
         <obo:VO_1000000>DTaP-hepatitis B and poliovirus vaccine</obo:VO_1000000>
         <obo:VO_1000001>DTaP-Hep B-IPV</obo:VO_1000001>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000745">
+        <obo:VO_0005438>104</obo:VO_0005438>
+        <obo:VO_0010151>40213303</obo:VO_0010151>
+        <obo:VO_1000000>hepatitis A and hepatitis B vaccine</obo:VO_1000000>
     </owl:Class>
     
 
@@ -195,6 +246,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000761">
         <obo:VO_0005438>67</obo:VO_0005438>
+        <obo:VO_0010151>40213169</obo:VO_0010151>
         <obo:VO_1000000>malaria vaccine</obo:VO_1000000>
         <obo:VO_1000001>malaria</obo:VO_1000001>
     </owl:Class>
@@ -205,6 +257,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000762">
         <obo:VO_0005438>64</obo:VO_0005438>
+        <obo:VO_0010151>40213165</obo:VO_0010151>
         <obo:VO_1000000>leishmaniasis vaccine</obo:VO_1000000>
         <obo:VO_1000001>leishmaniasis</obo:VO_1000001>
     </owl:Class>
@@ -215,6 +268,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000764">
         <obo:VO_0005438>66</obo:VO_0005438>
+        <obo:VO_0010151>40213167</obo:VO_0010151>
         <obo:VO_1000000>Lyme disease vaccine</obo:VO_1000000>
         <obo:VO_1000001>Lyme disease</obo:VO_1000001>
     </owl:Class>
@@ -225,6 +279,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000765">
         <obo:VO_0005438>11</obo:VO_0005438>
+        <obo:VO_0010151>19033193</obo:VO_0010151>
         <obo:VO_1000000>pertussis vaccine</obo:VO_1000000>
         <obo:VO_1000001>pertussis</obo:VO_1000001>
     </owl:Class>
@@ -235,6 +290,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000945">
         <obo:VO_0005438>04</obo:VO_0005438>
+        <obo:VO_0010151>40213168</obo:VO_0010151>
         <obo:VO_1000000>measles and rubella virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>M/R</obo:VO_1000001>
     </owl:Class>
@@ -255,6 +311,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003155">
         <obo:VO_0005438>204</obo:VO_0005438>
+        <obo:VO_0010151>702662</obo:VO_0010151>
         <obo:VO_1000000>Ebola Zaire vaccine, live, recombinant, 1mL dose</obo:VO_1000000>
         <obo:VO_1000001>Ebola Zaire vaccine, live, recombinant, 1mL dose</obo:VO_1000001>
     </owl:Class>
@@ -265,6 +322,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003168">
         <obo:VO_0005438>50</obo:VO_0005438>
+        <obo:VO_0010151>40213287</obo:VO_0010151>
         <obo:VO_1000000>DTaP-Haemophilus influenzae type b conjugate vaccine</obo:VO_1000000>
         <obo:VO_1000001>DTaP-Hib</obo:VO_1000001>
     </owl:Class>
@@ -275,6 +333,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003180">
         <obo:VO_0005438>115</obo:VO_0005438>
+        <obo:VO_0010151>40213230</obo:VO_0010151>
         <obo:VO_1000000>tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed</obo:VO_1000000>
         <obo:VO_1000001>Tdap</obo:VO_1000001>
     </owl:Class>
@@ -285,6 +344,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003418">
         <obo:VO_0005438>38</obo:VO_0005438>
+        <obo:VO_0010151>40213224</obo:VO_0010151>
         <obo:VO_1000000>rubella and mumps virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>rubella/mumps</obo:VO_1000001>
     </owl:Class>
@@ -295,6 +355,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003834">
         <obo:VO_0005438>10</obo:VO_0005438>
+        <obo:VO_0010151>40213160</obo:VO_0010151>
         <obo:VO_1000000>poliovirus vaccine, inactivated</obo:VO_1000000>
         <obo:VO_1000001>IPV</obo:VO_1000001>
     </owl:Class>
@@ -305,6 +366,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004112">
         <obo:VO_0005438>80</obo:VO_0005438>
+        <obo:VO_0010151>40213253</obo:VO_0010151>
         <obo:VO_1000000>Venezuelan equine encephalitis, live, attenuated</obo:VO_1000000>
         <obo:VO_1000001>VEE, live</obo:VO_1000001>
     </owl:Class>
@@ -335,6 +397,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004991">
         <obo:VO_0005438>502</obo:VO_0005438>
+        <obo:VO_0010151>702666</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (COVAXIN)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 IV Non-US Vaccine (COVAXIN)</obo:VO_1000001>
     </owl:Class>
@@ -345,6 +408,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004992">
         <obo:VO_0005438>512</obo:VO_0005438>
+        <obo:VO_0010151>778259</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Virus Like Particle (VLP) Non-US Vaccine Product (Medicago, Covifenz)</obo:VO_1000000>
         <obo:VO_1000001>SARS-COV-2 COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)</obo:VO_1000001>
     </owl:Class>
@@ -355,6 +419,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005081">
         <obo:VO_0005438>517</obo:VO_0005438>
+        <obo:VO_0010151>778264</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Biological E Limited, Corbevax)</obo:VO_1000000>
         <obo:VO_1000001>SARS-COV-2 COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)</obo:VO_1000001>
     </owl:Class>
@@ -365,6 +430,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005084">
         <obo:VO_0005438>516</obo:VO_0005438>
+        <obo:VO_0010151>778263</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Inactivated Non-US Vaccine Product (Minhai Biotechnology Co, KCONVAC)</obo:VO_1000000>
         <obo:VO_1000001>COV-2 COVID-19 Inactivated Non-US Vaccine Product (Minhai Biotechnology Co, KCONVAC)</obo:VO_1000001>
     </owl:Class>
@@ -375,6 +441,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005088">
         <obo:VO_0005438>509</obo:VO_0005438>
+        <obo:VO_0010151>702671</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (EpiVacCorona)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 PS Non-US Vaccine (EpiVacCorona)</obo:VO_1000001>
     </owl:Class>
@@ -385,6 +452,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005093">
         <obo:VO_0005438>501</obo:VO_0005438>
+        <obo:VO_0010151>702665</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (QAZCOVID-IN)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 IV Non-US Vaccine (QAZCOVID-IN)</obo:VO_1000001>
     </owl:Class>
@@ -395,6 +463,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005099">
         <obo:VO_0005438>518</obo:VO_0005438>
+        <obo:VO_0010151>716023</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)</obo:VO_1000001>
     </owl:Class>
@@ -405,6 +474,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005141">
         <obo:VO_0005438>511</obo:VO_0005438>
+        <obo:VO_0010151>702673</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (CoronaVac, Sinovac)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)</obo:VO_1000001>
     </owl:Class>
@@ -425,6 +495,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005158">
         <obo:VO_0005438>210</obo:VO_0005438>
+        <obo:VO_0010151>724905</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 (COVID-19) vaccine, vector non-replicating, recombinant spike protein-ChAdOx1, preservative free, 0.5 mL</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL</obo:VO_1000001>
     </owl:Class>
@@ -445,6 +516,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005162">
         <obo:VO_0005438>514</obo:VO_0005438>
+        <obo:VO_0010151>778261</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 DNA Non-US Vaccine Product (Zydus Cadila, ZyCoV-D)</obo:VO_1000000>
         <obo:VO_1000001>SARS-COV-2 COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)</obo:VO_1000001>
     </owl:Class>
@@ -455,6 +527,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005163">
         <obo:VO_0005438>505</obo:VO_0005438>
+        <obo:VO_0010151>702668</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (Sputnik V)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 VVnr Non-US Vaccine (Sputnik V)</obo:VO_1000001>
     </owl:Class>
@@ -465,6 +538,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005166">
         <obo:VO_0005438>510</obo:VO_0005438>
+        <obo:VO_0010151>702672</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Inactivated Virus Non-US Vaccine Product (BIBP, Sinopharm)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)</obo:VO_1000001>
     </owl:Class>
@@ -475,6 +549,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005187">
         <obo:VO_0005438>503</obo:VO_0005438>
+        <obo:VO_0010151>702680</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Live Attenuated Virus Non-US Vaccine Product (COVIVAC)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 LAV Non-US Vaccine (COVIVAC)</obo:VO_1000001>
     </owl:Class>
@@ -485,6 +560,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005192">
         <obo:VO_0005438>515</obo:VO_0005438>
+        <obo:VO_0010151>778262</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Medigen, MVC-COV1901)</obo:VO_1000000>
         <obo:VO_1000001>SARS-COV-2 COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)</obo:VO_1000001>
     </owl:Class>
@@ -657,6 +733,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005456">
         <obo:VO_0005438>198</obo:VO_0005438>
+        <obo:VO_0010151>724900</obo:VO_0010151>
         <obo:VO_1000000>Diphtheria, pertussis, tetanus, hepatitis B, Haemophilus Influenza Type b, (Pentavalent)</obo:VO_1000000>
         <obo:VO_1000001>DTP-hepB-Hib Pentavalent Non-US</obo:VO_1000001>
     </owl:Class>
@@ -667,6 +744,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005458">
         <obo:VO_0005438>186</obo:VO_0005438>
+        <obo:VO_0010151>40213144</obo:VO_0010151>
         <obo:VO_1000000>Influenza, Madin Darby Canine Kidney, subunit, quadrivalent, injectable, contains preservative</obo:VO_1000000>
         <obo:VO_1000001>Influenza, MDCK, quadrivalent, preservative</obo:VO_1000001>
     </owl:Class>
@@ -677,6 +755,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005459">
         <obo:VO_0005438>107</obo:VO_0005438>
+        <obo:VO_0010151>40213283</obo:VO_0010151>
         <obo:VO_1000000>diphtheria, tetanus toxoids and acellular pertussis vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>DTaP, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -687,6 +766,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005460">
         <obo:VO_0005438>22</obo:VO_0005438>
+        <obo:VO_0010151>40213292</obo:VO_0010151>
         <obo:VO_1000000>DTP-Haemophilus influenzae type b conjugate vaccine</obo:VO_1000000>
         <obo:VO_1000001>DTP-Hib</obo:VO_1000001>
     </owl:Class>
@@ -697,6 +777,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005462">
         <obo:VO_0005438>161</obo:VO_0005438>
+        <obo:VO_0010151>40213147</obo:VO_0010151>
         <obo:VO_1000000>Influenza, injectable,quadrivalent, preservative free, pediatric</obo:VO_1000000>
         <obo:VO_1000001>Influenza, injectable,quadrivalent, preservative free, pediatric</obo:VO_1000001>
     </owl:Class>
@@ -707,6 +788,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005463">
         <obo:VO_0005438>166</obo:VO_0005438>
+        <obo:VO_0010151>40213148</obo:VO_0010151>
         <obo:VO_1000000>influenza, intradermal, quadrivalent, preservative free, injectable</obo:VO_1000000>
         <obo:VO_1000001>influenza, intradermal, quadrivalent, preservative free</obo:VO_1000001>
     </owl:Class>
@@ -717,6 +799,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005464">
         <obo:VO_0005438>178</obo:VO_0005438>
+        <obo:VO_0010151>40213192</obo:VO_0010151>
         <obo:VO_1000000>Non-US bivalent oral polio vaccine (types 1 and 3)</obo:VO_1000000>
         <obo:VO_1000001>OPV bivalent</obo:VO_1000001>
     </owl:Class>
@@ -727,6 +810,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005465">
         <obo:VO_0005438>179</obo:VO_0005438>
+        <obo:VO_0010151>40213191</obo:VO_0010151>
         <obo:VO_1000000>Non-US monovalent oral polio vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>OPV ,monovalent, unspecified</obo:VO_1000001>
     </owl:Class>
@@ -737,6 +821,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005466">
         <obo:VO_0005438>09</obo:VO_0005438>
+        <obo:VO_0010151>40213228</obo:VO_0010151>
         <obo:VO_1000000>tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (2 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)</obo:VO_1000000>
         <obo:VO_1000001>Td (adult), 2 Lf tetanus toxoid, preservative free, adsorbed</obo:VO_1000001>
     </owl:Class>
@@ -747,6 +832,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005467">
         <obo:VO_0005438>196</obo:VO_0005438>
+        <obo:VO_0010151>724895</obo:VO_0010151>
         <obo:VO_1000000>tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use, Lf unspecified</obo:VO_1000000>
         <obo:VO_1000001>Td, adsorbed, preservative free, adult use, Lf unspecified</obo:VO_1000001>
     </owl:Class>
@@ -757,6 +843,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005468">
         <obo:VO_0005438>138</obo:VO_0005438>
+        <obo:VO_0010151>40213226</obo:VO_0010151>
         <obo:VO_1000000>tetanus and diphtheria toxoids, not adsorbed, for adult use</obo:VO_1000000>
         <obo:VO_1000001>Td (adult)</obo:VO_1000001>
     </owl:Class>
@@ -767,6 +854,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005469">
         <obo:VO_0005438>02</obo:VO_0005438>
+        <obo:VO_0010151>40213190</obo:VO_0010151>
         <obo:VO_1000000>trivalent poliovirus vaccine, live, oral</obo:VO_1000000>
         <obo:VO_1000001>OPV</obo:VO_1000001>
     </owl:Class>
@@ -777,6 +865,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005470">
         <obo:VO_0005438>146</obo:VO_0005438>
+        <obo:VO_0010151>40213284</obo:VO_0010151>
         <obo:VO_1000000>Diphtheria and Tetanus Toxoids and Acellular Pertussis Adsorbed, Inactivated Poliovirus, Haemophilus b Conjugate (Meningococcal Protein Conjugate), and Hepatitis B (Recombinant) Vaccine.</obo:VO_1000000>
         <obo:VO_1000001>DTaP,IPV,Hib,HepB</obo:VO_1000001>
     </owl:Class>
@@ -787,6 +876,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006000">
         <obo:VO_0005438>82</obo:VO_0005438>
+        <obo:VO_0010151>40213267</obo:VO_0010151>
         <obo:VO_1000000>adenovirus vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>adenovirus, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -807,6 +897,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006002">
         <obo:VO_0005438>26</obo:VO_0005438>
+        <obo:VO_0010151>40213275</obo:VO_0010151>
         <obo:VO_1000000>cholera vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>cholera, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -817,6 +908,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006003">
         <obo:VO_0005438>173</obo:VO_0005438>
+        <obo:VO_0010151>40213273</obo:VO_0010151>
         <obo:VO_1000000>cholera, BivWC</obo:VO_1000000>
         <obo:VO_1000001>cholera, BivWC</obo:VO_1000001>
     </owl:Class>
@@ -827,6 +919,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006004">
         <obo:VO_0005438>174</obo:VO_0005438>
+        <obo:VO_0010151>40213274</obo:VO_0010151>
         <obo:VO_1000000>cholera, live attenuated</obo:VO_1000000>
         <obo:VO_1000001>cholera, live attenuated</obo:VO_1000001>
     </owl:Class>
@@ -847,6 +940,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006006">
         <obo:VO_0005438>17</obo:VO_0005438>
+        <obo:VO_0010151>40213316</obo:VO_0010151>
         <obo:VO_1000000>Haemophilus influenzae type b vaccine, conjugate unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Hib, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -857,6 +951,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006007">
         <obo:VO_0005438>46</obo:VO_0005438>
+        <obo:VO_0010151>40213313</obo:VO_0010151>
         <obo:VO_1000000>Haemophilus influenzae type b vaccine, PRP-D conjugate</obo:VO_1000000>
         <obo:VO_1000001>Hib (PRP-D)</obo:VO_1000001>
     </owl:Class>
@@ -867,6 +962,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006008">
         <obo:VO_0005438>169</obo:VO_0005438>
+        <obo:VO_0010151>40213298</obo:VO_0010151>
         <obo:VO_1000000>Hep A, live attenuated-IM</obo:VO_1000000>
         <obo:VO_1000001>Hep A, live attenuated</obo:VO_1000001>
     </owl:Class>
@@ -877,6 +973,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006009">
         <obo:VO_0005438>52</obo:VO_0005438>
+        <obo:VO_0010151>40213296</obo:VO_0010151>
         <obo:VO_1000000>hepatitis A vaccine, adult dosage</obo:VO_1000000>
         <obo:VO_1000001>Hep A, adult</obo:VO_1000001>
     </owl:Class>
@@ -887,6 +984,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006010">
         <obo:VO_0005438>31</obo:VO_0005438>
+        <obo:VO_0010151>40213301</obo:VO_0010151>
         <obo:VO_1000000>hepatitis A vaccine, pediatric dosage, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Hep A, pediatric, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -897,6 +995,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006011">
         <obo:VO_0005438>84</obo:VO_0005438>
+        <obo:VO_0010151>40213300</obo:VO_0010151>
         <obo:VO_1000000>hepatitis A vaccine, pediatric/adolescent dosage, 3 dose schedule</obo:VO_1000000>
         <obo:VO_1000001>Hep A, ped/adol, 3 dose</obo:VO_1000001>
     </owl:Class>
@@ -907,6 +1006,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006012">
         <obo:VO_0005438>85</obo:VO_0005438>
+        <obo:VO_0010151>40213302</obo:VO_0010151>
         <obo:VO_1000000>hepatitis A vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Hep A, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -917,6 +1017,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006013">
         <obo:VO_0005438>220</obo:VO_0005438>
+        <obo:VO_0010151>905414</obo:VO_0010151>
         <obo:VO_1000000>Hepatitis B vaccine (recombinant), 3-antigen, Al(OH)3 adjuvanted</obo:VO_1000000>
         <obo:VO_1000001>HepB recombinant, 3-antigen, Al(OH)3</obo:VO_1000001>
     </owl:Class>
@@ -927,6 +1028,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006014">
         <obo:VO_0005438>42</obo:VO_0005438>
+        <obo:VO_0010151>40213305</obo:VO_0010151>
         <obo:VO_1000000>hepatitis B vaccine, adolescent/high risk infant dosage</obo:VO_1000000>
         <obo:VO_1000001>Hep B, adolescent/high risk infant</obo:VO_1000001>
     </owl:Class>
@@ -937,6 +1039,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006015">
         <obo:VO_0005438>45</obo:VO_0005438>
+        <obo:VO_0010151>40213308</obo:VO_0010151>
         <obo:VO_1000000>hepatitis B vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Hep B, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -947,6 +1050,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006016">
         <obo:VO_0005438>58</obo:VO_0005438>
+        <obo:VO_0010151>40213309</obo:VO_0010151>
         <obo:VO_1000000>hepatitis C vaccine</obo:VO_1000000>
         <obo:VO_1000001>Hep C</obo:VO_1000001>
     </owl:Class>
@@ -957,6 +1061,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006017">
         <obo:VO_0005438>59</obo:VO_0005438>
+        <obo:VO_0010151>40213310</obo:VO_0010151>
         <obo:VO_1000000>hepatitis E vaccine</obo:VO_1000000>
         <obo:VO_1000001>Hep E</obo:VO_1000001>
     </owl:Class>
@@ -967,6 +1072,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006018">
         <obo:VO_0005438>60</obo:VO_0005438>
+        <obo:VO_0010151>40213311</obo:VO_0010151>
         <obo:VO_1000000>herpes simplex virus, type 2 vaccine</obo:VO_1000000>
         <obo:VO_1000001>herpes simplex 2</obo:VO_1000001>
     </owl:Class>
@@ -977,6 +1083,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006019">
         <obo:VO_0005438>131</obo:VO_0005438>
+        <obo:VO_0010151>40213247</obo:VO_0010151>
         <obo:VO_1000000>Historical record of a typhus vaccination</obo:VO_1000000>
         <obo:VO_1000001>typhus, historical</obo:VO_1000001>
     </owl:Class>
@@ -987,6 +1094,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006020">
         <obo:VO_0005438>137</obo:VO_0005438>
+        <obo:VO_0010151>40213321</obo:VO_0010151>
         <obo:VO_1000000>HPV, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>HPV, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -997,6 +1105,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006021">
         <obo:VO_0005438>175</obo:VO_0005438>
+        <obo:VO_0010151>40213205</obo:VO_0010151>
         <obo:VO_1000000>Human Rabies vaccine from human diploid cell culture</obo:VO_1000000>
         <obo:VO_1000001>Rabies - IM Diploid cell culture</obo:VO_1000001>
     </owl:Class>
@@ -1007,6 +1116,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006022">
         <obo:VO_0005438>151</obo:VO_0005438>
+        <obo:VO_0010151>40213327</obo:VO_0010151>
         <obo:VO_1000000>influenza nasal, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>influenza nasal, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1017,6 +1127,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006023">
         <obo:VO_0005438>15</obo:VO_0005438>
+        <obo:VO_0010151>40213156</obo:VO_0010151>
         <obo:VO_1000000>influenza virus vaccine, split virus (incl. purified surface antigen)-retired CODE</obo:VO_1000000>
         <obo:VO_1000001>influenza, split (incl. purified surface antigen)</obo:VO_1000001>
     </owl:Class>
@@ -1027,6 +1138,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006024">
         <obo:VO_0005438>88</obo:VO_0005438>
+        <obo:VO_0010151>40213158</obo:VO_0010151>
         <obo:VO_1000000>influenza virus vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>influenza, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1037,6 +1149,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006025">
         <obo:VO_0005438>16</obo:VO_0005438>
+        <obo:VO_0010151>40213159</obo:VO_0010151>
         <obo:VO_1000000>influenza virus vaccine, whole virus</obo:VO_1000000>
         <obo:VO_1000001>influenza, whole</obo:VO_1000001>
     </owl:Class>
@@ -1047,6 +1160,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006026">
         <obo:VO_0005438>129</obo:VO_0005438>
+        <obo:VO_0010151>40213163</obo:VO_0010151>
         <obo:VO_1000000>Japanese Encephalitis vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Japanese Encephalitis, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1057,6 +1171,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006027">
         <obo:VO_0005438>63</obo:VO_0005438>
+        <obo:VO_0010151>40213164</obo:VO_0010151>
         <obo:VO_1000000>Junin virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>Junin virus</obo:VO_1000001>
     </owl:Class>
@@ -1067,6 +1182,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006028">
         <obo:VO_0005438>65</obo:VO_0005438>
+        <obo:VO_0010151>40213166</obo:VO_0010151>
         <obo:VO_1000000>leprosy vaccine</obo:VO_1000000>
         <obo:VO_1000001>leprosy</obo:VO_1000001>
     </owl:Class>
@@ -1077,6 +1193,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006029">
         <obo:VO_0005438>191</obo:VO_0005438>
+        <obo:VO_0010151>706107</obo:VO_0010151>
         <obo:VO_1000000>meningococcal A polysaccharide vaccine (non-US)</obo:VO_1000000>
         <obo:VO_1000001>meningococcal A polysaccharide (non-US)</obo:VO_1000001>
     </owl:Class>
@@ -1087,6 +1204,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006030">
         <obo:VO_0005438>192</obo:VO_0005438>
+        <obo:VO_0010151>706108</obo:VO_0010151>
         <obo:VO_1000000>meningococcal AC polysaccharide vaccine (non-US)</obo:VO_1000000>
         <obo:VO_1000001>meningococcal AC polysaccharide (non-US)</obo:VO_1000001>
     </owl:Class>
@@ -1097,6 +1215,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006031">
         <obo:VO_0005438>108</obo:VO_0005438>
+        <obo:VO_0010151>40213172</obo:VO_0010151>
         <obo:VO_1000000>meningococcal ACWY vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>meningococcal ACWY, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1107,6 +1226,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006032">
         <obo:VO_0005438>164</obo:VO_0005438>
+        <obo:VO_0010151>40213175</obo:VO_0010151>
         <obo:VO_1000000>meningococcal B, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>meningococcal B, unspecified</obo:VO_1000001>
     </owl:Class>
@@ -1117,6 +1237,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006033">
         <obo:VO_0005438>103</obo:VO_0005438>
+        <obo:VO_0010151>40213176</obo:VO_0010151>
         <obo:VO_1000000>meningococcal C conjugate vaccine</obo:VO_1000000>
         <obo:VO_1000001>meningococcal C conjugate</obo:VO_1000001>
     </owl:Class>
@@ -1127,6 +1248,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006034">
         <obo:VO_0005438>167</obo:VO_0005438>
+        <obo:VO_0010151>40213182</obo:VO_0010151>
         <obo:VO_1000000>meningococcal vaccine of unknown formulation and unknown serogroups</obo:VO_1000000>
         <obo:VO_1000001>meningococcal, unknown serogroups</obo:VO_1000001>
     </owl:Class>
@@ -1137,6 +1259,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006035">
         <obo:VO_0005438>203</obo:VO_0005438>
+        <obo:VO_0010151>724901</obo:VO_0010151>
         <obo:VO_1000000>meningococcal polysaccharide (groups A, C, Y, W-135) tetanus toxoid conjugate vaccine 0.5mL dose, preservative free</obo:VO_1000000>
         <obo:VO_1000001>meningococcal conjugate quadrivalent, MenACWY-TT (MCV4)</obo:VO_1000001>
     </owl:Class>
@@ -1147,6 +1270,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006036">
         <obo:VO_0005438>147</obo:VO_0005438>
+        <obo:VO_0010151>40213178</obo:VO_0010151>
         <obo:VO_1000000>Meningococcal, MCV4, unspecified conjugate formulation(groups A, C, Y and W-135)</obo:VO_1000000>
         <obo:VO_1000001>meningococcal MCV4, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1157,6 +1281,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006037">
         <obo:VO_0005438>128</obo:VO_0005438>
+        <obo:VO_0010151>40213187</obo:VO_0010151>
         <obo:VO_1000000>Novel influenza-H1N1-09, all formulations</obo:VO_1000000>
         <obo:VO_1000001>Novel Influenza-H1N1-09, all formulations</obo:VO_1000001>
     </owl:Class>
@@ -1167,6 +1292,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006038">
         <obo:VO_0005438>127</obo:VO_0005438>
+        <obo:VO_0010151>40213186</obo:VO_0010151>
         <obo:VO_1000000>Novel influenza-H1N1-09, injectable</obo:VO_1000000>
         <obo:VO_1000001>Novel influenza-H1N1-09</obo:VO_1000001>
     </owl:Class>
@@ -1177,6 +1303,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006039">
         <obo:VO_0005438>125</obo:VO_0005438>
+        <obo:VO_0010151>40213188</obo:VO_0010151>
         <obo:VO_1000000>Novel Influenza-H1N1-09, live virus for nasal administration</obo:VO_1000000>
         <obo:VO_1000001>Novel Influenza-H1N1-09, nasal</obo:VO_1000001>
     </owl:Class>
@@ -1187,6 +1314,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006040">
         <obo:VO_0005438>126</obo:VO_0005438>
+        <obo:VO_0010151>40213189</obo:VO_0010151>
         <obo:VO_1000000>Novel influenza-H1N1-09, preservative-free, injectable</obo:VO_1000000>
         <obo:VO_1000001>Novel influenza-H1N1-09, preservative-free</obo:VO_1000001>
     </owl:Class>
@@ -1197,6 +1325,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006041">
         <obo:VO_0005438>215</obo:VO_0005438>
+        <obo:VO_0010151>702674</obo:VO_0010151>
         <obo:VO_1000000>Pneumococcal conjugate vaccine 15-valent (PCV15), polysaccharide CRM197 conjugate, adjuvant, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF</obo:VO_1000001>
     </owl:Class>
@@ -1207,6 +1336,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006042">
         <obo:VO_0005438>216</obo:VO_0005438>
+        <obo:VO_0010151>702675</obo:VO_0010151>
         <obo:VO_1000000>Pneumococcal conjugate vaccine 20-valent (PCV20), polysaccharide CRM197 conjugate, adjuvant, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF</obo:VO_1000001>
     </owl:Class>
@@ -1217,6 +1347,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006043">
         <obo:VO_0005438>177</obo:VO_0005438>
+        <obo:VO_0010151>40213195</obo:VO_0010151>
         <obo:VO_1000000>pneumococcal conjugate vaccine, 10 valent</obo:VO_1000000>
         <obo:VO_1000001>PCV10</obo:VO_1000001>
     </owl:Class>
@@ -1227,6 +1358,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006044">
         <obo:VO_0005438>152</obo:VO_0005438>
+        <obo:VO_0010151>40213200</obo:VO_0010151>
         <obo:VO_1000000>Pneumococcal Conjugate, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Pneumococcal Conjugate, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1237,6 +1369,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006045">
         <obo:VO_0005438>40</obo:VO_0005438>
+        <obo:VO_0010151>40213207</obo:VO_0010151>
         <obo:VO_1000000>rabies vaccine, for intradermal injection</obo:VO_1000000>
         <obo:VO_1000001>rabies, intradermal injection</obo:VO_1000001>
     </owl:Class>
@@ -1247,6 +1380,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006046">
         <obo:VO_0005438>90</obo:VO_0005438>
+        <obo:VO_0010151>40213209</obo:VO_0010151>
         <obo:VO_1000000>rabies vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>rabies, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1257,6 +1391,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006047">
         <obo:VO_0005438>145</obo:VO_0005438>
+        <obo:VO_0010151>40213222</obo:VO_0010151>
         <obo:VO_1000000>respiratory syncytial virus monoclonal antibody (motavizumab), intramuscular</obo:VO_1000000>
         <obo:VO_1000001>RSV-MAb (new)</obo:VO_1000001>
     </owl:Class>
@@ -1267,6 +1402,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006048">
         <obo:VO_0005438>93</obo:VO_0005438>
+        <obo:VO_0010151>40213221</obo:VO_0010151>
         <obo:VO_1000000>respiratory syncytial virus monoclonal antibody (palivizumab), intramuscular</obo:VO_1000000>
         <obo:VO_1000001>RSV-MAb</obo:VO_1000001>
     </owl:Class>
@@ -1277,6 +1413,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006049">
         <obo:VO_0005438>72</obo:VO_0005438>
+        <obo:VO_0010151>40213210</obo:VO_0010151>
         <obo:VO_1000000>rheumatic fever vaccine</obo:VO_1000000>
         <obo:VO_1000001>rheumatic fever</obo:VO_1000001>
     </owl:Class>
@@ -1287,6 +1424,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006050">
         <obo:VO_0005438>122</obo:VO_0005438>
+        <obo:VO_0010151>40213219</obo:VO_0010151>
         <obo:VO_1000000>rotavirus vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>rotavirus, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1297,6 +1435,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006051">
         <obo:VO_0005438>74</obo:VO_0005438>
+        <obo:VO_0010151>40213218</obo:VO_0010151>
         <obo:VO_1000000>rotavirus, live, tetravalent vaccine</obo:VO_1000000>
         <obo:VO_1000001>rotavirus, tetravalent</obo:VO_1000001>
     </owl:Class>
@@ -1307,6 +1446,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006052">
         <obo:VO_0005438>226</obo:VO_0005438>
+        <obo:VO_0010151>905419</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 (COVID-19) vaccine, D614, prefusion spike recombinant protein subunit (CoV2 preS dTM), AS03 adjuvant added, preservative free, 10mcg/0.5mL dose</obo:VO_1000000>
         <obo:VO_1000001>COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 10mcg/0.5mL</obo:VO_1000001>
     </owl:Class>
@@ -1317,6 +1457,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006053">
         <obo:VO_0005438>225</obo:VO_0005438>
+        <obo:VO_0010151>905418</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 (COVID-19) vaccine, D614, prefusion spike recombinant protein subunit (CoV2 preS dTM), AS03 adjuvant added, preservative free, 5mcg/0.5mL dose</obo:VO_1000000>
         <obo:VO_1000001>COVID-19, D614, recomb, preS dTM, AS03 adjuvant add, PF, 5mcg/0.5mL</obo:VO_1000001>
     </owl:Class>
@@ -1457,6 +1598,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006067">
         <obo:VO_0005438>213</obo:VO_0005438>
+        <obo:VO_0010151>724904</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED</obo:VO_1000000>
         <obo:VO_1000001>SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED</obo:VO_1000001>
     </owl:Class>
@@ -1467,6 +1609,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006068">
         <obo:VO_0005438>519</obo:VO_0005438>
+        <obo:VO_0010151>716024</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna</obo:VO_1000001>
     </owl:Class>
@@ -1477,6 +1620,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006069">
         <obo:VO_0005438>520</obo:VO_0005438>
+        <obo:VO_0010151>716025</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product (Comirnaty Bivalent), Pfizer-BioNTech</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product, Pfizer-BioNTech</obo:VO_1000001>
     </owl:Class>
@@ -1487,6 +1631,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006070">
         <obo:VO_0005438>500</obo:VO_0005438>
+        <obo:VO_0010151>702664</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Non-US Vaccine, Specific Product Unknown</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 Non-US Vaccine, Product Unknown</obo:VO_1000001>
     </owl:Class>
@@ -1497,6 +1642,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006071">
         <obo:VO_0005438>508</obo:VO_0005438>
+        <obo:VO_0010151>702681</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Jiangsu Province Centers for Disease Control and Prevention)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)</obo:VO_1000001>
     </owl:Class>
@@ -1507,6 +1653,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006072">
         <obo:VO_0005438>507</obo:VO_0005438>
+        <obo:VO_0010151>702670</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Anhui Zhifei Longcom Biopharmaceutical + Institute of Microbiology, Chinese Academy of Sciences)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro, Chinese Acad of Sciences)</obo:VO_1000001>
     </owl:Class>
@@ -1517,6 +1664,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006073">
         <obo:VO_0005438>513</obo:VO_0005438>
+        <obo:VO_0010151>778260</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Protein Subunit Non-US Vaccine Product (Anhui Zhifei Longcom, Zifivax)</obo:VO_1000000>
         <obo:VO_1000001>SARS-COV-2 COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)</obo:VO_1000001>
     </owl:Class>
@@ -1527,6 +1675,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006074">
         <obo:VO_0005438>506</obo:VO_0005438>
+        <obo:VO_0010151>702669</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (CONVIDECIA), CanSino Biological Inc./Beijing Institute of Biotechnology</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology</obo:VO_1000001>
     </owl:Class>
@@ -1537,6 +1686,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006075">
         <obo:VO_0005438>504</obo:VO_0005438>
+        <obo:VO_0010151>702667</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 COVID-19 Viral Vector Non-replicating Non-US Vaccine Product (Sputnik Light)</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 VVnr Non-US Vaccine (Sputnik Light)</obo:VO_1000001>
     </owl:Class>
@@ -1547,6 +1697,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006076">
         <obo:VO_0005438>142</obo:VO_0005438>
+        <obo:VO_0010151>40213233</obo:VO_0010151>
         <obo:VO_1000000>tetanus toxoid, not adsorbed</obo:VO_1000000>
         <obo:VO_1000001>tetanus toxoid, not adsorbed</obo:VO_1000001>
     </owl:Class>
@@ -1567,6 +1718,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006078">
         <obo:VO_0005438>77</obo:VO_0005438>
+        <obo:VO_0010151>40213235</obo:VO_0010151>
         <obo:VO_1000000>Tick-borne encephalitis vaccine (non-US)</obo:VO_1000000>
         <obo:VO_1000001>Tick-borne encephalitis vaccine (non-US)</obo:VO_1000001>
     </owl:Class>
@@ -1577,6 +1729,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006079">
         <obo:VO_0005438>223</obo:VO_0005438>
+        <obo:VO_0010151>905416</obo:VO_0010151>
         <obo:VO_1000000>Tick-borne encephalitis vaccine, inactivated, preservative free, 0.25mL dose</obo:VO_1000000>
         <obo:VO_1000001>Tick-borne encephalitis, inactivated, PF, 0.25mL</obo:VO_1000001>
     </owl:Class>
@@ -1587,6 +1740,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006080">
         <obo:VO_0005438>224</obo:VO_0005438>
+        <obo:VO_0010151>905417</obo:VO_0010151>
         <obo:VO_1000000>Tick-borne encephalitis vaccine, inactivated, preservative free, 0.5mL dose</obo:VO_1000000>
         <obo:VO_1000001>Tick-borne encephalitis, inactivated, PF, 0.5mL</obo:VO_1000001>
     </owl:Class>
@@ -1597,6 +1751,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006081">
         <obo:VO_0005438>222</obo:VO_0005438>
+        <obo:VO_0010151>905415</obo:VO_0010151>
         <obo:VO_1000000>Tick-borne encephalitis vaccine, unspecified</obo:VO_1000000>
         <obo:VO_1000001>Tick-borne encephalitis, unspecified</obo:VO_1000001>
     </owl:Class>
@@ -1607,6 +1762,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006082">
         <obo:VO_0005438>190</obo:VO_0005438>
+        <obo:VO_0010151>706106</obo:VO_0010151>
         <obo:VO_1000000>Typhoid conjugate vaccine (non-US)</obo:VO_1000000>
         <obo:VO_1000001>Typhoid conjugate vaccine (TCV)</obo:VO_1000001>
     </owl:Class>
@@ -1617,6 +1773,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006083">
         <obo:VO_0005438>53</obo:VO_0005438>
+        <obo:VO_0010151>40213244</obo:VO_0010151>
         <obo:VO_1000000>typhoid vaccine, parenteral, acetone-killed, dried (U.S. military)</obo:VO_1000000>
         <obo:VO_1000001>typhoid, parenteral, AKD (U.S. military)</obo:VO_1000001>
     </owl:Class>
@@ -1627,6 +1784,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006084">
         <obo:VO_0005438>41</obo:VO_0005438>
+        <obo:VO_0010151>40213243</obo:VO_0010151>
         <obo:VO_1000000>typhoid vaccine, parenteral, other than acetone-killed, dried</obo:VO_1000000>
         <obo:VO_1000001>typhoid, parenteral</obo:VO_1000001>
     </owl:Class>
@@ -1637,6 +1795,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006085">
         <obo:VO_0005438>91</obo:VO_0005438>
+        <obo:VO_0010151>40213245</obo:VO_0010151>
         <obo:VO_1000000>typhoid vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>typhoid, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1647,6 +1806,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006086">
         <obo:VO_0005438>105</obo:VO_0005438>
+        <obo:VO_0010151>40213249</obo:VO_0010151>
         <obo:VO_1000000>vaccinia (smallpox) vaccine, diluted</obo:VO_1000000>
         <obo:VO_1000001>vaccinia (smallpox) diluted</obo:VO_1000001>
     </owl:Class>
@@ -1657,6 +1817,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006087">
         <obo:VO_0005438>206</obo:VO_0005438>
+        <obo:VO_0010151>724903</obo:VO_0010151>
         <obo:VO_1000000>Vaccinia, smallpox monkeypox vaccine, live attenuated, preservative free, subcutaneous or intradermal injection</obo:VO_1000000>
         <obo:VO_1000001>Vaccinia, smallpox Mpox vaccine live, PF, SQ or ID injection</obo:VO_1000001>
     </owl:Class>
@@ -1667,6 +1828,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006088">
         <obo:VO_0005438>92</obo:VO_0005438>
+        <obo:VO_0010151>40213254</obo:VO_0010151>
         <obo:VO_1000000>Venezuelan equine encephalitis vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>VEE, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -1677,6 +1839,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006089">
         <obo:VO_0005438>81</obo:VO_0005438>
+        <obo:VO_0010151>40213252</obo:VO_0010151>
         <obo:VO_1000000>Venezuelan equine encephalitis, inactivated</obo:VO_1000000>
         <obo:VO_1000001>VEE, inactivated</obo:VO_1000001>
     </owl:Class>
@@ -1687,6 +1850,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006090">
         <obo:VO_0005438>56</obo:VO_0005438>
+        <obo:VO_0010151>40213278</obo:VO_0010151>
         <obo:VO_1000000>dengue fever vaccine, tetravalent</obo:VO_1000000>
         <obo:VO_1000001>dengue fever tetravalent</obo:VO_1000001>
     </owl:Class>
@@ -1697,8 +1861,29 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006091">
         <obo:VO_0005438>214</obo:VO_0005438>
+        <obo:VO_0010151>702663</obo:VO_0010151>
         <obo:VO_1000000>Ebola, unspecified</obo:VO_1000000>
         <obo:VO_1000001>Ebola, unspecified</obo:VO_1000001>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007582">
+        <obo:VO_0005438>19</obo:VO_0005438>
+        <obo:VO_0010151>40213271</obo:VO_0010151>
+        <obo:VO_1000000>Bacillus Calmette-Guerin vaccine</obo:VO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010125">
+        <obo:VO_0005438>76</obo:VO_0005438>
+        <obo:VO_0010151>40213225</obo:VO_0010151>
+        <obo:VO_1000000>Staphylococcus bacteriophage lysate</obo:VO_1000000>
     </owl:Class>
     
 
@@ -1847,6 +2032,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010150">
         <obo:VO_0005438>999</obo:VO_0005438>
+        <obo:VO_0010151>40213263</obo:VO_0010151>
         <obo:VO_1000000>unknown vaccine or immune globulin</obo:VO_1000000>
         <obo:VO_1000001>unknown</obo:VO_1000001>
     </owl:Class>
@@ -1857,6 +2043,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010153">
         <obo:VO_0005438>521</obo:VO_0005438>
+        <obo:VO_0010151>716026</obo:VO_0010151>
         <obo:VO_1000000>SARS-COV-2 (COVID-19) vaccine SP, protein-based, adjuvanted, B.1.351 strain (VidPrevtyn Beta), Sanofi-GSK</obo:VO_1000000>
         <obo:VO_1000001>COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK</obo:VO_1000001>
     </owl:Class>
@@ -1867,6 +2054,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010154">
         <obo:VO_0005438>43</obo:VO_0005438>
+        <obo:VO_0010151>40213306</obo:VO_0010151>
         <obo:VO_1000000>hepatitis B vaccine, adult dosage</obo:VO_1000000>
         <obo:VO_1000001>Hep B, adult</obo:VO_1000001>
     </owl:Class>
@@ -1877,6 +2065,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010155">
         <obo:VO_0005438>44</obo:VO_0005438>
+        <obo:VO_0010151>40213307</obo:VO_0010151>
         <obo:VO_1000000>hepatitis B vaccine, dialysis patient dosage</obo:VO_1000000>
         <obo:VO_1000001>Hep B, dialysis</obo:VO_1000001>
     </owl:Class>
@@ -1887,6 +2076,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010156">
         <obo:VO_0005438>24</obo:VO_0005438>
+        <obo:VO_0010151>40213268</obo:VO_0010151>
         <obo:VO_1000000>Anthrax vaccine, adsorbed, pre-exposure and post-exposure prophylaxis</obo:VO_1000000>
         <obo:VO_1000001>Anthrax, pre-exposure prophylaxis, post-exposure prophylaxis</obo:VO_1000001>
     </owl:Class>
@@ -1897,6 +2087,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010157">
         <obo:VO_0005438>195</obo:VO_0005438>
+        <obo:VO_0010151>724894</obo:VO_0010151>
         <obo:VO_1000000>Diphtheria, Tetanus, Poliomyelitis adsorbed</obo:VO_1000000>
         <obo:VO_1000001>DT, IPV adsorbed</obo:VO_1000001>
     </owl:Class>
@@ -1907,6 +2098,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010158">
         <obo:VO_0005438>28</obo:VO_0005438>
+        <obo:VO_0010151>40213280</obo:VO_0010151>
         <obo:VO_1000000>diphtheria and tetanus toxoids, adsorbed for pediatric use</obo:VO_1000000>
         <obo:VO_1000001>DT (pediatric)</obo:VO_1000001>
     </owl:Class>
@@ -1917,6 +2109,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010159">
         <obo:VO_0005438>113</obo:VO_0005438>
+        <obo:VO_0010151>40213227</obo:VO_0010151>
         <obo:VO_1000000>tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use (5 Lf of tetanus toxoid and 2 Lf of diphtheria toxoid)</obo:VO_1000000>
         <obo:VO_1000001>Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed</obo:VO_1000001>
     </owl:Class>
@@ -1927,6 +2120,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010160">
         <obo:VO_0005438>106</obo:VO_0005438>
+        <obo:VO_0010151>40213282</obo:VO_0010151>
         <obo:VO_1000000>diphtheria, tetanus toxoids and acellular pertussis vaccine, 5 pertussis antigens</obo:VO_1000000>
         <obo:VO_1000001>DTaP, 5 pertussis antigens</obo:VO_1000001>
     </owl:Class>
@@ -1937,6 +2131,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010161">
         <obo:VO_0005438>130</obo:VO_0005438>
+        <obo:VO_0010151>40213289</obo:VO_0010151>
         <obo:VO_1000000>Diphtheria, tetanus toxoids and acellular pertussis vaccine, and poliovirus vaccine, inactivated</obo:VO_1000000>
         <obo:VO_1000001>DTaP-IPV</obo:VO_1000001>
     </owl:Class>
@@ -1947,6 +2142,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010162">
         <obo:VO_0005438>132</obo:VO_0005438>
+        <obo:VO_0010151>40213290</obo:VO_0010151>
         <obo:VO_1000000>Historical diphtheria and tetanus toxoids and acellular pertussis, poliovirus, Haemophilus b conjugate and hepatitis B (recombinant) vaccine.</obo:VO_1000000>
         <obo:VO_1000001>DTaP-IPV-HIB-HEP B, historical</obo:VO_1000001>
     </owl:Class>
@@ -1957,6 +2153,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010163">
         <obo:VO_0005438>120</obo:VO_0005438>
+        <obo:VO_0010151>40213288</obo:VO_0010151>
         <obo:VO_1000000>diphtheria, tetanus toxoids and acellular pertussis vaccine, Haemophilus influenzae type b conjugate, and poliovirus vaccine, inactivated (DTaP-Hib-IPV)</obo:VO_1000000>
         <obo:VO_1000001>DTaP-Hib-IPV</obo:VO_1000001>
     </owl:Class>
@@ -1967,6 +2164,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010164">
         <obo:VO_0005438>170</obo:VO_0005438>
+        <obo:VO_0010151>40213285</obo:VO_0010151>
         <obo:VO_1000000>non-US diphtheria, tetanus toxoids and acellular pertussis vaccine, Haemophilus influenzae type b conjugate, and poliovirus vaccine, inactivated (DTaP-Hib-IPV)</obo:VO_1000000>
         <obo:VO_1000001>DTAP/IPV/HIB - non-US</obo:VO_1000001>
     </owl:Class>
@@ -1977,6 +2175,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010165">
         <obo:VO_0005438>51</obo:VO_0005438>
+        <obo:VO_0010151>40213317</obo:VO_0010151>
         <obo:VO_1000000>Haemophilus influenzae type b conjugate and Hepatitis B vaccine</obo:VO_1000000>
         <obo:VO_1000001>Hib-Hep B</obo:VO_1000001>
     </owl:Class>
@@ -1987,6 +2186,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010166">
         <obo:VO_0005438>47</obo:VO_0005438>
+        <obo:VO_0010151>40213312</obo:VO_0010151>
         <obo:VO_1000000>Haemophilus influenzae type b vaccine, HbOC conjugate</obo:VO_1000000>
         <obo:VO_1000001>Hib (HbOC)</obo:VO_1000001>
     </owl:Class>
@@ -2007,6 +2207,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010168">
         <obo:VO_0005438>49</obo:VO_0005438>
+        <obo:VO_0010151>40213314</obo:VO_0010151>
         <obo:VO_1000000>Haemophilus influenzae type b vaccine, PRP-OMP conjugate</obo:VO_1000000>
         <obo:VO_1000001>Hib (PRP-OMP)</obo:VO_1000001>
     </owl:Class>
@@ -2017,6 +2218,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010169">
         <obo:VO_0005438>83</obo:VO_0005438>
+        <obo:VO_0010151>40213299</obo:VO_0010151>
         <obo:VO_1000000>hepatitis A vaccine, pediatric/adolescent dosage, 2 dose schedule</obo:VO_1000000>
         <obo:VO_1000001>Hep A, ped/adol, 2 dose</obo:VO_1000001>
     </owl:Class>
@@ -2027,6 +2229,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010170">
         <obo:VO_0005438>193</obo:VO_0005438>
+        <obo:VO_0010151>706109</obo:VO_0010151>
         <obo:VO_1000000>hepatitis A and hepatitis B vaccine, pediatric/adolescent (non-US)</obo:VO_1000000>
         <obo:VO_1000001>Hep A-Hep B, pediatric/adolescent</obo:VO_1000001>
     </owl:Class>
@@ -2037,6 +2240,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010171">
         <obo:VO_0005438>08</obo:VO_0005438>
+        <obo:VO_0010151>40213304</obo:VO_0010151>
         <obo:VO_1000000>hepatitis B vaccine, pediatric or pediatric/adolescent dosage</obo:VO_1000000>
         <obo:VO_1000001>Hep B, adolescent or pediatric</obo:VO_1000001>
     </owl:Class>
@@ -2047,6 +2251,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010172">
         <obo:VO_0005438>189</obo:VO_0005438>
+        <obo:VO_0010151>706105</obo:VO_0010151>
         <obo:VO_1000000>Hepatitis B vaccine (recombinant), CpG adjuvanted</obo:VO_1000000>
         <obo:VO_1000001>HepB-CpG</obo:VO_1000001>
     </owl:Class>
@@ -2057,6 +2262,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010173">
         <obo:VO_0005438>62</obo:VO_0005438>
+        <obo:VO_0010151>40213320</obo:VO_0010151>
         <obo:VO_1000000>human papilloma virus vaccine, quadrivalent</obo:VO_1000000>
         <obo:VO_1000001>HPV, quadrivalent</obo:VO_1000001>
     </owl:Class>
@@ -2067,6 +2273,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010174">
         <obo:VO_0005438>118</obo:VO_0005438>
+        <obo:VO_0010151>40213319</obo:VO_0010151>
         <obo:VO_1000000>human papilloma virus vaccine, bivalent</obo:VO_1000000>
         <obo:VO_1000001>HPV, bivalent</obo:VO_1000001>
     </owl:Class>
@@ -2077,6 +2284,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010175">
         <obo:VO_0005438>165</obo:VO_0005438>
+        <obo:VO_0010151>40213322</obo:VO_0010151>
         <obo:VO_1000000>Human Papillomavirus 9-valent vaccine</obo:VO_1000000>
         <obo:VO_1000001>HPV9</obo:VO_1000001>
     </owl:Class>
@@ -2087,6 +2295,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010176">
         <obo:VO_0005438>111</obo:VO_0005438>
+        <obo:VO_0010151>40213149</obo:VO_0010151>
         <obo:VO_1000000>Influenza, live, trivalent, intranasal</obo:VO_1000000>
         <obo:VO_1000001>Influenza, live, trivalent, intranasal</obo:VO_1000001>
     </owl:Class>
@@ -2097,6 +2306,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010177">
         <obo:VO_0005438>123</obo:VO_0005438>
+        <obo:VO_0010151>40213140</obo:VO_0010151>
         <obo:VO_1000000>influenza virus vaccine, H5N1, A/Vietnam/1203/2004 (national stockpile)</obo:VO_1000000>
         <obo:VO_1000001>influenza, H5N1-1203</obo:VO_1000001>
     </owl:Class>
@@ -2107,6 +2317,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010178">
         <obo:VO_0005438>135</obo:VO_0005438>
+        <obo:VO_0010151>40213141</obo:VO_0010151>
         <obo:VO_1000000>Influenza, high-dose, split virus, trivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, high-dose, trivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2117,6 +2328,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010179">
         <obo:VO_0005438>140</obo:VO_0005438>
+        <obo:VO_0010151>40213154</obo:VO_0010151>
         <obo:VO_1000000>Influenza, split virus, trivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, split virus, trivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2127,6 +2339,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010180">
         <obo:VO_0005438>141</obo:VO_0005438>
+        <obo:VO_0010151>40213153</obo:VO_0010151>
         <obo:VO_1000000>Influenza, split virus, trivalent, injectable, contains preservative</obo:VO_1000000>
         <obo:VO_1000001>Influenza, split virus, trivalent, preservative</obo:VO_1000001>
     </owl:Class>
@@ -2137,6 +2350,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010181">
         <obo:VO_0005438>144</obo:VO_0005438>
+        <obo:VO_0010151>40213155</obo:VO_0010151>
         <obo:VO_1000000>seasonal influenza, intradermal, preservative free</obo:VO_1000000>
         <obo:VO_1000001>influenza, seasonal, intradermal, preservative free</obo:VO_1000001>
     </owl:Class>
@@ -2147,6 +2361,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010182">
         <obo:VO_0005438>149</obo:VO_0005438>
+        <obo:VO_0010151>40213150</obo:VO_0010151>
         <obo:VO_1000000>Influenza, live, quadrivalent, intranasal</obo:VO_1000000>
         <obo:VO_1000001>Influenza, live, quadrivalent, intranasal</obo:VO_1000001>
     </owl:Class>
@@ -2157,6 +2372,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010183">
         <obo:VO_0005438>150</obo:VO_0005438>
+        <obo:VO_0010151>40213146</obo:VO_0010151>
         <obo:VO_1000000>Influenza, split virus, quadrivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, split virus, quadrivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2167,6 +2383,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010184">
         <obo:VO_0005438>153</obo:VO_0005438>
+        <obo:VO_0010151>40213142</obo:VO_0010151>
         <obo:VO_1000000>Influenza, Madin Darby Canine Kidney, subunit, trivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, MDCK, trivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2177,6 +2394,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010185">
         <obo:VO_0005438>155</obo:VO_0005438>
+        <obo:VO_0010151>40213151</obo:VO_0010151>
         <obo:VO_1000000>Influenza, recombinant, trivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, recombinant, trivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2187,6 +2405,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010186">
         <obo:VO_0005438>158</obo:VO_0005438>
+        <obo:VO_0010151>40213145</obo:VO_0010151>
         <obo:VO_1000000>Influenza, split virus, quadrivalent, injectable, contains preservative</obo:VO_1000000>
         <obo:VO_1000001>Influenza, split virus, quadrivalent, preservative</obo:VO_1000001>
     </owl:Class>
@@ -2197,6 +2416,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010187">
         <obo:VO_0005438>160</obo:VO_0005438>
+        <obo:VO_0010151>40213326</obo:VO_0010151>
         <obo:VO_1000000>Influenza A monovalent (H5N1), adjuvanted, National stockpile 2013</obo:VO_1000000>
         <obo:VO_1000001>Influenza A monovalent (H5N1), ADJUVANTED-2013</obo:VO_1000001>
     </owl:Class>
@@ -2207,6 +2427,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010188">
         <obo:VO_0005438>168</obo:VO_0005438>
+        <obo:VO_0010151>40213157</obo:VO_0010151>
         <obo:VO_1000000>Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, adjuvanted, trivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2217,6 +2438,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010189">
         <obo:VO_0005438>171</obo:VO_0005438>
+        <obo:VO_0010151>40213143</obo:VO_0010151>
         <obo:VO_1000000>Influenza, Madin Darby Canine Kidney, subunit, quadrivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, MDCK, quadrivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2227,6 +2449,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010190">
         <obo:VO_0005438>185</obo:VO_0005438>
+        <obo:VO_0010151>40213152</obo:VO_0010151>
         <obo:VO_1000000>Influenza, recombinant, quadrivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, recombinant, quadrivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2237,6 +2460,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010191">
         <obo:VO_0005438>194</obo:VO_0005438>
+        <obo:VO_0010151>724893</obo:VO_0010151>
         <obo:VO_1000000>influenza, Southern Hemisphere, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Influenza, Southern Hemisphere</obo:VO_1000001>
     </owl:Class>
@@ -2247,6 +2471,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010192">
         <obo:VO_0005438>197</obo:VO_0005438>
+        <obo:VO_0010151>724896</obo:VO_0010151>
         <obo:VO_1000000>Influenza, high-dose, split virus, quadrivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, high-dose, quadrivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2257,6 +2482,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010193">
         <obo:VO_0005438>200</obo:VO_0005438>
+        <obo:VO_0010151>724897</obo:VO_0010151>
         <obo:VO_1000000>influenza, seasonal, Southern Hemisphere, quadrivalent, pediatric 0.25mL dose, preservative free</obo:VO_1000000>
         <obo:VO_1000001>influenza, Southern Hemisphere, pediatric, preservative free</obo:VO_1000001>
     </owl:Class>
@@ -2267,6 +2493,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010194">
         <obo:VO_0005438>201</obo:VO_0005438>
+        <obo:VO_0010151>724898</obo:VO_0010151>
         <obo:VO_1000000>influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, no preservative</obo:VO_1000000>
         <obo:VO_1000001>influenza, Southern Hemisphere, preservative free</obo:VO_1000001>
     </owl:Class>
@@ -2277,6 +2504,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010195">
         <obo:VO_0005438>202</obo:VO_0005438>
+        <obo:VO_0010151>724899</obo:VO_0010151>
         <obo:VO_1000000>influenza, seasonal, Southern Hemisphere, quadrivalent, 0.5mL dose, with preservative</obo:VO_1000000>
         <obo:VO_1000001>influenza, Southern Hemisphere, quadrivalent, with preservative</obo:VO_1000001>
     </owl:Class>
@@ -2287,6 +2515,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010196">
         <obo:VO_0005438>205</obo:VO_0005438>
+        <obo:VO_0010151>724902</obo:VO_0010151>
         <obo:VO_1000000>Influenza, adjuvanted, inactivated, quadrivalent, injectable, preservative free</obo:VO_1000000>
         <obo:VO_1000001>Influenza, adjuvanted, quadrivalent, PF</obo:VO_1000001>
     </owl:Class>
@@ -2297,6 +2526,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010197">
         <obo:VO_0005438>231</obo:VO_0005438>
+        <obo:VO_0010151>716027</obo:VO_0010151>
         <obo:VO_1000000>influenza, seasonal, Southern Hemisphere, high-dose, quadrivalent, 0.7mL dose, preservative free</obo:VO_1000000>
         <obo:VO_1000001>influenza, Southern Hemisphere, high-dose, quadrivalent</obo:VO_1000001>
     </owl:Class>
@@ -2317,6 +2547,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010199">
         <obo:VO_0005438>39</obo:VO_0005438>
+        <obo:VO_0010151>40213162</obo:VO_0010151>
         <obo:VO_1000000>Japanese Encephalitis Vaccine SC</obo:VO_1000000>
         <obo:VO_1000001>Japanese encephalitis SC</obo:VO_1000001>
     </owl:Class>
@@ -2327,6 +2558,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010200">
         <obo:VO_0005438>134</obo:VO_0005438>
+        <obo:VO_0010151>40213161</obo:VO_0010151>
         <obo:VO_1000000>Japanese Encephalitis vaccine for intramuscular administration</obo:VO_1000000>
         <obo:VO_1000001>Japanese Encephalitis IM</obo:VO_1000001>
     </owl:Class>
@@ -2337,6 +2569,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010201">
         <obo:VO_0005438>32</obo:VO_0005438>
+        <obo:VO_0010151>40213181</obo:VO_0010151>
         <obo:VO_1000000>meningococcal polysaccharide vaccine (MPSV4)</obo:VO_1000000>
         <obo:VO_1000001>meningococcal MPSV4</obo:VO_1000001>
     </owl:Class>
@@ -2347,6 +2580,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010202">
         <obo:VO_0005438>114</obo:VO_0005438>
+        <obo:VO_0010151>40213180</obo:VO_0010151>
         <obo:VO_1000000>meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4P)</obo:VO_1000000>
         <obo:VO_1000001>meningococcal MCV4P</obo:VO_1000001>
     </owl:Class>
@@ -2357,6 +2591,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010203">
         <obo:VO_0005438>136</obo:VO_0005438>
+        <obo:VO_0010151>40213179</obo:VO_0010151>
         <obo:VO_1000000>meningococcal oligosaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4O)</obo:VO_1000000>
         <obo:VO_1000001>Meningococcal MCV4O</obo:VO_1000001>
     </owl:Class>
@@ -2367,6 +2602,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010204">
         <obo:VO_0005438>148</obo:VO_0005438>
+        <obo:VO_0010151>40213177</obo:VO_0010151>
         <obo:VO_1000000>Meningococcal Groups C and Y and Haemophilus b Tetanus Toxoid Conjugate Vaccine</obo:VO_1000000>
         <obo:VO_1000001>Meningococcal C/Y-HIB PRP</obo:VO_1000001>
     </owl:Class>
@@ -2377,6 +2613,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010205">
         <obo:VO_0005438>162</obo:VO_0005438>
+        <obo:VO_0010151>40213174</obo:VO_0010151>
         <obo:VO_1000000>meningococcal B vaccine, fully recombinant</obo:VO_1000000>
         <obo:VO_1000001>meningococcal B, recombinant</obo:VO_1000001>
     </owl:Class>
@@ -2387,6 +2624,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010206">
         <obo:VO_0005438>163</obo:VO_0005438>
+        <obo:VO_0010151>40213173</obo:VO_0010151>
         <obo:VO_1000000>meningococcal B vaccine, recombinant, OMV, adjuvanted</obo:VO_1000000>
         <obo:VO_1000001>meningococcal B, OMV</obo:VO_1000001>
     </owl:Class>
@@ -2397,6 +2635,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010207">
         <obo:VO_0005438>33</obo:VO_0005438>
+        <obo:VO_0010151>40213201</obo:VO_0010151>
         <obo:VO_1000000>pneumococcal polysaccharide vaccine, 23 valent</obo:VO_1000000>
         <obo:VO_1000001>pneumococcal polysaccharide PPV23</obo:VO_1000001>
     </owl:Class>
@@ -2407,6 +2646,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010208">
         <obo:VO_0005438>89</obo:VO_0005438>
+        <obo:VO_0010151>40213203</obo:VO_0010151>
         <obo:VO_1000000>poliovirus vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>polio, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -2417,6 +2657,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010209">
         <obo:VO_0005438>182</obo:VO_0005438>
+        <obo:VO_0010151>40213193</obo:VO_0010151>
         <obo:VO_1000000>Oral Polio Vaccine, Unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>OPV, Unspecified</obo:VO_1000001>
     </owl:Class>
@@ -2427,6 +2668,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010210">
         <obo:VO_0005438>100</obo:VO_0005438>
+        <obo:VO_0010151>40213199</obo:VO_0010151>
         <obo:VO_1000000>pneumococcal conjugate vaccine, 7 valent</obo:VO_1000000>
         <obo:VO_1000001>pneumococcal conjugate PCV 7</obo:VO_1000001>
     </owl:Class>
@@ -2437,6 +2679,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010211">
         <obo:VO_0005438>133</obo:VO_0005438>
+        <obo:VO_0010151>40213198</obo:VO_0010151>
         <obo:VO_1000000>pneumococcal conjugate vaccine, 13 valent</obo:VO_1000000>
         <obo:VO_1000001>Pneumococcal conjugate PCV 13</obo:VO_1000001>
     </owl:Class>
@@ -2447,6 +2690,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010212">
         <obo:VO_0005438>18</obo:VO_0005438>
+        <obo:VO_0010151>40213208</obo:VO_0010151>
         <obo:VO_1000000>rabies vaccine, for intramuscular injection RETIRED CODE</obo:VO_1000000>
         <obo:VO_1000001>rabies, intramuscular injection</obo:VO_1000001>
     </owl:Class>
@@ -2457,6 +2701,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010213">
         <obo:VO_0005438>176</obo:VO_0005438>
+        <obo:VO_0010151>40213206</obo:VO_0010151>
         <obo:VO_1000000>Human rabies vaccine from Chicken fibroblast culture</obo:VO_1000000>
         <obo:VO_1000001>Rabies - IM fibroblast culture</obo:VO_1000001>
     </owl:Class>
@@ -2497,6 +2742,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010217">
         <obo:VO_0005438>116</obo:VO_0005438>
+        <obo:VO_0010151>40213217</obo:VO_0010151>
         <obo:VO_1000000>rotavirus, live, pentavalent vaccine</obo:VO_1000000>
         <obo:VO_1000001>rotavirus, pentavalent</obo:VO_1000001>
     </owl:Class>
@@ -2507,6 +2753,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010218">
         <obo:VO_0005438>119</obo:VO_0005438>
+        <obo:VO_0010151>40213216</obo:VO_0010151>
         <obo:VO_1000000>rotavirus, live, monovalent vaccine</obo:VO_1000000>
         <obo:VO_1000001>rotavirus, monovalent</obo:VO_1000001>
     </owl:Class>
@@ -2517,6 +2764,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010219">
         <obo:VO_0005438>109</obo:VO_0005438>
+        <obo:VO_0010151>40213202</obo:VO_0010151>
         <obo:VO_1000000>pneumococcal vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>pneumococcal, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -2527,6 +2775,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010220">
         <obo:VO_0005438>35</obo:VO_0005438>
+        <obo:VO_0010151>40213232</obo:VO_0010151>
         <obo:VO_1000000>tetanus toxoid, adsorbed</obo:VO_1000000>
         <obo:VO_1000001>tetanus toxoid, adsorbed</obo:VO_1000001>
     </owl:Class>
@@ -2537,6 +2786,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010221">
         <obo:VO_0005438>139</obo:VO_0005438>
+        <obo:VO_0010151>40213229</obo:VO_0010151>
         <obo:VO_1000000>Td(adult) unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Td(adult) unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -2547,6 +2797,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010222">
         <obo:VO_0005438>101</obo:VO_0005438>
+        <obo:VO_0010151>40213246</obo:VO_0010151>
         <obo:VO_1000000>typhoid Vi capsular polysaccharide vaccine</obo:VO_1000000>
         <obo:VO_1000001>typhoid, ViCPs</obo:VO_1000001>
     </owl:Class>
@@ -2557,6 +2808,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010223">
         <obo:VO_0005438>187</obo:VO_0005438>
+        <obo:VO_0010151>706103</obo:VO_0010151>
         <obo:VO_1000000>zoster vaccine recombinant</obo:VO_1000000>
         <obo:VO_1000001>zoster recombinant</obo:VO_1000001>
     </owl:Class>
@@ -2567,6 +2819,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010224">
         <obo:VO_0005438>188</obo:VO_0005438>
+        <obo:VO_0010151>706104</obo:VO_0010151>
         <obo:VO_1000000>zoster vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>zoster, unspecified formulation</obo:VO_1000001>
     </owl:Class>
@@ -2577,6 +2830,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010225">
         <obo:VO_0005438>172</obo:VO_0005438>
+        <obo:VO_0010151>40213276</obo:VO_0010151>
         <obo:VO_1000000>cholera, WC-rBS</obo:VO_1000000>
         <obo:VO_1000001>cholera, WC-rBS</obo:VO_1000001>
     </owl:Class>
@@ -2587,6 +2841,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010226">
         <obo:VO_0005438>37</obo:VO_0005438>
+        <obo:VO_0010151>40213257</obo:VO_0010151>
         <obo:VO_1000000>yellow fever vaccine live</obo:VO_1000000>
         <obo:VO_1000001>yellow fever live</obo:VO_1000001>
     </owl:Class>
@@ -2597,6 +2852,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010227">
         <obo:VO_0005438>183</obo:VO_0005438>
+        <obo:VO_0010151>40213258</obo:VO_0010151>
         <obo:VO_1000000>Yellow fever vaccine live - alternative formulation for vaccine shortage</obo:VO_1000000>
         <obo:VO_1000001>Yellow fever vaccine live - alt</obo:VO_1000001>
     </owl:Class>
@@ -2607,6 +2863,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010228">
         <obo:VO_0005438>184</obo:VO_0005438>
+        <obo:VO_0010151>40213259</obo:VO_0010151>
         <obo:VO_1000000>Yellow fever vaccine, unspecified formulation</obo:VO_1000000>
         <obo:VO_1000001>Yellow fever, unspecified</obo:VO_1000001>
     </owl:Class>
@@ -2627,6 +2884,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010230">
         <obo:VO_0005438>95</obo:VO_0005438>
+        <obo:VO_0010151>40213238</obo:VO_0010151>
         <obo:VO_1000000>tuberculin skin test; old tuberculin, multipuncture device</obo:VO_1000000>
         <obo:VO_1000001>TST-OT tine test</obo:VO_1000001>
     </owl:Class>
@@ -2637,6 +2895,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010231">
         <obo:VO_0005438>96</obo:VO_0005438>
+        <obo:VO_0010151>40213239</obo:VO_0010151>
         <obo:VO_1000000>tuberculin skin test; purified protein derivative solution, intradermal</obo:VO_1000000>
         <obo:VO_1000001>TST-PPD intradermal</obo:VO_1000001>
     </owl:Class>
@@ -2647,6 +2906,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010232">
         <obo:VO_0005438>97</obo:VO_0005438>
+        <obo:VO_0010151>40213240</obo:VO_0010151>
         <obo:VO_1000000>tuberculin skin test; purified protein derivative, multipuncture device</obo:VO_1000000>
         <obo:VO_1000001>TST-PPD tine test</obo:VO_1000001>
     </owl:Class>
@@ -2667,6 +2927,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010637">
         <obo:VO_0005438>06</obo:VO_0005438>
+        <obo:VO_0010151>40213223</obo:VO_0010151>
         <obo:VO_1000000>rubella virus vaccine</obo:VO_1000000>
         <obo:VO_1000001>rubella</obo:VO_1000001>
     </owl:Class>
@@ -2677,6 +2938,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012166">
         <obo:VO_0005438>73</obo:VO_0005438>
+        <obo:VO_0010151>40213214</obo:VO_0010151>
         <obo:VO_1000000>Rift Valley fever vaccine</obo:VO_1000000>
         <obo:VO_1000001>Rift Valley fever</obo:VO_1000001>
     </owl:Class>
@@ -2687,12 +2949,43 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012167">
         <obo:VO_0005438>57</obo:VO_0005438>
+        <obo:VO_0010151>40213294</obo:VO_0010151>
         <obo:VO_1000000>hantavirus vaccine</obo:VO_1000000>
         <obo:VO_1000001>hantavirus</obo:VO_1000001>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0021164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0021164">
+        <obo:VO_0005438>121</obo:VO_0005438>
+        <obo:VO_0010151>40213260</obo:VO_0010151>
+        <obo:VO_1000000>zoster vaccine, live</obo:VO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0021165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0021165">
+        <obo:VO_0005438>21</obo:VO_0005438>
+        <obo:VO_0010151>40213251</obo:VO_0010151>
+        <obo:VO_1000000>varicella virus vaccine</obo:VO_1000000>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0021166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0021166">
+        <obo:VO_0005438>102</obo:VO_0005438>
+        <obo:VO_0010151>40213293</obo:VO_0010151>
+        <obo:VO_1000000>DTP- Haemophilus influenzae type b conjugate and hepatitis b vaccine (non-US)</obo:VO_1000000>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
