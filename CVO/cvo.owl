@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-06-09/cvo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-06-26/cvo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor>Chris mungall</dc:contributor>
         <dc:contributor>Erica Marcos</dc:contributor>
@@ -52,13 +52,14 @@
         <dc:creator>Thomas Todd</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Yu Lin (YL)</dc:creator>
+        <dc:creator>Xingxian Li</dc:creator>
         <dc:creator>Yuanyi (Penny) Pan</dc:creator>
         <dc:creator>Zuoshuang &quot;Allen&quot; Xiang</dc:creator>
         <dc:description xml:lang="en">A view of Vaccine Ontology (VO) with a focus on the modeling and representation of various cancer vaccines.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">Vaccine Ontology Cancer Vaccine View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-06-09</owl:versionInfo>
+        <owl:versionInfo>2024-06-26</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -236,6 +237,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">alternative label</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -403,6 +405,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMO_0002000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0002000"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
@@ -415,7 +423,38 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
+        <obo:IAO_0000115>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
+        <obo:OMO_0002000>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX in_taxon: &lt;http://purl.obolibrary.org/obo/RO_0002162&gt;
+PREFIX present_in_taxon: &lt;http://purl.obolibrary.org/obo/RO_0002175&gt;
+CONSTRUCT {
+  in_taxon: a owl:ObjectProperty .
+  ?witness rdfs:label ?label .
+  ?witness rdfs:subClassOf ?x .
+  ?witness rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon
+  ] .
+}
+WHERE {
+  ?x present_in_taxon: ?taxon .
+  BIND(IRI(CONCAT(
+    &quot;http://purl.obolibrary.org/obo/RO_0002175#&quot;,
+    MD5(STR(?x)),
+    &quot;-&quot;,
+    MD5(STR(?taxon))
+  )) as ?witness)
+  BIND(CONCAT(STR(?x), &quot; in taxon &quot;, STR(?taxon)) AS ?label)
+}</obo:OMO_0002000>
+        <rdfs:comment>The SPARQL expansion for this relation introduces new named classes into the ontology. For this reason it is likely that the expansion should only be performed during a QC pipeline; the expanded output should usually not be included in a published version of the ontology.</rdfs:comment>
+        <rdfs:label xml:lang="en">present in taxon</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -432,7 +471,13 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <!-- http://purl.obolibrary.org/obo/VO_0005438 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005438"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005438">
+        <obo:IAO_0000115>An annotation property that refers to a specific CVX ID.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=cvx</obo:IAO_0000119>
+        <rdfs:label>CVX code</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -449,15 +494,30 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010151 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0010151">
+        <obo:IAO_0000115>An annotation property that represents an identifier of RxNorm or RxNorm extension concept assigned by OMOP.</obo:IAO_0000115>
+        <rdfs:label>OMOP concept ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_1000000 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_1000000"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_1000000">
+        <obo:IAO_0000115>An annotation property that refers to full vaccine name in CVX code set.</obo:IAO_0000115>
+        <rdfs:label>CVX full vaccine name</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/VO_1000001 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_1000001"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_1000001">
+        <obo:IAO_0000115>An annotation property that refers to short description in CVX code set.</obo:IAO_0000115>
+        <rdfs:label>CVX short description</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -6165,6 +6225,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Melanoma</obo:IAO_0000119>
         <obo:VO_0005438>68</obo:VO_0005438>
+        <obo:VO_0010151>40213171</obo:VO_0010151>
         <obo:VO_1000000>melanoma vaccine</obo:VO_1000000>
         <obo:VO_1000001>melanoma</obo:VO_1000001>
         <oboInOwl:hasDbXref>SNOMEDCT:373869007</oboInOwl:hasDbXref>
@@ -34780,7 +34841,10 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=4028</obo:IAO_0000119>
         <obo:VO_0001818>4028</obo:VO_0001818>
+        <obo:VO_0005438>19</obo:VO_0005438>
         <obo:VO_0005500>Licensed</obo:VO_0005500>
+        <obo:VO_0010151>40213271</obo:VO_0010151>
+        <obo:VO_1000000>Bacillus Calmette-Guerin vaccine</obo:VO_1000000>
         <rdfs:label>Bacillus Calmette-Guerin (BCG) vaccine</rdfs:label>
     </owl:Class>
     
@@ -38010,5 +38074,5 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
