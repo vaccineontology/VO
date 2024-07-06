@@ -1,11 +1,10 @@
-﻿ID,LABEL,InSubset,Parent,has part,has role,in taxon,definition,definition source,term editor,alternative label,seeAlso,editor note,comment,comment
+ID,LABEL,InSubset,Parent,has part,has role,in taxon,definition,definition source,term editor,alternative label,seeAlso,editor note,comment,comment
 ID,A rdfs:label,A http://www.geneontology.org/formats/oboInOwl#inSubset,C %,C 'has part' some % SPLIT=|,C 'has role' some % SPLIT=|,C 'in taxon' some % SPLIT=|,A definition,A definition source SPLIT=|,A term editor SPLIT=|,A alternative label SPLIT=|,A rdfs:seeAlso SPLIT=|,A editor note SPLIT=|,A rdfs:comment SPLIT=|,
 VO:0000516,human protein,protein,protein,,,,a protein from human,,YH,,,,,
 VO:0000519,human ACPP,protein,human protein,,protective antigen role,,,,YH,,GenBank: AC020633; Protein RefSeq: NP_001090,,,
 VO:0003028,human serum albumin,protein,human protein,,,,the serum albumin that is part of human,,YL,,UniProtKB:P02768,it is subclass of 'serum albumin (PR:000003918)',,
 VO:0003801,Varicella zoster virus glycoprotein E,protein,Varicella-zoster virus protein,,,,,http://purl.bioontology.org/ontology/RXNORM/1986821,"Kallan Roan, Oliver He",,,,"CUI: C0061673|RXAUI: 9698276|TUI: T116, T129, T121",RxNorm
 VO:0003802,"Varicella zoster virus glycoprotein E, recombinant",protein,Varicella zoster virus glycoprotein E,,,,,http://purl.bioontology.org/ontology/RXNORM/1986820,"Kallan Roan, Oliver He",,,,"CUI: C4530095|RXAUI: 9698275|TUI: T116, T129, T121",RxNorm not in OMOP
-VO:0003803,"Varicella zoster virus glycoprotein E, recombinant 0.1 MG/ML",protein,"Varicella zoster virus glycoprotein E, recombinant",,,,,http://purl.bioontology.org/ontology/RXNORM/1986822,,,,,CUI: C4530096|RXAUI: 9698277|TUI: T200,RxNorm
 VO:0004906,MERS-CoV protein,protein,virus protein,,,,,,,,,,,
 VO:0004907,MERS-CoV S protein,protein,MERS-CoV protein,,,,,,,,,,,
 VO:0004988,SARS-CoV-2 protein,protein,virus protein,,,,,,"Oliver He, Philip Huang",,,,,
@@ -804,7 +803,4 @@ VO:0015475,Plasmodium berghei protein,protein,Plasmodium spp. protein,,,,,,,,,,,
 VO:0015476,Plasmodium chabaudi protein,protein,Plasmodium spp. protein,,,,,,,,,,,
 VO:0015478,Leishmania protein,protein,parasite protein,,,,,,,,,,,
 VO:0015483,Giardia lamblia protein,protein,Giardia duodenalis protein,,,,,,AH,,,,,
-VO:0015501,"hepatitis B surface antigen (isoform L), recombinant 0.01 MG/ML",protein,Hepatitis B surface antigen,,,,,http://purl.bioontology.org/ontology/RXNORM/2588234,OHDSI Vaccine WG,,,,,RxNorm
-VO:0017671,"hepatitis B surface antigen (isoform M), recombinant 0.01 MG/ML",protein,Hepatitis B surface antigen,,,,,http://purl.bioontology.org/ontology/RXNORM/2588235,OHDSI Vaccine WG,,,,,RxNorm
-VO:0017675,"hepatitis B surface antigen (isoform S), recombinant 0.01 MG/ML",protein,Hepatitis B surface antigen,,,,,http://purl.bioontology.org/ontology/RXNORM/2588236,OHDSI Vaccine WG,,,,,RxNorm
 VO:0017677,hepatitis B virus subtype ADW2 HBsAg surface protein antigen,protein,Hepatitis B surface antigen,,,,,http://purl.bioontology.org/ontology/RXNORM/1427171,OHDSI Vaccine WG,,,,,RxNorm
