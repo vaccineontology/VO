@@ -354,6 +354,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that inject the material (such as vaccines, allergens) directly into a tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intratumoral route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000574"/>
+        <obo:IAO_0000115>A route of administration that inject the material (such as vaccines, allergens) directly into a lesion or into the skin.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>site</oboInOwl:inSubset>
+        <rdfs:label>intralesional route</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0010632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010632">
