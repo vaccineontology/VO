@@ -30,21 +30,21 @@ Shortcut:
 is_specified_output_of some 
 ('preparation of gene mutant vaccine' and (has_specified_input some gene))",,,,
 VO:0000553,has vaccinee,Object property,,,An object property that specifies a relation between a vaccine and its vaccinee,,,,vaccine,,
-VO:0001011,immunizes against disease,Object property,,immunization against disease|vaccine immunization against disease,"A shortcut relation that equals to:
+VO:0001011,immunizes against disease,Object property,,immunization against disease|vaccine immunization against disease,"A shortcut relation that is equivalent to:
 'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine host role' and (role_of some 'organism' and has_disposition some disease)))))))).
 The domain of this relation is a vaccine.
 The range of this relation is a disease.",Asiyah Yu Lin|Oliver He,,,vaccine,disease,
 VO:0004909,immunizes against disease process,Object property,,,A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.,Oliver He,,,,,
-VO:0003355,immunizes against pathogen,Object property,,immunization against pathogen|vaccine immunization against pathogen|immunizes against microbe,"A shortcut relation that equals to:
+VO:0003355,immunizes against pathogen,Object property,,immunization against pathogen|vaccine immunization against pathogen|immunizes against microbe,"A shortcut relation that is equivalent to:
 processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some ('immunization target role' and (role_of some 'pathogen'))))))))
 
 The domain of this relation is a vaccine.
 The range of this relation is a pathogen (a bacterium, a virus, a fungus, and a parasite)
-Ranges: organism and 'has role' some 'pathogen role'",Oliver He,,,vaccine,'organism' and 'has role' some 'pathogen role',https://github.com/vaccineontology/VO/issues/675
-VO:0001243,immunizes host,Object property,,immunization for host|vaccine immunization for host,"A shortcut relation that equals to:
-'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine host role' and (role_of some 'organism')))))))).
+Ranges: organism and 'has role' some 'pathogen role'",Oliver He,,,vaccine,('organism' and 'has role' some 'pathogen role'),https://github.com/vaccineontology/VO/issues/675
+VO:0001243,immunizes recipient,Object property,,immunization for host|vaccine immunization for recipient|immunizes host|vaccine immunization for host|immunization for recipient,"A shortcut relation that is equivalent to:
+'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine recipient role' and (role_of some 'organism')))))))).
 The domain of this relation is a vaccine.
-The range of this relation is a organism.",Asiyah Yu Lin|Oliver He,,,vaccine,organism,
+The range of this relation is a organism.",Asiyah Yu Lin|Oliver He|Barry Smith|Jie Zheng|Anna Maria Masci,,,vaccine,('organism' and 'has role' some 'vaccine recipient role'),
 VO:0000462,induced by vaccination of,Object property,,,An object property that specifies a process that is induced by vaccination of a vaccine,Oliver He,,,,,
 VO:0005312,induces immune profile,Object property,,,An object property that represents a relation between a material entity (such as vaccine or vaccine adjuvant) and an immune profile where the material entity can induce the immune profile in a host.,Oliver He|Amogh Madireddi,,,,,
 VO:0000445,infection_of,Object property,,,A relation between a disorder and an infectious pathogen.,Oliver He|Allen Xiang|Melanie Courtot|Bjoern Peters|Alan Ruttenburg,"The relation 'infection_of' is introduced to represent an infection caused by an infectious pathogen. A pathogen infection is a disorder. Since the number of pathogens is large, there are numerous infections. To make the description of a specific infection simple, the shortcut term 'infection_of' is defined: 

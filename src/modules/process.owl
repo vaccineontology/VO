@@ -414,7 +414,10 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a process of administering substance in vivo that involves in adding a vaccine into a host (e.g., human) in vivo with the intent to invoke a protective or therapeutic adaptive immune response.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process of administering a vaccine in vivo to a recipient (e.g., human) with the intent to invoke a protective or therapeutic adaptive immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>YH, BP</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine administration</obo:IAO_0000118>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -1311,7 +1314,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000490">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>immunization is a processual entity that primes or modifies an adaptivie immune response to some antigens.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process that results in an adaptive immune response to one or more antigens.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>YH, XZ, BP</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -1324,8 +1330,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000491">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000490"/>
-        <obo:IAO_0000115>Active immunization is an immunization process that entails the introduction of a foreign molecule into the body, which causes the body itself to generate adaptive immunity against the target.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000115>An immunization that involves the introduction of foreign molecules into a recipient body, in a way which causes the recipient to actively induce adaptive immunity against the immunization target.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>XZ</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>active immunization</rdfs:label>
@@ -1343,9 +1353,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000585"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Passive immunization is an immunization process where pre-synthesized elements of the immune system are transferred to an organism so that the body does not need to produce these elements itself.</obo:IAO_0000115>
+        <obo:IAO_0000115>An immunization where pre-synthesized elements of the immune system are transferred to an organism so that the body does not need to produce these elements itself.</obo:IAO_0000115>
         <obo:IAO_0000116>Currently, antibodies can be used for passive immunization. This method of immunization works very quickly. However, it is short lasting. The antibodies are naturally broken down. If there are no B cells to produce more antibodies, they will disappear.</obo:IAO_0000116>
         <obo:IAO_0000116>YH, XZ</obo:IAO_0000116>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>passive immunization</rdfs:label>
@@ -1398,7 +1412,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000585"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>artificial active immunization is an active immunization that occurs when a person or animal is vaccinated with a specific vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000115>An immunization that is induced by a vaccine via vaccination process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
         <obo:IAO_0000118>artificial active immunization</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
