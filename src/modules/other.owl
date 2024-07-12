@@ -912,7 +912,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-        <obo:IAO_0000115>A function whose realization induces protective or therapeutic immune response against a disease. </obo:IAO_0000115>
+        <obo:IAO_0000115>To induce or modify protective or therapeutic immune response against a disease.</obo:IAO_0000115>
         <obo:IAO_0000116>PERSPN: Oliver He: There has been hot discussion about whether we use &apos;vaccine function&apos; or &apos;vaccine role&apos;. Vaccine role may not be the good term to use. Vaccine is designed to be &apos;vaccine&apos;, so it should be vaccine function. One special case is cowpox virus. The cowpox virus can be mixed with some liquid like water and used as a smallpox vaccine. In this case, people often say: the cowpox virus has a &apos;vaccine role&apos;. However, the cowpox virus vaccine is a processed material of a mix of the virus with water. The virus is a virus, it is not a vaccine per se. Therefore, vaccine role may not be an accurate term.</obo:IAO_0000116>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
@@ -2973,8 +2973,11 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007655">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110034"/>
-        <obo:IAO_0000115>An antigen expressed by the tumor cells, which may be exclusively present on tumor cells or overexpressed on them.</obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng, Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000115>Either a tumor-specific or a tumor-associated antigen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>tumor antigen</rdfs:label>
@@ -3516,6 +3519,36 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>study design variable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007655"/>
+        <obo:IAO_0000115>Antigen that is only expressed by tumor cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>tumor-specific antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007655"/>
+        <obo:IAO_0000115>Antigen that is overexpressed by tumor cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>tumor-associated antigen</rdfs:label>
     </owl:Class>
     
 
