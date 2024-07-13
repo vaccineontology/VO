@@ -2420,7 +2420,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A role that inheres in an organism that is the target of a vaccine administration (vaccination process).</obo:IAO_0000115>
+        <obo:IAO_0000115>Role that inheres in an organism that is the target of a vaccine administration (vaccination process).</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
@@ -2972,6 +2972,14 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <!-- http://purl.obolibrary.org/obo/VO_0007655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007655">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0010332"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0010333"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110034"/>
         <obo:IAO_0000115>Either a tumor-specific or a tumor-associated antigen.</obo:IAO_0000115>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
