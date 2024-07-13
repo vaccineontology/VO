@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-06-26/cvo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-07-13/cvo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor>Chris mungall</dc:contributor>
         <dc:contributor>Erica Marcos</dc:contributor>
@@ -33,6 +33,7 @@
         <dc:creator>Barry Smith</dc:creator>
         <dc:creator>Bjoern Peters</dc:creator>
         <dc:creator>Edison Ong</dc:creator>
+        <dc:creator>Ellen Zhang</dc:creator>
         <dc:creator>Hong Yu</dc:creator>
         <dc:creator>Jason Hu</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
@@ -49,17 +50,19 @@
         <dc:creator>Rohit Goru</dc:creator>
         <dc:creator>Ronak Sutariya</dc:creator>
         <dc:creator>Samantha G. Sayers (SGS)</dc:creator>
+        <dc:creator>Taiyu Lin</dc:creator>
         <dc:creator>Thomas Todd</dc:creator>
+        <dc:creator>Xingxian Li</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
         <dc:creator>Yu Lin (YL)</dc:creator>
-        <dc:creator>Xingxian Li</dc:creator>
         <dc:creator>Yuanyi (Penny) Pan</dc:creator>
+        <dc:creator>Yuping Zheng</dc:creator>
         <dc:creator>Zuoshuang &quot;Allen&quot; Xiang</dc:creator>
         <dc:description xml:lang="en">A view of Vaccine Ontology (VO) with a focus on the modeling and representation of various cancer vaccines.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">Vaccine Ontology Cancer Vaccine View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-06-26</owl:versionInfo>
+        <owl:versionInfo>2024-07-13</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -237,7 +240,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">alternative label</rdfs:label>
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1129,7 +1131,7 @@ WHERE {
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001011">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000115>A shortcut relation that equals to:
+        <obo:IAO_0000115>A shortcut relation that is equivalent to:
 &apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine host role&apos; and (role_of some &apos;organism&apos; and has_disposition some disease)))))))).
 The domain of this relation is a vaccine.
 The range of this relation is a disease.</obo:IAO_0000115>
@@ -1146,16 +1148,32 @@ The range of this relation is a disease.</obo:IAO_0000115>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000115>A shortcut relation that equals to:
-&apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine host role&apos; and (role_of some &apos;organism&apos;)))))))).
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001274"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:IAO_0000115>A shortcut relation that is equivalent to:
+&apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine recipient role&apos; and (role_of some &apos;organism&apos;)))))))).
 The domain of this relation is a vaccine.
 The range of this relation is a organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>immunization for host</obo:IAO_0000118>
+        <obo:IAO_0000118>immunization for recipient</obo:IAO_0000118>
+        <obo:IAO_0000118>immunizes host</obo:IAO_0000118>
         <obo:IAO_0000118>vaccine immunization for host</obo:IAO_0000118>
-        <rdfs:label>immunizes host</rdfs:label>
+        <obo:IAO_0000118>vaccine immunization for recipient</obo:IAO_0000118>
+        <rdfs:label>immunizes recipient</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1175,7 +1193,7 @@ The range of this relation is a organism.</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <obo:IAO_0000115>A shortcut relation that equals to:
+        <obo:IAO_0000115>A shortcut relation that is equivalent to:
 processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some (&apos;immunization target role&apos; and (role_of some &apos;pathogen&apos;))))))))
 
 The domain of this relation is a vaccine.
@@ -5885,13 +5903,19 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000278"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000590"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -5908,15 +5932,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A vaccine is a processed material with the function that when administered, it prevents or ameliorates a disorder in a target organism by inducing or modifying adaptive immune responses specific to the antigens in the vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000115>Material entity that is manufactured to realize the vaccine function.</obo:IAO_0000115>
         <obo:IAO_0000116>Many vaccines are developed to protect against infectious pathogens that causes infectious diseases. Many vaccines are also being developed against other diseases such as cancer, allergy, and autoimmune diseases.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH, BP, BS, MC, LC, XZ, RS</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>YH, BP, MC, LC, XZ, RS</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>vaccine</rdfs:label>
         <rdfs:seeAlso>MeSH: D014612</rdfs:seeAlso>
@@ -6017,7 +6038,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a process of administering substance in vivo that involves in adding a vaccine into a host (e.g., human) in vivo with the intent to invoke a protective or therapeutic adaptive immune response.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process of administering a vaccine in vivo to a recipient (e.g., human) with the intent to invoke a protective or therapeutic adaptive immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>YH, BP</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine administration</obo:IAO_0000118>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -6129,7 +6153,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A vaccine that prevents or treats cancer. It is produced using the patient&apos;s own whole tumor cells as the source of antigens, or using tumor-specific antigens, often recombinantly produced.</obo:IAO_0000115>
+        <obo:IAO_0000115>Vaccine that prevents or treats cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>neoplasm vaccine</obo:IAO_0000118>
         <obo:IAO_0000118>tumor vaccine</obo:IAO_0000118>
@@ -6151,12 +6178,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-        <obo:IAO_0000115>vaccine function is a function that inheres in a vaccine that induces protective immune response against a disease. It is realized in the immunization process in the host.</obo:IAO_0000115>
+        <obo:IAO_0000115>To induce or modify protective or therapeutic immune response against a disease.</obo:IAO_0000115>
         <obo:IAO_0000116>PERSPN: Oliver He: There has been hot discussion about whether we use &apos;vaccine function&apos; or &apos;vaccine role&apos;. Vaccine role may not be the good term to use. Vaccine is designed to be &apos;vaccine&apos;, so it should be vaccine function. One special case is cowpox virus. The cowpox virus can be mixed with some liquid like water and used as a smallpox vaccine. In this case, people often say: the cowpox virus has a &apos;vaccine role&apos;. However, the cowpox virus vaccine is a processed material of a mix of the virus with water. The virus is a virus, it is not a vaccine per se. Therefore, vaccine role may not be an accurate term.</obo:IAO_0000116>
-        <obo:IAO_0000117> MC</obo:IAO_0000117>
-        <obo:IAO_0000117> XZ</obo:IAO_0000117>
-        <obo:IAO_0000117> and AR</obo:IAO_0000117>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>YH, MC, XZ, and AR</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>vaccine function</rdfs:label>
     </owl:Class>
@@ -6281,7 +6308,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000496"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>preventive vaccine function is a vaccine function realized by the process of vaccination and leading to induction of an adaptive immune response to the antigens in a vaccine, which protects against a specific disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>A vaccine function realized by the process of vaccination and leading to induction of an adaptive immune response to prevent a specific disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000118>prophylactic vaccine function</obo:IAO_0000118>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
@@ -6294,7 +6322,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000490">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>immunization is a processual entity that primes or modifies an adaptivie immune response to some antigens.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process that results in an adaptive immune response to one or more antigens.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>YH, XZ, BP</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -6307,8 +6338,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000491">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000490"/>
-        <obo:IAO_0000115>Active immunization is an immunization process that entails the introduction of a foreign molecule into the body, which causes the body itself to generate adaptive immunity against the target.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000115>An immunization that involves the introduction of foreign molecules into a recipient body, in a way which causes the recipient to actively induce adaptive immunity against the immunization target.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>XZ</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>active immunization</rdfs:label>
@@ -6348,7 +6383,10 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000585"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>artificial active immunization is an active immunization that occurs when a person or animal is vaccinated with a specific vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000115>An immunization that is induced by a vaccine via vaccination process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
         <obo:IAO_0000118>artificial active immunization</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
@@ -6480,7 +6518,8 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000497"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The therapeutic vaccine function is a function realized by the process of vaccination and leading to induction of an adaptive immune response to the antigens in a vaccine, which ameliorates a specific disorder.</obo:IAO_0000115>
+        <obo:IAO_0000115>A vaccine function realized the process of vaccination and leading to induction of an adaptive immune response to treat an existing specific disorder.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>therapeutic vaccine function</rdfs:label>
@@ -6509,11 +6548,41 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000585">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115>immunization objective is the specification of an objective to achieve immunization.</obo:IAO_0000115>
-        <obo:IAO_0000117> XZ</obo:IAO_0000117>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>immunization objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001479"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>vaccine preparation is a manufacturing process to produce a vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, BP</obo:IAO_0000117>
+        <obo:IAO_0000118>vaccine generation</obo:IAO_0000118>
+        <obo:IAO_0000118>vaccine production</obo:IAO_0000118>
+        <oboInOwl:inSubset>process</oboInOwl:inSubset>
+        <rdfs:label>vaccine preparation</rdfs:label>
     </owl:Class>
     
 
@@ -6792,7 +6861,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0001274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001274">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
@@ -6805,13 +6874,15 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A role that inheres in an organism that is the target of a vaccination.</obo:IAO_0000115>
-        <obo:IAO_0000117> Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117> ZX</obo:IAO_0000117>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Role that inheres in an organism that is the target of a vaccine administration (vaccination process).</obo:IAO_0000115>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>vaccine host role</rdfs:label>
+        <rdfs:label>vaccine recipient role</rdfs:label>
     </owl:Class>
     
 
@@ -6861,6 +6932,18 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
         <obo:VO_0001818>3066</obo:VO_0001818>
         <obo:VO_0005500>Research</obo:VO_0005500>
         <rdfs:label>B16 Vaccine adjuvanted by Loxoribine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115>The objective that intends to produce vaccine via the vaccine preparation process.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>vaccine target specification</rdfs:label>
     </owl:Class>
     
 
@@ -10010,9 +10093,8 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005506">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000115>A gene expressing a protein, either partially or entirely, serving as the antigen within a specific cancer vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117> Anna Maria Masci</obo:IAO_0000117>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000115>Gene expressing a protein which serves, either in whole or in part, as an antigen within a cancer vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He|Anna Maria Masci|Barry Smith|Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>gene</oboInOwl:inSubset>
         <rdfs:label>canvaxgen</rdfs:label>
@@ -13734,7 +13816,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A synthetic vaccine used for cancer immunotherapy also known as Ras(val 12)-Vaccinia Vaccine,‚Äö√†√∂‚àö¬ßRASVAC-C‚Äö√†√∂‚àö¬ßis based on a mutant peptide epitope of the Ras oncoprotein at codon 12 (valine instead of glycine) that induces recognition and induction of tumor-specific, cell-mediated immune responses. Ras is an intracellular GTP-binding protein involved in signal transduction and regulation of proliferation and differentiation.‚Äö√†√∂‚àö¬ß</obo:IAO_0000115>
+        <obo:IAO_0000115>A synthetic vaccine used for cancer immunotherapy also known as Ras(val 12)-Vaccinia Vaccine, RASVAC-V is based on a mutant peptide epitope of the Ras oncoprotein at codon 12 (valine instead of glycine) that induces recognition and induction of tumor-specific, cell-mediated immune responses. Ras is an intracellular GTP-binding protein involved in signal transduction and regulation of proliferation and differentiation.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -16793,7 +16875,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A cancer vaccine containing immunogenic, HLA-A2-specific epitopes derived from X-box‚Äö√†√∂‚àö‚Ñ¢binding protein 1-unspliced (XBP1-US), XBP1-spliced (SP), syndecan-1 (CD138), and CS1 (CD2 subset 1, CRACC, SLAMF7, CD319) with potential immunomodulating and antineoplastic activities. Upon subcutaneous administration, XBP1-US/XBP1-SP/CD138/CS1 multipeptide vaccine PVX-410 may stimulate the immune system to induce a cytotoxic T-lymphocyte response against the four myeloma-specific antigens. The tumor associated antigens (TAAs) XBP1-US, XBP1-SP, CD138 and CS1, are overexpressed on the surface of multiple myeloma (MM) cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cancer vaccine containing immunogenic, HLA-A2-specific epitopes derived from X-box-binding protein 1-unspliced (XBP1-US), XBP1-spliced (SP), syndecan-1 (CD138), and CS1 (CD2 subset 1, CRACC, SLAMF7, CD319) with potential immunomodulating and antineoplastic activities. Upon subcutaneous administration, XBP1-US/XBP1-SP/CD138/CS1 multipeptide vaccine PVX-410 may stimulate the immune system to induce a cytotoxic T-lymphocyte response against the four myeloma-specific antigens. The tumor associated antigens (TAAs) XBP1-US, XBP1-SP, CD138 and CS1, are overexpressed on the surface of multiple myeloma (MM) cells.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -19511,7 +19593,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A recombinant retroviral virus derived from SR-A strain of Rous sarcoma virus carrying a constitutively active form of the‚Äö√†√∂‚àö¬ßAKT‚Äö√†√∂‚àö¬ßGene. The viral vector‚Äö√†√∂‚àö¬ßRCAS‚Äö√†√∂‚àö¬ßharbors a Replication Competent ALV Splice acceptor. This recombinant virus was use in animal model to study gliomagenesis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A recombinant retroviral virus derived from SR-A strain of Rous sarcoma virus carrying a constitutively active form of the AKT Gene. The viral vector RCAS harbors a Replication Competent ALV Splice acceptor. This recombinant virus was use in animal model to study gliomagenesis.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -19557,7 +19639,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A recombinant retroviral virus derived from SR-A strain of Rous sarcoma virus carrying a human gene encoding the G12D mutant form of K-Ras. The viral vector,‚Äö√†√∂‚àö¬ßRCAS‚Äö√†√∂‚àö¬ßharbors a Replication Competent ALV Splice acceptor. This recombinant virus was use in animal model to study gliomagenesis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A recombinant retroviral virus derived from SR-A strain of Rous sarcoma virus carrying a human gene encoding the G12D mutant form of K-Ras. The viral vector, RCAS harbors a Replication Competent ALV Splice acceptor. This recombinant virus was use in animal model to study gliomagenesis.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Jimmy Guo</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -19791,7 +19873,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>2 class major histocompatibility complex‚Äö√†√∂‚àö‚Ñ¢restricted melanoma peptides</obo:IAO_0000115>
+        <obo:IAO_0000115>2 class major histocompatibility complex-restricted melanoma peptides.</obo:IAO_0000115>
         <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
         <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
@@ -36784,9 +36866,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cancer that is caused by human papillomavirus (HPV) infection. HPV infection can lead to six types of cancer including anal, cervical, oropharyngeal, penile, vaginal, and vulvar cancer.</obo:IAO_0000115>
         <obo:IAO_0000116>placeholder, will send new term requst to DOID</obo:IAO_0000116>
-        <obo:IAO_0000117> Anna Maria Masci</obo:IAO_0000117>
-        <obo:IAO_0000117> Xingxian Li</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng, Xingxian Li, Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>HPV associated cancer</rdfs:label>
@@ -36810,10 +36890,20 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007655">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0010332"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0010333"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110034"/>
-        <obo:IAO_0000115>An antigen expressed by the tumor cells, which may be exclusively present on tumor cells or overexpressed on them.</obo:IAO_0000115>
-        <obo:IAO_0000117> Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000115>Either a tumor-specific or a tumor-associated antigen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>tumor antigen</rdfs:label>
@@ -36836,8 +36926,9 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
-        <obo:IAO_0000115>A cancer vaccine that prevents cancer development associated with viral infections.</obo:IAO_0000115>
+        <obo:IAO_0000115>Cancer vaccine that prevents cancer formation and development.</obo:IAO_0000115>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
@@ -36862,8 +36953,9 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000550"/>
-        <obo:IAO_0000115>A cancer vaccine that aims to eliminate or control tumor cells by recognizing the tumor cells and stimulating the immune system via tumor antigens.</obo:IAO_0000115>
+        <obo:IAO_0000115>Cancer vaccine that aims to eliminate or control tumor cells.</obo:IAO_0000115>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
@@ -36923,6 +37015,36 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         <obo:IAO_0000115>A cancer vaccine that is composed of a plasmid vaccine vector (a circular double stranded DNA molecule) containing the whole of parts of genes encoding one or more vaccine antigen proteins.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <rdfs:label>DNA cancer vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007655"/>
+        <obo:IAO_0000115>Antigen that is only expressed by tumor cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>tumor-specific antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007655"/>
+        <obo:IAO_0000115>Antigen that is overexpressed by tumor cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>tumor-associated antigen</rdfs:label>
     </owl:Class>
     
 
@@ -38074,5 +38196,5 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
