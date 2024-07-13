@@ -364,7 +364,7 @@ is_specified_output_of some
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001011">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000115>A shortcut relation that equals to:
+        <obo:IAO_0000115>A shortcut relation that is equivalent to:
 &apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine host role&apos; and (role_of some &apos;organism&apos; and has_disposition some disease)))))))).
 The domain of this relation is a vaccine.
 The range of this relation is a disease.</obo:IAO_0000115>
@@ -391,16 +391,32 @@ The range of this relation is a disease.</obo:IAO_0000115>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0001243">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000115>A shortcut relation that equals to:
-&apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine host role&apos; and (role_of some &apos;organism&apos;)))))))).
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001274"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:IAO_0000115>A shortcut relation that is equivalent to:
+&apos;processed material&apos; and (is_specified_output_of some &apos;vaccine preparation&apos;) and (&apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; only (&apos;vaccine immunization&apos; and (realizes some (&apos;vaccine recipient role&apos; and (role_of some &apos;organism&apos;)))))))).
 The domain of this relation is a vaccine.
 The range of this relation is a organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>immunization for host</obo:IAO_0000118>
+        <obo:IAO_0000118>immunization for recipient</obo:IAO_0000118>
+        <obo:IAO_0000118>immunizes host</obo:IAO_0000118>
         <obo:IAO_0000118>vaccine immunization for host</obo:IAO_0000118>
-        <rdfs:label>immunizes host</rdfs:label>
+        <obo:IAO_0000118>vaccine immunization for recipient</obo:IAO_0000118>
+        <rdfs:label>immunizes recipient</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -442,7 +458,7 @@ The range of this relation is a organism.</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <obo:IAO_0000115>A shortcut relation that equals to:
+        <obo:IAO_0000115>A shortcut relation that is equivalent to:
 processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some (&apos;immunization target role&apos; and (role_of some &apos;pathogen&apos;))))))))
 
 The domain of this relation is a vaccine.
@@ -635,6 +651,12 @@ Ranges: organism and &apos;has role&apos; some &apos;pathogen role&apos;</obo:IA
     <!-- http://purl.obolibrary.org/obo/VO_0000599 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000599"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001274"/>
 </rdf:RDF>
 
 
