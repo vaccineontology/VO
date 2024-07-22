@@ -136,6 +136,13 @@
         <rdfs:label>Tuberculin Skin Test</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <obo:IAO_0000115>Infection with any of the rotaviruses. Specific infections include human infantile diarrhea, neonatal calf diarrhea, and epidemic diarrhea of infant mice.</obo:IAO_0000115>
+        <rdfs:label>Rotavirus infection</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
 </rdf:RDF>
 
 
