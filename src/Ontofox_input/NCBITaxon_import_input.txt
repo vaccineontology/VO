@@ -387,3 +387,19 @@ includeComputedIntermediates
 
 [Source annotation URIs]
 includeAllAnnotationProperties
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_119210 #H3N2 subtype
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_10239 #virus
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
