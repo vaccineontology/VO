@@ -417,6 +417,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000103">
@@ -469,7 +475,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005503"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
