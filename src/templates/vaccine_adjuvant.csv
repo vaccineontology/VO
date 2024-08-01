@@ -1012,7 +1012,7 @@ Immune profile induced: Mixed Th1/Th2
 
 Route of immunization: IM, ID
 Point of Contact: Ofer Levy, Precision Vaccines Program at Boston Children's Hospital",86,https://github.com/vaccineontology/VO/issues/676,,,Th1/Th2 mixed immune profile,,
-VO:0006106,ACM-CpG vaccine adjuvant,vaccine adjuvant,emulsion vaccine adjuvant,ACM-CpG,An emulsion vaccine adjuvant that targets on TLR-agonist. It is a nucleic acid-based adjuvant for chemical nature,,Nilufer kosar|Jie Zheng|Madhavan Nallani,,"Chemical Nature: Nucleic acid, Emulsion
+VO:0006106,ACM-CpG vaccine adjuvant,vaccine adjuvant,emulsion vaccine adjuvant,ACM-CpG,An emulsion vaccine adjuvant that targets on TLR-agonist. It is a nucleic acid-based adjuvant for chemical nature.,,Nilufer kosar|Jie Zheng|Madhavan Nallani,,"Chemical Nature: Nucleic acid, Emulsion
 Mechanism of Action: Innate Immune Activation, preferential uptake by APCs
 Immune profile induced: Th1-biased
 Definition: TLR-agonist for target; nucleic acid-based adjuvant for chemical nature
@@ -1054,3 +1054,28 @@ https://www.ncbi.nlm.nih.gov/pubmed/?term=38136298
 Ongoing clinical trials:
 none",94,https://github.com/vaccineontology/VO/issues/694,,,Th1/Th2 mixed immune profile,,
 VO:0006109,nucleic acid vaccine adjuvant,vaccine adjuvant,vaccine adjuvant,,A vaccine adjuvant that is primarily composed of nucleic acid.,,Jie Zheng,,,,,,,,,
+VO:0005507,Bl-Eng2 vaccine adjuvant,vaccine adjuvant,vaccine adjuvant,Bl-Eng2,Vaccine adjuvant that is primarily composed of protein and actives innate immune pathways to induce a mixed Th1/Th2 response.,Pubmed:28793349|Pubmed:31900406,Nilufer kosar|Jie Zheng|Marcel Wuethrich,,"Chemical Nature: protein
+Mechanism of Action: Activation of innate immune pathways
+Immune profile induced: Th1/Th2
+
+Route of immunization: SC, IN, SQ
+Point of Contact: Marcel Wuethrich, University of Wisconsin
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=28793349
+https://www.ncbi.nlm.nih.gov/pubmed/?term=31900406
+
+Ongoing clinical trials:
+none",97,https://github.com/vaccineontology/VO/issues/730,,,Th1/Th2 mixed immune profile,,
+VO:0005508,Bl-Eng2+Adjuplex vaccine adjuvant,vaccine adjuvant,combination vaccine adjuvant,Bl-Eng2+Adjuplex,Combination vaccine adjuvant contains both Bl-Eng2 and adjuplex vaccine adjuvants and is able to induce a mixed Th1/Th2 response.,Pubmed:33735218,Nilufer kosar|Jie Zheng|Marcel Wuethrich,,"Chemical Nature: Protein, Combination adjuvant
+Mechanism of Action: Activation of innate immune pathways
+Immune profile induced: Th1/Th2
+
+Route of immunization: IN
+Point of Contact: Marcel Wuethrich, University of Wisconsin
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=33735218
+
+Ongoing clinical trials:
+none",98,https://github.com/vaccineontology/VO/issues/731,,,Th1/Th2 mixed immune profile,,
