@@ -4841,6 +4841,80 @@ https://clinicaltrials.gov/ct2/show/NCT03926728</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0005507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Vaccine adjuvant that is primarily composed of protein and actives innate immune pathways to induce a mixed Th1/Th2 response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: protein
+Mechanism of Action: Activation of innate immune pathways
+Immune profile induced: Th1/Th2
+
+Route of immunization: SC, IN, SQ
+Point of Contact: Marcel Wuethrich, University of Wisconsin
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=28793349
+https://www.ncbi.nlm.nih.gov/pubmed/?term=31900406
+
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Marcel Wuethrich</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000118>Bl-Eng2</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:28793349</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:31900406</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/730</obo:IAO_0000233>
+        <obo:VO_0005328>97</obo:VO_0005328>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>Bl-Eng2 vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001354"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Combination vaccine adjuvant contains both Bl-Eng2 and adjuplex vaccine adjuvants and is able to induce a mixed Th1/Th2 response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Protein, Combination adjuvant
+Mechanism of Action: Activation of innate immune pathways
+Immune profile induced: Th1/Th2
+
+Route of immunization: IN
+Point of Contact: Marcel Wuethrich, University of Wisconsin
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=33735218
+
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Marcel Wuethrich</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000118>Bl-Eng2+Adjuplex</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:33735218</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/731</obo:IAO_0000233>
+        <obo:VO_0005328>98</obo:VO_0005328>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>Bl-Eng2+Adjuplex vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0006092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006092">
@@ -5363,7 +5437,7 @@ Point of Contact: Ofer Levy, Precision Vaccines Program at Boston Children&apos;
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An emulsion vaccine adjuvant that targets on TLR-agonist. It is a nucleic acid-based adjuvant for chemical nature</obo:IAO_0000115>
+        <obo:IAO_0000115>An emulsion vaccine adjuvant that targets on TLR-agonist. It is a nucleic acid-based adjuvant for chemical nature.</obo:IAO_0000115>
         <obo:IAO_0000116>Chemical Nature: Nucleic acid, Emulsion
 Mechanism of Action: Innate Immune Activation, preferential uptake by APCs
 Immune profile induced: Th1-biased
