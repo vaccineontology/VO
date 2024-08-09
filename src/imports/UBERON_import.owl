@@ -205,22 +205,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PR_000050567 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050567"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
@@ -272,7 +259,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050567"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
         <obo:IAO_0000115>Multi-tissue structure that is comprised of a secretory epithelial layer (mesothelium) and a connective tissue layer.</obo:IAO_0000115>
@@ -553,7 +539,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050567"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
         <obo:IAO_0000115>A fluid that is composed of blood plasma and erythrocytes.</obo:IAO_0000115>
         <obo:IAO_0000232>This class excludes blood analogues, such as the insect analog of blood. See UBERON:0000179 haemolymphatic fluid.</obo:IAO_0000232>
@@ -605,7 +590,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
         <obo:IAO_0000115>Anatomical entity that has mass.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -643,6 +628,7 @@
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7878"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7955"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9259"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:UBPROP_0000001>Portion of alimentary canal with increased circular and longitudinal smooth muscle. Bounded posteriorly by the pyloric sphincter. Mucosal lining has increased folding.[AAO]</obo:UBPROP_0000001>
         <obo:UBPROP_0000003>It appears that the stomach has an ancient origin. The stomach first appears in the fish lineage. The prevertebrate chordates do not have a true stomach, whereas the cartilaginous and bony fish do. Although most fish do have a true stomach, some fish species appear to have lost the stomach secondarily. The remaining vertebrate lineages do have a true stomach (at least in the adult animal), although there is great variation in the size and shape of the stomach.[well established][VHOG]</obo:UBPROP_0000003>
         <obo:UBPROP_0000008>We restrict this to the vertebrate specific structure - see the grouping class &apos;food storage organ&apos; for analogous structures in other species. Teleosts: Zebrafish is functionally stomach-less, but may retain ontogenic footprint. Although the precise shape and size of the stomach varies widely among different vertebrates, the relative positions of the oesophageal and duodenal openings remain relatively constant. As a result, the organ always curves somewhat to the left before curving back to meet the pyloric sphincter. However, lampreys, hagfishes, chimaeras, lungfishes, and some teleost fish have no stomach at all, with the oesophagus opening directly into the intestine. The gastric lining is usually divided into two regions, an anterior portion lined by fundic glands, and a posterior with pyloric glands. Cardiac glands are unique to mammals, and even then are absent in a number of species. The distributions of these glands vary between species, and do not always correspond with the same regions as in man. Furthermore, in many non-human mammals, a portion of the stomach anterior to the cardiac glands is lined with epithelium essentially identical to that of the oesophagus. Ruminants, in particular, have a complex stomach, the first three chambers of which are all lined with oesophageal mucosa</obo:UBPROP_0000008>
@@ -677,6 +663,7 @@
         <oboInOwl:hasRelatedSynonym>ventriculus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0000945</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#major_organ"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
@@ -821,6 +808,7 @@
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
         <oboInOwl:hasDbXref>AAO:0010841</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>AEO:0000000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BFO:0000004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>BILA:0000000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>BIRNLEX:6</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CARO:0000000</oboInOwl:hasDbXref>
@@ -929,8 +917,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <rdfs:label>urinary bladder</rdfs:label>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Urinary_Bladder.glb</foaf:depiction>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Urinary_Bladder.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-female/v1.2/assets/3d-vh-f-urinary-bladder.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/urinary-bladder-male/v1.2/assets/3d-vh-m-urinary-bladder.glb</foaf:depiction>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/3/30/Urinary_system.svg</foaf:depiction>
     </owl:Class>
     
@@ -1035,12 +1023,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001981 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001981">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050567"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
         <obo:IAO_0000115>A vessel through which blood circulates in the body.</obo:IAO_0000115>
         <obo:IAO_0000116>consider adopting the EMAPA superclass &apos;vascular element&apos;, which includes microvasculature (e.g. capillaries), vascular plexus</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:UBPROP_0000001>Any of the vessels through which blood circulates in the body. [XAO:0001011_][VHOG]</obo:UBPROP_0000001>
         <obo:UBPROP_0000001>Any of the vessels through which blood circulates in the body.[AAO]</obo:UBPROP_0000001>
         <obo:UBPROP_0000003>The appearance of Chordata and subsequently the vertebrates is accompanied by a rapid structural diversification of this primitive linear heart: looping, unidirectional circulation, an enclosed vasculature, and the conduction system.[well established][VHOG]</obo:UBPROP_0000003>
@@ -1077,6 +1065,7 @@
         <oboInOwl:hasRelatedSynonym>vas sanguineum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0001981</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
@@ -1089,7 +1078,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050567"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000064"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
         <obo:IAO_0000115>Lowermost layer of the integumentary system in vertebrates. Types of cells that are found in the hypodermis are fibroblasts, adipose cells, and macrophages. It is derived from the mesoderm, but unlike the dermis, it is not derived from the dermatome region of the mesoderm. The hypodermis is used mainly for fat storage[WP].</obo:IAO_0000115>
@@ -1105,6 +1093,7 @@
         <oboInOwl:hasDbXref>CALOHA:TS-2366</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EMAPA:37505</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:70544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D040521</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIT:C33645</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>TAO:0001136</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0278403</oboInOwl:hasDbXref>
@@ -1133,7 +1122,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050567"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004121"/>
         <obo:IAO_0000115>The organ covering the body that consists of the dermis and epidermis.</obo:IAO_0000115>
@@ -1171,11 +1159,8 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
         <rdfs:label>skin of body</rdfs:label>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/6/6d/Skin.svg</foaf:depiction>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ccf-ontology.hubmapconsortium.org/objects/v1.0/VH_F_Skin.glb</foaf:depiction>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ccf-ontology.hubmapconsortium.org/objects/v1.0/VH_M_Skin.glb</foaf:depiction>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_F_Skin.glb</foaf:depiction>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ccf-ontology.hubmapconsortium.org/objects/v1.2/VH_M_Skin.glb</foaf:depiction>
-        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://ccf-ontology.hubmapconsortium.org/objects/v1.3/3d-vh-f-skin.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/skin-female/v1.4/assets/3d-vh-f-skin.glb</foaf:depiction>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://cdn.humanatlas.io/digital-objects/ref-organ/skin-male/v1.3/assets/3d-vh-m-skin.glb</foaf:depiction>
     </owl:Class>
     
 
@@ -1215,39 +1200,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#vertebrate_core"/>
         <rdfs:label>peritoneum</rdfs:label>
         <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://upload.wikimedia.org/wikipedia/commons/5/5f/Gray1040.png</foaf:depiction>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002365 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002365">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050567"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
-        <obo:IAO_0000115>A gland that secretes products (excluding hormones and other chemical messengers) into ducts (duct glands) which lead directly into the external environment[WP]. Typical exocrine glands include sweat glands, salivary glands, mammary glands, stomach, liver, pancreas.</obo:IAO_0000115>
-        <obo:IAO_0000116>Currently this is logically defined by the system it belongs to, but a better system may be base this on presence/absence of ducts. However, the dual nature of the liver should be taken into consideration here. Consider adding subclasses</obo:IAO_0000116>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <oboInOwl:hasDbXref>AEO:0000097</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>BTO:0000765</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>CALOHA:TS-2012</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA2:0003097</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EMAPA:35327</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>FMA:9596</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GAID:34</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MA:0002564</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D005088</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C12712</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:115976003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0015282</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Exocrine_gland</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>ducted gland</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>glandula exocrina</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>UBERON:0002365</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#pheno_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim"/>
-        <rdfs:label>exocrine gland</rdfs:label>
     </owl:Class>
     
 
@@ -1300,8 +1252,6 @@
         <oboInOwl:hasDbXref>EFO:0000797</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EHDAA2:0003096</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EHDAA:2161</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA:4475</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EHDAA:6522</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EMAPA:18425</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FBbt:00100317</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:7146</oboInOwl:hasDbXref>
@@ -1390,6 +1340,7 @@
         <obo:IAO_0000115>A proximal-distal subdivision of the digestive tract.</obo:IAO_0000115>
         <obo:IAO_0000232>intended to denote both embryonic and adult structures. Note the FMA grouping here is not quite correct.</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <oboInOwl:hasDbXref>FBbt:00100315</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:71131</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
@@ -1399,6 +1350,7 @@
         <oboInOwl:hasRelatedSynonym>segment of intestinal tract</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>subdivision of alimentary system</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>UBERON:0004921</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#non_informative"/>
         <rdfs:label>subdivision of digestive tract</rdfs:label>
     </owl:Class>
@@ -1452,7 +1404,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0010047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002365"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003408"/>
         <obo:IAO_0000115>Gland of the epithelium lining the oral cavity. The most common are the salivary glands.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -1512,5 +1464,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

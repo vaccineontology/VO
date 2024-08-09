@@ -44,6 +44,18 @@
     
 
 
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -53,6 +65,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     
 
 
@@ -79,6 +97,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
@@ -94,6 +118,8 @@
         <oboInOwl:hasDbXref>VHOG:0001533</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>WBbt:0004017</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>XAO:0003012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009000</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level"/>
         <rdfs:comment>The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).</rdfs:comment>
         <rdfs:label>cell</rdfs:label>
@@ -101,9 +127,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000518"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
+        <obo:IAO_0000115>A vertebrate phagocyte with a single nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <oboInOwl:hasDbXref>BTO:0001433</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009064</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <rdfs:label>mononuclear phagocyte</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. Majority of cell population of liver, polygonal in shape, arranged in plates or trabeculae between sinusoids; may have single nucleus or binucleated.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
@@ -111,6 +155,8 @@
         <oboInOwl:hasDbXref>BTO:0000575</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0454</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:14515</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009111</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Hepatocytes are reportedly MHC Class I-positive and MHC Class II-positive.</rdfs:comment>
         <rdfs:label>hepatocyte</rdfs:label>
@@ -124,6 +170,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>A cell that moves by its own activities.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <oboInOwl:hasDbXref>ZFA:0009136</oboInOwl:hasDbXref>
         <rdfs:label>motile cell</rdfs:label>
     </owl:Class>
     
@@ -144,6 +191,7 @@
         <oboInOwl:hasExactSynonym>RBC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>red blood cell</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:label>erythrocyte</rdfs:label>
     </owl:Class>
@@ -160,6 +208,8 @@
         <oboInOwl:hasDbXref>BTO:0001044</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83806</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D010586</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009140</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <rdfs:label>phagocyte</rdfs:label>
     </owl:Class>
     
@@ -168,7 +218,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <obo:IAO_0000115>A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.</obo:IAO_0000115>
@@ -179,8 +229,10 @@
         <oboInOwl:hasDbXref>FMA:63261</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83585</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D008264</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009141</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>histiocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:comment>Morphology: Diameter 30_M-80 _M, abundant cytoplasm, low N/C ratio, eccentric nucleus. Irregular shape with pseudopods, highly adhesive. Contain vacuoles and phagosomes, may contain azurophilic granules; markers: Mouse &amp; Human: CD68, in most cases CD11b. Mouse: in most cases F4/80+; role or process: immune, antigen presentation, &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
@@ -189,12 +241,39 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>Any cell that only exists in Eukaryota.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <oboInOwl:hasDbXref>MESH:D005057</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <rdfs:label>eukaryotic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
+        <obo:IAO_0000115>A phagocyte in vertebrates that is able to phagocytosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <rdfs:label>phagocyte (sensu Vertebrata)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000738 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000738">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
         <obo:IAO_0000115>An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -203,9 +282,11 @@
         <oboInOwl:hasDbXref>FMA:62852</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D007962</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIT:C12529</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009309</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>leucocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>white blood cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>immune cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
         <rdfs:label>leukocyte</rdfs:label>
     </owl:Class>
@@ -215,12 +296,15 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000763 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000763">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000988"/>
         <obo:IAO_0000115>A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <oboInOwl:hasDbXref>BTO:0001441</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CALOHA:TS-0647</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D022423</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009324</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <rdfs:label>myeloid cell</rdfs:label>
     </owl:Class>
     
@@ -233,7 +317,29 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
         <obo:IAO_0000115>A cell of the monocyte, granulocyte, or mast cell lineage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <oboInOwl:hasDbXref>ZFA:0009326</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <rdfs:label>myeloid leukocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000842">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
+        <obo:IAO_0000115>A leukocyte with a single non-segmented nucleus in the mature form.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <oboInOwl:hasDbXref>BTO:0000878</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:86713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0009357</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mononuclear leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>peripheral blood mononuclear cell</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
+        <rdfs:label>mononuclear cell</rdfs:label>
     </owl:Class>
     
 
@@ -248,10 +354,26 @@
         <oboInOwl:hasDbXref>CALOHA:TS-2017</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:70366</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>FMA:83598</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ZFA:0005830</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>haematopoietic cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>haemopoietic cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hemopoietic cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset"/>
         <rdfs:label>hematopoietic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>A cell containing at least one nucleus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1980-3228"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-09-07T03:32:33Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>FMA:67513</oboInOwl:hasDbXref>
+        <rdfs:label>nucleate cell</rdfs:label>
     </owl:Class>
     
 
@@ -263,5 +385,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
