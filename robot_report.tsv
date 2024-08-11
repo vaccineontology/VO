@@ -844,6 +844,13 @@ WARN	annotation_whitespace	VO:0011373	IAO:0000117	Oliver He
 WARN	annotation_whitespace	VO:0011507	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0011510	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0021164	IAO:0000115	A varicella-zoster virus live vaccine designed to prevent shingles (herpes zoster). 
+WARN	duplicate_exact_synonym	VO:0010365	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010366	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010363	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010364	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010334	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010335	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010352	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0000436	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0001144	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020358	IAO:0000118	
@@ -957,6 +964,9 @@ WARN	duplicate_exact_synonym	VO:0020465	IAO:0000118
 WARN	duplicate_exact_synonym	VO:0020466	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020467	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020468	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010347	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010357	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010358	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0001347	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0005419	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0001017	IAO:0000118	
@@ -965,12 +975,22 @@ WARN	duplicate_exact_synonym	NCBITaxon:38568	oboInOwl:hasExactSynonym
 WARN	duplicate_exact_synonym	NCBITaxon:5658	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VO:0019747	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0019757	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010337	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010346	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010345	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010368	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010369	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0000642	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010336	IAO:0000118	
 WARN	duplicate_exact_synonym	NCBITaxon:117565	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	NCBITaxon:7898	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	VO:0000942	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0003169	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0000738	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0003106	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010362	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010371	IAO:0000118	
+WARN	duplicate_exact_synonym	VO:0010372	IAO:0000118	
 WARN	duplicate_label_synonym	CHEBI:15882	oboInOwl:hasExactSynonym	phenol
 WARN	duplicate_label_synonym	CHEBI:16199	oboInOwl:hasExactSynonym	urea
 WARN	duplicate_label_synonym	CHEBI:16842	oboInOwl:hasExactSynonym	formaldehyde
@@ -1171,6 +1191,7 @@ WARN	missing_definition	NCBITaxon:117571	IAO:0000115
 WARN	missing_definition	NCBITaxon:11768	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11901	IAO:0000115	
 WARN	missing_definition	NCBITaxon:119088	IAO:0000115	
+WARN	missing_definition	NCBITaxon:119210	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11974	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11976	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11978	IAO:0000115	
@@ -12295,33 +12316,41 @@ WARN	missing_obsolete_label	VO:0002821	rdfs:label	B. melitensis WR201 (16M-delta
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/RO_0002259	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/cl#cellxgene_subset	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/cl#general_cell_types_upper_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_IEDB_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#GOLD	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#gram-negative_bacterial_infectious_disease	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#gram-positive_bacterial_infectious_disease	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#sexually_transmitted_infectious_disease	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#tick-borne_infectious_disease	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_manually_annotate	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#gocheck_do_not_annotate	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_candida	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_euk_cellular_processes_ribbon	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_metagenomics	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_plant	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pombe	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_prokaryote	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_prokaryote_ribbon	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_yeast	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/go#prokaryote_subset	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#disposition_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/pato#mpath_slim	rdfs:subPropertyOf	
@@ -12865,6 +12894,7 @@ INFO	lowercase_definition	VO:0005503	IAO:0000115	a grouping class for vaccines f
 INFO	lowercase_definition	VO:0005505	IAO:0000115	a grouping class for vaccines for specific platforms
 INFO	lowercase_definition	VO:0007098	IAO:0000115	"rime/boost vaccination proved to be of no advantage or even detrimental in therapeutic settings in B16F1 and transgenic adenocarcinoma of the mouse prostate (TRAMP) models, respectively"
 INFO	lowercase_definition	VO:0007287	IAO:0000115	"cancer vaccine consisting of autologous dendritic cells transfected with autologous tumor mRNA and the human CD40 ligand (CD40L) gene with immunostimulatory and antitumor activities. Vaccination with autologous dendritic cell-autologous tumor mRNA-human CD40L vaccine may elicit a cytotoxic T cell response against tumor cells from which the autologous tumor mRNA was derived. When expressed by dendritic cells, tumor antigens and the co-stimulatory molecule CD40L, which binds to CD40 receptors on antigen presenting cells (APC), facilitate both humoral and cellular immune responses against tumor cells."
+INFO	lowercase_definition	VO:0010347	IAO:0000115	"(HSA) - ProQuad vaccine is a vaccine indicated for active immunization for the prevention of measles, mumps, rubella, and varicella in children 12 months through 12 years of age."
 INFO	lowercase_definition	VO:0010751	IAO:0000115	a protein from a bacterium
 INFO	lowercase_definition	VO:0010754	IAO:0000115	a protein from a virus
 INFO	lowercase_definition	VO:0010755	IAO:0000115	a protein from a parasite
