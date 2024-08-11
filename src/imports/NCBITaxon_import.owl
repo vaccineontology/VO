@@ -671,7 +671,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_104388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_180252"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:72150</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Anatid Herpes virus-1</oboInOwl:hasExactSynonym>
@@ -679,7 +678,7 @@
         <oboInOwl:hasExactSynonym>Duck enteritis virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Duck plague virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <rdfs:label>Anatid alphaherpesvirus 1</rdfs:label>
+        <rdfs:label>anatid alphaherpesvirus 1</rdfs:label>
     </owl:Class>
     
 
@@ -3636,7 +3635,6 @@
         <oboInOwl:hasDbXref>PMID:11542087</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11760965</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:12054223</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:2112744</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:270744</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:32628106</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:36748408</oboInOwl:hasDbXref>
@@ -3648,6 +3646,9 @@
         <oboInOwl:hasDbXref>PMID:9336922</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>eubacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Bacteria (ex Cavalier-Smith 1987)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Bacteria Woese et al. 2024</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Bacteriobiota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Monera</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Procaryotae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Prokaryota</oboInOwl:hasRelatedSynonym>
@@ -3891,7 +3892,6 @@
         <oboInOwl:hasDbXref>PMID:11542149</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11760965</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:12054223</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:2112744</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:25527841</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:270744</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:32628106</oboInOwl:hasDbXref>
@@ -3902,6 +3902,7 @@
         <oboInOwl:hasDbXref>PMID:9336922</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Archaebacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Archaebiota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mendosicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Metabacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Monera</oboInOwl:hasRelatedSynonym>
@@ -4586,11 +4587,15 @@
         <oboInOwl:hasDbXref>PMID:23918787</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:7727274</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:9103607</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>RNA similarity group I</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>&quot;Chlorobacterium&quot; Guillebeau 1890, nom. rejic. Opin. 6 (not &quot;Chlorobacterium&quot; Lauterborn 1916)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Chryseomonas</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Flavimonas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Liquidomonas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Loefflerella</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>RNA similarity group I</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Pseudomonas Migula 1894 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Serpens</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pseudomonas</rdfs:label>
     </owl:Class>
     
@@ -4934,7 +4939,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3052729 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3052729">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560076"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11158"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:11215</oboInOwl:hasAlternativeId>
@@ -5505,11 +5510,12 @@
         <oboInOwl:hasBroadSynonym>AHSV</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>African horse sickness group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>African horse sickness virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>African horse sickness virus (AHSV)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>African horsesickness virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>African horse sickness virus AHSV</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>African horse sickness virus</rdfs:label>
+        <rdfs:label>Orbivirus alphaequi</rdfs:label>
     </owl:Class>
     
 
@@ -7034,7 +7040,6 @@
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16560691</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19965992</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:23485124</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:932684</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Aeromonas dourgesi</oboInOwl:hasRelatedSynonym>
