@@ -184,5 +184,26 @@ includeAllAnnotationProperties
 
 [Source annotation URIs to be excluded]
 
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_1273 #respiratory syncytial virus infectious disease
+http://purl.obolibrary.org/obo/DOID_12205 #dengue disease
+http://purl.obolibrary.org/obo/DOID_4325 #Ebola hemorrhagic fever
+http://purl.obolibrary.org/obo/DOID_0050012 #chikungunya
+http://purl.obolibrary.org/obo/DOID_3292 #mpox
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_0050117 #disease by infectious agent
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
 
 
