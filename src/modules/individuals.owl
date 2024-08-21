@@ -81,16 +81,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0010389 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010389">
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
-        <rdfs:label>GlaxoSmithKline Biologicals</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0015076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015076"/>
@@ -331,6 +321,7 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/VO_0000299"/>
         <obo:IAO_0000115>A British multinational pharmaceutical company headquartered in Brentford, England</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He, Philip Huang</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">GSK</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/GlaxoSmithKline</obo:IAO_0000119>
         <rdfs:label>GlaxoSmithKline plc</rdfs:label>
     </owl:NamedIndividual>
@@ -1837,17 +1828,6 @@ http://www.hoovers.com/company-information/cs/company-profile.advent_srl.aebb99e
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0010378 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/VO_0010378">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/VO_0000299"/>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
-        <rdfs:label>GlaxoSmithKline Biologicals SA</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0010379 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/VO_0010379">
@@ -1954,6 +1934,17 @@ http://www.hoovers.com/company-information/cs/company-profile.advent_srl.aebb99e
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
         <rdfs:label>MSP Vaccine Company</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010392 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/VO_0010392">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/VO_0000299"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
+        <rdfs:label>BioNTech Manufacturing GmbH</rdfs:label>
     </owl:NamedIndividual>
     
 
