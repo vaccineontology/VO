@@ -136,6 +136,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0050012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in joint, has_material_basis_in Chikungunya virus, which is transmitted_by Aedes mosquito bite. The infection has_symptom fever, has_symptom arthralgia, and has_symptom maculopapular rash.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:6038</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Chikungunya fever</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050012</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
+        <rdfs:label xml:lang="en">chikungunya</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0050117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050117">
@@ -1053,6 +1071,35 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_12205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection, has_material_basis_in Dengue virus [NCBITaxon:12637] with four serotypes (Dengue virus 1, 2, 3 and 4), which are transmitted by Aedes mosquito bite. The infection has symptom fever, has symptom severe headache, has symptom severe pain behind the eyes, has symptom joint pain, has symptom muscle and bone pain, has symptom rash, and has symptom mild bleeding.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:0050142</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GARD:6254</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:A90</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:061</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003715</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34528</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:38362002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0011311</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Dengue Fever</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">breakbone fever</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">classic dengue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">classical dengue</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:12205</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
+        <rdfs:label xml:lang="en">dengue disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_1240 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1240">
@@ -1095,6 +1142,27 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">hepatitis A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in upper respiratory tract or located_in lower respiratory tract, has_material_basis_in Human respiratory syncytial virus, which is transmitted_by droplet spread of nasal secretions from an infected person while coughing or sneezing, or transmitted_by contaminated fomites. The infection has_symptom runny nose, has_symptom fever, has_symptom cough, has_symptom wheezing, and has_symptom respiratory distress.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>MESH:D018357</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3354</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186750007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0035235</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">RSV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">respiratory syncytial virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1273</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">respiratory syncytial virus infectious disease</rdfs:label>
     </owl:Class>
     
 
@@ -2218,6 +2286,32 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_3292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection of primates, rodents and humans, located in skin, has_material_basis_in Monkeypox virus, which is transmitted by contact with the animal&apos;s blood, body fluids, rash, or with the body fluids of a sick person, transmitted by fomites, and transmitted by respiratory droplets. The infection has symptom fever, has symptom muscle ache, has symptom headache, and has symptom lymphadenopathy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:10722</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:B04</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:059.01</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D045908</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C128421</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:240466002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0276180</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">monkeypox</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:3292</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
+        <rdfs:comment xml:lang="en">November 2022 WHO name update.</rdfs:comment>
+        <rdfs:label xml:lang="en">mpox</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_3347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3347">
@@ -2609,6 +2703,30 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d&apos;Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted by contaminated fomites, or transmitted by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:2035</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:A98.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D019142</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C36171</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:123323003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0282687</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ebola virus disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:4325</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
+        <rdfs:label xml:lang="en">Ebola hemorrhagic fever</rdfs:label>
     </owl:Class>
     
 

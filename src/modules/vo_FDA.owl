@@ -1,0 +1,1325 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo/dev/vo_FDA.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo/dev/vo_FDA.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/dev/vo_FDA.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003160 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003160"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003161"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003162 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003162"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000003">
+        <obo:VO_0003160>Active immunization against smallpox disease for persons determined to be at high risk for smallpox infection.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142572.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125158</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000004">
+        <obo:VO_0003160>ActHIB vaccine is indicated for the active immunization of infants and children 2 months through 5 years of age for the prevention of invasive disease caused by H influenzae type b.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM109841.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103935</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000005">
+        <obo:VO_0003160>Booster immunization against tetanus, diphtheria and pertussis as a single dose in individuals 10 through 64 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142764.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125111</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000006">
+        <obo:VO_0003160>For active immunization of persons ages 6 months of age and older against influenza disease caused by influenza virus subtypes A and type B present in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM263239.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125254</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000014">
+        <obo:VO_0003160>For the active immunization for the prevention of disease caused by Bacillus anthracis in persons between 18 and 65 years of age at high risk of exposure.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/BloodBloodProducts/ApprovedProducts/LicensedProductsBLAs/UCM074923.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103821</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000015">
+        <obo:VO_0003160>Booster immunization against tetanus, diphtheria and pertussis as a single dose in individuals 10 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/UCM152842.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125106</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000029">
+        <obo:VO_0003160>Indicated for active immunization against diphtheria, tetanus and pertussis as a five dose series in infants and children 6 weeks through 6 years of age (prior to 7th birthday).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM103037.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103666</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000031">
+        <obo:VO_0003160>Indicated for active immunization to prevent invasive disease caused by Neisseria meningitidis serogroups C and Y and Haemophilus influenzae type b for children 6 weeks of age through 18 months of age.</obo:VO_0003160>
+        <obo:VO_0003162>BL 125363/0</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000043">
+        <obo:VO_0003160>Active immunization for the prevention of disease caused by influenza A subtype viruses and type B virus contained in the vaccine. FLULAVAL is approved for use in persons 6 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM112904.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125163</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000044">
+        <obo:VO_0003160>For the active immunization of individuals 2-49 years of age against influenza disease caused by influenza virus subtypes A and type B contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003162>BL 125020</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000045">
+        <obo:VO_0003160>For active immunization of persons 3 years of age and older for the prevention of disease caused by influenza virus subtypes A and type B contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM335392.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125127</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000046">
+        <obo:VO_0003160>For active immunization of persons 4 years of age and older against influenza disease caused by influenza virus subtypes A and type B contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM123694.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103837</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000047">
+        <obo:VO_0003160>Fluzone is indicated for active immunization of persons 6 months of age and older against influenza disease caused by influenza virus subtypes A and type B contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM619664.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000049">
+        <obo:VO_0003160>- Prevention of vulvar and vaginal cancer
+- Vaccination in females 9 through 26 years of age for prevention of the following diseases caused by Human Papillomavirus (HPV) Types 6, 11, 16, and 18:
+     - Cervical Cancer
+     - Genital warts (condyloma acuminata) and the following precancerous or dysplastic lesions:
+          - Cervical adenocarcinoma in situ (AIS)cancer
+          - Cervical intraepithelial neoplasia (CIN) grade 2 and grade 3
+          - Vulvar intraepithelial neoplasia (VIN) grade 2 and grade 3
+          - Vaginal intraepithelial neoplasia (VaIN) grade 2 and grade 3
+          - Cervical intraepithelial neoplasia (CIN) grade 1
+- Vaccination in boys and men 9 through 26 years of age for the prevention of genital warts caused by HPV types 6 and 11
+- Vaccination in people ages 9 through 26 years for the prevention of anal cancer and associated precancerous lesions due to human papillomavirus (HPV) types 6, 11, 16, and 18</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM111263.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125126</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000052">
+        <obo:VO_0003160>HAVRIX is indicated for active immunization against disease caused by hepatitis A virus (HAV). HAVRIX is approved for use in persons 12 months of age and older. Primary immunization should be administered at least 2 weeks prior to expected exposure to HAV.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/119388/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 103475</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000054">
+        <obo:VO_0003160>IPOL vaccine is indicated for active immunization of infants (as young as 6 weeks of age), children and adults for the prevention of poliomyelitis caused by poliovirus Types 1, 2, and 3.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM133479.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103930</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000063">
+        <obo:VO_0003160>Vaccine for use in all age groups for pre-exposure and post-exposure prophylaxis against rabies.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM133484.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103931</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000064">
+        <obo:VO_0003160>For active immunization against diphtheria, tetanus, and pertussis as a 5-dose series in infants and children 6 weeks to 7 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM124514.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103647</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000066">
+        <obo:VO_0003160>Indicated for Active Immunization against JE for persons one year age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM123761.pdf</obo:VO_0003161>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000067">
+        <obo:VO_0003160>Active immunization against diphtheria, tetanus, pertussis, and poliomyelitis as the fifth dose in the diphtheria, tetanus, and acellular pertussis (DTaP) vaccine series and the fourth dose in the inactivated poliovirus vaccine (IPV) series in children 4 through 6 years of age whose previous DTaP vaccine doses have been with INFANRIX(R) and/or PEDIARIX(R) for the first three doses and INFANRIX(R) for the fourth dose.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM241453.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125260</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000069">
+        <obo:VO_0003160>M-M-R II is indicated for simultaneous vaccination against measles, mumps, and rubella in individuals 12 months of age or older.For active immunization against invasive meningococcal disease caused by Neisseria meningiditis serogroups A, C, Y, and W-135. Menomune – A/C/Y/W-135 vaccine is approved for use in persons 2 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM123789.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 101069</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000071">
+        <obo:VO_0003160>Active immunization of individuals 9 months through 55 years of age for the prevention of invasive meningococcal disease caused by Neisseria meningitidis serogroups A, C, Y and W-135.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM131170.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125089</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000072">
+        <obo:VO_0003160>For active immunization against invasive meningococcal disease caused by Neisseria meningiditis serogroups A, C, Y, and W-135. Menomune - A/C/Y/W-135 vaccine is approved for use in persons 2 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM308370.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103926</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000079">
+        <obo:VO_0003160>Fluzone High-Dose is indicated for active immunization of persons 65 years of age and older against influenza disease caused by influenza virus subtypes A and type B contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM619541.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000081">
+        <obo:VO_0003160>Active immunization of persons 4 years of age and older against influenza disease caused by pandemic (H1N1) 2009 virus.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM182242.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103837</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000082">
+        <obo:VO_0003160>For active immunization against diphtheria, tetanus, pertussis, infection caused by all known subtypes of hepatitis B virus, and poliomyelitis. PEDIARIX is approved for use as a three-dose series in infants born of hepatitis B surface antigen (HBsAg)-negative mothers. PEDIARIX may be given as early as 6 weeks of age through 6 years of age (prior to the 7th birthday).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM241874.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103907</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000083">
+        <obo:VO_0003160>Liquid PedvaxHIB is indicated for routine vaccination against invasive disease caused by Haemophilus influenzae type b in infants and children 2 to 71 months of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM253652.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103237/5285</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000084">
+        <obo:VO_0003160>For active immunization against diphtheria, tetanus, pertussis, poliomyelitis and invasive disease caused by Haemophilus influenzae type b when administered to infants and children 6 weeks through 4 years of age (prior to fifth birthday).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM109810.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125145</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000088">
+        <obo:VO_0003160>PNEUMOVAX 23 is indicated for active immunization against pneumococcal disease caused by those pneumococcal types included in the vaccine in persons 50 years of age or older and persons greater than or equal to 2 years of age who are at increased risk for pneumococcal disease.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM257088.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BLA 101094</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000090">
+        <obo:VO_0003160>- Immunization of infants 2, 4, 6 and 12-15 months of age to prevent invasive pneumococcal disease.
+- Immunization of infants and toddlers against otitis media caused by vaccine serotypes.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM137038.pdf</obo:VO_0003161>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000091">
+        <obo:VO_0003160>For vaccination against measles, mumps, rubella, and varicella in children 12 months to 12 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM123793.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125108</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000092">
+        <obo:VO_0003160>Fluzone Intradermal Quadrivalent indicated for active immunization for use in adults 18 through 64 years of age against influenza disease caused by influenza virus subtypes A and type B contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM566500.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000094">
+        <obo:VO_0003160>Pre-exposure and post-exposure immunization of children and adults</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM312931.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103334</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000096">
+        <obo:VO_0003160>Indicated for active immunization for the prevention of febrile acute respiratory disease caused by Adenovirus Type 4 and Type 7.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM247515.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125296/0</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000097">
+        <obo:VO_0003160>For prevention of rotavirus gastroenteritis in infants 6 weeks to 32 weeks of age caused by types G1, G2, G3, G4, and G9.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142288.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125122</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000102">
+        <obo:VO_0003160>Indicated for active immunization for the prevention of tetanus and diphtheria in persons 7 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM152826.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103171</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000103">
+        <obo:VO_0003160>For the treatment and prophylaxis of carcinoma in situ (CIS) of the urinary bladder. For the prophylaxis of primary or recurrent state Ta and/or T1 papillary tumors following transurethral resection (TUR).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/76396/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>102821</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000104">
+        <obo:VO_0003160>For active immunization against typhoid fever for persons two years of age or older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142811.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103936</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000113">
+        <obo:VO_0003160>Active immunization of persons 18 years of age or older against disease caused by hepatitis A virus and infection by all known subtypes of hepatitis B virus.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM110079.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103850</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000119">
+        <obo:VO_0003160>Indicated for active immunization for the prevention of varicella in individuals 12 months of age and older</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142812.pdf</obo:VO_0003161>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142813.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103552</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000120">
+        <obo:VO_0003160>For immunization of adults and children greater than 6 years of age against disease caused by Salmonella typhi.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142807.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103123</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000121">
+        <obo:VO_0003160>For active immunization of persons 9 months of age and older who:
+- Are living in or traveling to endemic areas;
+- Travelling internationally to countries that require evidence of vaccination from entering travelers or;
+- Laboratory Personnel who might be expose to virulent yellow fever virus or to concentrated preparations of the yellow fever vaccine strain by direct or indirect contact or by aerosols should by vaccinated.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142831.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103915</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000124">
+        <obo:VO_0003160>For prevention of herpes zoster (shingles) in individuals 50 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM132831.pdf</obo:VO_0003161>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM285015.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125123</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000160">
+        <obo:VO_0003160>Active immunization of persons 6 months of age and older against influenza disease caused by pandemic (H1N1) 2009 virus.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM182404.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000348">
+        <obo:VO_0003160>Active immunization of persons ages 6 months and older against influenza disease caused by pandemic (H1N1) 2009 virus.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM182401.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125254</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000349">
+        <obo:VO_0003160>Active immunization of individuals 2-49 years of age against influenza disease caused by pandemic (H1N1) 2009 virus.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM182406.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125020</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000771">
+        <obo:VO_0003160>For the prevention of tuberculosis in persons not previously infected with M. tuberculosis who are at high risk for exposure.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/78331/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>103050</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000978">
+        <obo:VO_0003160>For active immunization against disease caused by influenza virus subtypes A and type B contained in the vaccine. Flublok is approved for use in persons 18 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003162>125285</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000980 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000980">
+        <obo:VO_0003160>For active immunization of persons 4 years of age and older for the prevention of influenza disease caused by influenza virus subtypes A and type B contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM329134.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125408</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000982 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000982">
+        <obo:VO_0003160>For active immunization for the prevention of influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine. FluMist Quadrivalent is approved for use in persons 2 through 49 years of age</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/160349/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125020</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000983">
+        <obo:VO_0003160>FLUARIX QUADRIVALENT is a vaccine indicated for active immunization for the prevention of disease caused by influenza A subtype viruses and type B viruses contained in the vaccine.FLUARIX QUADRIVALENT is approved for use in persons aged 6 months and older</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/79278/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 125127</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001126">
+        <obo:VO_0003160>Active immunization of adults 18 years of age and older against influenza disease caused by influenza virus subtypes A and type B present in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003162>BL 125297/32</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001244">
+        <obo:VO_0003160>- Active immunization for the prevention of invasive disease caused by Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F and 23F in children 6 weeks through 5 years of age (prior to the 6th birthday).
+- Active immunization for the prevention of otitis media caused by S. pneumoniae serotypes 4, 6B, 9V, 14, 18C, 19F, and 23F. No otitis media efficacy data are available for serotypes 1, 3, 5, 6A, 7F, and 19A In children 6 weeks through 5 years of age (prior to the 6th birthday).
+- Active immunization for the prevention of invasive disease caused by S. pneumoniae serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F and 23F in children 6 years through 17 years of age (prior to the 18th birthday). 
+- Active immunization for the prevention of pneumonia and invasive disease caused by S. pneumoniae serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F and 23F in adults 18 years of age and older.
+- Limitations: Prevnar 13 does not protect against disease caused by S. pneumoniae serotypes that are not in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM574852.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125324</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001246">
+        <obo:VO_0003160>For active immunization to prevent invasive meningococcal disease caused by Neisseria meningitidis serogroups A, C, Y and W-135 when administered to individuals 2 months to 55 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM201349.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125300</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001817">
+        <obo:VO_0003160>Active immunization against influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine. Afluria Quadrivalent is approved for use in persons 6 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/117022/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 125254</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003066">
+        <obo:VO_0003160>Active immunization to prevent invasive disease caused by Neisseria meningitidis serogroup B in individuals 10 through 25 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM431447.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125546</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003067">
+        <obo:VO_0003160>For active immunization against disease caused by influenza A subtype viruses and influenza type B viruses contained in the vaccine. Flublok Quadrivalent is approved for use in persons 18 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/vaccines-blood-biologics/vaccines/flublok-quadrivalent</obo:VO_0003161>
+        <obo:VO_0003162>125285</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003070">
+        <obo:VO_0003160>For active immunization for the prevention of influenza disease caused by influenza virus subtypes A and types B contained in the vaccine</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/115862/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 125408</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003071">
+        <obo:VO_0003160>For active immunization of persons 6 months of age and older for the prevention of disease caused by influenza A subtype viruses and type B viruses contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM619548.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125163</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003073">
+        <obo:VO_0003160>For active immunization of persons 6 months of age and older for the prevention of influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM356094.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003074">
+        <obo:VO_0003160>Fluzone Quadrivalent Southern Hemisphere is a vaccine indicated for active immunization for the prevention of influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/120054/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003075">
+        <obo:VO_0003160>Indicated in girls and women 9 through 45 years of age for the prevention of the following diseases:
+- Cervical, vulvar, vaginal, and anal cancer caused by Human Papillomavirus (HPV) types 16, 18, 31, 33, 45, 52, and 58. (1.1)
+Genital warts (condyloma acuminata) caused by HPV types 6 and 11. (1.1)
+
+And the following precancerous or dysplastic lesions caused by HPV types 6, 11, 16, 18, 31, 33, 45, 52, and 58:
+- Cervical intraepithelial neoplasia (CIN) grade 2/3 and cervical adenocarcinoma in situ (AIS). (1.1)
+- Cervical intraepithelial neoplasia (CIN) grade 1. (1.1)
+- Vulvar intraepithelial neoplasia (VIN) grade 2 and grade 3. (1.1)
+- Vaginal intraepithelial neoplasia (VaIN) grade 2 and grade 3. (1.1)
+- Anal intraepithelial neoplasia (AIN) grades 1, 2, and 3. (1.1)
+
+GARDASIL 9 is indicated in boys and men 9 through 45 years of age for the prevention of the following diseases:
+- Anal cancer caused by HPV types 16, 18, 31, 33, 45, 52, and 58. (1.2)
+- Genital warts (condyloma acuminata) caused by HPV types 6 and 11. (1.2)
+
+And the following precancerous or dysplastic lesions caused by HPV types 6, 11, 16, 18, 31, 33, 45, 52, and 58:
+- Anal intraepithelial neoplasia (AIN) grades 1, 2, and 3. (1.2)</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM426457.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125508</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003081">
+        <obo:VO_0003160>Indicated for active immunization to prevent invasive disease caused by Neisseria meningitidis serogroup B. Trumenba is approved for use in individuals 10 through 25 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM421139.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125549</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003082">
+        <obo:VO_0003160>VAXCHORA is a vaccine indicated for active immunization against disease caused by Vibrio cholerae serogroup O1. VAXCHORA is approved for use in persons 2 through 64 years of age traveling to cholera-affected areas.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/179631/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125597</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003083">
+        <obo:VO_0003160>Influenza A (H5N1) Virus Monovalent Vaccine, Adjuvanted is a vaccine indicated for active immunization for the prevention of disease caused by the influenza A virus H5N1 subtype contained in the vaccine. Influenza A (H5N1) Virus Monovalent Vaccine, Adjuvanted is approved for use in persons (6 months and older) at increased risk of exposure to the influenza A virus H5N1 subtype contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/87479/download</obo:VO_0003161>
+        <obo:VO_0003162>125419</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003152">
+        <obo:VO_0003160>For prevention of infection caused by all known subtypes of hepatitis B virus. HEPLISAV-B is approved for use in adults 18 years of age and older</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/108745/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125428</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003317">
+        <obo:VO_0003160>Indicated for prevention of herpes zoster (shingles) in adults aged 50 years and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM581605.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125614</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003353">
+        <obo:VO_0003160>For immunization of adults and children greater than 6 years of age against disease caused by Salmonella typhi.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142807.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103123</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004987">
+        <obo:VO_0003160>For active immunization to prevent coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in individuals 12 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/151707/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125742</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010334">
+        <obo:VO_0003160>Active immunization of pregnant individuals at 32 through 36 weeks gestational age for the prevention of lower respiratory tract disease (LRTD) and severe LRTD caused by respiratory syncytial virus (RSV) in infants from birth through 6 months of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/171482/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125768</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010335">
+        <obo:VO_0003160>Active immunization for the prevention of lower respiratory tract disease (LRTD) caused by respiratory syncytial virus (RSV) in individuals 60 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/168889/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125769</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010336">
+        <obo:VO_0003160>Active immunization against influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine. Afluria Quadrivalent is approved for use in persons 6 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/145736/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 125254</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010337">
+        <obo:VO_0003160>Active immunization against influenza disease cause by influenza virus subtypes A and type B present in the vaccine. Afluria is approved for use in persons 6 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/145737/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 125254</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010338">
+        <obo:VO_0003160>AREXVY is a vaccine indicated for active immunization for the prevention of lower respiratory tract disease (LRTD) caused by respiratory syncytial virus (RSV) in:
+individuals 60 years of age and older;
+individuals 50 through 59 years of age who are at increased risk for LRTD caused by RSV</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/167805/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125775</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010339">
+        <obo:VO_0003160>AUDENZ is an inactivated vaccine indicated for active immunization for the prevention of disease caused by the influenza A virus H5N1 subtype contained in the vaccine.
+AUDENZ is approved for use in persons 6 months of age and older at increased risk of exposure to the influenza A virus H5N1 subtype contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/135020/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125692</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010340">
+        <obo:VO_0003160>CAPVAXIVE is indicated for:
+Active immunization for the prevention of invasive disease caused by Streptococcus pneumoniae serotypes 3, 6A, 7F, 8, 9N, 10A, 11A, 12F, 15A,15B, 15C, 16F, 17F, 19A, 20A, 22F, 23A, 23B, 24F, 31, 33F, and 35B inindividuals 18 years of age and older.
+Active immunization for the prevention of pneumonia caused by S. pneumoniaeserotypes 3, 6A, 7F, 8, 9N, 10A, 11A, 12F, 15A, 15C, 16F, 17F, 19A, 20A, 22F,23A, 23B, 24F, 31, 33F, and 35B in individuals 18 years of age and older.
+The indication for the prevention of pneumonia caused by S. pneumoniae serotypes 3, 6A, 7F, 8, 9N, 10A, 11A, 12F, 15A, 15C, 16F, 17F, 19A, 20A, 22F, 23A, 23B, 24F, 31, 33F, and 35B is approved under accelerated approval based on immune responses as measured by opsonophagocytic activity (OPA) [see Clinical Studies (14.1)]. Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/179426/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125814</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010341">
+        <obo:VO_0003160>For post-exposure prophylaxis of disease following suspected or confirmed exposure to Bacillus anthracis in persons 18 through 65 years of age when administered in conjunction with recommended antibacterial drugs</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/170445/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125761</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010342">
+        <obo:VO_0003160>For the prevention of dengue disease caused by dengue virus serotypes 1, 2, 3 and 4. DENGVAXIA is approved for use in individuals 6 through 16 years of age with laboratory-confirmed previous dengue infection and living in endemic areas.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/124379/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125682</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010343">
+        <obo:VO_0003160>ERVEBO is a vaccine indicated for For the prevention of disease caused by Zaire ebolavirus in individuals 12 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/133748/download?attachment</obo:VO_0003161>
+        <obo:VO_0003161>https://www.fda.gov/vaccines-blood-biologics/ervebo</obo:VO_0003161>
+        <obo:VO_0003162>125690</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010344">
+        <obo:VO_0003160>For active immunization of persons 65 years of age and older against influenza disease caused by influenza virus subtypes A and types B contained in the vaccine</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/135432/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125510</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010345">
+        <obo:VO_0003160>Fluzone High-Dose Quadrivalent: For active immunization for the prevention of influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/139731/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010346">
+        <obo:VO_0003160>Fluzone Intradermal Quadrivalent is a vaccine indicated for active immunization for the prevention of influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine. Fluzone Intradermal Quadrivalent is approved for use in persons 18 through 64 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/106170/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010347">
+        <obo:VO_0003160>ProQuad(HSA) is a vaccine indicated for active immunization for the prevention of measles, mumps, rubella, and varicella in children 12 months through 12 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/75203/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125108</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010348">
+        <obo:VO_0003160>For the prevention of disease caused by chikungunya virus (CHIKV) in individuals 18 years of age and older who are at increased risk of exposure to CHIKV.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/173758/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125777</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010349">
+        <obo:VO_0003160>Active immunization of persons ages 18 years of age older against influenza disease caused by pandemic (H1N1) 2009 virus.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/77835/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125163</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010350">
+        <obo:VO_0003160>For active immunization of persons 18 through 64 years of age at increased risk of exposure to the H5N1 influenza virus subtype contained in the vaccine</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/74534/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125244</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010351">
+        <obo:VO_0003160>For prevention of smallpox and monkeypox disease in adults 18 years of age and older determined to be at high risk for smallpox or monkeypox infection.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/131078/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125678</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010352">
+        <obo:VO_0003160>MRESVIA is a vaccine indicated for active immunization for the prevention of lower respiratory tract disease (LRTD) caused by respiratory syncytial virus (RSV) in individuals 60 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/179005/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125796</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010353">
+        <obo:VO_0003160>MenQuadfi is a vaccine indicated for active immunization for the prevention of invasive meningococcal disease caused by Neisseria meningitidis serogroups A, C, W, and Y. MenQuadfi is approved for use in individuals 2 years of age and older.MenQuadfi does not prevent N. meningitidis serogroup B disease.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/137306/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125701</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010354">
+        <obo:VO_0003160>PENBRAYA is indicated for active immunization to prevent invasive disease caused by Neisseria meningitidis serogroups A, B, C, W, and Y. PENBRAYA is approved for use in individuals 10 through 25 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/173223/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125770</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010355">
+        <obo:VO_0003160>For prevention of infection caused by all known subtypes of the hepatitis B virus in adults 18 years and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/154561/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125737</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010356">
+        <obo:VO_0003160>Active immunization for the prevention of invasive disease caused by Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F, and 33F in individuals 6 weeks of age and older.
+Active immunization for the prevention of otitis media caused by S. pneumoniae serotypes 4, 6B, 9V, 14, 18C, 19F, and 23F in individuals 6 weeks through 5 years of age.
+Active immunization for the prevention of pneumonia caused by S. pneumoniae serotypes 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F, and 33F in individuals 18 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/149987/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125731</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010357">
+        <obo:VO_0003160>ProQuad is a vaccine indicated for active immunization for the prevention of measles, mumps, rubella, and varicella in children 12 months through 12 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/147563/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125108</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010358">
+        <obo:VO_0003160>ProQuad is a vaccine indicated for active immunization for the prevention of measles, mumps, rubella, and varicella in children 12 months through 12 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/75195/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125108</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010359">
+        <obo:VO_0003160>Active immunization to prevent coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in individuals 12 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/155675/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125752</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010360">
+        <obo:VO_0003160>For active immunization for the prevention of tetanus and diptheria for use in persons 7 years of age or older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/76430/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>101322</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010361">
+        <obo:VO_0003160>For active immunization to prevent tick-borne encephalitis (TBE) in individuals 1 year of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/151502/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125740</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010362">
+        <obo:VO_0003160>Active immunization against diphtheria, tetanus, pertussis, poliomyelitis, hepatitis B, and invasive disease due to Haemophilus influenzae type b (Hib) in children 6 weeks through 4 years of age (prior to fifth birthday).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/119465/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125563</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010363">
+        <obo:VO_0003160>VARIVAX is a vaccine indicated for active immunization for the prevention of varicella in individuals 12 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/76008/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 103552</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010364">
+        <obo:VO_0003160>VARIVAX is a vaccine indicated for active immunization for the prevention of varicella in individuals 12 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/76000/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 103552</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010365">
+        <obo:VO_0003160>For prevention of herpes zoster (shingles) in individuals 50 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/119879/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125123</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010366">
+        <obo:VO_0003160>For prevention of herpes zoster (shingles) in individuals 50 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/82524/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125123</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010367">
+        <obo:VO_0003160>For the prevention of rotavirus gastroenteritis caused by G1 and non-G1 types (G3, G4, and G9), for use in infants 6 weeks to 24 weeks of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/163010/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 125265</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010368">
+        <obo:VO_0003160>Fluzone High-Dose Quadrivalent Southern Hemisphere is a vaccine indicated for active immunization for the prevention of influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/165357/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010369">
+        <obo:VO_0003160>Fluzone Quadrivalent : For active immunization for the prevention of influenza disease caused by influenza A subtype viruses and type B viruses contained in the vaccine. It is approved for use in persons 6 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/119856/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>103914</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010370">
+        <obo:VO_0003160>For active immunization for the prevention of tetanus and diptheria for use in persons 7 years of age or older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/117947/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>101322</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010371">
+        <obo:VO_0003160>For active immunization against diphtheria, tetanus, pertussis, poliomyelitis and invasive disease due to Haemophilus influenzae type b. Pentacel is approved for use as a four dose series in children 6 weeks through 4 years of age (prior to 5thbirthday).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/74385/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125145</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010372">
+        <obo:VO_0003160>For active immunization against diphtheria, tetanus, pertussis, poliomyelitis and invasive disease due to Haemophilus influenzae type b. Pentacel is approved for use as a four dose series in children 6 weeks through 4 years of age (prior to 5thbirthday).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/146048/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125145</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010373">
+        <obo:VO_0003160>ProQuad is a vaccine indicated for active immunization for the prevention of measles, mumps, rubella, and varicella in children 12 months through 12 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/147562/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125108</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010374">
+        <obo:VO_0003160>ProQuad is a vaccine indicated for active immunization for the prevention of measles, mumps, rubella, and varicella in children 12 months through 12 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/119880/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125108</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010375">
+        <obo:VO_0003160>M-M-R II is indicated for simultaneous vaccination against measles, mumps, and rubella in individuals 12 months of age or older.For active immunization against invasive meningococcal disease caused by Neisseria meningiditis serogroups A, C, Y, and W-135. Menomune – A/C/Y/W-135 vaccine is approved for use in persons 2 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/87361/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 101069</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010376">
+        <obo:VO_0003160>Active immunization to prevent coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in individuals 12 years of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/155762/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125752</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010390">
+        <obo:VO_0003160>Active immunization against diphtheria, tetanus, pertussis and poliomyelitis. A single dose of Quadracel is approved as a fifth dose in the diphtheria, tetanus, pertussis (DTaP) vaccination series, and as a fourth or fifth dose in the inactivated poliovirus (IPV) vaccination series in children 4 through 6 years of age whose previous DTaP vaccine doses have been with Pentacel, DAPTACEL, and/or VAXELIS.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/91640/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 125525</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010391">
+        <obo:VO_0003160>Active immunization against diphtheria, tetanus, pertussis and poliomyelitis. A single dose of Quadracel is approved as a fifth dose in the diphtheria, tetanus, pertussis (DTaP) vaccination series, and as a fourth or fifth dose in the inactivated poliovirus (IPV) vaccination series in children 4 through 6 years of age whose previous DTaP vaccine doses have been with Pentacel, DAPTACEL, and/or VAXELIS.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/146047/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 125525</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010711">
+        <obo:VO_0003160>ENGERIX-B is a vaccine indicated for immunization against infection caused by all known subtypes of hepatitis B virus.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM224503.pdf</obo:VO_0003161>
+        <obo:VO_0003162>103239</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010715">
+        <obo:VO_0003160>For active immunization for the prevention of invasive disease caused by Haemophilus influenzae type b. HIBERIX is approved for use in children 6 weeks through 4 years of age (prior to fifth birthday).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM179530.pdf</obo:VO_0003161>
+        <obo:VO_0003162>125347</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010734">
+        <obo:VO_0003160>For active immunization for the prevention of measles, mumps, and rubella in individuals 12 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/158941/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>125748</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010736">
+        <obo:VO_0003160>Active immunization against diphtheria, tetanus, pertussis and poliomyelitis. A single dose of Quadracel is approved as a fifth dose in the diphtheria, tetanus, pertussis (DTaP) vaccination series, and as a fourth or fifth dose in the inactivated poliovirus (IPV) vaccination series in children 4 through 6 years of age whose previous DTaP vaccine doses have been with Pentacel, DAPTACEL, and/or VAXELIS.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/vaccines-blood-biologics/vaccines/quadracel</obo:VO_0003161>
+        <obo:VO_0003162>BL 125525</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010737">
+        <obo:VO_0003160>RECOMBIVAX HB is indicated for vaccination against infection caused by all known subtypes of hepatitis B virus.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM110114.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 101066</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010738">
+        <obo:VO_0003160>For the prevention of rotavirus gastroenteritis caused by G1 and non-G1 types (G3, G4, and G9), for use in infants 6 weeks to 24 weeks of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM133539.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125265</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010745">
+        <obo:VO_0003160>For the prevention of disease cause by hepatitis A virus (HAV) in persons 12 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/74519/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>BL 103606</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011558">
+        <obo:VO_0003160>For the prevention of disease caused by Japanese encephalitis virus in persons 2 months of age and older.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM142569.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125280</obo:VO_0003162>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011559">
+        <obo:VO_0003160>Prevention of cervical cancer, cervical intraepithelial neoplasia (CIN) grade 2 or worse and adenocarcinoma in situ, and cervical intraepithelial neoplasia (CIN) grade 1, caused by oncogenic human papillomavirus (HPV) types 16 and 18, in females9 through 25 years of age.</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/downloads/BiologicsBloodVaccines/Vaccines/ApprovedProducts/UCM186981.pdf</obo:VO_0003161>
+        <obo:VO_0003162>BL 125259</obo:VO_0003162>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
