@@ -85,7 +85,7 @@ MODULE_NAMES := vaccine\
  vo_objectProp\
  vo_CVX_code\
  vo_RxNorm\
- vaccine_FDA\
+ vo_FDA\
  obsolete
 
 MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/modules/$(x).owl)
