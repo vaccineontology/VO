@@ -3587,6 +3587,24 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A period typically associated with a higher incidence of influenza virus infections, characterized by the increased circulation of flu viruses in a population.</obo:IAO_0000115>
+        <obo:IAO_0000116>Flu viruses circulate year-round, but most cases are typically reported during the fall and winter months, a period known as flu season (CDC, 2022). The seasonality of flu varies globally, influenced by the distinct seasonal patterns of each hemisphere. Therefore, the flu season in the Northern Hemisphere often spans two calendar years, while in the Southern Hemisphere, it generally occurs within a single year. In temperate climate zones, peak flu activity typically occurs from October to April in the Northern Hemisphere and from April to October in the Southern Hemisphere (CDC, 2023; Kakoullis et al., 2023). In the United States, the flu season typically peaks between December and February, according to the CDC (2022).</obo:IAO_0000116>
+        <obo:IAO_0000117>Ellen Zhang</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID: 37535890</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cdc.gov/flu/about/season/index.html#:~:text=While%20influenza%20viruses%20spread%20year,varies%20from%20season%20to%20season</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.cdc.gov/ncird/whats-new/flu-southern-hemisphere.html</obo:IAO_0000119>
+        <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
+        <rdfs:label>flu season</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0015061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015061">
