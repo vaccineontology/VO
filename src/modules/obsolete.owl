@@ -175,11 +175,76 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000390">
+        <obo:IAO_0000115>Vaccine that used for immunizing birds.</obo:IAO_0000115>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001461"/>
+        <rdfs:label>obsolete birds vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000489">
+        <obo:IAO_0000115>a licensed vaccine role that is bears in a licensed human vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
+        <rdfs:label>obsolete licensed human vaccine role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000507">
+        <obo:IAO_0000115>A Canada  licensed vaccine role that indicates the vaccine is for veterinary uses.</obo:IAO_0000115>
+        <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
+        <rdfs:label>obsolete Canada licensed veterinary vaccine role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000551">
+        <obo:IAO_0000115>a licensed vaccine role that is bears in a licensed veterinary vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
+        <rdfs:label>obsolete licensed veterinary vaccine role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000597 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000597">
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
         <rdfs:label>obsolete class</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000605">
+        <obo:IAO_0000115>A Canada licensed vaccine role that indicates the vaccine is used for human</obo:IAO_0000115>
+        <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
+        <rdfs:label>obsolete Canada licensed human vaccine role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -951,7 +1016,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002820"/>
         <rdfs:comment>A purE/purK mutant of B. melitensis 16M was attenuated in mice when given intraperitoneally. Nine weeks after immunization, mice were protected from challenge with wild type B. melitensis</rdfs:comment>
-        <rdfs:label>B. melitensis WR201 (16M-delta-purEK)</rdfs:label>
+        <rdfs:label>obsolete B. melitensis WR201 (16M-delta-purEK)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
