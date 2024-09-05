@@ -622,19 +622,11 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
     <!-- http://purl.obolibrary.org/obo/VO_0000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000194">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000489"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000812"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
         <obo:IAO_0000115>a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>USA licensed human vaccine role</rdfs:label>
+        <rdfs:label>FDA licensed vaccine role</rdfs:label>
     </owl:Class>
     
 
@@ -1037,19 +1029,11 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <!-- http://purl.obolibrary.org/obo/VO_0000439 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000439">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000551"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000812"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
         <obo:IAO_0000115>a USA licensed vaccine role that indicates the vaccine is for veterinary uses.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>USDA licensed veterinary vaccine role</rdfs:label>
+        <rdfs:label>USDA licensed vaccine role</rdfs:label>
     </owl:Class>
     
 
@@ -1058,7 +1042,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000441">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115>vaccine candidate role is the role of a material entity in an investigation, which has not been experimentally or clinically verified to induce a protection or treatment in vivo in a host organism. </obo:IAO_0000115>
+        <obo:IAO_0000115>Role of a material entity in an investigation, which has not been experimentally or clinically verified to induce a protection or treatment in vivo in a recipient organism. </obo:IAO_0000115>
         <obo:IAO_0000116>This role should be a subclass of &apos;test substance role&apos;, which will be mireoted from OBI by OntoFox.</obo:IAO_0000116>
         <obo:IAO_0000117>BP, YH</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
@@ -1160,18 +1144,6 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000489 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-        <obo:IAO_0000115>a licensed vaccine role that is bears in a licensed human vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>licensed human vaccine role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000490 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000490"/>
@@ -1244,26 +1216,6 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
         <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>vaccine organism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000507 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000507">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000551"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000864"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000864"/>
-        <obo:IAO_0000115>A Canada  licensed vaccine role that indicates the vaccine is for veterinary uses.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>Canada licensed veterinary vaccine role</rdfs:label>
     </owl:Class>
     
 
@@ -1388,18 +1340,6 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000551 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000551">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-        <obo:IAO_0000115>a licensed vaccine role that is bears in a licensed veterinary vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>licensed veterinary vaccine role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000554">
@@ -1508,26 +1448,6 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000605 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000605">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000489"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000864"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000864"/>
-        <obo:IAO_0000115>A Canada licensed vaccine role that indicates the vaccine is used for human</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>Canada licensed human vaccine role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000612 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000612">
@@ -1544,7 +1464,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115>A role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. </obo:IAO_0000115>
+        <obo:IAO_0000115>Role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine role</rdfs:label>
@@ -2989,6 +2909,18 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>tumor antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>Vaccine role that indicates a vaccine has received emergency use authorization (EUA) from regulatory authorities for distribution and administration to the public.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>authorized vaccine role</rdfs:label>
     </owl:Class>
     
 
