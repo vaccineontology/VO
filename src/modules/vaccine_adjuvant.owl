@@ -4915,6 +4915,42 @@ none</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0005509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0006109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Nucleic acid vaccine adjuvant that targets on cytokine receptor to induce a Th1-based response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: nucleic acid
+Mechanism of Action: Cytokine Receptor
+Immune profile induced: Th1-biased
+
+Route of immunization: IM
+Point of Contact: Romain Micol, Combined Therapeutics
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=39047117
+
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000117>Romain Micol</obo:IAO_0000117>
+        <obo:IAO_0000118>IL-12-MOP (CTX-1796)</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:39047117</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/740</obo:IAO_0000233>
+        <obo:VO_0005328>100</obo:VO_0005328>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>IL-12-MOP (CTX-1796) vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0006092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006092">
