@@ -993,6 +993,20 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0002813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002813">
+        <obo:IAO_0000115>A vaccine that prevents or treats a non-infectious disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, RS</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/12831367</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
+        <rdfs:comment>There are mainly five types of non-infectious diseases, which are diabetes, allergies, cardiovascular diseases, cancer and genetic diseases. URL: http://www.ychlpyss.edu.hk/~bio/share/0405/f6homework/Non-infectious%20disease/noninfectiousdisease(ths).htm</rdfs:comment>
+        <rdfs:label>obsolete non-infectious disease vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0002814 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002814">
