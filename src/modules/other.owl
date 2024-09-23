@@ -267,6 +267,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
@@ -3533,6 +3539,17 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000119>https://www.cdc.gov/ncird/whats-new/flu-southern-hemisphere.html</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>flu season</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010460">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>organism</oboInOwl:inSubset>
+        <rdfs:label>SARS Coronavirus 2 XBB.1.5</rdfs:label>
     </owl:Class>
     
 
