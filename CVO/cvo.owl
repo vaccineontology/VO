@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-08-11/cvo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-09-22/cvo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor>Chris mungall</dc:contributor>
         <dc:contributor>Erica Marcos</dc:contributor>
@@ -62,7 +62,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">Vaccine Ontology Cancer Vaccine View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-08-11</owl:versionInfo>
+        <owl:versionInfo>2024-09-22</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -471,6 +471,30 @@ WHERE {
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003099 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003099"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003160 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003160"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003161"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003162 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003162"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0005438 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005438">
@@ -811,6 +835,25 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000117>PERSON: Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">has_specified_output</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000304 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000835"/>
+        <obo:IAO_0000111 xml:lang="en">is_manufactured_by</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">http://www.affymetrix.com/products/arrays/specific/hgu133.affx is_manufactered_by http://www.affymetrix.com/ (if we decide to use these URIs for the actual entities)</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">c is_manufactured_by o means that there was a process p in which c was built in which a person, or set of people or machines did the work(bore the &quot;Manufacturer Role&quot;, and those people/and or machines were members or of directed by the organization to do this.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Liju Fan</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">has_make</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">has_manufacturer</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">is_manufactured_by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1987,6 +2030,42 @@ Ranges: organism and &apos;has role&apos; some &apos;pathogen role&apos;</obo:IA
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0050117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000115 xml:lang="en">A disease that is the consequence of the presence of pathogenic microbial agents, including pathogenic viruses, pathogenic bacteria, fungi, protozoa, multicellular parasites, and aberrant proteins known as prions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:OBI_9991118>infectious disease</obo:OBI_9991118>
+        <oboInOwl:hasAlternativeId>DOID:10115</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:11078</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1304</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1321</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2040</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2288</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:3099</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:4120</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:4620</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:5256</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:945</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:95</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9532</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9696</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD9CM:079.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0001485</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">infectious disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050117</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <rdfs:comment xml:lang="en">DO:wk</rdfs:comment>
+        <rdfs:label xml:lang="en">disease by infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0050615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050615">
@@ -2416,6 +2495,22 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
         <rdfs:label xml:lang="en">sarcoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that has_material_basis_in human papillomaviruses, which establish productive infections only in the stratified epithelium of the skin or mucous membranes. These viruses cause warts and sometimes tumors. They are transmitted_by sexual contact.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>MESH:D030361</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">HPV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:11166</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <rdfs:label xml:lang="en">Human papillomavirus infectious disease</rdfs:label>
     </owl:Class>
     
 
@@ -5485,6 +5580,52 @@ objectives is a planned process.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111 xml:lang="en">organization</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PMID: 16353909.AAPS J. 2005 Sep 22;7(2):E274-80. Review. The joint food and agriculture organization of the United Nations/World Health Organization Expert Committee on Food Additives and its role in the evaluation of the safety of veterinary drug residues in foods.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:
+
+1) there are organization_member_roles (president, treasurer, branch
+editor), with individual persons as bearers
+
+2) there are organization_roles (employer, owner, vendor, patent holder)
+
+3) an organization has a charter / rules / bylaws, which specify what roles
+there are, how they should be realized, and how to modify the
+charter/rules/bylaws themselves.
+
+It is debatable what the organization itself is (some kind of dependent
+continuant or an aggregate of people). This also determines who/what the
+bearer of organization_roles&apos; are. My personal favorite is still to define
+organization as a kind of &apos;legal entity&apos;, but thinking it through leads to
+all kinds of questions that are clearly outside the scope of OBI.
+
+Interestingly enough, it does not seem to matter much where we place
+organization itself, as long as we can subclass it (University, Corporation,
+Government Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,
+W3C, University of Oklahoma), and have it play roles.
+
+This leads to my proposal: We define organization through the statements 1 -
+3 above, but without an &apos;is a&apos; statement for now. We can leave it in its
+current place in the is_a hierarchy (material entity) or move it up to
+&apos;continuant&apos;. We leave further clarifications to BFO, and close this issue
+for now.</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000119>GROUP: OBI</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">organization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000274">
@@ -5632,6 +5773,100 @@ objectives is a planned process.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000457">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000458"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>manufacturing</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process with the objective to produce a processed material which will have a function for future use.</obo:IAO_0000115>
+        <obo:IAO_0000116>A person or organization (having manufacturer role) is a participant in this process</obo:IAO_0000116>
+        <obo:IAO_0000116>Manufacturing implies reproducibility and responsibility AR</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">This includes a single scientist making a processed material for personal use.</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Frank Gibson</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Jennifer Fostel</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>GROUP: OBI PlanAndPlannedProcess Branch</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">manufacturing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+        <obo:IAO_0000111>manufacturing objective</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">is the objective to manufacture a material of a certain function (device)</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Frank Gibson</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Jennifer Fostel</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>GROUP: OBI PlanAndPlannedProcess Branch</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">manufacturing objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>manufacturer role</obo:IAO_0000111>
+        <obo:IAO_0000112>With respect to The Accuri C6 Flow Cytometer System, the organization Accuri bears the role manufacturer role.  With respect to a transformed line of tissue culture cells derived by a specific lab, the lab whose personnel isolated the cll line bears the role manufacturer role.  With respect to a specific antibody produced by an individual scientist, the scientist who purifies, characterizes and distributes the anitbody bears the role manufacturer role.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>Manufacturer role is a role which inheres in a person or organization and which is realized by a manufacturing process.</obo:IAO_0000115>
+        <obo:IAO_0000117>GROUP:  Role Branch</obo:IAO_0000117>
+        <obo:IAO_0000119>OBI</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>manufacturer role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000652 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000652">
@@ -5707,6 +5942,35 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000232>6 April 2009:  from the Vaccine Community</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>pathogen role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000835">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000571"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111>manufacturer</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A person or organization that has a manufacturer role.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>manufacturer</rdfs:label>
     </owl:Class>
     
 
@@ -6185,11 +6449,31 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000367"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6210,13 +6494,21 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>TICE BCG for intravesical use, is an attenuated, live culture preparation of the Bacillus of Calmette and Guerin (BCG) strain of Mycobacterium bovis.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/VO_0010377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>BCG Live</obo:IAO_0000118>
         <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=351</obo:IAO_0000119>
-        <obo:IAO_0000119>https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm134033.htm</obo:IAO_0000119>
         <obo:VO_0001818>351</obo:VO_0001818>
-        <obo:VO_0005500>Clinical trial</obo:VO_0005500>
+        <obo:VO_0003099>TICE BCG</obo:VO_0003099>
+        <obo:VO_0003160>For the treatment and prophylaxis of carcinoma in situ (CIS) of the urinary bladder. For the prophylaxis of primary or recurrent state Ta and/or T1 papillary tumors following transurethral resection (TUR).</obo:VO_0003160>
+        <obo:VO_0003161>https://www.fda.gov/media/76396/download?attachment</obo:VO_0003161>
+        <obo:VO_0003162>102821</obo:VO_0003162>
         <rdfs:label>TICE BCG</rdfs:label>
     </owl:Class>
     
@@ -6341,6 +6633,18 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
+        <obo:IAO_0000115>a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>FDA licensed vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000195">
@@ -6416,6 +6720,67 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
         <oboInOwl:inSubset>site</oboInOwl:inSubset>
         <rdfs:label>intraperitoneal route</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000362">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001485"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a licensed human vaccine that is licensed in the USA.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000118>FDA licensed vaccine</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm093833.htm</obo:IAO_0000119>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>USA licensed human vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000363">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A vaccine that is licensed for commercial use.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>licensed vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -6520,6 +6885,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
         <obo:VO_1000001>melanoma</obo:VO_1000001>
         <oboInOwl:hasDbXref>SNOMEDCT:373869007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0796561</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>melanoma vaccine</rdfs:label>
     </owl:Class>
     
@@ -7015,7 +7381,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115>A role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. </obo:IAO_0000115>
+        <obo:IAO_0000115>Role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. </obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine role</rdfs:label>
@@ -7082,6 +7448,57 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>A licensed vaccine role is a regulation-assigned role that indicates that a vaccine obtains official approval for commercial production and selling on the market.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>licensed vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000635">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000363"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a licensed vaccine with license for human use.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>licensed human vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000636">
@@ -7108,7 +7525,6 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000748"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003538"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -7138,15 +7554,14 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000748 -->
+    <!-- http://purl.obolibrary.org/obo/VO_0000812 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000748">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
-        <obo:IAO_0000115>A viral vaccine that protects against infection with Papillomavirus.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+        <obo:IAO_0000115>a licensed vaccine role that indicates the vaccine occurs in USA.</obo:IAO_0000115>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Papillomavirus vaccine</rdfs:label>
-        <rdfs:seeAlso>MeSH: D053918</rdfs:seeAlso>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>USA licensed vaccine role</rdfs:label>
     </owl:Class>
     
 
@@ -7446,6 +7861,36 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001485">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000363"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A vaccine licensed in the USA</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm093833.htm</obo:IAO_0000119>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>USA licensed vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003053">
@@ -7524,7 +7969,6 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000165"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10574,7 +11018,13 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005503"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
@@ -10591,11 +11041,16 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A grouping class for vaccines for specific pathogens.</obo:IAO_0000115>
+        <obo:IAO_0000115>Vaccine against an infectious disease caused by specific pathogen(s).</obo:IAO_0000115>
+        <obo:IAO_0000116>Note that all infectious diseases are caused by some pathogens, so &apos;infectious disease vaccine&apos; and &apos;vaccine against pathogen infection&apos; are basically synonyms.</obo:IAO_0000116>
         <obo:IAO_0000117>Barry Smith, Oliver He, Jie Zheng, Charles Tapley Hoyt, Xingxian Li</obo:IAO_0000117>
+        <obo:IAO_0000118>infectious disease vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>vaccine against pathogen</obo:IAO_0000118>
+        <obo:IAO_0000118>vaccine against pathogen infection</obo:IAO_0000118>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/619</obo:IAO_0000233>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/747</obo:IAO_0000233>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>vaccine against pathogen</rdfs:label>
+        <rdfs:label>vaccine against infectious disease</rdfs:label>
     </owl:Class>
     
 
@@ -35804,6 +36259,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         <obo:VO_0005500>Licensed</obo:VO_0005500>
         <obo:VO_0010151>40213271</obo:VO_0010151>
         <obo:VO_1000000>Bacillus Calmette-Guerin vaccine</obo:VO_1000000>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Bacillus Calmette-Guerin (BCG) vaccine</rdfs:label>
     </owl:Class>
     
@@ -37938,6 +38394,71 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>A vaccine that is designed to immunize against a single antigen or single strain of a pathogen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>vaccine monovalent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010446">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000667"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000667"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11166"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10566"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>human papillomavirus vaccine with license for human use.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>licensed human papillomavirus vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0011363 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011363">
@@ -38864,6 +39385,16 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/77</obo:IAO_0000233>
         <obo:IAO_0000234>https://orcid.org/0000-0001-5208-3432</obo:IAO_0000234>
         <rdfs:label>out of scope</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010377 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/VO_0010377">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
+        <rdfs:label>Organon Teknika Corp., LLC</rdfs:label>
     </owl:NamedIndividual>
     
 
