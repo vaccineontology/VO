@@ -2,7 +2,27 @@ import pandas as pd
 import os
 import glob
 
-# This code is used to replace the 'term label' with the correct term label based on a mapping file.
+"""
+This function is used to update the labels in specific columns of a CSV file based on a new label mapping provided in a separate file.
+It processes one or more columns and replaces existing values with corresponding new labels from the mapping file.
+
+Arguments:
+- columns_to_update: A list of column names (strings) where the labels need to be updated.
+- file_path: The path to the input CSV file that contains the data to be modified.
+- new_label_file_path: The path to the CSV file that contains the new label mappings. This file must have a 'LABEL' column and a 'New Label' column.
+
+The function reads the input data file, updates the specified columns using the mapping provided, 
+and outputs a new CSV file with the modified data. The output file is saved with '_processed' appended to the original filename.
+
+The new label mapping is provided in a separate CSV file, which must contain two columns:
+- 'LABEL': The existing label in the data file.
+- 'New Label': The new label that will replace the existing label.
+
+Returns:
+- A new CSV file with updated labels in the specified columns.
+- Prints a log of each label update and the name of the file where the modified data is saved.
+"""
+
 def update_label(columns_to_update, file_path, new_label_file_path):
     # Load the DataFrame from the specified file path
     file_path = os.path.abspath(file_path)  # Get absolute path for the file
@@ -57,6 +77,7 @@ def update_label(columns_to_update, file_path, new_label_file_path):
     # Save the modified DataFrame to a new CSV file
     df.to_csv(output_file, index=False, encoding='utf-8')  # Write DataFrame to CSV
     print(f"Modified data saved to {output_file}")
+
 
 # Example Usage:
 
