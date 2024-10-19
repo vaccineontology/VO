@@ -27,7 +27,7 @@ def extract_identifiers(x, *identifiers):
             for identifier in identifiers:
                 if identifier in part:  # Check if the part contains the identifier
                     # Extract the digits from the part and store in the corresponding identifier list
-                    identifier_values[identifier].append("".join(filter(str.isdigit, part)))
+                    identifier_values[identifier].append("".join(part))
                     break
             else:
                 non_identifier_parts.append(part)  # If no identifier matches, add to non_identifier_parts
