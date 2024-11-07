@@ -306,6 +306,20 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001463">
+        <obo:IAO_0000115>viral vaccine that is used to protect against Fowlpox virus infection</obo:IAO_0000115>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000985"/>
+        <rdfs:label>obsolete Fowlpox virus vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0002187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002187">
