@@ -1771,6 +1771,43 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003228">
+        <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/830263</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019370"/>
+        <rdfs:label>obsolete 1 ML Hepatitis B Surface Antigen Vaccine 0.04 MG/ML Injection [Recombivax]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003233">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019369"/>
+        <rdfs:label>obsolete 1 ML Hepatitis B Surface Antigen Vaccine 0.04 MG/ML Injection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003234">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019179"/>
+        <rdfs:label>obsolete 0.5 ML Hepatitis B Surface Antigen Vaccine 0.04 MG/ML Injection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003280">
@@ -1779,6 +1816,64 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003272"/>
         <rdfs:label>obsolete 0.65 ML Varicella-Zoster Virus Vaccine Live (Oka-Merck) strain 29800 UNT/ML Injection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003956">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020289"/>
+        <rdfs:label>obsolete vibrio cholerae CVD 103-HGR strain live antigen 12000000 UNT/ML</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003964">
+        <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1812947</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020290"/>
+        <rdfs:label>obsolete vibrio cholerae CVD 103-HGR strain live antigen 12000000 UNT/ML [Vaxchora]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004213">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019406"/>
+        <rdfs:label>obsolete BACILLUS ANTHRACIS STRAIN V770-NP1-R ANTIGENS 0.1 MG/ML</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004216">
+        <obo:IAO_0000117>Kallan Roan, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1799963</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019407"/>
+        <rdfs:label>obsolete BACILLUS ANTHRACIS STRAIN V770-NP1-R ANTIGENS 0.1 MG/ML [Biothrax]</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1817,6 +1912,22 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0005394"/>
         <rdfs:label>obsolete COH04S1</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007196">
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007572 "/>
+        <rdfs:label>obsolete Ad5-yCD/mutTKSR39rep-hIL12 Vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1907,6 +2018,19 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010127">
+        <obo:IAO_0000117>Yuanyi Pan</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0010162"/>
+        <rdfs:label>obsolete Historical diphtheria and tetanus toxoids and acellular pertussis, poliovirus, Haemophilus b conjugate and hepatitis B (recombinant) vaccine.</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0010732 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010732">
@@ -1988,6 +2112,32 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0015110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015110">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019175"/>
+        <rdfs:label>obsolete 0.5 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015196">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019362"/>
+        <rdfs:label>obsolete 1 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0019505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0019505">
@@ -1996,6 +2146,214 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0015315"/>
         <rdfs:label>obsolete hepatitis A vaccine (inactivated) strain HM175 Injectable Suspension</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0019529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0019529">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003230"/>
+        <rdfs:label>obsolete hepatitis B surface antigen vaccine 0.04 MG/ML</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020275">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020469"/>
+        <rdfs:label>obsolete typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020276">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020472"/>
+        <rdfs:label>obsolete typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020277">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020470"/>
+        <rdfs:label>obsolete typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typhim VI]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020409">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020410"/>
+        <rdfs:label>obsolete 0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020420">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020421"/>
+        <rdfs:label>obsolete Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020422">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020423"/>
+        <rdfs:label>obsolete Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020432">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020433"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] by Sanofi</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020434">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020435"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] by Waymade</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020445">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020444"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020446">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020447"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020459">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020460"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1 by Sanofi</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020461">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020462"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1 by Waymade</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020463">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020464"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10 by Sanofi</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020465">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020466"/>
+        <rdfs:label>obsolete 0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10 by Waymade</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020475">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019351"/>
+        <rdfs:label>obsolete 0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
 </rdf:RDF>
