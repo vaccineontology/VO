@@ -4951,6 +4951,75 @@ none</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0005510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001355"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Botryococcene oil-in-water emulsion vaccine adjuvant made by EVAX Inc., which targets to induce a mixed Th1/Th2 response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Emulsion
+Mechanism of Action: Botryococcene oil-in-water emulsion
+Immune profile induced: Mixed Th1/Th2
+Route of immunization: SQ
+Point of Contact: Chase Kempinski , EVAX Inc.
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=33051497
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Chase Kempinski</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000118>EVAX-B</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:33051497</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/759</obo:IAO_0000233>
+        <obo:VO_0005328>101</obo:VO_0005328>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>EVAX-B vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001355"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Squalene oil-in-water emulsion vaccine adjuvant made by EVAX Inc., which targets to induce a mixed Th1/Th2 response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Emulsion
+Mechanism of Action: Squalene oil-in-water emulsion
+Immune profile induced: Mixed Th1/Th2
+
+Route of immunization: SQ
+Point of Contact: Chase Kempinski , EVAX Inc.
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=33051497
+
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Chase Kempinski</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Nilufer kosar</obo:IAO_0000117>
+        <obo:IAO_0000118>EVAX-S</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:33051497</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/760</obo:IAO_0000233>
+        <obo:VO_0005328>102</obo:VO_0005328>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>EVAX-S vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0006092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006092">
