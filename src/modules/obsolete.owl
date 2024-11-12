@@ -46,6 +46,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -250,6 +256,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000748">
+        <obo:IAO_0000115>A viral vaccine that protects against infection with Papillomavirus.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003538"/>
+        <rdfs:label>obsolete Papillomavirus vaccine</rdfs:label>
+        <rdfs:seeAlso>MeSH: D053918</rdfs:seeAlso>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000779 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000779">
@@ -306,6 +327,20 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001459">
+        <obo:IAO_0000115>protozoan vaccine that is used to protect against Eimeria spp. (Eimeria) infection</obo:IAO_0000115>
+        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/762"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000906"/>
+        <rdfs:label>obsolete Eimeria spp. vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0001463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001463">
@@ -315,6 +350,22 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000985"/>
         <rdfs:label>obsolete Fowlpox virus vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001482">
+        <obo:IAO_0000115>viral vaccine that is used to protect against Bovine herpesvirus 1 infection</obo:IAO_0000115>
+        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>BHV-1 vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>Bovine rhinotracheitis vaccine</obo:IAO_0000118>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000987"/>
+        <rdfs:label>obsolete bovine herpesvirus 1 vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1776,6 +1827,20 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003056">
+        <obo:IAO_0000115>A viral vaccine against infection of a viral haemorrhagic septicaemia virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, RS</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001224"/>
+        <rdfs:label>obsolete viral haemorrhagic septicaemia virus vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003124">
@@ -1931,6 +1996,22 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0007188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007188">
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/80"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007189"/>
+        <rdfs:label>obsolete 12 Melanoma Peptide Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0007196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007196">
@@ -1959,6 +2040,39 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004398"/>
         <rdfs:comment>Gene name: Fragment C from tetanus toxin</rdfs:comment>
         <rdfs:label>obsolete Lymphoma DNA vaccine V_V_V_-FrC</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007518">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/517"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/768"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004431"/>
+        <rdfs:label>obsolete Melanoma DNA vaccine TA2M(TM) encoding tyrosinase peptides</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007529">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/543"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004614"/>
+        <rdfs:label>obsolete mRNA-Electroporated Dendritic Cells Vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2040,6 +2154,21 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0010162"/>
         <rdfs:label>obsolete Historical diphtheria and tetanus toxoids and acellular pertussis, poliovirus, Haemophilus b conjugate and hepatitis B (recombinant) vaccine.</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010727">
+        <obo:IAO_0000116>Menomune A/C/Y/W-135</obo:IAO_0000116>
+        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000072"/>
+        <rdfs:comment>Trade Name: Menomune A/C/Y/W-135</rdfs:comment>
+        <rdfs:label>obsolete Menomune A/C/Y/W-135 vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
