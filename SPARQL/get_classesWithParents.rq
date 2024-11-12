@@ -1,0 +1,28 @@
+# get all classes with their parents, return IDs and Labels
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?ID 
+  (GROUP_CONCAT(DISTINCT ?label;separator="|") AS ?labels)
+  (GROUP_CONCAT(DISTINCT ?parent_ID;separator="|") AS ?parent_IDs)
+  (GROUP_CONCAT(DISTINCT ?parent_label;separator="|") AS ?parent_labels)
+WHERE {
+	?entity a owl:Class .
+	BIND(COALESCE(
+ 		IF(CONTAINS(STR(?entity), "/obo/"), STRAFTER(STR(?entity), "/obo/"), ?entity))  AS ?ID)
+    	OPTIONAL {
+ 		?entity rdfs:label ?l .
+		BIND (str(?l) AS ?label) .
+    	}
+	?entity rdfs:subClassOf ?pEntity .
+	BIND(COALESCE(
+ 		IF(CONTAINS(STR(?pEntity), "/obo/"), STRAFTER(STR(?pEntity), "/obo/"), ?pEntity))  AS ?parent_ID)
+    	OPTIONAL {
+ 		?pEntity rdfs:label ?pl .
+		BIND (str(?pl) AS ?parent_label) .
+    	}
+}
+GROUP BY ?ID
+ORDER BY ASC(?ID)

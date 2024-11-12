@@ -1,0 +1,13 @@
+# get all flu vaccines for season 2022-2023
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX flu_vaccine_season_2022-2023: <http://purl.obolibrary.org/obo/VO_0010428>
+PREFIX concept_id: <http://purl.obolibrary.org/obo/VO_0010151>
+
+SELECT distinct ?flu_vaccine ?OMOP_concept_ID
+FROM <http://purl.obolibrary.org/obo/merged/VO>
+WHERE {
+	?entity rdfs:subClassOf* flu_vaccine_season_2022-2023:.
+	?entity rdfs:label ?flu_vaccine .
+       	?entity concept_id: ?OMOP_concept_ID .
+}

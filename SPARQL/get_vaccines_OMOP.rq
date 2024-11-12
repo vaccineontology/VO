@@ -1,0 +1,32 @@
+# get all vaccines and associated OMOP IDs when available
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?VO_ID 
+  (GROUP_CONCAT(DISTINCT ?label;separator="|") AS ?labels)
+  (GROUP_CONCAT(DISTINCT ?OMOP_Concept_ID;separator="|") AS ?OMOP_Concept_IDs)
+  (GROUP_CONCAT(DISTINCT ?parent_VO_ID;separator="|") AS ?parent_VO_IDs)
+  (GROUP_CONCAT(DISTINCT ?parent_label;separator="|") AS ?parent_labels)
+  (GROUP_CONCAT(DISTINCT ?parent_OMOP_Concept_ID;separator="|") AS ?parent_OMOP_Concept_IDs)
+WHERE {
+	?entity rdfs:subClassOf* obo:VO_0000001 .
+	BIND(COALESCE(
+ 		IF(CONTAINS(STR(?entity), "/obo/"), STRAFTER(STR(?entity), "/obo/"), ?entity))  AS ?VO_ID)
+	?entity rdfs:label ?l .
+	BIND (str(?l) AS ?label) .
+    	OPTIONAL {
+        	      ?entity obo:VO_0010151 ?OMOP_Concept_ID .
+    	}
+	?entity rdfs:subClassOf ?pEntity .
+	BIND(COALESCE(
+ 		IF(CONTAINS(STR(?pEntity), "/obo/"), STRAFTER(STR(?pEntity), "/obo/"), ?pEntity))  AS ?parent_VO_ID)
+	?pEntity rdfs:label ?pl .
+	BIND (str(?pl) AS ?parent_label) .
+    	OPTIONAL {
+        	      ?pEntity obo:VO_0010151 ?parent_OMOP_Concept_ID .
+    	}
+}
+GROUP BY ?VO_ID
+ORDER BY ASC(?VO_ID)
