@@ -1,0 +1,21 @@
+# get all children (direct/indirect) of vaccine VO_0000765 'Bordetella pertussis vaccine' with ID, label, and CVX code, OMOP concept ID when available 
+# Note: it won't return inferred children unless using the inferred ontology
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?VO_ID ?name ?OMOP_Concept_ID ?CVX_code
+WHERE {
+	?entity rdfs:subClassOf* obo:VO_0000765 .
+	BIND(COALESCE(
+ 		IF(CONTAINS(STR(?entity), "/obo/"), STRAFTER(STR(?entity), "/obo/"), ?entity))  AS ?VO_ID)
+	?entity rdfs:label ?l .
+	BIND (str(?l) AS ?name) .
+    	OPTIONAL {
+        	      ?entity obo:VO_0005438 ?CVX_code .
+    	}
+    	OPTIONAL {
+        	      ?entity obo:VO_0010151 ?OMOP_Concept_ID .
+    	}
+}

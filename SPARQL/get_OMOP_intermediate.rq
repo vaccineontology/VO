@@ -1,0 +1,20 @@
+# get OMOP_intermediate vaccines
+# - get vaccines that are not OMOP terms (don't have OMOP concept ID) but has at least one child that is OMOP term
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?vaccine ?label
+WHERE {
+	?entity rdfs:subClassOf* obo:VO_0000001 .
+  	FILTER NOT EXISTS {
+    		?entity obo:VO_0010151 ?OMOP_Concept_ID .
+  	}
+  	FILTER EXISTS {
+    		?subclass rdfs:subClassOf ?entity ;
+    			 obo:VO_0010151 ?concept_ID .
+  	}
+	BIND(str(?entity) AS ?vaccine) .
+	?entity rdfs:label ?label .
+}

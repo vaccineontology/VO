@@ -1,0 +1,19 @@
+# Get all OMOP vaccines with incomplete labels
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?VO_ID ?label ?RxNorm_Label ?RxNorm_Synonym
+WHERE {
+	?entity rdfs:subClassOf* obo:VO_0000001 .
+	?entity obo:VO_0003560 ?l .
+	BIND (str(?l) AS ?RxNorm_Label) .
+	FILTER (STRENDS(?RxNorm_Label, "..."))
+    	OPTIONAL {
+         ?entity obo:VO_0005279 ?RxNorm_Synonym .
+    	}
+	BIND(COALESCE(
+ 		IF(CONTAINS(STR(?entity), "/obo/"), STRAFTER(STR(?entity), "/obo/"), ?entity))  AS ?VO_ID)
+	?entity rdfs:label ?label .
+}
