@@ -122,7 +122,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000555"/>
         <obo:IAO_0000115>A titer of antibody that shows how much antibody an organism has produced that recognizes a particular epitope, expressed as the greatest dilution ratio (or its reciprocal) that still gives a positive result. ELISA is a common means of determining antibody titers.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Antibody_titer</obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>antibody titer</rdfs:label>
@@ -135,7 +135,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000555"/>
         <obo:IAO_0000115>A titer measurement of viable bacterial or fungal numbers. Unlike in direct microscopic counts where all cells, dead and living, are counted, CFU measures viable cells. By convenience the results are given as CFU/mL (colony-forming units per milliliter) for water, and CFU/g (colony-forming units per gram) for soil or other porous material.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>CFU</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Colony-forming_unit</obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -151,7 +151,8 @@
         <obo:IAO_0000115>A measurement datum that measues the vaccine effectiveness.  It is assessed with respect to prevention of the disease against which the vaccine is given. 
 One simple method to estimate vaccine effectiveness is to use routine data on notifications of disease cases in vaccinated and unvaccinatted children and to compare the porportion of cases vaccinated with the vaccine covervage among the same age group in the general population. If p is the proportion vaccinated in the population and c is the proportion of cases reported to be vaccinated, then
 VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>Hadler TC, et al. Immunization in developing countries. In: Vaccines. Editors: Plotkin S, et al. 2008. p1542-71.</obo:IAO_0000119>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Influenza_vaccine</obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -165,7 +166,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000555">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A titer (or titre) is a measure of concentration. Titer testing employs serial dilution to obtain approximate quantitative information from an analytical procedure that inherently only evaluates as positive or negative. The titer corresponds to the highest dilution factor that still yields a positive reading; for example, positive readings in the first 8 serial twofold dilutions translate into a titer of 1:256.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB:http://en.wikipedia.org/wiki/Titer</obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>titer</rdfs:label>
@@ -178,7 +179,8 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000595">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000984"/>
         <obo:IAO_0000115>A dose of vaccine specified by the vaccine manufacturer, distributor, or a regulatory agent.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>vaccine dose</rdfs:label>
     </owl:Class>
@@ -191,7 +193,8 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001194"/>
         <obo:IAO_0000112>M&apos; (intended to refer to a male biological sex), &apos;Male&apos;, &apos;Man&apos;, &apos;1&apos; (intended to refer to a male biological sex)</obo:IAO_0000112>
         <obo:IAO_0000115>A biological sex datum that represents the biological sex of an animal (including human) as being male.</obo:IAO_0000115>
-        <obo:IAO_0000117>Paul Fabry, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Paul Fabry</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>male biological sex datum</rdfs:label>
     </owl:Class>
@@ -203,7 +206,8 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000809">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measure datum that measures the coverage of vaccination in a specific area during a specific time period.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>immunization coverage</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://www.sanofipasteur.com/sanofi-pasteur2/front/index.jsp?siteCode=SP_CORP&amp;codeRubrique=19</obo:IAO_0000119>
         <obo:IAO_0000119>WEB: http://www.who.int/immunization_monitoring/routine/immunization_coverage/en/</obo:IAO_0000119>
@@ -218,7 +222,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000814">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000984"/>
         <obo:IAO_0000115>A dose of vaccine that is used in a vaccination. Vaccination dose may be and may be not the same as the vaccine dose.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>vaccination dose</rdfs:label>
     </owl:Class>
@@ -230,7 +234,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000900">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000984"/>
         <obo:IAO_0000115>A dose of a virulent pathogen used for a vaccine challenge process.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>challenge dose</rdfs:label>
     </owl:Class>
@@ -242,7 +246,8 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000555"/>
         <obo:IAO_0000115>A titer measurement of viable bacterial or fungal numbers. It equals to a reduction of a CFU count from another CFU count. This term is often used as a measurement of a vaccine protection study.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>reduction of colony forming unit</rdfs:label>
     </owl:Class>
@@ -356,7 +361,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A data set that represents a set of data for a list of variables (e.g., vaccination dose) for the data analysis of an vaccine investigation study.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -370,7 +375,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents a vaccine strain. Different strains can be represented using distinct digital numbers. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -384,7 +389,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents vaccine viability. 0 = live; 1 = irradiated; 2 = killed.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -398,7 +403,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that indicates the usage of a vaccine adjuvant. Different digital numbers can be used to represent different adjuvants. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -412,7 +417,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents a specific protective antigen used in a vaccine. The antigen can be represented by a described digit. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -426,7 +431,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents a specific mutated gene from a vaccine strain. The mutated can be represented by a described digit. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -441,7 +446,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents a specific mouse strain used for vaccination. Different strains can be represented using discretized digitals.  For example, 0 = BALB/c; 1 = CD1; 2 = mixed/outbred; 3 = C57BL/6; 4 = OF1; 5 = 129/Sv; 6 = Swiss albino.
 </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -461,7 +466,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A measurement datum that represents the biological sex of an animal. The result can be represented using a discretized digit, for example, 0 = female; 1 = male.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -477,7 +482,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
         <obo:IAO_0000115>A measurement datum that represents a specific route (e.g., i.p.) used for vaccination. Different routes can be represented using discretized digitals.  0 = IP; 1 = PO; 2 = SC; 3 = IM; 4 = IN; 6 = IG; 7 = IV; 8 = ID.
 
 </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -491,7 +496,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000814"/>
         <obo:IAO_0000115>A vaccination dose that is used with the unit of colony forming units (CFU).</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -505,7 +510,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004926"/>
         <obo:IAO_0000115>An age range at vaccination that represents the animal age (unit: day) at the time of vaccination.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -519,7 +524,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents a specific pathogen strain used for animal challenge study. Different pathogen strains can be represented using discretized digitals.  </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -533,7 +538,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents a specific pathogen used for animal challenge study. Different pathogens can be represented using discretized digitals.  </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -547,7 +552,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000900"/>
         <obo:IAO_0000115>A challenge dose that is represented with the unit of colony forming units (CFU).</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -561,7 +566,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents a length of days as the interval between a vaccination and a challenge in a specific vaccine protection study. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -575,7 +580,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001204">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000189"/>
         <obo:IAO_0000115>A colony forming unit (CFU) from the sample of mouse spleen.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -589,7 +594,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001164"/>
         <obo:IAO_0000115>A reduction of colony forming unit that was measured with the unit of colony forming units (CFU) from the sample of mouse spleen.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -603,7 +608,7 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115>A measurement datum that represents a type of vaccine protection efficacy as an outcome of a vaccine protection study. The result can be represented as a digit, for example, 0 = no protection, and 1 = protection (determined by a p-value cutoff).</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>He Y, Xiang Z, Todd T, Courtot M, Brinkman R, Zheng J, Stoeckert CJ, Malone J, Rocca-Serra P, Sansone S, Fostel J, Soldatova LN, Peters B, Rutternberg A. Ontology representation and ANOVA analysis of vaccine protection investigation. Proceeding of Bio-Ontologies 2010: Semantic Applications in Life Sciences, ISMB, July 9-10, 2010. Boston, MA, USA. Full length paper. URL: http://www.hegroup.org/docs/ANOVA_Vaccine_usecase_camera.pdf</obo:IAO_0000119>
         <obo:IAO_0000119>Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. </obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -618,7 +623,8 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001194"/>
         <obo:IAO_0000112>F&apos; (intended to refer to a female biological sex), &apos;Female&apos;, &apos;Woman&apos;, &apos;0&apos; (intended to refer to a female biological sex)</obo:IAO_0000112>
         <obo:IAO_0000115>A biological sex datum that represents the biological sex of an animal (including human) as being female.</obo:IAO_0000115>
-        <obo:IAO_0000117>Paul Fabry, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Paul Fabry</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>female biological sex datum</rdfs:label>
     </owl:Class>
@@ -631,7 +637,8 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001194"/>
         <obo:IAO_0000112>I&apos; (intended to refer to an intersex biological sex), &apos;Intersex&apos;, &apos;Hermaphrodite&apos;, &apos;Pseudo-hermaphrodite&apos;, &apos;2&apos; (intended to refer to an intersex biological sex)</obo:IAO_0000112>
         <obo:IAO_0000115>A biological sex datum that represents the biological sex of an animal (including human) as being intersex.</obo:IAO_0000115>
-        <obo:IAO_0000117>Paul Fabry, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Paul Fabry</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>intersex biological sex datum</rdfs:label>
     </owl:Class>
@@ -642,7 +649,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004926">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:label>age range at vaccination</rdfs:label>
     </owl:Class>
@@ -653,7 +662,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004927">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004926"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:label>human age range at vaccination</rdfs:label>
@@ -665,7 +676,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004928">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004927"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>human age 0 to 12 years at vaccination</obo:IAO_0000118>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
@@ -679,7 +692,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004929">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004927"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>human age 19 to 59 years at vaccination</obo:IAO_0000118>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
@@ -693,7 +708,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004930">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004927"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>human age 60 and above years at vaccination</obo:IAO_0000118>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
@@ -707,7 +724,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004931">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004927"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>human age 13 to 18 years at vaccination</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
@@ -721,7 +740,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004933">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -734,7 +755,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004934">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -747,7 +770,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004935">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -760,7 +785,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004936">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -773,7 +800,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004937">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -786,7 +815,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004938">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -799,7 +830,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004939">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -812,7 +845,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004940">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -825,7 +860,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004941">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -838,7 +875,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004942">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004929"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -851,7 +890,9 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004943">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004929"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:comment>https://www.cdc.gov/vaccines/vpd/vaccines-age.html</rdfs:comment>
@@ -865,7 +906,10 @@ VE = (p-c)/p(1-c) x 100%.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004944">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004928"/>
         <obo:IAO_0000115>A human child age range at vaccination with the range from the birth to one month after birth at when a vaccination is taken. HepB vaccination is sometimes taken within 12  hours after birth.</obo:IAO_0000115>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>newborn age range at human vaccination</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.cdc.gov/vaccines/parents/diseases/hepb.html</obo:IAO_0000119>
         <oboInOwl:inSubset>data item</oboInOwl:inSubset>
