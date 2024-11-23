@@ -417,8 +417,9 @@
         <obo:IAO_0000115>A process of administering a vaccine in vivo to a recipient (e.g., human) with the intent to invoke a protective or therapeutic adaptive immune response.</obo:IAO_0000115>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>YH, BP</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine administration</obo:IAO_0000118>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccination</rdfs:label>
@@ -430,7 +431,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000361"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced lymphocyte activation</rdfs:label>
     </owl:Class>
@@ -441,7 +442,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000012"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced B cell antigen processing and presentation</rdfs:label>
     </owl:Class>
@@ -452,7 +453,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000012"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced B cell cytokine production</rdfs:label>
     </owl:Class>
@@ -463,7 +464,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced B cell mediated immunity</rdfs:label>
     </owl:Class>
@@ -487,7 +488,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>An assay that measures the persistent survival of live vaccine in a host in vivo.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>vaccine persistence assay</rdfs:label>
     </owl:Class>
@@ -498,7 +499,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://academic.oup.com/cid/article/32/1/76/311106</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:comment>T helper type 1 (Th1) lymphocytes secrete secrete interleukin (IL)-2, interferon-γ, and lymphotoxin-α and stimulate type 1 immunity, which is characterized by intense phagocytic activity. https://academic.oup.com/cid/article/32/1/76/311106</rdfs:comment>
@@ -511,7 +512,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://academic.oup.com/cid/article/32/1/76/311106</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:comment>Th2 cells secrete IL-4, IL-5, IL-9, IL-10, and IL-13 and stimulate type 2 immunity, which is characterized by high antibody titers. https://academic.oup.com/cid/article/32/1/76/311106</rdfs:comment>
@@ -524,7 +525,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced T cell mediated immunity</rdfs:label>
     </owl:Class>
@@ -535,7 +536,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000106"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>T cell vaccine antigen processing and presentation</rdfs:label>
     </owl:Class>
@@ -566,7 +567,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced adaptive immune response</rdfs:label>
     </owl:Class>
@@ -584,7 +585,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a toxoid vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of toxoid vaccine</rdfs:label>
     </owl:Class>
@@ -597,7 +598,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000718"/>
         <obo:IAO_0000112>Brucella abortus cattle vaccine RB51 was developed by serial passages of virulent B. abortus strain 2308 in vitro in rifampin agar plates (Reference: PMID: 1908158).</obo:IAO_0000112>
         <obo:IAO_0000115>A live attenuated vaccine prepraration process that is performed by serial passages in vitro for pathogen attenuation.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of live attenuated vaccine by serial passages in vitro</rdfs:label>
     </owl:Class>
@@ -653,7 +654,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a inactivated vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>inactivated vaccine preparation</rdfs:label>
     </owl:Class>
@@ -664,7 +665,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced cell activation</rdfs:label>
     </owl:Class>
@@ -675,7 +676,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000309"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced antibacterial agglutination antibody response</rdfs:label>
     </owl:Class>
@@ -711,7 +712,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a recombinant vector vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of recombinant vector vaccine</rdfs:label>
     </owl:Class>
@@ -723,7 +724,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000584"/>
         <obo:IAO_0000115>an immune response detection assay that detects specific antiviral antibodies in a test serum. The serum, usually a twofold dilution series, is mixed with a standard number, usually 4 to 8 HA units, of virus and incubated prior to the addition of a standard suspension of erythrocytes. The highest dilution of serum that inhibits hemagglutination is the HI titer of the serum. For example, influenza (AI) viruses agglutinate erythrocytes through the interaction of the virus surface glycoprotein, the hemagglutinin (HA), with receptors on the surface of the erythrocyte. Inhibition of the agglutination reaction by HA subtype-specific antisera is the basis of the hemagglutination-inhibition (HI) assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>HI assay</obo:IAO_0000118>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>hemagglutination-inhibition assay</rdfs:label>
@@ -742,7 +743,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a bacterial vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>bacterial vaccine preparation</rdfs:label>
     </owl:Class>
@@ -753,7 +755,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000286"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced down-regulated gene expression</rdfs:label>
     </owl:Class>
@@ -765,7 +767,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000178"/>
         <obo:IAO_0000115>A vaccine prepraration process that is performed by heat inactivation of virulent pathogen.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of vaccine using heat inactivation</rdfs:label>
     </owl:Class>
@@ -777,7 +779,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>CFU reduction assay is an assay that measures the reduction of the colony forming units of infected pathogens in vaccine-vaccinated animals compared to nonvaccinated animals.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>CFU reduction assay</rdfs:label>
     </owl:Class>
@@ -789,7 +791,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000242"/>
         <obo:IAO_0000115>assay of CFU reduction in spleen is a CFU reduction assay that is measured using the extracted spleen as the tissue for isolation of infected pathogens.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>assay of CFU reduction in spleen</rdfs:label>
     </owl:Class>
@@ -800,7 +802,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000249">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000309"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced antiviral neutralizing antibody response</rdfs:label>
     </owl:Class>
@@ -811,7 +813,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000180"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced follicular dendritic cell activation</rdfs:label>
     </owl:Class>
@@ -838,7 +840,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000288"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced host gene response</rdfs:label>
     </owl:Class>
@@ -851,8 +853,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000288"/>
         <obo:IAO_0000115>Any immune system process that functions in the calibrated response of the host to a vaccine.</obo:IAO_0000115>
         <obo:IAO_0000116>The definition of this term is based on the definition of &apos;immune response (GO:0006955)&apos; . It is a child term of this GO term.</obo:IAO_0000116>
-        <obo:IAO_0000117>Y.H.</obo:IAO_0000117>
-        <obo:IAO_0000117>Y.L.</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced host immune response</rdfs:label>
     </owl:Class>
@@ -886,7 +888,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a processual entity that specifies host response to a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced host response</rdfs:label>
     </owl:Class>
@@ -898,7 +900,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000289">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000290"/>
         <obo:IAO_0000115>a process that specifies host response to a vaccine adjuvant.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>host response to vaccine adjuvant</rdfs:label>
     </owl:Class>
@@ -910,7 +912,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>a processual entity that specifies host response to a vaccine component.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>host response to vaccine component</rdfs:label>
     </owl:Class>
@@ -922,7 +924,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000291">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000290"/>
         <obo:IAO_0000115>a process that specifies host response to a vaccine antigen.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>host response to vaccine antigen</rdfs:label>
     </owl:Class>
@@ -934,7 +936,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000290"/>
         <obo:IAO_0000115>a process that specifies host response to a vaccine vector.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>host response to vaccine vaccine vector</rdfs:label>
     </owl:Class>
@@ -945,7 +947,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000012"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>immunoglobulin mediated immune response to vaccine</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced antibody mediated immune response</rdfs:label>
@@ -970,7 +972,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>tertiary vaccination is a vaccination that is performed at the third time in a row.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, Thom Todd</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Thom Todd</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>tertiary vaccination</rdfs:label>
     </owl:Class>
@@ -999,7 +1002,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000361">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000180"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced leukocyte activation</rdfs:label>
     </owl:Class>
@@ -1029,7 +1032,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>quaternary vaccination is a vaccination that is performed at the fourth  time in a row.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, Thom Todd</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Thom Todd</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>quaternary vaccination</rdfs:label>
     </owl:Class>
@@ -1042,7 +1046,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000718"/>
         <obo:IAO_0000112>&apos;Mycobacterium avium relA mutant vaccine&apos; includes a gene mutation of relA from virulent Mycobacterium avium. </obo:IAO_0000112>
         <obo:IAO_0000115>A live attenuated vaccine prepraration process that is performed by mutation of a gene(s) from a virulent pathogen.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of gene mutant vaccine</rdfs:label>
     </owl:Class>
@@ -1137,7 +1143,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000383">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000273"/>
         <obo:IAO_0000115>a vaccine-induced T cell interferon-gramm production that results from the addition of a vaccine adjuvant</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced, adjuvant boosted T cell interferon-gramm production</rdfs:label>
     </owl:Class>
@@ -1148,7 +1154,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000408"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>mucosal immune response to vaccine</rdfs:label>
     </owl:Class>
@@ -1160,7 +1166,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000383"/>
         <obo:IAO_0000115>A vaccine-induced adjuvant boosted T cell interferon-gramm production that results from the addition of a IL-15 vaccine adjuvant</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:  18472194</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced T cell interferon-gramm production boosted by IL-15 vaccine adjuvant</rdfs:label>
@@ -1172,7 +1178,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000408">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>organ or tissue specific immune response to vaccine</rdfs:label>
     </owl:Class>
@@ -1196,7 +1202,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000427">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000596"/>
         <obo:IAO_0000115>A vaccine clinical trial that investigates the safety profile of a vaccine in a small group (10-50) of healthy volunteers.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>phase 1 vaccine trial</rdfs:label>
     </owl:Class>
@@ -1208,7 +1214,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000428">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000596"/>
         <obo:IAO_0000115>A vaccine clinical trial that studies vaccine efficacy with a target population (numbering 50-100). Different dosage levels will also be explored at this stage to determine the optimum dose.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>phase 2 vaccine trial</rdfs:label>
     </owl:Class>
@@ -1220,7 +1226,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000429">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000596"/>
         <obo:IAO_0000115>A vaccine clinical trial that takes the trial to a large-scale safety and efficacy study in a relevant patient population, usually in excess of 3,000.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>phase 3 vaccine trial</rdfs:label>
     </owl:Class>
@@ -1232,7 +1238,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000430">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000596"/>
         <obo:IAO_0000115>The final stage of vaccine clinical evaluation. Phase IV occurs after a vaccine or therapy is licensed and is being used by large numbers of people. These studies are not always required or completed.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>phase 4 vaccine trial</rdfs:label>
     </owl:Class>
@@ -1252,7 +1258,10 @@
         <obo:IAO_0000112>WEB: http://news.prnewswire.com/ViewContent.aspx?ACCT=109&amp;STORY=/www/story/09-15-2009/0005094621&amp;EDATE @2009/10/06</obo:IAO_0000112>
         <obo:IAO_0000112>WEB: http://www.examiner.com/x-7707-Infectious-Disease-Examiner~y2009m9d15-News-Release-H1N1-vaccines-get-FDA-approval-expected-to-be-available-in-4-weeks @2009/10/06. H1N1 vaccines get FDA approval. Food and Drug Administration announced today that it has approved four vaccines against the 2009 H1N1 influenza virus. Obtaining FDA licensure of this vaccine for A (H1N1) pandemic response is a key milestone that will enable Sanofi Pasteur to provide a licensed vaccine to the U.S. government to support pandemic immunization efforts</obo:IAO_0000112>
         <obo:IAO_0000115>vaccine approval process is a processual entity that involves approval of a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX, AR, and MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Alan Ruttenburg</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine product approval process</obo:IAO_0000118>
         <obo:IAO_0000119>WEB:  http://energycommerce.house.gov/images/stories/Documents/PDF/publications/109_health.pdf @2009/10/06. This is the US Health Law which includes a section about vaccine.</obo:IAO_0000119>
         <obo:IAO_0000119>WEB: http://www.hhs.gov/nvpo/factsheets/fs_tableII_doc2.htm @2009/10/06 #Following the FDA&apos;s review of a license application, the sponsor and the FDA may present their findings to the FDA&apos;s Vaccines and Related Biological Products Advisory Committee (VRBPAC). This non-FDA expert committee (scientists, physicians, biostatisticians, and a consumer representative) provides advice to the Agency regarding the safety and efficacy of the vaccine for the proposed indication.</obo:IAO_0000119>
@@ -1273,7 +1282,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>CFU measurement assay is an assay that measures the colony forming unit (CFU) of a bacterium in a specific location (e.g., spleen of a mouse).</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>CFU measurement assay</rdfs:label>
     </owl:Class>
@@ -1285,7 +1295,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000444">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000440"/>
         <obo:IAO_0000115>vaccine licensing is a vaccine approval process that involves in licensing a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine licensing</rdfs:label>
     </owl:Class>
@@ -1297,7 +1308,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000482">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000717"/>
         <obo:IAO_0000115>A vaccine preparation process that uses recombinant molecular technology to prepare recombinant protein.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of recombinant protein vaccine</rdfs:label>
     </owl:Class>
@@ -1315,10 +1326,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000490">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>A process that results in an adaptive immune response to one or more antigens.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>YH, XZ, BP</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>immunization</rdfs:label>
@@ -1331,11 +1344,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000491">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000490"/>
         <obo:IAO_0000115>An immunization that involves the introduction of foreign molecules into a recipient body, in a way which causes the recipient to actively induce adaptive immunity against the immunization target.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>XZ</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>active immunization</rdfs:label>
@@ -1355,7 +1368,6 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>An immunization where pre-synthesized elements of the immune system are transferred to an organism so that the body does not need to produce these elements itself.</obo:IAO_0000115>
         <obo:IAO_0000116>Currently, antibodies can be used for passive immunization. This method of immunization works very quickly. However, it is short lasting. The antibodies are naturally broken down. If there are no B cells to produce more antibodies, they will disappear.</obo:IAO_0000116>
-        <obo:IAO_0000116>YH, XZ</obo:IAO_0000116>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
@@ -1372,7 +1384,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000493">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000491"/>
         <obo:IAO_0000115>natural active immunization is an active immunization that occur naturally when a person or animal comes in contact with antigens includeing microbes.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>natural active immunization</rdfs:label>
@@ -1413,10 +1426,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An immunization that is induced by a vaccine via vaccination process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>artificial active immunization</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -1430,7 +1444,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000495">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000491"/>
         <obo:IAO_0000115>induction of adaptive immune response to antigen is an active immunization process that results in induction of adaptive immune response to some antigens, for example, in a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>induction of adaptive immune response to antigen</rdfs:label>
     </owl:Class>
@@ -1442,7 +1457,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000496">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>disorder prevention is a processual entity that prevents a disorder that is the physical basis of a disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>disorder prevention</rdfs:label>
     </owl:Class>
@@ -1454,7 +1470,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000497">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>disorder treatment is a processual entity that leads to treat a disorder that is the physical basis of a disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>disorder treatment</rdfs:label>
     </owl:Class>
@@ -1466,7 +1483,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000498">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000491"/>
         <obo:IAO_0000115>modification of adaptive immune response to antigen is an active immunization process that results in modification of an adaptive immune response to some antigens, for example, in a therapeutic vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>modification of adaptive immune response to antigen</rdfs:label>
     </owl:Class>
@@ -1478,7 +1496,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000500">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000496"/>
         <obo:IAO_0000115>infection disorder prevention is a process that prevents a disorder that is the physical basis of an infectious disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>infection disorder prevention</rdfs:label>
     </owl:Class>
@@ -1507,7 +1526,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000569">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000286"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced up-regulated gene expression</rdfs:label>
     </owl:Class>
@@ -1519,7 +1538,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000582">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000683"/>
         <obo:IAO_0000115>A vaccine regulatory process that is for vaccine producer to apply for vaccine license.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine license application</rdfs:label>
     </owl:Class>
@@ -1531,7 +1550,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000584">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>An assay that is used to detect the immune response of a host to vaccination of a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>immune response detection assay</rdfs:label>
     </owl:Class>
@@ -1566,7 +1585,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccine preparation is a manufacturing process to produce a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, BP</obo:IAO_0000117>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine generation</obo:IAO_0000118>
         <obo:IAO_0000118>vaccine production</obo:IAO_0000118>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -1598,7 +1618,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An assay that is used to detect if a vaccine protects a host against infection of virulent pathogen after vaccine immunization.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine challenge experiment</obo:IAO_0000118>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>vaccine protection assay</rdfs:label>
@@ -1610,7 +1630,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000593">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000106"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine specific T cell cytokine production</rdfs:label>
     </owl:Class>
@@ -1621,7 +1641,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000106"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine specific T cell mediated cytotoxicity</rdfs:label>
     </owl:Class>
@@ -1647,7 +1667,7 @@
         <obo:IAO_0000115>A processual entity by which a vaccine is tested clinically for safety and effectiveness. Clinical trials are conducted in phases. Classically, clinical trials unfold in three phases in order to gather data and information about a vaccine and its performance. This will form the basis of a dossier submitted to regulatory authorities by way of an application for licensure. After a vaccine is licensed and is being used by large numbers of people, a Phase IV study may or may not be taken for vaccine clinical evaluation.</obo:IAO_0000115>
         <obo:IAO_0000116>Most vaccines against a pathogen (e.g., HIV) are not tested by vaccinating people and then deliberately exposing them to virulent pathogen (e.g., HIV). This strategy is never for a vaccine against a disease as serious as HIV.
 The best way to determine if a vaccine is effective is to test it in a randomized, controlled, double-blind clinical trial. This type of trial is often referred to as the gold standard in medical research and provides the strongest evidence for the efficacy of a vaccine.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine clinical trial</rdfs:label>
     </owl:Class>
@@ -1694,7 +1714,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
         </rdfs:subClassOf>
         <obo:IAO_0000115>Survival assessment is an assay that measures the occurence of death events in one or more organisms that are monitored over time.</obo:IAO_0000115>
         <obo:IAO_0000116>Need to point out more specifically that survival/death is measured.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>survival assessment</rdfs:label>
     </owl:Class>
@@ -1706,7 +1726,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000632">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
         <obo:IAO_0000115>Vaccine induced immue response mediated hrough a body fluid</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced humoral immune response</rdfs:label>
     </owl:Class>
@@ -1723,7 +1743,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000416"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>intravenous vaccination</rdfs:label>
     </owl:Class>
@@ -1735,7 +1755,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000683">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>A processual entity that regulates vaccine-related processes, such as vaccine trial, vaccine license application.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine regulation</rdfs:label>
     </owl:Class>
@@ -1747,7 +1767,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000684">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>A processual entity of transporting vaccine from one place to another place.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine transportation</rdfs:label>
     </owl:Class>
@@ -1758,7 +1778,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000705">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000584"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>vaccine specific antibody test</rdfs:label>
     </owl:Class>
@@ -1770,7 +1790,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000706">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000683"/>
         <obo:IAO_0000115>A vaccine regulation process for vaccine clinical trials.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine trial regulation</rdfs:label>
     </owl:Class>
@@ -1782,7 +1802,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000707">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
         <obo:IAO_0000115>A vaccination process that occurs at the first time to a host organization in a specified period.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>prime vaccination</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>primary vaccination</rdfs:label>
@@ -1801,7 +1821,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccination process that occurs after the primer vaccination with a purpose to boost host immune response to vaccine antigen.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>boost vaccination</rdfs:label>
     </owl:Class>
@@ -1819,7 +1839,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a DNA vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of DNA vaccine</rdfs:label>
     </owl:Class>
@@ -1837,7 +1857,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a conjugate vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of conjugate vaccine</rdfs:label>
     </owl:Class>
@@ -1855,7 +1875,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a subunit vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>subunit vaccine preparation</rdfs:label>
     </owl:Class>
@@ -1873,7 +1893,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a live attenuated vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>live attenuated vaccine preparation</rdfs:label>
     </owl:Class>
@@ -1891,7 +1911,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a RNA vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of RNA vaccine</rdfs:label>
     </owl:Class>
@@ -1903,7 +1923,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000800">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0302893"/>
         <obo:IAO_0000115>a storage process that is specifically for vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine storage</rdfs:label>
     </owl:Class>
@@ -1915,7 +1935,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000801">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000800"/>
         <obo:IAO_0000115>a vaccine storage that is execuated at room temperature. Room temperature is also referred to as ambient temperature. Room temperature denotes a certain temperature within enclosed space at which humans are accustomed. Room temperature is usually indicated by general human comfort, with the common range of 10 degree C (50 degree F) to 28 degree C (82.4 degree F).</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine storage at room temperature</rdfs:label>
     </owl:Class>
@@ -1927,7 +1947,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000802">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000800"/>
         <obo:IAO_0000115>vaccine storage that is executed in refrigerator, usually 0-10^C.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine storage in refrigerator</rdfs:label>
     </owl:Class>
@@ -1939,7 +1959,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000803">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000800"/>
         <obo:IAO_0000115>vaccine storage that is executed in freezer under 0^C.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine storage in freezer</rdfs:label>
     </owl:Class>
@@ -1951,7 +1971,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000808">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
         <obo:IAO_0000115>A vaccination process that is implemented fast.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine rapid implementation</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>rapid vaccination</rdfs:label>
@@ -1970,7 +1990,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>Immune correlate of protection is a host immune response to vaccine that correlates with protective induced by the vaccine.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced immune correlate of protection</rdfs:label>
     </owl:Class>
@@ -1982,7 +2002,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000858">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000857"/>
         <obo:IAO_0000115>Serological correlate of protection is an immune correlate of protection that is reflected by serologic antibody levels.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>serologic correlate of protection</rdfs:label>
     </owl:Class>
@@ -1994,7 +2014,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000859">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000857"/>
         <obo:IAO_0000115>A cell mediated immune correlate of protection is an immune correlate of protection that is reflected by a cell mediated immune response.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>cell mediated immune correlate of protection</rdfs:label>
     </owl:Class>
@@ -2024,7 +2044,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Secondary vaccination is a vaccination that is performed immediately after the primary or the first vaccination.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, Thom Todd</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Thom Todd</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>secondary vaccination</rdfs:label>
     </owl:Class>
@@ -2036,7 +2057,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000911">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000492"/>
         <obo:IAO_0000115>passive immunization that Immunity is transferred from mother to fetus through placental transfer of IgG or colostral transfer of IgA.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>http://pathmicro.med.sc.edu/ghaffar/immunization-ver2.htm</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>passive immunization using natural maternal antibody</rdfs:label>
@@ -2091,7 +2112,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000492"/>
         <obo:IAO_0000115>passive immunization by injecting a recipient with pre-made antibody, antitoxin, epitope, etc.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>passive immunization by injecting pre-made immune element</rdfs:label>
     </owl:Class>
@@ -2103,7 +2124,9 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>inactivation is a processual entity that produces inactive material.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, MC, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>inactivation</rdfs:label>
     </owl:Class>
@@ -2115,7 +2138,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>survival of live vaccine inside host is a processual entity that represents the survival of a live vaccine inside its host. The time of the survival is often important for the success of the live vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>survival of live vaccine inside host</rdfs:label>
     </owl:Class>
@@ -2127,7 +2150,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>persistence of vaccine induced immune response is a processual entity that indicates the persistence of an immune reponse induced by a vaccine in a vaccinated host.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>persistence of vaccine induced immune response</rdfs:label>
     </owl:Class>
@@ -2139,7 +2162,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000242"/>
         <obo:IAO_0000115>assay of CFU reduction in liver is a CFU reduction assay that is measured using the extracted liver as the tissue for isolation of infected pathogens.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>assay of CFU reduction in liver</rdfs:label>
     </owl:Class>
@@ -2151,7 +2174,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000242"/>
         <obo:IAO_0000115>assay of CFU reduction in lung is a CFU reduction assay that is measured using the extracted lung as the tissue for isolation of infected pathogens.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>assay of CFU reduction in lung</rdfs:label>
     </owl:Class>
@@ -2163,7 +2186,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000712"/>
         <obo:IAO_0000115>intraperitoneal pathogen challenge is a pathogen challenge process that occurs in the intraperitoneal site of a host.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>intraperitoneal pathogen challenge</rdfs:label>
     </owl:Class>
@@ -2181,7 +2205,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a vaccination process that occurs in the intraperitoneal route</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>intraperitoneal vaccination</rdfs:label>
     </owl:Class>
@@ -2219,7 +2244,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a vaccination that occurs in the intramuscular route.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>intramuscular vaccination</rdfs:label>
     </owl:Class>
@@ -2231,7 +2257,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001209">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>vaccine protection efficacy measurement is an assay that measures the protection efficayc of a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>vaccine protection efficacy measurement</rdfs:label>
     </owl:Class>
@@ -2249,7 +2275,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a viral vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>viral vaccine preparation</rdfs:label>
     </owl:Class>
@@ -2267,7 +2294,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a protozoan vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>protozoan vaccine preparation</rdfs:label>
     </owl:Class>
@@ -2285,7 +2313,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a fungal vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>fungal vaccine preparation</rdfs:label>
     </owl:Class>
@@ -2302,7 +2331,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000494"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>bacterial vaccine immunization</rdfs:label>
     </owl:Class>
@@ -2313,7 +2343,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000494"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>viral vaccine immunization</rdfs:label>
     </owl:Class>
@@ -2324,7 +2355,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001278">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000494"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>cancer vaccine immunization</rdfs:label>
     </owl:Class>
@@ -2335,7 +2367,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000494"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>parasite vaccine immunization</rdfs:label>
     </owl:Class>
@@ -2353,7 +2386,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000178"/>
         <obo:IAO_0000115>A vaccine prepraration process that is performed by H2O2 inactivation of virulent pathogen.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>preparation of vaccine using H2O2 inactivation</rdfs:label>
     </owl:Class>
@@ -2371,7 +2404,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002707">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>A thymidine kinase-deficient mutant (PR1) is attenuated in mice and induced significant protection from challenge with wild type EHV-1 5 weeks after vaccination. In foals, PR1 also showed attenuation; however, the mutant induced only partial protection from challenge with EHV-1</obo:IAO_0000115>
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>TK from Equid herpesvirus</rdfs:label>
         <rdfs:seeAlso>NCBI_Protein_ID: 59214; PMID: 16930871</rdfs:seeAlso>
@@ -2396,7 +2430,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccination that occurs in the intagastric route.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>intragastric vaccination</rdfs:label>
     </owl:Class>
@@ -2414,7 +2448,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccination process that occurs in intradermal route.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>intradermal vaccination</rdfs:label>
     </owl:Class>
@@ -2432,7 +2466,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccination process that occurs in intranasal route</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>intranasal vaccination</rdfs:label>
     </owl:Class>
@@ -2450,7 +2484,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccination process that occurs in oral route.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>oral vaccination</rdfs:label>
     </owl:Class>
@@ -2468,7 +2502,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccination process that occurs in the subcutaneous route</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>subcutaneous vaccination</rdfs:label>
     </owl:Class>
@@ -2486,7 +2520,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine prepration process that mixes vaccine lyophilized powder and diluent liquid. The process forms a vaccine that can be used for administration. This term can also be considered as a child term of OBI term &apos;material combination&apos;. </obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.thehaiticonnection.org/medical/reconstitution.pdf</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:comment>A vaccine may include vaccine powder and solvent. When the two mix, we get a vaccine solution, which can be used to inject. Examples:
@@ -2504,7 +2539,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000286"/>
         <obo:IAO_0000115>a vaccine-induced host gene response that represents a vaccine adverse event response associated with a host susceptibility gene.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>host susceptibility gene response to VAE</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>host susceptibility gene response to vaccine adverse event</rdfs:label>
@@ -2543,7 +2578,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000288"/>
         <obo:IAO_0000115>when the vaccination of a significant portion of a population (or herd), in contagious diseases that are transmitted from individual to individual, chains of infection are likely to be disrupted, so the large numbers of a population are immue or less susceptible to the disease. </obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Herd_immunity</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced herd immunity</rdfs:label>
@@ -2591,7 +2626,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The injection of a given substance directly into the bladder via a urethral catheter instead of being injected under the skin.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>intravesical vaccination</rdfs:label>
     </owl:Class>
@@ -2603,7 +2638,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000288"/>
         <obo:IAO_0000115>an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH, RR</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>augmented protection and cellular immunity using host protein as adjuvant</rdfs:label>
     </owl:Class>
@@ -2715,7 +2751,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003336">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000239"/>
         <obo:IAO_0000115>a vaccine-induced down-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH, RR</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>live attenuated vaccine-induced down-regulated gene expression compared to infection with wild type pathogen</rdfs:label>
     </owl:Class>
@@ -2727,7 +2764,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000569"/>
         <obo:IAO_0000115>A vaccine-induced up-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH, RR</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>live attenuated vaccine-induced up-regulated gene expression compared to infection with wild type pathogen</rdfs:label>
     </owl:Class>
@@ -2739,7 +2777,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004915">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000100"/>
         <obo:IAO_0000115>vaccine-induced T-helper 1 type immune response that is indicated by the presence of Interferon-gamma production</obo:IAO_0000115>
-        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine specific interferon-γ immune response</rdfs:label>
     </owl:Class>
@@ -2751,7 +2790,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004916">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000100"/>
         <obo:IAO_0000115>vaccine-induced T-helper 1 type immune response that is indicated by the presence of interleukin-2 production</obo:IAO_0000115>
-        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine specific IL-2 immune response</rdfs:label>
     </owl:Class>
@@ -2763,7 +2803,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004917">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000101"/>
         <obo:IAO_0000115>vaccine-induced T-helper 2 type immune response that is indicated by the presence of interleukin-4 production</obo:IAO_0000115>
-        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine specific interleukin-4 response</rdfs:label>
     </owl:Class>
@@ -2775,7 +2816,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004918">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000101"/>
         <obo:IAO_0000115>vaccine-induced T-helper 2 type immune response that is indicated by the presence of interleukin-10 production</obo:IAO_0000115>
-        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine specific interleukin-10 response</rdfs:label>
     </owl:Class>
@@ -2787,7 +2829,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004919">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000100"/>
         <obo:IAO_0000115>vaccine-induced T-helper 1 type immune response that is indicated by the presence of IgG2a production</obo:IAO_0000115>
-        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC101669/</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine specific Th1 immune response indicated by IgG2a  production</rdfs:label>
@@ -2800,7 +2843,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004920">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000101"/>
         <obo:IAO_0000115>vaccine-induced T-helper 2 type immune response that is indicated by the presence of IgG1 production</obo:IAO_0000115>
-        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC101669/</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine-induced host response</oboInOwl:inSubset>
         <rdfs:label>vaccine specific Th2 immune response indicated by IgG1  production</rdfs:label>
@@ -2823,7 +2867,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
         <obo:IAO_0000115>A biased immune profile that is characterized by the presense of T help cells Type 1 T helper (Th1) cells that produce interferon-gamma, interleukin (IL)-2, and tumour necrosis factor (TNF)-beta, which activate macrophages and are responsible for cell-mediated immunity and phagocyte-dependent protective responses.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -2837,7 +2882,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
         <obo:IAO_0000115>A baised immune profile that is characterized by the presense of T type 2 Th (Th2) cells that produce IL-4, IL-5, IL-10, and IL-13, which are responsible for strong antibody production, eosinophil activation, and inhibition of several macrophage functions, thus providing phagocyte-independent protective responses.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -2851,7 +2897,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
         <obo:IAO_0000115>An immune profile that is characterized by the presense of both Type 1 and Type 2 T helper  (Th1 and Th2) cells.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -2865,7 +2912,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
         <obo:IAO_0000115>An immune profile that is characterized by the presense of T helper 17 cells (Th17) that a subset of pro-inflammatory T helper cells defined by their production of interleukin 17 (IL-17). They are related to T regulatory cells and the signals that cause Th17s to differentiate actually inhibit Treg differentiation.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_17_cell</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>Th17 immune profile</rdfs:label>
@@ -2878,7 +2926,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
         <obo:IAO_0000115>An immune profile that is characterized by the presense of both Type 1 and Type 17 T helper  (Th1 and Th17) cells.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>Th1/Th17 mixed immune profile</rdfs:label>
@@ -2891,7 +2940,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005373">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
         <obo:IAO_0000115>A vaccination process that involves adding a vaccine into a host prior to disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>Randi Vita, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000118>preventive vaccination</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Preventive_healthcare</obo:IAO_0000119>
         <obo:IAO_0000119>preventative vaccination</obo:IAO_0000119>
@@ -2906,7 +2956,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
         <obo:IAO_0000115>A vaccination process that involves adding a vaccine into a host after a disease has occurred.</obo:IAO_0000115>
-        <obo:IAO_0000117>Randi Vita, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Therapeutic_vaccines</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>therapeutic vaccination</rdfs:label>
@@ -2919,7 +2970,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005376">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
         <obo:IAO_0000115>An immune profile that is characterized by the presense of Type 1 Type 2, and Th17 T helper cells.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -3017,7 +3069,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010702">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000683"/>
         <obo:IAO_0000115>A vaccine regulation for vaccine safety.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>vaccine saftey regulation</rdfs:label>
     </owl:Class>
@@ -3029,7 +3081,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010704">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000683"/>
         <obo:IAO_0000115>A vaccine regulatory process that is for vaccine regulatory agent to review vaccine license application from vaccine producer.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>review of vaccine license application</rdfs:label>
     </owl:Class>
@@ -3047,7 +3099,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a Cancer vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:hasAlternativeId>VO:0001236</oboInOwl:hasAlternativeId>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>cancer vaccine preparation</rdfs:label>
@@ -3067,7 +3120,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine preparation that results in the generation of a Allergy vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine preparation</oboInOwl:inSubset>
         <rdfs:label>allergy vaccine preparation</rdfs:label>
         <rdfs:seeAlso>VIOLIN Pathogen ID: 114</rdfs:seeAlso>
