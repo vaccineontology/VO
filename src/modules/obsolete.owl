@@ -2102,6 +2102,17 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0006020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006020">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0010446"/>
+        <rdfs:label>obsolete HPV unspecified formulation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0007188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007188">
