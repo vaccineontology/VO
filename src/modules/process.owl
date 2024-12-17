@@ -421,7 +421,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010462"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced B cell mediated immunity</rdfs:label>
@@ -450,7 +450,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000106"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://academic.oup.com/cid/article/32/1/76/311106</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
@@ -463,7 +463,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000106"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://academic.oup.com/cid/article/32/1/76/311106</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
@@ -476,7 +476,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010462"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced T cell mediated immunity</rdfs:label>
@@ -627,7 +627,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000309"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000632"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced antibacterial agglutination antibody response</rdfs:label>
@@ -753,7 +753,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000249 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000309"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000632"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced antiviral neutralizing antibody response</rdfs:label>
@@ -887,18 +887,6 @@
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>host response to vaccine vaccine vector</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000309 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000012"/>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>immunoglobulin mediated immune response to vaccine</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>vaccine-induced antibody mediated immune response</rdfs:label>
     </owl:Class>
     
 
@@ -1672,9 +1660,10 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <!-- http://purl.obolibrary.org/obo/VO_0000632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000632">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
         <obo:IAO_0000115>Vaccine induced immue response mediated hrough a body fluid</obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000118>vaccine-induced antibody mediated immune response</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced humoral immune response</rdfs:label>
     </owl:Class>
@@ -2460,7 +2449,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000286"/>
-        <obo:IAO_0000115>a vaccine-induced host gene response that represents a vaccine adverse event response associated with a host susceptibility gene.</obo:IAO_0000115>
+        <obo:IAO_0000115>a vaccine-induced gene response that represents a vaccine adverse event response associated with a host susceptibility gene.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>host susceptibility gene response to vaccine adverse event</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
@@ -2536,19 +2525,6 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccination</oboInOwl:inSubset>
         <rdfs:label>intravesical vaccination</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003057 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000288"/>
-        <obo:IAO_0000115>an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. </obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>augmented protection and cellular immunity using host protein as adjuvant</rdfs:label>
     </owl:Class>
     
 
@@ -2867,6 +2843,28 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <oboInOwl:inSubset>assay</oboInOwl:inSubset>
         <rdfs:label>viral neutralization titer assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
+        <rdfs:label>vaccine-induced innate immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
+        <rdfs:label>vaccine-induced cell-mediated immune response</rdfs:label>
     </owl:Class>
     
 
