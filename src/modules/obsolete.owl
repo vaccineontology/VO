@@ -185,6 +185,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000309">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000632"/>
+        <rdfs:label>obsolete vaccine-induced antibody mediated immune response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000390 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000390">
@@ -326,6 +338,16 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000461"/>
         <rdfs:label>obsolete avian influenza vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001030">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete vaccine-induced mouse immune response</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1926,6 +1948,16 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003045">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B.suis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003056">
@@ -1936,6 +1968,89 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001224"/>
         <rdfs:label>obsolete viral haemorrhagic septicaemia virus vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003057">
+        <obo:IAO_0000115>an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete augmented protection and cellular immunity using host protein as adjuvant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003063">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B.abortus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003064">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B.canis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003065">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B.Melitensis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003068">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced host immune response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003077">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B. ovis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003086">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced immune protection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003087">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced immune response without protection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
