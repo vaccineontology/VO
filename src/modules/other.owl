@@ -381,6 +381,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011"/>
@@ -3624,6 +3630,30 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>SARS Coronavirus 2 XBB.1.5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+        <obo:IAO_0000115>An immune marker that indicates a humoral immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>humoral immune marker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+        <obo:IAO_0000115>An immune marker that indicates a cell-mediated immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>cell-mediated immune marker</rdfs:label>
     </owl:Class>
     
 
