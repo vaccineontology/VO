@@ -88,12 +88,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -115,6 +109,12 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000133 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000133"/>
     
 
 
@@ -270,6 +270,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0600007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000446"/>
     
 
 
@@ -1919,17 +1925,28 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <!-- http://purl.obolibrary.org/obo/VO_0000857 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000857">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000288"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000133"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000287"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000116>Immune correlate of protection is a host immune response to vaccine that correlates with protective induced by the vaccine.</obo:IAO_0000116>
+        <obo:IAO_0000115>Process profile that is measurable and the measured data indicates the degree of immunological protection in the vaccine recipient. More specifically, it is the process in some immune response component (such as gene, protein, etc.) which serves as an immune biomarker. </obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>vaccine-induced immune correlate of protection</rdfs:label>
+        <obo:IAO_0000118>correlate of immune protection</obo:IAO_0000118>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>correlated profile of immune protection</rdfs:label>
     </owl:Class>
     
 
@@ -1938,10 +1955,11 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000858">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000857"/>
-        <obo:IAO_0000115>Serological correlate of protection is an immune correlate of protection that is reflected by serologic antibody levels.</obo:IAO_0000115>
+        <obo:IAO_0000115>A correlated profile of immune protection that is reflected by serologic antibody levels.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>serologic correlate of protection</rdfs:label>
+        <obo:IAO_0000118>serologic correlate of protection</obo:IAO_0000118>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>serologic correlated profile of immune protection</rdfs:label>
     </owl:Class>
     
 
@@ -1950,10 +1968,11 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000859">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000857"/>
-        <obo:IAO_0000115>A cell mediated immune correlate of protection is an immune correlate of protection that is reflected by a cell mediated immune response.</obo:IAO_0000115>
+        <obo:IAO_0000115>A correlated profile of immune protection that is reflected by a cell mediated immune response.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>cell mediated immune correlate of protection</rdfs:label>
+        <obo:IAO_0000118>cell mediated immune correlate of protection</obo:IAO_0000118>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>cell mediated correlated profile of immune protection</rdfs:label>
     </owl:Class>
     
 
@@ -2639,7 +2658,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
-        <oboInOwl:inSubset>process</oboInOwl:inSubset>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
         <rdfs:label>immune response profile</rdfs:label>
     </owl:Class>
     
@@ -2654,7 +2673,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
-        <oboInOwl:inSubset>process</oboInOwl:inSubset>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
         <rdfs:label>Th1-biased immune profile</rdfs:label>
     </owl:Class>
     
@@ -2669,7 +2688,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
-        <oboInOwl:inSubset>process</oboInOwl:inSubset>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
         <rdfs:label>Th2-biased immune profile</rdfs:label>
     </owl:Class>
     
@@ -2684,7 +2703,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
-        <oboInOwl:inSubset>process</oboInOwl:inSubset>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
         <rdfs:label>Th1/Th2 mixed immune profile</rdfs:label>
     </owl:Class>
     
@@ -2698,7 +2717,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_17_cell</obo:IAO_0000119>
-        <oboInOwl:inSubset>process</oboInOwl:inSubset>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
         <rdfs:label>Th17 immune profile</rdfs:label>
     </owl:Class>
     
@@ -2712,7 +2731,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
-        <oboInOwl:inSubset>process</oboInOwl:inSubset>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
         <rdfs:label>Th1/Th17 mixed immune profile</rdfs:label>
     </owl:Class>
     
@@ -2757,7 +2776,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
-        <oboInOwl:inSubset>process</oboInOwl:inSubset>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
         <rdfs:label>Th1/Th2/Th17 mixed immune profile</rdfs:label>
     </owl:Class>
     
@@ -2865,6 +2884,126 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced cell-mediated immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000857"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>correlated profile of immune protection based on population coverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010465"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>specific correlate of immune protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010467">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010465"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>general correlate of immune protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000857"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>correlated profile of immune protection based on statistical level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010468"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>cocorrelate of immune protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010468"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>relative correlate of immune protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010471">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010468"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>absolute correlate of immune protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010472">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000857"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>correlated profile of immune protection based on causality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010472"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>nonmechanistic correlate of immune protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010474">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010472"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>PMID:22437237</obo:IAO_0000119>
+        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <rdfs:label>mechanistic correlate of immune protection</rdfs:label>
     </owl:Class>
     
 
