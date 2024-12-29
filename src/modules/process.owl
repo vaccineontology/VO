@@ -1338,7 +1338,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000494 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000494">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000491"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000490"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
@@ -1398,7 +1398,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000496">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>disorder prevention is a processual entity that prevents a disorder that is the physical basis of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>Process that prevents a disorder that is the physical basis of a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -1411,7 +1411,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000497">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>disorder treatment is a processual entity that leads to treat a disorder that is the physical basis of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>Process that leads to treat a disorder that is the physical basis of a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -2053,7 +2053,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>inactivation is a processual entity that produces inactive material.</obo:IAO_0000115>
+        <obo:IAO_0000115>Inactivation is a processual entity that produces inactive material.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -2067,7 +2067,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>survival of live vaccine inside host is a processual entity that represents the survival of a live vaccine inside its host. The time of the survival is often important for the success of the live vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000115>Survival of live vaccine inside host is a process that represents the survival of a live vaccine inside its host. The time of the survival is often important for the success of the live vaccine.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>survival of live vaccine inside host</rdfs:label>
@@ -2079,7 +2079,7 @@ The best way to determine if a vaccine is effective is to test it in a randomize
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>persistence of vaccine induced immune response is a processual entity that indicates the persistence of an immune reponse induced by a vaccine in a vaccinated host.</obo:IAO_0000115>
+        <obo:IAO_0000115>Persistence of vaccine induced immune response is a processual entity that indicates the persistence of an immune reponse induced by a vaccine in a vaccinated host.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
         <rdfs:label>persistence of vaccine induced immune response</rdfs:label>
@@ -2658,6 +2658,8 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <obo:IAO_0000115>Process profile that reflects a pattern of a specific immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
         <rdfs:label>immune response profile</rdfs:label>
     </owl:Class>
