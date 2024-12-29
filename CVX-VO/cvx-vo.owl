@@ -17,7 +17,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvx-vo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-11-23/cvx-vo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-12-29/cvx-vo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
@@ -26,7 +26,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">Vaccine Ontology CVX code View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-11-23</owl:versionInfo>
+        <owl:versionInfo>2024-12-29</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -7952,6 +7952,7 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -7986,6 +7987,12 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003455"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8406,6 +8413,7 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -8434,6 +8442,12 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003455"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8622,6 +8636,7 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -8662,6 +8677,12 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8825,6 +8846,7 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
@@ -8843,6 +8865,12 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0015013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8922,6 +8950,38 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
         <obo:VO_0003162>BL 125363/0</obo:VO_0003162>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>MenHibrix vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000032">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005505"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A vaccine that is composed of a plasmid vaccine vector (a circular double stranded DNA molecule) containing the whole of parts of genes encoding one or more vaccine antigen proteins.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>genetic vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>naked DNA vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>nucleic acid vaccine</obo:IAO_0000118>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>DNA vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -9803,6 +9863,7 @@ http://biotech.about.com/b/2008/09/03/gardasil-safety-of-genetically-engineered-
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -9843,6 +9904,12 @@ http://biotech.about.com/b/2008/09/03/gardasil-safety-of-genetically-engineered-
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10997,11 +11064,8 @@ influenzae type b (Haemophilus b, Ross strain) that is covalently bound to an ou
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003547"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010163"/>
         <rdfs:subClassOf>
@@ -11080,6 +11144,12 @@ influenzae type b (Haemophilus b, Ross strain) that is covalently bound to an ou
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -11976,12 +12046,19 @@ influenzae type b (Haemophilus b, Ross strain) that is covalently bound to an ou
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000732"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001187"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12357,7 +12434,6 @@ influenzae type b (Haemophilus b, Ross strain) that is covalently bound to an ou
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000419"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
@@ -12498,7 +12574,6 @@ influenzae type b (Haemophilus b, Ross strain) that is covalently bound to an ou
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000419"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
@@ -13323,6 +13398,13 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000419">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000669"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>a Varicella-zoster virus vaccine that is live attenuated.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
@@ -13669,7 +13751,14 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
     <!-- http://purl.obolibrary.org/obo/VO_0000487 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001217"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010451"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -13699,7 +13788,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000490">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>A process that results in an adaptive immune response to one or more antigens.</obo:IAO_0000115>
+        <obo:IAO_0000115>Process that results in an adaptive immune response to one or more antigens.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
@@ -13734,7 +13823,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000494">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000491"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000490"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
@@ -13794,7 +13883,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000496">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>disorder prevention is a processual entity that prevents a disorder that is the physical basis of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>Process that prevents a disorder that is the physical basis of a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -13807,7 +13896,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000497">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>disorder treatment is a processual entity that leads to treat a disorder that is the physical basis of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>Process that leads to treat a disorder that is the physical basis of a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -13848,7 +13937,14 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
     <!-- http://purl.obolibrary.org/obo/VO_0000508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000735"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>a diphtheria vaccine that uses diphtheria toxoid</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
@@ -14338,6 +14434,18 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine component role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>A vaccine role that indicates the vaccine being a DNA vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>DNA vaccine role</rdfs:label>
     </owl:Class>
     
 
@@ -17685,6 +17793,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001255">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>a subunit vaccine that uses polysaccharide as protective antigen</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
@@ -19807,7 +19921,14 @@ Aluminum hydroxide.	0.35 mg (as aluminum)</obo:VO_0003147>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -19838,6 +19959,12 @@ Aluminum hydroxide.	0.35 mg (as aluminum)</obo:VO_0003147>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003196"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
             </owl:Restriction>
@@ -19859,11 +19986,24 @@ Aluminum hydroxide.	0.35 mg (as aluminum)</obo:VO_0003147>
     <!-- http://purl.obolibrary.org/obo/VO_0003200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003196"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -19885,6 +20025,12 @@ Aluminum hydroxide.	0.35 mg (as aluminum)</obo:VO_0003147>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003196"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Bordetella pertussis filamentous hemagglutinin vaccine, inactivated</rdfs:label>
     </owl:Class>
@@ -19895,6 +20041,12 @@ Aluminum hydroxide.	0.35 mg (as aluminum)</obo:VO_0003147>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003196"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -20638,6 +20790,12 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000419"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
             </owl:Restriction>
@@ -20671,7 +20829,14 @@ over.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0003285 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000675"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Streptococcus pneumoniae capsular antigen diphtheria CRM197 protein conjugate vaccine</rdfs:label>
     </owl:Class>
@@ -21101,6 +21266,12 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -21127,6 +21298,12 @@ over.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21161,6 +21338,12 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -21187,6 +21370,12 @@ over.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21221,6 +21410,12 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -21247,6 +21442,12 @@ over.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21281,6 +21482,12 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -21307,6 +21514,12 @@ over.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21341,6 +21554,12 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -21367,6 +21586,12 @@ over.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21401,6 +21626,12 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -21431,6 +21662,12 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -21457,6 +21694,12 @@ over.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21664,11 +21907,18 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003368">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21690,12 +21940,25 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003384">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003396"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21719,7 +21982,14 @@ over.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0003396 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000640"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A clostridium tetani vaccine that consists of formaldehyde inactivated tetanospasmin (aka tetanus toxoid).</obo:IAO_0000115>
         <obo:IAO_0000117>Hector Guzman-Orozco</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -21733,12 +22003,19 @@ over.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0003408 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0012185"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -21911,11 +22188,24 @@ over.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003455">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000508"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -22321,6 +22611,13 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003520">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003495"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
@@ -22351,6 +22648,12 @@ over.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -22430,6 +22733,12 @@ over.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -23173,6 +23482,7 @@ over.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003073"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010416"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -23200,8 +23510,20 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -23967,6 +24289,7 @@ over.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003073"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010417"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -23994,8 +24317,20 @@ over.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -26264,7 +26599,14 @@ over.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0003834 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003834">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -26292,6 +26634,12 @@ over.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003835">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -26326,6 +26674,12 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
             </owl:Restriction>
@@ -26356,6 +26710,12 @@ over.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003837">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -27290,7 +27650,14 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003948">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010440"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -27322,6 +27689,12 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003949">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003948"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -27410,7 +27783,14 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001499"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -27546,7 +27926,14 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004815">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010449"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -27743,6 +28130,12 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000433"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
             </owl:Restriction>
@@ -27851,6 +28244,12 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003175"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
             </owl:Restriction>
@@ -27887,6 +28286,12 @@ over.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004877">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003176"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -29164,6 +29569,12 @@ over.</obo:IAO_0000115>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
         <obo:IAO_0000117>Rohit Goru</obo:IAO_0000117>
@@ -29177,6 +29588,12 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005199"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
         <obo:IAO_0000117>Rohit Goru</obo:IAO_0000117>
@@ -29189,7 +29606,14 @@ over.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0005201 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
         <obo:IAO_0000117>Rohit Goru</obo:IAO_0000117>
@@ -29220,7 +29644,14 @@ over.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0005203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>COVID-19 DNA vaccine</rdfs:label>
@@ -29231,7 +29662,14 @@ over.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0005204 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>COVID-19 live, attenuated vaccine</rdfs:label>
@@ -29243,6 +29681,13 @@ over.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>COVID-19 virus-like particle vaccine</rdfs:label>
@@ -29332,6 +29777,12 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005264"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
@@ -29360,6 +29811,12 @@ over.</obo:IAO_0000115>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005199"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -29393,6 +29850,12 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -29419,6 +29882,12 @@ over.</obo:IAO_0000115>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005202"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -29453,6 +29922,12 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -29480,6 +29955,12 @@ over.</obo:IAO_0000115>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005205"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30045,6 +30526,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005457 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000738"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000746"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
@@ -30053,6 +30535,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30120,6 +30608,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005459">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000738"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -30131,6 +30620,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30153,12 +30648,19 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005460">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000738"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000137"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30329,6 +30831,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000531"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_7507"/>
             </owl:Restriction>
@@ -30362,6 +30870,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000732"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
@@ -30370,6 +30879,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16842"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30406,6 +30921,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005467">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000732"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
@@ -30419,6 +30935,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30449,6 +30971,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005468 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000732"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
@@ -30462,6 +30985,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30486,7 +31015,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30528,12 +31064,22 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000732"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30543,7 +31089,19 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30931,7 +31489,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30964,7 +31529,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -30997,7 +31569,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010438"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -31162,11 +31741,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010439"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -31738,7 +32324,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -31804,11 +32397,25 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -31837,7 +32444,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -31939,12 +32553,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000578"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001176"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001178"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32013,7 +32627,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010453"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32046,7 +32667,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010453"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32079,7 +32707,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010453"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32112,7 +32747,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010453"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32333,7 +32975,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010449"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32366,7 +33015,20 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005267"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32399,7 +33061,20 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005267"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32432,7 +33107,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32468,6 +33150,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32497,6 +33185,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32532,6 +33226,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32561,6 +33261,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32596,6 +33302,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32625,6 +33337,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32660,6 +33378,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32689,6 +33413,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32724,6 +33454,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32753,6 +33489,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32788,6 +33530,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -32817,6 +33565,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32881,7 +33635,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32915,6 +33676,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -32984,6 +33751,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33017,6 +33790,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33047,6 +33826,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33145,11 +33930,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -33178,11 +33970,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -33245,7 +34044,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000952"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33279,7 +34085,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000952"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33346,7 +34159,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010451"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33379,7 +34199,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010451"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33412,7 +34239,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010451"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33511,7 +34345,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0006087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010452"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33579,7 +34420,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001499"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33757,6 +34605,36 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0007660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007660">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000177"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000177"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cancer vaccine that is composed of a plasmid vaccine vector (a circular double stranded DNA molecule) containing the whole of parts of genes encoding one or more vaccine antigen proteins.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>cancer vaccine</oboInOwl:inSubset>
+        <rdfs:label>DNA cancer vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0007747 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007747">
@@ -33799,12 +34677,26 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000753"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -33826,8 +34718,15 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000754"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33911,6 +34810,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0007747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33939,7 +34844,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010140 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005267"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33971,7 +34883,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34003,7 +34922,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005266"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34035,7 +34961,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010143 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34067,7 +35000,20 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005267"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005269"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34099,11 +35045,32 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34126,7 +35093,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0002785"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34353,6 +35327,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000732"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
@@ -34360,6 +35335,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34382,6 +35363,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000732"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
@@ -34389,6 +35371,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34411,11 +35399,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000738"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34441,8 +35436,20 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000942"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34465,11 +35472,30 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000942"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34492,7 +35518,11 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000744"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
@@ -34500,8 +35530,26 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34524,7 +35572,11 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000744"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
@@ -34532,8 +35584,26 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34556,9 +35626,16 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000746"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010439"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34585,7 +35662,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34612,8 +35696,15 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000663"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34639,7 +35730,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -34749,11 +35847,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010439"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34857,7 +35962,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010176 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001178"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35081,7 +36193,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35108,11 +36227,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35171,6 +36297,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -35189,7 +36321,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001176"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35216,7 +36355,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35243,11 +36389,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35405,7 +36558,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001176"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35459,7 +36619,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35566,11 +36733,25 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35593,11 +36774,25 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35620,11 +36815,25 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010204 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35647,11 +36856,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35674,11 +36890,18 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35783,7 +37006,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000424"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35810,7 +37040,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000424"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35972,7 +37209,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010449"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -35999,11 +37243,24 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010449"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010393"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -36059,6 +37316,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -36137,12 +37400,19 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000669"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -36220,7 +37490,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010456"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -36247,7 +37524,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0010227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010456"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -39959,7 +41243,9 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -39981,6 +41267,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
             </owl:Restriction>
@@ -39989,6 +41281,12 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -40931,7 +42229,6 @@ immunogen: ROT</obo:IAO_0000116>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000419"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -41238,7 +42535,7 @@ immunogen: ROT</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010393"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010394"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -41416,8 +42713,26 @@ immunogen: ROT</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0015014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -41438,13 +42753,34 @@ immunogen: ROT</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0015014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000627"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -41469,7 +42805,14 @@ immunogen: ROT</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010450"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -41498,7 +42841,14 @@ immunogen: ROT</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010442"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -41774,7 +43124,6 @@ immunogen: ROT</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003408"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010444"/>
@@ -42306,7 +43655,6 @@ immunogen: ROT</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003948"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0018617"/>
         <rdfs:subClassOf>
@@ -48267,7 +49615,6 @@ immunogen: ROT</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001220"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003273"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -48414,6 +49761,12 @@ immunogen: ROT</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000635"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
             </owl:Restriction>
@@ -48454,6 +49807,12 @@ immunogen: ROT</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0021166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005457"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>

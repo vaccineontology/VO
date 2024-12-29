@@ -160,6 +160,7 @@ WARN	annotation_whitespace	VO:0000794	IAO:0000115	A Brucella abortus gene that h
 WARN	annotation_whitespace	VO:0000799	IAO:0000115	"An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. "
 WARN	annotation_whitespace	VO:0000807	IAO:0000115	A vaccine role that indicates the vaccine being a toxoid vaccine. 
 WARN	annotation_whitespace	VO:0000818	IAO:0000115	An object property that specifies a relation between a vaccine and a vaccine virmugen. 
+WARN	annotation_whitespace	VO:0000857	IAO:0000115	"Process profile that is measurable and the measured data indicates the degree of immunological protection in the vaccine recipient. More specifically, it is the process in some immune response component (such as gene, protein, etc.) which serves as an immune biomarker. "
 WARN	annotation_whitespace	VO:0000922	IAO:0000115	a vaccine stablizer that is based on monosodium glutamate. 
 WARN	annotation_whitespace	VO:0000929	rdfs:comment	"Potential Acute Health Effects: Slightly hazardous in case of skin contact (irritant), of eye contact (irritant), of ingestion, of inhalation. Reference: http://www.sciencelab.com/msds.php?msdsId=9926640 "
 WARN	annotation_whitespace	VO:0000931	IAO:0000115	a cell culture residual in vaccine that is residual protein from cell culture. 
@@ -503,6 +504,8 @@ WARN	equivalent_class_axiom_no_genus	OBI:0000673	OBI:0000417	OBI:0000675
 WARN	equivalent_class_axiom_no_genus	OBI:0000838	OBI:0000417	OBI:0000806
 WARN	equivalent_class_axiom_no_genus	OBI:0200000	OBI:0000417	OBI:0200166
 WARN	equivalent_class_axiom_no_genus	OBI:1110034	RO:0000087	OBI:0000237
+WARN	equivalent_class_axiom_no_genus	OPMI:0000445	RO:0000087	OPMI:0000441
+WARN	missing_definition	BFO:0000133	IAO:0000115	
 WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	CHEBI:30911	IAO:0000115	
 WARN	missing_definition	CHEBI:33130	IAO:0000115	
@@ -1039,6 +1042,8 @@ WARN	missing_definition	OGG:3000888751	IAO:0000115
 WARN	missing_definition	OGG:3000888772	IAO:0000115	
 WARN	missing_definition	OGG:3001197075	IAO:0000115	
 WARN	missing_definition	OGMS:0000060	IAO:0000115	
+WARN	missing_definition	OPMI:0000441	IAO:0000115	
+WARN	missing_definition	OPMI:0000446	IAO:0000115	
 WARN	missing_definition	RO:0002086	IAO:0000115	
 WARN	missing_definition	RO:0002091	IAO:0000115	
 WARN	missing_definition	RO:0002092	IAO:0000115	
@@ -1231,7 +1236,6 @@ WARN	missing_definition	VO:0000304	IAO:0000115
 WARN	missing_definition	VO:0000305	IAO:0000115	
 WARN	missing_definition	VO:0000306	IAO:0000115	
 WARN	missing_definition	VO:0000308	IAO:0000115	
-WARN	missing_definition	VO:0000309	IAO:0000115	
 WARN	missing_definition	VO:0000311	IAO:0000115	
 WARN	missing_definition	VO:0000312	IAO:0000115	
 WARN	missing_definition	VO:0000313	IAO:0000115	
@@ -1428,7 +1432,6 @@ WARN	missing_definition	VO:0000843	IAO:0000115
 WARN	missing_definition	VO:0000844	IAO:0000115	
 WARN	missing_definition	VO:0000845	IAO:0000115	
 WARN	missing_definition	VO:0000852	IAO:0000115	
-WARN	missing_definition	VO:0000857	IAO:0000115	
 WARN	missing_definition	VO:0000863	IAO:0000115	
 WARN	missing_definition	VO:0000866	IAO:0000115	
 WARN	missing_definition	VO:0000870	IAO:0000115	
@@ -1493,7 +1496,6 @@ WARN	missing_definition	VO:0001016	IAO:0000115
 WARN	missing_definition	VO:0001020	IAO:0000115	
 WARN	missing_definition	VO:0001026	IAO:0000115	
 WARN	missing_definition	VO:0001029	IAO:0000115	
-WARN	missing_definition	VO:0001030	IAO:0000115	
 WARN	missing_definition	VO:0001033	IAO:0000115	
 WARN	missing_definition	VO:0001042	IAO:0000115	
 WARN	missing_definition	VO:0001049	IAO:0000115	
@@ -2932,30 +2934,22 @@ WARN	missing_definition	VO:0003012	IAO:0000115
 WARN	missing_definition	VO:0003013	IAO:0000115	
 WARN	missing_definition	VO:0003014	IAO:0000115	
 WARN	missing_definition	VO:0003032	IAO:0000115	
-WARN	missing_definition	VO:0003045	IAO:0000115	
 WARN	missing_definition	VO:0003051	IAO:0000115	
 WARN	missing_definition	VO:0003053	IAO:0000115	
-WARN	missing_definition	VO:0003063	IAO:0000115	
-WARN	missing_definition	VO:0003064	IAO:0000115	
-WARN	missing_definition	VO:0003065	IAO:0000115	
 WARN	missing_definition	VO:0003066	IAO:0000115	
 WARN	missing_definition	VO:0003067	IAO:0000115	
-WARN	missing_definition	VO:0003068	IAO:0000115	
 WARN	missing_definition	VO:0003070	IAO:0000115	
 WARN	missing_definition	VO:0003071	IAO:0000115	
 WARN	missing_definition	VO:0003072	IAO:0000115	
 WARN	missing_definition	VO:0003073	IAO:0000115	
 WARN	missing_definition	VO:0003074	IAO:0000115	
 WARN	missing_definition	VO:0003075	IAO:0000115	
-WARN	missing_definition	VO:0003077	IAO:0000115	
 WARN	missing_definition	VO:0003080	IAO:0000115	
 WARN	missing_definition	VO:0003081	IAO:0000115	
 WARN	missing_definition	VO:0003082	IAO:0000115	
 WARN	missing_definition	VO:0003083	IAO:0000115	
 WARN	missing_definition	VO:0003084	IAO:0000115	
 WARN	missing_definition	VO:0003085	IAO:0000115	
-WARN	missing_definition	VO:0003086	IAO:0000115	
-WARN	missing_definition	VO:0003087	IAO:0000115	
 WARN	missing_definition	VO:0003088	IAO:0000115	
 WARN	missing_definition	VO:0003094	IAO:0000115	
 WARN	missing_definition	VO:0003104	IAO:0000115	
@@ -4679,7 +4673,6 @@ WARN	missing_definition	VO:0005300	IAO:0000115
 WARN	missing_definition	VO:0005301	IAO:0000115	
 WARN	missing_definition	VO:0005302	IAO:0000115	
 WARN	missing_definition	VO:0005303	IAO:0000115	
-WARN	missing_definition	VO:0005308	IAO:0000115	
 WARN	missing_definition	VO:0005323	IAO:0000115	
 WARN	missing_definition	VO:0005330	IAO:0000115	
 WARN	missing_definition	VO:0005379	IAO:0000115	
@@ -5132,6 +5125,18 @@ WARN	missing_definition	VO:0010432	IAO:0000115
 WARN	missing_definition	VO:0010433	IAO:0000115	
 WARN	missing_definition	VO:0010457	IAO:0000115	
 WARN	missing_definition	VO:0010460	IAO:0000115	
+WARN	missing_definition	VO:0010461	IAO:0000115	
+WARN	missing_definition	VO:0010462	IAO:0000115	
+WARN	missing_definition	VO:0010465	IAO:0000115	
+WARN	missing_definition	VO:0010466	IAO:0000115	
+WARN	missing_definition	VO:0010467	IAO:0000115	
+WARN	missing_definition	VO:0010468	IAO:0000115	
+WARN	missing_definition	VO:0010469	IAO:0000115	
+WARN	missing_definition	VO:0010470	IAO:0000115	
+WARN	missing_definition	VO:0010471	IAO:0000115	
+WARN	missing_definition	VO:0010472	IAO:0000115	
+WARN	missing_definition	VO:0010473	IAO:0000115	
+WARN	missing_definition	VO:0010474	IAO:0000115	
 WARN	missing_definition	VO:0010632	IAO:0000115	
 WARN	missing_definition	VO:0010705	IAO:0000115	
 WARN	missing_definition	VO:0010706	IAO:0000115	
@@ -11875,6 +11880,7 @@ WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	"p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en"
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	"b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en"
@@ -12005,9 +12011,7 @@ INFO	lowercase_definition	VO:0000228	IAO:0000115	a vaccine component that contai
 INFO	lowercase_definition	VO:0000243	IAO:0000115	assay of CFU reduction in spleen is a CFU reduction assay that is measured using the extracted spleen as the tissue for isolation of infected pathogens.
 INFO	lowercase_definition	VO:0000263	IAO:0000115	sodBFt is a live vaccine strain mutant of Francisella tularensis with reduced Fe-superoxide dismutase gene expression. Ref: PMID:18692537.
 INFO	lowercase_definition	VO:0000283	IAO:0000115	a viral vaccine vector that uses a herpesvirus as the vector.
-INFO	lowercase_definition	VO:0000288	IAO:0000115	a processual entity that specifies host response to a vaccine.
 INFO	lowercase_definition	VO:0000289	IAO:0000115	a process that specifies host response to a vaccine adjuvant.
-INFO	lowercase_definition	VO:0000290	IAO:0000115	a processual entity that specifies host response to a vaccine component.
 INFO	lowercase_definition	VO:0000291	IAO:0000115	a process that specifies host response to a vaccine antigen.
 INFO	lowercase_definition	VO:0000292	IAO:0000115	a process that specifies host response to a vaccine vector.
 INFO	lowercase_definition	VO:0000310	IAO:0000115	a vaccine additive that stabilizes the vaccine emulsification manufacturing process and makes emulsion of the vaccine easier. 
@@ -12050,8 +12054,6 @@ INFO	lowercase_definition	VO:0000487	IAO:0000115	a S. typhi vaccine that is live
 INFO	lowercase_definition	VO:0000489	IAO:0000115	a licensed vaccine role that is bears in a licensed human vaccine.
 INFO	lowercase_definition	VO:0000493	IAO:0000115	natural active immunization is an active immunization that occur naturally when a person or animal comes in contact with antigens includeing microbes.
 INFO	lowercase_definition	VO:0000495	IAO:0000115	"induction of adaptive immune response to antigen is an active immunization process that results in induction of adaptive immune response to some antigens, for example, in a vaccine."
-INFO	lowercase_definition	VO:0000496	IAO:0000115	disorder prevention is a processual entity that prevents a disorder that is the physical basis of a disease.
-INFO	lowercase_definition	VO:0000497	IAO:0000115	disorder treatment is a processual entity that leads to treat a disorder that is the physical basis of a disease.
 INFO	lowercase_definition	VO:0000498	IAO:0000115	"modification of adaptive immune response to antigen is an active immunization process that results in modification of an adaptive immune response to some antigens, for example, in a therapeutic vaccine."
 INFO	lowercase_definition	VO:0000500	IAO:0000115	infection disorder prevention is a process that prevents a disorder that is the physical basis of an infectious disease.
 INFO	lowercase_definition	VO:0000504	IAO:0000115	a vaccine role that indicates the vaccine being a whole organism vaccine. 
@@ -12193,7 +12195,6 @@ INFO	lowercase_definition	VO:0001088	IAO:0000115	a viral vaccine vector that use
 INFO	lowercase_definition	VO:0001093	IAO:0000115	a vaccinia vaccine vector that uses the highly attenuated NYVAC  as vector
 INFO	lowercase_definition	VO:0001095	IAO:0000115	"passive immunization by injecting a recipient with pre-made antibody, antitoxin, epitope, etc."
 INFO	lowercase_definition	VO:0001102	IAO:0000115	a viral vaccine vector that uses a retroviral strain
-INFO	lowercase_definition	VO:0001103	IAO:0000115	inactivation is a processual entity that produces inactive material.
 INFO	lowercase_definition	VO:0001105	IAO:0000115	a bacterial vaccine against Lawsonia intracellularis infection
 INFO	lowercase_definition	VO:0001106	IAO:0000115	a poxvirus vaccine vector that uses a swinepox virus as the vector
 INFO	lowercase_definition	VO:0001107	IAO:0000115	a vaccinia virus vector that uses the Modified Vaccinia Ankara (MVA) virus. 
@@ -12203,8 +12204,6 @@ INFO	lowercase_definition	VO:0001110	IAO:0000115	a fertility vaccine that enhanc
 INFO	lowercase_definition	VO:0001112	IAO:0000115	a viral vaccine vector that uses a bovine parainfluenza virus strain as vector
 INFO	lowercase_definition	VO:0001114	IAO:0000115	a Bordetella bacterial vaccine against infection of B. avium
 INFO	lowercase_definition	VO:0001115	IAO:0000115	a poxvirus vaccine vector that uses an attenuated capripoxvirus strain as the vaccine vector
-INFO	lowercase_definition	VO:0001116	IAO:0000115	survival of live vaccine inside host is a processual entity that represents the survival of a live vaccine inside its host. The time of the survival is often important for the success of the live vaccine.
-INFO	lowercase_definition	VO:0001117	IAO:0000115	persistence of vaccine induced immune response is a processual entity that indicates the persistence of an immune reponse induced by a vaccine in a vaccinated host.
 INFO	lowercase_definition	VO:0001118	IAO:0000115	a bacterial vaccine vector that uses a Corynebacterium pseudotuberculosis strain as the vaccine vector
 INFO	lowercase_definition	VO:0001121	IAO:0000115	a viral vaccine vector that uses a rhabdovirus-based viral strain as the vaccine vector
 INFO	lowercase_definition	VO:0001122	IAO:0000115	a recombinant vaccine vector that uses Saccharomyces cerevisiae as the vaccine vector
@@ -12340,7 +12339,7 @@ INFO	lowercase_definition	VO:0003026	IAO:0000115	"a role inheres in vaccine comp
 INFO	lowercase_definition	VO:0003027	IAO:0000115	a protein vaccine stablizer that is specifically human serum albumin.
 INFO	lowercase_definition	VO:0003028	IAO:0000115	the serum albumin that is part of human
 INFO	lowercase_definition	VO:0003029	IAO:0000115	a vaccine stabilizer that is gelatin.
-INFO	lowercase_definition	VO:0003031	IAO:0000115	a vaccine-induced host gene response that represents a vaccine adverse event response associated with a host susceptibility gene.
+INFO	lowercase_definition	VO:0003031	IAO:0000115	a vaccine-induced gene response that represents a vaccine adverse event response associated with a host susceptibility gene.
 INFO	lowercase_definition	VO:0003033	IAO:0000115	a protein vaccine stablizer that is specifically bovine serum albumin. 
 INFO	lowercase_definition	VO:0003034	IAO:0000115	a vaccine stabilizer that is specifically made by a sugar.
 INFO	lowercase_definition	VO:0003035	IAO:0000115	a vaccine stabilizer that is generated based on amino acids. 
