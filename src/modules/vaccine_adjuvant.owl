@@ -5020,6 +5020,168 @@ none</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0005512 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005512">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000366"/>
+        <obo:IAO_0000115>Vaccine adjuvant based on VesiVax® liposome.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: VesiVax® liposome
+Mechanism of Action: none
+Immune profile induced: none
+
+Route of immunization: SQ prime and IN boost, SQ, Combination sub-cheek, IN and ID, IN prime and sub-cheek boosts
+Point of Contact: Gary Fujii, Molecular Express
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=16713037
+https://www.ncbi.nlm.nih.gov/pubmed/?term=17981684
+https://www.ncbi.nlm.nih.gov/pubmed/?term=19835825
+https://www.ncbi.nlm.nih.gov/pubmed/?term=21545821
+https://www.ncbi.nlm.nih.gov/pubmed/?term=23313243
+https://www.ncbi.nlm.nih.gov/pubmed/?term=26312747
+https://www.ncbi.nlm.nih.gov/pubmed/?term=27997339
+https://www.ncbi.nlm.nih.gov/pubmed/?term=28922045
+https://www.ncbi.nlm.nih.gov/pubmed/?term=29420901
+https://www.ncbi.nlm.nih.gov/pubmed/?term=3568049
+
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Gary Fujii</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Molecular Express</obo:IAO_0000117>
+        <obo:IAO_0000118>ME-F-1051 (VesiVax®)</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:16713037</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:19835825</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:21545821</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:23313243</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:26312747</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:27997339</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:28922045</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:29420901</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:3568049</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/784</obo:IAO_0000233>
+        <obo:VO_0005328>104</obo:VO_0005328>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>ME-F-1051 (VesiVax®) vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000366"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Liposome-based vaccine adjuvant with TLR4 agonist to induce a mixed Th1/Th2 response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Natural compound - Liposome formulation with TLR4 agonist
+Mechanism of Action: none
+Immune profile induced: Mixed Th1/Th2
+
+Route of immunization: SQ, Combination of sub-cheek, IN and ID, IN prime with sub-cheek boosts,
+Point of Contact: Gary Fujii, Molecular Express
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=23313243
+https://www.ncbi.nlm.nih.gov/pubmed/?term=26312747
+https://www.ncbi.nlm.nih.gov/pubmed/?term=27997339
+https://www.ncbi.nlm.nih.gov/pubmed/?term=35680499
+https://www.ncbi.nlm.nih.gov/pubmed/?term=19835825
+https://www.ncbi.nlm.nih.gov/pubmed/?term=21545821
+https://www.ncbi.nlm.nih.gov/pubmed/?term=16713037
+
+Ongoing clinical trials:
+none</obo:IAO_0000116>
+        <obo:IAO_0000117>Gary Fujii</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Molecular Express</obo:IAO_0000117>
+        <obo:IAO_0000118>ME-F-1122</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:16713037</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:19835825</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:21545821</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:23313243</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:26312747</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:27997339</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:35680499</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/785</obo:IAO_0000233>
+        <obo:VO_0005328>103</obo:VO_0005328>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>ME-F-1122 vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0006109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Short class B CpG-containing sequence with phosphorothioate-linked nucleotides that is able to induce a Th1-biased response.</obo:IAO_0000115>
+        <obo:IAO_0000116>Chemical Nature: Nucleic acid
+Mechanism of Action: CpG 1018 is a short class B CpG-containing sequence with phosphorothioate-linked nucleotides
+Immune profile induced: Th1-biased
+
+Route of immunization: IN, IM
+Point of Contact: Ben Wizel, Dynavax
+
+Pubmed References:
+https://www.ncbi.nlm.nih.gov/pubmed/?term=24464743
+https://www.ncbi.nlm.nih.gov/pubmed/?term=33649322
+https://www.ncbi.nlm.nih.gov/pubmed/?term=33873199
+https://www.ncbi.nlm.nih.gov/pubmed/?term=33888840
+https://www.ncbi.nlm.nih.gov/pubmed/?term=38570604
+https://www.ncbi.nlm.nih.gov/pubmed/?term=35927132
+https://www.ncbi.nlm.nih.gov/pubmed/?term=35869085
+https://www.ncbi.nlm.nih.gov/pubmed/?term=37703367
+https://www.ncbi.nlm.nih.gov/pubmed/?term=39231203
+
+Ongoing clinical trials:
+https://clinicaltrials.gov/ct2/show/ACTRN12624000064505
+https://clinicaltrials.gov/ct2/show/NCT06334393
+https://clinicaltrials.gov/ct2/show/NCT04177355
+https://clinicaltrials.gov/ct2/show/NCT04672395
+https://clinicaltrials.gov/ct2/show/NCT05188677
+https://clinicaltrials.gov/ct2/show/NCT05011526
+https://clinicaltrials.gov/ct2/show/NCT05364242
+https://clinicaltrials.gov/ct2/show/NCT04956224
+https://clinicaltrials.gov/ct2/show/NCT0486456
+https://clinicaltrials.gov/ct2/show/ACTRN12620001177943
+https://clinicaltrials.gov/ct2/show/NCT00251394
+https://clinicaltrials.gov/ct2/show/NCT01282762
+https://clinicaltrials.gov/ct2/show/NCT00346086
+https://clinicaltrials.gov/ct2/show/NCT06569823
+https://clinicaltrials.gov/ct2/show/NCT05245838
+https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
+        <obo:IAO_0000117>Ben Wizel</obo:IAO_0000117>
+        <obo:IAO_0000117>Dynavax</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>CpG 1018</obo:IAO_0000118>
+        <obo:IAO_0000119>Pubmed:24464743</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:33649322</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:33873199</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:33888840</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:35869085</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:35927132</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:37703367</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:38570604</obo:IAO_0000119>
+        <obo:IAO_0000119>Pubmed:39231203</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/787</obo:IAO_0000233>
+        <obo:VO_0005328>105</obo:VO_0005328>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>CpG 1018 vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0006092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006092">
