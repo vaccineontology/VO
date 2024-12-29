@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-11-23/cvo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2024-12-29/cvo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor>Chris mungall</dc:contributor>
         <dc:contributor>Erica Marcos</dc:contributor>
@@ -62,7 +62,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">Vaccine Ontology Cancer Vaccine View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2024-11-23</owl:versionInfo>
+        <owl:versionInfo>2024-12-29</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6122,6 +6122,21 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <obo:IAO_0000115>An organismal quality inhering in a bearer or a population by virtue of the bearer&apos;s disposition to survive and develop normally or the number of surviving individuals in a given population.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PATO:0000169</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#attribute_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#disposition_slim"/>
+        <rdfs:label>viability</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
@@ -6654,6 +6669,38 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000186">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005505"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A vaccine that uses RNA(s) derived from a pathogen organism.</obo:IAO_0000115>
+        <obo:IAO_0000116>Using RNA may eliminate the problem of having to tailor a vaccine for each individual patient with their specific immunity. The advantage of RNA is that it can be used for all immunity types and can be taken from a single cell. DNA vaccines need to produce RNA which then prompts the manufacture of proteins. However, RNA vaccine eliminates the step from DNA to RNA.</obo:IAO_0000116>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>mRNA vaccine</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/RNA_vaccine</obo:IAO_0000119>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>RNA vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000194">
@@ -6696,6 +6743,19 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001139"/>
+        <obo:IAO_0000115>an organismal quality of a whole organism vaccine where the whole organism is inactivated/killed and lacks the capability of replication. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>vaccine organism killed</obo:IAO_0000118>
+        <oboInOwl:inSubset>quality</oboInOwl:inSubset>
+        <rdfs:label>vaccine organism inactivated</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000278">
@@ -6719,6 +6779,37 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>vaccine function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000315">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005505"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A whole organism vaccine that uses an inativated pathogen organism as its component.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>inactivated organism vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>killed vaccine</obo:IAO_0000118>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>inactivated vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -7045,7 +7136,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000490">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>A process that results in an adaptive immune response to one or more antigens.</obo:IAO_0000115>
+        <obo:IAO_0000115>Process that results in an adaptive immune response to one or more antigens.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
@@ -7080,7 +7171,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000494">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000491"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000490"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
@@ -7140,7 +7231,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000496">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>disorder prevention is a processual entity that prevents a disorder that is the physical basis of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>Process that prevents a disorder that is the physical basis of a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -7153,7 +7244,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000497">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>disorder treatment is a processual entity that leads to treat a disorder that is the physical basis of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>Process that leads to treat a disorder that is the physical basis of a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>process</oboInOwl:inSubset>
@@ -7258,6 +7349,35 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>therapeutic vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000561">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005505"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A vaccine containing a toxoid, used to protect against toxins produced by certain bacteria. A toxoid (also called inactivated toxin) is a processed toxin that has been treated by chemical means, heat, or irradiation and is no longer capable of causing disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>toxoid vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -7623,6 +7743,60 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000712">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000609"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000315"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a viral vaccine that is inactivated</obo:IAO_0000115>
+        <obo:IAO_0000118>killed viral vaccine</obo:IAO_0000118>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>inactivated viral vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000728">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>A vaccine role that indicates the vaccine being a RNA vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>RNA vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000807">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>A vaccine role that indicates the vaccine being a toxoid vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>toxoid vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000812 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000812">
@@ -7773,6 +7947,49 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
         <obo:IAO_0000119>PubMed:23969885</obo:IAO_0000119>
         <oboInOwl:inSubset>cancer vaccine</oboInOwl:inSubset>
         <rdfs:label>autologous dendritic cell melanoma vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000169"/>
+        <obo:IAO_0000115>vaccine viability is a viability of a vaccine organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>quality</oboInOwl:inSubset>
+        <rdfs:label>vaccine organism viability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001214">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000165"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000315"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a bacterial vaccine that uses inactivated bacterial organism. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>inactivated bacterial vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -8173,12 +8390,19 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0004245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005426"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8208,11 +8432,18 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8241,6 +8472,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0004250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000367"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -8248,6 +8480,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8295,11 +8533,18 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8363,10 +8608,17 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004398">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007660"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10002,12 +10254,19 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0004614 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10113,11 +10372,25 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004617">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000577"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000692"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10427,10 +10700,57 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0004913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>A vaccine role that inheres in a vaccine using virus-like particles (VLPs), multiprotein structures that mimic the organization and conformation of authentic native viruses but lack the viral genome, potentially yielding safer and cheaper vaccines.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>virus like particle vaccine role</obo:IAO_0000118>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/20923267/</obo:IAO_0000119>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>virus-like particle vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004914 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004914">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005505"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A vaccine that uses virus-like particles (VLPs), multiprotein structures that mimic the organization and conformation of authentic native viruses but lack the viral genome, potentially yielding safer and cheaper vaccines.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>virus like particle vaccine</obo:IAO_0000118>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/20923267/</obo:IAO_0000119>
+        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
+        <rdfs:label>virus-like particle vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0005278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000577"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005494"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
@@ -10442,7 +10762,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000692"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12377,6 +12697,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000577"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -12390,6 +12711,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12425,6 +12752,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -12438,6 +12766,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -13856,17 +14190,10 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007660"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -15965,6 +16292,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007660"/>
@@ -15978,6 +16306,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -16021,6 +16355,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000577"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -16028,6 +16363,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -16540,12 +16881,19 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18330,7 +18678,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000577"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
@@ -18342,7 +18690,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000692"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18383,6 +18731,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -18396,6 +18745,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -19023,6 +19378,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -19036,6 +19392,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -19332,6 +19694,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -19345,6 +19708,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -20599,6 +20968,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005494"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -20612,6 +20982,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -22874,6 +23250,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005428"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
@@ -22886,6 +23263,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -24187,6 +24570,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007251 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005487"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -24200,6 +24584,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -24558,6 +24948,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
@@ -24570,6 +24961,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -24604,6 +25001,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
@@ -24616,6 +25014,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -25381,6 +25785,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005428"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -25394,6 +25799,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -25523,6 +25934,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005492"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -25536,6 +25948,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -25832,6 +26250,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -25845,6 +26264,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -26383,10 +26808,17 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005497"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007660"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -26478,12 +26910,19 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007301 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005427"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -26805,10 +27244,17 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005486"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007660"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -26892,6 +27338,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -26905,6 +27352,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -27957,6 +28410,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000577"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -27968,6 +28422,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -28050,6 +28510,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007354 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -28063,6 +28524,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -28239,6 +28706,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
@@ -28252,6 +28720,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -28287,6 +28761,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007360 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005489"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007660"/>
@@ -28300,6 +28775,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000807"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -29881,12 +30362,19 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007395 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30128,6 +30616,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007402 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000577"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
@@ -30140,6 +30629,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30258,11 +30753,18 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000315"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30335,11 +30837,18 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007407 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000367"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -30939,6 +31448,7 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007422 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005493"/>
@@ -30947,6 +31457,12 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -31257,12 +31773,19 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
     <!-- http://purl.obolibrary.org/obo/VO_0007430 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007430">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005488"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32002,10 +32525,17 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000667"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007656"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007660"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32151,11 +32681,18 @@ However, running the reasoner takes time. As a way to reducing the time, I have 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007451">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000667"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007656"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34146,12 +34683,19 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007497 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -34857,12 +35401,19 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007532 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35595,11 +36146,18 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007549 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35900,11 +36458,18 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007556 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000367"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -35940,11 +36505,18 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -36171,12 +36743,19 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007562">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000186"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000728"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -36204,12 +36783,19 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005425"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -36578,11 +37164,18 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -38177,11 +38770,18 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0007630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -38520,6 +39120,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007642">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000422"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000577"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004914"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0007657"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -38531,6 +39132,12 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0004913"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
