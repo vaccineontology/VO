@@ -63,7 +63,7 @@ imports: $(IMPORT_FILES)
 src/modules/%.owl: src/templates/%.csv | build/robot.jar
 	echo '' > $@
 	$(ROBOT) merge \
-	--input src/VO.owl \
+	--input src/vo_edit.owl \
 	template \
 	--template $< \
 	--prefix "VO: http://purl.obolibrary.org/obo/VO_" \
@@ -86,6 +86,7 @@ MODULE_NAMES := vaccine\
  vo_CVX_code\
  vo_RxNorm\
  vo_FDA\
+ vo_VIOLIN\
  obsolete
 
 MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/modules/$(x).owl)
@@ -127,7 +128,7 @@ views: CVO/cvo.owl CVX-VO/cvx-vo.owl
 # This involves merging, reasoning, annotating,
 # and removing any remaining import declarations.
 
-build/vo-merged.owl: src/VO.owl | build/robot.jar build
+build/vo-merged.owl: src/vo_edit.owl | build/robot.jar build
 	$(ROBOT) merge \
 	--input $< \
 	annotate \
