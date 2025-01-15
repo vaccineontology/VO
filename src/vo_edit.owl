@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/vo.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo_edit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo_edit.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -16,7 +16,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo_edit.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
