@@ -1,0 +1,20 @@
+# get all injectable vaccine products against Hepatovirus A infection
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX immunizes_against_pathogen: <http://purl.obolibrary.org/obo/VO_0003355>
+PREFIX Hepatovirus_A: <http://purl.obolibrary.org/obo/NCBITaxon_12092>
+PREFIX has_dose_form: <http://purl.obolibrary.org/obo/VO_0015007>
+PREFIX concept_id: <http://purl.obolibrary.org/obo/VO_0010151>
+
+SELECT distinct ?vaccine ?OMOP_concept_ID
+FROM <http://purl.obolibrary.org/obo/merged/VO>
+WHERE {
+  ?entity rdfs:subClassOf ?restriction1 .
+  ?restriction1 owl:onProperty immunizes_against_pathogen:; owl:someValuesFrom Hepatovirus_A: .
+  VALUES ?injectable_product {obo:VO_0015062 obo:VO_0015073 obo:VO_0015072 obo:VO_0015074 obo:VO_0015065} .
+  ?entity rdfs:subClassOf ?restriction2 .
+  ?restriction2 owl:onProperty has_dose_form:; owl:someValuesFrom ?injectable_product .
+  ?entity concept_id: ?OMOP_concept_ID .
+  ?entity rdfs:label ?vaccine .
+}

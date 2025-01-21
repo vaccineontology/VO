@@ -1,0 +1,21 @@
+# get OMOP mapping to intermediate vaccine terms under VO_0005503 'vaccine against disease'
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?vaccine ?label ?OMOP_Concept_ID ?vaccine_category ?category_label
+WHERE {
+	?entity rdfs:subClassOf* obo:VO_0005503 .
+	?entity obo:VO_0010151 ?OMOP_Concept_ID .
+	?entity rdfs:subClassOf* ?parent . 
+	?parent rdfs:subClassOf+ obo:VO_0005503 .
+  	FILTER NOT EXISTS {
+    		?parent obo:VO_0010151 ?p_OMOP_Concept_ID .
+  	}
+	BIND(str(?entity) AS ?vaccine) .
+	?entity rdfs:label ?label .
+	BIND(str(?parent) AS ?vaccine_category) .
+	?parent rdfs:label ?category_label .
+} 
+ORDER BY ?entity

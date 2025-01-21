@@ -96,8 +96,6 @@ WARN	annotation_whitespace	RO:0002093	rdfs:comment	X ends_during Y iff: ((start(
 WARN	annotation_whitespace	RO:0002161	IAO:0000425	Class: ?X DisjointWith: RO_0002162 some ?Y 
 WARN	annotation_whitespace	VO:0000018	IAO:0000115	A Brucella abortus vaccine that expresses Cu/Zn SOD with DNA plasmid pcDNA. 
 WARN	annotation_whitespace	VO:0000035	IAO:0000115	"a vaccinia virus vaccine that is a freeze-dried calf lymph smallpox vaccine, specifically, Dryvax is a live-virus preparation of vaccinia prepared from calf lymph. "
-WARN	annotation_whitespace	VO:0000048	IAO:0000117	 YL
-WARN	annotation_whitespace	VO:0000048	IAO:0000117	 ZX
 WARN	annotation_whitespace	VO:0000069	IAO:0000115	"A Measles-Mumps-Rubella vaccine that is live attenuated and manufactured by Merck & Co, Inc. "
 WARN	annotation_whitespace	VO:0000070	IAO:0000115	A Measles-Mumps vaccine that is manufactured by Merck and used for human. 
 WARN	annotation_whitespace	VO:0000079	IAO:0000115	an influenza vaccine that is similar to Fluzone but has high dose. 
@@ -162,6 +160,7 @@ WARN	annotation_whitespace	VO:0000794	IAO:0000115	A Brucella abortus gene that h
 WARN	annotation_whitespace	VO:0000799	IAO:0000115	"An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. "
 WARN	annotation_whitespace	VO:0000807	IAO:0000115	A vaccine role that indicates the vaccine being a toxoid vaccine. 
 WARN	annotation_whitespace	VO:0000818	IAO:0000115	An object property that specifies a relation between a vaccine and a vaccine virmugen. 
+WARN	annotation_whitespace	VO:0000857	IAO:0000115	"Process profile that is measurable and the measured data indicates the degree of immunological protection in the vaccine recipient. More specifically, it is the process in some immune response component (such as gene, protein, etc.) which serves as an immune biomarker. "
 WARN	annotation_whitespace	VO:0000922	IAO:0000115	a vaccine stablizer that is based on monosodium glutamate. 
 WARN	annotation_whitespace	VO:0000929	rdfs:comment	"Potential Acute Health Effects: Slightly hazardous in case of skin contact (irritant), of eye contact (irritant), of ingestion, of inhalation. Reference: http://www.sciencelab.com/msds.php?msdsId=9926640 "
 WARN	annotation_whitespace	VO:0000931	IAO:0000115	a cell culture residual in vaccine that is residual protein from cell culture. 
@@ -215,287 +214,9 @@ WARN	annotation_whitespace	VO:0001220	rdfs:comment	"This term has an equivalent 
 
 However, running the reasoner takes time. As a way to reducing the time, I have tentatively made tern two subclasses instead of equivalent class. If needed, the equivalent class can be used in SPARQL or converted back in VO. --Oliver
 "
-WARN	annotation_whitespace	VO:0001380	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0001384	IAO:0000117	 RR
 WARN	annotation_whitespace	VO:0001395	IAO:0000115	a vaccine that contains two or more individual vaccines. 
-WARN	annotation_whitespace	VO:0001400	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001402	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001403	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001404	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001405	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001406	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001407	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001408	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001409	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001410	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001411	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001412	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001413	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001414	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001415	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001416	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001417	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001418	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001419	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001420	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001421	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001422	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001423	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001424	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001425	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001426	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001427	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001428	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001429	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001430	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001431	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001432	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001433	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001434	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001435	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001436	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001437	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001438	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001439	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001440	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001441	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001442	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001443	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001444	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001445	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001446	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001447	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001448	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001449	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001450	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001451	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001452	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001453	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0001454	IAO:0000117	 RR
 WARN	annotation_whitespace	VO:0002115	IAO:0000115	A horse Encephalomyelitis-Influenza-West Nile Virus vaccine that is inactivated and manufactured by Wyeth Pharmaceuticals Inc. 
 WARN	annotation_whitespace	VO:0002483	IAO:0000115	"A horse vaccine that protects against EEE, VEE, WEE, influenza virius infection, and West Nile virus infection. "
-WARN	annotation_whitespace	VO:0002503	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0002504	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0002515	IAO:0000117	 RR
-WARN	annotation_whitespace	VO:0002516	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002517	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002518	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002519	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002521	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002522	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002523	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002524	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002525	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002526	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002528	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002529	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002530	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002531	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002532	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002533	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002534	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002535	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002536	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002538	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002540	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002541	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002542	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002543	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002545	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002546	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002547	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002548	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002549	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002550	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002551	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002553	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002554	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002555	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002556	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002557	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002558	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002559	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002560	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002561	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002562	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002563	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002564	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002565	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002566	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002567	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002568	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002569	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002570	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002571	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002572	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002573	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002574	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002575	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002576	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002577	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002578	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002579	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002580	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002583	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002584	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002585	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002586	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002587	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002588	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002589	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002590	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002591	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002592	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002593	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002594	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002595	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002596	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002597	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002598	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002599	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002600	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002601	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002602	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002603	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002604	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002605	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002606	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002607	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002608	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002609	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002610	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002612	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002613	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002614	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002616	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002617	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002619	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002620	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002621	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002622	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002625	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002626	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002627	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002628	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002629	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002630	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002631	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002632	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002633	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002634	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002635	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002637	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002639	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002641	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002642	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002643	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002644	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002645	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002646	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002648	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002650	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002651	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002652	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002653	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002654	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002655	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002656	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002657	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002658	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002659	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002660	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002661	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002662	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002663	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002664	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002665	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002666	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002667	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002668	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002672	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002674	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002675	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002677	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002678	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002680	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002682	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002684	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002685	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002686	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002687	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002688	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002689	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002690	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002691	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002692	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002693	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002694	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002695	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002696	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002697	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002698	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002699	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002700	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002701	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002702	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002703	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002704	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002705	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002706	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002708	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002709	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002710	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002711	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002712	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002713	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002714	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002715	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002716	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002717	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002718	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002719	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002720	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002721	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002722	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002723	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002724	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002725	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002726	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002727	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002728	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002729	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002730	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002731	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002732	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002733	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002734	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002735	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002736	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002737	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002738	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002739	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002740	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002741	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002742	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002743	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002744	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002745	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002746	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002747	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002748	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002749	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002751	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002753	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002755	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002756	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002757	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002758	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002759	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002760	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002761	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002762	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002763	IAO:0000117	 Yongqun He
-WARN	annotation_whitespace	VO:0002765	IAO:0000117	 Yongqun He
 WARN	annotation_whitespace	VO:0003016	IAO:0000115	"A route of administration that located in the stomach, so that the material is taken into body through stomach directly. "
 WARN	annotation_whitespace	VO:0003023	IAO:0000115	A vaccine prepration process that mixes vaccine lyophilized powder and diluent liquid. The process forms a vaccine that can be used for administration. This term can also be considered as a child term of OBI term 'material combination'. 
 WARN	annotation_whitespace	VO:0003023	rdfs:comment	"A vaccine may include vaccine powder and solvent. When the two mix, we get a vaccine solution, which can be used to inject. Examples:
@@ -514,19 +235,7 @@ WARN	annotation_whitespace	VO:0003057	IAO:0000115	an vaccine-induced host respon
 WARN	annotation_whitespace	VO:0003247	IAO:0000115	The site that is the part of the host body and the entrance point where a vaccine is administered. 
 WARN	annotation_whitespace	VO:0003336	IAO:0000115	a vaccine-induced down-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. 
 WARN	annotation_whitespace	VO:0003348	IAO:0000115	A vaccine-induced up-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. 
-WARN	annotation_whitespace	VO:0004227	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004228	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004250	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0004400	IAO:0000115	"An autologous dendritic cell vaccine with potential immunostimulatory activity. Dendritic cells harvested from a prostate cancer patient are transfected with the mRNA encoding for prostate specific antigen (PSA), a tumor marker secreted by prostatic epithelial and ductal cells. When reintroduced back to the patient, these PSA RNA pulsed autologous dendritic cells may elicit a cytotoxic T-cell (CTL) response against PSA-positive prostate cancer cells. "
-WARN	annotation_whitespace	VO:0004425	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004426	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004427	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004428	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004429	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004430	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004604	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0004739	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0005278	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0006094	IAO:0000116	"Chemical Nature: Nucleic acid
 Mechanism of Action: TLR9 agonist
 Immune profile induced: Mixed Th1/Th2
@@ -534,183 +243,12 @@ Route of immunization: IM, SQ
 Point of Contact: Nikolai Petrovsky, Vaxine LTD
 "
 WARN	annotation_whitespace	VO:0006105	IAO:0000115	A vaccine adjuvant which is a small molecule adjuvant that is able to induce a mixed Th1/Th2 response and active innate immunity. 
-WARN	annotation_whitespace	VO:0007186	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007187	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007188	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007189	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007190	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007191	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007192	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007193	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007194	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007195	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007196	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007197	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007198	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007199	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007200	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007201	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007202	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007203	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007204	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007205	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007206	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007207	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007208	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007209	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007210	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007211	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007212	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007213	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007214	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007215	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007216	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007217	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007218	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007219	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007220	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007221	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007222	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007223	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007224	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007225	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007226	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007227	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007228	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007229	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007230	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007231	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007232	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007233	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007234	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007235	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007236	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007237	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007238	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007239	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007240	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007240	rdfs:comment	Gene name: IFNG -Obselete 
-WARN	annotation_whitespace	VO:0007241	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007242	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007243	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007244	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007245	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007246	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007247	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007249	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007250	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007251	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007252	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007253	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007254	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007255	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007256	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007257	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007258	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007259	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007260	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007261	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007262	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007263	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007264	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007265	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007266	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007267	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007268	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007269	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007270	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007271	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007272	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007274	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007275	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007276	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007277	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007278	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007279	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007280	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007281	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007282	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007283	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007284	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007285	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007286	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007287	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007288	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007289	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007290	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007291	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007292	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007293	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007294	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007295	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007296	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007297	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007298	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007299	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007300	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007301	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007302	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007303	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007304	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007305	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007306	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007307	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007308	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007309	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007310	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007311	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007312	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007313	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007314	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007315	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007316	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007318	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007319	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007320	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007321	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007322	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007327	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007328	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007329	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007330	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007331	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007332	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007333	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007334	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007336	IAO:0000115	A cancer vaccine that  consists of of irradiated autologous tumor cells admixed with GM-CSF-secreting bystander cells. The CD8+ T cells can react against CLL-associated antigens. Autologous tumor cell vaccination is an effective strategy to advance long-term leukemia control following allogeneic hematopoietic stem cell transplantation (allo-HSCT). 
 WARN	annotation_whitespace	VO:0007342	IAO:0000115	"A cancer vaccine that is composed of oxidized ovarian tumor cell lysate, with potential immunostimulatory and antineoplastic activities. The autologous oxidized ovarian tumor cell lysate vaccine exposes the immune system to an undefined amount of tumor-associated antigens (TAAs), which may result in the induction of both anti-tumor cytotoxic T-lymphocytes (CTLs) and antibody-dependent responses against TAA-expressing cells, leading to tumor cell lysis. Compared to non-oxidized tumor cell lysate vaccines, oxidized tumor cell lysate vaccines induce necrotic cell death, increase the immunogenicity of the TAAs and may enhance the anti-tumor immune response. Cyclophosphamide/Fludarabine Lymphodepletion and an immunomodulatory combination of Interferon-alpha Bevacizumab and Aspirin followed by adoptive transfer of vaccine-primed ex vivo CD3/CD28-costimulated peripheral blood autologous T cells and vaccination with whole tumor vaccine administered intradermally in combination with Bevacizumab in patients with recurrent ovarian cancer fallopian tube or primary peritoneal cancer may help treat their tumors. Patients will receive 5-10 million cells intradermally. "
 WARN	annotation_whitespace	VO:0007348	IAO:0000115	"A cancer vaccine made up of Bcl-xl_42 and the adjuvant CAF09b for patients with hormone-sensitive Prostate Cancer (PC) and lymph node metastases. B-cell lymphoma extra large protein (Bcl-xl) protein plays a vital role in the cancer cell's ability to avoid programmed cell death (apoptosis) and is upregulated in a variety of cancerous diseases, Bcl-xl_42 is a peptide fragment of the full protein and can lead to the death of cancer cells. CAF09b improves the activation of the immune system. "
-WARN	annotation_whitespace	VO:0007349	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007350	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007351	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007352	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007353	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007354	IAO:0000115	A vaccine comprised of autologous dendritic cells pulsed with mRNA-encoded Carcinoembryonic Antigen (CEA) targeting tumor cells expressing CEA. 
-WARN	annotation_whitespace	VO:0007354	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007356	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007357	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007358	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007359	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007360	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007361	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007362	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007363	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007364	IAO:0000115	"A cancer vaccine consisting of the bcr-abl b2a2 fusion oncoprotein, frequently expressed in chronic myelogenous leukemia (CML), with potential antineoplastic activity. Vaccination with the bcr-abl (b2a2)-derived peptide vaccine may stimulate the host immune system to mount a cytotoxic T lymphocyte (CTL) response against tumor cells that express the bcr-abl b2a2 fusion protein. The vaccine is made from made from the proteins that cause leukemia cells in CML to behave abnormally. Imatinib mesylate is the standard therapy for CML and blocks the function of this protein. In combination, these may decrease or eliminate all evidence of disease in patients who have CML that is in remission after treatment with imatinib mesylate, but who still have small amounts of detectable disease.  "
-WARN	annotation_whitespace	VO:0007365	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007366	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007367	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007368	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007369	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007370	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007371	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007372	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007373	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007374	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007375	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007376	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007377	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007378	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007379	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007380	OGG:0000000006	"	4582"
 WARN	annotation_whitespace	VO:0007386	rdfs:comment	Gene name: GAA 
 WARN	annotation_whitespace	VO:0007395	OGG:0000000006	"	4582"
@@ -725,87 +263,6 @@ WARN	annotation_whitespace	VO:0007532	IAO:0000115	A cancer vaccine containing de
 WARN	annotation_whitespace	VO:0007537	IAO:0000115	"A conjugate consisting of fluorescein isothiocyanate (FITC) conjugated with folate with potential antineoplastic activity. Folate-FITC binds to folate receptors, which are overexpressed on the surfaces of many cancer cells including kidney and ovarian cancer cells. Once bound to the cancer cell through the folate moiety of the conjugate, circulating anti-fluorescein antibodies may recognize and bind to the FITC moiety, resulting in antibody-dependent cellular cytotoxicity. "
 WARN	annotation_whitespace	VO:0007557	OGG:0000000006	"	4582"
 WARN	annotation_whitespace	VO:0007567	OGG:0000000006	"	253970502"
-WARN	annotation_whitespace	VO:0007572	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007573	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007574	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007575	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007576	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007577	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007578	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007579	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007580	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007581	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007582	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007583	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007584	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007585	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007586	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007587	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007588	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007589	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007590	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007591	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007592	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007593	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007594	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007595	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007596	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007597	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007598	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007599	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007600	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007601	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007602	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007603	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007604	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007605	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007606	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007607	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007608	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007609	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007610	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007611	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007612	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007613	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007614	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007615	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007616	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007617	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007618	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007619	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007620	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007621	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007622	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007623	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007624	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007625	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007626	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007627	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007628	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007629	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007630	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007631	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007632	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007633	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007634	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007635	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007636	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007637	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007638	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007639	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007640	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007641	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007642	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007643	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007644	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007645	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007646	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007647	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007648	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007649	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007650	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007651	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0007652	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0007664	IAO:0000115	"A cancer vaccine comprised of K562 cells transfected with the granulocyte macrophage-colony stimulating factor (GM-CSF) gene with potential immunopotentiating properties. This vaccine may stimulate the host immune system to produce an antitumoral T-lymphocyte response, thereby inhibiting tumor growth. A cultured cell line is genetically changed to secrete GM-CSF mixed with irradiated leukemia cells obtained from a patient. Vaccines made from gene-modified cancer cells may help the body build an effective immune response to kill cancer cells. Imatinib mesylate may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Giving vaccine therapy together with imatinib mesylate may be an effective treatment for chronic myelogenous leukemia. The vaccine can also be combined with stem cell transplantation. The vaccine may induce an immune response to common myeloid antigens (e.g., Wilms' tumor-1 [WT-1], survivin, or proteinase-3) in patients with Myelodysplastic Syndrome. "
 WARN	annotation_whitespace	VO:0007665	IAO:0000119	 NCT: https://clinicaltrials.gov/study/NCT00840931
 WARN	annotation_whitespace	VO:0007667	IAO:0000115	"A cancer vaccine that uses irradiated, adenovirus transduced autologous myeloblasts to secrete granulocyte-macrophage colony-stimulating factor (GVAX) early after allogeneic hematopoietic stem cell transplantation (HSCT) to induce potent immune responses. The vaccine may prevent advanced myelodysplastic syndrome (MDS), Chronic Myelomonocytic Leukemia (CMML), or acute myeloid leukemia (AML) from relapsing after stem cell transplant. The patients own cancer cells are engineered to produce a protein called GM-CSF, which can be effective in stimulating a powerful immune response specific to that cancer. "
@@ -833,17 +290,6 @@ WARN	annotation_whitespace	VO:0010252	IAO:0000115	A variable representing dose r
 WARN	annotation_whitespace	VO:0010259	IAO:0000115	A variable representing the vaccine preservative 
 WARN	annotation_whitespace	VO:0010272	IAO:0000115	A measurment datum that records the method of sacrifice (i.e. killing). 
 WARN	annotation_whitespace	VO:0010735	IAO:0000115	A Measles-Mumps-Rubella-Vericella vaccine that is live attenuated and manufactured by GlaxoSmithKline Biologicals. 
-WARN	annotation_whitespace	VO:0011363	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011364	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011365	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011366	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011367	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011368	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011370	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011371	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011373	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011507	IAO:0000117	Oliver He 
-WARN	annotation_whitespace	VO:0011510	IAO:0000117	Oliver He 
 WARN	annotation_whitespace	VO:0021164	IAO:0000115	A varicella-zoster virus live vaccine designed to prevent shingles (herpes zoster). 
 WARN	duplicate_exact_synonym	VO:0010365	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0010366	IAO:0000118	
@@ -907,7 +353,6 @@ WARN	duplicate_exact_synonym	VO:0020405	IAO:0000118
 WARN	duplicate_exact_synonym	VO:0020406	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020407	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020408	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020409	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020410	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020411	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020412	IAO:0000118	
@@ -918,9 +363,7 @@ WARN	duplicate_exact_synonym	VO:0020416	IAO:0000118
 WARN	duplicate_exact_synonym	VO:0020417	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020418	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020419	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020420	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020421	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020422	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020423	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020424	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020425	IAO:0000118	
@@ -930,9 +373,7 @@ WARN	duplicate_exact_synonym	VO:0020428	IAO:0000118
 WARN	duplicate_exact_synonym	VO:0020429	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020430	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020431	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020432	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020433	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020434	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020435	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020436	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020437	IAO:0000118	
@@ -943,8 +384,6 @@ WARN	duplicate_exact_synonym	VO:0020441	IAO:0000118
 WARN	duplicate_exact_synonym	VO:0020442	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020443	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020444	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020445	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020446	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020447	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020448	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020449	IAO:0000118	
@@ -957,13 +396,9 @@ WARN	duplicate_exact_synonym	VO:0020455	IAO:0000118
 WARN	duplicate_exact_synonym	VO:0020456	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020457	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020458	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020459	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020460	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020461	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020462	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020463	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020464	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020465	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020466	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020467	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0020468	IAO:0000118	
@@ -1028,7 +463,6 @@ WARN	duplicate_label_synonym	VO:0006001	IAO:0000118	botulinum antitoxin
 WARN	duplicate_label_synonym	VO:0006003	IAO:0000118	cholera BivWC
 WARN	duplicate_label_synonym	VO:0006004	IAO:0000118	cholera live attenuated
 WARN	duplicate_label_synonym	VO:0006005	IAO:0000118	diphtheria antitoxin
-WARN	duplicate_label_synonym	VO:0006020	IAO:0000118	HPV unspecified formulation
 WARN	duplicate_label_synonym	VO:0006022	IAO:0000118	influenza nasal unspecified formulation
 WARN	duplicate_label_synonym	VO:0006044	IAO:0000118	Pneumococcal Conjugate unspecified formulation
 WARN	duplicate_label_synonym	VO:0006067	IAO:0000118	SARS-COV-2 (COVID-19) vaccine UNSPECIFIED
@@ -1070,6 +504,8 @@ WARN	equivalent_class_axiom_no_genus	OBI:0000673	OBI:0000417	OBI:0000675
 WARN	equivalent_class_axiom_no_genus	OBI:0000838	OBI:0000417	OBI:0000806
 WARN	equivalent_class_axiom_no_genus	OBI:0200000	OBI:0000417	OBI:0200166
 WARN	equivalent_class_axiom_no_genus	OBI:1110034	RO:0000087	OBI:0000237
+WARN	equivalent_class_axiom_no_genus	OPMI:0000445	RO:0000087	OPMI:0000441
+WARN	missing_definition	BFO:0000133	IAO:0000115	
 WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	CHEBI:30911	IAO:0000115	
 WARN	missing_definition	CHEBI:33130	IAO:0000115	
@@ -1606,6 +1042,8 @@ WARN	missing_definition	OGG:3000888751	IAO:0000115
 WARN	missing_definition	OGG:3000888772	IAO:0000115	
 WARN	missing_definition	OGG:3001197075	IAO:0000115	
 WARN	missing_definition	OGMS:0000060	IAO:0000115	
+WARN	missing_definition	OPMI:0000441	IAO:0000115	
+WARN	missing_definition	OPMI:0000446	IAO:0000115	
 WARN	missing_definition	RO:0002086	IAO:0000115	
 WARN	missing_definition	RO:0002091	IAO:0000115	
 WARN	missing_definition	RO:0002092	IAO:0000115	
@@ -1798,7 +1236,6 @@ WARN	missing_definition	VO:0000304	IAO:0000115
 WARN	missing_definition	VO:0000305	IAO:0000115	
 WARN	missing_definition	VO:0000306	IAO:0000115	
 WARN	missing_definition	VO:0000308	IAO:0000115	
-WARN	missing_definition	VO:0000309	IAO:0000115	
 WARN	missing_definition	VO:0000311	IAO:0000115	
 WARN	missing_definition	VO:0000312	IAO:0000115	
 WARN	missing_definition	VO:0000313	IAO:0000115	
@@ -1995,7 +1432,6 @@ WARN	missing_definition	VO:0000843	IAO:0000115
 WARN	missing_definition	VO:0000844	IAO:0000115	
 WARN	missing_definition	VO:0000845	IAO:0000115	
 WARN	missing_definition	VO:0000852	IAO:0000115	
-WARN	missing_definition	VO:0000857	IAO:0000115	
 WARN	missing_definition	VO:0000863	IAO:0000115	
 WARN	missing_definition	VO:0000866	IAO:0000115	
 WARN	missing_definition	VO:0000870	IAO:0000115	
@@ -2013,7 +1449,6 @@ WARN	missing_definition	VO:0000889	IAO:0000115
 WARN	missing_definition	VO:0000891	IAO:0000115	
 WARN	missing_definition	VO:0000898	IAO:0000115	
 WARN	missing_definition	VO:0000902	IAO:0000115	
-WARN	missing_definition	VO:0000906	IAO:0000115	
 WARN	missing_definition	VO:0000907	IAO:0000115	
 WARN	missing_definition	VO:0000909	IAO:0000115	
 WARN	missing_definition	VO:0000913	IAO:0000115	
@@ -2052,7 +1487,6 @@ WARN	missing_definition	VO:0000980	IAO:0000115
 WARN	missing_definition	VO:0000981	IAO:0000115	
 WARN	missing_definition	VO:0000982	IAO:0000115	
 WARN	missing_definition	VO:0000983	IAO:0000115	
-WARN	missing_definition	VO:0000987	IAO:0000115	
 WARN	missing_definition	VO:0000988	IAO:0000115	
 WARN	missing_definition	VO:0000990	IAO:0000115	
 WARN	missing_definition	VO:0000994	IAO:0000115	
@@ -2062,7 +1496,6 @@ WARN	missing_definition	VO:0001016	IAO:0000115
 WARN	missing_definition	VO:0001020	IAO:0000115	
 WARN	missing_definition	VO:0001026	IAO:0000115	
 WARN	missing_definition	VO:0001029	IAO:0000115	
-WARN	missing_definition	VO:0001030	IAO:0000115	
 WARN	missing_definition	VO:0001033	IAO:0000115	
 WARN	missing_definition	VO:0001042	IAO:0000115	
 WARN	missing_definition	VO:0001049	IAO:0000115	
@@ -3501,30 +2934,22 @@ WARN	missing_definition	VO:0003012	IAO:0000115
 WARN	missing_definition	VO:0003013	IAO:0000115	
 WARN	missing_definition	VO:0003014	IAO:0000115	
 WARN	missing_definition	VO:0003032	IAO:0000115	
-WARN	missing_definition	VO:0003045	IAO:0000115	
 WARN	missing_definition	VO:0003051	IAO:0000115	
 WARN	missing_definition	VO:0003053	IAO:0000115	
-WARN	missing_definition	VO:0003063	IAO:0000115	
-WARN	missing_definition	VO:0003064	IAO:0000115	
-WARN	missing_definition	VO:0003065	IAO:0000115	
 WARN	missing_definition	VO:0003066	IAO:0000115	
 WARN	missing_definition	VO:0003067	IAO:0000115	
-WARN	missing_definition	VO:0003068	IAO:0000115	
 WARN	missing_definition	VO:0003070	IAO:0000115	
 WARN	missing_definition	VO:0003071	IAO:0000115	
 WARN	missing_definition	VO:0003072	IAO:0000115	
 WARN	missing_definition	VO:0003073	IAO:0000115	
 WARN	missing_definition	VO:0003074	IAO:0000115	
 WARN	missing_definition	VO:0003075	IAO:0000115	
-WARN	missing_definition	VO:0003077	IAO:0000115	
 WARN	missing_definition	VO:0003080	IAO:0000115	
 WARN	missing_definition	VO:0003081	IAO:0000115	
 WARN	missing_definition	VO:0003082	IAO:0000115	
 WARN	missing_definition	VO:0003083	IAO:0000115	
 WARN	missing_definition	VO:0003084	IAO:0000115	
 WARN	missing_definition	VO:0003085	IAO:0000115	
-WARN	missing_definition	VO:0003086	IAO:0000115	
-WARN	missing_definition	VO:0003087	IAO:0000115	
 WARN	missing_definition	VO:0003088	IAO:0000115	
 WARN	missing_definition	VO:0003094	IAO:0000115	
 WARN	missing_definition	VO:0003104	IAO:0000115	
@@ -3567,13 +2992,10 @@ WARN	missing_definition	VO:0003224	IAO:0000115
 WARN	missing_definition	VO:0003225	IAO:0000115	
 WARN	missing_definition	VO:0003226	IAO:0000115	
 WARN	missing_definition	VO:0003227	IAO:0000115	
-WARN	missing_definition	VO:0003228	IAO:0000115	
 WARN	missing_definition	VO:0003229	IAO:0000115	
 WARN	missing_definition	VO:0003230	IAO:0000115	
 WARN	missing_definition	VO:0003231	IAO:0000115	
 WARN	missing_definition	VO:0003232	IAO:0000115	
-WARN	missing_definition	VO:0003233	IAO:0000115	
-WARN	missing_definition	VO:0003234	IAO:0000115	
 WARN	missing_definition	VO:0003235	IAO:0000115	
 WARN	missing_definition	VO:0003236	IAO:0000115	
 WARN	missing_definition	VO:0003237	IAO:0000115	
@@ -4255,14 +3677,12 @@ WARN	missing_definition	VO:0003952	IAO:0000115
 WARN	missing_definition	VO:0003953	IAO:0000115	
 WARN	missing_definition	VO:0003954	IAO:0000115	
 WARN	missing_definition	VO:0003955	IAO:0000115	
-WARN	missing_definition	VO:0003956	IAO:0000115	
 WARN	missing_definition	VO:0003957	IAO:0000115	
 WARN	missing_definition	VO:0003958	IAO:0000115	
 WARN	missing_definition	VO:0003959	IAO:0000115	
 WARN	missing_definition	VO:0003960	IAO:0000115	
 WARN	missing_definition	VO:0003962	IAO:0000115	
 WARN	missing_definition	VO:0003963	IAO:0000115	
-WARN	missing_definition	VO:0003964	IAO:0000115	
 WARN	missing_definition	VO:0003965	IAO:0000115	
 WARN	missing_definition	VO:0003966	IAO:0000115	
 WARN	missing_definition	VO:0003967	IAO:0000115	
@@ -4511,10 +3931,8 @@ WARN	missing_definition	VO:0004209	IAO:0000115
 WARN	missing_definition	VO:0004210	IAO:0000115	
 WARN	missing_definition	VO:0004211	IAO:0000115	
 WARN	missing_definition	VO:0004212	IAO:0000115	
-WARN	missing_definition	VO:0004213	IAO:0000115	
 WARN	missing_definition	VO:0004214	IAO:0000115	
 WARN	missing_definition	VO:0004215	IAO:0000115	
-WARN	missing_definition	VO:0004216	IAO:0000115	
 WARN	missing_definition	VO:0004217	IAO:0000115	
 WARN	missing_definition	VO:0004218	IAO:0000115	
 WARN	missing_definition	VO:0004219	IAO:0000115	
@@ -5255,7 +4673,6 @@ WARN	missing_definition	VO:0005300	IAO:0000115
 WARN	missing_definition	VO:0005301	IAO:0000115	
 WARN	missing_definition	VO:0005302	IAO:0000115	
 WARN	missing_definition	VO:0005303	IAO:0000115	
-WARN	missing_definition	VO:0005308	IAO:0000115	
 WARN	missing_definition	VO:0005323	IAO:0000115	
 WARN	missing_definition	VO:0005330	IAO:0000115	
 WARN	missing_definition	VO:0005379	IAO:0000115	
@@ -5328,7 +4745,6 @@ WARN	missing_definition	VO:0006016	IAO:0000115
 WARN	missing_definition	VO:0006017	IAO:0000115	
 WARN	missing_definition	VO:0006018	IAO:0000115	
 WARN	missing_definition	VO:0006019	IAO:0000115	
-WARN	missing_definition	VO:0006020	IAO:0000115	
 WARN	missing_definition	VO:0006021	IAO:0000115	
 WARN	missing_definition	VO:0006022	IAO:0000115	
 WARN	missing_definition	VO:0006023	IAO:0000115	
@@ -5406,7 +4822,6 @@ WARN	missing_definition	VO:0007113	IAO:0000115
 WARN	missing_definition	VO:0007114	IAO:0000115	
 WARN	missing_definition	VO:0007118	IAO:0000115	
 WARN	missing_definition	VO:0007120	IAO:0000115	
-WARN	missing_definition	VO:0007188	IAO:0000115	
 WARN	missing_definition	VO:0007194	IAO:0000115	
 WARN	missing_definition	VO:0007264	IAO:0000115	
 WARN	missing_definition	VO:0007282	IAO:0000115	
@@ -5430,11 +4845,8 @@ WARN	missing_definition	VO:0007494	IAO:0000115
 WARN	missing_definition	VO:0007501	IAO:0000115	
 WARN	missing_definition	VO:0007506	IAO:0000115	
 WARN	missing_definition	VO:0007509	IAO:0000115	
-WARN	missing_definition	VO:0007518	IAO:0000115	
-WARN	missing_definition	VO:0007529	IAO:0000115	
 WARN	missing_definition	VO:0007563	IAO:0000115	
 WARN	missing_definition	VO:0007569	IAO:0000115	
-WARN	missing_definition	VO:0007572	IAO:0000115	
 WARN	missing_definition	VO:0007573	IAO:0000115	
 WARN	missing_definition	VO:0007574	IAO:0000115	
 WARN	missing_definition	VO:0007575	IAO:0000115	
@@ -5512,7 +4924,6 @@ WARN	missing_definition	VO:0007651	IAO:0000115
 WARN	missing_definition	VO:0007652	IAO:0000115	
 WARN	missing_definition	VO:0007749	IAO:0000115	
 WARN	missing_definition	VO:0010125	IAO:0000115	
-WARN	missing_definition	VO:0010127	IAO:0000115	
 WARN	missing_definition	VO:0010128	IAO:0000115	
 WARN	missing_definition	VO:0010133	IAO:0000115	
 WARN	missing_definition	VO:0010135	IAO:0000115	
@@ -5714,6 +5125,18 @@ WARN	missing_definition	VO:0010432	IAO:0000115
 WARN	missing_definition	VO:0010433	IAO:0000115	
 WARN	missing_definition	VO:0010457	IAO:0000115	
 WARN	missing_definition	VO:0010460	IAO:0000115	
+WARN	missing_definition	VO:0010461	IAO:0000115	
+WARN	missing_definition	VO:0010462	IAO:0000115	
+WARN	missing_definition	VO:0010465	IAO:0000115	
+WARN	missing_definition	VO:0010466	IAO:0000115	
+WARN	missing_definition	VO:0010467	IAO:0000115	
+WARN	missing_definition	VO:0010468	IAO:0000115	
+WARN	missing_definition	VO:0010469	IAO:0000115	
+WARN	missing_definition	VO:0010470	IAO:0000115	
+WARN	missing_definition	VO:0010471	IAO:0000115	
+WARN	missing_definition	VO:0010472	IAO:0000115	
+WARN	missing_definition	VO:0010473	IAO:0000115	
+WARN	missing_definition	VO:0010474	IAO:0000115	
 WARN	missing_definition	VO:0010632	IAO:0000115	
 WARN	missing_definition	VO:0010705	IAO:0000115	
 WARN	missing_definition	VO:0010706	IAO:0000115	
@@ -5734,7 +5157,6 @@ WARN	missing_definition	VO:0010723	IAO:0000115
 WARN	missing_definition	VO:0010724	IAO:0000115	
 WARN	missing_definition	VO:0010725	IAO:0000115	
 WARN	missing_definition	VO:0010726	IAO:0000115	
-WARN	missing_definition	VO:0010727	IAO:0000115	
 WARN	missing_definition	VO:0010729	IAO:0000115	
 WARN	missing_definition	VO:0010730	IAO:0000115	
 WARN	missing_definition	VO:0010736	IAO:0000115	
@@ -6699,7 +6121,6 @@ WARN	missing_definition	VO:0015106	IAO:0000115
 WARN	missing_definition	VO:0015107	IAO:0000115	
 WARN	missing_definition	VO:0015108	IAO:0000115	
 WARN	missing_definition	VO:0015109	IAO:0000115	
-WARN	missing_definition	VO:0015110	IAO:0000115	
 WARN	missing_definition	VO:0015111	IAO:0000115	
 WARN	missing_definition	VO:0015112	IAO:0000115	
 WARN	missing_definition	VO:0015113	IAO:0000115	
@@ -6785,7 +6206,6 @@ WARN	missing_definition	VO:0015192	IAO:0000115
 WARN	missing_definition	VO:0015193	IAO:0000115	
 WARN	missing_definition	VO:0015194	IAO:0000115	
 WARN	missing_definition	VO:0015195	IAO:0000115	
-WARN	missing_definition	VO:0015196	IAO:0000115	
 WARN	missing_definition	VO:0015197	IAO:0000115	
 WARN	missing_definition	VO:0015198	IAO:0000115	
 WARN	missing_definition	VO:0015199	IAO:0000115	
@@ -10755,7 +10175,6 @@ WARN	missing_definition	VO:0019501	IAO:0000115
 WARN	missing_definition	VO:0019502	IAO:0000115	
 WARN	missing_definition	VO:0019503	IAO:0000115	
 WARN	missing_definition	VO:0019504	IAO:0000115	
-WARN	missing_definition	VO:0019505	IAO:0000115	
 WARN	missing_definition	VO:0019506	IAO:0000115	
 WARN	missing_definition	VO:0019507	IAO:0000115	
 WARN	missing_definition	VO:0019508	IAO:0000115	
@@ -10779,7 +10198,6 @@ WARN	missing_definition	VO:0019525	IAO:0000115
 WARN	missing_definition	VO:0019526	IAO:0000115	
 WARN	missing_definition	VO:0019527	IAO:0000115	
 WARN	missing_definition	VO:0019528	IAO:0000115	
-WARN	missing_definition	VO:0019529	IAO:0000115	
 WARN	missing_definition	VO:0019530	IAO:0000115	
 WARN	missing_definition	VO:0019531	IAO:0000115	
 WARN	missing_definition	VO:0019532	IAO:0000115	
@@ -11525,9 +10943,6 @@ WARN	missing_definition	VO:0020271	IAO:0000115
 WARN	missing_definition	VO:0020272	IAO:0000115	
 WARN	missing_definition	VO:0020273	IAO:0000115	
 WARN	missing_definition	VO:0020274	IAO:0000115	
-WARN	missing_definition	VO:0020275	IAO:0000115	
-WARN	missing_definition	VO:0020276	IAO:0000115	
-WARN	missing_definition	VO:0020277	IAO:0000115	
 WARN	missing_definition	VO:0020278	IAO:0000115	
 WARN	missing_definition	VO:0020279	IAO:0000115	
 WARN	missing_definition	VO:0020280	IAO:0000115	
@@ -11657,7 +11072,6 @@ WARN	missing_definition	VO:0020405	IAO:0000115
 WARN	missing_definition	VO:0020406	IAO:0000115	
 WARN	missing_definition	VO:0020407	IAO:0000115	
 WARN	missing_definition	VO:0020408	IAO:0000115	
-WARN	missing_definition	VO:0020409	IAO:0000115	
 WARN	missing_definition	VO:0020410	IAO:0000115	
 WARN	missing_definition	VO:0020411	IAO:0000115	
 WARN	missing_definition	VO:0020412	IAO:0000115	
@@ -11668,9 +11082,7 @@ WARN	missing_definition	VO:0020416	IAO:0000115
 WARN	missing_definition	VO:0020417	IAO:0000115	
 WARN	missing_definition	VO:0020418	IAO:0000115	
 WARN	missing_definition	VO:0020419	IAO:0000115	
-WARN	missing_definition	VO:0020420	IAO:0000115	
 WARN	missing_definition	VO:0020421	IAO:0000115	
-WARN	missing_definition	VO:0020422	IAO:0000115	
 WARN	missing_definition	VO:0020423	IAO:0000115	
 WARN	missing_definition	VO:0020424	IAO:0000115	
 WARN	missing_definition	VO:0020425	IAO:0000115	
@@ -11680,9 +11092,7 @@ WARN	missing_definition	VO:0020428	IAO:0000115
 WARN	missing_definition	VO:0020429	IAO:0000115	
 WARN	missing_definition	VO:0020430	IAO:0000115	
 WARN	missing_definition	VO:0020431	IAO:0000115	
-WARN	missing_definition	VO:0020432	IAO:0000115	
 WARN	missing_definition	VO:0020433	IAO:0000115	
-WARN	missing_definition	VO:0020434	IAO:0000115	
 WARN	missing_definition	VO:0020435	IAO:0000115	
 WARN	missing_definition	VO:0020436	IAO:0000115	
 WARN	missing_definition	VO:0020437	IAO:0000115	
@@ -11693,8 +11103,6 @@ WARN	missing_definition	VO:0020441	IAO:0000115
 WARN	missing_definition	VO:0020442	IAO:0000115	
 WARN	missing_definition	VO:0020443	IAO:0000115	
 WARN	missing_definition	VO:0020444	IAO:0000115	
-WARN	missing_definition	VO:0020445	IAO:0000115	
-WARN	missing_definition	VO:0020446	IAO:0000115	
 WARN	missing_definition	VO:0020447	IAO:0000115	
 WARN	missing_definition	VO:0020448	IAO:0000115	
 WARN	missing_definition	VO:0020449	IAO:0000115	
@@ -11707,13 +11115,9 @@ WARN	missing_definition	VO:0020455	IAO:0000115
 WARN	missing_definition	VO:0020456	IAO:0000115	
 WARN	missing_definition	VO:0020457	IAO:0000115	
 WARN	missing_definition	VO:0020458	IAO:0000115	
-WARN	missing_definition	VO:0020459	IAO:0000115	
 WARN	missing_definition	VO:0020460	IAO:0000115	
-WARN	missing_definition	VO:0020461	IAO:0000115	
 WARN	missing_definition	VO:0020462	IAO:0000115	
-WARN	missing_definition	VO:0020463	IAO:0000115	
 WARN	missing_definition	VO:0020464	IAO:0000115	
-WARN	missing_definition	VO:0020465	IAO:0000115	
 WARN	missing_definition	VO:0020466	IAO:0000115	
 WARN	missing_definition	VO:0020467	IAO:0000115	
 WARN	missing_definition	VO:0020468	IAO:0000115	
@@ -11723,7 +11127,6 @@ WARN	missing_definition	VO:0020471	IAO:0000115
 WARN	missing_definition	VO:0020472	IAO:0000115	
 WARN	missing_definition	VO:0020473	IAO:0000115	
 WARN	missing_definition	VO:0020474	IAO:0000115	
-WARN	missing_definition	VO:0020475	IAO:0000115	
 WARN	missing_definition	VO:0020476	IAO:0000115	
 WARN	missing_definition	VO:0020477	IAO:0000115	
 WARN	missing_definition	VO:0020478	IAO:0000115	
@@ -12392,8 +11795,8 @@ WARN	missing_definition	VO:0021176	IAO:0000115
 WARN	missing_definition	VO:0021177	IAO:0000115	
 WARN	missing_definition	VO:0021178	IAO:0000115	
 WARN	missing_definition	VO:0021179	IAO:0000115	
+WARN	missing_definition	VO:0021180	IAO:0000115	
 WARN	missing_definition	obo:ncbitaxon#has_rank	IAO:0000115	
-WARN	missing_definition	oboInOwl:hasDbXref	IAO:0000115	
 WARN	missing_obsolete_label	RO:0004096	rdfs:label	DEPRECATED inheres in@en
 WARN	missing_obsolete_label	RO:0004097	rdfs:label	DEPRECATED bearer of@en
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/RO_0002259	rdfs:subPropertyOf	
@@ -12476,6 +11879,8 @@ WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	"p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en"
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	"b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en"
@@ -12511,7 +11916,7 @@ INFO	lowercase_definition	OBI:0000017	IAO:0000115	"a role which inheres in mater
 INFO	lowercase_definition	OBI:0000067	IAO:0000115	a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role@en
 INFO	lowercase_definition	OBI:0000181	IAO:0000115	"a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area@en"
 INFO	lowercase_definition	OBI:0000274	IAO:0000115	is a process with the objective to place a material entity bearing the 'material to be added role' into a material bearing the 'target of material addition role'.@en
-INFO	lowercase_definition	OBI:0000281	IAO:0000115	is the injection of a material entity (bearing the administered substance role) into the peritoneum (bearing the target role) of an organism using a syringe
+INFO	lowercase_definition	OBI:0000281	IAO:0000115	is the injection of a material entity (bearing the administered substance role) into the peritoneum (bearing the target role) of an organism using a syringe@en
 INFO	lowercase_definition	OBI:0000304	IAO:0000115	"c is_manufactured_by o means that there was a process p in which c was built in which a person, or set of people or machines did the work(bore the \""Manufacturer Role\"", and those people/and or machines were members or of directed by the organization to do this.@en"
 INFO	lowercase_definition	OBI:0000426	IAO:0000115	"injection is process which aims at introducing a compound or a mixture into a material entity (either biological entity or instrument) by relying on devices such as syringe or injector connection, attached or forced into a vascular system (veins of an organism or tubes of a machine) or in a tissue.@en"
 INFO	lowercase_definition	OBI:0000434	IAO:0000115	is the specification of an objective to add a material into a target material. The adding is asymmetric in the sense that the target material largely retains its identity@en
@@ -12519,17 +11924,17 @@ INFO	lowercase_definition	OBI:0000441	IAO:0000115	an objective specification to 
 INFO	lowercase_definition	OBI:0000456	IAO:0000115	an objective specifiction that creates an specific output object from input materials.@en
 INFO	lowercase_definition	OBI:0000458	IAO:0000115	is the objective to manufacture a material of a certain function (device)@en
 INFO	lowercase_definition	OBI:0000576	IAO:0000115	a material entity that consists of all the molecules of a specific type that are located in some bounded region and which is part of a more massive material entity that has parts that are other such aggregates@en
-INFO	lowercase_definition	OBI:0000643	IAO:0000115	"the relation of the cells in the finger of the skin to the finger, in which an indeterminate number of grains are parts of the whole by virtue of being grains in a collective that is part of the whole, and in which removing one granular part does not nec- essarily damage or diminish the whole. Ontological Whether there is a fixed, or nearly fixed number of parts - e.g. fingers of the hand, chambers of the heart, or wheels of a car - such that there can be a notion of a single one being missing, or whether, by contrast, the number of parts is indeterminate - e.g., cells in the skin of the hand, red cells in blood, or rubber molecules in the tread of the tire of the wheel of the car."
-INFO	lowercase_definition	OBI:0000652	IAO:0000115	is a material processing with the objective to combine two or more material entities as input into a single material entity as output.
-INFO	lowercase_definition	OBI:0000675	IAO:0000115	is a data transformation objective where the aim is to estimate statistical significance with the aim of proving or disproving a hypothesis by means of some data transformation.
-INFO	lowercase_definition	OBI:0000685	IAO:0000115	is a process with the objective to prepare a liquid solution of one or more chemicals at desired concentrations.
-INFO	lowercase_definition	OBI:0000686	IAO:0000115	is an objective to obtain an output material that contains several input materials.
-INFO	lowercase_definition	OBI:0000718	IAO:0000115	pathogen role is a role which inheres in an organism and realized in the process of disease course in the organism bearing host role caused by the organism bearing pathogen role
-INFO	lowercase_definition	OBI:0000725	IAO:0000115	"host role is a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism within the organism playing the host role"
+INFO	lowercase_definition	OBI:0000643	IAO:0000115	"the relation of the cells in the finger of the skin to the finger, in which an indeterminate number of grains are parts of the whole by virtue of being grains in a collective that is part of the whole, and in which removing one granular part does not nec- essarily damage or diminish the whole. Ontological Whether there is a fixed, or nearly fixed number of parts - e.g. fingers of the hand, chambers of the heart, or wheels of a car - such that there can be a notion of a single one being missing, or whether, by contrast, the number of parts is indeterminate - e.g., cells in the skin of the hand, red cells in blood, or rubber molecules in the tread of the tire of the wheel of the car.@en"
+INFO	lowercase_definition	OBI:0000652	IAO:0000115	is a material processing with the objective to combine two or more material entities as input into a single material entity as output.@en
+INFO	lowercase_definition	OBI:0000675	IAO:0000115	is a data transformation objective where the aim is to estimate statistical significance with the aim of proving or disproving a hypothesis by means of some data transformation.@en
+INFO	lowercase_definition	OBI:0000685	IAO:0000115	is a process with the objective to prepare a liquid solution of one or more chemicals at desired concentrations.@en
+INFO	lowercase_definition	OBI:0000686	IAO:0000115	is an objective to obtain an output material that contains several input materials.@en
+INFO	lowercase_definition	OBI:0000718	IAO:0000115	pathogen role is a role which inheres in an organism and realized in the process of disease course in the organism bearing host role caused by the organism bearing pathogen role@en
+INFO	lowercase_definition	OBI:0000725	IAO:0000115	"host role is a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism within the organism playing the host role@en"
 INFO	lowercase_definition	OBI:0000750	IAO:0000115	"a directive information entity that is part of a study design. Independent variables are entities whose values are selected to determine its relationship to an observed phenomenon (the dependent variable). In such an experiment, an attempt is made to find evidence that the values of the independent variable determine the values of the dependent variable (that which is being measured). The independent variable can be changed as required, and its values do not represent a problem requiring explanation in an analysis, but are taken simply as given. The dependent variable on the other hand, usually cannot be directly controlled@en"
 INFO	lowercase_definition	OBI:0000751	IAO:0000115	dependent variable specification is part of a study design. The dependent variable is the event studied and expected to change when the independent variable varies.@en
-INFO	lowercase_definition	OBI:0000969	IAO:0000115	a directive information entity that describes the dose that will be administered to a target
-INFO	lowercase_definition	OBI:0302731	IAO:0000115	a role which inheres in some molecular entity realized during the process of buffering
+INFO	lowercase_definition	OBI:0000969	IAO:0000115	a directive information entity that describes the dose that will be administered to a target@en
+INFO	lowercase_definition	OBI:0302731	IAO:0000115	a role which inheres in some molecular entity realized during the process of buffering@en
 INFO	lowercase_definition	OBI:0302732	IAO:0000115	solvent role is a role which inheres in a molecular entity capable of ensuring the dissolution of another chemical entity and realized by the process of solvation@en
 INFO	lowercase_definition	OBI:0302733	IAO:0000115	solute role is a role played by a chemical entity which is dissolved by another chemical entity (the solvent) when creating a solution@en
 INFO	lowercase_definition	OGG:0000000007	IAO:0000115	the NCBI LocusTag name of a gene 
@@ -12606,9 +12011,7 @@ INFO	lowercase_definition	VO:0000228	IAO:0000115	a vaccine component that contai
 INFO	lowercase_definition	VO:0000243	IAO:0000115	assay of CFU reduction in spleen is a CFU reduction assay that is measured using the extracted spleen as the tissue for isolation of infected pathogens.
 INFO	lowercase_definition	VO:0000263	IAO:0000115	sodBFt is a live vaccine strain mutant of Francisella tularensis with reduced Fe-superoxide dismutase gene expression. Ref: PMID:18692537.
 INFO	lowercase_definition	VO:0000283	IAO:0000115	a viral vaccine vector that uses a herpesvirus as the vector.
-INFO	lowercase_definition	VO:0000288	IAO:0000115	a processual entity that specifies host response to a vaccine.
 INFO	lowercase_definition	VO:0000289	IAO:0000115	a process that specifies host response to a vaccine adjuvant.
-INFO	lowercase_definition	VO:0000290	IAO:0000115	a processual entity that specifies host response to a vaccine component.
 INFO	lowercase_definition	VO:0000291	IAO:0000115	a process that specifies host response to a vaccine antigen.
 INFO	lowercase_definition	VO:0000292	IAO:0000115	a process that specifies host response to a vaccine vector.
 INFO	lowercase_definition	VO:0000310	IAO:0000115	a vaccine additive that stabilizes the vaccine emulsification manufacturing process and makes emulsion of the vaccine easier. 
@@ -12651,8 +12054,6 @@ INFO	lowercase_definition	VO:0000487	IAO:0000115	a S. typhi vaccine that is live
 INFO	lowercase_definition	VO:0000489	IAO:0000115	a licensed vaccine role that is bears in a licensed human vaccine.
 INFO	lowercase_definition	VO:0000493	IAO:0000115	natural active immunization is an active immunization that occur naturally when a person or animal comes in contact with antigens includeing microbes.
 INFO	lowercase_definition	VO:0000495	IAO:0000115	"induction of adaptive immune response to antigen is an active immunization process that results in induction of adaptive immune response to some antigens, for example, in a vaccine."
-INFO	lowercase_definition	VO:0000496	IAO:0000115	disorder prevention is a processual entity that prevents a disorder that is the physical basis of a disease.
-INFO	lowercase_definition	VO:0000497	IAO:0000115	disorder treatment is a processual entity that leads to treat a disorder that is the physical basis of a disease.
 INFO	lowercase_definition	VO:0000498	IAO:0000115	"modification of adaptive immune response to antigen is an active immunization process that results in modification of an adaptive immune response to some antigens, for example, in a therapeutic vaccine."
 INFO	lowercase_definition	VO:0000500	IAO:0000115	infection disorder prevention is a process that prevents a disorder that is the physical basis of an infectious disease.
 INFO	lowercase_definition	VO:0000504	IAO:0000115	a vaccine role that indicates the vaccine being a whole organism vaccine. 
@@ -12794,7 +12195,6 @@ INFO	lowercase_definition	VO:0001088	IAO:0000115	a viral vaccine vector that use
 INFO	lowercase_definition	VO:0001093	IAO:0000115	a vaccinia vaccine vector that uses the highly attenuated NYVAC  as vector
 INFO	lowercase_definition	VO:0001095	IAO:0000115	"passive immunization by injecting a recipient with pre-made antibody, antitoxin, epitope, etc."
 INFO	lowercase_definition	VO:0001102	IAO:0000115	a viral vaccine vector that uses a retroviral strain
-INFO	lowercase_definition	VO:0001103	IAO:0000115	inactivation is a processual entity that produces inactive material.
 INFO	lowercase_definition	VO:0001105	IAO:0000115	a bacterial vaccine against Lawsonia intracellularis infection
 INFO	lowercase_definition	VO:0001106	IAO:0000115	a poxvirus vaccine vector that uses a swinepox virus as the vector
 INFO	lowercase_definition	VO:0001107	IAO:0000115	a vaccinia virus vector that uses the Modified Vaccinia Ankara (MVA) virus. 
@@ -12804,8 +12204,6 @@ INFO	lowercase_definition	VO:0001110	IAO:0000115	a fertility vaccine that enhanc
 INFO	lowercase_definition	VO:0001112	IAO:0000115	a viral vaccine vector that uses a bovine parainfluenza virus strain as vector
 INFO	lowercase_definition	VO:0001114	IAO:0000115	a Bordetella bacterial vaccine against infection of B. avium
 INFO	lowercase_definition	VO:0001115	IAO:0000115	a poxvirus vaccine vector that uses an attenuated capripoxvirus strain as the vaccine vector
-INFO	lowercase_definition	VO:0001116	IAO:0000115	survival of live vaccine inside host is a processual entity that represents the survival of a live vaccine inside its host. The time of the survival is often important for the success of the live vaccine.
-INFO	lowercase_definition	VO:0001117	IAO:0000115	persistence of vaccine induced immune response is a processual entity that indicates the persistence of an immune reponse induced by a vaccine in a vaccinated host.
 INFO	lowercase_definition	VO:0001118	IAO:0000115	a bacterial vaccine vector that uses a Corynebacterium pseudotuberculosis strain as the vaccine vector
 INFO	lowercase_definition	VO:0001121	IAO:0000115	a viral vaccine vector that uses a rhabdovirus-based viral strain as the vaccine vector
 INFO	lowercase_definition	VO:0001122	IAO:0000115	a recombinant vaccine vector that uses Saccharomyces cerevisiae as the vaccine vector
@@ -12941,7 +12339,7 @@ INFO	lowercase_definition	VO:0003026	IAO:0000115	"a role inheres in vaccine comp
 INFO	lowercase_definition	VO:0003027	IAO:0000115	a protein vaccine stablizer that is specifically human serum albumin.
 INFO	lowercase_definition	VO:0003028	IAO:0000115	the serum albumin that is part of human
 INFO	lowercase_definition	VO:0003029	IAO:0000115	a vaccine stabilizer that is gelatin.
-INFO	lowercase_definition	VO:0003031	IAO:0000115	a vaccine-induced host gene response that represents a vaccine adverse event response associated with a host susceptibility gene.
+INFO	lowercase_definition	VO:0003031	IAO:0000115	a vaccine-induced gene response that represents a vaccine adverse event response associated with a host susceptibility gene.
 INFO	lowercase_definition	VO:0003033	IAO:0000115	a protein vaccine stablizer that is specifically bovine serum albumin. 
 INFO	lowercase_definition	VO:0003034	IAO:0000115	a vaccine stabilizer that is specifically made by a sugar.
 INFO	lowercase_definition	VO:0003035	IAO:0000115	a vaccine stabilizer that is generated based on amino acids. 

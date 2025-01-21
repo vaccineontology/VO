@@ -15,6 +15,8 @@ https://violinet.org/vaccineontology
 ### VO Source Link (free for downloading):
 OWL format: https://raw.githubusercontent.com/vaccineontology/VO/master/src/VO_merged.owl
 
+License: CC-BY - http://creativecommons.org/licenses/by/4.0/ 
+
 ### Tracker link:  
 https://github.com/vaccineontology/VO/issues 
 

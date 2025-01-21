@@ -94,6 +94,12 @@ def update_values_script(columns_to_update, file_path, new_label_file_path, part
     def label_update(cell_value, column_name, row_idx, col_idx, modified_flags):
         """
         Updates cell values based on a dictionary of new labels.
+        Parameters:
+        - cell_value: Original value of the cell.
+        - column_name: Name of the column.
+        - row_idx: Row index of the cell.
+        - col_idx: Column index of the cell.
+        - modified_flags: Tracks whether a row was modified.
         """
         # === Handle Edge Cases ===
         # Skip null or NaN values
@@ -189,18 +195,24 @@ if __name__ == "__main__":
     # Example Usage:
 
     # 1. Define the path to your input CSV file (the data file you want to modify).
+    #    Replace 'your_input_file.csv' with the actual file path to your data file.
     file_path = 'your_input_file.csv'
 
     # 2. Define the path to the CSV file containing the new label mappings.
+    #    Replace 'your_new_label_file.csv' with the actual file path to your label mapping file.
     new_label_file_path = 'your_new_label_file.csv'
 
     # 3. Specify the list of column names where label updates are required.
+    #    Modify the list below with the column names you want to process.
+    
     columns_to_update = ['column_1', 'column_2', 'column_3']
 
     # 4. Specify the partitioner to use for tokenization (default is '|')
     partitioner = '|'
 
-    # 5. Run the script
+    # 5. Call the `update_values_script` function with the specified arguments.
+    #    This will update the specified columns in the input file based on the new label mappings,
+    #    generate a log file for modifications, and save the modified data.
     update_values_script(columns_to_update, file_path, new_label_file_path, partitioner)
 
 '''# Example:

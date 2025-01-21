@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/OPMI_import.owl
+
+[Source ontology]
+OPMI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OPMI_0000445 #biomarker
+http://purl.obolibrary.org/obo/OPMI_0000446 #immune marker
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OPMI_0000445 #biomarker
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/OPMI_0000446 #immune marker
+subClassOf http://purl.obolibrary.org/obo/OPMI_0000445 #biomarker
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+[Source annotation URIs]
+includeAllAxiomsRecursively

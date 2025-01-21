@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/vo.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/vo_edit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/vo_edit.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -16,7 +16,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo_edit.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
@@ -34,6 +34,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/dev/vo_CVX_code.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/dev/vo_RxNorm.owl"/>
 	<owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/dev/vo_FDA.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/dev/vo_VIOLIN.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/dev/vo_objectProp.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/dev/obsolete.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl"/>
@@ -49,6 +50,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/OGG_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/OPL_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/OPMI_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/PATO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/PR_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/RO_import.owl"/>
@@ -247,14 +249,6 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
-
-    <rdf:Description rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label>database_cross_reference</rdfs:label>
-    </rdf:Description>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
@@ -367,63 +361,6 @@
         <oboInOwl:hasDbXref>UniProtKB:P0DTC4</oboInOwl:hasDbXref>
         <rdfs:label>envelope small membrane protein (SARS-CoV-2)</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005440"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005441"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005442"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005443"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005444"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005445"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005446"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005440"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005441"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005442"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005443"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005444"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005445"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005446"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005447"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005440"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005441"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005442"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005443"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005444"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005445"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005446"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005447"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005448"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005449"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005450"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005451"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005452"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005453"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005454"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005455"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 

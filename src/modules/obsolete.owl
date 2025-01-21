@@ -46,6 +46,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
@@ -86,7 +92,10 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000638">
         <obo:IAO_0000112>&quot;A vaccinates B&quot; means that the vaccine A is used for vaccinating the host B (e.g., human).</obo:IAO_0000112>
         <obo:IAO_0000115>A relation between a vaccine instance and an organism type such that if the vaccine instance is given to an instance of the organism by the process vaccination, then it changes the organism&apos;s disposition to have an immune response against a disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, AR, ZX, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Alan Ruttenburg</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label>obsolete vaccinates</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -97,7 +106,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000711">
         <obo:IAO_0000115>has_vaccine_allegen is a relation that specifies an allegen to a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label>obsolete has_vaccine_allergen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -152,7 +161,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000197">
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001448"/>
@@ -165,7 +174,8 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000217">
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000026"/>
@@ -175,11 +185,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000309">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000632"/>
+        <rdfs:label>obsolete vaccine-induced antibody mediated immune response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000390 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000390">
         <obo:IAO_0000115>Vaccine that used for immunizing birds.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001461"/>
         <rdfs:label>obsolete birds vaccine</rdfs:label>
@@ -193,7 +215,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000489">
         <obo:IAO_0000115>a licensed vaccine role that is bears in a licensed human vaccine.</obo:IAO_0000115>
         <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label>obsolete licensed human vaccine role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -206,7 +228,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000507">
         <obo:IAO_0000115>A Canada  licensed vaccine role that indicates the vaccine is for veterinary uses.</obo:IAO_0000115>
         <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label>obsolete Canada licensed veterinary vaccine role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -219,7 +241,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000551">
         <obo:IAO_0000115>a licensed vaccine role that is bears in a licensed veterinary vaccine.</obo:IAO_0000115>
         <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label>obsolete licensed veterinary vaccine role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -242,9 +264,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000605">
         <obo:IAO_0000115>A Canada licensed vaccine role that indicates the vaccine is used for human</obo:IAO_0000115>
         <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label>obsolete Canada licensed human vaccine role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000748">
+        <obo:IAO_0000115>A viral vaccine that protects against infection with Papillomavirus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003538"/>
+        <rdfs:label>obsolete Papillomavirus vaccine</rdfs:label>
+        <rdfs:seeAlso>MeSH: D053918</rdfs:seeAlso>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -254,7 +291,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000779">
         <obo:IAO_0000115>An Ebola virus vaccine that is composed of VEE replicon particle (VRP) encoding Ebola virus NP protein.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0011387"/>
@@ -296,7 +333,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0000986 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000986">
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000461"/>
@@ -306,11 +343,66 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001030">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete vaccine-induced mouse immune response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001459">
+        <obo:IAO_0000115>protozoan vaccine that is used to protect against Eimeria spp. (Eimeria) infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/762"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000906"/>
+        <rdfs:label>obsolete Eimeria spp. vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001463">
+        <obo:IAO_0000115>viral vaccine that is used to protect against Fowlpox virus infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000985"/>
+        <rdfs:label>obsolete Fowlpox virus vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001482">
+        <obo:IAO_0000115>viral vaccine that is used to protect against Bovine herpesvirus 1 infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>BHV-1 vaccine</obo:IAO_0000118>
+        <obo:IAO_0000118>Bovine rhinotracheitis vaccine</obo:IAO_0000118>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000987"/>
+        <rdfs:label>obsolete bovine herpesvirus 1 vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0002187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002187">
         <obo:IAO_0000116>generated using OntoRat</obo:IAO_0000116>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001826"/>
@@ -326,7 +418,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002188">
         <obo:IAO_0000116>generated using OntoRat</obo:IAO_0000116>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001827"/>
@@ -342,7 +434,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002189">
         <obo:IAO_0000116>generated using OntoRat</obo:IAO_0000116>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001828"/>
@@ -358,7 +450,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002190">
         <obo:IAO_0000116>generated using OntoRat</obo:IAO_0000116>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001829"/>
@@ -374,7 +466,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002191">
         <obo:IAO_0000116>generated using OntoRat</obo:IAO_0000116>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001830"/>
@@ -390,7 +482,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002192">
         <obo:IAO_0000116>generated using OntoRat</obo:IAO_0000116>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001831"/>
@@ -406,7 +498,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002194">
         <obo:IAO_0000116>generated using OntoRat</obo:IAO_0000116>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001825"/>
@@ -421,7 +513,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002520 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002520">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002519"/>
@@ -436,7 +529,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002527 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002527">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002526"/>
@@ -451,7 +545,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002537 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002537">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002536"/>
@@ -466,7 +561,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002539 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002539">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002538"/>
@@ -481,7 +577,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002552 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002552">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002551"/>
@@ -496,7 +593,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002581 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002581">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002580"/>
@@ -511,7 +609,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002582 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002582">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002580"/>
@@ -526,7 +625,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002611 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002611">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002610"/>
@@ -541,7 +641,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002615">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002614"/>
@@ -556,7 +657,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002618 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002618">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002617"/>
@@ -571,7 +673,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002623 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002623">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002622"/>
@@ -586,7 +689,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002624">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002622"/>
@@ -601,7 +705,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002636">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002635"/>
@@ -616,7 +721,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002638 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002638">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002637"/>
@@ -631,7 +737,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002640 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002640">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002639"/>
@@ -646,7 +753,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002647 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002647">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002646"/>
@@ -661,7 +769,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002649 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002649">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002648"/>
@@ -676,7 +785,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002669">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002668"/>
@@ -691,7 +801,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002670 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002670">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002668"/>
@@ -706,7 +817,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002671">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002668"/>
@@ -721,7 +833,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002673">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002672"/>
@@ -736,7 +849,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002676 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002676">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002675"/>
@@ -751,7 +865,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002679">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002678"/>
@@ -766,7 +881,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002681 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002681">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002680"/>
@@ -781,7 +897,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002683 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002683">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002682"/>
@@ -796,7 +913,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002750 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002750">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002749"/>
@@ -811,7 +929,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002752 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002752">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002751"/>
@@ -826,7 +945,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002754 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002754">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002753"/>
@@ -841,7 +961,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002764 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002764">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002763"/>
@@ -856,7 +977,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002770 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002770">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0011385"/>
@@ -870,7 +992,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002772 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002772">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002771"/>
@@ -884,7 +1007,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002773 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002773">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002769"/>
@@ -898,7 +1022,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002774 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002774">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002768"/>
@@ -912,7 +1037,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002778 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002778">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002777"/>
@@ -926,7 +1052,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002790 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002790">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000588"/>
@@ -940,7 +1067,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002794 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002794">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000564"/>
@@ -954,7 +1082,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002800 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002800">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0011386"/>
@@ -968,7 +1097,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002804 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002804">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002803"/>
@@ -982,7 +1112,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002806 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002806">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002802"/>
@@ -997,7 +1128,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002813">
         <obo:IAO_0000115>A vaccine that prevents or treats a non-infectious disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, RS</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/12831367</obo:IAO_0000119>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:comment>There are mainly five types of non-infectious diseases, which are diabetes, allergies, cardiovascular diseases, cancer and genetic diseases. URL: http://www.ychlpyss.edu.hk/~bio/share/0405/f6homework/Non-infectious%20disease/noninfectiousdisease(ths).htm</rdfs:comment>
@@ -1010,7 +1142,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002814 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002814">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002810"/>
@@ -1025,7 +1158,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002821 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002821">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002820"/>
@@ -1039,7 +1173,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002822 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002822">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002810"/>
@@ -1053,7 +1188,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002834 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002834">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002832"/>
@@ -1067,7 +1203,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002835 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002835">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002831"/>
@@ -1081,7 +1218,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002848 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002848">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000307"/>
@@ -1095,7 +1233,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002851 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002851">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002849"/>
@@ -1109,7 +1248,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002860 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002860">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002858"/>
@@ -1123,7 +1263,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002861 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002861">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002859"/>
@@ -1137,7 +1278,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002866 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002866">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002864"/>
@@ -1151,7 +1293,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002873 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002873">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002872"/>
@@ -1165,7 +1308,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002874 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002874">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002872"/>
@@ -1179,7 +1323,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002875 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002875">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002870"/>
@@ -1193,7 +1338,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002880 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002880">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002878"/>
@@ -1207,7 +1353,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002884 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002884">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002871"/>
@@ -1221,7 +1368,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002886 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002886">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002885"/>
@@ -1235,7 +1383,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002887 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002887">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002885"/>
@@ -1249,7 +1398,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002888 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002888">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002885"/>
@@ -1263,7 +1413,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002889 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002889">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002881"/>
@@ -1277,7 +1428,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002890 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002890">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002881"/>
@@ -1291,7 +1443,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002891 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002891">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002876"/>
@@ -1305,7 +1458,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002894 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002894">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002877"/>
@@ -1319,7 +1473,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002896 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002896">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002895"/>
@@ -1333,7 +1488,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002898 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002898">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002895"/>
@@ -1347,7 +1503,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002899 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002899">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002897"/>
@@ -1361,7 +1518,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002906 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002906">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002868"/>
@@ -1375,7 +1533,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002907 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002907">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002876"/>
@@ -1389,7 +1548,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002910 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002910">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002905"/>
@@ -1403,7 +1563,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002916 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002916">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002915"/>
@@ -1417,7 +1578,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002917 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002917">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002915"/>
@@ -1431,7 +1593,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002918 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002918">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002920"/>
@@ -1445,7 +1608,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002919 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002919">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000676"/>
@@ -1459,7 +1623,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002921 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002921">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000678"/>
@@ -1473,7 +1638,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002926">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002920"/>
@@ -1487,7 +1653,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002929 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002929">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002928"/>
@@ -1501,7 +1668,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002930 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002930">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002928"/>
@@ -1515,7 +1683,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002931 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002931">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002928"/>
@@ -1529,7 +1698,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002932 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002932">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000678"/>
@@ -1543,7 +1713,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002933 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002933">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000678"/>
@@ -1557,7 +1728,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002940">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002939"/>
@@ -1571,7 +1743,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002945 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002945">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002944"/>
@@ -1585,7 +1758,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002962 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002962">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002961"/>
@@ -1599,7 +1773,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002963 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002963">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002961"/>
@@ -1613,7 +1788,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002965 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002965">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002964"/>
@@ -1627,7 +1803,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002975 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002975">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0011423"/>
@@ -1641,7 +1818,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002984 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002984">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002983"/>
@@ -1655,7 +1833,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002987 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002987">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002986"/>
@@ -1669,7 +1848,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002988 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002988">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002983"/>
@@ -1683,7 +1863,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002997 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002997">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002996"/>
@@ -1697,7 +1878,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0002999 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002999">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <rdfs:comment>A PE2 mutant combined with a deletion in E1 (WE2130) induced low-level viremia in chickens and protected against challenge with wild type WEE after 2 weeks. This study also found that it is unlikely that mosquito transmission of this strain would occur</rdfs:comment>
@@ -1710,7 +1892,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0003001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003001">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003002"/>
@@ -1724,7 +1907,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0003004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003004">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003003"/>
         <rdfs:comment>A PE2 mutant combined with either a deletion in E2 (WE2102) or E1 (WE2130) induced low-level viremia in chickens and protected against challenge with wild type WEE after 2 weeks. This study also found that it is unlikely that mosquito transmission of these two strains would occur</rdfs:comment>
@@ -1737,7 +1921,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0003010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003010">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003009"/>
@@ -1751,7 +1936,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0003015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003015">
-        <obo:IAO_0000117>Rebecca Racz, Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003014"/>
@@ -1762,10 +1948,155 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003045">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B.suis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003056">
+        <obo:IAO_0000115>A viral vaccine against infection of a viral haemorrhagic septicaemia virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001224"/>
+        <rdfs:label>obsolete viral haemorrhagic septicaemia virus vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003057">
+        <obo:IAO_0000115>an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete augmented protection and cellular immunity using host protein as adjuvant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003063">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B.abortus</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003064">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B.canis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003065">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B.Melitensis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003068">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced host immune response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003077">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced protection against B. ovis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003086">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced immune protection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003087">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete RB51 induced immune response without protection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003124">
         <rdfs:label>obsolete Fluogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003228">
+        <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/830263</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019370"/>
+        <rdfs:label>obsolete 1 ML Hepatitis B Surface Antigen Vaccine 0.04 MG/ML Injection [Recombivax]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003233">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019369"/>
+        <rdfs:label>obsolete 1 ML Hepatitis B Surface Antigen Vaccine 0.04 MG/ML Injection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003234">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019179"/>
+        <rdfs:label>obsolete 0.5 ML Hepatitis B Surface Antigen Vaccine 0.04 MG/ML Injection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1784,10 +2115,74 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003956">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020289"/>
+        <rdfs:label>obsolete vibrio cholerae CVD 103-HGR strain live antigen 12000000 UNT/ML</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003964">
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1812947</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020290"/>
+        <rdfs:label>obsolete vibrio cholerae CVD 103-HGR strain live antigen 12000000 UNT/ML [Vaxchora]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004213">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019406"/>
+        <rdfs:label>obsolete BACILLUS ANTHRACIS STRAIN V770-NP1-R ANTIGENS 0.1 MG/ML</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0004216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004216">
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.bioontology.org/ontology/RXNORM/1799963</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019407"/>
+        <rdfs:label>obsolete BACILLUS ANTHRACIS STRAIN V770-NP1-R ANTIGENS 0.1 MG/ML [Biothrax]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0004262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004262">
-        <obo:IAO_0000117>RS, NF, YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000933"/>
@@ -1822,13 +2217,56 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0006020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006020">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0010446"/>
+        <rdfs:label>obsolete HPV unspecified formulation</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007188">
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/80"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007189"/>
+        <rdfs:label>obsolete 12 Melanoma Peptide Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007196">
+        <obo:IAO_0000117>Eliyas Asfaw</obo:IAO_0000117>
+        <obo:IAO_0000117>Ibrahim Seleznev</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007572"/>
+        <rdfs:label>obsolete Ad5-yCD/mutTKSR39rep-hIL12 Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0007471 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007471">
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Penny Pan</obo:IAO_0000117>
+        <obo:IAO_0000117>Yuanyi (Penny) Pan</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/487"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004398"/>
@@ -1839,11 +2277,44 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0007518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007518">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Yuanyi (Penny) Pan</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/517"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/768"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004431"/>
+        <rdfs:label>obsolete Melanoma DNA vaccine TA2M(TM) encoding tyrosinase peptides</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007529">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Justin Song</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Yuanyi (Penny) Pan</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/543"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004614"/>
+        <rdfs:label>obsolete mRNA-Electroporated Dendritic Cells Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0007576 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007576">
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5085</obo:IAO_0000119>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007283"/>
@@ -1857,7 +2328,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007577">
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007289"/>
         <rdfs:label>obsolete Autologous Dendritic Cell-Tumor Fusion Vaccine</rdfs:label>
@@ -1870,7 +2341,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007579">
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007301"/>
         <rdfs:label>obsolete Autologous Immunoglobulin Idiotype-KLH Conjugate Vaccine</rdfs:label>
@@ -1883,7 +2354,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007589">
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5399</obo:IAO_0000119>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007328"/>
@@ -1897,11 +2368,40 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007592">
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He </obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>VIOLIN: https://violinet.org/canvaxkb/vaccine_detail.php?c_vaccine_id=5476</obo:IAO_0000119>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007358"/>
         <rdfs:label>obsolete CD80 Breast Cancer Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010127">
+        <obo:IAO_0000117>Yuanyi Pan</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0010162"/>
+        <rdfs:label>obsolete Historical diphtheria and tetanus toxoids and acellular pertussis, poliovirus, Haemophilus b conjugate and hepatitis B (recombinant) vaccine.</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010727">
+        <obo:IAO_0000116>Menomune A/C/Y/W-135</obo:IAO_0000116>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000072"/>
+        <rdfs:comment>Trade Name: Menomune A/C/Y/W-135</rdfs:comment>
+        <rdfs:label>obsolete Menomune A/C/Y/W-135 vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1935,7 +2435,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0010917 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010917">
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0010916"/>
@@ -1949,7 +2450,8 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0011347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011347">
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000431"/>
@@ -1983,6 +2485,253 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0011482"/>
         <rdfs:comment>This term is obsolete since there is another term with the same name.</rdfs:comment>
         <rdfs:label>obsolete Td Polio Adsorbed</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015110">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019175"/>
+        <rdfs:label>obsolete 0.5 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015196">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019362"/>
+        <rdfs:label>obsolete 1 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0019505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0019505">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0015315"/>
+        <rdfs:label>obsolete hepatitis A vaccine (inactivated) strain HM175 Injectable Suspension</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0019529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0019529">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003230"/>
+        <rdfs:label>obsolete hepatitis B surface antigen vaccine 0.04 MG/ML</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020275">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020469"/>
+        <rdfs:label>obsolete typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020276">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020472"/>
+        <rdfs:label>obsolete typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020277">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020470"/>
+        <rdfs:label>obsolete typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typhim VI]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020409">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020410"/>
+        <rdfs:label>obsolete 0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI]</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020420">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020421"/>
+        <rdfs:label>obsolete Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020422">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020423"/>
+        <rdfs:label>obsolete Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020432">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020433"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] by Sanofi</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020434">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020435"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] by Waymade</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020445 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020445">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020444"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020446">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020447"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020459">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020460"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1 by Sanofi</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020461">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020462"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1 by Waymade</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020463">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020464"/>
+        <rdfs:label>obsolete 0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10 by Sanofi</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020465">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0020466"/>
+        <rdfs:label>obsolete 0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10 by Waymade</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0020475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0020475">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019351"/>
+        <rdfs:label>obsolete 0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
 </rdf:RDF>

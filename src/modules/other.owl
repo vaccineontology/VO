@@ -381,6 +381,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011"/>
@@ -445,7 +451,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000811"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>B cell epitope in vaccine</obo:IAO_0000118>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccine B cell epitope</rdfs:label>
@@ -457,7 +463,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>Balb/c mouse</rdfs:label>
     </owl:Class>
@@ -475,7 +481,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A jourmal article that mentions a vaccine, which was retrieved from PubMed and annotated using VO-SciMinner.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>PMID:21871085</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>vaccine related journal article</rdfs:label>
@@ -487,7 +493,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000811"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>T cell epitope in vaccine</obo:IAO_0000118>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccine T cell epitope</rdfs:label>
@@ -506,7 +512,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a vaccine organism that is live and attenuated</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>live attenuated vaccine organism</rdfs:label>
     </owl:Class>
@@ -518,7 +524,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
         <obo:IAO_0000115>Vaccination frequency is a qualitative term that represents how many times vaccination has occurred.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccination frequency</rdfs:label>
     </owl:Class>
@@ -530,7 +536,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that indicates the vaccine being a combination vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>combination vaccine role</rdfs:label>
     </owl:Class>
@@ -541,7 +547,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000148"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>agglutinating antibody role</rdfs:label>
     </owl:Class>
@@ -553,7 +559,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000617"/>
         <obo:IAO_0000115>a vaccine component role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH,YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>recombinant vaccine vector role</rdfs:label>
     </owl:Class>
@@ -565,7 +572,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000415"/>
         <obo:IAO_0000115>an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:comment>The Latin &quot;adjuvans&quot; means to help, particularly to reach a goal.
 
@@ -581,7 +588,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>antibody role</rdfs:label>
     </owl:Class>
@@ -594,7 +601,8 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>an organismal quality that indicates an organism (e.g., human) is immunized against a disease.</obo:IAO_0000115>
         <obo:IAO_0000116>To assign the state of &apos;immunized&apos;, we will need to do some assay to measure indicators of immunity, e.g., antibody titers in serum samples.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>immunized</rdfs:label>
     </owl:Class>
@@ -606,7 +614,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002146"/>
         <obo:IAO_0000115>a virulence of vaccine organism that shows an avirulent pheontype of the organism as the major component of a vaccine. The avirulence means that an vaccine organism is not virulent and does not cause pathogenic phenotype in a host organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccine organism avirulent</rdfs:label>
     </owl:Class>
@@ -618,7 +626,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002146"/>
         <obo:IAO_0000115>a virulence of vaccine organism that shows an attenuated pheontype of the organism as the major component of a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccine organism live attenuated</rdfs:label>
     </owl:Class>
@@ -630,7 +638,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
         <obo:IAO_0000115>a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>FDA licensed vaccine role</rdfs:label>
     </owl:Class>
@@ -642,7 +650,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000207">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000055"/>
         <obo:IAO_0000115>A vaccine contraindication is a contraindication that increases the risks of a vaccination. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>contraindication for vaccination</obo:IAO_0000118>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>vaccine contraindication</rdfs:label>
@@ -655,7 +663,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that is not licensed or in clinical trial; instead, it has been experimently approved to induce protection or treatment effect in vivo in at least an experimental animal model. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine in research role</rdfs:label>
     </owl:Class>
@@ -667,7 +675,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000211">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001139"/>
         <obo:IAO_0000115>an organismal quality of a whole organism vaccine where the whole organism is inactivated/killed and lacks the capability of replication. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine organism killed</obo:IAO_0000118>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccine organism inactivated</rdfs:label>
@@ -679,7 +687,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000207"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>hypersensitivity to chicken product</rdfs:label>
     </owl:Class>
@@ -690,7 +698,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000213"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>hypersensitivity to chicken egg</rdfs:label>
     </owl:Class>
@@ -701,7 +709,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000207"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>hypersensitivity to antibiotic</rdfs:label>
     </owl:Class>
@@ -712,7 +720,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000224"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>hypersensitivity to neomycin</rdfs:label>
     </owl:Class>
@@ -723,7 +731,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000226">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000224"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>hypersensitivity to polymyxin</rdfs:label>
     </owl:Class>
@@ -734,7 +742,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000207"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>reaction to previous vaccination</rdfs:label>
     </owl:Class>
@@ -745,7 +753,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000227"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>life-threatening reaction to previous vaccination</rdfs:label>
     </owl:Class>
@@ -756,7 +764,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000233"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>life-threatening reaction to previous influenza vaccination</rdfs:label>
     </owl:Class>
@@ -767,7 +775,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000224"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>hypersensitivity to gentamicin</rdfs:label>
     </owl:Class>
@@ -778,7 +786,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000238">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000811"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>dominant epitope in vaccine</obo:IAO_0000118>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccine dominant epitope</rdfs:label>
@@ -790,7 +798,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000240">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000207"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>hypersensitity to gelatin</rdfs:label>
     </owl:Class>
@@ -802,7 +810,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000207"/>
         <obo:IAO_0000116>Arginine is a conditionally essential amino acid, meaning most of the time it can be manufactured by the human body, and does not need to be obtained directly through the diet. The biosynthetic pathway however does not produce sufficient arginine, and some must still be consumed through diet. Individuals who have poor nutrition or certain physical conditions may be advised to increase their intake of foods containing arginine. Infants are unable to meet their requirements and thus arginine is nutritionally essential for infants.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>hypersensitity to arginine</rdfs:label>
     </owl:Class>
@@ -817,7 +825,8 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 to be eaten.</obo:IAO_0000115>
         <obo:IAO_0000116>Melanie has submitted this term and its two subclasses to obo:
 http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&amp;atid=595654</obo:IAO_0000116>
-        <obo:IAO_0000117>YH, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>edibility</rdfs:label>
     </owl:Class>
@@ -829,7 +838,7 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000246">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000245"/>
         <obo:IAO_0000115>A quality of edibility that inheres in a bearer by virtue of the bearer being suitable for oral ingestion as food, drug, or vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:comment>This term may be submitted to PATO.</rdfs:comment>
         <rdfs:label>edible</rdfs:label>
@@ -847,7 +856,7 @@ VE(%) = (U - V)/U x 100
 where U = the incidence in unvaccinated people and 
 V = the incidence in vaccinated people.
 Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Editors: Plotkin S, et al. 2008. p1542-71.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccine efficacy</rdfs:label>
     </owl:Class>
@@ -858,7 +867,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000207"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>history of asthma</rdfs:label>
     </owl:Class>
@@ -869,7 +878,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000255">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000207"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>usage of bronchodilator</rdfs:label>
     </owl:Class>
@@ -880,7 +889,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000207"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>usage of steroid</rdfs:label>
     </owl:Class>
@@ -891,7 +900,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000266">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>fungal disease</rdfs:label>
     </owl:Class>
@@ -912,10 +921,13 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
         <obo:IAO_0000115>To induce or modify protective or therapeutic immune response against a disease.</obo:IAO_0000115>
         <obo:IAO_0000116>PERSPN: Oliver He: There has been hot discussion about whether we use &apos;vaccine function&apos; or &apos;vaccine role&apos;. Vaccine role may not be the good term to use. Vaccine is designed to be &apos;vaccine&apos;, so it should be vaccine function. One special case is cowpox virus. The cowpox virus can be mixed with some liquid like water and used as a smallpox vaccine. In this case, people often say: the cowpox virus has a &apos;vaccine role&apos;. However, the cowpox virus vaccine is a processed material of a mix of the virus with water. The virus is a virus, it is not a vaccine per se. Therefore, vaccine role may not be an accurate term.</obo:IAO_0000116>
+        <obo:IAO_0000117>Alan Ruttenburg</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Barry Smith</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>YH, MC, XZ, and AR</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>vaccine function</rdfs:label>
     </owl:Class>
@@ -927,7 +939,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000299">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115>A legal organization that represents an association of people with a specific objective.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Company</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>company</rdfs:label>
@@ -940,7 +952,8 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000330">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000245"/>
         <obo:IAO_0000115>A quality of edibility that inheres in a bearer by virtue of the bearer being not suitable for oral ingestion.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>inedible</rdfs:label>
     </owl:Class>
@@ -952,7 +965,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000333">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
         <obo:IAO_0000115>Protozoa are a diverse group of unicellular eukaryotic organisms,[1] many of which are motile. Originally, protozoa had been defined as unicellular protists with animal-like behavior, e.g., movement. Protozoa were regarded as the partner group of protists to protophyta, which have plant-like behaviour, e.g., photosynthesis.(http://en.wikipedia.org/wiki/Protozoa)</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>Protozoa</rdfs:label>
     </owl:Class>
@@ -970,7 +983,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a vaccine organism that is live</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>live vaccine organism</rdfs:label>
     </owl:Class>
@@ -987,7 +1000,9 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YH, YL, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>a vaccine organism that is inactived/killed</obo:IAO_0000118>
         <obo:IAO_0000118>killed vaccine organism</obo:IAO_0000118>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
@@ -1000,7 +1015,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000397">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000148"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>neutralizing antibody role</rdfs:label>
     </owl:Class>
@@ -1012,7 +1027,8 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000617"/>
         <obo:IAO_0000115>A role inheres in a material entity, that has been added into a vaccine&apos;s formulation by the manufacture for a specific purpose. For example: adjuvant to enhance the effect of immunogen, perservatives, stablizers and those materials added for affecting PH and isotonicity.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL,YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>Page 73, Chapter 6, Vaccine, 5th Edition. EXPERT CONSULT by Plotkin SA., et. al. 2008</obo:IAO_0000119>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine additive role</rdfs:label>
@@ -1025,7 +1041,8 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000426">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
         <obo:IAO_0000115>period of persistence of vaccine induced immune response is a temporal interval during which a vaccine-induced immune response continuously exists. This term is related to the process &apos;persistence of vaccine induced immune response&apos;.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>temporal region</oboInOwl:inSubset>
         <rdfs:label>period of persistence of vaccine induced immune response</rdfs:label>
     </owl:Class>
@@ -1037,7 +1054,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000439">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
         <obo:IAO_0000115>a USA licensed vaccine role that indicates the vaccine is for veterinary uses.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>USDA licensed vaccine role</rdfs:label>
     </owl:Class>
@@ -1050,7 +1067,8 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>Role of a material entity in an investigation, which has not been experimentally or clinically verified to induce a protection or treatment in vivo in a recipient organism. </obo:IAO_0000115>
         <obo:IAO_0000116>This role should be a subclass of &apos;test substance role&apos;, which will be mireoted from OBI by OntoFox.</obo:IAO_0000116>
-        <obo:IAO_0000117>BP, YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine candidate role</rdfs:label>
     </owl:Class>
@@ -1081,7 +1099,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine function realized by the process of vaccination and leading to induction of an adaptive immune response to prevent a specific disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>prophylactic vaccine function</obo:IAO_0000118>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>preventive vaccine function</rdfs:label>
@@ -1093,7 +1111,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000453">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000572"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>prime boost regimen</rdfs:label>
     </owl:Class>
@@ -1105,7 +1123,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000456">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001029"/>
         <obo:IAO_0000115>Protection efficacy is an efficiency that is associated with protection by a biological product (e.g., vaccine) against a disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>protection efficacy</rdfs:label>
     </owl:Class>
@@ -1117,7 +1135,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000457">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000237"/>
         <obo:IAO_0000115>An antigen that stimulates protective immunity when used in vivo.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>protective antigen role</rdfs:label>
     </owl:Class>
@@ -1129,7 +1147,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000472">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
         <obo:IAO_0000115>Nontypeable Haemophilus influenzae (NTHi) is a nonencapsulated Haemophilus influenzae (a gram-negative bacterium). It is the cause of a number of human respiratory tract diseases, such as otitis media, sinusitis, bronchitis, and pneumonia.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>NTHi</obo:IAO_0000118>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>nontypeable Haemophilus influenzae</rdfs:label>
@@ -1142,7 +1160,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000486">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000912"/>
         <obo:IAO_0000115>A chicken egg protein allergen where the protein allergen is ovalbumin, the main protein found in egg write, making up 60-65% of the total protein.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Ovalbumin</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>chicken ovalbumin egg protein allergen</rdfs:label>
@@ -1178,7 +1196,8 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000499">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>preventive infectious disease vaccine function</rdfs:label>
     </owl:Class>
@@ -1190,7 +1209,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000504">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>a vaccine role that indicates the vaccine being a whole organism vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>whole organism vaccine role</rdfs:label>
     </owl:Class>
@@ -1219,7 +1238,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>an organism that is used as part of a vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>vaccine organism</rdfs:label>
     </owl:Class>
@@ -1230,7 +1249,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000515">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000549"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>rough phenotype</rdfs:label>
     </owl:Class>
@@ -1241,7 +1260,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000523">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000549"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>smooth phenotype</rdfs:label>
     </owl:Class>
@@ -1252,7 +1271,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000533">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000811"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>subdominant epitope in vaccine</obo:IAO_0000118>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccine subdominant epitope</rdfs:label>
@@ -1265,7 +1284,8 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000540">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000038"/>
         <obo:IAO_0000115>time of survival of live vaccine inside host is a temporal interval during which a live vaccine survives inside a host organism. This entity is related to the process survival of live vaccine inside host.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>temporal region</oboInOwl:inSubset>
         <rdfs:label>time of survival of live vaccine inside host</rdfs:label>
     </owl:Class>
@@ -1311,7 +1331,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000546">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
         <obo:IAO_0000115>a population group that are vaccinated with a specific vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccinee group</obo:IAO_0000118>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccinee population</rdfs:label>
@@ -1339,7 +1359,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000549">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>bacterial phenotype</rdfs:label>
     </owl:Class>
@@ -1367,7 +1387,7 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000560">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <obo:IAO_0000115>A toxin is a poisonous substance produced within living cells or organisms; man-made substances created by artificial processes are thus excluded. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:comment>The term was first used by organic chemist Ludwig Brieger (1849-1919).[3]
 For a toxic substance not produced within living organisms, &quot;toxicant&quot; and &quot;toxics&quot; are also sometimes used.[citation needed].
@@ -1396,7 +1416,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine function realized the process of vaccination and leading to induction of an adaptive immune response to treat an existing specific disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>therapeutic vaccine function</rdfs:label>
     </owl:Class>
@@ -1414,7 +1434,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccination protocol is the protocol of a vaccination procedure.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccination schedule</obo:IAO_0000118>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>vaccination protocol</rdfs:label>
@@ -1434,7 +1454,12 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccine candidate is a processed material that is designed to prevent or ameliorate a disorder in a target organism by modulating adaptive immune responses in that organism by administrating the vaccine.</obo:IAO_0000115>
         <obo:IAO_0000116>During our call, we decided not to say vaccine candidate is an output of vaccine preparation, which may be reserved for vaccine alone. -- Aug 4, 2009.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH, AR, BP, LC, MC, and ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Alan Ruttenburg</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccine candidate</rdfs:label>
     </owl:Class>
@@ -1446,7 +1471,8 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000585">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115>immunization objective is the specification of an objective to achieve immunization.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Immunization</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>immunization objective</rdfs:label>
@@ -1459,7 +1485,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000612">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002146"/>
         <obo:IAO_0000115>a virulence of vaccine that shows a virulent pheontype of the organism as the major component of a vaccine. The virulent phenotype means that an vaccine organism is virulent and is able to cause a pathogenic phenotype in a host organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccine organism virulent</rdfs:label>
     </owl:Class>
@@ -1471,7 +1497,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>Role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine role</rdfs:label>
     </owl:Class>
@@ -1483,7 +1509,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000616">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>Animal model of vaccine research is a role played by some organism (e.g., mouse) that is used for vaccine research.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>animal model of vaccine research</rdfs:label>
     </owl:Class>
@@ -1506,7 +1532,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A role that inheres in a material entity that becomes an ingredient of a vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine component role</rdfs:label>
     </owl:Class>
@@ -1517,7 +1543,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000618">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000617"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine antigen role</rdfs:label>
     </owl:Class>
@@ -1529,7 +1555,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000621">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000616"/>
         <obo:IAO_0000115>Animal model of vaccine research is a role played by some organism (e.g., mouse) that is used for vaccine research in the laboratory.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>laboratory animal model of vaccine research</rdfs:label>
     </owl:Class>
@@ -1541,7 +1567,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000622">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000618"/>
         <obo:IAO_0000115>a vaccine antigen role that inheres in a vaccine antigen which is capable of inducing protective immunity. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine protective antigen role</rdfs:label>
     </owl:Class>
@@ -1553,7 +1579,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000623">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that indicates the vaccine being a DNA vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>DNA vaccine role</rdfs:label>
     </owl:Class>
@@ -1565,7 +1591,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000624">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that indicates the vaccine being a subunit vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>subunit vaccine role</rdfs:label>
     </owl:Class>
@@ -1577,7 +1603,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000625">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that indicates the vaccine being a conjugate vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>conjugate vaccine role</rdfs:label>
     </owl:Class>
@@ -1589,7 +1615,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000630">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A licensed vaccine role is a regulation-assigned role that indicates that a vaccine obtains official approval for commercial production and selling on the market.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>licensed vaccine role</rdfs:label>
     </owl:Class>
@@ -1602,7 +1628,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine in clinical trial role is a regulation-assigned role that inheres in a vaccine that is currently in clinical trial.</obo:IAO_0000115>
         <obo:IAO_0000116>In medical research, clinical trials are conducted to allow safety and efficacy data to be collected for new drugs or devices.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine in clinical trial role</rdfs:label>
     </owl:Class>
@@ -1614,7 +1640,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000636">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that indicates the vaccine being a recombinant vector vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>recombinant vector vaccine role</rdfs:label>
     </owl:Class>
@@ -1626,7 +1652,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000685">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
         <obo:IAO_0000115>a recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>recombinant bacterial vector vaccine role</rdfs:label>
     </owl:Class>
@@ -1650,7 +1676,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000702">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
         <obo:IAO_0000115>a recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>recombinant viral vector vaccine role</rdfs:label>
     </owl:Class>
@@ -1661,7 +1687,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000713">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>vaccine allergen disposition</rdfs:label>
     </owl:Class>
@@ -1673,7 +1699,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000728">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that indicates the vaccine being a RNA vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>RNA vaccine role</rdfs:label>
     </owl:Class>
@@ -1684,7 +1710,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000741">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>Haemophilus influenzae serotype b</rdfs:label>
     </owl:Class>
@@ -1696,7 +1722,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000804">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
         <obo:IAO_0000115>Effectiveness is physical quality that represents the capability of a single physical entity (e.g., vaccine) producing an effect (e.g, protection against a disease).</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>effectiveness</rdfs:label>
     </owl:Class>
@@ -1707,7 +1733,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000805">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000804"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>effective</rdfs:label>
     </owl:Class>
@@ -1718,7 +1744,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000806">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000804"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>ineffective</rdfs:label>
     </owl:Class>
@@ -1730,7 +1756,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000807">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that indicates the vaccine being a toxoid vaccine. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>toxoid vaccine role</rdfs:label>
     </owl:Class>
@@ -1741,7 +1767,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000811">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110034"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccine epitope</rdfs:label>
     </owl:Class>
@@ -1753,7 +1779,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000812">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
         <obo:IAO_0000115>a licensed vaccine role that indicates the vaccine occurs in USA.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>USA licensed vaccine role</rdfs:label>
     </owl:Class>
@@ -1764,7 +1790,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000815">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>monthly</rdfs:label>
     </owl:Class>
@@ -1775,7 +1801,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000816">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>biweekly</rdfs:label>
     </owl:Class>
@@ -1787,7 +1813,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000804"/>
         <obo:IAO_0000115>Vaccine effectiveness is an effectiveness associated with a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>Hadler TC, et al. Immunization in developing countries. In: Vaccines. Editors: Plotkin S, et al. 2008. p1542-71.</obo:IAO_0000119>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccine effectiveness</rdfs:label>
@@ -1800,7 +1826,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000864">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
         <obo:IAO_0000115>a licensed status that occurs in Canada.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>Canada licensed vaccine role</rdfs:label>
     </owl:Class>
@@ -1811,7 +1837,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000879">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_836"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>Porphyromonas denticanis</rdfs:label>
     </owl:Class>
@@ -1823,7 +1849,8 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000885">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000415"/>
         <obo:IAO_0000115>a role inhers in a vaccine component that when added into a vccine formmulation, it can prevent the growth of bacteria or fungi that inadvertently may be introduced into the vaccine during administrating process or the manufacturing process.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH,YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>P73 Chapter 6, Vaccine 5th edition by Plotkin, S. et al.</obo:IAO_0000119>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:comment>The CFR requires that, with certain defined exceptions, preservatives must be added to mulitdose vials of vaccine. (P73 Chapter 6, Vaccine 5th edition by Plotkin, S. et al.)</rdfs:comment>
@@ -1837,7 +1864,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000897">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
         <obo:IAO_0000115>Age at vaccination is the age of an experiment animal at the time of vaccination.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>age at vaccination</rdfs:label>
     </owl:Class>
@@ -1848,7 +1875,7 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000907">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110034"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>surface antigens from the zona pellucida</rdfs:label>
     </owl:Class>
@@ -1877,7 +1904,8 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vaccine allergen is a material entity that is capable of stimulating a type-I hypersensitivity reaction in atopic individuals who has been vaccinated with a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/vaccines/pubs/pinkbook/downloads/appendices/B/excipient-table-2.pdf</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccine allergen</rdfs:label>
@@ -1892,7 +1920,9 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
         <obo:IAO_0000115>chicken egg protein allergen is a vaccine allergen that is composed of chicken egg protein.</obo:IAO_0000115>
         <obo:IAO_0000116>Egg protein may come from NCIS thesaurus egg - poultry, combination
 of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicken egg protein allergen may become a cross product of sevreal ontology terms.</obo:IAO_0000116>
-        <obo:IAO_0000117>YH, ZX, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>chicken egg protein allergen</rdfs:label>
     </owl:Class>
@@ -1903,7 +1933,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000910"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>latex vaccine allergen</rdfs:label>
     </owl:Class>
@@ -1914,7 +1945,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000915">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000910"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>gelatin vaccine allergen</rdfs:label>
     </owl:Class>
@@ -1925,7 +1957,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000916">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000910"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>protamine sulfate vaccine allergen</rdfs:label>
     </owl:Class>
@@ -1936,7 +1969,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000917">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000910"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>polymyxin B vaccine allergen</rdfs:label>
     </owl:Class>
@@ -1947,7 +1981,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000972">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12278"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>luteinizing hormone-releasing hormone</obo:IAO_0000118>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>LHRH</rdfs:label>
@@ -1977,7 +2011,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a live attenuated quality of a bacterial vaccine strain. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>bacterial vaccine organism live attenuated</rdfs:label>
     </owl:Class>
@@ -2006,7 +2040,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a live attenuated quality of a virus vaccine strain. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>viral vaccine organism live attenuated</rdfs:label>
     </owl:Class>
@@ -2017,7 +2051,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12278"/>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>Androstenedione</rdfs:label>
     </owl:Class>
@@ -2028,7 +2062,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
-        <obo:IAO_0000117>YH, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/mmwr/preview/mmwrhtml/rr58e0821a1.htm</obo:IAO_0000119>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>CDC recommendation of the use of  Influenza A (h1N1) 2009 vaccine</rdfs:label>
@@ -2041,7 +2076,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000546"/>
         <obo:IAO_0000115>A population group that have priority for  vaccination when a vaccine is first available.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH,  XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccination target group</obo:IAO_0000118>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccinee priority group</rdfs:label>
@@ -2053,7 +2089,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000117>XY, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/mmwr/preview/mmwrhtml/rr58e0821a1.htm</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>pregnant women</rdfs:label>
@@ -2065,10 +2102,11 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000117>XY, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/mmwr/preview/mmwrhtml/rr58e0821a1.htm</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
-        <rdfs:label>persons  living with or providing care for infants aged &lt;6 months</rdfs:label>
+        <rdfs:label>persons living with or providing care for infants aged &lt;6 months</rdfs:label>
     </owl:Class>
     
 
@@ -2077,7 +2115,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000117>XY, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/mmwr/preview/mmwrhtml/rr58e0821a1.htm</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>health-care and emergency medical services personnel</rdfs:label>
@@ -2089,7 +2128,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000117>XY, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/mmwr/preview/mmwrhtml/rr58e0821a1.htm</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>persons aged 6 months--24 years</rdfs:label>
@@ -2101,7 +2141,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000117>XY, XZ</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://www.cdc.gov/mmwr/preview/mmwrhtml/rr58e0821a1.htm</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>persons aged 25--64 years with  medical conditions at higher risk for influenza-related complications</rdfs:label>
@@ -2114,7 +2155,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000169"/>
         <obo:IAO_0000115>vaccine viability is a viability of a vaccine organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccine organism viability</rdfs:label>
     </owl:Class>
@@ -2126,7 +2168,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001139"/>
         <obo:IAO_0000115>vaccine being viable is a vaccine viability that indicates a vaccine uses live organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccine organism live</rdfs:label>
     </owl:Class>
@@ -2137,7 +2180,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000247"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>no vaccine protection</rdfs:label>
     </owl:Class>
@@ -2148,7 +2192,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000247"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>significant vaccine protection</rdfs:label>
     </owl:Class>
@@ -2159,7 +2204,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000247"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>enhanced significant protection</rdfs:label>
     </owl:Class>
@@ -2176,7 +2222,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>vaccination dose specification</rdfs:label>
     </owl:Class>
@@ -2193,7 +2240,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000712"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>challenge dose specification</rdfs:label>
     </owl:Class>
@@ -2205,7 +2253,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <obo:IAO_0000115>specification of time interval after vaccination for challenge is a plan specification that specifies the time interval after vacciation for challenge</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>specification of vaccination-challenge interval</rdfs:label>
     </owl:Class>
@@ -2217,7 +2266,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
         <obo:IAO_0000115>pathogen challenge protocol is a protocol that is used for a pathogen challenge process.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>pathogen challenge protocol</rdfs:label>
     </owl:Class>
@@ -2246,7 +2296,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a vaccine organism that is a specific strain</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>vaccine strain</rdfs:label>
     </owl:Class>
@@ -2258,7 +2308,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>a vaccine role that is borne by an organism strain serving as a vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine strain role</rdfs:label>
     </owl:Class>
@@ -2286,7 +2336,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>protective antigen</rdfs:label>
     </owl:Class>
@@ -2298,7 +2349,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000115>is a bacterial toxin (usually an exotoxin) whose toxicity has been weakened or suppressed either by chemical (formalin) or heat treatment, while other properties, typically immunogenicity, are maintained.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Toxoid</obo:IAO_0000119>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>toxoid</rdfs:label>
@@ -2311,7 +2362,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001257">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115>The specification of an objective to prevent a disorder.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>prevention of disorder objective</rdfs:label>
     </owl:Class>
@@ -2323,7 +2374,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115>The specification of an objective to ameliorate  a disorder.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>amelioration of disorder objective</rdfs:label>
     </owl:Class>
@@ -2364,7 +2415,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>A role that represents a target (i.e., some disorder) of immunization.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>immunization target role</rdfs:label>
     </owl:Class>
@@ -2385,7 +2437,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001281">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001280"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>immunization target role of bacterial pathogen</rdfs:label>
     </owl:Class>
@@ -2396,7 +2449,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001280"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>immunization target role of viral pathogen</rdfs:label>
     </owl:Class>
@@ -2407,7 +2461,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001280"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>immunization target role of parasite pathogen</rdfs:label>
     </owl:Class>
@@ -2418,7 +2473,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001280"/>
-        <obo:IAO_0000117>YH, ZX</obo:IAO_0000117>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>immunization target role of fungal pathogen</rdfs:label>
     </owl:Class>
@@ -2430,7 +2486,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001361">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>a role that is inherenced in a gene that can be mutated in a virulent pathogen, leading to an attenuated strain serving as a live attenuated vaccine strain.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>virmugen role</rdfs:label>
     </owl:Class>
@@ -2452,7 +2509,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001372">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>an organismal quality that indicates an organism (e.g., human) is not yet immunized against a disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>unimmunized</rdfs:label>
     </owl:Class>
@@ -2464,7 +2521,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001373">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000151"/>
         <obo:IAO_0000115>an organismal quality that indicates an organism (e.g., human) is immunized against a disease through vaccination with a licensed vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>immunized by vaccination with a licensed vaccine</rdfs:label>
     </owl:Class>
@@ -2476,7 +2533,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115>an organism that is vaccinated with a vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccinated organism</obo:IAO_0000118>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>vaccinee</rdfs:label>
@@ -2489,7 +2548,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001376">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>an organismal quality that indicates an organism (e.g., human) is vaccinated with a vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccinated</rdfs:label>
     </owl:Class>
@@ -2501,7 +2560,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001377">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>an organismal quality that indicates an organism (e.g., human) is unvaccinated with any vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>unvaccinated</rdfs:label>
     </owl:Class>
@@ -2513,7 +2572,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001376"/>
         <obo:IAO_0000115>a vaccinated quality that indicates an organism is vaccinated with a licensed vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>vaccinated with a licensed vaccine</rdfs:label>
     </owl:Class>
@@ -2525,7 +2584,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001379">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001377"/>
         <obo:IAO_0000115>a unvaccinated quality that indicates an organism has not been vaccinated with a licensed vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:label>unvaccinated with a licensed vaccine</rdfs:label>
     </owl:Class>
@@ -2537,7 +2596,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001381">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115>an organism that is immunized for a disease</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>immunized organism</rdfs:label>
     </owl:Class>
@@ -2549,7 +2610,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001383">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115>an organism that is unvaccinated with a vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL, MC</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>unvaccinated organism</rdfs:label>
     </owl:Class>
@@ -2561,7 +2624,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001479">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <obo:IAO_0000115>The objective that intends to produce vaccine via the vaccine preparation process.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>information content entity</oboInOwl:inSubset>
         <rdfs:label>vaccine target specification</rdfs:label>
     </owl:Class>
@@ -2573,7 +2636,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000415"/>
         <obo:IAO_0000115>a role inheres in the vaccine component when it is added into vaccine&apos;s formulation, it tends to stabilizes an emulsion by increasing its kinetic stablity.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine emulsifier role</rdfs:label>
     </owl:Class>
@@ -2585,7 +2648,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000415"/>
         <obo:IAO_0000115>a role inheres in vaccine component when added into vaccine&apos;s formulation, it tends to inhibit the reaction between two or more other vaccine substances in the final vaccine formulation; it also helps to protect the vaccine from adverse conditions such as the freeze-drying process or heat.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine stabilizer role</rdfs:label>
     </owl:Class>
@@ -2597,7 +2660,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>Gelatin is a mixture of peptides and proteins produced by partial hydrolysis of collagen extracted from the skin, boiled crushed bones, connective tissues, organs and some intestines of animals such as domesticated cattle, chicken, and pigs.(wikipedia)</obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>gelatin</rdfs:label>
     </owl:Class>
@@ -2609,7 +2672,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000617"/>
         <obo:IAO_0000115>A role inheres in a material eneitity that union itself chemically with a relative weak vaccine antigen to form a new whole that can create an effective miinuogen. The </obo:IAO_0000115>
-        <obo:IAO_0000117>YL</obo:IAO_0000117>
+        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine conjugate role</rdfs:label>
     </owl:Class>
@@ -2621,7 +2684,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that indicates a clinical trial status of a vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>clinical trial vaccine role</rdfs:label>
     </owl:Class>
@@ -2661,7 +2724,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
         <obo:IAO_0000115>A vaccine role that inheres in a vaccine using virus-like particles (VLPs), multiprotein structures that mimic the organization and conformation of authentic native viruses but lack the viral genome, potentially yielding safer and cheaper vaccines.</obo:IAO_0000115>
-        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>virus like particle vaccine role</obo:IAO_0000118>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/20923267/</obo:IAO_0000119>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
@@ -2674,7 +2738,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004921">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:label>human age</rdfs:label>
@@ -2686,7 +2752,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004922">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004921"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:label>child age</rdfs:label>
@@ -2698,7 +2766,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004923">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004921"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:label>adolescence age</rdfs:label>
@@ -2710,7 +2780,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004924">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004921"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:label>adult age</rdfs:label>
@@ -2722,7 +2794,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004925">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004921"/>
-        <obo:IAO_0000117>Anna Maria Masci, Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>quality</oboInOwl:inSubset>
         <rdfs:comment>The human age is classified into four categories as Child (0-12 years), Adolescence (13-18 years), Adult (19-59 years) and Senior Adult (60 years and above) which is discussed in the paper. Reference: https://ieeexplore.ieee.org/abstract/document/6416855.</rdfs:comment>
         <rdfs:label>senior age</rdfs:label>
@@ -2773,7 +2847,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>A role of a material entity that binds to TLR4 and activates the receptor for pathogen recognition and activation of innate immunity.</obo:IAO_0000115>
         <obo:IAO_0000116>TLR4 agonist role</obo:IAO_0000116>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>Toll-like receptor 4 agonist role</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/TLR4</obo:IAO_0000119>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
@@ -2788,7 +2863,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>A role of a material entity that binds to TLR3 and activates the receptor for pathogen recognition and activation of innate immunity.</obo:IAO_0000115>
         <obo:IAO_0000116>TLR3 agonist role</obo:IAO_0000116>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>Toll-like receptor 3 agonist role</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/TLR3</obo:IAO_0000119>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
@@ -2803,7 +2879,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>A role of a material entity that binds to TLR8 and activates the receptor for pathogen recognition and activation of innate immunity.</obo:IAO_0000115>
         <obo:IAO_0000116>TLR8 agonist role</obo:IAO_0000116>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>Toll-like receptor 8 agonist role</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/TLR8</obo:IAO_0000119>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
@@ -2818,7 +2895,8 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>A role of a material entity that binds to TLR2 and activates the receptor for pathogen recognition and activation of innate immunity.</obo:IAO_0000115>
         <obo:IAO_0000116>TLR2 agonist role</obo:IAO_0000116>
-        <obo:IAO_0000117>Oliver He, Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>Toll-like receptor 2 agonist role</obo:IAO_0000118>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/TLR2</obo:IAO_0000119>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
@@ -2874,7 +2952,9 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cancer that is caused by human papillomavirus (HPV) infection. HPV infection can lead to six types of cancer including anal, cervical, oropharyngeal, penile, vaginal, and vulvar cancer.</obo:IAO_0000115>
         <obo:IAO_0000116>placeholder, will send new term requst to DOID</obo:IAO_0000116>
-        <obo:IAO_0000117>Jie Zheng, Xingxian Li, Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/677</obo:IAO_0000233>
         <oboInOwl:inSubset>disposition</oboInOwl:inSubset>
         <rdfs:label>HPV associated cancer</rdfs:label>
@@ -3550,6 +3630,30 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <oboInOwl:inSubset>organism</oboInOwl:inSubset>
         <rdfs:label>SARS Coronavirus 2 XBB.1.5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+        <obo:IAO_0000115>An immune biomarker that indicates a humoral immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>humoral immune marker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000446"/>
+        <obo:IAO_0000115>An immune biomarker that indicates a cell-mediated immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
+        <rdfs:label>cell-mediated immune marker</rdfs:label>
     </owl:Class>
     
 

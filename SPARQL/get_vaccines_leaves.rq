@@ -1,0 +1,19 @@
+# get leaf terms in vaccine branch
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?VO_ID ?label ?leaf
+WHERE {
+	?leafEntity rdfs:subClassOf* obo:VO_0000001 .
+  	# Optional pattern to find subclass relationships
+  	FILTER NOT EXISTS {
+    		?subclass rdfs:subClassOf ?leafEntity .
+  	}
+	BIND(COALESCE(
+ 		IF(CONTAINS(STR(?leafEntity), "/obo/"), STRAFTER(STR(?leafEntity), "/obo/"), ?leafEntity))  AS ?VO_ID)
+	?leafEntity rdfs:label ?l .
+	BIND (str(?l) AS ?label) .
+	BIND ("leaf term" AS ?leaf) .
+} ORDER BY ?VO_ID
