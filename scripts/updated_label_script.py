@@ -2,17 +2,56 @@ import pandas as pd
 import os
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
+import unicodedata
+import chardet  # For automatic encoding detection
+
+"""
+This function is used to update the labels in specific columns of a CSV file based on a new label mapping provided in a separate file.
+It processes one or more columns and replaces existing values with corresponding new labels from the mapping file.
+
+Arguments:
+- columns_to_update: A list of column names (strings) where the labels need to be updated.
+- file_path: The path to the input CSV file that contains the data to be modified.
+- new_label_file_path: The path to the CSV file that contains the new label mappings. This file must have a 'LABEL' column and a 'New Label' column.
+
+The function reads the input data file, updates the specified columns using the mapping provided, 
+and outputs a new CSV file with the modified data. The output file is saved with '_processed' appended to the original filename.
+
+The new label mapping is provided in a separate CSV file, which must contain two columns:
+- 'LABEL': The existing label in the data file.
+- 'New Label': The new label that will replace the existing label.
+
+Returns:
+- A new CSV file with updated labels in the specified columns.
+- Prints a log of each label update and the name of the file where the modified data is saved.
+
+Contributor: Yuping Zheng 2024-10-30
+last modified: 2025-1-19
+"""
+
+def normalize_dataframe(df, normalization_form='NFKC'):
+    return df.applymap(lambda x: unicodedata.normalize(normalization_form, x) if isinstance(x, str) else x)
+
+def read_csv_with_auto_encoding(file_path):
+    """
+    Reads a CSV file using automatically detected encoding with chardet.
+    Applies Unicode normalization to the resulting DataFrame.
+    """
+    with open(file_path, 'rb') as f:
+        raw_data = f.read()
+    detected = chardet.detect(raw_data)
+    encoding = detected['encoding']
+    if not encoding:
+        raise ValueError(f"Could not detect encoding for file: {file_path}")
+    print(f"Detected encoding {encoding} for {file_path}")
+    df = pd.read_csv(file_path, low_memory=False, encoding=encoding)
+    df = normalize_dataframe(df)
+    return df
 
 def update_values_script(columns_to_update, file_path, new_label_file_path, partitioner='|'):
     """
     Updates specified columns in a CSV file with new labels provided in another CSV file.
     Modified rows are highlighted in the resulting Excel file, and changes are logged.
-
-    Parameters:
-    - columns_to_update (list): List of column names to update.
-    - file_path (str): Path to the original CSV file.
-    - new_label_file_path (str): Path to the CSV file containing old and new labels.
-    - partitioner (str): Delimiter used to split cell values into tokens. Default is '|'.
     """
     # === Setup ===
     # Resolve file paths for compatibility with relative paths
@@ -30,17 +69,9 @@ def update_values_script(columns_to_update, file_path, new_label_file_path, part
         raise FileNotFoundError(f"The file '{new_label_file_path}' does not exist.")
 
     # === Load Data ===
-    # Load original data with UTF-8 encoding to handle special characters
-    try:
-        df = pd.read_csv(file_path, low_memory=False, encoding='utf-8')
-    except Exception as e:
-        raise ValueError(f"Error reading the input file '{file_path}': {e}")
-
-    # Load new labels with UTF-8 encoding
-    try:
-        new_labels_df = pd.read_csv(new_label_file_path, encoding='utf-8')
-    except Exception as e:
-        raise ValueError(f"Error reading the label file '{new_label_file_path}': {e}")
+    # Use automatic encoding detection to read CSV files
+    df = read_csv_with_auto_encoding(file_path)
+    new_labels_df = read_csv_with_auto_encoding(new_label_file_path)
 
     # === Validate Input ===
     # Check if new labels file has required columns
@@ -63,7 +94,6 @@ def update_values_script(columns_to_update, file_path, new_label_file_path, part
     def label_update(cell_value, column_name, row_idx, col_idx, modified_flags):
         """
         Updates cell values based on a dictionary of new labels.
-
         Parameters:
         - cell_value: Original value of the cell.
         - column_name: Name of the column.
@@ -174,27 +204,28 @@ if __name__ == "__main__":
 
     # 3. Specify the list of column names where label updates are required.
     #    Modify the list below with the column names you want to process.
+    
     columns_to_update = ['column_1', 'column_2', 'column_3']
 
     # 4. Specify the partitioner to use for tokenization (default is '|')
     partitioner = '|'
-    
+
     # 5. Call the `update_values_script` function with the specified arguments.
     #    This will update the specified columns in the input file based on the new label mappings,
     #    generate a log file for modifications, and save the modified data.
-
     update_values_script(columns_to_update, file_path, new_label_file_path, partitioner)
 
-    # Example:
-    # Define file paths for the input data and new labels
-    '''file_path = r"C:\Users\00000\VO1\src\templates\vaccine.csv"
-    new_label_file_path = r'C:\Users\00000\VO1\experimental\data\data_laurel\new_old.csv'
+'''# Example:
+# Define file paths for the input data and new labels
+file_path = r"C:\Users\00000\VO1\src\templates\individuals.csv"
+new_label_file_path = r'C:\Users\00000\VO1\experimental\data\data_laurel\new_old.csv'
 
-    # Specify the columns to update
-    columns_to_update = ['Parent (name)', 'Equivalent Class']
+# Specify the columns to update
+columns_to_update = ['alternative label (zh)']
 
-    # Specify the partitioner to use for tokenization (default is '|')
-    partitioner = '|'
+# Specify the partitioner to use for tokenization (default is '|')
+partitioner = '|'
 
-    # Run the script
-    update_values_script(columns_to_update, file_path, new_label_file_path, partitioner)'''
+# Run the script
+update_values_script(columns_to_update, file_path, new_label_file_path, partitioner)
+'''
