@@ -82,12 +82,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
@@ -127,6 +121,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0000091 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000091"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002351 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002351"/>
     
 
 
@@ -1312,14 +1312,15 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <!-- http://purl.obolibrary.org/obo/VO_0000545 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000545">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000546"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000544"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a population of human beings who are vaccinated.</obo:IAO_0000115>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/630</obo:IAO_0000233>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>human vaccinee population</rdfs:label>
     </owl:Class>
@@ -1330,9 +1331,16 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000546">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001374"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>a population group that are vaccinated with a specific vaccine</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>vaccinee group</obo:IAO_0000118>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/630</obo:IAO_0000233>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
         <rdfs:label>vaccinee population</rdfs:label>
     </owl:Class>
@@ -1345,8 +1353,8 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000545"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000548"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000554"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:inSubset>material entity</oboInOwl:inSubset>
