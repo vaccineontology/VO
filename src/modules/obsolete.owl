@@ -1185,6 +1185,48 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0002815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002815">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004277"/>
+        <rdfs:comment>A mucR mutant has a significantly reduced degree of colonization in mice and protects against wild type B. melitensis 16M</rdfs:comment>
+        <rdfs:label>B. melitensis mucR mutant vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002816">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004001"/>
+        <rdfs:comment>A omp25 mutant is attenuated and provides protection against challenge in mice</rdfs:comment>
+        <rdfs:label>obsolete B. melitensis omp25 mutant vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002817">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004002"/>
+        <rdfs:comment>A omp31 mutant in Brucella melitensis was attenuated and provided protection against challenge in mice</rdfs:comment>
+        <rdfs:label>obsolete B. melitensis omp31 mutant vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0002821 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002821">
@@ -2434,6 +2476,19 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0007358"/>
         <rdfs:label>obsolete CD80 Breast Cancer Vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0007596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0007596">
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
+        <rdfs:comment>Recorded as licensed cancer vaccine without reference. Based on the vaccine name, it is not correct, see term:VO:0004719.</rdfs:comment>
+        <rdfs:label>obsolete CVB4/p24(73(3)) vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
