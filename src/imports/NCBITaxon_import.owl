@@ -320,6 +320,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_serotype"/>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Avian influenza virus H5N1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>H5N1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>H5N1 subtype</rdfs:label>
@@ -2160,7 +2161,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783272"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
-        <oboInOwl:hasAlternativeId>NCBITaxon:31968</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:10555317</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11034484</oboInOwl:hasDbXref>
@@ -2176,10 +2176,6 @@
         <oboInOwl:hasRelatedSynonym>Bacillota corrig. Gibbons and Murray 2021</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillus/Clostridium group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Clostridium group firmicutes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Firmacutes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Firmicuteota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Firmicutes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Firmicutes corrig. Gibbons and Murray 1978 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Low G+C firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>clostridial firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>firmicutes</oboInOwl:hasRelatedSynonym>
@@ -2736,6 +2732,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:1683536</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:3298488</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:1374625</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:184898</oboInOwl:hasDbXref>
@@ -3033,6 +3030,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_169418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_169418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3072906"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Mustelinae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_171">
@@ -3145,7 +3155,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_175121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_175121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8825"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3073809"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_superfamily"/>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
@@ -3292,12 +3302,21 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1783272">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_clade"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_kingdom"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:31968</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:3376104</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:18988685</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:23851394</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Terrabacteria group</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <rdfs:label>Terrabacteria group</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Firmacutes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicuteota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicutes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicutes corrig. Gibbons and Murray 1978 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Terrabacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Terrabacterida</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Bacillati</rdfs:label>
     </owl:Class>
     
 
@@ -3513,6 +3532,7 @@
         <oboInOwl:hasAlternativeId>NCBITaxon:3109036</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:3109054</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:3109055</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:3231045</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11321120</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
@@ -3798,6 +3818,7 @@
         <oboInOwl:hasDbXref>PMID:1374621</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:8573513</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Mycoplasma hyopneumoniae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycoplasma suipneumoniae</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Mesomycoplasma hyopneumoniae</rdfs:label>
     </owl:Class>
@@ -4284,6 +4305,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Tombus-Noda-like virus sp.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Kitrinoviricota</rdfs:label>
     </owl:Class>
@@ -4584,7 +4606,6 @@
         <oboInOwl:hasDbXref>PMID:10939664</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:15950132</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:18048745</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:23918787</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:7727274</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:9103607</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>RNA similarity group I</oboInOwl:hasExactSynonym>
@@ -4596,6 +4617,7 @@
         <oboInOwl:hasRelatedSynonym>Loefflerella</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pseudomonas Migula 1894 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Serpens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Serpens Hespell 1977 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pseudomonas</rdfs:label>
     </owl:Class>
     
@@ -4619,6 +4641,7 @@
         <oboInOwl:hasAlternativeId>NCBITaxon:1851858</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:1851865</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:1860124</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2952935</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:665948</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:912077</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:931955</oboInOwl:hasAlternativeId>
@@ -4633,6 +4656,7 @@
         <oboInOwl:hasRelatedSynonym>Bacterium aeruginosum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacterium pyocyaneum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Micrococcus pyocyaneus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Pseudomonas aeruginosa (Schroeter 1872) Migula 1900 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pseudomonas polycolor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pseudomonas pyocyanea</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>probable synonym or variety: &quot;Pseudomonas polycolor&quot; Clara 1930</oboInOwl:hasRelatedSynonym>
@@ -4904,10 +4928,8 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:11232</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasBroadSynonym>CDV</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Canine morbillivirus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>canine distemper virus CDV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Morbillivirus canis</rdfs:label>
     </owl:Class>
@@ -4978,6 +5000,19 @@
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Musteloidea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3073809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3073809">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8825"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_clade"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Australaves</rdfs:label>
     </owl:Class>
     
 
@@ -5751,6 +5786,24 @@
         <oboInOwl:hasExactSynonym>Brucella ovis strain ATCC 25840</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Brucella ovis ATCC 25840</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_452646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_452646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_169418"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:9667</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>American mink</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mink</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Mustela vison</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Neovison vison</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Neogale vison</rdfs:label>
     </owl:Class>
     
 
@@ -6893,6 +6946,7 @@
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Trichina spiralis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Trichinella spiralis</rdfs:label>
     </owl:Class>
     
@@ -6981,8 +7035,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_642"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:1426505</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:1426713</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:1471787</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:1471788</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:1538469</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:329135</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:329140</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:346633</oboInOwl:hasAlternativeId>
@@ -8083,7 +8140,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8825"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3073809"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
@@ -8303,7 +8360,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9669 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9669">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3072906"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_169418"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subspecies"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:77150</oboInOwl:hasAlternativeId>
@@ -8507,7 +8564,6 @@
         <oboInOwl:hasAlternativeId>NCBITaxon:272461</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>bovine</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>dairy cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>domestic cattle</oboInOwl:hasExactSynonym>
