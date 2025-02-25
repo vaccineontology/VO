@@ -227,11 +227,23 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000489 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000489">
-        <obo:IAO_0000115>a licensed vaccine role that is bears in a licensed human vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000115>A licensed vaccine role that is bears in a licensed human vaccine.</obo:IAO_0000115>
         <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label>obsolete licensed human vaccine role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000499">
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete preventive infectious disease vaccine function</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -253,7 +265,7 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000551 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000551">
-        <obo:IAO_0000115>a licensed vaccine role that is bears in a licensed veterinary vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000115>A licensed vaccine role that is bears in a licensed veterinary vaccine.</obo:IAO_0000115>
         <obo:IAO_0000116>Discussed among Barry Smith, Anna Maria Masci, Jie Zheng and Oliver He. The vaccine recipient will be associate with vaccine directly rather than using the role.</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
@@ -281,6 +293,30 @@
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label>obsolete Canada licensed human vaccine role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000685">
+        <obo:IAO_0000115>A recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete recombinant bacterial vector vaccine role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000702">
+        <obo:IAO_0000115>A recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete recombinant viral vector vaccine role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -331,7 +367,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0000899 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000899">
-        <obo:IAO_0000115>dose is a measurement data that measures the quantity of something that may be eaten by or administered to an organism, or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.</obo:IAO_0000115>
+        <obo:IAO_0000115>Dose is a measurement data that measures the quantity of something that may be eaten by or administered to an organism, or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.</obo:IAO_0000115>
         <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Dose_%28biochemistry%29</obo:IAO_0000119>
@@ -357,11 +393,93 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001014">
+        <obo:IAO_0000115>A live attenuated quality of a bacterial vaccine strain. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete bacterial vaccine organism live attenuated</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001015">
+        <obo:IAO_0000115>A live attenuated quality of a virus vaccine strain. </obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete viral vaccine organism live attenuated</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0001030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001030">
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
         <rdfs:label>obsolete vaccine-induced mouse immune response</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001280">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete immunization target role of pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001281">
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete immunization target role of bacterial pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001282">
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete immunization target role of viral pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001283">
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete immunization target role of parasite pathogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001284">
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete immunization target role of fungal pathogen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1193,7 +1311,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004277"/>
         <rdfs:comment>A mucR mutant has a significantly reduced degree of colonization in mice and protects against wild type B. melitensis 16M</rdfs:comment>
-        <rdfs:label>B. melitensis mucR mutant vaccine</rdfs:label>
+        <rdfs:label>obsolete B. melitensis mucR mutant vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2048,7 +2166,7 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     <!-- http://purl.obolibrary.org/obo/VO_0003057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003057">
-        <obo:IAO_0000115>an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. </obo:IAO_0000115>
+        <obo:IAO_0000115>An vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. </obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
@@ -2132,6 +2250,19 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003124">
         <rdfs:label>obsolete Fluogen</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003142">
+        <obo:IAO_0000115>A vaccine role that indicates a clinical trial status of a vaccine</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000631"/>
+        <rdfs:label>obsolete clinical trial vaccine role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
