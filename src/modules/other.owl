@@ -562,8 +562,8 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000145 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000145">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000617"/>
-        <obo:IAO_0000115>a vaccine component role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. </obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003439"/>
+        <obo:IAO_0000115>A vaccine vector role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. </obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
@@ -2582,6 +2582,18 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>vaccine conjugate role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000617"/>
+        <obo:IAO_0000115>Vaccine component role inheres in a vaccine vector.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>vaccine vector role</rdfs:label>
     </owl:Class>
     
 
