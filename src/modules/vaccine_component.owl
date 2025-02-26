@@ -2022,8 +2022,8 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000435 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000435">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000179"/>
-        <obo:IAO_0000115>a vaccine component that is composed of a plasmid and used in the generation of a DNA vaccine. </obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003674"/>
+        <obo:IAO_0000115>Vaccine vector that is a DNA plasmid used to deliver the genetic code into the cells within the body. </obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
         <rdfs:label>DNA vaccine plasmid vector</rdfs:label>
@@ -2109,14 +2109,16 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000179"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003674"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>Vaccine vector that is a genetically engineered virus or bacterium used to deliver genetic code into the cells within the body.</obo:IAO_0000115>
         <obo:IAO_0000116>a vaccine component that uses a microbe (e.g., bacterium, virus, and parasitic organism) as a vector that is inserted with the DNA(s) of a heterologous protective antigen(s) to generate a &quot;recombinant vector vaccine&quot;. The microorganism used as a vector generally has a stable non or low pathogenic phenotype for the species the vaccine is intended for. </obo:IAO_0000116>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>recombinant vector</obo:IAO_0000118>
         <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Vaccine</obo:IAO_0000119>
@@ -2202,7 +2204,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000415"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a vaccine component that is added to the immunogen by the vaccine manufacturer for a specific purpose. Additives include adjuvants, preservatives and stablizers, as well as materials that are added to affect pH and isotonicity.</obo:IAO_0000115>
+        <obo:IAO_0000115>Vaccine component that is added to the immunogen by the vaccine manufacturer for a specific purpose. Additives include adjuvants, preservatives and stablizers, as well as materials that are added to affect pH and isotonicity.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -2232,7 +2234,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000885"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>vaccine preservative is an vaccine additive that is added to a vaccine formulation to prevent the growth of bacteria or fungi that inadvertently may be introduced into the vaccine during use.
+        <obo:IAO_0000115>Vaccine additive that is added to a vaccine formulation to prevent the growth of bacteria or fungi that inadvertently may be introduced into the vaccine during use.
 Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>antimicrobial agent in vaccine</obo:IAO_0000118>
@@ -2263,7 +2265,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a vaccine additive that helps to protect the vaccine from adverse conditions such as the freeze-drying process (for those vaccines that are freeze-dried) or heat.</obo:IAO_0000115>
+        <obo:IAO_0000115>Vaccine additive that helps to protect the vaccine from adverse conditions such as the freeze-drying process (for those vaccines that are freeze-dried) or heat.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 75.</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
@@ -2276,7 +2278,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000854">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000179"/>
-        <obo:IAO_0000115>a vaccine component that remains from the vaccine manufacturing process.</obo:IAO_0000115>
+        <obo:IAO_0000115>A vaccine component that remains from the vaccine manufacturing process.</obo:IAO_0000115>
         <obo:IAO_0000116>Although no all manufacturing residuals may be identified and quantified, their presence and quantity is assumed to be constant because of the constancy of the manufacturing process.</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000119>
@@ -2367,7 +2369,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000237"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>the vaccine component that is used as antigen to produce an immune responce protect against the specific pathogen or disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>Vaccine component that is used as antigen to produce an immune responce protect against the specific pathogen or disease.</obo:IAO_0000115>
         <obo:IAO_0000116>This is a modified or partial form of the virus, bacteria or the toxin that causes the disease against which the vaccine protects. The vaccine antigen is altered from its original form so it no longer causes disease but it can produce an immune response.(Vaccine components FactSheet of NCIRS)</obo:IAO_0000116>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -4105,6 +4107,12 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003439"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003453 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003453">
@@ -4257,6 +4265,35 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
         <rdfs:comment>RXAUI: 10279284</rdfs:comment>
         <rdfs:comment>TUI: T116, T129, T121</rdfs:comment>
         <rdfs:label>influenza B virus B/Maryland/15/2016 antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0003674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003674">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000179"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003439"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000179"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0003439"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Vaccine component that is used to deliver genetic code into the cells to produce antigen. </obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
+        <rdfs:label>vaccine vector</rdfs:label>
     </owl:Class>
     
 
@@ -5656,8 +5693,8 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000179"/>
-        <obo:IAO_0000115>A vaccine component composed of a synthetic component that is solid and spherical structures ranging to around 100 nm in size and prepared from natural or synthetic polymers.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003674"/>
+        <obo:IAO_0000115>Vaccine vector that is a tiny particle, typically in the nanometer size range, used to deliver genetic code to specific cells within the body.</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000119>PMID: 22353619</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine component</oboInOwl:inSubset>
