@@ -75,6 +75,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002180"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002292 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002292"/>
@@ -120,6 +126,22 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000530"/>
         <obo:IAO_0000115>A type of &apos;has vaccine vector&apos; that is specifically for viral vaccine vector</obo:IAO_0000115>
         <rdfs:label>has viral vaccine vector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000350 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000350">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <obo:IAO_0000115>A shortcut relation that is equivalent to:
+(&apos;vaccine&apos;) and (&apos;has component&apos; some (&apos;vaccine organism&apos; and &apos;has quality&apos; some &apos;organismal quality&apos;).
+The domain of this relation is a vaccine.
+The range of this relation is a organismal quality.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>has vaccine organism with quality</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -175,6 +197,7 @@ infection_of X = infection and has_part some (organism X and has_disposition som
     <!-- http://purl.obolibrary.org/obo/VO_0000520 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000520">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
         <obo:IAO_0000115>An object property that defines a relation between a vaccine and its component</obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -474,12 +497,18 @@ Ranges: organism and &apos;has role&apos; some &apos;pathogen role&apos;</obo:IA
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0004909 -->
+    <!-- http://purl.obolibrary.org/obo/VO_0003390 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0004909">
-        <obo:IAO_0000115>A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.</obo:IAO_0000115>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0003390">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000115>A shortcut relation that is equivalent to:
+(&apos;vaccine&apos; and &apos;has function&apos; some (&apos;vaccine function&apos; and (&apos;is realized by&apos; some (&apos;vaccine immunization&apos; and &apos;has participant&apos; some (&apos;organism&apos; and &apos;has role&apos; some &apos;laboratory animal model role&apos;))))).
+The domain of this relation is a vaccine.
+The range of this relation is a organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <rdfs:label>immunizes against disease process</rdfs:label>
+        <rdfs:label>test in laboratory model</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -645,6 +674,12 @@ Ranges: organism and &apos;has role&apos; some &apos;pathogen role&apos;</obo:IA
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995"/>
     
 
 

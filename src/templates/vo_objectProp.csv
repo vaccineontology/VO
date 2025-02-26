@@ -20,7 +20,7 @@ VO:0005377,has molecular receptor,Object property,,,An object property that repr
 VO:0003127,has prime vaccine,Object property,,,An object property that represents a relation between a vaccine with a prime-boost schedule and a vaccine used for priming.,Oliver He,,,,,
 VO:0000531,has vaccine allergen,Object property,,,An object property that specifies a relation between a vaccine and a vaccine allergen,Oliver He,,,,,
 VO:0000524,has vaccine antigen,Object property,,,An object property that specifies a vaccine antigen,Asiyah Yu Lin|Oliver He,"This relation only works for those vaccine antigen that is physically part of a vaccine preparation. It does not include those antigens that are not part of vaccine. For example, a protein antigen expressed in a DNA vaccine is not a part of vaccine pe ser. In this case, the vaccine expresses the protein, but the gene is part of the vaccine, not the protein. For the case, we can use the relation 'DNA vaccine expresses protein antigen' under the relation 'expresses'. ",,,,
-VO:0000520,has vaccine component,Object property,,,An object property that defines a relation between a vaccine and its component,Asiyah Yu Lin|Oliver He,,,vaccine,,
+VO:0000520,has vaccine component,Object property,has component,,An object property that defines a relation between a vaccine and its component,Asiyah Yu Lin|Oliver He,,,vaccine,,
 VO:0000270,has vaccine contraindication,Object property,,,A relation that specifies contraindication of a vaccine.,Oliver He,This relation may be replaced by has_vaccine_allergen. We need to determine if any vaccine contraindicator is not a vaccine allergen.,,,,
 VO:0000818,has vaccine virmugen,Object property,,,An object property that specifies a relation between a vaccine and a vaccine virmugen. ,Oliver He,"This is a shortcut relation.
 Domain: vaccine
@@ -34,7 +34,6 @@ VO:0001011,immunizes against disease,Object property,,immunization against disea
 'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine host role' and (role_of some 'organism' and has_disposition some disease)))))))).
 The domain of this relation is a vaccine.
 The range of this relation is a disease.",Asiyah Yu Lin|Oliver He,,,vaccine,disease,
-VO:0004909,immunizes against disease process,Object property,,,A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.,Oliver He,,,,,
 VO:0003355,immunizes against pathogen,Object property,,immunization against pathogen|vaccine immunization against pathogen|immunizes against microbe,"A shortcut relation that is equivalent to:
 processed material and (is_specified_output_of some vaccine preparation) and (has function some (vaccine function and (is realized by only (vaccine immunization and (realizes some ('immunization target role' and (role_of some 'pathogen'))))))))
 
@@ -60,3 +59,12 @@ VO:0015007,has drug dose form,Object property,,,,Jie Zheng,,,,,drug form
 VO:0015018,has drug package,Object property,,,,Jie Zheng,,,,,drug package
 VO:0015021,has drug supplier,Object property,,,,Jie Zheng,,,,,organization
 VO:0010396,has flu season,Object property,,,,Jie Zheng|Xingxian Li|Ellen Zhang,,,,,flu season
+VO:0000350,has vaccine organism with quality,Object property,,,"A shortcut relation that is equivalent to:
+('vaccine') and ('has component' some ('vaccine organism' and 'has quality' some 'organismal quality').
+The domain of this relation is a vaccine.
+The range of this relation is a organismal quality.",Jie Zheng|Oliver He,,,vaccine,organismal quality,
+VO:0003390,test in laboratory model,Object property,,,"A shortcut relation that is equivalent to:
+('vaccine' and 'has function' some ('vaccine function' and ('is realized by' some ('vaccine immunization' and 'has participant' some ('organism' and 'has role' some 'laboratory animal model role'))))).
+The domain of this relation is a vaccine.
+The range of this relation is a organism.",Jie Zheng|Oliver He,,,vaccine,organism,
+,,,,,,,,,,,
