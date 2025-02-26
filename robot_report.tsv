@@ -95,13 +95,13 @@ WARN	annotation_whitespace	OPL:0000359	IAO:0000116	"Tachyzoites can be found in 
 WARN	annotation_whitespace	RO:0002093	rdfs:comment	X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). @en
 WARN	annotation_whitespace	RO:0002161	IAO:0000425	Class: ?X DisjointWith: RO_0002162 some ?Y 
 WARN	annotation_whitespace	VO:0000018	IAO:0000115	A Brucella abortus vaccine that expresses Cu/Zn SOD with DNA plasmid pcDNA. 
-WARN	annotation_whitespace	VO:0000035	IAO:0000115	"a vaccinia virus vaccine that is a freeze-dried calf lymph smallpox vaccine, specifically, Dryvax is a live-virus preparation of vaccinia prepared from calf lymph. "
+WARN	annotation_whitespace	VO:0000035	IAO:0000115	"A vaccinia virus vaccine that is a freeze-dried calf lymph smallpox vaccine, specifically, Dryvax is a live-virus preparation of vaccinia prepared from calf lymph. "
 WARN	annotation_whitespace	VO:0000069	IAO:0000115	"A Measles-Mumps-Rubella vaccine that is live attenuated and manufactured by Merck & Co, Inc. "
 WARN	annotation_whitespace	VO:0000070	IAO:0000115	A Measles-Mumps vaccine that is manufactured by Merck and used for human. 
 WARN	annotation_whitespace	VO:0000079	IAO:0000115	an influenza vaccine that is similar to Fluzone but has high dose. 
 WARN	annotation_whitespace	VO:0000091	IAO:0000115	"A Measles-Mumps-Rubella-Vericella vaccine that is live and manufactured by Merck & Co, Inc. "
 WARN	annotation_whitespace	VO:0000137	IAO:0000115	A vaccine role that indicates the vaccine being a combination vaccine. 
-WARN	annotation_whitespace	VO:0000145	IAO:0000115	a vaccine component role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. 
+WARN	annotation_whitespace	VO:0000145	IAO:0000115	A vaccine vector role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. 
 WARN	annotation_whitespace	VO:0000147	IAO:0000115	an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. 
 WARN	annotation_whitespace	VO:0000154	IAO:0000115	A Brucella abortus gene that has the name sodC and comes from strain 2308. 
 WARN	annotation_whitespace	VO:0000166	IAO:0000115	a vaccine vector that uses a live bacterium as the vector 
@@ -117,8 +117,9 @@ WARN	annotation_whitespace	VO:0000384	IAO:0000119	"PMID:18472194
 "
 WARN	annotation_whitespace	VO:0000400	IAO:0000115	A vaccine that contains one vaccine for priming and at least one other vaccine for boosting. 
 WARN	annotation_whitespace	VO:0000401	IAO:0000115	A prime-boost vaccine that contains one DNA vaccine for priming and at least one other vaccine for boosting. 
-WARN	annotation_whitespace	VO:0000435	IAO:0000115	a vaccine component that is composed of a plasmid and used in the generation of a DNA vaccine. 
+WARN	annotation_whitespace	VO:0000435	IAO:0000115	Vaccine vector that is a DNA plasmid used to deliver the genetic code into the cells within the body. 
 WARN	annotation_whitespace	VO:0000441	IAO:0000115	"Role of a material entity in an investigation, which has not been experimentally or clinically verified to induce a protection or treatment in vivo in a recipient organism. "
+WARN	annotation_whitespace	VO:0000449	IAO:0000118	Moraxella Bovis Bacterin Piliguard Pinkeye-1 Trivalent 
 WARN	annotation_whitespace	VO:0000465	IAO:0000115	a S. aureus vaccine that uses bacterin as the protective antigen. 
 WARN	annotation_whitespace	VO:0000467	IAO:0000115	a S. aureus vaccine that uses the bacterial phage lysate as the protective antigen. 
 WARN	annotation_whitespace	VO:0000469	IAO:0000115	a bacterial vaccine that uses bacterin from a bacterial strain isolated from a herd with a purpose to generate hard-specific vaccine. 
@@ -150,9 +151,9 @@ WARN	annotation_whitespace	VO:0000642	rdfs:comment	"There is no single 'influenz
 However, even this may not be comprehensive. "
 WARN	annotation_whitespace	VO:0000671	IAO:0000115	"A Salmonella vaccine against typhoid fever (or called typoid), caused by Salmonella enterica enterica, serovar Typhi. "
 WARN	annotation_whitespace	VO:0000675	IAO:0000115	"a Streptococcal vaccine that is used against S. pneumoniae infection, which causes pneumococcal diseases. "
-WARN	annotation_whitespace	VO:0000685	IAO:0000115	a recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine 
+WARN	annotation_whitespace	VO:0000685	IAO:0000115	A recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine 
 WARN	annotation_whitespace	VO:0000692	IAO:0000115	A subunit vaccine role that indicates the vaccine being a peptide vaccine. 
-WARN	annotation_whitespace	VO:0000702	IAO:0000115	a recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine 
+WARN	annotation_whitespace	VO:0000702	IAO:0000115	A recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine 
 WARN	annotation_whitespace	VO:0000728	IAO:0000115	A vaccine role that indicates the vaccine being a RNA vaccine. 
 WARN	annotation_whitespace	VO:0000731	rdfs:comment	MMR is usually live attenuated. 
 WARN	annotation_whitespace	VO:0000767	IAO:0000115	A bacterial vaccine that protects against diseases caused by various species of Rickettsia. Typhus is any of several similar diseases caused by Rickettsia bacteria. So Rickettsial vaccine is also called typhus vaccine. 
@@ -165,8 +166,8 @@ WARN	annotation_whitespace	VO:0000922	IAO:0000115	a vaccine stablizer that is ba
 WARN	annotation_whitespace	VO:0000929	rdfs:comment	"Potential Acute Health Effects: Slightly hazardous in case of skin contact (irritant), of eye contact (irritant), of ingestion, of inhalation. Reference: http://www.sciencelab.com/msds.php?msdsId=9926640 "
 WARN	annotation_whitespace	VO:0000931	IAO:0000115	a cell culture residual in vaccine that is residual protein from cell culture. 
 WARN	annotation_whitespace	VO:0000957	IAO:0000115	a B. abortus vaccine that uses a recombinant vector. 
-WARN	annotation_whitespace	VO:0001014	IAO:0000115	a live attenuated quality of a bacterial vaccine strain. 
-WARN	annotation_whitespace	VO:0001015	IAO:0000115	a live attenuated quality of a virus vaccine strain. 
+WARN	annotation_whitespace	VO:0001014	IAO:0000115	A live attenuated quality of a bacterial vaccine strain. 
+WARN	annotation_whitespace	VO:0001015	IAO:0000115	A live attenuated quality of a virus vaccine strain. 
 WARN	annotation_whitespace	VO:0001019	IAO:0000115	an avian reovirus vaccine that using live attenauted reovirus. 
 WARN	annotation_whitespace	VO:0001021	IAO:0000115	a feline panleukopenia virus vaccine where the virus used is live attenuated. 
 WARN	annotation_whitespace	VO:0001028	IAO:0000115	a parasite vaccine vector using a live attenuated Leishmania tarentolae strain.  
@@ -209,11 +210,6 @@ WARN	annotation_whitespace	VO:0001205	IAO:0000119	"Todd TE, Tibi O, Lin Y, Sayer
 WARN	annotation_whitespace	VO:0001206	IAO:0000119	"Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. "
 WARN	annotation_whitespace	VO:0001214	IAO:0000115	a bacterial vaccine that uses inactivated bacterial organism. 
 WARN	annotation_whitespace	VO:0001215	IAO:0000115	"an anti-reproductive vaccine for cattle. The vaccine is based on the established principle that antibodies to the hypothalamic releasing hormone, gonadotrophin releasing hormone (GnRH) block the action of GnRH on pituitary secretion of luteinizing hormone and follicle stimulating hormone, leading to gonadal atrophy in mammals. The vaccine comprises an immunogenic GnRH:ovalbumin conjugate formulated in a novel double adjuvant system and is administered in a two-dose treatment regimen. "
-WARN	annotation_whitespace	VO:0001220	rdfs:comment	"This term has an equivalent class:
-'viral vaccine' and ('has quality at some time' some 'vaccine organism live attenuated')
-
-However, running the reasoner takes time. As a way to reducing the time, I have tentatively made tern two subclasses instead of equivalent class. If needed, the equivalent class can be used in SPARQL or converted back in VO. --Oliver
-"
 WARN	annotation_whitespace	VO:0001395	IAO:0000115	a vaccine that contains two or more individual vaccines. 
 WARN	annotation_whitespace	VO:0002115	IAO:0000115	A horse Encephalomyelitis-Influenza-West Nile Virus vaccine that is inactivated and manufactured by Wyeth Pharmaceuticals Inc. 
 WARN	annotation_whitespace	VO:0002483	IAO:0000115	"A horse vaccine that protects against EEE, VEE, WEE, influenza virius infection, and West Nile virus infection. "
@@ -231,10 +227,11 @@ WARN	annotation_whitespace	VO:0003041	IAO:0000115	an antibiotics vaccine residua
 WARN	annotation_whitespace	VO:0003042	IAO:0000115	the vaccine antiegn that induces protective immune response. 
 WARN	annotation_whitespace	VO:0003048	IAO:0000115	"when the vaccination of a significant portion of a population (or herd), in contagious diseases that are transmitted from individual to individual, chains of infection are likely to be disrupted, so the large numbers of a population are immue or less susceptible to the disease. "
 WARN	annotation_whitespace	VO:0003050	IAO:0000115	A role inheres in a material eneitity that union itself chemically with a relative weak vaccine antigen to form a new whole that can create an effective miinuogen. The 
-WARN	annotation_whitespace	VO:0003057	IAO:0000115	an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. 
+WARN	annotation_whitespace	VO:0003057	IAO:0000115	An vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. 
 WARN	annotation_whitespace	VO:0003247	IAO:0000115	The site that is the part of the host body and the entrance point where a vaccine is administered. 
 WARN	annotation_whitespace	VO:0003336	IAO:0000115	a vaccine-induced down-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. 
 WARN	annotation_whitespace	VO:0003348	IAO:0000115	A vaccine-induced up-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. 
+WARN	annotation_whitespace	VO:0003674	IAO:0000115	Vaccine component that is used to deliver genetic code into the cells to produce antigen. 
 WARN	annotation_whitespace	VO:0004400	IAO:0000115	"An autologous dendritic cell vaccine with potential immunostimulatory activity. Dendritic cells harvested from a prostate cancer patient are transfected with the mRNA encoding for prostate specific antigen (PSA), a tumor marker secreted by prostatic epithelial and ductal cells. When reintroduced back to the patient, these PSA RNA pulsed autologous dendritic cells may elicit a cytotoxic T-cell (CTL) response against PSA-positive prostate cancer cells. "
 WARN	annotation_whitespace	VO:0006094	IAO:0000116	"Chemical Nature: Nucleic acid
 Mechanism of Action: TLR9 agonist
@@ -253,8 +250,10 @@ WARN	annotation_whitespace	VO:0007380	OGG:0000000006	"	4582"
 WARN	annotation_whitespace	VO:0007386	rdfs:comment	Gene name: GAA 
 WARN	annotation_whitespace	VO:0007395	OGG:0000000006	"	4582"
 WARN	annotation_whitespace	VO:0007410	IAO:0000115	"A cell-based cancer vaccine consisting of autologous dendritic cells (DCs) pulsed with mesothelioma tumor lysate with potential immunostimulating and antineoplastic activities. Upon administration, mesothelioma tumor lysate-pulsed autologous dendritic cell vaccine may stimulate the host immune system to mount a specific cytotoxic T lymphocyte (CTL) response against mesothelioma tumor cells, resulting in tumor cell lysis. "
+WARN	annotation_whitespace	VO:0007426	rdfs:comment	Gene name: LY6K 
 WARN	annotation_whitespace	VO:0007475	OGG:0000000006	"	4582"
 WARN	annotation_whitespace	VO:0007477	IAO:0000115	An autologous dendritic cell (DC) cancer vaccine with GITRL RNA-transfected that has potential immunostimulatory activity. 
+WARN	annotation_whitespace	VO:0007496	rdfs:comment	Gene name: gp100 
 WARN	annotation_whitespace	VO:0007497	IAO:0000115	"A cancer vaccine containing dendritic cells (DCs) that are transfected with messenger RNA (mRNA) encoding human telomerase reverse transcriptase (hTERT) and survivin in addition to patient-specific melanoma-derived mRNA with potential immunostimulatory and antineoplastic activities. Upon administration, hTERT/survivin/melanoma tumor cell-derived mRNA-transfected dendritic cell vaccine may elicit a highly specific cytotoxic T-cell (CTL) response against melanoma cells expressing hTERT, survivin, and patient-specific melanoma-associated antigens. hTERT, the catalytic subunit of human telomerase, and survivin, a member of the inhibitor of apoptosis (IAP) family of proteins, may be upregulated in certain tumor cell types, playing key roles in tumor cell growth and survival. "
 WARN	annotation_whitespace	VO:0007511	IAO:0000115	"A cancer vaccine prepared as tumor cells are isolated from the lesion site of patients with recurrent or metastatic bladder cancer, and dendritic cells or macrophages are isolated from peripheral blood. The vaccine activates an immune response and the microenvironment of bladder cancer lesions, and improves the anti-recurrence treatment effect of bladder cancer. "
 WARN	annotation_whitespace	VO:0007513	IAO:0000115	"A cancer vaccine for patients with Locally Advanced, Triple-Negative Breast Cancer or ER-Positive, Her2-Negative Breast Cancer to receive ex vivo-generated tumor antigen-loaded dendritic cells (DCs), which can prime lymphocytes and regulate and maintain immune responses. The vaccine may boost T cell immunity targeted against breast cancer, enhance chemotherapy effectiveness and decrease tumor metastagenicity, and decrease the recurrence rates of LA TNBC and ER+/HER2- BC. "
@@ -458,6 +457,7 @@ WARN	duplicate_label_synonym	UBERON:0000004	oboInOwl:hasExactSynonym	nose
 WARN	duplicate_label_synonym	UBERON:0003408	oboInOwl:hasExactSynonym	gland of digestive tract
 WARN	duplicate_label_synonym	VO:0000017	IAO:0000118	killed vaccine
 WARN	duplicate_label_synonym	VO:0003800	IAO:0000118	0.5 ML Shingrix 0.1 MG/ML Injection
+WARN	duplicate_label_synonym	VO:0004144	IAO:0000118	E. coli heat-labile enterotoxin B-subunit (LB-T) vaccine
 WARN	duplicate_label_synonym	VO:0004613	IAO:0000118	smallpox vaccine
 WARN	duplicate_label_synonym	VO:0006001	IAO:0000118	botulinum antitoxin
 WARN	duplicate_label_synonym	VO:0006003	IAO:0000118	cholera BivWC
@@ -505,6 +505,2203 @@ WARN	equivalent_class_axiom_no_genus	OBI:0000838	OBI:0000417	OBI:0000806
 WARN	equivalent_class_axiom_no_genus	OBI:0200000	OBI:0000417	OBI:0200166
 WARN	equivalent_class_axiom_no_genus	OBI:1110034	RO:0000087	OBI:0000237
 WARN	equivalent_class_axiom_no_genus	OPMI:0000445	RO:0000087	OPMI:0000441
+WARN	invalid_xref	VO:0000001	oboInOwl:hasDbXref	MeSH: D014612
+WARN	invalid_xref	VO:0000013	oboInOwl:hasDbXref	MeSH: D022122
+WARN	invalid_xref	VO:0000025	oboInOwl:hasDbXref	MeSH: D002004
+WARN	invalid_xref	VO:0000041	oboInOwl:hasDbXref	MeSH: D022361
+WARN	invalid_xref	VO:0000053	oboInOwl:hasDbXref	MeSH: D022401
+WARN	invalid_xref	VO:0000096	oboInOwl:hasDbXref	SNOMEDCT: 442561000
+WARN	invalid_xref	VO:0000096	oboInOwl:hasDbXref	UMLS_CUI: C0695130
+WARN	invalid_xref	VO:0000165	oboInOwl:hasDbXref	MeSH: D001428
+WARN	invalid_xref	VO:0000267	oboInOwl:hasDbXref	MeSH: D005657
+WARN	invalid_xref	VO:0000417	oboInOwl:hasDbXref	MeSH: D016052
+WARN	invalid_xref	VO:0000418	oboInOwl:hasDbXref	SNOMEDCT: 416532007
+WARN	invalid_xref	VO:0000465	oboInOwl:hasDbXref	SNOMEDCT: 52974007
+WARN	invalid_xref	VO:0000465	oboInOwl:hasDbXref	UMLS_CUI: C0310856
+WARN	invalid_xref	VO:0000467	oboInOwl:hasDbXref	SNOMEDCT: 34679007
+WARN	invalid_xref	VO:0000467	oboInOwl:hasDbXref	UMLS_CUI: C0311044
+WARN	invalid_xref	VO:0000609	oboInOwl:hasDbXref	MeSH: D014765
+WARN	invalid_xref	VO:0000641	oboInOwl:hasDbXref	MeSH: D017778
+WARN	invalid_xref	VO:0000661	oboInOwl:hasDbXref	MeSH: D018073
+WARN	invalid_xref	VO:0000667	oboInOwl:hasDbXref	SNOMEDCT: 424519000
+WARN	invalid_xref	VO:0000667	oboInOwl:hasDbXref	UMLS_CUI: C1512511
+WARN	invalid_xref	VO:0000754	oboInOwl:hasDbXref	MeSH: D022581
+WARN	invalid_xref	VO:0000755	oboInOwl:hasDbXref	MeSH: D022462
+WARN	invalid_xref	VO:0000759	oboInOwl:hasDbXref	MeSH: D022642
+WARN	invalid_xref	VO:0000760	oboInOwl:hasDbXref	MeSH: D023582
+WARN	invalid_xref	VO:0000764	oboInOwl:hasDbXref	MeSH: D022123
+WARN	invalid_xref	VO:0000766	oboInOwl:hasDbXref	MeSH: D054406
+WARN	invalid_xref	VO:0000767	oboInOwl:hasDbXref	MeSH: D012290
+WARN	invalid_xref	VO:0000768	oboInOwl:hasDbXref	MeSH: D022562
+WARN	invalid_xref	VO:0000769	oboInOwl:hasDbXref	MeSH: D022281
+WARN	invalid_xref	VO:0000770	oboInOwl:hasDbXref	MeSH: D013209
+WARN	invalid_xref	VO:0000772	oboInOwl:hasDbXref	MeSH: D022541
+WARN	invalid_xref	VO:0001530	oboInOwl:hasDbXref	USDA: 1623.10
+WARN	invalid_xref	VO:0001531	oboInOwl:hasDbXref	USDA: 1881.10
+WARN	invalid_xref	VO:0001532	oboInOwl:hasDbXref	USDA: 1881.12
+WARN	invalid_xref	VO:0001533	oboInOwl:hasDbXref	USDA: 1881.14
+WARN	invalid_xref	VO:0001534	oboInOwl:hasDbXref	USDA: 18E1.10
+WARN	invalid_xref	VO:0001535	oboInOwl:hasDbXref	USDA: 1635.20
+WARN	invalid_xref	VO:0001536	oboInOwl:hasDbXref	USDA: 1451.00
+WARN	invalid_xref	VO:0001537	oboInOwl:hasDbXref	USDA: 1451.01
+WARN	invalid_xref	VO:0001538	oboInOwl:hasDbXref	USDA: 1451.20
+WARN	invalid_xref	VO:0001540	oboInOwl:hasDbXref	USDA: 15C5.21
+WARN	invalid_xref	VO:0001541	oboInOwl:hasDbXref	USDA: 15C1.22
+WARN	invalid_xref	VO:0001542	oboInOwl:hasDbXref	USDA: 15A5.21
+WARN	invalid_xref	VO:0001543	oboInOwl:hasDbXref	USDA: 15A5.23
+WARN	invalid_xref	VO:0001544	oboInOwl:hasDbXref	USDA: 15A1.20
+WARN	invalid_xref	VO:0001545	oboInOwl:hasDbXref	USDA: 1555.20
+WARN	invalid_xref	VO:0001546	oboInOwl:hasDbXref	USDA: 1555.21
+WARN	invalid_xref	VO:0001547	oboInOwl:hasDbXref	USDA: 1555.22
+WARN	invalid_xref	VO:0001548	oboInOwl:hasDbXref	USDA: 1555.R1
+WARN	invalid_xref	VO:0001549	oboInOwl:hasDbXref	USDA: 1555.R3
+WARN	invalid_xref	VO:0001550	oboInOwl:hasDbXref	USDA: 1565.20
+WARN	invalid_xref	VO:0001551	oboInOwl:hasDbXref	USDA: 1561.00
+WARN	invalid_xref	VO:0001552	oboInOwl:hasDbXref	USDA: 1561.20
+WARN	invalid_xref	VO:0001553	oboInOwl:hasDbXref	USDA: 1561.21
+WARN	invalid_xref	VO:0001554	oboInOwl:hasDbXref	USDA: 1561.23
+WARN	invalid_xref	VO:0001555	oboInOwl:hasDbXref	USDA: 16A1.22
+WARN	invalid_xref	VO:0001556	oboInOwl:hasDbXref	USDA: 1531.00
+WARN	invalid_xref	VO:0001557	oboInOwl:hasDbXref	USDA: 1011.00
+WARN	invalid_xref	VO:0001558	oboInOwl:hasDbXref	USDA: 1095.20
+WARN	invalid_xref	VO:0001559	oboInOwl:hasDbXref	USDA: 1095.21
+WARN	invalid_xref	VO:0001560	oboInOwl:hasDbXref	USDA: 1091.20
+WARN	invalid_xref	VO:0001561	oboInOwl:hasDbXref	USDA: 1105.20
+WARN	invalid_xref	VO:0001562	oboInOwl:hasDbXref	USDA: 1101.00
+WARN	invalid_xref	VO:0001563	oboInOwl:hasDbXref	USDA: 1101.20
+WARN	invalid_xref	VO:0001564	oboInOwl:hasDbXref	USDA: 1101.21
+WARN	invalid_xref	VO:0001565	oboInOwl:hasDbXref	USDA: 1101.22
+WARN	invalid_xref	VO:0001566	oboInOwl:hasDbXref	USDA: 1101.B0
+WARN	invalid_xref	VO:0001567	oboInOwl:hasDbXref	USDA: 1205.00
+WARN	invalid_xref	VO:0001568	oboInOwl:hasDbXref	USDA: 1205.20
+WARN	invalid_xref	VO:0001569	oboInOwl:hasDbXref	USDA: 1205.21
+WARN	invalid_xref	VO:0001570	oboInOwl:hasDbXref	USDA: 1205.22
+WARN	invalid_xref	VO:0001571	oboInOwl:hasDbXref	USDA: 1205.25
+WARN	invalid_xref	VO:0001572	oboInOwl:hasDbXref	USDA: 1201.00
+WARN	invalid_xref	VO:0001573	oboInOwl:hasDbXref	USDA: 1201.20
+WARN	invalid_xref	VO:0001574	oboInOwl:hasDbXref	USDA: 1201.22
+WARN	invalid_xref	VO:0001575	oboInOwl:hasDbXref	USDA: 1251.01
+WARN	invalid_xref	VO:0001576	oboInOwl:hasDbXref	USDA: 1251.02
+WARN	invalid_xref	VO:0001577	oboInOwl:hasDbXref	USDA: 1261.00
+WARN	invalid_xref	VO:0001578	oboInOwl:hasDbXref	USDA: 1841.00
+WARN	invalid_xref	VO:0001579	oboInOwl:hasDbXref	USDA: 1841.20
+WARN	invalid_xref	VO:0001580	oboInOwl:hasDbXref	USDA: 19A1.00
+WARN	invalid_xref	VO:0001581	oboInOwl:hasDbXref	USDA: 19A1.01
+WARN	invalid_xref	VO:0001582	oboInOwl:hasDbXref	USDA: 19D1.R0
+WARN	invalid_xref	VO:0001583	oboInOwl:hasDbXref	USDA: 1859.00
+WARN	invalid_xref	VO:0001584	oboInOwl:hasDbXref	USDA: 1985.50
+WARN	invalid_xref	VO:0001585	oboInOwl:hasDbXref	USDA: 1015.I0
+WARN	invalid_xref	VO:0001586	oboInOwl:hasDbXref	USDA: 1051.10
+WARN	invalid_xref	VO:0001587	oboInOwl:hasDbXref	USDA: 1051.11
+WARN	invalid_xref	VO:0001588	oboInOwl:hasDbXref	USDA: 1051.12
+WARN	invalid_xref	VO:0001589	oboInOwl:hasDbXref	USDA: 1057.H0
+WARN	invalid_xref	VO:0001590	oboInOwl:hasDbXref	USDA: 1057.H2
+WARN	invalid_xref	VO:0001591	oboInOwl:hasDbXref	USDA: 1057.H3
+WARN	invalid_xref	VO:0001592	oboInOwl:hasDbXref	USDA: 1057.H4
+WARN	invalid_xref	VO:0001593	oboInOwl:hasDbXref	USDA: 1057.H5
+WARN	invalid_xref	VO:0001594	oboInOwl:hasDbXref	USDA: 1057.14
+WARN	invalid_xref	VO:0001595	oboInOwl:hasDbXref	USDA: 1057.H6
+WARN	invalid_xref	VO:0001596	oboInOwl:hasDbXref	USDA: 10F5.12
+WARN	invalid_xref	VO:0001597	oboInOwl:hasDbXref	USDA: 1057.H7
+WARN	invalid_xref	VO:0001598	oboInOwl:hasDbXref	USDA: 10F5.13
+WARN	invalid_xref	VO:0001599	oboInOwl:hasDbXref	USDA: 1057.H1
+WARN	invalid_xref	VO:0001600	oboInOwl:hasDbXref	USDA: 10F5.10
+WARN	invalid_xref	VO:0001601	oboInOwl:hasDbXref	USDA: 1057.R3
+WARN	invalid_xref	VO:0001602	oboInOwl:hasDbXref	USDA: 1057.H9
+WARN	invalid_xref	VO:0001603	oboInOwl:hasDbXref	USDA: 10C5.11
+WARN	invalid_xref	VO:0001604	oboInOwl:hasDbXref	USDA: 10C5.10
+WARN	invalid_xref	VO:0001605	oboInOwl:hasDbXref	USDA: 1A31.20
+WARN	invalid_xref	VO:0001606	oboInOwl:hasDbXref	USDA: 1045.00
+WARN	invalid_xref	VO:0001607	oboInOwl:hasDbXref	USDA: 1045.01
+WARN	invalid_xref	VO:0001608	oboInOwl:hasDbXref	USDA: 1045.02
+WARN	invalid_xref	VO:0001609	oboInOwl:hasDbXref	USDA: 1045.30
+WARN	invalid_xref	VO:0001610	oboInOwl:hasDbXref	USDA: 1231.11
+WARN	invalid_xref	VO:0001611	oboInOwl:hasDbXref	USDA: 1231.1M
+WARN	invalid_xref	VO:0001612	oboInOwl:hasDbXref	USDA: 1231.20
+WARN	invalid_xref	VO:0001613	oboInOwl:hasDbXref	USDA: 1231.21
+WARN	invalid_xref	VO:0001614	oboInOwl:hasDbXref	USDA: 1231.22
+WARN	invalid_xref	VO:0001615	oboInOwl:hasDbXref	USDA: 1231.15
+WARN	invalid_xref	VO:0001616	oboInOwl:hasDbXref	USDA: 1231.1D
+WARN	invalid_xref	VO:0001617	oboInOwl:hasDbXref	USDA: 1231.1J
+WARN	invalid_xref	VO:0001618	oboInOwl:hasDbXref	USDA: 1231.1L
+WARN	invalid_xref	VO:0001619	oboInOwl:hasDbXref	USDA: 1235.15
+WARN	invalid_xref	VO:0001620	oboInOwl:hasDbXref	USDA: 1231.13
+WARN	invalid_xref	VO:0001621	oboInOwl:hasDbXref	USDA: 1231.14
+WARN	invalid_xref	VO:0001622	oboInOwl:hasDbXref	USDA: 1231.1G
+WARN	invalid_xref	VO:0001624	oboInOwl:hasDbXref	USDA: 1231.12
+WARN	invalid_xref	VO:0001625	oboInOwl:hasDbXref	USDA: 1231.18
+WARN	invalid_xref	VO:0001626	oboInOwl:hasDbXref	USDA: 1231.1A
+WARN	invalid_xref	VO:0001627	oboInOwl:hasDbXref	USDA: 1231.1F
+WARN	invalid_xref	VO:0001628	oboInOwl:hasDbXref	USDA: 1232.10
+WARN	invalid_xref	VO:0001629	oboInOwl:hasDbXref	USDA: 1232.15
+WARN	invalid_xref	VO:0001630	oboInOwl:hasDbXref	USDA: 1233.10
+WARN	invalid_xref	VO:0001631	oboInOwl:hasDbXref	USDA: 1235.10
+WARN	invalid_xref	VO:0001632	oboInOwl:hasDbXref	USDA: 1275.00
+WARN	invalid_xref	VO:0001633	oboInOwl:hasDbXref	USDA: 1275.02
+WARN	invalid_xref	VO:0001634	oboInOwl:hasDbXref	USDA: 1275.20
+WARN	invalid_xref	VO:0001635	oboInOwl:hasDbXref	USDA: 1271.00
+WARN	invalid_xref	VO:0001636	oboInOwl:hasDbXref	USDA: 1271.01
+WARN	invalid_xref	VO:0001637	oboInOwl:hasDbXref	USDA: 1271.02
+WARN	invalid_xref	VO:0001638	oboInOwl:hasDbXref	USDA: 1271.04
+WARN	invalid_xref	VO:0001639	oboInOwl:hasDbXref	USDA: 1271.0A
+WARN	invalid_xref	VO:0001640	oboInOwl:hasDbXref	USDA: 1271.10
+WARN	invalid_xref	VO:0001641	oboInOwl:hasDbXref	USDA: 1271.11
+WARN	invalid_xref	VO:0001642	oboInOwl:hasDbXref	USDA: 1271.12
+WARN	invalid_xref	VO:0001643	oboInOwl:hasDbXref	USDA: 1271.13
+WARN	invalid_xref	VO:0001644	oboInOwl:hasDbXref	USDA: 1271.16
+WARN	invalid_xref	VO:0001645	oboInOwl:hasDbXref	USDA: 1271.17
+WARN	invalid_xref	VO:0001646	oboInOwl:hasDbXref	USDA: 1271.18
+WARN	invalid_xref	VO:0001647	oboInOwl:hasDbXref	USDA: 1271.19
+WARN	invalid_xref	VO:0001648	oboInOwl:hasDbXref	USDA: 1271.40
+WARN	invalid_xref	VO:0001649	oboInOwl:hasDbXref	USDA: 1271.41
+WARN	invalid_xref	VO:0001650	oboInOwl:hasDbXref	USDA: 1272.00
+WARN	invalid_xref	VO:0001651	oboInOwl:hasDbXref	USDA: 1271.15
+WARN	invalid_xref	VO:0001652	oboInOwl:hasDbXref	USDA: 12B5.01
+WARN	invalid_xref	VO:0001653	oboInOwl:hasDbXref	USDA: 12B5.40
+WARN	invalid_xref	VO:0001654	oboInOwl:hasDbXref	USDA: 12B5.41
+WARN	invalid_xref	VO:0001655	oboInOwl:hasDbXref	USDA: 12B5.4A
+WARN	invalid_xref	VO:0001656	oboInOwl:hasDbXref	USDA: 12B1.00
+WARN	invalid_xref	VO:0001657	oboInOwl:hasDbXref	USDA: 12B1.01
+WARN	invalid_xref	VO:0001658	oboInOwl:hasDbXref	USDA: 12A5.00
+WARN	invalid_xref	VO:0001659	oboInOwl:hasDbXref	USDA: 12L1.00
+WARN	invalid_xref	VO:0001660	oboInOwl:hasDbXref	USDA: 10A1.00
+WARN	invalid_xref	VO:0001661	oboInOwl:hasDbXref	USDA: 10A1.01
+WARN	invalid_xref	VO:0001662	oboInOwl:hasDbXref	USDA: 10A1.10
+WARN	invalid_xref	VO:0001663	oboInOwl:hasDbXref	USDA: 1431.50
+WARN	invalid_xref	VO:0001664	oboInOwl:hasDbXref	USDA: 1431.51
+WARN	invalid_xref	VO:0001665	oboInOwl:hasDbXref	USDA: 1431.56
+WARN	invalid_xref	VO:0001666	oboInOwl:hasDbXref	USDA: 1431.57
+WARN	invalid_xref	VO:0001667	oboInOwl:hasDbXref	USDA: 1431.58
+WARN	invalid_xref	VO:0001668	oboInOwl:hasDbXref	USDA: 1431.59
+WARN	invalid_xref	VO:0001669	oboInOwl:hasDbXref	USDA: 1431.5C
+WARN	invalid_xref	VO:0001670	oboInOwl:hasDbXref	USDA: 1431.55
+WARN	invalid_xref	VO:0001671	oboInOwl:hasDbXref	USDA: 1601.01
+WARN	invalid_xref	VO:0001672	oboInOwl:hasDbXref	USDA: 1601.02
+WARN	invalid_xref	VO:0001673	oboInOwl:hasDbXref	USDA: 1601.11
+WARN	invalid_xref	VO:0001674	oboInOwl:hasDbXref	USDA: 1601.13
+WARN	invalid_xref	VO:0001675	oboInOwl:hasDbXref	USDA: 1601.14
+WARN	invalid_xref	VO:0001676	oboInOwl:hasDbXref	USDA: 1601.15
+WARN	invalid_xref	VO:0001677	oboInOwl:hasDbXref	USDA: 1621.00
+WARN	invalid_xref	VO:0001678	oboInOwl:hasDbXref	USDA: 1621.10
+WARN	invalid_xref	VO:0001679	oboInOwl:hasDbXref	USDA: 1621.11
+WARN	invalid_xref	VO:0001680	oboInOwl:hasDbXref	USDA: 1621.13
+WARN	invalid_xref	VO:0001681	oboInOwl:hasDbXref	USDA: 1621.14
+WARN	invalid_xref	VO:0001682	oboInOwl:hasDbXref	USDA: 1622.00
+WARN	invalid_xref	VO:0001683	oboInOwl:hasDbXref	USDA: 16L1.00
+WARN	invalid_xref	VO:0001684	oboInOwl:hasDbXref	USDA: 16L1.04
+WARN	invalid_xref	VO:0001685	oboInOwl:hasDbXref	USDA: 16L1.09
+WARN	invalid_xref	VO:0001686	oboInOwl:hasDbXref	USDA: 1631.00
+WARN	invalid_xref	VO:0001687	oboInOwl:hasDbXref	USDA: 1641.00
+WARN	invalid_xref	VO:0001688	oboInOwl:hasDbXref	USDA: 1641.01
+WARN	invalid_xref	VO:0001689	oboInOwl:hasDbXref	USDA: 1641.06
+WARN	invalid_xref	VO:0001690	oboInOwl:hasDbXref	USDA: 16L1.06
+WARN	invalid_xref	VO:0001691	oboInOwl:hasDbXref	USDA: 16L1.01
+WARN	invalid_xref	VO:0001692	oboInOwl:hasDbXref	USDA: 1631.R0
+WARN	invalid_xref	VO:0001693	oboInOwl:hasDbXref	USDA: 16G1.02
+WARN	invalid_xref	VO:0001694	oboInOwl:hasDbXref	USDA: 16L1.02
+WARN	invalid_xref	VO:0001695	oboInOwl:hasDbXref	USDA: 16L1.08
+WARN	invalid_xref	VO:0001696	oboInOwl:hasDbXref	USDA: 1651.00
+WARN	invalid_xref	VO:0001697	oboInOwl:hasDbXref	USDA: 1651.01
+WARN	invalid_xref	VO:0001698	oboInOwl:hasDbXref	USDA: 1651.02
+WARN	invalid_xref	VO:0001699	oboInOwl:hasDbXref	USDA: 1651.05
+WARN	invalid_xref	VO:0001700	oboInOwl:hasDbXref	USDA: 16G1.00
+WARN	invalid_xref	VO:0001701	oboInOwl:hasDbXref	USDA: 16L1.07
+WARN	invalid_xref	VO:0001702	oboInOwl:hasDbXref	USDA: 1751.00
+WARN	invalid_xref	VO:0001703	oboInOwl:hasDbXref	USDA: 1751.01
+WARN	invalid_xref	VO:0001704	oboInOwl:hasDbXref	USDA: 1711.10
+WARN	invalid_xref	VO:0001705	oboInOwl:hasDbXref	USDA: 1711.12
+WARN	invalid_xref	VO:0001706	oboInOwl:hasDbXref	USDA: 1711.14
+WARN	invalid_xref	VO:0001707	oboInOwl:hasDbXref	USDA: 1711.18
+WARN	invalid_xref	VO:0001708	oboInOwl:hasDbXref	USDA: 17A2.10
+WARN	invalid_xref	VO:0001709	oboInOwl:hasDbXref	USDA: 17B1.10
+WARN	invalid_xref	VO:0001710	oboInOwl:hasDbXref	USDA: 1721.0A
+WARN	invalid_xref	VO:0001711	oboInOwl:hasDbXref	USDA: 1721.10
+WARN	invalid_xref	VO:0001712	oboInOwl:hasDbXref	USDA: 1721.11
+WARN	invalid_xref	VO:0001713	oboInOwl:hasDbXref	USDA: 1721.15
+WARN	invalid_xref	VO:0001714	oboInOwl:hasDbXref	USDA: 1721.16
+WARN	invalid_xref	VO:0001715	oboInOwl:hasDbXref	USDA: 1721.17
+WARN	invalid_xref	VO:0001716	oboInOwl:hasDbXref	USDA: 1705.10
+WARN	invalid_xref	VO:0001717	oboInOwl:hasDbXref	USDA: 1705.11
+WARN	invalid_xref	VO:0001718	oboInOwl:hasDbXref	USDA: 1705.13
+WARN	invalid_xref	VO:0001719	oboInOwl:hasDbXref	USDA: 1705.15
+WARN	invalid_xref	VO:0001720	oboInOwl:hasDbXref	USDA: 1701.10
+WARN	invalid_xref	VO:0001721	oboInOwl:hasDbXref	USDA: 17A2.V1
+WARN	invalid_xref	VO:0001722	oboInOwl:hasDbXref	USDA: 1871.01
+WARN	invalid_xref	VO:0001723	oboInOwl:hasDbXref	USDA: 1871.02
+WARN	invalid_xref	VO:0001724	oboInOwl:hasDbXref	USDA: 1871.03
+WARN	invalid_xref	VO:0001725	oboInOwl:hasDbXref	USDA: 1871.04
+WARN	invalid_xref	VO:0001726	oboInOwl:hasDbXref	USDA: 1871.05
+WARN	invalid_xref	VO:0001727	oboInOwl:hasDbXref	USDA: 19C1.00
+WARN	invalid_xref	VO:0001728	oboInOwl:hasDbXref	USDA: 19C1.01
+WARN	invalid_xref	VO:0001729	oboInOwl:hasDbXref	USDA: 19C1.02
+WARN	invalid_xref	VO:0001730	oboInOwl:hasDbXref	USDA: 1951.10
+WARN	invalid_xref	VO:0001731	oboInOwl:hasDbXref	USDA: 1951.01
+WARN	invalid_xref	VO:0001732	oboInOwl:hasDbXref	USDA: 1951.02
+WARN	invalid_xref	VO:0001733	oboInOwl:hasDbXref	USDA: 1951.03
+WARN	invalid_xref	VO:0001734	oboInOwl:hasDbXref	USDA: 1951.04
+WARN	invalid_xref	VO:0001735	oboInOwl:hasDbXref	USDA: 1951.11
+WARN	invalid_xref	VO:0001736	oboInOwl:hasDbXref	USDA: 1952.01
+WARN	invalid_xref	VO:0001737	oboInOwl:hasDbXref	USDA: 1461.10
+WARN	invalid_xref	VO:0001738	oboInOwl:hasDbXref	USDA: 14B1.10
+WARN	invalid_xref	VO:0001739	oboInOwl:hasDbXref	USDA: 1811.00
+WARN	invalid_xref	VO:0001740	oboInOwl:hasDbXref	USDA: 17F1.00
+WARN	invalid_xref	VO:0001741	oboInOwl:hasDbXref	USDA: 1081.00
+WARN	invalid_xref	VO:0001742	oboInOwl:hasDbXref	USDA: 1081.01
+WARN	invalid_xref	VO:0001743	oboInOwl:hasDbXref	USDA: 14P5.20
+WARN	invalid_xref	VO:0001744	oboInOwl:hasDbXref	USDA: 14P5.21
+WARN	invalid_xref	VO:0001745	oboInOwl:hasDbXref	USDA: 14P1.20
+WARN	invalid_xref	VO:0001746	oboInOwl:hasDbXref	USDA: 15K5.20
+WARN	invalid_xref	VO:0001747	oboInOwl:hasDbXref	USDA: 1421.21
+WARN	invalid_xref	VO:0001748	oboInOwl:hasDbXref	USDA: 1471.R0
+WARN	invalid_xref	VO:0001749	oboInOwl:hasDbXref	USDA: 1471.10
+WARN	invalid_xref	VO:0001750	oboInOwl:hasDbXref	USDA: 18G5.00
+WARN	invalid_xref	VO:0001751	oboInOwl:hasDbXref	USDA: 1N11.00
+WARN	invalid_xref	VO:0001752	oboInOwl:hasDbXref	USDA: 18P5.20
+WARN	invalid_xref	VO:0001753	oboInOwl:hasDbXref	USDA: 18P5.21
+WARN	invalid_xref	VO:0001754	oboInOwl:hasDbXref	USDA: 18M1.20
+WARN	invalid_xref	VO:0001755	oboInOwl:hasDbXref	USDA: 18M1.21
+WARN	invalid_xref	VO:0001756	oboInOwl:hasDbXref	USDA: 18M1.22
+WARN	invalid_xref	VO:0001757	oboInOwl:hasDbXref	USDA: 18M1.23
+WARN	invalid_xref	VO:0001758	oboInOwl:hasDbXref	USDA: 18M1.25
+WARN	invalid_xref	VO:0001759	oboInOwl:hasDbXref	USDA: 18M1.29
+WARN	invalid_xref	VO:0001760	oboInOwl:hasDbXref	USDA: 1905.20
+WARN	invalid_xref	VO:0001761	oboInOwl:hasDbXref	USDA: 1905.21
+WARN	invalid_xref	VO:0001762	oboInOwl:hasDbXref	USDA: 1905.22
+WARN	invalid_xref	VO:0001763	oboInOwl:hasDbXref	USDA: 1905.23
+WARN	invalid_xref	VO:0001764	oboInOwl:hasDbXref	USDA: 1905.24
+WARN	invalid_xref	VO:0001765	oboInOwl:hasDbXref	USDA: 1901.R1
+WARN	invalid_xref	VO:0001766	oboInOwl:hasDbXref	USDA: 1901.R6
+WARN	invalid_xref	VO:0001767	oboInOwl:hasDbXref	USDA: 1901.R0
+WARN	invalid_xref	VO:0001768	oboInOwl:hasDbXref	USDA: 1531.20
+WARN	invalid_xref	VO:0001769	oboInOwl:hasDbXref	USDA: 1505.10
+WARN	invalid_xref	VO:0001770	oboInOwl:hasDbXref	USDA: 1505.20
+WARN	invalid_xref	VO:0001771	oboInOwl:hasDbXref	USDA: 1505.21
+WARN	invalid_xref	VO:0001772	oboInOwl:hasDbXref	USDA: 1505.24
+WARN	invalid_xref	VO:0001773	oboInOwl:hasDbXref	USDA: 1505.25
+WARN	invalid_xref	VO:0001774	oboInOwl:hasDbXref	USDA: 1505.28
+WARN	invalid_xref	VO:0001775	oboInOwl:hasDbXref	USDA: 1501.R0
+WARN	invalid_xref	VO:0001776	oboInOwl:hasDbXref	USDA: 1501.10
+WARN	invalid_xref	VO:0001777	oboInOwl:hasDbXref	USDA: 1501.20
+WARN	invalid_xref	VO:0001778	oboInOwl:hasDbXref	USDA: 1525.20
+WARN	invalid_xref	VO:0001779	oboInOwl:hasDbXref	USDA: 1525.21
+WARN	invalid_xref	VO:0001780	oboInOwl:hasDbXref	USDA: 1525.22
+WARN	invalid_xref	VO:0001781	oboInOwl:hasDbXref	USDA: 1525.24
+WARN	invalid_xref	VO:0001782	oboInOwl:hasDbXref	USDA: 1521.20
+WARN	invalid_xref	VO:0001783	oboInOwl:hasDbXref	USDA: 1E15.20
+WARN	invalid_xref	VO:0001784	oboInOwl:hasDbXref	USDA: 1831.00
+WARN	invalid_xref	VO:0001785	oboInOwl:hasDbXref	USDA: 1A15.00
+WARN	invalid_xref	VO:0001786	oboInOwl:hasDbXref	USDA: 1585.20
+WARN	invalid_xref	VO:0001787	oboInOwl:hasDbXref	USDA: 1581.20
+WARN	invalid_xref	VO:0001788	oboInOwl:hasDbXref	USDA: 18C5.00
+WARN	invalid_xref	VO:0001789	oboInOwl:hasDbXref	USDA: 1541.00
+WARN	invalid_xref	VO:0001790	oboInOwl:hasDbXref	USDA: 1541.01
+WARN	invalid_xref	VO:0001791	oboInOwl:hasDbXref	USDA: 1541.02
+WARN	invalid_xref	VO:0001792	oboInOwl:hasDbXref	USDA: 1541.03
+WARN	invalid_xref	VO:0001793	oboInOwl:hasDbXref	USDA: 1541.04
+WARN	invalid_xref	VO:0001794	oboInOwl:hasDbXref	USDA: 19J1.00
+WARN	invalid_xref	VO:0001795	oboInOwl:hasDbXref	USDA: 10L1.00
+WARN	invalid_xref	VO:0001796	oboInOwl:hasDbXref	USDA: 10L1.01
+WARN	invalid_xref	VO:0001797	oboInOwl:hasDbXref	USDA: 10L1.02
+WARN	invalid_xref	VO:0001798	oboInOwl:hasDbXref	USDA: 19K5.20
+WARN	invalid_xref	VO:0001799	oboInOwl:hasDbXref	USDA: 19T1.20
+WARN	invalid_xref	VO:0001800	oboInOwl:hasDbXref	USDA: 19T1.21
+WARN	invalid_xref	VO:0001801	oboInOwl:hasDbXref	USDA: 19S5.20
+WARN	invalid_xref	VO:0001802	oboInOwl:hasDbXref	USDA: 19Q1.20
+WARN	invalid_xref	VO:0001803	oboInOwl:hasDbXref	USDA: 19S1.20
+WARN	invalid_xref	VO:0001804	oboInOwl:hasDbXref	USDA: 19S1.21
+WARN	invalid_xref	VO:0001805	oboInOwl:hasDbXref	USDA: 19E1.20
+WARN	invalid_xref	VO:0001806	oboInOwl:hasDbXref	USDA: 1891.20
+WARN	invalid_xref	VO:0001807	oboInOwl:hasDbXref	USDA: 1891.22
+WARN	invalid_xref	VO:0001808	oboInOwl:hasDbXref	USDA: 1891.R2
+WARN	invalid_xref	VO:0001809	oboInOwl:hasDbXref	USDA: 1891.R4
+WARN	invalid_xref	VO:0001810	oboInOwl:hasDbXref	USDA: 19A5.2P
+WARN	invalid_xref	VO:0001811	oboInOwl:hasDbXref	USDA: 1961.20
+WARN	invalid_xref	VO:0001812	oboInOwl:hasDbXref	USDA: 1995.20
+WARN	invalid_xref	VO:0001813	oboInOwl:hasDbXref	USDA: 1995.22
+WARN	invalid_xref	VO:0001814	oboInOwl:hasDbXref	USDA: 1991.R0
+WARN	invalid_xref	VO:0001815	oboInOwl:hasDbXref	USDA: 1991.R1
+WARN	invalid_xref	VO:0001816	oboInOwl:hasDbXref	USDA: 1061.00
+WARN	invalid_xref	VO:0001819	oboInOwl:hasDbXref	USDA: 1K11.00
+WARN	invalid_xref	VO:0001820	oboInOwl:hasDbXref	USDA: 1021.01
+WARN	invalid_xref	VO:0001821	oboInOwl:hasDbXref	USDA: 1551.02
+WARN	invalid_xref	VO:0001822	oboInOwl:hasDbXref	USDA: 15R1.00
+WARN	invalid_xref	VO:0001823	oboInOwl:hasDbXref	USDA: 1551.R0
+WARN	invalid_xref	VO:0001824	oboInOwl:hasDbXref	USDA: 17E1.20
+WARN	invalid_xref	VO:0001825	oboInOwl:hasDbXref	USDA: 19K5.R0
+WARN	invalid_xref	VO:0001826	oboInOwl:hasDbXref	USDA: 19A5.12
+WARN	invalid_xref	VO:0001827	oboInOwl:hasDbXref	USDA: 19A5.22
+WARN	invalid_xref	VO:0001828	oboInOwl:hasDbXref	USDA: 19A5.23
+WARN	invalid_xref	VO:0001829	oboInOwl:hasDbXref	USDA: 19A5.24
+WARN	invalid_xref	VO:0001830	oboInOwl:hasDbXref	USDA: 19A5.26
+WARN	invalid_xref	VO:0001831	oboInOwl:hasDbXref	USDA: 19A5.29
+WARN	invalid_xref	VO:0001832	oboInOwl:hasDbXref	USDA: 1679.31
+WARN	invalid_xref	VO:0001833	oboInOwl:hasDbXref	USDA: 4929.31
+WARN	invalid_xref	VO:0001834	oboInOwl:hasDbXref	USDA: 4949.20
+WARN	invalid_xref	VO:0001835	oboInOwl:hasDbXref	USDA: 4949.31
+WARN	invalid_xref	VO:0001836	oboInOwl:hasDbXref	USDA: 4929.20
+WARN	invalid_xref	VO:0001837	oboInOwl:hasDbXref	USDA: 4955.20
+WARN	invalid_xref	VO:0001838	oboInOwl:hasDbXref	USDA: 4955.21
+WARN	invalid_xref	VO:0001839	oboInOwl:hasDbXref	USDA: 49A5.20
+WARN	invalid_xref	VO:0001840	oboInOwl:hasDbXref	USDA: 49A5.21
+WARN	invalid_xref	VO:0001841	oboInOwl:hasDbXref	USDA: 15D5.R0
+WARN	invalid_xref	VO:0001842	oboInOwl:hasDbXref	USDA: 1A69.20
+WARN	invalid_xref	VO:0001843	oboInOwl:hasDbXref	USDA: 15B5.20
+WARN	invalid_xref	VO:0001844	oboInOwl:hasDbXref	USDA: 15B5.21
+WARN	invalid_xref	VO:0001845	oboInOwl:hasDbXref	USDA: 15B9.20
+WARN	invalid_xref	VO:0001846	oboInOwl:hasDbXref	USDA: 15B9.21
+WARN	invalid_xref	VO:0001847	oboInOwl:hasDbXref	USDA: 1559.20
+WARN	invalid_xref	VO:0001848	oboInOwl:hasDbXref	USDA: 1559.23
+WARN	invalid_xref	VO:0001849	oboInOwl:hasDbXref	USDA: 1559.2C
+WARN	invalid_xref	VO:0001850	oboInOwl:hasDbXref	USDA: 1559.2B
+WARN	invalid_xref	VO:0001851	oboInOwl:hasDbXref	USDA: 16F1.20
+WARN	invalid_xref	VO:0001852	oboInOwl:hasDbXref	USDA: 16F1.21
+WARN	invalid_xref	VO:0001853	oboInOwl:hasDbXref	USDA: 16D5.20
+WARN	invalid_xref	VO:0001854	oboInOwl:hasDbXref	USDA: 16D5.23
+WARN	invalid_xref	VO:0001855	oboInOwl:hasDbXref	USDA: 16D9.20
+WARN	invalid_xref	VO:0001856	oboInOwl:hasDbXref	USDA: 16D1.20
+WARN	invalid_xref	VO:0001857	oboInOwl:hasDbXref	USDA: 16D1.22
+WARN	invalid_xref	VO:0001858	oboInOwl:hasDbXref	USDA: 16D1.23
+WARN	invalid_xref	VO:0001859	oboInOwl:hasDbXref	USDA: 16D1.24
+WARN	invalid_xref	VO:0001860	oboInOwl:hasDbXref	USDA: 16D8.20
+WARN	invalid_xref	VO:0001861	oboInOwl:hasDbXref	USDA: 16D8.21
+WARN	invalid_xref	VO:0001862	oboInOwl:hasDbXref	USDA: 16E5.20
+WARN	invalid_xref	VO:0001863	oboInOwl:hasDbXref	USDA: 16E5.23
+WARN	invalid_xref	VO:0001864	oboInOwl:hasDbXref	USDA: 16E6.20
+WARN	invalid_xref	VO:0001865	oboInOwl:hasDbXref	USDA: 16E1.20
+WARN	invalid_xref	VO:0001866	oboInOwl:hasDbXref	USDA: 16E1.24
+WARN	invalid_xref	VO:0001867	oboInOwl:hasDbXref	USDA: 16E8.20
+WARN	invalid_xref	VO:0001868	oboInOwl:hasDbXref	USDA: 1619.20
+WARN	invalid_xref	VO:0001869	oboInOwl:hasDbXref	USDA: 1619.R1
+WARN	invalid_xref	VO:0001870	oboInOwl:hasDbXref	USDA: 16T9.20
+WARN	invalid_xref	VO:0001871	oboInOwl:hasDbXref	USDA: 16T9.R0
+WARN	invalid_xref	VO:0001872	oboInOwl:hasDbXref	USDA: 16C1.20
+WARN	invalid_xref	VO:0001873	oboInOwl:hasDbXref	USDA: 16C1.21
+WARN	invalid_xref	VO:0001874	oboInOwl:hasDbXref	USDA: 16C1.22
+WARN	invalid_xref	VO:0001875	oboInOwl:hasDbXref	USDA: 1161.00
+WARN	invalid_xref	VO:0001876	oboInOwl:hasDbXref	USDA: 1161.20
+WARN	invalid_xref	VO:0001877	oboInOwl:hasDbXref	USDA: 45H5.20
+WARN	invalid_xref	VO:0001878	oboInOwl:hasDbXref	USDA: 45H5.21
+WARN	invalid_xref	VO:0001879	oboInOwl:hasDbXref	USDA: 4109.20
+WARN	invalid_xref	VO:0001880	oboInOwl:hasDbXref	USDA: 4019.00
+WARN	invalid_xref	VO:0001881	oboInOwl:hasDbXref	USDA: 4059.00
+WARN	invalid_xref	VO:0001882	oboInOwl:hasDbXref	USDA: 4069.20
+WARN	invalid_xref	VO:0001883	oboInOwl:hasDbXref	USDA: 4089.00
+WARN	invalid_xref	VO:0001884	oboInOwl:hasDbXref	USDA: 4089.20
+WARN	invalid_xref	VO:0001885	oboInOwl:hasDbXref	USDA: 4265.00
+WARN	invalid_xref	VO:0001886	oboInOwl:hasDbXref	USDA: 1121.00
+WARN	invalid_xref	VO:0001887	oboInOwl:hasDbXref	USDA: 1121.20
+WARN	invalid_xref	VO:0001888	oboInOwl:hasDbXref	USDA: 1121.21
+WARN	invalid_xref	VO:0001889	oboInOwl:hasDbXref	USDA: 1121.24
+WARN	invalid_xref	VO:0001890	oboInOwl:hasDbXref	USDA: 1121.31
+WARN	invalid_xref	VO:0001891	oboInOwl:hasDbXref	USDA: 4139.20
+WARN	invalid_xref	VO:0001892	oboInOwl:hasDbXref	USDA: 4129.00
+WARN	invalid_xref	VO:0001893	oboInOwl:hasDbXref	USDA: 4179.00
+WARN	invalid_xref	VO:0001894	oboInOwl:hasDbXref	USDA: 4209.00
+WARN	invalid_xref	VO:0001895	oboInOwl:hasDbXref	USDA: 1071.00
+WARN	invalid_xref	VO:0001896	oboInOwl:hasDbXref	USDA: 1071.20
+WARN	invalid_xref	VO:0001897	oboInOwl:hasDbXref	USDA: 1071.21
+WARN	invalid_xref	VO:0001898	oboInOwl:hasDbXref	USDA: 1071.22
+WARN	invalid_xref	VO:0001899	oboInOwl:hasDbXref	USDA: 1071.23
+WARN	invalid_xref	VO:0001900	oboInOwl:hasDbXref	USDA: 11B5.20
+WARN	invalid_xref	VO:0001901	oboInOwl:hasDbXref	USDA: 1155.20
+WARN	invalid_xref	VO:0001902	oboInOwl:hasDbXref	USDA: 1155.30
+WARN	invalid_xref	VO:0001903	oboInOwl:hasDbXref	USDA: 4145.20
+WARN	invalid_xref	VO:0001904	oboInOwl:hasDbXref	USDA: 4145.21
+WARN	invalid_xref	VO:0001905	oboInOwl:hasDbXref	USDA: 43S5.20
+WARN	invalid_xref	VO:0001906	oboInOwl:hasDbXref	USDA: 43T5.20
+WARN	invalid_xref	VO:0001907	oboInOwl:hasDbXref	USDA: 4335.20
+WARN	invalid_xref	VO:0001908	oboInOwl:hasDbXref	USDA: 4336.30
+WARN	invalid_xref	VO:0001909	oboInOwl:hasDbXref	USDA: 1151.00
+WARN	invalid_xref	VO:0001910	oboInOwl:hasDbXref	USDA: 1151.20
+WARN	invalid_xref	VO:0001911	oboInOwl:hasDbXref	USDA: 1151.22
+WARN	invalid_xref	VO:0001912	oboInOwl:hasDbXref	USDA: 1151.23
+WARN	invalid_xref	VO:0001913	oboInOwl:hasDbXref	USDA: 1151.26
+WARN	invalid_xref	VO:0001914	oboInOwl:hasDbXref	USDA: 4141.20
+WARN	invalid_xref	VO:0001915	oboInOwl:hasDbXref	USDA: 4339.00
+WARN	invalid_xref	VO:0001916	oboInOwl:hasDbXref	USDA: 4359.00
+WARN	invalid_xref	VO:0001917	oboInOwl:hasDbXref	USDA: 4399.20
+WARN	invalid_xref	VO:0001918	oboInOwl:hasDbXref	USDA: 4389.00
+WARN	invalid_xref	VO:0001919	oboInOwl:hasDbXref	USDA: 4389.20
+WARN	invalid_xref	VO:0001920	oboInOwl:hasDbXref	USDA: 4389.21
+WARN	invalid_xref	VO:0001921	oboInOwl:hasDbXref	USDA: 1175.20
+WARN	invalid_xref	VO:0001922	oboInOwl:hasDbXref	USDA: 4435.20
+WARN	invalid_xref	VO:0001923	oboInOwl:hasDbXref	USDA: 1171.00
+WARN	invalid_xref	VO:0001924	oboInOwl:hasDbXref	USDA: 1171.20
+WARN	invalid_xref	VO:0001925	oboInOwl:hasDbXref	USDA: 1171.22
+WARN	invalid_xref	VO:0001926	oboInOwl:hasDbXref	USDA: 1171.24
+WARN	invalid_xref	VO:0001927	oboInOwl:hasDbXref	USDA: 1171.25
+WARN	invalid_xref	VO:0001928	oboInOwl:hasDbXref	USDA: 1171.26
+WARN	invalid_xref	VO:0001929	oboInOwl:hasDbXref	USDA: 1171.27
+WARN	invalid_xref	VO:0001930	oboInOwl:hasDbXref	USDA: 1171.30
+WARN	invalid_xref	VO:0001931	oboInOwl:hasDbXref	USDA: 4560.24
+WARN	invalid_xref	VO:0001932	oboInOwl:hasDbXref	USDA: 4560.25
+WARN	invalid_xref	VO:0001933	oboInOwl:hasDbXref	USDA: 4489.30
+WARN	invalid_xref	VO:0001934	oboInOwl:hasDbXref	USDA: 4439.00
+WARN	invalid_xref	VO:0001935	oboInOwl:hasDbXref	USDA: 4439.20
+WARN	invalid_xref	VO:0001936	oboInOwl:hasDbXref	USDA: 4479.00
+WARN	invalid_xref	VO:0001937	oboInOwl:hasDbXref	USDA: 4509.00
+WARN	invalid_xref	VO:0001938	oboInOwl:hasDbXref	USDA: 44A5.20
+WARN	invalid_xref	VO:0001939	oboInOwl:hasDbXref	USDA: 1181.00
+WARN	invalid_xref	VO:0001940	oboInOwl:hasDbXref	USDA: 1181.20
+WARN	invalid_xref	VO:0001941	oboInOwl:hasDbXref	USDA: 1181.21
+WARN	invalid_xref	VO:0001942	oboInOwl:hasDbXref	USDA: 1181.22
+WARN	invalid_xref	VO:0001943	oboInOwl:hasDbXref	USDA: 1181.23
+WARN	invalid_xref	VO:0001944	oboInOwl:hasDbXref	USDA: 1181.24
+WARN	invalid_xref	VO:0001945	oboInOwl:hasDbXref	USDA: 1181.25
+WARN	invalid_xref	VO:0001946	oboInOwl:hasDbXref	USDA: 1181.26
+WARN	invalid_xref	VO:0001947	oboInOwl:hasDbXref	USDA: 1181.28
+WARN	invalid_xref	VO:0001948	oboInOwl:hasDbXref	USDA: 1181.30
+WARN	invalid_xref	VO:0001949	oboInOwl:hasDbXref	USDA: 1185.20
+WARN	invalid_xref	VO:0001950	oboInOwl:hasDbXref	USDA: 1185.22
+WARN	invalid_xref	VO:0001951	oboInOwl:hasDbXref	USDA: 44M5.20
+WARN	invalid_xref	VO:0001952	oboInOwl:hasDbXref	USDA: 44M5.22
+WARN	invalid_xref	VO:0001953	oboInOwl:hasDbXref	USDA: 44B5.20
+WARN	invalid_xref	VO:0001954	oboInOwl:hasDbXref	USDA: 44B6.20
+WARN	invalid_xref	VO:0001955	oboInOwl:hasDbXref	USDA: 44B6.21
+WARN	invalid_xref	VO:0001956	oboInOwl:hasDbXref	USDA: 44C5.20
+WARN	invalid_xref	VO:0001957	oboInOwl:hasDbXref	USDA: 44C7.20
+WARN	invalid_xref	VO:0001958	oboInOwl:hasDbXref	USDA: 44D5.20
+WARN	invalid_xref	VO:0001959	oboInOwl:hasDbXref	USDA: 44D7.20
+WARN	invalid_xref	VO:0001960	oboInOwl:hasDbXref	USDA: 44D7.22
+WARN	invalid_xref	VO:0001961	oboInOwl:hasDbXref	USDA: 4477.20
+WARN	invalid_xref	VO:0001962	oboInOwl:hasDbXref	USDA: 4465.20
+WARN	invalid_xref	VO:0001963	oboInOwl:hasDbXref	USDA: 4465.21
+WARN	invalid_xref	VO:0001964	oboInOwl:hasDbXref	USDA: 4465.22
+WARN	invalid_xref	VO:0001965	oboInOwl:hasDbXref	USDA: 4466.20
+WARN	invalid_xref	VO:0001966	oboInOwl:hasDbXref	USDA: 4466.21
+WARN	invalid_xref	VO:0001967	oboInOwl:hasDbXref	USDA: 4475.20
+WARN	invalid_xref	VO:0001968	oboInOwl:hasDbXref	USDA: 1187.20
+WARN	invalid_xref	VO:0001969	oboInOwl:hasDbXref	USDA: 1187.21
+WARN	invalid_xref	VO:0001970	oboInOwl:hasDbXref	USDA: 1187.22
+WARN	invalid_xref	VO:0001971	oboInOwl:hasDbXref	USDA: 1187.25
+WARN	invalid_xref	VO:0001972	oboInOwl:hasDbXref	USDA: 1189.00
+WARN	invalid_xref	VO:0001973	oboInOwl:hasDbXref	USDA: 1189.21
+WARN	invalid_xref	VO:0001974	oboInOwl:hasDbXref	USDA: 1189.30
+WARN	invalid_xref	VO:0001975	oboInOwl:hasDbXref	USDA: 44B9.21
+WARN	invalid_xref	VO:0001976	oboInOwl:hasDbXref	USDA: 44B9.22
+WARN	invalid_xref	VO:0001977	oboInOwl:hasDbXref	USDA: 44F9.20
+WARN	invalid_xref	VO:0001978	oboInOwl:hasDbXref	USDA: 4469.20
+WARN	invalid_xref	VO:0001979	oboInOwl:hasDbXref	USDA: 4469.22
+WARN	invalid_xref	VO:0001980	oboInOwl:hasDbXref	USDA: 4469.25
+WARN	invalid_xref	VO:0001981	oboInOwl:hasDbXref	USDA: 4469.30
+WARN	invalid_xref	VO:0001982	oboInOwl:hasDbXref	USDA: 44B1.20
+WARN	invalid_xref	VO:0001983	oboInOwl:hasDbXref	USDA: 44B1.22
+WARN	invalid_xref	VO:0001984	oboInOwl:hasDbXref	USDA: 44B1.23
+WARN	invalid_xref	VO:0001985	oboInOwl:hasDbXref	USDA: 44B1.25
+WARN	invalid_xref	VO:0001986	oboInOwl:hasDbXref	USDA: 44C9.20
+WARN	invalid_xref	VO:0001987	oboInOwl:hasDbXref	USDA: 44C9.21
+WARN	invalid_xref	VO:0001988	oboInOwl:hasDbXref	USDA: 44C9.23
+WARN	invalid_xref	VO:0001989	oboInOwl:hasDbXref	USDA: 44C9.24
+WARN	invalid_xref	VO:0001990	oboInOwl:hasDbXref	USDA: 44D9.20
+WARN	invalid_xref	VO:0001991	oboInOwl:hasDbXref	USDA: 44D9.21
+WARN	invalid_xref	VO:0001992	oboInOwl:hasDbXref	USDA: 44D9.23
+WARN	invalid_xref	VO:0001993	oboInOwl:hasDbXref	USDA: 44D9.24
+WARN	invalid_xref	VO:0001994	oboInOwl:hasDbXref	USDA: 4461.20
+WARN	invalid_xref	VO:0001995	oboInOwl:hasDbXref	USDA: 4461.21
+WARN	invalid_xref	VO:0001996	oboInOwl:hasDbXref	USDA: 4461.22
+WARN	invalid_xref	VO:0001997	oboInOwl:hasDbXref	USDA: 4461.25
+WARN	invalid_xref	VO:0001998	oboInOwl:hasDbXref	USDA: 4469.00
+WARN	invalid_xref	VO:0001999	oboInOwl:hasDbXref	USDA: 4469.01
+WARN	invalid_xref	VO:0002000	oboInOwl:hasDbXref	USDA: 4469.23
+WARN	invalid_xref	VO:0002001	oboInOwl:hasDbXref	USDA: 4469.24
+WARN	invalid_xref	VO:0002002	oboInOwl:hasDbXref	USDA: 4469.26
+WARN	invalid_xref	VO:0002003	oboInOwl:hasDbXref	USDA: 4L49.20
+WARN	invalid_xref	VO:0002004	oboInOwl:hasDbXref	USDA: 4X49.20
+WARN	invalid_xref	VO:0002005	oboInOwl:hasDbXref	USDA: 4X49.21
+WARN	invalid_xref	VO:0002006	oboInOwl:hasDbXref	USDA: 45B9.20
+WARN	invalid_xref	VO:0002007	oboInOwl:hasDbXref	USDA: 45B9.21
+WARN	invalid_xref	VO:0002008	oboInOwl:hasDbXref	USDA: 11A8.22
+WARN	invalid_xref	VO:0002009	oboInOwl:hasDbXref	USDA: 11A5.20
+WARN	invalid_xref	VO:0002010	oboInOwl:hasDbXref	USDA: 11A1.20
+WARN	invalid_xref	VO:0002011	oboInOwl:hasDbXref	USDA: 11A1.26
+WARN	invalid_xref	VO:0002012	oboInOwl:hasDbXref	USDA: 11A1.30
+WARN	invalid_xref	VO:0002013	oboInOwl:hasDbXref	USDA: 4367.20
+WARN	invalid_xref	VO:0002014	oboInOwl:hasDbXref	USDA: 4367.26
+WARN	invalid_xref	VO:0002015	oboInOwl:hasDbXref	USDA: 4367.30
+WARN	invalid_xref	VO:0002016	oboInOwl:hasDbXref	USDA: 1935.20
+WARN	invalid_xref	VO:0002017	oboInOwl:hasDbXref	USDA: 1931.20
+WARN	invalid_xref	VO:0002018	oboInOwl:hasDbXref	USDA: 4570.20
+WARN	invalid_xref	VO:0002019	oboInOwl:hasDbXref	USDA: 4570.22
+WARN	invalid_xref	VO:0002020	oboInOwl:hasDbXref	USDA: 4575.20
+WARN	invalid_xref	VO:0002021	oboInOwl:hasDbXref	USDA: 4585.20
+WARN	invalid_xref	VO:0002022	oboInOwl:hasDbXref	USDA: 4585.22
+WARN	invalid_xref	VO:0002023	oboInOwl:hasDbXref	USDA: 45B5.21
+WARN	invalid_xref	VO:0002024	oboInOwl:hasDbXref	USDA: 4C95.20
+WARN	invalid_xref	VO:0002025	oboInOwl:hasDbXref	USDA: 4595.21
+WARN	invalid_xref	VO:0002026	oboInOwl:hasDbXref	USDA: 4595.25
+WARN	invalid_xref	VO:0002027	oboInOwl:hasDbXref	USDA: 4599.00
+WARN	invalid_xref	VO:0002028	oboInOwl:hasDbXref	USDA: 12A5.20
+WARN	invalid_xref	VO:0002029	oboInOwl:hasDbXref	USDA: 1861.01
+WARN	invalid_xref	VO:0002031	oboInOwl:hasDbXref	USDA: 12C8.42
+WARN	invalid_xref	VO:0002031	oboInOwl:hasDbXref	USDA: 12C8.44
+WARN	invalid_xref	VO:0002032	oboInOwl:hasDbXref	USDA: 1061.R0
+WARN	invalid_xref	VO:0002033	oboInOwl:hasDbXref	USDA: 10M1.10
+WARN	invalid_xref	VO:0002034	oboInOwl:hasDbXref	USDA: 10M1.11
+WARN	invalid_xref	VO:0002035	oboInOwl:hasDbXref	USDA: 10M1.13
+WARN	invalid_xref	VO:0002036	oboInOwl:hasDbXref	USDA: 10M1.14
+WARN	invalid_xref	VO:0002037	oboInOwl:hasDbXref	USDA: 10M1.40
+WARN	invalid_xref	VO:0002038	oboInOwl:hasDbXref	USDA: 10S1.R0
+WARN	invalid_xref	VO:0002039	oboInOwl:hasDbXref	USDA: 10T1.40
+WARN	invalid_xref	VO:0002040	oboInOwl:hasDbXref	USDA: 1281.R0
+WARN	invalid_xref	VO:0002041	oboInOwl:hasDbXref	USDA: 1281.R1
+WARN	invalid_xref	VO:0002042	oboInOwl:hasDbXref	USDA: 1282.50
+WARN	invalid_xref	VO:0002043	oboInOwl:hasDbXref	USDA: 1288.42
+WARN	invalid_xref	VO:0002044	oboInOwl:hasDbXref	USDA: 1288.43
+WARN	invalid_xref	VO:0002045	oboInOwl:hasDbXref	USDA: 1288.44
+WARN	invalid_xref	VO:0002046	oboInOwl:hasDbXref	USDA: 1288.45
+WARN	invalid_xref	VO:0002047	oboInOwl:hasDbXref	USDA: 1288.4A
+WARN	invalid_xref	VO:0002048	oboInOwl:hasDbXref	USDA: 12C2.50
+WARN	invalid_xref	VO:0002049	oboInOwl:hasDbXref	USDA: 12C2.51
+WARN	invalid_xref	VO:0002050	oboInOwl:hasDbXref	USDA: 12C2.52
+WARN	invalid_xref	VO:0002051	oboInOwl:hasDbXref	USDA: 12C8.40
+WARN	invalid_xref	VO:0002052	oboInOwl:hasDbXref	USDA: 12C8.42
+WARN	invalid_xref	VO:0002053	oboInOwl:hasDbXref	USDA: 12C8.43
+WARN	invalid_xref	VO:0002054	oboInOwl:hasDbXref	USDA: 12C8.44
+WARN	invalid_xref	VO:0002055	oboInOwl:hasDbXref	USDA: 12D5.01
+WARN	invalid_xref	VO:0002056	oboInOwl:hasDbXref	USDA: 12D5.02
+WARN	invalid_xref	VO:0002057	oboInOwl:hasDbXref	USDA: 12D5.03
+WARN	invalid_xref	VO:0002058	oboInOwl:hasDbXref	USDA: 12D5.04
+WARN	invalid_xref	VO:0002059	oboInOwl:hasDbXref	USDA: 12D5.30
+WARN	invalid_xref	VO:0002060	oboInOwl:hasDbXref	USDA: 12D5.45
+WARN	invalid_xref	VO:0002061	oboInOwl:hasDbXref	USDA: 12D5.E0
+WARN	invalid_xref	VO:0002062	oboInOwl:hasDbXref	USDA: 12D5.F0
+WARN	invalid_xref	VO:0002063	oboInOwl:hasDbXref	USDA: 12D5.F1
+WARN	invalid_xref	VO:0002064	oboInOwl:hasDbXref	USDA: 12D5.T0
+WARN	invalid_xref	VO:0002065	oboInOwl:hasDbXref	USDA: 12G5.10
+WARN	invalid_xref	VO:0002066	oboInOwl:hasDbXref	USDA: 12G5.11
+WARN	invalid_xref	VO:0002067	oboInOwl:hasDbXref	USDA: 12G5.42
+WARN	invalid_xref	VO:0002068	oboInOwl:hasDbXref	USDA: 12G5.43
+WARN	invalid_xref	VO:0002069	oboInOwl:hasDbXref	USDA: 12H1.4M
+WARN	invalid_xref	VO:0002070	oboInOwl:hasDbXref	USDA: 12H1.67
+WARN	invalid_xref	VO:0002071	oboInOwl:hasDbXref	USDA: 12J5.40
+WARN	invalid_xref	VO:0002072	oboInOwl:hasDbXref	USDA: 12J5.43
+WARN	invalid_xref	VO:0002073	oboInOwl:hasDbXref	USDA: 12J5.61
+WARN	invalid_xref	VO:0002074	oboInOwl:hasDbXref	USDA: 12J5.62
+WARN	invalid_xref	VO:0002075	oboInOwl:hasDbXref	USDA: 12M5.00
+WARN	invalid_xref	VO:0002076	oboInOwl:hasDbXref	USDA: 12M5.01
+WARN	invalid_xref	VO:0002077	oboInOwl:hasDbXref	USDA: 12M5.11
+WARN	invalid_xref	VO:0002078	oboInOwl:hasDbXref	USDA: 12M5.40
+WARN	invalid_xref	VO:0002079	oboInOwl:hasDbXref	USDA: 12M5.41
+WARN	invalid_xref	VO:0002080	oboInOwl:hasDbXref	USDA: 12M5.42
+WARN	invalid_xref	VO:0002081	oboInOwl:hasDbXref	USDA: 12M5.43
+WARN	invalid_xref	VO:0002082	oboInOwl:hasDbXref	USDA: 12M5.50
+WARN	invalid_xref	VO:0002083	oboInOwl:hasDbXref	USDA: 12M5.90
+WARN	invalid_xref	VO:0002084	oboInOwl:hasDbXref	USDA: 12M5.91
+WARN	invalid_xref	VO:0002085	oboInOwl:hasDbXref	USDA: 12M5.E0
+WARN	invalid_xref	VO:0002086	oboInOwl:hasDbXref	USDA: 12P5.40
+WARN	invalid_xref	VO:0002087	oboInOwl:hasDbXref	USDA: 12P5.41
+WARN	invalid_xref	VO:0002088	oboInOwl:hasDbXref	USDA: 12P5.E0
+WARN	invalid_xref	VO:0002089	oboInOwl:hasDbXref	USDA: 12X1.20
+WARN	invalid_xref	VO:0002090	oboInOwl:hasDbXref	USDA: 1331.20
+WARN	invalid_xref	VO:0002091	oboInOwl:hasDbXref	USDA: 1331.25
+WARN	invalid_xref	VO:0002092	oboInOwl:hasDbXref	USDA: 1331.27
+WARN	invalid_xref	VO:0002093	oboInOwl:hasDbXref	USDA: 1331.30
+WARN	invalid_xref	VO:0002094	oboInOwl:hasDbXref	USDA: 1331.R1
+WARN	invalid_xref	VO:0002095	oboInOwl:hasDbXref	USDA: 1341.20
+WARN	invalid_xref	VO:0002096	oboInOwl:hasDbXref	USDA: 1351.20
+WARN	invalid_xref	VO:0002097	oboInOwl:hasDbXref	USDA: 1381.21
+WARN	invalid_xref	VO:0002098	oboInOwl:hasDbXref	USDA: 13A1.20
+WARN	invalid_xref	VO:0002099	oboInOwl:hasDbXref	USDA: 13A1.27
+WARN	invalid_xref	VO:0002100	oboInOwl:hasDbXref	USDA: 13C1.20
+WARN	invalid_xref	VO:0002101	oboInOwl:hasDbXref	USDA: 13D1.20
+WARN	invalid_xref	VO:0002102	oboInOwl:hasDbXref	USDA: 13D1.21
+WARN	invalid_xref	VO:0002103	oboInOwl:hasDbXref	USDA: 13D1.22
+WARN	invalid_xref	VO:0002104	oboInOwl:hasDbXref	USDA: 13D1.23
+WARN	invalid_xref	VO:0002105	oboInOwl:hasDbXref	USDA: 13D1.25
+WARN	invalid_xref	VO:0002106	oboInOwl:hasDbXref	USDA: 13D1.27
+WARN	invalid_xref	VO:0002107	oboInOwl:hasDbXref	USDA: 13D1.28
+WARN	invalid_xref	VO:0002108	oboInOwl:hasDbXref	USDA: 13D1.29
+WARN	invalid_xref	VO:0002109	oboInOwl:hasDbXref	USDA: 13D1.R1
+WARN	invalid_xref	VO:0002110	oboInOwl:hasDbXref	USDA: 13D1.T0
+WARN	invalid_xref	VO:0002111	oboInOwl:hasDbXref	USDA: 13G9.20
+WARN	invalid_xref	VO:0002112	oboInOwl:hasDbXref	USDA: 13H9.20
+WARN	invalid_xref	VO:0002113	oboInOwl:hasDbXref	USDA: 13P1.20
+WARN	invalid_xref	VO:0002114	oboInOwl:hasDbXref	USDA: 13P1.27
+WARN	invalid_xref	VO:0002115	oboInOwl:hasDbXref	USDA: 13W5.20
+WARN	invalid_xref	VO:0002116	oboInOwl:hasDbXref	USDA: 1475.00
+WARN	invalid_xref	VO:0002117	oboInOwl:hasDbXref	USDA: 14D7.20
+WARN	invalid_xref	VO:0002118	oboInOwl:hasDbXref	USDA: 14D9.27
+WARN	invalid_xref	VO:0002119	oboInOwl:hasDbXref	USDA: 14M1.20
+WARN	invalid_xref	VO:0002120	oboInOwl:hasDbXref	USDA: 14M1.22
+WARN	invalid_xref	VO:0002121	oboInOwl:hasDbXref	USDA: 14R1.20
+WARN	invalid_xref	VO:0002122	oboInOwl:hasDbXref	USDA: 14R7.20
+WARN	invalid_xref	VO:0002123	oboInOwl:hasDbXref	USDA: 14R7.21
+WARN	invalid_xref	VO:0002124	oboInOwl:hasDbXref	USDA: 14R7.22
+WARN	invalid_xref	VO:0002125	oboInOwl:hasDbXref	USDA: 14R7.25
+WARN	invalid_xref	VO:0002126	oboInOwl:hasDbXref	USDA: 14R7.29
+WARN	invalid_xref	VO:0002127	oboInOwl:hasDbXref	USDA: 14W5.22
+WARN	invalid_xref	VO:0002128	oboInOwl:hasDbXref	USDA: 14W5.23
+WARN	invalid_xref	VO:0002129	oboInOwl:hasDbXref	USDA: 14W7.R0
+WARN	invalid_xref	VO:0002130	oboInOwl:hasDbXref	USDA: 1515.24
+WARN	invalid_xref	VO:0002131	oboInOwl:hasDbXref	USDA: 1515.26
+WARN	invalid_xref	VO:0002132	oboInOwl:hasDbXref	USDA: 1515.27
+WARN	invalid_xref	VO:0002133	oboInOwl:hasDbXref	USDA: 1515.2A
+WARN	invalid_xref	VO:0002134	oboInOwl:hasDbXref	USDA: 1518.20
+WARN	invalid_xref	VO:0002135	oboInOwl:hasDbXref	USDA: 1591.R1
+WARN	invalid_xref	VO:0002136	oboInOwl:hasDbXref	USDA: 1599.20
+WARN	invalid_xref	VO:0002137	oboInOwl:hasDbXref	USDA: 1599.21
+WARN	invalid_xref	VO:0002138	oboInOwl:hasDbXref	USDA: 1599.25
+WARN	invalid_xref	VO:0002139	oboInOwl:hasDbXref	USDA: 1599.29
+WARN	invalid_xref	VO:0002140	oboInOwl:hasDbXref	USDA: 15E2.00
+WARN	invalid_xref	VO:0002141	oboInOwl:hasDbXref	USDA: 16J1.R1
+WARN	invalid_xref	VO:0002142	oboInOwl:hasDbXref	USDA: 16J1.R2
+WARN	invalid_xref	VO:0002143	oboInOwl:hasDbXref	USDA: 16N1.R0
+WARN	invalid_xref	VO:0002144	oboInOwl:hasDbXref	USDA: 16N1.R1
+WARN	invalid_xref	VO:0002145	oboInOwl:hasDbXref	USDA: 16N1.R2
+WARN	invalid_xref	VO:0002146	oboInOwl:hasDbXref	USDA: 16T1.00
+WARN	invalid_xref	VO:0002147	oboInOwl:hasDbXref	USDA: 16T1.03
+WARN	invalid_xref	VO:0002148	oboInOwl:hasDbXref	USDA: 1761.11
+WARN	invalid_xref	VO:0002149	oboInOwl:hasDbXref	USDA: 1761.12
+WARN	invalid_xref	VO:0002150	oboInOwl:hasDbXref	USDA: 1761.13
+WARN	invalid_xref	VO:0002151	oboInOwl:hasDbXref	USDA: 1761.14
+WARN	invalid_xref	VO:0002152	oboInOwl:hasDbXref	USDA: 1761.15
+WARN	invalid_xref	VO:0002153	oboInOwl:hasDbXref	USDA: 1761.17
+WARN	invalid_xref	VO:0002154	oboInOwl:hasDbXref	USDA: 1761.18
+WARN	invalid_xref	VO:0002155	oboInOwl:hasDbXref	USDA: 1761.19
+WARN	invalid_xref	VO:0002156	oboInOwl:hasDbXref	USDA: 1761.1A
+WARN	invalid_xref	VO:0002157	oboInOwl:hasDbXref	USDA: 1762.11
+WARN	invalid_xref	VO:0002158	oboInOwl:hasDbXref	USDA: 1762.13
+WARN	invalid_xref	VO:0002159	oboInOwl:hasDbXref	USDA: 1762.1H
+WARN	invalid_xref	VO:0002160	oboInOwl:hasDbXref	USDA: 1771.11
+WARN	invalid_xref	VO:0002161	oboInOwl:hasDbXref	USDA: 1771.12
+WARN	invalid_xref	VO:0002162	oboInOwl:hasDbXref	USDA: 1771.14
+WARN	invalid_xref	VO:0002163	oboInOwl:hasDbXref	USDA: 1771.17
+WARN	invalid_xref	VO:0002164	oboInOwl:hasDbXref	USDA: 1771.18
+WARN	invalid_xref	VO:0002165	oboInOwl:hasDbXref	USDA: 1771.19
+WARN	invalid_xref	VO:0002166	oboInOwl:hasDbXref	USDA: 1771.1A
+WARN	invalid_xref	VO:0002167	oboInOwl:hasDbXref	USDA: 1775.10
+WARN	invalid_xref	VO:0002168	oboInOwl:hasDbXref	USDA: 1775.11
+WARN	invalid_xref	VO:0002169	oboInOwl:hasDbXref	USDA: 1776.10
+WARN	invalid_xref	VO:0002170	oboInOwl:hasDbXref	USDA: 1785.10
+WARN	invalid_xref	VO:0002171	oboInOwl:hasDbXref	USDA: 1785.11
+WARN	invalid_xref	VO:0002172	oboInOwl:hasDbXref	USDA: 1785.12
+WARN	invalid_xref	VO:0002173	oboInOwl:hasDbXref	USDA: 1791.14
+WARN	invalid_xref	VO:0002174	oboInOwl:hasDbXref	USDA: 1791.15
+WARN	invalid_xref	VO:0002175	oboInOwl:hasDbXref	USDA: 1791.19
+WARN	invalid_xref	VO:0002176	oboInOwl:hasDbXref	USDA: 1791.1X
+WARN	invalid_xref	VO:0002177	oboInOwl:hasDbXref	USDA: 17A1.1M
+WARN	invalid_xref	VO:0002178	oboInOwl:hasDbXref	USDA: 17A1.1N
+WARN	invalid_xref	VO:0002179	oboInOwl:hasDbXref	USDA: 17A2.1M
+WARN	invalid_xref	VO:0002180	oboInOwl:hasDbXref	USDA: 17B1.17
+WARN	invalid_xref	VO:0002181	oboInOwl:hasDbXref	USDA: 17C1.R0
+WARN	invalid_xref	VO:0002182	oboInOwl:hasDbXref	USDA: 17H1.R1
+WARN	invalid_xref	VO:0002183	oboInOwl:hasDbXref	USDA: 17H1.R2
+WARN	invalid_xref	VO:0002184	oboInOwl:hasDbXref	USDA: 17P5.10
+WARN	invalid_xref	VO:0002185	oboInOwl:hasDbXref	USDA: 17V1.10
+WARN	invalid_xref	VO:0002186	oboInOwl:hasDbXref	USDA: 17V1.11
+WARN	invalid_xref	VO:0002193	oboInOwl:hasDbXref	USDA: 19H1.20
+WARN	invalid_xref	VO:0002195	oboInOwl:hasDbXref	USDA: 19K5.R1
+WARN	invalid_xref	VO:0002196	oboInOwl:hasDbXref	USDA: 1A82.50
+WARN	invalid_xref	VO:0002197	oboInOwl:hasDbXref	USDA: 1A88.R0
+WARN	invalid_xref	VO:0002198	oboInOwl:hasDbXref	USDA: 1A88.R1
+WARN	invalid_xref	VO:0002199	oboInOwl:hasDbXref	USDA: 1A88.R2
+WARN	invalid_xref	VO:0002200	oboInOwl:hasDbXref	USDA: 1B82.50
+WARN	invalid_xref	VO:0002201	oboInOwl:hasDbXref	USDA: 1D51.R0
+WARN	invalid_xref	VO:0002202	oboInOwl:hasDbXref	USDA: 1F31.R0
+WARN	invalid_xref	VO:0002203	oboInOwl:hasDbXref	USDA: 1XB1.10
+WARN	invalid_xref	VO:0002204	oboInOwl:hasDbXref	USDA: 1XC1.10
+WARN	invalid_xref	VO:0002205	oboInOwl:hasDbXref	USDA: 40A5.20
+WARN	invalid_xref	VO:0002206	oboInOwl:hasDbXref	USDA: 4629.20
+WARN	invalid_xref	VO:0002207	oboInOwl:hasDbXref	USDA: 4629.27
+WARN	invalid_xref	VO:0002208	oboInOwl:hasDbXref	USDA: 4637.20
+WARN	invalid_xref	VO:0002209	oboInOwl:hasDbXref	USDA: 4637.22
+WARN	invalid_xref	VO:0002210	oboInOwl:hasDbXref	USDA: 4637.23
+WARN	invalid_xref	VO:0002211	oboInOwl:hasDbXref	USDA: 4637.29
+WARN	invalid_xref	VO:0002212	oboInOwl:hasDbXref	USDA: 4639.21
+WARN	invalid_xref	VO:0002213	oboInOwl:hasDbXref	USDA: 4639.22
+WARN	invalid_xref	VO:0002214	oboInOwl:hasDbXref	USDA: 4639.25
+WARN	invalid_xref	VO:0002215	oboInOwl:hasDbXref	USDA: 4639.27
+WARN	invalid_xref	VO:0002216	oboInOwl:hasDbXref	USDA: 4639.28
+WARN	invalid_xref	VO:0002217	oboInOwl:hasDbXref	USDA: 4639.R1
+WARN	invalid_xref	VO:0002218	oboInOwl:hasDbXref	USDA: 4659.20
+WARN	invalid_xref	VO:0002219	oboInOwl:hasDbXref	USDA: 46B9.21
+WARN	invalid_xref	VO:0002220	oboInOwl:hasDbXref	USDA: 46D5.27
+WARN	invalid_xref	VO:0002221	oboInOwl:hasDbXref	USDA: 46E5.20
+WARN	invalid_xref	VO:0002222	oboInOwl:hasDbXref	USDA: 46E5.21
+WARN	invalid_xref	VO:0002223	oboInOwl:hasDbXref	USDA: 46E5.23
+WARN	invalid_xref	VO:0002224	oboInOwl:hasDbXref	USDA: 46E5.24
+WARN	invalid_xref	VO:0002225	oboInOwl:hasDbXref	USDA: 46E5.25
+WARN	invalid_xref	VO:0002226	oboInOwl:hasDbXref	USDA: 46J7.20
+WARN	invalid_xref	VO:0002227	oboInOwl:hasDbXref	USDA: 46J7.22
+WARN	invalid_xref	VO:0002228	oboInOwl:hasDbXref	USDA: 46J8.20
+WARN	invalid_xref	VO:0002229	oboInOwl:hasDbXref	USDA: 46J9.20
+WARN	invalid_xref	VO:0002230	oboInOwl:hasDbXref	USDA: 46J9.21
+WARN	invalid_xref	VO:0002231	oboInOwl:hasDbXref	USDA: 46J9.25
+WARN	invalid_xref	VO:0002232	oboInOwl:hasDbXref	USDA: 46J9.26
+WARN	invalid_xref	VO:0002233	oboInOwl:hasDbXref	USDA: 46J9.27
+WARN	invalid_xref	VO:0002234	oboInOwl:hasDbXref	USDA: 46J9.29
+WARN	invalid_xref	VO:0002235	oboInOwl:hasDbXref	USDA: 46J9.R1
+WARN	invalid_xref	VO:0002236	oboInOwl:hasDbXref	USDA: 46L9.27
+WARN	invalid_xref	VO:0002237	oboInOwl:hasDbXref	USDA: 46P9.27
+WARN	invalid_xref	VO:0002238	oboInOwl:hasDbXref	USDA: 46W5.21
+WARN	invalid_xref	VO:0002239	oboInOwl:hasDbXref	USDA: 47A5.20
+WARN	invalid_xref	VO:0002240	oboInOwl:hasDbXref	USDA: 47B1.20
+WARN	invalid_xref	VO:0002241	oboInOwl:hasDbXref	USDA: 47C5.20
+WARN	invalid_xref	VO:0002242	oboInOwl:hasDbXref	USDA: 47C5.29
+WARN	invalid_xref	VO:0002243	oboInOwl:hasDbXref	USDA: 47E5.20
+WARN	invalid_xref	VO:0002244	oboInOwl:hasDbXref	USDA: 47E5.21
+WARN	invalid_xref	VO:0002245	oboInOwl:hasDbXref	USDA: 47K1.20
+WARN	invalid_xref	VO:0002246	oboInOwl:hasDbXref	USDA: 47L9.20
+WARN	invalid_xref	VO:0002247	oboInOwl:hasDbXref	USDA: 47P9.22
+WARN	invalid_xref	VO:0002248	oboInOwl:hasDbXref	USDA: 4835.20
+WARN	invalid_xref	VO:0002249	oboInOwl:hasDbXref	USDA: 4835.23
+WARN	invalid_xref	VO:0002250	oboInOwl:hasDbXref	USDA: 4835.24
+WARN	invalid_xref	VO:0002251	oboInOwl:hasDbXref	USDA: 4835.45
+WARN	invalid_xref	VO:0002252	oboInOwl:hasDbXref	USDA: 4835.46
+WARN	invalid_xref	VO:0002253	oboInOwl:hasDbXref	USDA: 4844.30
+WARN	invalid_xref	VO:0002254	oboInOwl:hasDbXref	USDA: 4845.23
+WARN	invalid_xref	VO:0002255	oboInOwl:hasDbXref	USDA: 4845.24
+WARN	invalid_xref	VO:0002256	oboInOwl:hasDbXref	USDA: 4845.32
+WARN	invalid_xref	VO:0002257	oboInOwl:hasDbXref	USDA: 4845.33
+WARN	invalid_xref	VO:0002258	oboInOwl:hasDbXref	USDA: 4847.22
+WARN	invalid_xref	VO:0002259	oboInOwl:hasDbXref	USDA: 4847.23
+WARN	invalid_xref	VO:0002260	oboInOwl:hasDbXref	USDA: 4847.24
+WARN	invalid_xref	VO:0002261	oboInOwl:hasDbXref	USDA: 4847.32
+WARN	invalid_xref	VO:0002262	oboInOwl:hasDbXref	USDA: 4855.R2
+WARN	invalid_xref	VO:0002263	oboInOwl:hasDbXref	USDA: 4865.00
+WARN	invalid_xref	VO:0002264	oboInOwl:hasDbXref	USDA: 4865.01
+WARN	invalid_xref	VO:0002265	oboInOwl:hasDbXref	USDA: 4865.21
+WARN	invalid_xref	VO:0002266	oboInOwl:hasDbXref	USDA: 4865.23
+WARN	invalid_xref	VO:0002267	oboInOwl:hasDbXref	USDA: 4865.26
+WARN	invalid_xref	VO:0002268	oboInOwl:hasDbXref	USDA: 4865.27
+WARN	invalid_xref	VO:0002269	oboInOwl:hasDbXref	USDA: 4867.20
+WARN	invalid_xref	VO:0002270	oboInOwl:hasDbXref	USDA: 4867.21
+WARN	invalid_xref	VO:0002271	oboInOwl:hasDbXref	USDA: 4875.23
+WARN	invalid_xref	VO:0002272	oboInOwl:hasDbXref	USDA: 4875.24
+WARN	invalid_xref	VO:0002273	oboInOwl:hasDbXref	USDA: 4875.A0
+WARN	invalid_xref	VO:0002274	oboInOwl:hasDbXref	USDA: 4875.A1
+WARN	invalid_xref	VO:0002275	oboInOwl:hasDbXref	USDA: 48B5.10
+WARN	invalid_xref	VO:0002276	oboInOwl:hasDbXref	USDA: 48B6.10
+WARN	invalid_xref	VO:0002277	oboInOwl:hasDbXref	USDA: 48C5.01
+WARN	invalid_xref	VO:0002278	oboInOwl:hasDbXref	USDA: 48C5.20
+WARN	invalid_xref	VO:0002279	oboInOwl:hasDbXref	USDA: 48C5.21
+WARN	invalid_xref	VO:0002280	oboInOwl:hasDbXref	USDA: 48C5.22
+WARN	invalid_xref	VO:0002281	oboInOwl:hasDbXref	USDA: 48D6.10
+WARN	invalid_xref	VO:0002282	oboInOwl:hasDbXref	USDA: 48D7.10
+WARN	invalid_xref	VO:0002283	oboInOwl:hasDbXref	USDA: 48D7.11
+WARN	invalid_xref	VO:0002284	oboInOwl:hasDbXref	USDA: 48W5.20
+WARN	invalid_xref	VO:0002285	oboInOwl:hasDbXref	USDA: 48W5.21
+WARN	invalid_xref	VO:0002286	oboInOwl:hasDbXref	USDA: 48W5.22
+WARN	invalid_xref	VO:0002287	oboInOwl:hasDbXref	USDA: 48W5.23
+WARN	invalid_xref	VO:0002288	oboInOwl:hasDbXref	USDA: 48W9.R0
+WARN	invalid_xref	VO:0002289	oboInOwl:hasDbXref	USDA: 4905.20
+WARN	invalid_xref	VO:0002290	oboInOwl:hasDbXref	USDA: 4906.20
+WARN	invalid_xref	VO:0002291	oboInOwl:hasDbXref	USDA: 4960.00
+WARN	invalid_xref	VO:0002292	oboInOwl:hasDbXref	USDA: 4975.01
+WARN	invalid_xref	VO:0002293	oboInOwl:hasDbXref	USDA: 4975.20
+WARN	invalid_xref	VO:0002294	oboInOwl:hasDbXref	USDA: 4975.22
+WARN	invalid_xref	VO:0002295	oboInOwl:hasDbXref	USDA: 4989.00
+WARN	invalid_xref	VO:0002296	oboInOwl:hasDbXref	USDA: 4990.00
+WARN	invalid_xref	VO:0002297	oboInOwl:hasDbXref	USDA: 4993.20
+WARN	invalid_xref	VO:0002298	oboInOwl:hasDbXref	USDA: 4993.21
+WARN	invalid_xref	VO:0002299	oboInOwl:hasDbXref	USDA: 4994.20
+WARN	invalid_xref	VO:0002300	oboInOwl:hasDbXref	USDA: 4994.21
+WARN	invalid_xref	VO:0002301	oboInOwl:hasDbXref	USDA: 4994.23
+WARN	invalid_xref	VO:0002302	oboInOwl:hasDbXref	USDA: 4994.24
+WARN	invalid_xref	VO:0002303	oboInOwl:hasDbXref	USDA: 4995.22
+WARN	invalid_xref	VO:0002304	oboInOwl:hasDbXref	USDA: 4995.23
+WARN	invalid_xref	VO:0002305	oboInOwl:hasDbXref	USDA: 4995.25
+WARN	invalid_xref	VO:0002306	oboInOwl:hasDbXref	USDA: 4995.26
+WARN	invalid_xref	VO:0002307	oboInOwl:hasDbXref	USDA: 49B1.21
+WARN	invalid_xref	VO:0002308	oboInOwl:hasDbXref	USDA: 49C1.21
+WARN	invalid_xref	VO:0002309	oboInOwl:hasDbXref	USDA: 49F6.22
+WARN	invalid_xref	VO:0002310	oboInOwl:hasDbXref	USDA: 49F6.23
+WARN	invalid_xref	VO:0002311	oboInOwl:hasDbXref	USDA: 49F6.24
+WARN	invalid_xref	VO:0002312	oboInOwl:hasDbXref	USDA: 49G6.22
+WARN	invalid_xref	VO:0002313	oboInOwl:hasDbXref	USDA: 49G6.23
+WARN	invalid_xref	VO:0002314	oboInOwl:hasDbXref	USDA: 49G6.24
+WARN	invalid_xref	VO:0002315	oboInOwl:hasDbXref	USDA: 49K1.20
+WARN	invalid_xref	VO:0002316	oboInOwl:hasDbXref	USDA: 49K5.R1
+WARN	invalid_xref	VO:0002317	oboInOwl:hasDbXref	USDA: 49K9.R0
+WARN	invalid_xref	VO:0002318	oboInOwl:hasDbXref	USDA: 49P1.20
+WARN	invalid_xref	VO:0002319	oboInOwl:hasDbXref	USDA: 49T9.21
+WARN	invalid_xref	VO:0002320	oboInOwl:hasDbXref	USDA: 4A45.20
+WARN	invalid_xref	VO:0002321	oboInOwl:hasDbXref	USDA: 4BC5.20
+WARN	invalid_xref	VO:0002322	oboInOwl:hasDbXref	USDA: 4BC5.21
+WARN	invalid_xref	VO:0002323	oboInOwl:hasDbXref	USDA: 4BC5.22
+WARN	invalid_xref	VO:0002324	oboInOwl:hasDbXref	USDA: 4P19.20
+WARN	invalid_xref	VO:0002452	oboInOwl:hasDbXref	SNOMEDCT: 55262006
+WARN	invalid_xref	VO:0002480	oboInOwl:hasDbXref	USDA: 4995.22
+WARN	invalid_xref	VO:0002491	oboInOwl:hasDbXref	USDA: 12X1.21
+WARN	invalid_xref	VO:0002492	oboInOwl:hasDbXref	USDA: 46L9.20
+WARN	invalid_xref	VO:0002493	oboInOwl:hasDbXref	USDA: 16J1.R3
+WARN	invalid_xref	VO:0003150	oboInOwl:hasDbXref	CUI: C0062527
+WARN	invalid_xref	VO:0003150	oboInOwl:hasDbXref	RXAUI: 2850925
+WARN	invalid_xref	VO:0003150	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003231	oboInOwl:hasDbXref	CUI: C4534702
+WARN	invalid_xref	VO:0003231	oboInOwl:hasDbXref	"RXAUI: 9712934, 9712933, 9712931, 9712937"
+WARN	invalid_xref	VO:0003231	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003538	oboInOwl:hasDbXref	MeSH: D053918
+WARN	invalid_xref	VO:0003563	oboInOwl:hasDbXref	CUI: C3236244
+WARN	invalid_xref	VO:0003563	oboInOwl:hasDbXref	RXAUI: 3843751
+WARN	invalid_xref	VO:0003563	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003564	oboInOwl:hasDbXref	CUI: C4033793
+WARN	invalid_xref	VO:0003564	oboInOwl:hasDbXref	RXAUI: 7253076
+WARN	invalid_xref	VO:0003564	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003565	oboInOwl:hasDbXref	CUI: C3887855
+WARN	invalid_xref	VO:0003565	oboInOwl:hasDbXref	"RXAUI: 7253077, 7253108, 7253095"
+WARN	invalid_xref	VO:0003565	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003566	oboInOwl:hasDbXref	CUI: C1154308
+WARN	invalid_xref	VO:0003566	oboInOwl:hasDbXref	"RXAUI: 2977679, 7253371, 3270831"
+WARN	invalid_xref	VO:0003566	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003567	oboInOwl:hasDbXref	CUI: C3855233
+WARN	invalid_xref	VO:0003567	oboInOwl:hasDbXref	RXAUI: 6400287
+WARN	invalid_xref	VO:0003567	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003568	oboInOwl:hasDbXref	CUI: C3853732
+WARN	invalid_xref	VO:0003568	oboInOwl:hasDbXref	"RXAUI: 7253508, 6400288, 6400291"
+WARN	invalid_xref	VO:0003568	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003569	oboInOwl:hasDbXref	CUI: C3231573
+WARN	invalid_xref	VO:0003569	oboInOwl:hasDbXref	RXAUI: 3844071
+WARN	invalid_xref	VO:0003569	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003570	oboInOwl:hasDbXref	CUI: C2746125
+WARN	invalid_xref	VO:0003570	oboInOwl:hasDbXref	RXAUI: 3060990
+WARN	invalid_xref	VO:0003570	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003571	oboInOwl:hasDbXref	CUI: C2709771
+WARN	invalid_xref	VO:0003571	oboInOwl:hasDbXref	RXAUI: 2977666
+WARN	invalid_xref	VO:0003572	oboInOwl:hasDbXref	CUI: C3233397
+WARN	invalid_xref	VO:0003572	oboInOwl:hasDbXref	RXAUI: 3844185
+WARN	invalid_xref	VO:0003572	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003573	oboInOwl:hasDbXref	CUI: C4033818
+WARN	invalid_xref	VO:0003573	oboInOwl:hasDbXref	RXAUI: 7252149
+WARN	invalid_xref	VO:0003573	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003574	oboInOwl:hasDbXref	CUI: C1698231
+WARN	invalid_xref	VO:0003574	oboInOwl:hasDbXref	"RXAUI: 7252150, 7250950, 7253644"
+WARN	invalid_xref	VO:0003574	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003575	oboInOwl:hasDbXref	CUI: C2709781
+WARN	invalid_xref	VO:0003575	oboInOwl:hasDbXref	RXAUI: 2977677
+WARN	invalid_xref	VO:0003575	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003576	oboInOwl:hasDbXref	CUI: C2746124
+WARN	invalid_xref	VO:0003576	oboInOwl:hasDbXref	RXAUI: 3060989
+WARN	invalid_xref	VO:0003576	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003577	oboInOwl:hasDbXref	CUI: C2364511
+WARN	invalid_xref	VO:0003577	oboInOwl:hasDbXref	RXAUI: 4609906
+WARN	invalid_xref	VO:0003577	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003578	oboInOwl:hasDbXref	CUI: C4033722
+WARN	invalid_xref	VO:0003578	oboInOwl:hasDbXref	RXAUI: 7253467
+WARN	invalid_xref	VO:0003578	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003579	oboInOwl:hasDbXref	CUI: C3645245
+WARN	invalid_xref	VO:0003579	oboInOwl:hasDbXref	RXAUI: 5473440
+WARN	invalid_xref	VO:0003579	oboInOwl:hasDbXref	"TUI: T116, T121"
+WARN	invalid_xref	VO:0003580	oboInOwl:hasDbXref	CUI: C4033721
+WARN	invalid_xref	VO:0003580	oboInOwl:hasDbXref	RXAUI: 7253478
+WARN	invalid_xref	VO:0003580	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003581	oboInOwl:hasDbXref	CUI: C4033789
+WARN	invalid_xref	VO:0003581	oboInOwl:hasDbXref	RXAUI: 7253479
+WARN	invalid_xref	VO:0003581	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003582	oboInOwl:hasDbXref	CUI: C4026367
+WARN	invalid_xref	VO:0003582	oboInOwl:hasDbXref	"RXAUI: 7253480, 7253494, 7707297"
+WARN	invalid_xref	VO:0003582	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003583	oboInOwl:hasDbXref	CUI: C4033789
+WARN	invalid_xref	VO:0003583	oboInOwl:hasDbXref	"RXAUI: 7264732, 7253470, 7264735"
+WARN	invalid_xref	VO:0003583	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003584	oboInOwl:hasDbXref	CUI: C4271565
+WARN	invalid_xref	VO:0003584	oboInOwl:hasDbXref	RXAUI: 8237155
+WARN	invalid_xref	VO:0003584	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003585	oboInOwl:hasDbXref	CUI: C4271631
+WARN	invalid_xref	VO:0003585	oboInOwl:hasDbXref	RXAUI: 8237156
+WARN	invalid_xref	VO:0003585	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003586	oboInOwl:hasDbXref	CUI: C4271735
+WARN	invalid_xref	VO:0003586	oboInOwl:hasDbXref	RXAUI: 8237158
+WARN	invalid_xref	VO:0003586	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003587	oboInOwl:hasDbXref	CUI: C4271674
+WARN	invalid_xref	VO:0003587	oboInOwl:hasDbXref	RXAUI: 8237157
+WARN	invalid_xref	VO:0003587	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003588	oboInOwl:hasDbXref	CUI: C4270825
+WARN	invalid_xref	VO:0003588	oboInOwl:hasDbXref	"RXAUI: 8237163, 8237162, 8237159"
+WARN	invalid_xref	VO:0003588	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003589	oboInOwl:hasDbXref	CUI: C4490427
+WARN	invalid_xref	VO:0003589	oboInOwl:hasDbXref	RXAUI: 9198824
+WARN	invalid_xref	VO:0003589	oboInOwl:hasDbXref	TUI: T116
+WARN	invalid_xref	VO:0003590	oboInOwl:hasDbXref	CUI: C4490430
+WARN	invalid_xref	VO:0003590	oboInOwl:hasDbXref	RXAUI: 9198827
+WARN	invalid_xref	VO:0003590	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003591	oboInOwl:hasDbXref	CUI: C4490428
+WARN	invalid_xref	VO:0003591	oboInOwl:hasDbXref	RXAUI: 9198825
+WARN	invalid_xref	VO:0003591	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003592	oboInOwl:hasDbXref	CUI: C4490429
+WARN	invalid_xref	VO:0003592	oboInOwl:hasDbXref	RXAUI: 9198826
+WARN	invalid_xref	VO:0003592	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003593	oboInOwl:hasDbXref	CUI: C4325062
+WARN	invalid_xref	VO:0003593	oboInOwl:hasDbXref	"RXAUI: 9198828, 9198831, 9198832"
+WARN	invalid_xref	VO:0003593	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003594	oboInOwl:hasDbXref	CUI: C4719042
+WARN	invalid_xref	VO:0003594	oboInOwl:hasDbXref	RXAUI: 10289780
+WARN	invalid_xref	VO:0003594	oboInOwl:hasDbXref	TUI: T109
+WARN	invalid_xref	VO:0003595	oboInOwl:hasDbXref	CUI: C4719045
+WARN	invalid_xref	VO:0003595	oboInOwl:hasDbXref	RXAUI: 10289783
+WARN	invalid_xref	VO:0003595	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003596	oboInOwl:hasDbXref	CUI: C4719043
+WARN	invalid_xref	VO:0003596	oboInOwl:hasDbXref	RXAUI: 10289781
+WARN	invalid_xref	VO:0003596	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003597	oboInOwl:hasDbXref	CUI: C4719044
+WARN	invalid_xref	VO:0003597	oboInOwl:hasDbXref	RXAUI: 10289782
+WARN	invalid_xref	VO:0003597	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003598	oboInOwl:hasDbXref	CUI: C4719046
+WARN	invalid_xref	VO:0003598	oboInOwl:hasDbXref	"RXAUI: 10289784, 10289785, 10289786"
+WARN	invalid_xref	VO:0003598	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003607	oboInOwl:hasDbXref	CUI: C3645248
+WARN	invalid_xref	VO:0003607	oboInOwl:hasDbXref	RXAUI: 5473443
+WARN	invalid_xref	VO:0003607	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003608	oboInOwl:hasDbXref	CUI: C3645246
+WARN	invalid_xref	VO:0003608	oboInOwl:hasDbXref	RXAUI: 5473441
+WARN	invalid_xref	VO:0003608	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003609	oboInOwl:hasDbXref	CUI: C3645252
+WARN	invalid_xref	VO:0003609	oboInOwl:hasDbXref	RXAUI: 5473453
+WARN	invalid_xref	VO:0003609	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003610	oboInOwl:hasDbXref	CUI: C3537276
+WARN	invalid_xref	VO:0003610	oboInOwl:hasDbXref	"RXAUI: 5488148, 5473470, 5473464"
+WARN	invalid_xref	VO:0003610	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003611	oboInOwl:hasDbXref	CUI: C3817309
+WARN	invalid_xref	VO:0003611	oboInOwl:hasDbXref	RXAUI: 6338534
+WARN	invalid_xref	VO:0003611	oboInOwl:hasDbXref	"TUI: T116, T121"
+WARN	invalid_xref	VO:0003612	oboInOwl:hasDbXref	CUI: C3819823
+WARN	invalid_xref	VO:0003612	oboInOwl:hasDbXref	RXAUI: 6338537
+WARN	invalid_xref	VO:0003612	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003613	oboInOwl:hasDbXref	CUI: C3872179
+WARN	invalid_xref	VO:0003613	oboInOwl:hasDbXref	RXAUI: 6821895
+WARN	invalid_xref	VO:0003613	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003614	oboInOwl:hasDbXref	CUI: C3819658
+WARN	invalid_xref	VO:0003614	oboInOwl:hasDbXref	RXAUI: 6338536
+WARN	invalid_xref	VO:0003614	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003615	oboInOwl:hasDbXref	CUI: C3871481
+WARN	invalid_xref	VO:0003615	oboInOwl:hasDbXref	"RXAUI: 6821896, 6821899"
+WARN	invalid_xref	VO:0003615	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003616	oboInOwl:hasDbXref	CUI: C4026655
+WARN	invalid_xref	VO:0003616	oboInOwl:hasDbXref	RXAUI: 7255357
+WARN	invalid_xref	VO:0003616	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003617	oboInOwl:hasDbXref	CUI: C4047088
+WARN	invalid_xref	VO:0003617	oboInOwl:hasDbXref	RXAUI: 7255360
+WARN	invalid_xref	VO:0003617	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003618	oboInOwl:hasDbXref	CUI: C4046959
+WARN	invalid_xref	VO:0003618	oboInOwl:hasDbXref	RXAUI: 7255358
+WARN	invalid_xref	VO:0003618	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003619	oboInOwl:hasDbXref	CUI: C4046937
+WARN	invalid_xref	VO:0003619	oboInOwl:hasDbXref	RXAUI: 7258293
+WARN	invalid_xref	VO:0003619	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003620	oboInOwl:hasDbXref	CUI: C4047035
+WARN	invalid_xref	VO:0003620	oboInOwl:hasDbXref	RXAUI: 7255391
+WARN	invalid_xref	VO:0003620	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003621	oboInOwl:hasDbXref	CUI: C4046210
+WARN	invalid_xref	VO:0003621	oboInOwl:hasDbXref	"RXAUI: 7255392, 7707326"
+WARN	invalid_xref	VO:0003621	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003622	oboInOwl:hasDbXref	CUI: C4018869
+WARN	invalid_xref	VO:0003622	oboInOwl:hasDbXref	"RXAUI: 7707300, 7255361"
+WARN	invalid_xref	VO:0003622	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003623	oboInOwl:hasDbXref	CUI: C4047037
+WARN	invalid_xref	VO:0003623	oboInOwl:hasDbXref	RXAUI: 7255373
+WARN	invalid_xref	VO:0003623	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003624	oboInOwl:hasDbXref	CUI: C4032740
+WARN	invalid_xref	VO:0003624	oboInOwl:hasDbXref	"RXAUI: 7707304, 7258294"
+WARN	invalid_xref	VO:0003624	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003625	oboInOwl:hasDbXref	CUI: C4026368
+WARN	invalid_xref	VO:0003625	oboInOwl:hasDbXref	"RXAUI: 7255401, 7707633"
+WARN	invalid_xref	VO:0003625	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003626	oboInOwl:hasDbXref	CUI: C4046211
+WARN	invalid_xref	VO:0003626	oboInOwl:hasDbXref	"RXAUI: 7707379, 7255374"
+WARN	invalid_xref	VO:0003626	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003627	oboInOwl:hasDbXref	CUI: C4224224
+WARN	invalid_xref	VO:0003627	oboInOwl:hasDbXref	RXAUI: 8236907
+WARN	invalid_xref	VO:0003627	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003628	oboInOwl:hasDbXref	CUI: C4271738
+WARN	invalid_xref	VO:0003628	oboInOwl:hasDbXref	RXAUI: 8236910
+WARN	invalid_xref	VO:0003628	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003629	oboInOwl:hasDbXref	CUI: C4271632
+WARN	invalid_xref	VO:0003629	oboInOwl:hasDbXref	RXAUI: 8237145
+WARN	invalid_xref	VO:0003629	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003630	oboInOwl:hasDbXref	CUI: C4271637
+WARN	invalid_xref	VO:0003630	oboInOwl:hasDbXref	RXAUI: 8236908
+WARN	invalid_xref	VO:0003630	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003631	oboInOwl:hasDbXref	CUI: C4271673
+WARN	invalid_xref	VO:0003631	oboInOwl:hasDbXref	RXAUI: 8237172
+WARN	invalid_xref	VO:0003631	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003632	oboInOwl:hasDbXref	CUI: C4270930
+WARN	invalid_xref	VO:0003632	oboInOwl:hasDbXref	"RXAUI: 8237177, 8237176, 8237173"
+WARN	invalid_xref	VO:0003632	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003633	oboInOwl:hasDbXref	CUI: C4224210
+WARN	invalid_xref	VO:0003633	oboInOwl:hasDbXref	"RXAUI: 8237184, 8237186, 8237185"
+WARN	invalid_xref	VO:0003633	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003634	oboInOwl:hasDbXref	CUI: C4271678
+WARN	invalid_xref	VO:0003634	oboInOwl:hasDbXref	RXAUI: 8236909
+WARN	invalid_xref	VO:0003634	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003635	oboInOwl:hasDbXref	CUI: C4270829
+WARN	invalid_xref	VO:0003635	oboInOwl:hasDbXref	"RXAUI: 8236914, 8237166, 8236911"
+WARN	invalid_xref	VO:0003635	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003636	oboInOwl:hasDbXref	CUI: C4224209
+WARN	invalid_xref	VO:0003636	oboInOwl:hasDbXref	"RXAUI: 8237169, 8237148, 8237146"
+WARN	invalid_xref	VO:0003636	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003637	oboInOwl:hasDbXref	CUI: C4270931
+WARN	invalid_xref	VO:0003637	oboInOwl:hasDbXref	"RXAUI: 8237168, 8237167, 8237165"
+WARN	invalid_xref	VO:0003637	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003638	oboInOwl:hasDbXref	CUI: C4325215
+WARN	invalid_xref	VO:0003638	oboInOwl:hasDbXref	RXAUI: 9198781
+WARN	invalid_xref	VO:0003638	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003639	oboInOwl:hasDbXref	CUI: C4490411
+WARN	invalid_xref	VO:0003639	oboInOwl:hasDbXref	RXAUI: 9198784
+WARN	invalid_xref	VO:0003639	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003640	oboInOwl:hasDbXref	CUI: C4490409
+WARN	invalid_xref	VO:0003640	oboInOwl:hasDbXref	RXAUI: 9198782
+WARN	invalid_xref	VO:0003640	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003641	oboInOwl:hasDbXref	CUI: C4490475
+WARN	invalid_xref	VO:0003641	oboInOwl:hasDbXref	RXAUI: 9199188
+WARN	invalid_xref	VO:0003641	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003642	oboInOwl:hasDbXref	CUI: C4490410
+WARN	invalid_xref	VO:0003642	oboInOwl:hasDbXref	RXAUI: 9198783
+WARN	invalid_xref	VO:0003642	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003643	oboInOwl:hasDbXref	CUI: C4490412
+WARN	invalid_xref	VO:0003643	oboInOwl:hasDbXref	"RXAUI: 9198785, 9198856, 9198855"
+WARN	invalid_xref	VO:0003643	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003644	oboInOwl:hasDbXref	CUI: C4319521
+WARN	invalid_xref	VO:0003644	oboInOwl:hasDbXref	"RXAUI: 9198884, 9198850, 9198885"
+WARN	invalid_xref	VO:0003644	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003645	oboInOwl:hasDbXref	CUI: C4490420
+WARN	invalid_xref	VO:0003645	oboInOwl:hasDbXref	RXAUI: 9198810
+WARN	invalid_xref	VO:0003645	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003646	oboInOwl:hasDbXref	CUI: C4490439
+WARN	invalid_xref	VO:0003646	oboInOwl:hasDbXref	"RXAUI: 9198872, 9198871, 9198873"
+WARN	invalid_xref	VO:0003646	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003647	oboInOwl:hasDbXref	CUI: C4325067
+WARN	invalid_xref	VO:0003647	oboInOwl:hasDbXref	"RXAUI: 9198880, 9198881, 9198811"
+WARN	invalid_xref	VO:0003647	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003648	oboInOwl:hasDbXref	CUI: C4325068
+WARN	invalid_xref	VO:0003648	oboInOwl:hasDbXref	"RXAUI: 9199192, 9199191, 9199189"
+WARN	invalid_xref	VO:0003648	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003649	oboInOwl:hasDbXref	CUI: C4719179
+WARN	invalid_xref	VO:0003649	oboInOwl:hasDbXref	RXAUI: 10290520
+WARN	invalid_xref	VO:0003649	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003650	oboInOwl:hasDbXref	CUI: C4719182
+WARN	invalid_xref	VO:0003650	oboInOwl:hasDbXref	RXAUI: 10290523
+WARN	invalid_xref	VO:0003650	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003651	oboInOwl:hasDbXref	CUI: C4719180
+WARN	invalid_xref	VO:0003651	oboInOwl:hasDbXref	RXAUI: 10290521
+WARN	invalid_xref	VO:0003651	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003652	oboInOwl:hasDbXref	CUI: C4719187
+WARN	invalid_xref	VO:0003652	oboInOwl:hasDbXref	RXAUI: 10290530
+WARN	invalid_xref	VO:0003652	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003653	oboInOwl:hasDbXref	CUI: C4719188
+WARN	invalid_xref	VO:0003653	oboInOwl:hasDbXref	"RXAUI: 10290531, 10290534, 10290535"
+WARN	invalid_xref	VO:0003653	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003654	oboInOwl:hasDbXref	CUI: C4553813
+WARN	invalid_xref	VO:0003654	oboInOwl:hasDbXref	"RXAUI: 10290540, 10290538, 10290539"
+WARN	invalid_xref	VO:0003654	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003655	oboInOwl:hasDbXref	CUI: C4719181
+WARN	invalid_xref	VO:0003655	oboInOwl:hasDbXref	RXAUI: 10290522
+WARN	invalid_xref	VO:0003655	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003656	oboInOwl:hasDbXref	CUI: C4719194
+WARN	invalid_xref	VO:0003656	oboInOwl:hasDbXref	"RXAUI: 10290543, 10290544, 10290545"
+WARN	invalid_xref	VO:0003656	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003657	oboInOwl:hasDbXref	"RXAUI: 10290524, 10290528, 10290527"
+WARN	invalid_xref	VO:0003657	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003665	oboInOwl:hasDbXref	CUI: C3240393
+WARN	invalid_xref	VO:0003665	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003666	oboInOwl:hasDbXref	CUI: C4033799
+WARN	invalid_xref	VO:0003666	oboInOwl:hasDbXref	RXAUI: 7252581
+WARN	invalid_xref	VO:0003666	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003667	oboInOwl:hasDbXref	CUI: C4019051
+WARN	invalid_xref	VO:0003667	oboInOwl:hasDbXref	"RXAUI: 7252591, 7252583, 7252590, 7252582"
+WARN	invalid_xref	VO:0003667	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003668	oboInOwl:hasDbXref	CUI: C0710788
+WARN	invalid_xref	VO:0003668	oboInOwl:hasDbXref	"RXAUI: 4610776, 4610775, 7251861"
+WARN	invalid_xref	VO:0003668	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003669	oboInOwl:hasDbXref	CUI: C2356379
+WARN	invalid_xref	VO:0003669	oboInOwl:hasDbXref	RXAUI: 4610774
+WARN	invalid_xref	VO:0003669	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003670	oboInOwl:hasDbXref	CUI: C2356378
+WARN	invalid_xref	VO:0003670	oboInOwl:hasDbXref	RXAUI: 2860284
+WARN	invalid_xref	VO:0003670	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003671	oboInOwl:hasDbXref	CUI: C3238354
+WARN	invalid_xref	VO:0003671	oboInOwl:hasDbXref	RXAUI: 3843231
+WARN	invalid_xref	VO:0003671	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003672	oboInOwl:hasDbXref	CUI: C2344386
+WARN	invalid_xref	VO:0003672	oboInOwl:hasDbXref	RXAUI: 2851572
+WARN	invalid_xref	VO:0003672	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003673	oboInOwl:hasDbXref	CUI: C4033832
+WARN	invalid_xref	VO:0003673	oboInOwl:hasDbXref	RXAUI: 7251648
+WARN	invalid_xref	VO:0003673	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003675	oboInOwl:hasDbXref	CUI: C4026630
+WARN	invalid_xref	VO:0003675	oboInOwl:hasDbXref	RXAUI: 7251220
+WARN	invalid_xref	VO:0003675	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003676	oboInOwl:hasDbXref	CUI: C4033912
+WARN	invalid_xref	VO:0003676	oboInOwl:hasDbXref	RXAUI: 7251223
+WARN	invalid_xref	VO:0003676	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003677	oboInOwl:hasDbXref	CUI: C4033751
+WARN	invalid_xref	VO:0003677	oboInOwl:hasDbXref	RXAUI: 7251221
+WARN	invalid_xref	VO:0003677	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003678	oboInOwl:hasDbXref	CUI: C4026364
+WARN	invalid_xref	VO:0003678	oboInOwl:hasDbXref	"RXAUI: 7251224, 7251264"
+WARN	invalid_xref	VO:0003678	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003679	oboInOwl:hasDbXref	CUI: C4047024
+WARN	invalid_xref	VO:0003679	oboInOwl:hasDbXref	RXAUI: 7255800
+WARN	invalid_xref	VO:0003679	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003680	oboInOwl:hasDbXref	CUI: C4026365
+WARN	invalid_xref	VO:0003680	oboInOwl:hasDbXref	"RXAUI: 7255801, 7255804"
+WARN	invalid_xref	VO:0003680	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003681	oboInOwl:hasDbXref	CUI: C4224219
+WARN	invalid_xref	VO:0003681	oboInOwl:hasDbXref	RXAUI: 8237127
+WARN	invalid_xref	VO:0003681	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003682	oboInOwl:hasDbXref	CUI: C4271736
+WARN	invalid_xref	VO:0003682	oboInOwl:hasDbXref	RXAUI: 8237130
+WARN	invalid_xref	VO:0003682	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003683	oboInOwl:hasDbXref	CUI: C4271633
+WARN	invalid_xref	VO:0003683	oboInOwl:hasDbXref	RXAUI: 8237128
+WARN	invalid_xref	VO:0003683	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003684	oboInOwl:hasDbXref	CUI: C4224195
+WARN	invalid_xref	VO:0003684	oboInOwl:hasDbXref	"RXAUI: 8237131, 8237133, 8237132"
+WARN	invalid_xref	VO:0003684	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003685	oboInOwl:hasDbXref	CUI: C4271675
+WARN	invalid_xref	VO:0003685	oboInOwl:hasDbXref	RXAUI: 8237137
+WARN	invalid_xref	VO:0003685	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003686	oboInOwl:hasDbXref	CUI: C4270826
+WARN	invalid_xref	VO:0003686	oboInOwl:hasDbXref	"RXAUI: 8237141, 8237142, 8237138"
+WARN	invalid_xref	VO:0003686	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003687	oboInOwl:hasDbXref	CUI: C4325210
+WARN	invalid_xref	VO:0003687	oboInOwl:hasDbXref	RXAUI: 9199995
+WARN	invalid_xref	VO:0003687	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003688	oboInOwl:hasDbXref	CUI: C4490746
+WARN	invalid_xref	VO:0003688	oboInOwl:hasDbXref	RXAUI: 9199998
+WARN	invalid_xref	VO:0003688	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003689	oboInOwl:hasDbXref	CUI: C4490744
+WARN	invalid_xref	VO:0003689	oboInOwl:hasDbXref	RXAUI: 9199996
+WARN	invalid_xref	VO:0003689	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003690	oboInOwl:hasDbXref	CUI: C4325059
+WARN	invalid_xref	VO:0003690	oboInOwl:hasDbXref	"RXAUI: 9200000, 9199999, 9200001"
+WARN	invalid_xref	VO:0003690	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003691	oboInOwl:hasDbXref	CUI: C4490747
+WARN	invalid_xref	VO:0003691	oboInOwl:hasDbXref	RXAUI: 9200007
+WARN	invalid_xref	VO:0003691	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003692	oboInOwl:hasDbXref	CUI: C4325061
+WARN	invalid_xref	VO:0003692	oboInOwl:hasDbXref	"RXAUI: 9200013, 9200018, 9200017"
+WARN	invalid_xref	VO:0003692	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003693	oboInOwl:hasDbXref	CUI: C4026648
+WARN	invalid_xref	VO:0003693	oboInOwl:hasDbXref	RXAUI: 7251209
+WARN	invalid_xref	VO:0003693	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003694	oboInOwl:hasDbXref	CUI: C4033913
+WARN	invalid_xref	VO:0003694	oboInOwl:hasDbXref	RXAUI: 7251212
+WARN	invalid_xref	VO:0003694	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003695	oboInOwl:hasDbXref	CUI: C4033752
+WARN	invalid_xref	VO:0003695	oboInOwl:hasDbXref	RXAUI: 7251210
+WARN	invalid_xref	VO:0003695	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003696	oboInOwl:hasDbXref	CUI: C4033850
+WARN	invalid_xref	VO:0003696	oboInOwl:hasDbXref	RXAUI: 7251211
+WARN	invalid_xref	VO:0003696	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003697	oboInOwl:hasDbXref	CUI: C4026362
+WARN	invalid_xref	VO:0003697	oboInOwl:hasDbXref	"RXAUI: 7707241, 7251213"
+WARN	invalid_xref	VO:0003697	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003698	oboInOwl:hasDbXref	CUI: C4224221
+WARN	invalid_xref	VO:0003698	oboInOwl:hasDbXref	RXAUI: 8233865
+WARN	invalid_xref	VO:0003698	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003699	oboInOwl:hasDbXref	CUI: C4271754
+WARN	invalid_xref	VO:0003699	oboInOwl:hasDbXref	RXAUI: 8233868
+WARN	invalid_xref	VO:0003699	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003700	oboInOwl:hasDbXref	CUI: C4271658
+WARN	invalid_xref	VO:0003700	oboInOwl:hasDbXref	RXAUI: 8233866
+WARN	invalid_xref	VO:0003700	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003701	oboInOwl:hasDbXref	CUI: C4271699
+WARN	invalid_xref	VO:0003701	oboInOwl:hasDbXref	RXAUI: 8233867
+WARN	invalid_xref	VO:0003701	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003702	oboInOwl:hasDbXref	CUI: C4224206
+WARN	invalid_xref	VO:0003702	oboInOwl:hasDbXref	"RXAUI: 8233903, 8233902, 8233869"
+WARN	invalid_xref	VO:0003702	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003703	oboInOwl:hasDbXref	CUI: C4490400
+WARN	invalid_xref	VO:0003703	oboInOwl:hasDbXref	RXAUI: 9198769
+WARN	invalid_xref	VO:0003703	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003704	oboInOwl:hasDbXref	CUI: C4490403
+WARN	invalid_xref	VO:0003704	oboInOwl:hasDbXref	RXAUI: 9198772
+WARN	invalid_xref	VO:0003704	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003705	oboInOwl:hasDbXref	CUI: C4490401
+WARN	invalid_xref	VO:0003705	oboInOwl:hasDbXref	RXAUI: 9198770
+WARN	invalid_xref	VO:0003705	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003706	oboInOwl:hasDbXref	CUI: C4490402
+WARN	invalid_xref	VO:0003706	oboInOwl:hasDbXref	RXAUI: 9198771
+WARN	invalid_xref	VO:0003706	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003707	oboInOwl:hasDbXref	CUI: C4325064
+WARN	invalid_xref	VO:0003707	oboInOwl:hasDbXref	"RXAUI: 9198814, 9198808, 9198773"
+WARN	invalid_xref	VO:0003707	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003708	oboInOwl:hasDbXref	CUI: C4704189
+WARN	invalid_xref	VO:0003708	oboInOwl:hasDbXref	RXAUI: 10279939
+WARN	invalid_xref	VO:0003708	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003709	oboInOwl:hasDbXref	CUI: C4704192
+WARN	invalid_xref	VO:0003709	oboInOwl:hasDbXref	RXAUI: 10279942
+WARN	invalid_xref	VO:0003709	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003710	oboInOwl:hasDbXref	CUI: C4704190
+WARN	invalid_xref	VO:0003710	oboInOwl:hasDbXref	RXAUI: 10279940
+WARN	invalid_xref	VO:0003710	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003711	oboInOwl:hasDbXref	CUI: C4704191
+WARN	invalid_xref	VO:0003711	oboInOwl:hasDbXref	RXAUI: 10279941
+WARN	invalid_xref	VO:0003711	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003712	oboInOwl:hasDbXref	CUI: C4704193
+WARN	invalid_xref	VO:0003712	oboInOwl:hasDbXref	"RXAUI: 10279943, 10279945, 10279944"
+WARN	invalid_xref	VO:0003712	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003715	oboInOwl:hasDbXref	CUI: C4020099
+WARN	invalid_xref	VO:0003715	oboInOwl:hasDbXref	RXAUI: 7264715
+WARN	invalid_xref	VO:0003715	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003716	oboInOwl:hasDbXref	CUI: C4047061
+WARN	invalid_xref	VO:0003716	oboInOwl:hasDbXref	RXAUI: 7264718
+WARN	invalid_xref	VO:0003716	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003717	oboInOwl:hasDbXref	CUI: C4046916
+WARN	invalid_xref	VO:0003717	oboInOwl:hasDbXref	RXAUI: 7264716
+WARN	invalid_xref	VO:0003717	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003718	oboInOwl:hasDbXref	CUI: C4018775
+WARN	invalid_xref	VO:0003718	oboInOwl:hasDbXref	"RXAUI: 7264729, 7707306, 7264733"
+WARN	invalid_xref	VO:0003718	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003719	oboInOwl:hasDbXref	CUI: C4046988
+WARN	invalid_xref	VO:0003719	oboInOwl:hasDbXref	RXAUI: 7264717
+WARN	invalid_xref	VO:0003719	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003720	oboInOwl:hasDbXref	CUI: C4018774
+WARN	invalid_xref	VO:0003720	oboInOwl:hasDbXref	"RXAUI: 7264719, 7264723, 7707305"
+WARN	invalid_xref	VO:0003720	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003721	oboInOwl:hasDbXref	CUI: C4224216
+WARN	invalid_xref	VO:0003721	oboInOwl:hasDbXref	RXAUI: 8234382
+WARN	invalid_xref	VO:0003721	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003722	oboInOwl:hasDbXref	CUI: C4271746
+WARN	invalid_xref	VO:0003722	oboInOwl:hasDbXref	RXAUI: 8234385
+WARN	invalid_xref	VO:0003722	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003723	oboInOwl:hasDbXref	CUI: C4271652
+WARN	invalid_xref	VO:0003723	oboInOwl:hasDbXref	RXAUI: 8234383
+WARN	invalid_xref	VO:0003723	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003724	oboInOwl:hasDbXref	CUI: C4224196
+WARN	invalid_xref	VO:0003724	oboInOwl:hasDbXref	"RXAUI: 8234404, 8234405, 8234406"
+WARN	invalid_xref	VO:0003724	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003725	oboInOwl:hasDbXref	CUI: C4271691
+WARN	invalid_xref	VO:0003725	oboInOwl:hasDbXref	RXAUI: 8234384
+WARN	invalid_xref	VO:0003725	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003726	oboInOwl:hasDbXref	CUI: C4224214
+WARN	invalid_xref	VO:0003726	oboInOwl:hasDbXref	"RXAUI: 8236926, 8234386, 8236927"
+WARN	invalid_xref	VO:0003726	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003727	oboInOwl:hasDbXref	CUI: C4325193
+WARN	invalid_xref	VO:0003727	oboInOwl:hasDbXref	RXAUI: 9267473
+WARN	invalid_xref	VO:0003727	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003728	oboInOwl:hasDbXref	CUI: C4519949
+WARN	invalid_xref	VO:0003728	oboInOwl:hasDbXref	RXAUI: 9267476
+WARN	invalid_xref	VO:0003728	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003729	oboInOwl:hasDbXref	CUI: C4519947
+WARN	invalid_xref	VO:0003729	oboInOwl:hasDbXref	RXAUI: 9267474
+WARN	invalid_xref	VO:0003729	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003730	oboInOwl:hasDbXref	CUI: C4325058
+WARN	invalid_xref	VO:0003730	oboInOwl:hasDbXref	"RXAUI: 9267492, 9267490, 9267491"
+WARN	invalid_xref	VO:0003730	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003731	oboInOwl:hasDbXref	CUI: C4519948
+WARN	invalid_xref	VO:0003731	oboInOwl:hasDbXref	RXAUI: 1942130
+WARN	invalid_xref	VO:0003731	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003732	oboInOwl:hasDbXref	CUI: C4325060
+WARN	invalid_xref	VO:0003732	oboInOwl:hasDbXref	"RXAUI: 9267481, 9267480, 9267477"
+WARN	invalid_xref	VO:0003732	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003733	oboInOwl:hasDbXref	CUI: C4719173
+WARN	invalid_xref	VO:0003733	oboInOwl:hasDbXref	RXAUI: 10290502
+WARN	invalid_xref	VO:0003733	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003734	oboInOwl:hasDbXref	CUI: C4719176
+WARN	invalid_xref	VO:0003734	oboInOwl:hasDbXref	RXAUI: 10290505
+WARN	invalid_xref	VO:0003734	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003735	oboInOwl:hasDbXref	CUI: C4719174
+WARN	invalid_xref	VO:0003735	oboInOwl:hasDbXref	RXAUI: 10290503
+WARN	invalid_xref	VO:0003735	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003736	oboInOwl:hasDbXref	CUI: C4719177
+WARN	invalid_xref	VO:0003736	oboInOwl:hasDbXref	"RXAUI: 10290510, 10290509, 10290506"
+WARN	invalid_xref	VO:0003736	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003737	oboInOwl:hasDbXref	CUI: C4719203
+WARN	invalid_xref	VO:0003737	oboInOwl:hasDbXref	RXAUI: 10290573
+WARN	invalid_xref	VO:0003737	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003738	oboInOwl:hasDbXref	CUI: C4719204
+WARN	invalid_xref	VO:0003738	oboInOwl:hasDbXref	"RXAUI: 10292876, 10290577, 10292877"
+WARN	invalid_xref	VO:0003738	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003739	oboInOwl:hasDbXref	CUI: C4293490
+WARN	invalid_xref	VO:0003739	oboInOwl:hasDbXref	RXAUI: 8698886
+WARN	invalid_xref	VO:0003739	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003740	oboInOwl:hasDbXref	CUI: C4293406
+WARN	invalid_xref	VO:0003740	oboInOwl:hasDbXref	RXAUI: 8698884
+WARN	invalid_xref	VO:0003740	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003741	oboInOwl:hasDbXref	CUI: C4293383
+WARN	invalid_xref	VO:0003741	oboInOwl:hasDbXref	"RXAUI: 8698910, 8698890, 8698911"
+WARN	invalid_xref	VO:0003741	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003742	oboInOwl:hasDbXref	CUI: C4293449
+WARN	invalid_xref	VO:0003742	oboInOwl:hasDbXref	RXAUI: 8698885
+WARN	invalid_xref	VO:0003742	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003743	oboInOwl:hasDbXref	CUI: C4283663
+WARN	invalid_xref	VO:0003743	oboInOwl:hasDbXref	"RXAUI: 8698892, 8698891, 8698887"
+WARN	invalid_xref	VO:0003743	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003744	oboInOwl:hasDbXref	CUI: C4293360
+WARN	invalid_xref	VO:0003744	oboInOwl:hasDbXref	RXAUI: 8698883
+WARN	invalid_xref	VO:0003744	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003745	oboInOwl:hasDbXref	CUI: C4325196
+WARN	invalid_xref	VO:0003745	oboInOwl:hasDbXref	RXAUI: 9267495
+WARN	invalid_xref	VO:0003745	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003746	oboInOwl:hasDbXref	CUI: C4519959
+WARN	invalid_xref	VO:0003746	oboInOwl:hasDbXref	RXAUI: 9267498
+WARN	invalid_xref	VO:0003746	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003747	oboInOwl:hasDbXref	CUI: C4519957
+WARN	invalid_xref	VO:0003747	oboInOwl:hasDbXref	RXAUI: 9267496
+WARN	invalid_xref	VO:0003747	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003748	oboInOwl:hasDbXref	CUI: C4325066
+WARN	invalid_xref	VO:0003748	oboInOwl:hasDbXref	"RXAUI: 9267520, 9267517, 9267516"
+WARN	invalid_xref	VO:0003748	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003749	oboInOwl:hasDbXref	CUI: C4519958
+WARN	invalid_xref	VO:0003749	oboInOwl:hasDbXref	RXAUI: 9267497
+WARN	invalid_xref	VO:0003749	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003750	oboInOwl:hasDbXref	CUI: C4325063
+WARN	invalid_xref	VO:0003750	oboInOwl:hasDbXref	"RXAUI: 9272502, 9267499, 9272501"
+WARN	invalid_xref	VO:0003750	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003751	oboInOwl:hasDbXref	CUI: C4719195
+WARN	invalid_xref	VO:0003751	oboInOwl:hasDbXref	RXAUI: 10290555
+WARN	invalid_xref	VO:0003751	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003752	oboInOwl:hasDbXref	CUI: C4719198
+WARN	invalid_xref	VO:0003752	oboInOwl:hasDbXref	RXAUI: 10290558
+WARN	invalid_xref	VO:0003752	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003753	oboInOwl:hasDbXref	CUI: C4719196
+WARN	invalid_xref	VO:0003753	oboInOwl:hasDbXref	RXAUI: 10290556
+WARN	invalid_xref	VO:0003753	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003754	oboInOwl:hasDbXref	CUI: C4553815
+WARN	invalid_xref	VO:0003754	oboInOwl:hasDbXref	"RXAUI: 10322944, 10290561, 10290559"
+WARN	invalid_xref	VO:0003754	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003755	oboInOwl:hasDbXref	CUI: C4719199
+WARN	invalid_xref	VO:0003755	oboInOwl:hasDbXref	RXAUI: 10290562
+WARN	invalid_xref	VO:0003755	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003756	oboInOwl:hasDbXref	CUI: C4553814
+WARN	invalid_xref	VO:0003756	oboInOwl:hasDbXref	"RXAUI: 10322943, 10322942, 10290563"
+WARN	invalid_xref	VO:0003756	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003757	oboInOwl:hasDbXref	CUI: C4224220
+WARN	invalid_xref	VO:0003757	oboInOwl:hasDbXref	RXAUI: 8233849
+WARN	invalid_xref	VO:0003757	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003758	oboInOwl:hasDbXref	CUI: C4271755
+WARN	invalid_xref	VO:0003758	oboInOwl:hasDbXref	RXAUI: 8233852
+WARN	invalid_xref	VO:0003758	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003759	oboInOwl:hasDbXref	CUI: C4271659
+WARN	invalid_xref	VO:0003759	oboInOwl:hasDbXref	RXAUI: 8233850
+WARN	invalid_xref	VO:0003759	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003760	oboInOwl:hasDbXref	CUI: C4224211
+WARN	invalid_xref	VO:0003760	oboInOwl:hasDbXref	RXAUI: 1799205
+WARN	invalid_xref	VO:0003760	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003761	oboInOwl:hasDbXref	CUI: C4271700
+WARN	invalid_xref	VO:0003761	oboInOwl:hasDbXref	RXAUI: 8233851
+WARN	invalid_xref	VO:0003761	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003762	oboInOwl:hasDbXref	CUI: C4255281
+WARN	invalid_xref	VO:0003762	oboInOwl:hasDbXref	"RXAUI: 8233853, 8233905, 8233906"
+WARN	invalid_xref	VO:0003762	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003763	oboInOwl:hasDbXref	CUI: C4026650
+WARN	invalid_xref	VO:0003763	oboInOwl:hasDbXref	RXAUI: 7251229
+WARN	invalid_xref	VO:0003763	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003764	oboInOwl:hasDbXref	CUI: C4033911
+WARN	invalid_xref	VO:0003764	oboInOwl:hasDbXref	RXAUI: 7251232
+WARN	invalid_xref	VO:0003764	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003765	oboInOwl:hasDbXref	CUI: C4033750
+WARN	invalid_xref	VO:0003765	oboInOwl:hasDbXref	RXAUI: 7251230
+WARN	invalid_xref	VO:0003765	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003766	oboInOwl:hasDbXref	CUI: C4018811
+WARN	invalid_xref	VO:0003766	oboInOwl:hasDbXref	"RXAUI: 7251233, 7707287"
+WARN	invalid_xref	VO:0003766	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003767	oboInOwl:hasDbXref	CUI: C4325209
+WARN	invalid_xref	VO:0003767	oboInOwl:hasDbXref	RXAUI: 9198793
+WARN	invalid_xref	VO:0003767	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003768	oboInOwl:hasDbXref	CUI: C4490418
+WARN	invalid_xref	VO:0003768	oboInOwl:hasDbXref	RXAUI: 9198796
+WARN	invalid_xref	VO:0003768	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003769	oboInOwl:hasDbXref	CUI: C4490416
+WARN	invalid_xref	VO:0003769	oboInOwl:hasDbXref	RXAUI: 9198794
+WARN	invalid_xref	VO:0003769	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003770	oboInOwl:hasDbXref	CUI: C4319520
+WARN	invalid_xref	VO:0003770	oboInOwl:hasDbXref	"RXAUI: 9198867, 9198866, 9198797"
+WARN	invalid_xref	VO:0003770	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003771	oboInOwl:hasDbXref	CUI: C4490423
+WARN	invalid_xref	VO:0003771	oboInOwl:hasDbXref	RXAUI: 9198815
+WARN	invalid_xref	VO:0003771	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003772	oboInOwl:hasDbXref	CUI: C4319519
+WARN	invalid_xref	VO:0003772	oboInOwl:hasDbXref	"RXAUI: 9198862, 9198816, 9198863"
+WARN	invalid_xref	VO:0003772	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003773	oboInOwl:hasDbXref	CUI: C4704197
+WARN	invalid_xref	VO:0003773	oboInOwl:hasDbXref	RXAUI: 10279949
+WARN	invalid_xref	VO:0003773	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003774	oboInOwl:hasDbXref	CUI: C4704200
+WARN	invalid_xref	VO:0003774	oboInOwl:hasDbXref	RXAUI: 10279952
+WARN	invalid_xref	VO:0003774	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003775	oboInOwl:hasDbXref	CUI: C4704198
+WARN	invalid_xref	VO:0003775	oboInOwl:hasDbXref	RXAUI: 10279950
+WARN	invalid_xref	VO:0003775	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003776	oboInOwl:hasDbXref	CUI: C4552692
+WARN	invalid_xref	VO:0003776	oboInOwl:hasDbXref	"RXAUI: 10279953, 10279956, 10279954"
+WARN	invalid_xref	VO:0003776	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003777	oboInOwl:hasDbXref	CUI: C4704201
+WARN	invalid_xref	VO:0003777	oboInOwl:hasDbXref	RXAUI: 10279957
+WARN	invalid_xref	VO:0003777	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003778	oboInOwl:hasDbXref	CUI: C4552691
+WARN	invalid_xref	VO:0003778	oboInOwl:hasDbXref	"RXAUI: 10279960, 10279959, 10279958"
+WARN	invalid_xref	VO:0003778	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003779	oboInOwl:hasDbXref	CUI: C4026649
+WARN	invalid_xref	VO:0003779	oboInOwl:hasDbXref	RXAUI: 7251081
+WARN	invalid_xref	VO:0003779	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003780	oboInOwl:hasDbXref	CUI: C4033914
+WARN	invalid_xref	VO:0003780	oboInOwl:hasDbXref	RXAUI: 7251084
+WARN	invalid_xref	VO:0003780	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003781	oboInOwl:hasDbXref	CUI: C4033757
+WARN	invalid_xref	VO:0003781	oboInOwl:hasDbXref	RXAUI: 7251082
+WARN	invalid_xref	VO:0003781	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003782	oboInOwl:hasDbXref	CUI: C4033857
+WARN	invalid_xref	VO:0003782	oboInOwl:hasDbXref	RXAUI: 7251083
+WARN	invalid_xref	VO:0003782	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003783	oboInOwl:hasDbXref	CUI: C4026363
+WARN	invalid_xref	VO:0003783	oboInOwl:hasDbXref	"RXAUI: 7251085, 8725354, 7707232"
+WARN	invalid_xref	VO:0003783	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003784	oboInOwl:hasDbXref	CUI: C4276115
+WARN	invalid_xref	VO:0003784	oboInOwl:hasDbXref	RXAUI: 8238453
+WARN	invalid_xref	VO:0003784	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003785	oboInOwl:hasDbXref	CUI: C4276265
+WARN	invalid_xref	VO:0003785	oboInOwl:hasDbXref	RXAUI: 8238456
+WARN	invalid_xref	VO:0003785	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003786	oboInOwl:hasDbXref	CUI: C4276184
+WARN	invalid_xref	VO:0003786	oboInOwl:hasDbXref	RXAUI: 8238454
+WARN	invalid_xref	VO:0003786	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003787	oboInOwl:hasDbXref	CUI: C4276248
+WARN	invalid_xref	VO:0003787	oboInOwl:hasDbXref	RXAUI: 8238455
+WARN	invalid_xref	VO:0003787	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003788	oboInOwl:hasDbXref	CUI: C4256265
+WARN	invalid_xref	VO:0003788	oboInOwl:hasDbXref	"RXAUI: 8238461, 8238460, 8238457"
+WARN	invalid_xref	VO:0003788	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003791	oboInOwl:hasDbXref	CUI: C4325207
+WARN	invalid_xref	VO:0003791	oboInOwl:hasDbXref	RXAUI: 9199341
+WARN	invalid_xref	VO:0003791	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003792	oboInOwl:hasDbXref	CUI: C4490504
+WARN	invalid_xref	VO:0003792	oboInOwl:hasDbXref	RXAUI: 9199344
+WARN	invalid_xref	VO:0003792	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003793	oboInOwl:hasDbXref	CUI: C4490502
+WARN	invalid_xref	VO:0003793	oboInOwl:hasDbXref	RXAUI: 9199342
+WARN	invalid_xref	VO:0003793	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003794	oboInOwl:hasDbXref	CUI: C4490505
+WARN	invalid_xref	VO:0003794	oboInOwl:hasDbXref	"RXAUI: 9199345, 9199362, 9199359"
+WARN	invalid_xref	VO:0003794	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003795	oboInOwl:hasDbXref	CUI: C4490507
+WARN	invalid_xref	VO:0003795	oboInOwl:hasDbXref	RXAUI: 9199347
+WARN	invalid_xref	VO:0003795	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003796	oboInOwl:hasDbXref	CUI: C4325069
+WARN	invalid_xref	VO:0003796	oboInOwl:hasDbXref	"RXAUI: 9199352, 9199361, 9199348"
+WARN	invalid_xref	VO:0003796	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003797	oboInOwl:hasDbXref	CUI: C4530100
+WARN	invalid_xref	VO:0003797	oboInOwl:hasDbXref	RXAUI: 9698281
+WARN	invalid_xref	VO:0003797	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003798	oboInOwl:hasDbXref	CUI: C4530101
+WARN	invalid_xref	VO:0003798	oboInOwl:hasDbXref	RXAUI: 9698282
+WARN	invalid_xref	VO:0003798	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003799	oboInOwl:hasDbXref	"RXAUI: 9698706, 9698285, 9698287, 9698286"
+WARN	invalid_xref	VO:0003799	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003806	oboInOwl:hasDbXref	CUI: C4026651
+WARN	invalid_xref	VO:0003806	oboInOwl:hasDbXref	RXAUI: 7266972
+WARN	invalid_xref	VO:0003806	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003807	oboInOwl:hasDbXref	CUI: C4276113
+WARN	invalid_xref	VO:0003807	oboInOwl:hasDbXref	RXAUI: 8238995
+WARN	invalid_xref	VO:0003807	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003808	oboInOwl:hasDbXref	CUI: C4529647
+WARN	invalid_xref	VO:0003808	oboInOwl:hasDbXref	RXAUI: 9278624
+WARN	invalid_xref	VO:0003808	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003809	oboInOwl:hasDbXref	CUI: C4026361
+WARN	invalid_xref	VO:0003809	oboInOwl:hasDbXref	"RXAUI: 7266797, 7266977, 7266796"
+WARN	invalid_xref	VO:0003809	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003810	oboInOwl:hasDbXref	CUI: C4050879
+WARN	invalid_xref	VO:0003810	oboInOwl:hasDbXref	RXAUI: 7266973
+WARN	invalid_xref	VO:0003810	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003813	oboInOwl:hasDbXref	CUI: C4276182
+WARN	invalid_xref	VO:0003813	oboInOwl:hasDbXref	RXAUI: 8238996
+WARN	invalid_xref	VO:0003813	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003814	oboInOwl:hasDbXref	CUI: C4224207
+WARN	invalid_xref	VO:0003814	oboInOwl:hasDbXref	"RXAUI: 8239001, 8239002, 8239000"
+WARN	invalid_xref	VO:0003814	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003815	oboInOwl:hasDbXref	CUI: C4529659
+WARN	invalid_xref	VO:0003815	oboInOwl:hasDbXref	RXAUI: 9278648
+WARN	invalid_xref	VO:0003815	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003816	oboInOwl:hasDbXref	CUI: C4522486
+WARN	invalid_xref	VO:0003816	oboInOwl:hasDbXref	"RXAUI: 9278652, 9278649, 9278653"
+WARN	invalid_xref	VO:0003816	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003820	oboInOwl:hasDbXref	CUI: C4719703
+WARN	invalid_xref	VO:0003820	oboInOwl:hasDbXref	RXAUI: 10329701
+WARN	invalid_xref	VO:0003820	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003823	oboInOwl:hasDbXref	CUI: C4719750
+WARN	invalid_xref	VO:0003823	oboInOwl:hasDbXref	RXAUI: 10329904
+WARN	invalid_xref	VO:0003823	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003824	oboInOwl:hasDbXref	CUI: C4719751
+WARN	invalid_xref	VO:0003824	oboInOwl:hasDbXref	"RXAUI: 10329907, 10329905, 10329906"
+WARN	invalid_xref	VO:0003824	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003835	oboInOwl:hasDbXref	CUI: C2242156
+WARN	invalid_xref	VO:0003835	oboInOwl:hasDbXref	RXAUI: 5026693
+WARN	invalid_xref	VO:0003835	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003836	oboInOwl:hasDbXref	CUI: C2242158
+WARN	invalid_xref	VO:0003836	oboInOwl:hasDbXref	RXAUI: 5026694
+WARN	invalid_xref	VO:0003836	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003837	oboInOwl:hasDbXref	CUI: C2242160
+WARN	invalid_xref	VO:0003837	oboInOwl:hasDbXref	RXAUI: 5026695
+WARN	invalid_xref	VO:0003837	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003838	oboInOwl:hasDbXref	CUI: C3232713
+WARN	invalid_xref	VO:0003838	oboInOwl:hasDbXref	RXAUI: 3842767
+WARN	invalid_xref	VO:0003838	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003839	oboInOwl:hasDbXref	CUI: C2586685
+WARN	invalid_xref	VO:0003839	oboInOwl:hasDbXref	RXAUI: 5027365
+WARN	invalid_xref	VO:0003839	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003840	oboInOwl:hasDbXref	CUI: C2586690
+WARN	invalid_xref	VO:0003840	oboInOwl:hasDbXref	RXAUI: 5027414
+WARN	invalid_xref	VO:0003840	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003841	oboInOwl:hasDbXref	CUI: C2586691
+WARN	invalid_xref	VO:0003841	oboInOwl:hasDbXref	"RXAUI: 3634543, 7253748, 5027677"
+WARN	invalid_xref	VO:0003841	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003842	oboInOwl:hasDbXref	CUI: C2242157
+WARN	invalid_xref	VO:0003842	oboInOwl:hasDbXref	RXAUI: 5027171
+WARN	invalid_xref	VO:0003842	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003843	oboInOwl:hasDbXref	CUI: C2242159
+WARN	invalid_xref	VO:0003843	oboInOwl:hasDbXref	RXAUI: 5027167
+WARN	invalid_xref	VO:0003843	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003844	oboInOwl:hasDbXref	CUI: C2242161
+WARN	invalid_xref	VO:0003844	oboInOwl:hasDbXref	RXAUI: 5027168
+WARN	invalid_xref	VO:0003844	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003845	oboInOwl:hasDbXref	CUI: C2719943
+WARN	invalid_xref	VO:0003845	oboInOwl:hasDbXref	RXAUI: 4626294
+WARN	invalid_xref	VO:0003845	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003846	oboInOwl:hasDbXref	CUI: C3230691
+WARN	invalid_xref	VO:0003846	oboInOwl:hasDbXref	RXAUI: 3838525
+WARN	invalid_xref	VO:0003846	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003847	oboInOwl:hasDbXref	CUI: C2242163
+WARN	invalid_xref	VO:0003847	oboInOwl:hasDbXref	RXAUI: 5027360
+WARN	invalid_xref	VO:0003847	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003848	oboInOwl:hasDbXref	CUI: C1877934
+WARN	invalid_xref	VO:0003848	oboInOwl:hasDbXref	"RXAUI: 5027670, 6816444, 7253746"
+WARN	invalid_xref	VO:0003848	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003849	oboInOwl:hasDbXref	CUI: C0078221
+WARN	invalid_xref	VO:0003849	oboInOwl:hasDbXref	RXAUI: 2863812
+WARN	invalid_xref	VO:0003849	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003850	oboInOwl:hasDbXref	CUI: C3241253
+WARN	invalid_xref	VO:0003850	oboInOwl:hasDbXref	RXAUI: 3848865
+WARN	invalid_xref	VO:0003850	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003851	oboInOwl:hasDbXref	CUI: C2365227
+WARN	invalid_xref	VO:0003851	oboInOwl:hasDbXref	RXAUI: 2863816
+WARN	invalid_xref	VO:0003851	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003852	oboInOwl:hasDbXref	CUI: C0711001
+WARN	invalid_xref	VO:0003852	oboInOwl:hasDbXref	"RXAUI: 7251850, 2863819, 2863818"
+WARN	invalid_xref	VO:0003852	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003853	oboInOwl:hasDbXref	CUI: C3701103
+WARN	invalid_xref	VO:0003853	oboInOwl:hasDbXref	RXAUI: 5937066
+WARN	invalid_xref	VO:0003853	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003854	oboInOwl:hasDbXref	CUI: C0980908
+WARN	invalid_xref	VO:0003854	oboInOwl:hasDbXref	"RXAUI: 7252822, 5937069, 5937068, 5937067"
+WARN	invalid_xref	VO:0003854	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003855	oboInOwl:hasDbXref	CUI: C2365225
+WARN	invalid_xref	VO:0003855	oboInOwl:hasDbXref	RXAUI: 2863813
+WARN	invalid_xref	VO:0003855	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003856	oboInOwl:hasDbXref	CUI: C3528060
+WARN	invalid_xref	VO:0003856	oboInOwl:hasDbXref	RXAUI: 5037103
+WARN	invalid_xref	VO:0003856	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003857	oboInOwl:hasDbXref	CUI: C2586803
+WARN	invalid_xref	VO:0003857	oboInOwl:hasDbXref	RXAUI: 5026921
+WARN	invalid_xref	VO:0003857	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003858	oboInOwl:hasDbXref	CUI: C2586804
+WARN	invalid_xref	VO:0003858	oboInOwl:hasDbXref	RXAUI: 5027213
+WARN	invalid_xref	VO:0003858	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003859	oboInOwl:hasDbXref	CUI: C4047087
+WARN	invalid_xref	VO:0003859	oboInOwl:hasDbXref	RXAUI: 7255368
+WARN	invalid_xref	VO:0003859	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003860	oboInOwl:hasDbXref	CUI: C4046958
+WARN	invalid_xref	VO:0003860	oboInOwl:hasDbXref	RXAUI: 7255366
+WARN	invalid_xref	VO:0003860	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003861	oboInOwl:hasDbXref	CUI: C0711018
+WARN	invalid_xref	VO:0003861	oboInOwl:hasDbXref	"RXAUI: 7253451, 7250938, 7255369, 7255370"
+WARN	invalid_xref	VO:0003861	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003862	oboInOwl:hasDbXref	CUI: C2586798
+WARN	invalid_xref	VO:0003862	oboInOwl:hasDbXref	RXAUI: 2939884
+WARN	invalid_xref	VO:0003862	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003863	oboInOwl:hasDbXref	CUI: C2586799
+WARN	invalid_xref	VO:0003863	oboInOwl:hasDbXref	RXAUI: 2939885
+WARN	invalid_xref	VO:0003863	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003864	oboInOwl:hasDbXref	CUI: C3231586
+WARN	invalid_xref	VO:0003864	oboInOwl:hasDbXref	RXAUI: 3844818
+WARN	invalid_xref	VO:0003864	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003865	oboInOwl:hasDbXref	CUI: C2586802
+WARN	invalid_xref	VO:0003865	oboInOwl:hasDbXref	RXAUI: 2939888
+WARN	invalid_xref	VO:0003865	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003866	oboInOwl:hasDbXref	CUI: C0711019
+WARN	invalid_xref	VO:0003866	oboInOwl:hasDbXref	"RXAUI: 7253136, 7250934, 7252193, 7252192"
+WARN	invalid_xref	VO:0003866	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003867	oboInOwl:hasDbXref	CUI: C3223997
+WARN	invalid_xref	VO:0003867	oboInOwl:hasDbXref	RXAUI: 3837729
+WARN	invalid_xref	VO:0003867	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003868	oboInOwl:hasDbXref	CUI: C2719732
+WARN	invalid_xref	VO:0003868	oboInOwl:hasDbXref	RXAUI: 4626297
+WARN	invalid_xref	VO:0003868	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003869	oboInOwl:hasDbXref	CUI: C2719734
+WARN	invalid_xref	VO:0003869	oboInOwl:hasDbXref	"RXAUI: 7252256, 7252207, 7253591, 7252257, 7252206"
+WARN	invalid_xref	VO:0003869	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003870	oboInOwl:hasDbXref	CUI: C2719728
+WARN	invalid_xref	VO:0003870	oboInOwl:hasDbXref	RXAUI: 4626295
+WARN	invalid_xref	VO:0003870	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003871	oboInOwl:hasDbXref	CUI: C3224301
+WARN	invalid_xref	VO:0003871	oboInOwl:hasDbXref	RXAUI: 3831445
+WARN	invalid_xref	VO:0003871	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003872	oboInOwl:hasDbXref	CUI: C0714228
+WARN	invalid_xref	VO:0003872	oboInOwl:hasDbXref	"RXAUI: 7251580, 7251337, 7253592, 7251338"
+WARN	invalid_xref	VO:0003872	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003873	oboInOwl:hasDbXref	CUI: C2344381
+WARN	invalid_xref	VO:0003873	oboInOwl:hasDbXref	RXAUI: 3020182
+WARN	invalid_xref	VO:0003873	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003874	oboInOwl:hasDbXref	CUI: C3531472
+WARN	invalid_xref	VO:0003874	oboInOwl:hasDbXref	RXAUI: 5048926
+WARN	invalid_xref	VO:0003874	oboInOwl:hasDbXref	"TUI: T116, T121"
+WARN	invalid_xref	VO:0003875	oboInOwl:hasDbXref	CUI: C3531475
+WARN	invalid_xref	VO:0003875	oboInOwl:hasDbXref	RXAUI: 5048929
+WARN	invalid_xref	VO:0003875	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003876	oboInOwl:hasDbXref	CUI: C3531476
+WARN	invalid_xref	VO:0003876	oboInOwl:hasDbXref	"RXAUI: 5048931, 5048930"
+WARN	invalid_xref	VO:0003876	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003877	oboInOwl:hasDbXref	CUI: C3531473
+WARN	invalid_xref	VO:0003877	oboInOwl:hasDbXref	RXAUI: 5048927
+WARN	invalid_xref	VO:0003877	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003878	oboInOwl:hasDbXref	CUI: C3692550
+WARN	invalid_xref	VO:0003878	oboInOwl:hasDbXref	RXAUI: 5532833
+WARN	invalid_xref	VO:0003878	oboInOwl:hasDbXref	"TUI: T116, T121"
+WARN	invalid_xref	VO:0003879	oboInOwl:hasDbXref	CUI: C3692553
+WARN	invalid_xref	VO:0003879	oboInOwl:hasDbXref	RXAUI: 5532836
+WARN	invalid_xref	VO:0003879	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003880	oboInOwl:hasDbXref	CUI: C3651109
+WARN	invalid_xref	VO:0003880	oboInOwl:hasDbXref	"RXAUI: 5532837, 5532838"
+WARN	invalid_xref	VO:0003880	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003881	oboInOwl:hasDbXref	CUI: C3692551
+WARN	invalid_xref	VO:0003881	oboInOwl:hasDbXref	RXAUI: 5532834
+WARN	invalid_xref	VO:0003881	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003882	oboInOwl:hasDbXref	CUI: C3817315
+WARN	invalid_xref	VO:0003882	oboInOwl:hasDbXref	RXAUI: 6338485
+WARN	invalid_xref	VO:0003882	oboInOwl:hasDbXref	"TUI: T116, T121"
+WARN	invalid_xref	VO:0003883	oboInOwl:hasDbXref	CUI: C3819829
+WARN	invalid_xref	VO:0003883	oboInOwl:hasDbXref	RXAUI: 6338488
+WARN	invalid_xref	VO:0003883	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003884	oboInOwl:hasDbXref	CUI: C3817268
+WARN	invalid_xref	VO:0003884	oboInOwl:hasDbXref	"RXAUI: 6338489, 6338490"
+WARN	invalid_xref	VO:0003884	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003885	oboInOwl:hasDbXref	CUI: C3819293
+WARN	invalid_xref	VO:0003885	oboInOwl:hasDbXref	RXAUI: 6338486
+WARN	invalid_xref	VO:0003885	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003886	oboInOwl:hasDbXref	CUI: C4020135
+WARN	invalid_xref	VO:0003886	oboInOwl:hasDbXref	RXAUI: 7258098
+WARN	invalid_xref	VO:0003886	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003887	oboInOwl:hasDbXref	CUI: C4047076
+WARN	invalid_xref	VO:0003887	oboInOwl:hasDbXref	RXAUI: 7258101
+WARN	invalid_xref	VO:0003887	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003888	oboInOwl:hasDbXref	CUI: C4046941
+WARN	invalid_xref	VO:0003888	oboInOwl:hasDbXref	RXAUI: 7258099
+WARN	invalid_xref	VO:0003888	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003889	oboInOwl:hasDbXref	CUI: C4019692
+WARN	invalid_xref	VO:0003889	oboInOwl:hasDbXref	"RXAUI: 7258105, 7258102"
+WARN	invalid_xref	VO:0003889	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003890	oboInOwl:hasDbXref	CUI: C4224215
+WARN	invalid_xref	VO:0003890	oboInOwl:hasDbXref	RXAUI: 8241253
+WARN	invalid_xref	VO:0003890	oboInOwl:hasDbXref	"TUI:  T116, T129, T121"
+WARN	invalid_xref	VO:0003891	oboInOwl:hasDbXref	CUI: C4276258
+WARN	invalid_xref	VO:0003891	oboInOwl:hasDbXref	RXAUI: 8241256
+WARN	invalid_xref	VO:0003891	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003892	oboInOwl:hasDbXref	CUI: C4276177
+WARN	invalid_xref	VO:0003892	oboInOwl:hasDbXref	RXAUI: 8241254
+WARN	invalid_xref	VO:0003892	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003893	oboInOwl:hasDbXref	CUI: C4224212
+WARN	invalid_xref	VO:0003893	oboInOwl:hasDbXref	"RXAUI: 8241260, 8241257, 8241263"
+WARN	invalid_xref	VO:0003893	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003894	oboInOwl:hasDbXref	CUI: C4490679
+WARN	invalid_xref	VO:0003894	oboInOwl:hasDbXref	RXAUI: 9199818
+WARN	invalid_xref	VO:0003894	oboInOwl:hasDbXref	"TUI:  T116, T129, T121"
+WARN	invalid_xref	VO:0003895	oboInOwl:hasDbXref	CUI: C4490682
+WARN	invalid_xref	VO:0003895	oboInOwl:hasDbXref	RXAUI: 9199821
+WARN	invalid_xref	VO:0003895	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003896	oboInOwl:hasDbXref	CUI: C4490680
+WARN	invalid_xref	VO:0003896	oboInOwl:hasDbXref	RXAUI: 9199819
+WARN	invalid_xref	VO:0003896	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003897	oboInOwl:hasDbXref	CUI: C4490683
+WARN	invalid_xref	VO:0003897	oboInOwl:hasDbXref	"RXAUI: 9199203, 9199204, 9199822"
+WARN	invalid_xref	VO:0003897	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003898	oboInOwl:hasDbXref	CUI: C4490433
+WARN	invalid_xref	VO:0003898	oboInOwl:hasDbXref	RXAUI: 9198836
+WARN	invalid_xref	VO:0003898	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003899	oboInOwl:hasDbXref	CUI: C4490435
+WARN	invalid_xref	VO:0003899	oboInOwl:hasDbXref	RXAUI: 9198839
+WARN	invalid_xref	VO:0003899	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003900	oboInOwl:hasDbXref	CUI: C4490441
+WARN	invalid_xref	VO:0003900	oboInOwl:hasDbXref	RXAUI: 9198889
+WARN	invalid_xref	VO:0003900	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003901	oboInOwl:hasDbXref	CUI: C4490442
+WARN	invalid_xref	VO:0003901	oboInOwl:hasDbXref	"RXAUI: 9198860, 9198861, 9198890"
+WARN	invalid_xref	VO:0003901	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003902	oboInOwl:hasDbXref	CUI: C4490434
+WARN	invalid_xref	VO:0003902	oboInOwl:hasDbXref	RXAUI: 9198838
+WARN	invalid_xref	VO:0003902	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003903	oboInOwl:hasDbXref	CUI: C4719023
+WARN	invalid_xref	VO:0003903	oboInOwl:hasDbXref	RXAUI: 10289675
+WARN	invalid_xref	VO:0003903	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003904	oboInOwl:hasDbXref	CUI: C4719026
+WARN	invalid_xref	VO:0003904	oboInOwl:hasDbXref	RXAUI: 10289678
+WARN	invalid_xref	VO:0003904	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003905	oboInOwl:hasDbXref	CUI: C4719024
+WARN	invalid_xref	VO:0003905	oboInOwl:hasDbXref	RXAUI: 10289676
+WARN	invalid_xref	VO:0003905	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003906	oboInOwl:hasDbXref	CUI: C4719025
+WARN	invalid_xref	VO:0003906	oboInOwl:hasDbXref	RXAUI: 10289677
+WARN	invalid_xref	VO:0003906	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003907	oboInOwl:hasDbXref	CUI: C4719027
+WARN	invalid_xref	VO:0003907	oboInOwl:hasDbXref	"RXAUI: 10289680, 10289679, 10289681"
+WARN	invalid_xref	VO:0003907	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003910	oboInOwl:hasDbXref	CUI: C4060062
+WARN	invalid_xref	VO:0003910	oboInOwl:hasDbXref	RXAUI: 7710863
+WARN	invalid_xref	VO:0003910	oboInOwl:hasDbXref	"TUI: T116, T121"
+WARN	invalid_xref	VO:0003911	oboInOwl:hasDbXref	CUI: C4271566
+WARN	invalid_xref	VO:0003911	oboInOwl:hasDbXref	RXAUI: 8236918
+WARN	invalid_xref	VO:0003911	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003912	oboInOwl:hasDbXref	CUI: C4325205
+WARN	invalid_xref	VO:0003912	oboInOwl:hasDbXref	RXAUI: 9199981
+WARN	invalid_xref	VO:0003912	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003913	oboInOwl:hasDbXref	CUI: C4719165
+WARN	invalid_xref	VO:0003913	oboInOwl:hasDbXref	RXAUI: 10290487
+WARN	invalid_xref	VO:0003913	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003916	oboInOwl:hasDbXref	CUI: C4060278
+WARN	invalid_xref	VO:0003916	oboInOwl:hasDbXref	RXAUI: 7710866
+WARN	invalid_xref	VO:0003916	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003917	oboInOwl:hasDbXref	CUI: C4060159
+WARN	invalid_xref	VO:0003917	oboInOwl:hasDbXref	RXAUI: 7710874
+WARN	invalid_xref	VO:0003917	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003918	oboInOwl:hasDbXref	CUI: C4060234
+WARN	invalid_xref	VO:0003918	oboInOwl:hasDbXref	RXAUI: 7710865
+WARN	invalid_xref	VO:0003918	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003919	oboInOwl:hasDbXref	CUI: C4059806
+WARN	invalid_xref	VO:0003919	oboInOwl:hasDbXref	"RXAUI: 7710870, 7710875, 7716409"
+WARN	invalid_xref	VO:0003919	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003920	oboInOwl:hasDbXref	CUI: C4271737
+WARN	invalid_xref	VO:0003920	oboInOwl:hasDbXref	RXAUI: 8236921
+WARN	invalid_xref	VO:0003920	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003921	oboInOwl:hasDbXref	C4271636
+WARN	invalid_xref	VO:0003921	oboInOwl:hasDbXref	RXAUI: 8236919
+WARN	invalid_xref	VO:0003921	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003922	oboInOwl:hasDbXref	CUI: C4271677
+WARN	invalid_xref	VO:0003922	oboInOwl:hasDbXref	RXAUI: 8236920
+WARN	invalid_xref	VO:0003922	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003923	oboInOwl:hasDbXref	CUI: C4270828
+WARN	invalid_xref	VO:0003923	oboInOwl:hasDbXref	"RXAUI: 8236922, 8236925, 8236924"
+WARN	invalid_xref	VO:0003923	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003924	oboInOwl:hasDbXref	CUI: C4490740
+WARN	invalid_xref	VO:0003924	oboInOwl:hasDbXref	RXAUI: 9199984
+WARN	invalid_xref	VO:0003924	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003925	oboInOwl:hasDbXref	CUI: C4490738
+WARN	invalid_xref	VO:0003925	oboInOwl:hasDbXref	RXAUI: 9199982
+WARN	invalid_xref	VO:0003925	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003926	oboInOwl:hasDbXref	CUI: C4490739
+WARN	invalid_xref	VO:0003926	oboInOwl:hasDbXref	RXAUI: 9199983
+WARN	invalid_xref	VO:0003926	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003927	oboInOwl:hasDbXref	CUI: C4325070
+WARN	invalid_xref	VO:0003927	oboInOwl:hasDbXref	"RXAUI: 9199987, 9199985, 9199986"
+WARN	invalid_xref	VO:0003927	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003928	oboInOwl:hasDbXref	CUI: C4719168
+WARN	invalid_xref	VO:0003928	oboInOwl:hasDbXref	RXAUI: 10290491
+WARN	invalid_xref	VO:0003928	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003929	oboInOwl:hasDbXref	CUI: C4719166
+WARN	invalid_xref	VO:0003929	oboInOwl:hasDbXref	RXAUI: 10290488
+WARN	invalid_xref	VO:0003929	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003930	oboInOwl:hasDbXref	CUI: C4719167
+WARN	invalid_xref	VO:0003930	oboInOwl:hasDbXref	RXAUI: 10290490
+WARN	invalid_xref	VO:0003930	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003931	oboInOwl:hasDbXref	CUI: C4719169
+WARN	invalid_xref	VO:0003931	oboInOwl:hasDbXref	"RXAUI: 10290492, 10290493, 10290494"
+WARN	invalid_xref	VO:0003931	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003932	oboInOwl:hasDbXref	CUI: C3229980
+WARN	invalid_xref	VO:0003932	oboInOwl:hasDbXref	RXAUI: 3836903
+WARN	invalid_xref	VO:0003932	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003933	oboInOwl:hasDbXref	CUI: C2344300
+WARN	invalid_xref	VO:0003933	oboInOwl:hasDbXref	RXAUI: 2851350
+WARN	invalid_xref	VO:0003933	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003934	oboInOwl:hasDbXref	CUI: C2344301
+WARN	invalid_xref	VO:0003934	oboInOwl:hasDbXref	RXAUI: 7250795
+WARN	invalid_xref	VO:0003934	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003935	oboInOwl:hasDbXref	CUI: C1714255
+WARN	invalid_xref	VO:0003935	oboInOwl:hasDbXref	"RXAUI: 7250530, 6836567, 7251909"
+WARN	invalid_xref	VO:0003935	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003936	oboInOwl:hasDbXref	CUI: C2344303
+WARN	invalid_xref	VO:0003936	oboInOwl:hasDbXref	RXAUI: 2851356
+WARN	invalid_xref	VO:0003936	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003937	oboInOwl:hasDbXref	CUI: C1725928
+WARN	invalid_xref	VO:0003937	oboInOwl:hasDbXref	"RXAUI: 2851357, 2980898, 6836565"
+WARN	invalid_xref	VO:0003937	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003938	oboInOwl:hasDbXref	CUI: C2344294
+WARN	invalid_xref	VO:0003938	oboInOwl:hasDbXref	RXAUI: 2851343
+WARN	invalid_xref	VO:0003938	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003939	oboInOwl:hasDbXref	CUI: C2344298
+WARN	invalid_xref	VO:0003939	oboInOwl:hasDbXref	RXAUI: 2851347
+WARN	invalid_xref	VO:0003939	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003940	oboInOwl:hasDbXref	CUI: C2724165
+WARN	invalid_xref	VO:0003940	oboInOwl:hasDbXref	RXAUI: 4627784
+WARN	invalid_xref	VO:0003940	oboInOwl:hasDbXref	"TUI: T116, T121"
+WARN	invalid_xref	VO:0003941	oboInOwl:hasDbXref	CUI: C2724167
+WARN	invalid_xref	VO:0003941	oboInOwl:hasDbXref	RXAUI: 4627786
+WARN	invalid_xref	VO:0003941	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0003942	oboInOwl:hasDbXref	CUI: C2725255
+WARN	invalid_xref	VO:0003942	oboInOwl:hasDbXref	RXAUI: 4627785
+WARN	invalid_xref	VO:0003942	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003943	oboInOwl:hasDbXref	CUI: C3474821
+WARN	invalid_xref	VO:0003943	oboInOwl:hasDbXref	RXAUI: 4627787
+WARN	invalid_xref	VO:0003943	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003944	oboInOwl:hasDbXref	CUI: C3221549
+WARN	invalid_xref	VO:0003944	oboInOwl:hasDbXref	RXAUI: 3832040
+WARN	invalid_xref	VO:0003944	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003945	oboInOwl:hasDbXref	CUI: C2725256
+WARN	invalid_xref	VO:0003945	oboInOwl:hasDbXref	RXAUI: 4627789
+WARN	invalid_xref	VO:0003945	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003946	oboInOwl:hasDbXref	CUI: C2723809
+WARN	invalid_xref	VO:0003946	oboInOwl:hasDbXref	RXAUI: 2999023
+WARN	invalid_xref	VO:0003946	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003947	oboInOwl:hasDbXref	CUI: C2724157
+WARN	invalid_xref	VO:0003947	oboInOwl:hasDbXref	"RXAUI: 3266660, 4627790, 7236130"
+WARN	invalid_xref	VO:0003947	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003948	oboInOwl:hasDbXref	CUI: C1579318
+WARN	invalid_xref	VO:0003948	oboInOwl:hasDbXref	RXAUI: 2963098
+WARN	invalid_xref	VO:0003948	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003949	oboInOwl:hasDbXref	CUI: C3474322
+WARN	invalid_xref	VO:0003949	oboInOwl:hasDbXref	RXAUI: 4626258
+WARN	invalid_xref	VO:0003949	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0003950	oboInOwl:hasDbXref	CUI: C2682867
+WARN	invalid_xref	VO:0003950	oboInOwl:hasDbXref	RXAUI: 4626259
+WARN	invalid_xref	VO:0003950	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003951	oboInOwl:hasDbXref	CUI: C3221394
+WARN	invalid_xref	VO:0003951	oboInOwl:hasDbXref	RXAUI: 3838660
+WARN	invalid_xref	VO:0003951	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003952	oboInOwl:hasDbXref	CUI: C2682871
+WARN	invalid_xref	VO:0003952	oboInOwl:hasDbXref	RXAUI: 4626261
+WARN	invalid_xref	VO:0003952	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003953	oboInOwl:hasDbXref	CUI: C2682872
+WARN	invalid_xref	VO:0003953	oboInOwl:hasDbXref	RXAUI: 2963104
+WARN	invalid_xref	VO:0003953	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003954	oboInOwl:hasDbXref	CUI: C2682873
+WARN	invalid_xref	VO:0003954	oboInOwl:hasDbXref	"RXAUI: 6833047, 4626263, 2984288, 4626262, 2994485"
+WARN	invalid_xref	VO:0003954	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003957	oboInOwl:hasDbXref	CUI: C4291505
+WARN	invalid_xref	VO:0003957	oboInOwl:hasDbXref	RXAUI: 8262971
+WARN	invalid_xref	VO:0003957	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003958	oboInOwl:hasDbXref	CUI: C3226798
+WARN	invalid_xref	VO:0003958	oboInOwl:hasDbXref	RXAUI: 3838385
+WARN	invalid_xref	VO:0003958	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003962	oboInOwl:hasDbXref	CUI: C4291477
+WARN	invalid_xref	VO:0003962	oboInOwl:hasDbXref	RXAUI: 8262969
+WARN	invalid_xref	VO:0003962	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003963	oboInOwl:hasDbXref	CUI: C4271028
+WARN	invalid_xref	VO:0003963	oboInOwl:hasDbXref	"RXAUI: 8262973, 8262974, 8262972"
+WARN	invalid_xref	VO:0003963	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003965	oboInOwl:hasDbXref	CUI: C4718905
+WARN	invalid_xref	VO:0003965	oboInOwl:hasDbXref	RXAUI: 9712930
+WARN	invalid_xref	VO:0003965	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003966	oboInOwl:hasDbXref	CUI: C4718905
+WARN	invalid_xref	VO:0003966	oboInOwl:hasDbXref	RXAUI: 10287780
+WARN	invalid_xref	VO:0003966	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003967	oboInOwl:hasDbXref	CUI: C4553167
+WARN	invalid_xref	VO:0003967	oboInOwl:hasDbXref	"RXAUI: 10287788, 10287789, 10287781, 10287783, 10287782"
+WARN	invalid_xref	VO:0003967	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003968	oboInOwl:hasDbXref	CUI: C4541386
+WARN	invalid_xref	VO:0003968	oboInOwl:hasDbXref	RXAUI: 9712928
+WARN	invalid_xref	VO:0003968	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003969	oboInOwl:hasDbXref	CUI: C2346335
+WARN	invalid_xref	VO:0003969	oboInOwl:hasDbXref	RXAUI: 5027208
+WARN	invalid_xref	VO:0003969	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003970	oboInOwl:hasDbXref	CUI: C3238386
+WARN	invalid_xref	VO:0003970	oboInOwl:hasDbXref	RXAUI: 3843263
+WARN	invalid_xref	VO:0003970	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003971	oboInOwl:hasDbXref	CUI: C2364460
+WARN	invalid_xref	VO:0003971	oboInOwl:hasDbXref	RXAUI: 5027344
+WARN	invalid_xref	VO:0003971	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003972	oboInOwl:hasDbXref	CUI: C4033845
+WARN	invalid_xref	VO:0003972	oboInOwl:hasDbXref	RXAUI: 7251281
+WARN	invalid_xref	VO:0003972	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003973	oboInOwl:hasDbXref	CUI: C2346346
+WARN	invalid_xref	VO:0003973	oboInOwl:hasDbXref	"RXAUI: 7251683, 7253749, 7250887"
+WARN	invalid_xref	VO:0003973	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003974	oboInOwl:hasDbXref	CUI: C3225481
+WARN	invalid_xref	VO:0003974	oboInOwl:hasDbXref	RXAUI: 3838975
+WARN	invalid_xref	VO:0003974	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003975	oboInOwl:hasDbXref	CUI: C2586836
+WARN	invalid_xref	VO:0003975	oboInOwl:hasDbXref	RXAUI: 5027347
+WARN	invalid_xref	VO:0003975	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003976	oboInOwl:hasDbXref	CUI: C4033746
+WARN	invalid_xref	VO:0003976	oboInOwl:hasDbXref	RXAUI: 7251903
+WARN	invalid_xref	VO:0003976	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003977	oboInOwl:hasDbXref	CUI: C2586841
+WARN	invalid_xref	VO:0003977	oboInOwl:hasDbXref	RXAUI: 5027411
+WARN	invalid_xref	VO:0003977	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003978	oboInOwl:hasDbXref	CUI: C2586842
+WARN	invalid_xref	VO:0003978	oboInOwl:hasDbXref	"RXAUI: 7253751, 5027675, 3634544"
+WARN	invalid_xref	VO:0003978	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003979	oboInOwl:hasDbXref	CUI: C2586837
+WARN	invalid_xref	VO:0003979	oboInOwl:hasDbXref	RXAUI: 7251904
+WARN	invalid_xref	VO:0003979	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003980	oboInOwl:hasDbXref	CUI: C2586838
+WARN	invalid_xref	VO:0003980	oboInOwl:hasDbXref	"RXAUI: 7250882, 7251905, 7253750"
+WARN	invalid_xref	VO:0003980	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003981	oboInOwl:hasDbXref	CUI: C3222333
+WARN	invalid_xref	VO:0003981	oboInOwl:hasDbXref	RXAUI: 3833478
+WARN	invalid_xref	VO:0003981	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003982	oboInOwl:hasDbXref	CUI: C2609933
+WARN	invalid_xref	VO:0003982	oboInOwl:hasDbXref	RXAUI: 5027355
+WARN	invalid_xref	VO:0003982	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003983	oboInOwl:hasDbXref	CUI: C1169838
+WARN	invalid_xref	VO:0003983	oboInOwl:hasDbXref	"RXAUI: 7251885, 7250857, 7250858, 7253754"
+WARN	invalid_xref	VO:0003983	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003984	oboInOwl:hasDbXref	CUI: C3224088
+WARN	invalid_xref	VO:0003984	oboInOwl:hasDbXref	RXAUI: 3828634
+WARN	invalid_xref	VO:0003984	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003985	oboInOwl:hasDbXref	CUI: C2587006
+WARN	invalid_xref	VO:0003985	oboInOwl:hasDbXref	RXAUI: 5027353
+WARN	invalid_xref	VO:0003985	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003986	oboInOwl:hasDbXref	CUI: C2746860
+WARN	invalid_xref	VO:0003986	oboInOwl:hasDbXref	RXAUI: 5027415
+WARN	invalid_xref	VO:0003986	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003987	oboInOwl:hasDbXref	CUI: C2746861
+WARN	invalid_xref	VO:0003987	oboInOwl:hasDbXref	"RXAUI: 4625204, 7252705, 5027658, 4625563"
+WARN	invalid_xref	VO:0003987	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003988	oboInOwl:hasDbXref	CUI: C4033829
+WARN	invalid_xref	VO:0003988	oboInOwl:hasDbXref	RXAUI: 7251690
+WARN	invalid_xref	VO:0003988	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003989	oboInOwl:hasDbXref	CUI: C1639148
+WARN	invalid_xref	VO:0003989	oboInOwl:hasDbXref	"RXAUI: 7250855, 7251691, 7252702, 7250854"
+WARN	invalid_xref	VO:0003989	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003990	oboInOwl:hasDbXref	CUI: C3152863
+WARN	invalid_xref	VO:0003990	oboInOwl:hasDbXref	RXAUI: 5027354
+WARN	invalid_xref	VO:0003990	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003991	oboInOwl:hasDbXref	CUI: C2368976
+WARN	invalid_xref	VO:0003991	oboInOwl:hasDbXref	RXAUI: 7251893
+WARN	invalid_xref	VO:0003991	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003992	oboInOwl:hasDbXref	CUI: C0710622
+WARN	invalid_xref	VO:0003992	oboInOwl:hasDbXref	"RXAUI: 7250871, 7251894, 7250870, 7253756"
+WARN	invalid_xref	VO:0003992	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003993	oboInOwl:hasDbXref	CUI: C2368973
+WARN	invalid_xref	VO:0003993	oboInOwl:hasDbXref	RXAUI: 5027387
+WARN	invalid_xref	VO:0003993	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003994	oboInOwl:hasDbXref	CUI: C2368974
+WARN	invalid_xref	VO:0003994	oboInOwl:hasDbXref	"RXAUI: 5027659, 7253755, 3633959, 4625557"
+WARN	invalid_xref	VO:0003994	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003995	oboInOwl:hasDbXref	CUI: C3229697
+WARN	invalid_xref	VO:0003995	oboInOwl:hasDbXref	RXAUI: 3831021
+WARN	invalid_xref	VO:0003995	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003996	oboInOwl:hasDbXref	CUI: C4033749
+WARN	invalid_xref	VO:0003996	oboInOwl:hasDbXref	RXAUI: 7251494
+WARN	invalid_xref	VO:0003996	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003997	oboInOwl:hasDbXref	CUI: C2364904
+WARN	invalid_xref	VO:0003997	oboInOwl:hasDbXref	RXAUI: 5027356
+WARN	invalid_xref	VO:0003997	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003998	oboInOwl:hasDbXref	CUI: C2364905
+WARN	invalid_xref	VO:0003998	oboInOwl:hasDbXref	RXAUI: 7251319
+WARN	invalid_xref	VO:0003998	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0003999	oboInOwl:hasDbXref	CUI: C2364906
+WARN	invalid_xref	VO:0003999	oboInOwl:hasDbXref	"RXAUI: 7250865, 7251497, 7253758, 7250866"
+WARN	invalid_xref	VO:0003999	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004205	oboInOwl:hasDbXref	CUI: C2364909
+WARN	invalid_xref	VO:0004205	oboInOwl:hasDbXref	RXAUI: 5027374
+WARN	invalid_xref	VO:0004205	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004206	oboInOwl:hasDbXref	CUI: C2364910
+WARN	invalid_xref	VO:0004206	oboInOwl:hasDbXref	"RXAUI: 5027662, 7253757, 4625540, 4625564"
+WARN	invalid_xref	VO:0004206	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004207	oboInOwl:hasDbXref	CUI: C3474172
+WARN	invalid_xref	VO:0004207	oboInOwl:hasDbXref	RXAUI: 4625526
+WARN	invalid_xref	VO:0004207	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004215	oboInOwl:hasDbXref	CUI: C3228377
+WARN	invalid_xref	VO:0004215	oboInOwl:hasDbXref	RXAUI: 3830942
+WARN	invalid_xref	VO:0004215	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004218	oboInOwl:hasDbXref	CUI: C2608510
+WARN	invalid_xref	VO:0004218	oboInOwl:hasDbXref	RXAUI: 2943547
+WARN	invalid_xref	VO:0004218	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004814	oboInOwl:hasDbXref	CUI: C1877319
+WARN	invalid_xref	VO:0004814	oboInOwl:hasDbXref	"RXAUI: 7241001, 8235202, 8235203, 8231134"
+WARN	invalid_xref	VO:0004814	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004815	oboInOwl:hasDbXref	CUI: C2364569
+WARN	invalid_xref	VO:0004815	oboInOwl:hasDbXref	RXAUI: 2861602
+WARN	invalid_xref	VO:0004815	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0004816	oboInOwl:hasDbXref	CUI: C2364570
+WARN	invalid_xref	VO:0004816	oboInOwl:hasDbXref	RXAUI: 2861603
+WARN	invalid_xref	VO:0004816	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004817	oboInOwl:hasDbXref	CUI: C2364572
+WARN	invalid_xref	VO:0004817	oboInOwl:hasDbXref	RXAUI: 2861607
+WARN	invalid_xref	VO:0004817	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004818	oboInOwl:hasDbXref	CUI: C2343398
+WARN	invalid_xref	VO:0004818	oboInOwl:hasDbXref	"RXAUI: 8728820, 8728821, 2861609"
+WARN	invalid_xref	VO:0004818	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004819	oboInOwl:hasDbXref	CUI: C3236400
+WARN	invalid_xref	VO:0004819	oboInOwl:hasDbXref	RXAUI: 3845652
+WARN	invalid_xref	VO:0004819	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004820	oboInOwl:hasDbXref	CUI: C2344315
+WARN	invalid_xref	VO:0004820	oboInOwl:hasDbXref	RXAUI: 2851375
+WARN	invalid_xref	VO:0004820	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0004821	oboInOwl:hasDbXref	CUI: C2344316
+WARN	invalid_xref	VO:0004821	oboInOwl:hasDbXref	RXAUI: 2851376
+WARN	invalid_xref	VO:0004821	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004822	oboInOwl:hasDbXref	CUI: C2344317
+WARN	invalid_xref	VO:0004822	oboInOwl:hasDbXref	RXAUI: 2851377
+WARN	invalid_xref	VO:0004822	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0004823	oboInOwl:hasDbXref	CUI: C2344311
+WARN	invalid_xref	VO:0004823	oboInOwl:hasDbXref	RXAUI: 2851371
+WARN	invalid_xref	VO:0004823	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0004824	oboInOwl:hasDbXref	CUI: C2344313
+WARN	invalid_xref	VO:0004824	oboInOwl:hasDbXref	RXAUI: 2851373
+WARN	invalid_xref	VO:0004824	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0004825	oboInOwl:hasDbXref	CUI: C2344309
+WARN	invalid_xref	VO:0004825	oboInOwl:hasDbXref	RXAUI: 2851369
+WARN	invalid_xref	VO:0004825	oboInOwl:hasDbXref	"TUI: T116, T129, T121"
+WARN	invalid_xref	VO:0004826	oboInOwl:hasDbXref	CUI: C2344314
+WARN	invalid_xref	VO:0004826	oboInOwl:hasDbXref	RXAUI: 2851374
+WARN	invalid_xref	VO:0004826	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004827	oboInOwl:hasDbXref	CUI: C2344310
+WARN	invalid_xref	VO:0004827	oboInOwl:hasDbXref	RXAUI: 2851370
+WARN	invalid_xref	VO:0004827	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004828	oboInOwl:hasDbXref	CUI: C2344318
+WARN	invalid_xref	VO:0004828	oboInOwl:hasDbXref	RXAUI: 2851378
+WARN	invalid_xref	VO:0004828	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004829	oboInOwl:hasDbXref	CUI: C2344312
+WARN	invalid_xref	VO:0004829	oboInOwl:hasDbXref	RXAUI: 2851372
+WARN	invalid_xref	VO:0004829	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004830	oboInOwl:hasDbXref	CUI: C3236398
+WARN	invalid_xref	VO:0004830	oboInOwl:hasDbXref	RXAUI: 3845650
+WARN	invalid_xref	VO:0004830	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004831	oboInOwl:hasDbXref	CUI: C2344321
+WARN	invalid_xref	VO:0004831	oboInOwl:hasDbXref	RXAUI: 2851381
+WARN	invalid_xref	VO:0004831	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004832	oboInOwl:hasDbXref	CUI: C1698233
+WARN	invalid_xref	VO:0004832	oboInOwl:hasDbXref	"RXAUI: 8728818, 8728828, 2851383"
+WARN	invalid_xref	VO:0004832	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004833	oboInOwl:hasDbXref	CUI: C4018289
+WARN	invalid_xref	VO:0004833	oboInOwl:hasDbXref	RXAUI: 6839906
+WARN	invalid_xref	VO:0004833	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004834	oboInOwl:hasDbXref	CUI: C4530672
+WARN	invalid_xref	VO:0004834	oboInOwl:hasDbXref	RXAUI: 9702160
+WARN	invalid_xref	VO:0004834	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004835	oboInOwl:hasDbXref	CUI: C4018290
+WARN	invalid_xref	VO:0004835	oboInOwl:hasDbXref	"RXAUI: 7253752, 9702161"
+WARN	invalid_xref	VO:0004835	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004836	oboInOwl:hasDbXref	CUI: C2741588
+WARN	invalid_xref	VO:0004836	oboInOwl:hasDbXref	RXAUI: 3060734
+WARN	invalid_xref	VO:0004836	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0004837	oboInOwl:hasDbXref	CUI: C2741586
+WARN	invalid_xref	VO:0004837	oboInOwl:hasDbXref	RXAUI: 3060732
+WARN	invalid_xref	VO:0004837	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0004838	oboInOwl:hasDbXref	CUI: C2741590
+WARN	invalid_xref	VO:0004838	oboInOwl:hasDbXref	RXAUI: 3060736
+WARN	invalid_xref	VO:0004838	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0004839	oboInOwl:hasDbXref	CUI: C2741584
+WARN	invalid_xref	VO:0004839	oboInOwl:hasDbXref	RXAUI: 3060730
+WARN	invalid_xref	VO:0004839	oboInOwl:hasDbXref	"TUI: T129, T121"
+WARN	invalid_xref	VO:0004840	oboInOwl:hasDbXref	CUI: C2741589
+WARN	invalid_xref	VO:0004840	oboInOwl:hasDbXref	RXAUI: 3060735
+WARN	invalid_xref	VO:0004840	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004841	oboInOwl:hasDbXref	CUI: C2741587
+WARN	invalid_xref	VO:0004841	oboInOwl:hasDbXref	RXAUI: 3060733
+WARN	invalid_xref	VO:0004841	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004842	oboInOwl:hasDbXref	CUI: C2741591
+WARN	invalid_xref	VO:0004842	oboInOwl:hasDbXref	RXAUI: 3060737
+WARN	invalid_xref	VO:0004842	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004843	oboInOwl:hasDbXref	CUI: C2741585
+WARN	invalid_xref	VO:0004843	oboInOwl:hasDbXref	RXAUI: 3060731
+WARN	invalid_xref	VO:0004843	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004844	oboInOwl:hasDbXref	CUI: C3238199
+WARN	invalid_xref	VO:0004844	oboInOwl:hasDbXref	RXAUI: 3840481
+WARN	invalid_xref	VO:0004844	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004845	oboInOwl:hasDbXref	CUI: C2741595
+WARN	invalid_xref	VO:0004845	oboInOwl:hasDbXref	RXAUI: 3060741
+WARN	invalid_xref	VO:0004845	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004846	oboInOwl:hasDbXref	CUI: C2741597
+WARN	invalid_xref	VO:0004846	oboInOwl:hasDbXref	"RXAUI: 7253602, 7251512, 7250930"
+WARN	invalid_xref	VO:0004846	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004847	oboInOwl:hasDbXref	CUI: C3859502
+WARN	invalid_xref	VO:0004847	oboInOwl:hasDbXref	RXAUI: 6809461
+WARN	invalid_xref	VO:0004847	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004848	oboInOwl:hasDbXref	CUI: C3859500
+WARN	invalid_xref	VO:0004848	oboInOwl:hasDbXref	RXAUI: 6809459
+WARN	invalid_xref	VO:0004848	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004849	oboInOwl:hasDbXref	CUI: C3859501
+WARN	invalid_xref	VO:0004849	oboInOwl:hasDbXref	RXAUI: 6809460
+WARN	invalid_xref	VO:0004849	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004850	oboInOwl:hasDbXref	CUI: C3859503
+WARN	invalid_xref	VO:0004850	oboInOwl:hasDbXref	"RXAUI: 6809462, 6809488, 7253600, 6809470"
+WARN	invalid_xref	VO:0004850	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004851	oboInOwl:hasDbXref	CUI: C3883559
+WARN	invalid_xref	VO:0004851	oboInOwl:hasDbXref	RXAUI: 6827964
+WARN	invalid_xref	VO:0004851	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004852	oboInOwl:hasDbXref	CUI: C3883499
+WARN	invalid_xref	VO:0004852	oboInOwl:hasDbXref	RXAUI: 6827962
+WARN	invalid_xref	VO:0004852	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004853	oboInOwl:hasDbXref	CUI: C3882668
+WARN	invalid_xref	VO:0004853	oboInOwl:hasDbXref	"RXAUI: 7253601, 6827965, 6827966, 6827968, 6827967"
+WARN	invalid_xref	VO:0004853	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004854	oboInOwl:hasDbXref	CUI: C2608637
+WARN	invalid_xref	VO:0004854	oboInOwl:hasDbXref	RXAUI: 2944708
+WARN	invalid_xref	VO:0004854	oboInOwl:hasDbXref	"TUI: T116, T121"
+WARN	invalid_xref	VO:0004855	oboInOwl:hasDbXref	CUI: C2608638
+WARN	invalid_xref	VO:0004855	oboInOwl:hasDbXref	RXAUI: 2944709
+WARN	invalid_xref	VO:0004855	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004856	oboInOwl:hasDbXref	CUI: C3220139
+WARN	invalid_xref	VO:0004856	oboInOwl:hasDbXref	RXAUI: 3828366
+WARN	invalid_xref	VO:0004856	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004857	oboInOwl:hasDbXref	CUI: C2608644
+WARN	invalid_xref	VO:0004857	oboInOwl:hasDbXref	"RXAUI: 2944716, 2944715, 7252433"
+WARN	invalid_xref	VO:0004857	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004858	oboInOwl:hasDbXref	CUI: C2608642
+WARN	invalid_xref	VO:0004858	oboInOwl:hasDbXref	RXAUI: 2944713
+WARN	invalid_xref	VO:0004858	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004860	oboInOwl:hasDbXref	CUI: C0982276
+WARN	invalid_xref	VO:0004860	oboInOwl:hasDbXref	RXAUI: 1473942
+WARN	invalid_xref	VO:0004860	oboInOwl:hasDbXref	"TUI: T109, T129, T121"
+WARN	invalid_xref	VO:0004863	oboInOwl:hasDbXref	CUI: C3666862
+WARN	invalid_xref	VO:0004863	oboInOwl:hasDbXref	RXAUI: 5495921
+WARN	invalid_xref	VO:0004863	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004864	oboInOwl:hasDbXref	CUI: C1167602
+WARN	invalid_xref	VO:0004864	oboInOwl:hasDbXref	RXAUI: 1545435
+WARN	invalid_xref	VO:0004864	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004865	oboInOwl:hasDbXref	CUI: C3666883
+WARN	invalid_xref	VO:0004865	oboInOwl:hasDbXref	RXAUI: 5496016
+WARN	invalid_xref	VO:0004865	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004866	oboInOwl:hasDbXref	CUI: C3666881
+WARN	invalid_xref	VO:0004866	oboInOwl:hasDbXref	RXAUI: 5496014
+WARN	invalid_xref	VO:0004866	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004867	oboInOwl:hasDbXref	CUI: C3537927
+WARN	invalid_xref	VO:0004867	oboInOwl:hasDbXref	"RXAUI: 7253596, 7251659, 7250946"
+WARN	invalid_xref	VO:0004867	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004868	oboInOwl:hasDbXref	CUI: C3666860
+WARN	invalid_xref	VO:0004868	oboInOwl:hasDbXref	RXAUI: 5495919
+WARN	invalid_xref	VO:0004868	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004870	oboInOwl:hasDbXref	CUI: C3237660
+WARN	invalid_xref	VO:0004870	oboInOwl:hasDbXref	RXAUI: 3840468
+WARN	invalid_xref	VO:0004870	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004872	oboInOwl:hasDbXref	CUI: C3207956
+WARN	invalid_xref	VO:0004872	oboInOwl:hasDbXref	RXAUI: 3814359
+WARN	invalid_xref	VO:0004872	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004873	oboInOwl:hasDbXref	CUI: C3207957
+WARN	invalid_xref	VO:0004873	oboInOwl:hasDbXref	RXAUI: 3814360
+WARN	invalid_xref	VO:0004873	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004874	oboInOwl:hasDbXref	CUI: C3153709
+WARN	invalid_xref	VO:0004874	oboInOwl:hasDbXref	RXAUI: 6337850
+WARN	invalid_xref	VO:0004874	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004875	oboInOwl:hasDbXref	CUI: C3153710
+WARN	invalid_xref	VO:0004875	oboInOwl:hasDbXref	"RXAUI: 6337174, 6364229"
+WARN	invalid_xref	VO:0004875	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004876	oboInOwl:hasDbXref	CUI: C3153708
+WARN	invalid_xref	VO:0004876	oboInOwl:hasDbXref	RXAUI: 3638491
+WARN	invalid_xref	VO:0004876	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004877	oboInOwl:hasDbXref	CUI: C3207958
+WARN	invalid_xref	VO:0004877	oboInOwl:hasDbXref	RXAUI: 3814361
+WARN	invalid_xref	VO:0004877	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004878	oboInOwl:hasDbXref	CUI: C3208141
+WARN	invalid_xref	VO:0004878	oboInOwl:hasDbXref	RXAUI: 3814362
+WARN	invalid_xref	VO:0004878	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004879	oboInOwl:hasDbXref	CUI: C3153712
+WARN	invalid_xref	VO:0004879	oboInOwl:hasDbXref	RXAUI: 6337292
+WARN	invalid_xref	VO:0004879	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004880	oboInOwl:hasDbXref	CUI: C3153713
+WARN	invalid_xref	VO:0004880	oboInOwl:hasDbXref	"RXAUI: 6337842, 6364883"
+WARN	invalid_xref	VO:0004880	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004881	oboInOwl:hasDbXref	CUI: C3153711
+WARN	invalid_xref	VO:0004881	oboInOwl:hasDbXref	RXAUI: 3638495
+WARN	invalid_xref	VO:0004881	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004882	oboInOwl:hasDbXref	CUI: C1600470
+WARN	invalid_xref	VO:0004882	oboInOwl:hasDbXref	RXAUI: 2283589
+WARN	invalid_xref	VO:0004882	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004883	oboInOwl:hasDbXref	CUI: C4033800
+WARN	invalid_xref	VO:0004883	oboInOwl:hasDbXref	RXAUI: 7252552
+WARN	invalid_xref	VO:0004883	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004884	oboInOwl:hasDbXref	CUI: C3887764
+WARN	invalid_xref	VO:0004884	oboInOwl:hasDbXref	"RXAUI: 7253594, 7252562, 7252553"
+WARN	invalid_xref	VO:0004884	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004885	oboInOwl:hasDbXref	CUI: C0708576
+WARN	invalid_xref	VO:0004885	oboInOwl:hasDbXref	"RXAUI: 3051640, 7253593, 5944304, 1155623"
+WARN	invalid_xref	VO:0004885	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004886	oboInOwl:hasDbXref	CUI: C0982275
+WARN	invalid_xref	VO:0004886	oboInOwl:hasDbXref	RXAUI: 1473937
+WARN	invalid_xref	VO:0004886	oboInOwl:hasDbXref	TUI: T200
+WARN	invalid_xref	VO:0004887	oboInOwl:hasDbXref	CUI: C1167601
+WARN	invalid_xref	VO:0004887	oboInOwl:hasDbXref	RXAUI: 1545434
+WARN	invalid_xref	VO:0004887	oboInOwl:hasDbXref	TUI: T200
 WARN	missing_definition	BFO:0000133	IAO:0000115	
 WARN	missing_definition	BFO:0000141	IAO:0000115	
 WARN	missing_definition	CHEBI:30911	IAO:0000115	
@@ -697,6 +2894,7 @@ WARN	missing_definition	NCBITaxon:1648	IAO:0000115
 WARN	missing_definition	NCBITaxon:1649845	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1653394	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1678143	IAO:0000115	
+WARN	missing_definition	NCBITaxon:169418	IAO:0000115	
 WARN	missing_definition	NCBITaxon:171	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1716	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1717	IAO:0000115	
@@ -807,6 +3005,7 @@ WARN	missing_definition	NCBITaxon:3052518	IAO:0000115
 WARN	missing_definition	NCBITaxon:3052707	IAO:0000115	
 WARN	missing_definition	NCBITaxon:3052729	IAO:0000115	
 WARN	missing_definition	NCBITaxon:3072906	IAO:0000115	
+WARN	missing_definition	NCBITaxon:3073809	IAO:0000115	
 WARN	missing_definition	NCBITaxon:314145	IAO:0000115	
 WARN	missing_definition	NCBITaxon:314146	IAO:0000115	
 WARN	missing_definition	NCBITaxon:314147	IAO:0000115	
@@ -860,6 +3059,7 @@ WARN	missing_definition	NCBITaxon:430066	IAO:0000115
 WARN	missing_definition	NCBITaxon:44088	IAO:0000115	
 WARN	missing_definition	NCBITaxon:444163	IAO:0000115	
 WARN	missing_definition	NCBITaxon:444178	IAO:0000115	
+WARN	missing_definition	NCBITaxon:452646	IAO:0000115	
 WARN	missing_definition	NCBITaxon:464095	IAO:0000115	
 WARN	missing_definition	NCBITaxon:470137	IAO:0000115	
 WARN	missing_definition	NCBITaxon:4751	IAO:0000115	
@@ -1089,7 +3289,6 @@ WARN	missing_definition	VO:0000044	IAO:0000115
 WARN	missing_definition	VO:0000045	IAO:0000115	
 WARN	missing_definition	VO:0000046	IAO:0000115	
 WARN	missing_definition	VO:0000047	IAO:0000115	
-WARN	missing_definition	VO:0000049	IAO:0000115	
 WARN	missing_definition	VO:0000051	IAO:0000115	
 WARN	missing_definition	VO:0000052	IAO:0000115	
 WARN	missing_definition	VO:0000064	IAO:0000115	
@@ -1100,7 +3299,6 @@ WARN	missing_definition	VO:0000073	IAO:0000115
 WARN	missing_definition	VO:0000074	IAO:0000115	
 WARN	missing_definition	VO:0000075	IAO:0000115	
 WARN	missing_definition	VO:0000076	IAO:0000115	
-WARN	missing_definition	VO:0000078	IAO:0000115	
 WARN	missing_definition	VO:0000080	IAO:0000115	
 WARN	missing_definition	VO:0000081	IAO:0000115	
 WARN	missing_definition	VO:0000082	IAO:0000115	
@@ -1265,7 +3463,6 @@ WARN	missing_definition	VO:0000347	IAO:0000115
 WARN	missing_definition	VO:0000348	IAO:0000115	
 WARN	missing_definition	VO:0000349	IAO:0000115	
 WARN	missing_definition	VO:0000353	IAO:0000115	
-WARN	missing_definition	VO:0000354	IAO:0000115	
 WARN	missing_definition	VO:0000355	IAO:0000115	
 WARN	missing_definition	VO:0000356	IAO:0000115	
 WARN	missing_definition	VO:0000357	IAO:0000115	
@@ -1321,17 +3518,13 @@ WARN	missing_definition	VO:0000480	IAO:0000115
 WARN	missing_definition	VO:0000481	IAO:0000115	
 WARN	missing_definition	VO:0000485	IAO:0000115	
 WARN	missing_definition	VO:0000488	IAO:0000115	
-WARN	missing_definition	VO:0000499	IAO:0000115	
 WARN	missing_definition	VO:0000501	IAO:0000115	
 WARN	missing_definition	VO:0000502	IAO:0000115	
 WARN	missing_definition	VO:0000503	IAO:0000115	
 WARN	missing_definition	VO:0000505	IAO:0000115	
 WARN	missing_definition	VO:0000509	IAO:0000115	
 WARN	missing_definition	VO:0000510	IAO:0000115	
-WARN	missing_definition	VO:0000511	IAO:0000115	
 WARN	missing_definition	VO:0000515	IAO:0000115	
-WARN	missing_definition	VO:0000517	IAO:0000115	
-WARN	missing_definition	VO:0000518	IAO:0000115	
 WARN	missing_definition	VO:0000519	IAO:0000115	
 WARN	missing_definition	VO:0000521	IAO:0000115	
 WARN	missing_definition	VO:0000522	IAO:0000115	
@@ -1360,7 +3553,6 @@ WARN	missing_definition	VO:0000583	IAO:0000115
 WARN	missing_definition	VO:0000588	IAO:0000115	
 WARN	missing_definition	VO:0000593	IAO:0000115	
 WARN	missing_definition	VO:0000594	IAO:0000115	
-WARN	missing_definition	VO:0000599	IAO:0000115	
 WARN	missing_definition	VO:0000603	IAO:0000115	
 WARN	missing_definition	VO:0000606	IAO:0000115	
 WARN	missing_definition	VO:0000614	IAO:0000115	
@@ -1377,8 +3569,6 @@ WARN	missing_definition	VO:0000655	IAO:0000115
 WARN	missing_definition	VO:0000657	IAO:0000115	
 WARN	missing_definition	VO:0000659	IAO:0000115	
 WARN	missing_definition	VO:0000660	IAO:0000115	
-WARN	missing_definition	VO:0000666	IAO:0000115	
-WARN	missing_definition	VO:0000668	IAO:0000115	
 WARN	missing_definition	VO:0000672	IAO:0000115	
 WARN	missing_definition	VO:0000673	IAO:0000115	
 WARN	missing_definition	VO:0000674	IAO:0000115	
@@ -1407,7 +3597,6 @@ WARN	missing_definition	VO:0000773	IAO:0000115
 WARN	missing_definition	VO:0000775	IAO:0000115	
 WARN	missing_definition	VO:0000776	IAO:0000115	
 WARN	missing_definition	VO:0000778	IAO:0000115	
-WARN	missing_definition	VO:0000780	IAO:0000115	
 WARN	missing_definition	VO:0000790	IAO:0000115	
 WARN	missing_definition	VO:0000791	IAO:0000115	
 WARN	missing_definition	VO:0000792	IAO:0000115	
@@ -1420,7 +3609,6 @@ WARN	missing_definition	VO:0000806	IAO:0000115
 WARN	missing_definition	VO:0000811	IAO:0000115	
 WARN	missing_definition	VO:0000815	IAO:0000115	
 WARN	missing_definition	VO:0000816	IAO:0000115	
-WARN	missing_definition	VO:0000827	IAO:0000115	
 WARN	missing_definition	VO:0000832	IAO:0000115	
 WARN	missing_definition	VO:0000834	IAO:0000115	
 WARN	missing_definition	VO:0000835	IAO:0000115	
@@ -1559,11 +3747,6 @@ WARN	missing_definition	VO:0001276	IAO:0000115
 WARN	missing_definition	VO:0001277	IAO:0000115	
 WARN	missing_definition	VO:0001278	IAO:0000115	
 WARN	missing_definition	VO:0001279	IAO:0000115	
-WARN	missing_definition	VO:0001280	IAO:0000115	
-WARN	missing_definition	VO:0001281	IAO:0000115	
-WARN	missing_definition	VO:0001282	IAO:0000115	
-WARN	missing_definition	VO:0001283	IAO:0000115	
-WARN	missing_definition	VO:0001284	IAO:0000115	
 WARN	missing_definition	VO:0001324	IAO:0000115	
 WARN	missing_definition	VO:0001325	IAO:0000115	
 WARN	missing_definition	VO:0001326	IAO:0000115	
@@ -1571,18 +3754,6 @@ WARN	missing_definition	VO:0001327	IAO:0000115
 WARN	missing_definition	VO:0001355	IAO:0000115	
 WARN	missing_definition	VO:0001364	IAO:0000115	
 WARN	missing_definition	VO:0001380	IAO:0000115	
-WARN	missing_definition	VO:0001466	IAO:0000115	
-WARN	missing_definition	VO:0001467	IAO:0000115	
-WARN	missing_definition	VO:0001468	IAO:0000115	
-WARN	missing_definition	VO:0001469	IAO:0000115	
-WARN	missing_definition	VO:0001470	IAO:0000115	
-WARN	missing_definition	VO:0001471	IAO:0000115	
-WARN	missing_definition	VO:0001472	IAO:0000115	
-WARN	missing_definition	VO:0001473	IAO:0000115	
-WARN	missing_definition	VO:0001474	IAO:0000115	
-WARN	missing_definition	VO:0001475	IAO:0000115	
-WARN	missing_definition	VO:0001476	IAO:0000115	
-WARN	missing_definition	VO:0001478	IAO:0000115	
 WARN	missing_definition	VO:0001530	IAO:0000115	
 WARN	missing_definition	VO:0001531	IAO:0000115	
 WARN	missing_definition	VO:0001532	IAO:0000115	
@@ -2789,9 +4960,6 @@ WARN	missing_definition	VO:0002808	IAO:0000115
 WARN	missing_definition	VO:0002809	IAO:0000115	
 WARN	missing_definition	VO:0002810	IAO:0000115	
 WARN	missing_definition	VO:0002812	IAO:0000115	
-WARN	missing_definition	VO:0002815	IAO:0000115	
-WARN	missing_definition	VO:0002816	IAO:0000115	
-WARN	missing_definition	VO:0002817	IAO:0000115	
 WARN	missing_definition	VO:0002818	IAO:0000115	
 WARN	missing_definition	VO:0002819	IAO:0000115	
 WARN	missing_definition	VO:0002820	IAO:0000115	
@@ -3138,7 +5306,6 @@ WARN	missing_definition	VO:0003385	IAO:0000115
 WARN	missing_definition	VO:0003386	IAO:0000115	
 WARN	missing_definition	VO:0003387	IAO:0000115	
 WARN	missing_definition	VO:0003388	IAO:0000115	
-WARN	missing_definition	VO:0003389	IAO:0000115	
 WARN	missing_definition	VO:0003391	IAO:0000115	
 WARN	missing_definition	VO:0003392	IAO:0000115	
 WARN	missing_definition	VO:0003395	IAO:0000115	
@@ -3279,8 +5446,6 @@ WARN	missing_definition	VO:0003553	IAO:0000115
 WARN	missing_definition	VO:0003554	IAO:0000115	
 WARN	missing_definition	VO:0003555	IAO:0000115	
 WARN	missing_definition	VO:0003556	IAO:0000115	
-WARN	missing_definition	VO:0003557	IAO:0000115	
-WARN	missing_definition	VO:0003558	IAO:0000115	
 WARN	missing_definition	VO:0003559	IAO:0000115	
 WARN	missing_definition	VO:0003560	IAO:0000115	
 WARN	missing_definition	VO:0003561	IAO:0000115	
@@ -3719,8 +5884,6 @@ WARN	missing_definition	VO:0003997	IAO:0000115
 WARN	missing_definition	VO:0003998	IAO:0000115	
 WARN	missing_definition	VO:0003999	IAO:0000115	
 WARN	missing_definition	VO:0004000	IAO:0000115	
-WARN	missing_definition	VO:0004001	IAO:0000115	
-WARN	missing_definition	VO:0004002	IAO:0000115	
 WARN	missing_definition	VO:0004003	IAO:0000115	
 WARN	missing_definition	VO:0004004	IAO:0000115	
 WARN	missing_definition	VO:0004005	IAO:0000115	
@@ -3992,7 +6155,6 @@ WARN	missing_definition	VO:0004273	IAO:0000115
 WARN	missing_definition	VO:0004274	IAO:0000115	
 WARN	missing_definition	VO:0004275	IAO:0000115	
 WARN	missing_definition	VO:0004276	IAO:0000115	
-WARN	missing_definition	VO:0004277	IAO:0000115	
 WARN	missing_definition	VO:0004278	IAO:0000115	
 WARN	missing_definition	VO:0004279	IAO:0000115	
 WARN	missing_definition	VO:0004280	IAO:0000115	
@@ -4694,7 +6856,6 @@ WARN	missing_definition	VO:0005421	IAO:0000115
 WARN	missing_definition	VO:0005422	IAO:0000115	
 WARN	missing_definition	VO:0005423	IAO:0000115	
 WARN	missing_definition	VO:0005424	IAO:0000115	
-WARN	missing_definition	VO:0005432	IAO:0000115	
 WARN	missing_definition	VO:0005433	IAO:0000115	
 WARN	missing_definition	VO:0005440	IAO:0000115	
 WARN	missing_definition	VO:0005441	IAO:0000115	
@@ -4865,7 +7026,6 @@ WARN	missing_definition	VO:0007591	IAO:0000115
 WARN	missing_definition	VO:0007593	IAO:0000115	
 WARN	missing_definition	VO:0007594	IAO:0000115	
 WARN	missing_definition	VO:0007595	IAO:0000115	
-WARN	missing_definition	VO:0007596	IAO:0000115	
 WARN	missing_definition	VO:0007597	IAO:0000115	
 WARN	missing_definition	VO:0007598	IAO:0000115	
 WARN	missing_definition	VO:0007599	IAO:0000115	
@@ -11984,7 +14144,6 @@ INFO	lowercase_definition	RO:0002512	IAO:0000115	x is the ribosomal translation 
 INFO	lowercase_definition	RO:0002513	IAO:0000115	inverse of ribosomal translation of
 INFO	lowercase_definition	RO:0002604	IAO:0000115	"x is the opposite of y if there exists some distance metric M, and there exists no z such as M(x,z) <= M(x,y) or M(y,z) <= M(y,x)."
 INFO	lowercase_definition	VO:0000017	IAO:0000115	whole organism vaccine that uses killed pathogen organism as its component.
-INFO	lowercase_definition	VO:0000035	IAO:0000115	"a vaccinia virus vaccine that is a freeze-dried calf lymph smallpox vaccine, specifically, Dryvax is a live-virus preparation of vaccinia prepared from calf lymph. "
 INFO	lowercase_definition	VO:0000050	IAO:0000115	a lentivirus vaccine vector that uses a HIV strain as the vector
 INFO	lowercase_definition	VO:0000068	IAO:0000115	a bacterial vaccine vector that uses L. moncytogenes as the vector.
 INFO	lowercase_definition	VO:0000079	IAO:0000115	an influenza vaccine that is similar to Fluzone but has high dose. 
@@ -11994,7 +14153,6 @@ INFO	lowercase_definition	VO:0000122	IAO:0000115	a viral vaccine vector that use
 INFO	lowercase_definition	VO:0000126	IAO:0000115	a vaccine organism that is live and attenuated
 INFO	lowercase_definition	VO:0000136	IAO:0000115	a viral vaccine vector that uses an adenovirus as the vector.
 INFO	lowercase_definition	VO:0000144	IAO:0000115	a viral vaccine vector that uses an alphavirus as the vector.
-INFO	lowercase_definition	VO:0000145	IAO:0000115	a vaccine component role that inheres in a recombinant vaccine vector as a vaccine component. The combination of a recombinant vaccine vector and a heterogenous protective antigen(s) inserted inside the vector for a recombinant vector vaccine. 
 INFO	lowercase_definition	VO:0000147	IAO:0000115	an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. 
 INFO	lowercase_definition	VO:0000151	IAO:0000115	"an organismal quality that indicates an organism (e.g., human) is immunized against a disease."
 INFO	lowercase_definition	VO:0000152	IAO:0000115	a bacterial vaccine against an infection with F. tularensis.
@@ -12032,7 +14190,6 @@ INFO	lowercase_definition	VO:0000420	IAO:0000115	a vaccine component that origin
 INFO	lowercase_definition	VO:0000424	IAO:0000115	a pneumococcal vaccine that is formed using polyvalent polysaccharides
 INFO	lowercase_definition	VO:0000426	IAO:0000115	period of persistence of vaccine induced immune response is a temporal interval during which a vaccine-induced immune response continuously exists. This term is related to the process 'persistence of vaccine induced immune response'.
 INFO	lowercase_definition	VO:0000433	IAO:0000115	a Smallpox virus vaccine that uses vaccinia virus
-INFO	lowercase_definition	VO:0000435	IAO:0000115	a vaccine component that is composed of a plasmid and used in the generation of a DNA vaccine. 
 INFO	lowercase_definition	VO:0000437	IAO:0000115	"a bacterial vaccine against Moraxella bovis infection. Moraxella bovis is a Gram-negative, aerobic, oxidase-positive diplococcus that is implicated in infectious bovine keratoconjunctivitis, an eye disease of cattle, also colloquially known as Pink Eye."
 INFO	lowercase_definition	VO:0000438	IAO:0000115	a Moraxella bovis vaccine that is prepared using a bacterial bacterin.
 INFO	lowercase_definition	VO:0000439	IAO:0000115	a USA licensed vaccine role that indicates the vaccine is for veterinary uses.
@@ -12051,7 +14208,6 @@ INFO	lowercase_definition	VO:0000470	IAO:0000115	an autogenous bacterin vaccine 
 INFO	lowercase_definition	VO:0000475	IAO:0000115	a Rabies virus vaccine against Rabies in animal
 INFO	lowercase_definition	VO:0000477	IAO:0000115	a Rabies virus vaccine against Rabies in human
 INFO	lowercase_definition	VO:0000487	IAO:0000115	a S. typhi vaccine that is live and orally administerred
-INFO	lowercase_definition	VO:0000489	IAO:0000115	a licensed vaccine role that is bears in a licensed human vaccine.
 INFO	lowercase_definition	VO:0000493	IAO:0000115	natural active immunization is an active immunization that occur naturally when a person or animal comes in contact with antigens includeing microbes.
 INFO	lowercase_definition	VO:0000495	IAO:0000115	"induction of adaptive immune response to antigen is an active immunization process that results in induction of adaptive immune response to some antigens, for example, in a vaccine."
 INFO	lowercase_definition	VO:0000498	IAO:0000115	"modification of adaptive immune response to antigen is an active immunization process that results in modification of an adaptive immune response to some antigens, for example, in a therapeutic vaccine."
@@ -12067,7 +14223,6 @@ INFO	lowercase_definition	VO:0000540	IAO:0000115	time of survival of live vaccin
 INFO	lowercase_definition	VO:0000544	IAO:0000115	a vaccinee that is a human being
 INFO	lowercase_definition	VO:0000545	IAO:0000115	a population of human beings who are vaccinated.
 INFO	lowercase_definition	VO:0000546	IAO:0000115	a population group that are vaccinated with a specific vaccine
-INFO	lowercase_definition	VO:0000551	IAO:0000115	a licensed vaccine role that is bears in a licensed veterinary vaccine.
 INFO	lowercase_definition	VO:0000556	IAO:0000115	"a vaccine that is designed to immunize against two or more strains of the same microorganism, or against two or more microorganisms."
 INFO	lowercase_definition	VO:0000563	IAO:0000115	a combination vaccine that is used against both bacterial and viral infections.
 INFO	lowercase_definition	VO:0000566	IAO:0000115	a bacterial vaccine against Vibrio infection
@@ -12094,8 +14249,6 @@ INFO	lowercase_definition	VO:0000643	IAO:0000115	a vaccine with license that is 
 INFO	lowercase_definition	VO:0000667	IAO:0000115	a vaccine against human papillomavirus infection
 INFO	lowercase_definition	VO:0000669	IAO:0000115	a Herpesvirus vaccine that is used against Varicella-zoster virus infection.
 INFO	lowercase_definition	VO:0000675	IAO:0000115	"a Streptococcal vaccine that is used against S. pneumoniae infection, which causes pneumococcal diseases. "
-INFO	lowercase_definition	VO:0000685	IAO:0000115	a recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine 
-INFO	lowercase_definition	VO:0000702	IAO:0000115	a recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine 
 INFO	lowercase_definition	VO:0000704	IAO:0000115	a vaccine residual that is from antibiotics used during the manufacture process.
 INFO	lowercase_definition	VO:0000711	IAO:0000115	has_vaccine_allegen is a relation that specifies an allegen to a vaccine.
 INFO	lowercase_definition	VO:0000712	IAO:0000115	a viral vaccine that is inactivated
@@ -12109,22 +14262,15 @@ INFO	lowercase_definition	VO:0000802	IAO:0000115	"vaccine storage that is execut
 INFO	lowercase_definition	VO:0000803	IAO:0000115	vaccine storage that is executed in freezer under 0^C.
 INFO	lowercase_definition	VO:0000812	IAO:0000115	a licensed vaccine role that indicates the vaccine occurs in USA.
 INFO	lowercase_definition	VO:0000823	IAO:0000115	a bacterial vaccine against V. anguillarum infection
-INFO	lowercase_definition	VO:0000850	IAO:0000115	"a vaccine component that is added to the immunogen by the vaccine manufacturer for a specific purpose. Additives include adjuvants, preservatives and stablizers, as well as materials that are added to affect pH and isotonicity."
-INFO	lowercase_definition	VO:0000851	IAO:0000115	"vaccine preservative is an vaccine additive that is added to a vaccine formulation to prevent the growth of bacteria or fungi that inadvertently may be introduced into the vaccine during use.
-Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73."
-INFO	lowercase_definition	VO:0000853	IAO:0000115	a vaccine additive that helps to protect the vaccine from adverse conditions such as the freeze-drying process (for those vaccines that are freeze-dried) or heat.
-INFO	lowercase_definition	VO:0000854	IAO:0000115	a vaccine component that remains from the vaccine manufacturing process.
 INFO	lowercase_definition	VO:0000855	IAO:0000115	"a vaccine residual that is used to inactivate bacteria and viruses or to detoxify bacterial toxins. For example, formaldehyde is a frequently used inactivation agent in vaccine preparation."
 INFO	lowercase_definition	VO:0000856	IAO:0000115	"a vaccine residual that is generatead from cell culture for vaccine preparation. Examples include: antibiotics, sensitizing substances, bacterial and cellular residuals, and adventitious agents."
 INFO	lowercase_definition	VO:0000864	IAO:0000115	a licensed status that occurs in Canada.
 INFO	lowercase_definition	VO:0000865	IAO:0000115	a bacterial vaccine against Porphyromonas gulae infection
 INFO	lowercase_definition	VO:0000880	IAO:0000115	pCLF4 is a Bacillus anthracis vaccine that contains the N-terminal region (amino acids [aa] 10-254) of Bacillus anthracis LF cloned into the pCI expression plasmid.
 INFO	lowercase_definition	VO:0000885	IAO:0000115	"a role inhers in a vaccine component that when added into a vccine formmulation, it can prevent the growth of bacteria or fungi that inadvertently may be introduced into the vaccine during administrating process or the manufacturing process."
-INFO	lowercase_definition	VO:0000899	IAO:0000115	"dose is a measurement data that measures the quantity of something that may be eaten by or administered to an organism, or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses."
 INFO	lowercase_definition	VO:0000910	IAO:0000115	vaccine allergen is a material entity that is capable of stimulating a type-I hypersensitivity reaction in atopic individuals who has been vaccinated with a vaccine.
 INFO	lowercase_definition	VO:0000911	IAO:0000115	passive immunization that Immunity is transferred from mother to fetus through placental transfer of IgG or colostral transfer of IgA.
 INFO	lowercase_definition	VO:0000912	IAO:0000115	chicken egg protein allergen is a vaccine allergen that is composed of chicken egg protein.
-INFO	lowercase_definition	VO:0000919	IAO:0000115	the vaccine component that is used as antigen to produce an immune responce protect against the specific pathogen or disease.
 INFO	lowercase_definition	VO:0000920	IAO:0000115	a cell culture residual in vaccine that is bovine albumin.
 INFO	lowercase_definition	VO:0000921	IAO:0000115	a cell culture residual in vaccine that is bovine serum.
 INFO	lowercase_definition	VO:0000922	IAO:0000115	a vaccine stablizer that is based on monosodium glutamate. 
@@ -12144,8 +14290,6 @@ INFO	lowercase_definition	VO:0000957	IAO:0000115	a B. abortus vaccine that uses 
 INFO	lowercase_definition	VO:0000963	IAO:0000115	an E. coli vaccine that uses toxoid antigen
 INFO	lowercase_definition	VO:0000984	IAO:0000115	a tetanus vaccine manusfactured by Sanofi Pasteur Inc. that is only for booster use (not recommended for primary immunization)
 INFO	lowercase_definition	VO:0000985	IAO:0000115	a viral vaccine that is used to protect against fowl pox virus infection
-INFO	lowercase_definition	VO:0001014	IAO:0000115	a live attenuated quality of a bacterial vaccine strain. 
-INFO	lowercase_definition	VO:0001015	IAO:0000115	a live attenuated quality of a virus vaccine strain. 
 INFO	lowercase_definition	VO:0001019	IAO:0000115	an avian reovirus vaccine that using live attenauted reovirus. 
 INFO	lowercase_definition	VO:0001021	IAO:0000115	a feline panleukopenia virus vaccine where the virus used is live attenuated. 
 INFO	lowercase_definition	VO:0001023	IAO:0000115	a bacterial vaccine vector that uses TB vaccine BCG as the vector.
@@ -12274,11 +14418,7 @@ INFO	lowercase_definition	VO:0001456	IAO:0000115	bacterial vaccine that is used 
 INFO	lowercase_definition	VO:0001457	IAO:0000115	protozoan vaccine that is used to protect against Tritrichomonas suis infection
 INFO	lowercase_definition	VO:0001459	IAO:0000115	protozoan vaccine that is used to protect against Eimeria spp. (Eimeria) infection
 INFO	lowercase_definition	VO:0001460	IAO:0000115	viral vaccine that is used to protect against Orf Virus infection
-INFO	lowercase_definition	VO:0001462	IAO:0000115	vaccine that used for immunizing fishes
 INFO	lowercase_definition	VO:0001463	IAO:0000115	viral vaccine that is used to protect against Fowlpox virus infection
-INFO	lowercase_definition	VO:0001464	IAO:0000115	vaccine that used for immunizing carnivora.
-INFO	lowercase_definition	VO:0001465	IAO:0000115	vaccine that used for immunizing cat (felis catus)
-INFO	lowercase_definition	VO:0001477	IAO:0000115	"vaccine that used for immunizing  salmoninae (tourts, salmons & chars )"
 INFO	lowercase_definition	VO:0001481	IAO:0000115	viral vaccine that is used to protect against Pigeonpox virus infection
 INFO	lowercase_definition	VO:0001482	IAO:0000115	viral vaccine that is used to protect against Bovine herpesvirus 1 infection
 INFO	lowercase_definition	VO:0001486	IAO:0000115	viral vaccine that is used to protect against Equid herpesvirus 1 infection
@@ -12301,7 +14441,6 @@ INFO	lowercase_definition	VO:0001502	IAO:0000115	viral vaccine that is used to p
 INFO	lowercase_definition	VO:0001503	IAO:0000115	viral vaccine that is used to protect against Bovine coronavirus infection
 INFO	lowercase_definition	VO:0001504	IAO:0000115	viral vaccine that is used to protect against Feline infectious peritonitis virus infection
 INFO	lowercase_definition	VO:0001505	IAO:0000115	viral vaccine that is used to protect against Transmissible gastroenteritis virus infection
-INFO	lowercase_definition	VO:0001506	IAO:0000115	viral vaccine that is used to protect against Bovine Parainfluenza 3 Virus (BPIV-3) (Bovine parainfluenza virus 3) infection
 INFO	lowercase_definition	VO:0001507	IAO:0000115	viral vaccine that is used to protect against Bovine Respiratory Syncytial Virus infection
 INFO	lowercase_definition	VO:0001508	IAO:0000115	viral vaccine that is used to protect against Feline immunodeficiency virus infection
 INFO	lowercase_definition	VO:0001509	IAO:0000115	viral vaccine that is used to protect against Feline calicivirus infection
@@ -12351,7 +14490,6 @@ INFO	lowercase_definition	VO:0003040	IAO:0000115	a polysorbate 20 vaccine stabil
 INFO	lowercase_definition	VO:0003041	IAO:0000115	an antibiotics vaccine residual that has the antibiotics of neomycin. 
 INFO	lowercase_definition	VO:0003042	IAO:0000115	the vaccine antiegn that induces protective immune response. 
 INFO	lowercase_definition	VO:0003048	IAO:0000115	"when the vaccination of a significant portion of a population (or herd), in contagious diseases that are transmitted from individual to individual, chains of infection are likely to be disrupted, so the large numbers of a population are immue or less susceptible to the disease. "
-INFO	lowercase_definition	VO:0003057	IAO:0000115	an vaccine-induced host response that shows augmented protection and cellular immunity after a host protein is used as adjuvant. 
 INFO	lowercase_definition	VO:0003060	IAO:0000115	viral vaccine that is used to protect against Monkeypox virus infection
 INFO	lowercase_definition	VO:0003061	IAO:0000115	viral vaccine that is used to protect against Bovine viral diarrhea virus 2 infection
 INFO	lowercase_definition	VO:0003092	IAO:0000115	"monovalent vaccine agianst poliomyelitis for infants 6-12 weeks of age, all immunized children up to 18 years of age, and high risk adults."
@@ -12370,8 +14508,6 @@ INFO	lowercase_definition	VO:0004920	IAO:0000115	vaccine-induced T-helper 2 type
 INFO	lowercase_definition	VO:0005177	IAO:0000115	an adenovirus vaccine vector that uses a gorilla adenovirus.
 INFO	lowercase_definition	VO:0005479	IAO:0000115	a malaria vaccine that protects against malaria caused by Plasmodium knowlesi.
 INFO	lowercase_definition	VO:0005480	IAO:0000115	a malaria vaccine that protects against malaria caused by Plasmodium chabaudi.
-INFO	lowercase_definition	VO:0005503	IAO:0000115	a grouping class for vaccines for specific diseases
-INFO	lowercase_definition	VO:0005505	IAO:0000115	a grouping class for vaccines for specific platforms
 INFO	lowercase_definition	VO:0007098	IAO:0000115	"rime/boost vaccination proved to be of no advantage or even detrimental in therapeutic settings in B16F1 and transgenic adenocarcinoma of the mouse prostate (TRAMP) models, respectively"
 INFO	lowercase_definition	VO:0007287	IAO:0000115	"cancer vaccine consisting of autologous dendritic cells transfected with autologous tumor mRNA and the human CD40 ligand (CD40L) gene with immunostimulatory and antitumor activities. Vaccination with autologous dendritic cell-autologous tumor mRNA-human CD40L vaccine may elicit a cytotoxic T cell response against tumor cells from which the autologous tumor mRNA was derived. When expressed by dendritic cells, tumor antigens and the co-stimulatory molecule CD40L, which binds to CD40 receptors on antigen presenting cells (APC), facilitate both humoral and cellular immune responses against tumor cells."
 INFO	lowercase_definition	VO:0010446	IAO:0000115	human papillomavirus vaccine with license for human use.
