@@ -186,6 +186,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0004909 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0004909">
+        <obo:IAO_0000115>A shortcut object property that represents a relation between a vaccine and a disease process where the vaccine immunizes a host against a disease process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000226"/>
+        <rdfs:label>obsolete immunizes against disease process</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
