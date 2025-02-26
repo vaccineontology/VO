@@ -1670,18 +1670,6 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000685 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000685">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-        <obo:IAO_0000115>a recombinant vector vaccine role that inheres in a bacterium that carries a vaccine antigen for development of a particular vaccine </obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>recombinant bacterial vector vaccine role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000692 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000692">
@@ -1690,18 +1678,6 @@ Toxins can be small molecules, peptides, or proteins that are capable of causing
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>peptide vaccine role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000702 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-        <obo:IAO_0000115>a recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine </obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>role</oboInOwl:inSubset>
-        <rdfs:label>recombinant viral vector vaccine role</rdfs:label>
     </owl:Class>
     
 
