@@ -279,6 +279,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000055"/>
@@ -492,6 +498,17 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000126">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000506"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000173"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000506"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -963,6 +980,17 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <!-- http://purl.obolibrary.org/obo/VO_0000368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000368">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000506"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0001145"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000506"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -981,6 +1009,17 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     <!-- http://purl.obolibrary.org/obo/VO_0000395 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000395">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000506"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000506"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2594,6 +2633,12 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004921">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Anna Maria Masci</obo:IAO_0000117>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
