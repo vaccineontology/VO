@@ -63,8 +63,7 @@ VO:0000350,has vaccine organism with quality,Object property,,,"A shortcut relat
 ('vaccine') and ('has component' some ('vaccine organism' and 'has quality' some 'organismal quality').
 The domain of this relation is a vaccine.
 The range of this relation is a organismal quality.",Jie Zheng|Oliver He,,,vaccine,organismal quality,
-VO:0003390,test in laboratory model,Object property,,,"A shortcut relation that is equivalent to:
+VO:0003390,test in lab animal model,Object property,,,"A shortcut relation that is equivalent to:
 ('vaccine' and 'has function' some ('vaccine function' and ('is realized by' some ('vaccine immunization' and 'has participant' some ('organism' and 'has role' some 'laboratory animal model role'))))).
 The domain of this relation is a vaccine.
 The range of this relation is a organism.",Jie Zheng|Oliver He,,,vaccine,organism,
-,,,,,,,,,,,
