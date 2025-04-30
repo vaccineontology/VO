@@ -211,8 +211,11 @@
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:130669</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:130670</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>MPXV</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>monkey pox virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mpox</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mpox virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Monkeypox virus</rdfs:label>
     </owl:Class>
@@ -546,10 +549,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10357"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Cytomegalovirus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10357"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10358"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <oboInOwl:hasBroadSynonym>HHV-5</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
@@ -1428,6 +1444,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186938"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:11202</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasBroadSynonym>HPIV-3</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>HPIV3</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Human parainfluenza 3 virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Human parainfluenza virus 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Human parainfluenza virus type 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Parainfluenza virus type 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>human parainfluenza virus 3 HPIV3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>human parainfluenza virus type 3 PIV3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>parainfluenza virus type 3 PIV-3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>human parainfluenza virus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Human respirovirus 3</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11229">
@@ -2089,7 +2128,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3379134"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
@@ -2517,6 +2556,7 @@
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:2954866</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:30896383</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Bacillus/Staphylococcus group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Caryophanales</oboInOwl:hasRelatedSynonym>
@@ -2831,7 +2871,6 @@
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Galloanseri</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>ducks, geese, chickens, fowl, quail, currasows and allies</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Galloanserae</rdfs:label>
     </owl:Class>
     
@@ -3307,7 +3346,6 @@
         <oboInOwl:hasAlternativeId>NCBITaxon:3376104</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:18988685</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:23851394</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Terrabacteria group</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Firmacutes</oboInOwl:hasRelatedSynonym>
@@ -3398,6 +3436,19 @@
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Orthopneumovirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186938">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11158"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Respirovirus</rdfs:label>
     </owl:Class>
     
 
@@ -3697,7 +3748,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_203692 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203692">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3379134"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
@@ -3877,7 +3928,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_213849 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_213849">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3379134"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
@@ -3999,7 +4050,6 @@
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Brucella melitensis bv. Abortus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>&quot;Bacillus of abortion&quot; Bang 1897</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacterium abortus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Brucella melitensis biovar Abortus</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Brucella abortus</rdfs:label>
@@ -4665,6 +4715,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2871093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2871093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70796"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>avian encephalomyelitis virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>tremovirus A1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2895623 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2895623">
@@ -4784,7 +4847,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_29546 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29546">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3379134"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
@@ -4976,7 +5039,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3052729 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3052729">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186938"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:11215</oboInOwl:hasAlternativeId>
@@ -5204,6 +5267,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3344809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3344809">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10294"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Herpes Simplexvirus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33550">
@@ -5230,6 +5306,19 @@
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>carnivores</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Carnivora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3379134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3379134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_kingdom"/>
+        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Pseudomonadati</rdfs:label>
     </owl:Class>
     
 
@@ -5850,6 +5939,22 @@
         <oboInOwl:hasRelatedSynonym>Mycota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>fungi</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Fungi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_476">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1236"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Haemophilus bovis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Moraxella (subgen. Moraxella Lwoff 1939) bovis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Moraxella duplex des bovids</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Moraxella bovis</rdfs:label>
     </owl:Class>
     
 
@@ -7735,7 +7840,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_810 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_810">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3379134"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:83553</oboInOwl:hasAlternativeId>
@@ -8413,7 +8518,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_976 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_976">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3379134"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_phylum"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:171554</oboInOwl:hasAlternativeId>
