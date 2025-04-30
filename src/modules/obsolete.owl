@@ -407,6 +407,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000730">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0012162"/>
+        <rdfs:label>obsolete Marek disease vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000748 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000748">
@@ -512,6 +524,21 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001216">
+        <obo:IAO_0000115>A viral vaccine that protects against infection with Lymphocytic choriomeningitis mammarenavirus</obo:IAO_0000115>
+        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003044"/>
+        <rdfs:label>obsolete Lymphocytic choriomeningitis mammarenavirus vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0001280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001280">
@@ -610,6 +637,21 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/688"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000987"/>
         <rdfs:label>obsolete bovine herpesvirus 1 vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0001484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001484">
+        <obo:IAO_0000115>A viral vaccine that protects against infection with Caprine herpesvirus 1</obo:IAO_0000115>
+        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001366"/>
+        <rdfs:label>obsolete Caprine herpesvirus 1 vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2366,6 +2408,17 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003229">
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000950"/>
+        <rdfs:label>obsolete Hepatitis A virus-Typhoid vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003233">
@@ -2398,20 +2451,6 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/643"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003272"/>
         <rdfs:label>obsolete 0.65 ML Varicella-Zoster Virus Vaccine Live (Oka-Merck) strain 29800 UNT/ML Injection</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0003389 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003389">
-        <obo:IAO_0000117>Khadeejah Khan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
-        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/778"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000765"/>
-        <rdfs:label>obsolete Acellular Pertussis Vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2710,6 +2749,19 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010004">
+        <obo:IAO_0000115>A Cp23 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0011308"/>
+        <rdfs:label>obsolete Crptosporidium parvum Cp23</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0010127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010127">
@@ -2789,6 +2841,20 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000431"/>
         <rdfs:label>obsolete rLm/iglC</rdfs:label>
         <rdfs:seeAlso>VIOLIN Vaccine ID: 440</rdfs:seeAlso>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011447">
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>F. tularensis DNA vaccine rLm/iglC</obo:IAO_0000118>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000431"/>
+        <rdfs:label>obsolete Francisella tularensis DNA vaccine rLm/iglC</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     

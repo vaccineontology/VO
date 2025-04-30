@@ -122,7 +122,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0040084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0040084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_874"/>
         <obo:IAO_0000115 xml:lang="en">A bacterial pneumonia has_material_basis_in Streptococcus pneumoniae.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:J13</oboInOwl:hasDbXref>
@@ -139,8 +139,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0050012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in joint, has_material_basis_in Chikungunya virus, which is transmitted_by Aedes mosquito bite. The infection has_symptom fever, has_symptom arthralgia, and has_symptom maculopapular rash.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in joint, has_material_basis_in Chikungunya virus (Alphavirus chikungunya), which is transmitted_by Aedes mosquito bite. The infection has_symptom fever, has_symptom arthralgia, and has_symptom maculopapular rash.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:6038</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Chikungunya fever</oboInOwl:hasExactSynonym>
@@ -193,8 +193,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0050175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in brain, has_material_basis_in Tick-borne encephalitis virus, which is transmitted_by Ixodes ticks. The infection has_symptom drowsiness, has_symptom confusion, has_symptom sensory disturbances, and has_symptom paralysis.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in brain, has_material_basis_in Tick-borne encephalitis virus (Orthoflavivirus encephalitidis), which is transmitted_by Ixodes ticks. The infection has_symptom drowsiness, has_symptom confusion, has_symptom sensory disturbances, and has_symptom paralysis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:0050176</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:10251</oboInOwl:hasAlternativeId>
@@ -218,6 +218,21 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#tick-borne_infectious_disease"/>
         <rdfs:label xml:lang="en">tick-borne encephalitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <obo:IAO_0000115 xml:lang="en">A bacterial infectious disease that results_in infection by bacteria as a result of their presence or activity within the normal, healthy host, and their intrinsic virulence is, in part, a necessary consequence of their need to reproduce and spread.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050338</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <rdfs:label xml:lang="en">primary bacterial infectious disease</rdfs:label>
     </owl:Class>
     
 
@@ -247,6 +262,7 @@
         <oboInOwl:hasDbXref>MESH:D009371</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0050686</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
         <rdfs:label xml:lang="en">organ system cancer</rdfs:label>
     </owl:Class>
     
@@ -354,8 +370,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0060097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060118"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_14566"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
         <obo:IAO_0000115 xml:lang="en">An organ system benign neoplam that is located_in the thoracic cavity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:created_by>lschriml</oboInOwl:created_by>
@@ -385,25 +401,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_0060118 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000115 xml:lang="en">A disease of anatomical entity that is located_in the thoracic cavity.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
-        <oboInOwl:creation_date>2011-07-25T02:23:47Z</oboInOwl:creation_date>
-        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>DOID:0060118</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
-        <rdfs:label xml:lang="en">thoracic disease</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_0060119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060119">
@@ -428,10 +425,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0080001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_65"/>
+        <obo:IAO_0000115 xml:lang="en">A connective tissue disease that affects the structure or development of bone or causes an impairment of normal bone function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:1290</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:M89.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001847</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:76069003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0005940</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">skeletal disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:0080001</oboInOwl:id>
+        <rdfs:label xml:lang="en">bone disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0080176 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080176">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9470"/>
         <obo:IAO_0000115 xml:lang="en">A bacterial meningitis that has_material_basis_in Neisseria meningitidis infection.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:A39.0</oboInOwl:hasDbXref>
@@ -448,7 +464,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0080179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9470"/>
         <obo:IAO_0000115 xml:lang="en">A bacterial meningitis that has_material_basis_in Haemophilus influenzae infection.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:G00.0</oboInOwl:hasDbXref>
@@ -478,8 +494,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0080600 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080600">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A Coronavirus infectious disease that is characterized by fever, cough and shortness of breath and that has_material_basis_in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A Coronavirus infectious disease that is characterized by fever, cough and shortness of breath and that has_material_basis_in SARS-CoV-2, a subtype of Betacoronavirus pandemicum.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:U07.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D000086382</oboInOwl:hasDbXref>
@@ -569,7 +585,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_10264 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10264">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_77"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in inflammation located in salivary gland, has_material_basis_in Mumps rubulavirus, which is transmitted by droplet spread of saliva or mucus from the mouth, nose, or throat of an infected person, or transmitted by contaminated fomites. The infection has symptom fever, has symptom headache, has symptom muscle aches, has symptom tiredness, has symptom loss of appetite, has symptom swollen and tender salivary glands under the ears or jaw on one or both sides of the face.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7116</oboInOwl:hasDbXref>
@@ -593,6 +610,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3856"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_48"/>
         <obo:IAO_0000115 xml:lang="en">A male reproductive organ cancer that is located_in the prostate.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:514</oboInOwl:hasAlternativeId>
@@ -640,8 +658,7 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
-        <rdfs:comment xml:lang="en">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label xml:lang="en">prostate cancer</rdfs:label>
     </owl:Class>
     
@@ -720,11 +737,39 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_10652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
+        <obo:IAO_0000115 xml:lang="en">A tauopathy that is characterized by memory lapses, confusion, emotional instability and progressive loss of mental ability and results in progressive memory loss, impaired thinking, disorientation, and changes in personality and mood starting and leads in advanced cases to a profound decline in cognitive and physical functioning and is marked histologically by the degeneration of brain neurons especially in the cerebral cortex and by the presence of neurofibrillary tangles and plaques containing beta-amyloid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:10254</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:G30</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:331.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05010</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2866</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:73768007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0002395</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Alzheimer disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Alzheimers dementia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:10652</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label xml:lang="en">Alzheimer&apos;s disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_10844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10844">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in brain, has_material_basis_in Japanese encephalitis virus, which is transmitted_by Culex tritaeniorhynchus mosquito bite. The infection has_symptom headache, has_symptom high fever, has_symptom neck stiffness, has_symptom stupor, has_symptom disorientation, has_symptom coma, has_symptom tremors, has_symptom convulsions, and has_symptom spastic paralysis.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in brain, has_material_basis_in Japanese encephalitis virus (Orthoflavivirus japonicum), which is transmitted_by Culex tritaeniorhynchus mosquito bite. The infection has_symptom headache, has_symptom high fever, has_symptom neck stiffness, has_symptom stupor, has_symptom disorientation, has_symptom coma, has_symptom tremors, has_symptom convulsions, and has_symptom spastic paralysis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:6797</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:A83.0</oboInOwl:hasDbXref>
@@ -818,7 +863,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_11077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
         <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that is caused by the bacteria of the genus Brucella, when humans come in contact with contaminated animals or animal products or ingestion of infected food products. The disease has_symptom fever, has_symptom sweat, has_symptom headache, has_symptom back pain, has_symptom physical weakness, has_symptom joint pain and has_symptom fatigue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:0050060</oboInOwl:hasAlternativeId>
@@ -843,6 +888,32 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#gram-negative_bacterial_infectious_disease"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
         <rdfs:label xml:lang="en">brucellosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
+        <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that is a zoonotic infectious disease affecting multiple organs, has_material_basis_in Coxiella burnetii, which is transmitted_by inhalation of air contaminated by barnyard dust containing dried placental material, birth fluids, or excreta of infected herd animals, transmitted_by ingestion of contaminated milk, transmitted_by tick bites and transmitted_by contact with infected person. The infection has_symptom fever, has_symptom headache, has_symptom cough, has_symptom pleuritic chest pain, has_symptom myalgia and has_symptom arthralgia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:7515</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:A78</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:083.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011778</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34970</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:266205000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0034362</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Infection due to Coxiella burnetii</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:11100</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#gram-negative_bacterial_infectious_disease"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
+        <rdfs:label xml:lang="en">Q fever</rdfs:label>
     </owl:Class>
     
 
@@ -874,7 +945,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_1116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1116">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
         <obo:IAO_0000115 xml:lang="en">A commensal bacterial infectious disease that results_in inflammation located_in respiratory tract, has_material_basis_in Bordetella pertussis, or has_material_basis_in Bordetella parapertussis, which produce toxins that paralyze the cilia of the respiratory epithelial cells. The infection is characterized by a prolonged, high-pitched, deeply indrawn breath (whoop).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:11333</oboInOwl:hasAlternativeId>
@@ -898,7 +969,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_11166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11166">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that has_material_basis_in human papillomaviruses, which establish productive infections only in the stratified epithelium of the skin or mucous membranes. These viruses cause warts and sometimes tumors. They are transmitted_by sexual contact.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D030361</oboInOwl:hasDbXref>
@@ -914,7 +985,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_11260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11260">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in inflammation located in brain or located in spinal cord, has_material_basis_in Rabies virus, which is transmitted by bite of an infected animal, or transmitted by contact of mucous membranes with saliva of an infected animal. The infection has symptom fever, has symptom headache, has symptom prickling or itching sensation at the site of bite, has symptom anxiety, has symptom confusion, has symptom agitation, has symptom delirium, has symptom difficulty swallowing, has symptom hydrophobia, and has symptom paralysis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7516</oboInOwl:hasDbXref>
@@ -939,7 +1010,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_11338 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11338">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
         <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that results in prolonged contraction of skeletal muscle fibers, has_material_basis_in Clostridium tetani, which produces tetanospasmin, a neurotoxin, which is carried to the brain and spinal cord, where it binds irreversibly to receptors inhibiting neurotransmission. Damaged upper motor neurons cannot control reflex responses to afferent sensory stimuli.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:5144</oboInOwl:hasDbXref>
@@ -965,7 +1036,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_11405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11405">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
         <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that is characterized by sore throat, low fever, and an adherent membrane (a pseudomembrane) on the tonsils, pharynx, and/or nasal cavity. A milder form of diphtheria can be restricted to the skin. It is caused by Corynebacterium diphtheriae, an aerobic Gram-positive bacterium. Diphtheria toxin spreads through the bloodstream and can lead to potentially life-threatening complications that affect other organs of the body, such as the heart and kidneys.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:4132</oboInOwl:hasAlternativeId>
@@ -984,11 +1055,47 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_11729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
+        <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that results_in infection, has_material_basis_in Borrelia burgdorferi, which is transmitted_by blacklegged tick (Ixodes scapularis) or transmitted_by western blacklegged tick (Ixodes pacificus). The infection has_symptom fever, has_symptom headache, has_symptom fatigue, and has_symptom skin rash called erythema migrans. If left untreated, infection can spread to joints, the heart, and the nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:12233</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GARD:12073</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:A69.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:088.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008193</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D020852</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C45161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154376000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:715507005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0024198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0752235</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Bannwarth syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Bannworth&apos;s syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Lyme borreliosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Neurological Lyme disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">lyme neuroboInOwlrreliosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">neuroboInOwlrreliosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:11729</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#gram-negative_bacterial_infectious_disease"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#tick-borne_infectious_disease"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
+        <rdfs:label xml:lang="en">Lyme disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_1192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_574"/>
         <obo:IAO_0000115 xml:lang="en">A nervous system cancer that is located in the peripheral nervous system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:3194</oboInOwl:hasAlternativeId>
@@ -1030,7 +1137,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:11934</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
@@ -1071,11 +1177,34 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_1205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
+        <obo:IAO_0000115 xml:lang="en">An immune system disease that is an exaggerated immune response to allergens, such as insect venom, dust mites, pollen, pet dander, drugs or some foods.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:OBI_9991118>allergic disease</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>ICD10CM:T78.40</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006967</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3114</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:257550005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0020517</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">allergic hypersensitivity disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hypersensitivity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hypersensitivity reaction type I disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1205</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">allergic disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_12205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12205">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection, has_material_basis_in Dengue virus [NCBITaxon:12637] with four serotypes (Dengue virus 1, 2, 3 and 4), which are transmitted by Aedes mosquito bite. The infection has symptom fever, has symptom severe headache, has symptom severe pain behind the eyes, has symptom joint pain, has symptom muscle and bone pain, has symptom rash, and has symptom mild bleeding.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection, has_material_basis_in Dengue virus (Orthoflavivirus denguei), which are transmitted by Aedes mosquito bite. The infection has symptom fever, has symptom severe headache, has symptom severe pain behind the eyes, has symptom joint pain, has symptom muscle and bone pain, has symptom rash, and has symptom mild bleeding.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:0050142</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GARD:6254</oboInOwl:hasDbXref>
@@ -1096,6 +1225,34 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
         <rdfs:label xml:lang="en">dengue disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1398"/>
+        <obo:IAO_0000115 xml:lang="en">A parasitic protozoa infectious disease characterized as a vector-borne infectious disease caused by the presence of protozoan parasites of the genus Plasmodium in the red blood cells, transmitted from an infected to an uninfected individual by the bite of anopheline mosquitoes, and characterized by periodic attacks of chills and fever that coincide with mass destruction of blood cells and the release of toxic substances by the parasite at the end of each reproductive cycle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:12552</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>EFO:0001068</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:6961</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:B54</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:084</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008288</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34797</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:673</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154374002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0024530</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">induced malaria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:12365</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">Xref MGI.</rdfs:comment>
+        <rdfs:label xml:lang="en">malaria</rdfs:label>
     </owl:Class>
     
 
@@ -1127,8 +1284,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_12549 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12549">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in liver, has_material_basis_in Hepatitis A virus, which is transmitted_by ingestion of contaminated food or water, or transmitted_by direct contact with an infected person. The infection has_symptom fever, has_symptom fatigue, has_symptom loss of appetite, has_symptom nausea, has_symptom vomiting, has_symptom abdominal pain, has_symptom clay-colored bowel movements, has_symptom joint pain, and has_symptom jaundice.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in liver, has_material_basis_in Hepatitis A virus (Hepatovirus ahepa), which is transmitted_by ingestion of contaminated food or water, or transmitted_by direct contact with an infected person. The infection has_symptom fever, has_symptom fatigue, has_symptom loss of appetite, has_symptom nausea, has_symptom vomiting, has_symptom abdominal pain, has_symptom clay-colored bowel movements, has_symptom joint pain, and has_symptom jaundice.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:12547</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>MESH:D006506</oboInOwl:hasDbXref>
@@ -1149,7 +1306,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_1273 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1273">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in upper respiratory tract or located_in lower respiratory tract, has_material_basis_in Human respiratory syncytial virus, which is transmitted_by droplet spread of nasal secretions from an infected person while coughing or sneezing, or transmitted_by contaminated fomites. The infection has_symptom runny nose, has_symptom fever, has_symptom cough, has_symptom wheezing, and has_symptom respiratory distress.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D018357</oboInOwl:hasDbXref>
@@ -1228,7 +1385,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050615"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
         <obo:IAO_0000115 xml:lang="en">A respiratory system cancer that is located_in the lung.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:13075</oboInOwl:hasAlternativeId>
@@ -1268,7 +1425,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_13258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13258">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
         <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that is a communicable systemic illness, has_material_basis_in Salmonella enterica subsp enterica serovar Typhi, which is transmitted_by ingestion of food or water contaminated with the feces of an infected person. The infection has_symptom fever, has_symptom diarrhea, has_symptom prostration, has_symptom headache, has_symptom splenomegaly, has_symptom liver enlargement, has_symptom eruption of rose-colored spots, and has_symptom leukopenia.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:3054</oboInOwl:hasAlternativeId>
@@ -1291,10 +1448,46 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_1398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <obo:IAO_0000115 xml:lang="en">A disease by infectious agent that is carried out by a parasite which by definition is a pathogen that simultaneously injures and derives sustenance from its host.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:11681</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:13509</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1396</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1494</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2114</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2293</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2922</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:3564</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:4191</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:886</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:948</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9639</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9644</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:H44.12</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:360.13</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34587</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:57100005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0014238</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ectoparasitic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">parasitemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1398</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">parasitic infectious disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_14067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
         <obo:IAO_0000115 xml:lang="en">A malaria described as a severe form of the disease caused by a parasite Plasmodium falciparum, which is marked by irrregular recurrence of paroxysms and prolonged or continuous fever.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:B50</oboInOwl:hasDbXref>
@@ -1378,7 +1571,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_1498 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1498">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
         <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that is described as an acute, diarrheal illness caused by infection of the intestine with the bacterium Vibrio cholerae, which is characterized by profuse watery diarrhea, vomiting, leg cramps, circulatory collapse and shock.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:6043</oboInOwl:hasDbXref>
@@ -1468,12 +1661,45 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_1586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <obo:IAO_0000115 xml:lang="en">A connective tissue disease that develops from an antecedent Group A Streptococcal pharyngeal infection and has_symptom carditis, has_symptom polyarthritis, has_symptom chorea, has_symptom erythema marginatum, has_symptom subcutaneous nodules, has_symptom arthralgia, has_symptom prolonged PR interval, and/or has_symptom fever.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:1006</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1007</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GARD:5699</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I00</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I00-I02</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:390</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:390-392.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012213</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34984</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:155265007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:274095001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0035436</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0264743</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">ACUTE RHEUMATIC FEVER</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">RhF - Rheumatic fever</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1586</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#gram-positive_bacterial_infectious_disease"/>
+        <rdfs:label xml:lang="en">rheumatic fever</rdfs:label>
+        <skos:exactMatch>MESH:D012213</skos:exactMatch>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_1612 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1612">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060118"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5093"/>
-        <obo:IAO_0000115 xml:lang="en">A thoracic cancer that originates in the mammary gland.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+        <obo:IAO_0000115 xml:lang="en">An organ system cancer that originates in the mammary gland.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:1648</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:4241</oboInOwl:hasAlternativeId>
@@ -1497,8 +1723,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
-        <rdfs:comment xml:lang="en">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label xml:lang="en">breast cancer</rdfs:label>
     </owl:Class>
     
@@ -1687,8 +1912,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_201"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_65"/>
         <obo:IAO_0000115 xml:lang="en">A connective tissue cancer that is located_in bone and is characterized by uncontrolled cellular proliferation that destroys normal bone tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:3348</oboInOwl:hasAlternativeId>
@@ -1758,6 +1983,28 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:id>DOID:193</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">reproductive organ cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1936">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0003914</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I70</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:440</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D050197</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C35768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:155414001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0004153</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1936</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">atherosclerosis</rdfs:label>
+        <skos:exactMatch>MESH:D050197</skos:exactMatch>
     </owl:Class>
     
 
@@ -1856,8 +2103,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_2043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in liver, has_material_basis_in Hepatitis B virus, which is transmitted_by sexual contact, blood transfusions, or fomites like needles or syringes. The infection has_symptom fever, fatigue, loss of appetite, nausea, vomiting, abdominal pain, clay-colored bowel movements, joint pain, and jaundice.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in liver, has_material_basis_in Hepatitis B virus (Orthohepadnavirus hominoidei), which is transmitted_by sexual contact, blood transfusions, or fomites like needles or syringes. The infection has_symptom fever, fatigue, loss of appetite, nausea, vomiting, abdominal pain, clay-colored bowel movements, joint pain, and jaundice.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:12591</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:12592</oboInOwl:hasAlternativeId>
@@ -1876,6 +2123,28 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#sexually_transmitted_infectious_disease"/>
         <rdfs:label xml:lang="en">hepatitis B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
+        <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that has_material_basis_in Francisella tularensis, which is transmitted by dog tick bite (Dermacentor variabilis), transmitted by deer flies (Chrysops sp) or transmitted by contact with infected animal tissues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:396</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:021.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186298002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0029835</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:2123</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#gram-negative_bacterial_infectious_disease"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#tick-borne_infectious_disease"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
+        <rdfs:label xml:lang="en">tularemia</rdfs:label>
     </owl:Class>
     
 
@@ -1961,8 +2230,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
-        <rdfs:comment xml:lang="en">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label xml:lang="en">ovarian cancer</rdfs:label>
     </owl:Class>
     
@@ -2289,8 +2557,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection of primates, rodents and humans, located in skin, has_material_basis_in Monkeypox virus, which is transmitted by contact with the animal&apos;s blood, body fluids, rash, or with the body fluids of a sick person, transmitted by fomites, and transmitted by respiratory droplets. The infection has symptom fever, has symptom muscle ache, has symptom headache, and has symptom lymphadenopathy.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection of primates, rodents and humans, located in skin, has_material_basis_in Monkeypox virus (Orthopoxvirus monkeypox), which is transmitted by contact with the animal&apos;s blood, body fluids, rash, or with the body fluids of a sick person, transmitted by fomites, and transmitted by respiratory droplets. The infection has symptom fever, has symptom muscle ache, has symptom headache, and has symptom lymphadenopathy.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:10722</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:B04</oboInOwl:hasDbXref>
@@ -2308,6 +2576,28 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
         <rdfs:comment xml:lang="en">November 2022 WHO name update.</rdfs:comment>
         <rdfs:label xml:lang="en">mpox</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <obo:IAO_0000115 xml:lang="en">A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:G96.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002493</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2934</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:267144009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007682</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:331</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">central nervous system disease</rdfs:label>
     </owl:Class>
     
 
@@ -2477,7 +2767,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3620">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3093"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
         <obo:IAO_0000115 xml:lang="en">A nervous system cancer that is located_in the central nervous system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:0060093</oboInOwl:hasAlternativeId>
@@ -2564,8 +2854,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3856 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3856">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_15"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_193"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_48"/>
         <obo:IAO_0000115 xml:lang="en">A reproductive organ cancer that is manifested in the male genital system. This includes organs such as the penis and scrotum.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:10284</oboInOwl:hasAlternativeId>
@@ -2646,7 +2936,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_399 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_399">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
         <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that is located_in lungs, located_in lymph nodes, located_in pericardium, located_in brain, located_in pleura or located_in gastrointestinal tract, has_material_basis_in Mycobacterium tuberculosis, which is transmitted_by droplets released into the air when an infected person coughs or sneezes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:10096</oboInOwl:hasAlternativeId>
@@ -2707,11 +2997,31 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
+        <obo:IAO_0000115 xml:lang="en">An immune system disease that is an overactive immune response of the body against substances and tissues normally present in the body resulting from an abnormal functioning of the immune system that results in the production of antibodies or T cell directed against the host tissues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:OBI_9991118>autoimmune disease</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>ICD9CM:720</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:109100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0003089</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">autoimmune hypersensitivity disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hypersensitivity reaction type II disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:417</oboInOwl:id>
+        <rdfs:comment xml:lang="en">Xref MGI.</rdfs:comment>
+        <rdfs:label xml:lang="en">autoimmune disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_4325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d&apos;Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted by contaminated fomites, or transmitted by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Bundibugyo virus (Orthoebolavirus bundibugyoense), Sudan ebolavirus (Orthoebolavirus sudanense), Tai Forest ebolavirus (Orthoebolavirus taiense), or Zaire ebolavirus (Orthoebolavirus zairense), which are transmitted_by contact with the body fluids of an infected animal or person, transmitted by contaminated fomites, or transmitted by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:2035</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:A98.4</oboInOwl:hasDbXref>
@@ -2719,14 +3029,16 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref>NCI:C36171</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:123323003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0282687</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">Ebola virus disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ebola</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ebola disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Ebola hemorrhagic fever</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:4325</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
-        <rdfs:label xml:lang="en">Ebola hemorrhagic fever</rdfs:label>
+        <rdfs:label xml:lang="en">Ebola virus disease</rdfs:label>
     </owl:Class>
     
 
@@ -2790,6 +3102,24 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
         <rdfs:label xml:lang="en">bile duct cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_48 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_48">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_15"/>
+        <obo:IAO_0000115 xml:lang="en">A reproductive system disease that affects male reproductive organs.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:N50.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:608.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D005832</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:64557000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0017412</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:48</oboInOwl:id>
+        <rdfs:label xml:lang="en">male reproductive system disease</rdfs:label>
     </owl:Class>
     
 
@@ -2862,7 +3192,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_4953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4953">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_574"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in destruction located in motor neurons, has_material_basis_in Human poliovirus 1, has_material_basis_in Human poliovirus 2, or has_material_basis_in Human poliovirus 3, which are transmitted by ingestion of food or water contaminated with feces, or transmitted by direct contact with the oral secretions. The infection has symptom fever, has symptom sore throat, has symptom headache, has symptom vomiting, has symptom fatigue, has symptom neck stiffness, has symptom muscle spasms, and has symptom acute flaccid paralysis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7413</oboInOwl:hasDbXref>
@@ -2969,35 +3300,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
         <rdfs:label xml:lang="en">esophageal cancer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_5093 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060118"/>
-        <obo:IAO_0000115 xml:lang="en">An organ system cancer located_in the thoracic cavity that develops in the different types of cells within the lungs, as well as less common cancers of the esophagus, the trachea, or the chest wall.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:hasAlternativeId>DOID:3937</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref>ICD10CM:C76.1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9CM:195.1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D013899</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCI:C3406</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCI:C3576</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:188361007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:255058005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS_CUI:C0039981</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS_CUI:C0153661</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">Thoracic tumor</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">thorax cancer</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">thorax neoplasm</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">tumor of thorax</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>DOID:5093</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <rdfs:label xml:lang="en">thoracic cancer</rdfs:label>
     </owl:Class>
     
 
@@ -3120,6 +3422,56 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:comment xml:lang="en">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label xml:lang="en">head and neck squamous cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <obo:IAO_0000115 xml:lang="en">A nervous system disease that affects the peripheral nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:13069</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>NCI:C119734</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C27587</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0031117</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1335029</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">peripheral nerve disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">peripheral neuropathy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:574</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">peripheral nervous system disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_526"/>
+        <obo:IAO_0000115 xml:lang="en">A Human immunodeficiency virus infectious disease that results_in reduction in the numbers of CD4-bearing helper T cells below 200 per microliter of blood or 14% of all lymphocytes thereby rendering the subject highly vulnerable to life-threatening infections and cancers, has_material_basis_in Human immunodeficiency virus 1 or has_material_basis_in Human immunodeficiency virus 2, which are transmitted_by sexual contact, transmitted_by transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted_by congenital method, and transmitted_by contaminated needles. Opportunistic infections are common in people with AIDS.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0000765</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:B20</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000163</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2851</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:62479008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0001175</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">AIDS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acquired Immune deficiency</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">acquired immune deficiency syndrome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:635</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
+        <rdfs:label xml:lang="en">acquired immunodeficiency syndrome</rdfs:label>
+        <skos:exactMatch>MESH:D000163</skos:exactMatch>
     </owl:Class>
     
 
@@ -3287,7 +3639,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_7427 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7427">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
         <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease that results_in infection located_in skin, located_in lung lymph nodes or located_in gastrointestinal tract, has_material_basis_in Bacillus anthracis, transmitted_by contact with infected animals or animal products, transmitted_by airborne spores or transmitted_by ingestion of undercooked meat from infected animals and has_symptom skin ulcer, has_symptom nausea, has_symptom poor appetite, has_symptom bloody diarrhea, has_symptom fever or has_symptom shortness of breath.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:8157</oboInOwl:hasDbXref>
@@ -3326,10 +3678,10 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:769</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_childhood_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <rdfs:comment xml:lang="en">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label xml:lang="en">neuroblastoma</rdfs:label>
     </owl:Class>
     
@@ -3368,10 +3720,9 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_8469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8469">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection, located in respiratory tract, has_material_basis_in Influenzavirus A, has_material_basis_in Influenzavirus B, or has_material_basis_in Influenzavirus C, which are transmitted_by droplet spread of oronasal secretions during coughing, sneezing, or talking from an infected person. It is a highly contagious disease that affects birds and mammals and has_symptom chills, has_symptom fever, has_symptom sore throat, has_symptom runny nose, has_symptom muscle pains, has_symptom severe headache, has_symptom cough, and has_symptom weakness.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection, located in respiratory tract, has_material_basis_in Influenzavirus A (Alphainfluenzavirus), has_material_basis_in Influenzavirus B (Betainfluenzavirus), or has_material_basis_in Influenzavirus C (Gammainfluenzavirus), which are transmitted_by droplet spread of oronasal secretions during coughing, sneezing, or talking from an infected person. It is a highly contagious disease that affects birds and mammals and has_symptom chills, has_symptom fever, has_symptom sore throat, has_symptom runny nose, has_symptom muscle pains, has_symptom severe headache, has_symptom cough, and has_symptom weakness.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:8468</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICD10CM:J11.1</oboInOwl:hasDbXref>
@@ -3392,10 +3743,57 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
+        <obo:IAO_0000115 xml:lang="en">A bone inflammation disease that involves a response to irritation or injury, characterized by joint pain, swelling, stiffness located_in joint.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:M19.90</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001168</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2883</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:372091005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0003864</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Inflammatory disorder of joint</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:848</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">arthritis</rdfs:label>
+        <skos:exactMatch>MESH:D001168</skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_850">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
+        <obo:IAO_0000115 xml:lang="en">A lower respiratory tract disease in which the function of the lungs is adversely affected by narrowing or blockage of the airways resulting in poor air flow, a loss of elasticity in the lungs that produces a decrease in the total volume of air that the lungs are able to hold, and clotting, scarring, or inflammation of the blood vessels that affect the ability of the lungs to take up oxygen and to release carbon dioxide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:11894</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:11895</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:29</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:766</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:J98.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008171</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:266374002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0024115</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:850</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">Updating out dated CUI and removing lung abscess as a synonym.</rdfs:comment>
+        <rdfs:label xml:lang="en">lung disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_8536 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8536">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in nerve fiber, has_material_basis_in Human herpesvirus 3, which reactivates after appearing as chickenpox in childhood. The virus is transmitted_by direct contact with the rash, which can develop into chickenpox in newly-infected individuals. The infection has_symptom rash which is followed by blisters, has_symptom headache, has_symptom fever, has_symptom malaise, has_symptom itching, has_symptom burning pain, and has_symptom paresthesia.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:8554</oboInOwl:hasAlternativeId>
@@ -3463,7 +3861,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_8622 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8622">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in skin, has_material_basis_in Measles virus, which is transmitted_by contact with oronasal secretions, or semen of an infected person. The infection has_symptom fever, has_symptom cough, has_symptom coryza, has_symptom conjunctivitis, and has_symptom maculopapular, erythematous rash.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:8621</oboInOwl:hasAlternativeId>
@@ -3513,7 +3911,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_8659 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8659">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in skin, has_material_basis_in Human herpesvirus 3, which is transmitted_by direct contact with secretions from the rash, or transmitted_by droplet spread of respiratory secretions. The infection has_symptom anorexia, has_symptom myalgia, has_symptom nausea, has_symptom fever, has_symptom headache, has_symptom sore throat, and has_symptom blisters.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:8658</oboInOwl:hasAlternativeId>
@@ -3539,8 +3937,9 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_8736 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8736">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection located in skin, has_material_basis_in Variola virus, which is transmitted by droplets from oral, nasal or pharyngeal mucosa, transmitted by contact with the body fluids, or transmitted by fomites. The infection results in formation of lesions, first on the face, hands and forearms and later on the trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection located in skin, has_material_basis_in Variola virus (Orthopoxvirus variola), which is transmitted by droplets from oral, nasal or pharyngeal mucosa, transmitted by contact with the body fluids, or transmitted by fomites. The infection results in formation of lesions, first on the face, hands and forearms and later on the trunk.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7444</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:B03</oboInOwl:hasDbXref>
@@ -3560,11 +3959,37 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_874">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
+        <obo:IAO_0000115 xml:lang="en">A pneumonia involving inflammation of the lungs caused by bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:13815</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:J15.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:482.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D018410</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C26704</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:53084003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0004626</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Pneumonia due to other gram-negative bacteria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">gram-negative pneumonia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:874</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#GOLD"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">bacterial pneumonia</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_8781 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8781">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in skin, has_material_basis_in Rubella virus, which is transmitted_by droplet spread of oronasal secretions from the infected person through coughing and sneezing, and transmitted_by congenital method. The infection has_symptom rash on the face which spreads to the trunk and limbs, has_symptom fever, has_symptom lymphadenopathy, has_symptom joint pains, has_symptom headache, and has_symptom conjunctivitis.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in skin, has_material_basis_in Rubella virus (Rubivirus rubellae), which is transmitted_by droplet spread of oronasal secretions from the infected person through coughing and sneezing, and transmitted_by congenital method. The infection has_symptom rash on the face which spreads to the trunk and limbs, has_symptom fever, has_symptom lymphadenopathy, has_symptom joint pains, has_symptom headache, and has_symptom conjunctivitis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:11765</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:1463</oboInOwl:hasAlternativeId>
@@ -3598,6 +4023,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4953"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_574"/>
         <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in facial nerve, which leads to paralysis of one side of the face, has_material_basis_in Human herpesvirus 3, which reactivates after appearing as chickenpox in childhood. The infection has_symptom vesicular rash of the ear or mouth, has_symptom tinnitus, has_symptom vertigo, has_symptom otalgia, and has_symptom headache.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7525</oboInOwl:hasDbXref>
@@ -3648,8 +4074,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <rdfs:comment xml:lang="en">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label xml:lang="en">colorectal cancer</rdfs:label>
     </owl:Class>
     
@@ -3708,8 +4133,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <rdfs:comment xml:lang="en">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label xml:lang="en">nasopharynx carcinoma</rdfs:label>
     </owl:Class>
     
@@ -3747,6 +4171,52 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_9351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000115 xml:lang="en">A glucose metabolism disease that is characterized by chronic hyperglycaemia with disturbances of carbohydrate, fat and protein metabolism resulting from defects in insulin secretion, insulin action, or both.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:0081062</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:E08-E13</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:250</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003920</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2985</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:267467004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0011849</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9351</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">diabetes mellitus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
+        <obo:IAO_0000115 xml:lang="en">A meningitis that has_material_basis_in a bacterial infection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:5881</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:G00</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:320</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D016920</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C118297</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:267680008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0085437</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9470</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">bacterial meningitis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_9538 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9538">
@@ -3779,8 +4249,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_9682 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9682">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection, has_material_basis_in Yellow fever virus, which is transmitted by Aedes, transmitted by Haemagogus, or transmitted by Sabethes species of mosquitoes. The infection has symptom fever, has symptom muscle pain, has symptom backache, has symptom headache, has symptom shivers, has symptom loss of appetite, has symptom jaundice, and has symptom bleeding from the mouth, nose, eyes or stomach leading to vomitus containing blood.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in infection, has_material_basis_in Yellow fever virus (Orthoflavivirus flavi), which is transmitted by Aedes, transmitted by Haemagogus, or transmitted by Sabethes species of mosquitoes. The infection has symptom fever, has symptom muscle pain, has symptom backache, has symptom headache, has symptom shivers, has symptom loss of appetite, has symptom jaundice, and has symptom bleeding from the mouth, nose, eyes or stomach leading to vomitus containing blood.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:9683</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:9684</oboInOwl:hasAlternativeId>
