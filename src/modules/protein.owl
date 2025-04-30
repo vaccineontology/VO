@@ -384,7 +384,7 @@
         <obo:IAO_0000115>A Cp12 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <oboInOwl:inSubset>protein</oboInOwl:inSubset>
-        <rdfs:label>Crptosporidium parvum Cp12</rdfs:label>
+        <rdfs:label>Cp12 from Crptosporidium parvum</rdfs:label>
     </owl:Class>
     
 
@@ -402,7 +402,7 @@
         <obo:IAO_0000115>A Cp21 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <oboInOwl:inSubset>protein</oboInOwl:inSubset>
-        <rdfs:label>Crptosporidium parvum Cp21</rdfs:label>
+        <rdfs:label>Cp21 from Crptosporidium parvum</rdfs:label>
     </owl:Class>
     
 
@@ -420,7 +420,7 @@
         <obo:IAO_0000115>A Cp15 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <oboInOwl:inSubset>protein</oboInOwl:inSubset>
-        <rdfs:label>Crptosporidium parvum Cp15</rdfs:label>
+        <rdfs:label>Cp15 from Crptosporidium parvum</rdfs:label>
     </owl:Class>
     
 
@@ -438,25 +438,7 @@
         <obo:IAO_0000115>A CP60 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <oboInOwl:inSubset>protein</oboInOwl:inSubset>
-        <rdfs:label>Crptosporidium parvum CP60</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010842"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A Cp23 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
-        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
-        <oboInOwl:inSubset>protein</oboInOwl:inSubset>
-        <rdfs:label>Crptosporidium parvum Cp23</rdfs:label>
+        <rdfs:label>Cp60 from Crptosporidium parvum</rdfs:label>
     </owl:Class>
     
 
@@ -474,7 +456,7 @@
         <obo:IAO_0000115>A CpP2 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
         <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <oboInOwl:inSubset>protein</oboInOwl:inSubset>
-        <rdfs:label>Crptosporidium parvum CpP2</rdfs:label>
+        <rdfs:label>CpP2 from Crptosporidium parvum</rdfs:label>
     </owl:Class>
     
 
@@ -13417,11 +13399,13 @@ Note:  The 6K protein is part of the 6K-E1 structural protein</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000457"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A Cp23 protein that is part of Crptosporidium parvum</obo:IAO_0000115>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>protein</oboInOwl:inSubset>
         <rdfs:comment>In this study, Cp23 antigen was investigated as a vaccine candidate using the DNA vaccine model in adult interleukin-12 (IL-12) knockout (KO) mice, which are susceptible to C. parvum infection.  Cp23-DNA vaccination induced a 50-60% reduction in oocysts shedding, indicating a partial protection against C. parvum infection in IL-12 KO mice [PubMed: 17487508].</rdfs:comment>
-        <rdfs:label>CP23</rdfs:label>
+        <rdfs:label>Cp23 from Crptosporidium parvum</rdfs:label>
         <rdfs:seeAlso>Protegen ID: 776; NCBI Protein GI: 88659549; NCBITaxon: 5807</rdfs:seeAlso>
     </owl:Class>
     
