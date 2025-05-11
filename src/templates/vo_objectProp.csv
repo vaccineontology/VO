@@ -59,10 +59,6 @@ VO:0015007,has drug dose form,Object property,,,,Jie Zheng,,,,,drug form
 VO:0015018,has drug package,Object property,,,,Jie Zheng,,,,,drug package
 VO:0015021,has drug supplier,Object property,,,,Jie Zheng,,,,,organization
 VO:0010396,has flu season,Object property,,,,Jie Zheng|Xingxian Li|Ellen Zhang,,,,,flu season
-VO:0000350,has vaccine organism with quality,Object property,,,"A shortcut relation that is equivalent to:
-('vaccine') and ('has component' some ('vaccine organism' and 'has quality' some 'organismal quality').
-The domain of this relation is a vaccine.
-The range of this relation is a organismal quality.",Jie Zheng|Oliver He,,,vaccine,organismal quality,
 VO:0003390,test in lab animal model,Object property,,,"A shortcut relation that is equivalent to:
 ('vaccine' and 'has function' some ('vaccine function' and ('is realized by' some ('vaccine immunization' and 'has participant' some ('organism' and 'has role' some 'laboratory animal model role'))))).
 The domain of this relation is a vaccine.
