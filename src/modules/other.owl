@@ -977,6 +977,18 @@ Ref: Hadler TC, et al. Immunization in developing countries. In: Vaccines. Edito
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>Vaccine role that is characteristic of a live virulent vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>live virulent vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000368">
@@ -2896,6 +2908,30 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>authorized vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>Vaccine role that is characteristic of an inactivated vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>inactivated vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000615"/>
+        <obo:IAO_0000115>Vaccine role that is characteristic of a live attenuated vaccine. </obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>role</oboInOwl:inSubset>
+        <rdfs:label>live attenuated vaccine role</rdfs:label>
     </owl:Class>
     
 

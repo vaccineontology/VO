@@ -130,22 +130,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000350 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000350">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
-        <obo:IAO_0000115>A shortcut relation that is equivalent to:
-(&apos;vaccine&apos;) and (&apos;has component&apos; some (&apos;vaccine organism&apos; and &apos;has quality&apos; some &apos;organismal quality&apos;).
-The domain of this relation is a vaccine.
-The range of this relation is a organismal quality.</obo:IAO_0000115>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <rdfs:label>has vaccine organism with quality</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000369 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000369">
@@ -674,12 +658,6 @@ The range of this relation is a organism.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995"/>
     
 
 
