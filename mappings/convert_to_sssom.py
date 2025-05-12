@@ -144,8 +144,8 @@ def fix_usda():
             "LABEL in VO": "subject_label",
         }
     )
-    usda_prefix = "usda:"  # FIXME, not registered in Bioregistry
-    usda_uri_prefix = "???:"
+    usda_prefix = "usda.cvb.pcn:"
+    usda_uri_prefix = "https://bioregistry.io/usda.cvb.pcn:"
     df["object_id"] = df["USDA Code"].map(
         lambda s: usda_prefix + s.removeprefix("USDA: ")
     )
