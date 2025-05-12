@@ -2,8 +2,9 @@
 #mapping_set_title: Vaccine Ontology to USDA Vaccine Mappings
 #license: https://creativecommons.org/licenses/by/4.0/
 #curie_map:
-#  VO: http://purl.obolibrary.org/obo/VO_
-#  usda.cvb.pcn:: https://bioregistry.io/usda.cvb.pcn:
+#  VO: 'http://purl.obolibrary.org/obo/VO_'
+#  oboInOwl: 'http://www.geneontology.org/formats/oboInOwl#'
+#  usda.cvb.pcn: 'https://bioregistry.io/usda.cvb.pcn:'
 subject_id	subject_label	object_id	predicate_id	mapping_justification
 VO:0001530	Canary Pox Modified Live Virus Vaccine (USDA: 1623.10)	usda.cvb.pcn:1623.10	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0001531	Pigeon Pox Live Virus Vaccine (USDA: 1881.10)	usda.cvb.pcn:1881.10	oboInOwl:hasDbXref	semapv:UnspecifiedMatching

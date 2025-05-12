@@ -2,8 +2,9 @@
 #mapping_set_title: Vaccine Ontology to OMOP Mappings
 #license: https://creativecommons.org/licenses/by/4.0/
 #curie_map:
-#  VO: http://purl.obolibrary.org/obo/VO_
-#  omop: http://api.ohdsi.org/WebAPI/vocabulary/concept/
+#  VO: 'http://purl.obolibrary.org/obo/VO_'
+#  oboInOwl: 'http://www.geneontology.org/formats/oboInOwl#'
+#  omop: 'http://api.ohdsi.org/WebAPI/vocabulary/concept/'
 subject_id	subject_label	object_id	predicate_id	mapping_justification
 VO:0000096	Adenovirus Type 4 and Type 7 Vaccine, Live, Oral	omop:40213264	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0000152	Francisella tularensis vaccine	omop:40213241	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
@@ -5657,7 +5658,6 @@ VO:0020405	1 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.025 MG/M
 VO:0020406	1 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.025 MG/ML Injectable Suspension [Hepatyrix] Box of 20	omop:43806382	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020407	1 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.025 MG/ML Injectable Suspension [Hepatyrix] Box of 50	omop:43770504	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020408	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix]	omop:43684255	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020410	0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI]	omop:36938486|43791865	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020411	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typherix]	omop:43142846	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020412	1 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.025 MG/ML Injectable Suspension Box of 10	omop:43734585	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020413	1 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.025 MG/ML Injectable Suspension Box of 20	omop:43770501	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
@@ -5667,8 +5667,6 @@ VO:0020416	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Inje
 VO:0020417	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 10	omop:43606935	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020418	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 100	omop:43804816	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020419	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 50	omop:43643090	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020421	typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1	omop:36921202|40749997	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020423	typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10	omop:36947181|40749996	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020424	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typherix] Box of 1	omop:43171357	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020425	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typhim VI] Box of 1	omop:43204309	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020426	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution Box of 1	omop:35412892	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
@@ -5677,8 +5675,6 @@ VO:0020428	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Inje
 VO:0020429	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution Box of 50	omop:43606934	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020430	Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe Box of 1	omop:43171356	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020431	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] by Glaxosmithkline	omop:43738118	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020433	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] by Sanofi	omop:43594110|36934225	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020435	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] by Waymade	omop:40719395|36952652	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020436	1 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.025 MG/ML Injectable Suspension [Hepatyrix] Box of 10 by Glaxosmithkline	omop:43698680	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020437	1 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.025 MG/ML Injectable Suspension [Hepatyrix] Box of 20 by Glaxosmithkline	omop:43734586	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020438	1 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.025 MG/ML Injectable Suspension [Hepatyrix] Box of 50 by Glaxosmithkline	omop:43734587	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
@@ -5687,8 +5683,6 @@ VO:0020440	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/
 VO:0020441	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 10	omop:43756055	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020442	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 100	omop:43666373	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020443	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 50	omop:43594111	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020444	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1	omop:40719394|36934151	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020447	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10	omop:40719391|36929118	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020448	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typherix] Box of 1	omop:43208808	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020449	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typhim VI] Box of 1	omop:43219808	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020450	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution Box of 1	omop:35414617	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
@@ -5700,10 +5694,6 @@ VO:0020455	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/
 VO:0020456	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 10 by Glaxosmithkline	omop:43666372	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020457	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 100 by Glaxosmithkline	omop:43810029	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020458	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typherix] Box of 50 by Glaxosmithkline	omop:43612076	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020460	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1 by Sanofi	omop:40719393|36932240	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020462	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 1 by Waymade	omop:40719392|36941731	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020464	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10 by Sanofi	omop:40719390|36963560	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
-VO:0020466	0.5 ML typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution [Typhim VI] Box of 10 by Waymade	omop:36967490|40719389	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020467	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typherix] Box of 1 by Glaxosmithkline	omop:43186914	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020468	0.5 ML Typhoid Vi Polysaccharide Vaccine, S typhi Ty2 strain 0.05 MG/ML Prefilled Syringe [Typhim VI] Box of 1 by Sanofi	omop:43153982	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0020469	typhoid Vi polysaccharide vaccine, S typhi Ty2 strain 0.05 MG/ML Injectable Solution	omop:19132273	oboInOwl:hasDbXref	semapv:UnspecifiedMatching

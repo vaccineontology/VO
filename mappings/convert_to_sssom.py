@@ -1,6 +1,8 @@
 from pathlib import Path
 import pandas as pd
 
+from collections import ChainMap
+
 HERE = Path(__file__).parent.resolve()
 
 COLUMNS = [
@@ -11,6 +13,11 @@ COLUMNS = [
     "predicate_id",
     "mapping_justification",
 ]
+
+DEFAULT_PREFIX_MAP = {
+    "VO": "http://purl.obolibrary.org/obo/VO_",
+    "oboInOwl": "http://www.geneontology.org/formats/oboInOwl#",
+}
 
 
 def write_sssom(
@@ -26,8 +33,8 @@ def write_sssom(
         print(f"#mapping_set_title: {mapping_set_title}", file=file)
         print("#license: https://creativecommons.org/licenses/by/4.0/", file=file)
         print("#curie_map:", file=file)
-        for k, v in sorted(prefix_map.items()):
-            print(f"#  {k}: {v}", file=file)
+        for k, v in sorted(ChainMap(DEFAULT_PREFIX_MAP, prefix_map).items()):
+            print(f"#  {k}: '{v}'", file=file)
         df.to_csv(file, sep="\t", index=False)
 
 
@@ -54,7 +61,6 @@ def fix_cvx():
     _add_object_prefixes(df, "CVX Code", "cvx")
     del df["CVX Short Description"]
     pm = {
-        "VO": "http://purl.obolibrary.org/obo/VO_",
         "cvx": "https://biopragmatics.github.io/providers/cvx/",
     }
     write_sssom(
@@ -65,7 +71,7 @@ def fix_cvx():
     )
 
 
-def fix_fda():
+def fix_fda_stn():
     df = pd.read_csv(HERE.joinpath("VO_FDA.csv"), dtype=str)
     df = df.rename(
         columns={
@@ -75,8 +81,8 @@ def fix_fda():
     )
     _add_sssom_boilerplate(df)
     _add_object_prefixes(df, "FDA STN#", "stn")
+    df["object_id"] = df["object_id"].map(lambda s: s.replace(" ", ""))
     pm = {
-        "VO": "http://purl.obolibrary.org/obo/VO_",
         "stn": "https://bioregistry.io/stn:",
     }
     write_sssom(
@@ -97,8 +103,9 @@ def fix_omop():
     )
     _add_sssom_boilerplate(df)
     _add_object_prefixes(df, "OMOP concept ID", "omop")
+    # remove malformed mappings
+    df = df[df["object_id"].map(lambda s: "|" not in s)]
     pm = {
-        "VO": "http://purl.obolibrary.org/obo/VO_",
         "omop": "http://api.ohdsi.org/WebAPI/vocabulary/concept/",
     }
     write_sssom(
@@ -121,7 +128,6 @@ def fix_rxnorm():
     _add_sssom_boilerplate(df)
     _add_object_prefixes(df, "RxNorm ID", "rxnorm")
     pm = {
-        "VO": "http://purl.obolibrary.org/obo/VO_",
         "rxnorm": "http://purl.bioontology.org/ontology/RXNORM/",  # TODO check
     }
     write_sssom(
@@ -144,14 +150,13 @@ def fix_usda():
             "LABEL in VO": "subject_label",
         }
     )
-    usda_prefix = "usda.cvb.pcn:"
+    usda_prefix = "usda.cvb.pcn"
     usda_uri_prefix = "https://bioregistry.io/usda.cvb.pcn:"
     df["object_id"] = df["USDA Code"].map(
-        lambda s: usda_prefix + s.removeprefix("USDA: ")
+        lambda s: usda_prefix + ":" + s.removeprefix("USDA: ")
     )
     _add_sssom_boilerplate(df)
     pm = {
-        "VO": "http://purl.obolibrary.org/obo/VO_",
         usda_prefix: usda_uri_prefix,
     }
     write_sssom(
@@ -173,8 +178,7 @@ def fix_vac():
     _add_sssom_boilerplate(df)
     _add_object_prefixes(df, "VAC ID", "vac")
     pm = {
-        "VO": "http://purl.obolibrary.org/obo/VO_",
-        "vax": "https://vac.niaid.nih.gov/view?id=",
+        "vac": "https://vac.niaid.nih.gov/view?id=",
     }
     write_sssom(
         df,
@@ -186,7 +190,7 @@ def fix_vac():
 
 if __name__ == "__main__":
     fix_cvx()
-    fix_fda()
+    fix_fda_stn()
     fix_omop()
     fix_rxnorm()
     fix_rxnorm_extension()

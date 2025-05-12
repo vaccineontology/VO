@@ -2,8 +2,9 @@
 #mapping_set_title: Vaccine Ontology to RxNorm Mappings
 #license: https://creativecommons.org/licenses/by/4.0/
 #curie_map:
-#  VO: http://purl.obolibrary.org/obo/VO_
-#  rxnorm: http://purl.bioontology.org/ontology/RXNORM/
+#  VO: 'http://purl.obolibrary.org/obo/VO_'
+#  oboInOwl: 'http://www.geneontology.org/formats/oboInOwl#'
+#  rxnorm: 'http://purl.bioontology.org/ontology/RXNORM/'
 subject_id	subject_label	object_id	predicate_id	mapping_justification
 VO:0003150	Hepatitis B surface antigen vaccine	rxnorm:797752	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0003196	inactivated acellular pertussis vaccine	rxnorm:798302	oboInOwl:hasDbXref	semapv:UnspecifiedMatching

@@ -2,8 +2,9 @@
 #mapping_set_title: Vaccine Ontology to Vaccine Adjuvant Compendium (VAC) Mappings
 #license: https://creativecommons.org/licenses/by/4.0/
 #curie_map:
-#  VO: http://purl.obolibrary.org/obo/VO_
-#  vax: https://vac.niaid.nih.gov/view?id=
+#  VO: 'http://purl.obolibrary.org/obo/VO_'
+#  oboInOwl: 'http://www.geneontology.org/formats/oboInOwl#'
+#  vac: 'https://vac.niaid.nih.gov/view?id='
 subject_id	subject_label	object_id	predicate_id	mapping_justification
 VO:0005207	Advax vaccine adjuvant	vac:37	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0005270	1V270 vaccine adjuvant	vac:6	oboInOwl:hasDbXref	semapv:UnspecifiedMatching

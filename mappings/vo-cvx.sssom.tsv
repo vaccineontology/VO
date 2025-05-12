@@ -2,8 +2,9 @@
 #mapping_set_title: Vaccine Ontology to CVX Mappings
 #license: https://creativecommons.org/licenses/by/4.0/
 #curie_map:
-#  VO: http://purl.obolibrary.org/obo/VO_
-#  cvx: https://biopragmatics.github.io/providers/cvx/
+#  VO: 'http://purl.obolibrary.org/obo/VO_'
+#  cvx: 'https://biopragmatics.github.io/providers/cvx/'
+#  oboInOwl: 'http://www.geneontology.org/formats/oboInOwl#'
 subject_id	subject_label	object_id	object_label	predicate_id	mapping_justification
 VO:0000738	Diphtheria-Tetanus-Pertussis vaccine	cvx:01	diphtheria, tetanus toxoids and pertussis vaccine	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
 VO:0005469	trivalent poliovirus vaccine, live, oral	cvx:02	trivalent poliovirus vaccine, live, oral	oboInOwl:hasDbXref	semapv:UnspecifiedMatching
