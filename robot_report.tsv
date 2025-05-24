@@ -111,6 +111,7 @@ WARN	annotation_whitespace	VO:0000208	IAO:0000115	"A vaccine role that is not li
 WARN	annotation_whitespace	VO:0000211	IAO:0000115	an organismal quality of a whole organism vaccine where the whole organism is inactivated/killed and lacks the capability of replication. 
 WARN	annotation_whitespace	VO:0000310	IAO:0000115	a vaccine additive that stabilizes the vaccine emulsification manufacturing process and makes emulsion of the vaccine easier. 
 WARN	annotation_whitespace	VO:0000335	IAO:0000115	A vaccination site that is used for injection of a vaccine. 
+WARN	annotation_whitespace	VO:0000350	IAO:0000115	Vaccine role that is characteristic of a live virulent vaccine. 
 WARN	annotation_whitespace	VO:0000369	IAO:0000115	A 'has vaccine component' relation that specifies the plasmid used for development of a particular DNA vaccine. 
 WARN	annotation_whitespace	VO:0000375	IAO:0000112	'Mycobacterium avium relA mutant vaccine' includes a gene mutation of relA from virulent Mycobacterium avium. 
 WARN	annotation_whitespace	VO:0000384	IAO:0000119	"PMID:18472194
@@ -156,12 +157,11 @@ WARN	annotation_whitespace	VO:0000692	IAO:0000115	A subunit vaccine role that in
 WARN	annotation_whitespace	VO:0000702	IAO:0000115	A recombinant vector vaccine role that inheres in a virus that carries a vaccine antigen for development of a particular vaccine 
 WARN	annotation_whitespace	VO:0000728	IAO:0000115	A vaccine role that indicates the vaccine being a RNA vaccine. 
 WARN	annotation_whitespace	VO:0000731	rdfs:comment	MMR is usually live attenuated. 
-WARN	annotation_whitespace	VO:0000767	IAO:0000115	A bacterial vaccine that protects against diseases caused by various species of Rickettsia. Typhus is any of several similar diseases caused by Rickettsia bacteria. So Rickettsial vaccine is also called typhus vaccine. 
+WARN	annotation_whitespace	VO:0000767	IAO:0000115	Vaccine that protects against Rickettsia infection. Typhus is any of several similar diseases caused by Rickettsia bacteria. So Rickettsial vaccine is also called typhus vaccine. 
 WARN	annotation_whitespace	VO:0000794	IAO:0000115	A Brucella abortus gene that has the name wboA and comes from strain 2308. 
 WARN	annotation_whitespace	VO:0000799	IAO:0000115	"An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. "
 WARN	annotation_whitespace	VO:0000807	IAO:0000115	A vaccine role that indicates the vaccine being a toxoid vaccine. 
 WARN	annotation_whitespace	VO:0000818	IAO:0000115	An object property that specifies a relation between a vaccine and a vaccine virmugen. 
-WARN	annotation_whitespace	VO:0000857	IAO:0000115	"Process profile that is measurable and the measured data indicates the degree of immunological protection in the vaccine recipient. More specifically, it is the process in some immune response component (such as gene, protein, etc.) which serves as an immune biomarker. "
 WARN	annotation_whitespace	VO:0000922	IAO:0000115	a vaccine stablizer that is based on monosodium glutamate. 
 WARN	annotation_whitespace	VO:0000929	rdfs:comment	"Potential Acute Health Effects: Slightly hazardous in case of skin contact (irritant), of eye contact (irritant), of ingestion, of inhalation. Reference: http://www.sciencelab.com/msds.php?msdsId=9926640 "
 WARN	annotation_whitespace	VO:0000931	IAO:0000115	a cell culture residual in vaccine that is residual protein from cell culture. 
@@ -208,9 +208,10 @@ WARN	annotation_whitespace	VO:0001203	IAO:0000119	"Todd TE, Tibi O, Lin Y, Sayer
 WARN	annotation_whitespace	VO:0001204	IAO:0000119	"Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. "
 WARN	annotation_whitespace	VO:0001205	IAO:0000119	"Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. "
 WARN	annotation_whitespace	VO:0001206	IAO:0000119	"Todd TE, Tibi O, Lin Y, Sayers S, Bronner DN, Xiang Z, He Y. Meta-analysis of variables affecting mouse protection efficacy of whole organism Brucella vaccines and vaccine candidates. BMC Bioinformatics. 2013, 14(Suppl 6):S3. PMID: 23735014. PMCID: PMC3633026. "
-WARN	annotation_whitespace	VO:0001214	IAO:0000115	a bacterial vaccine that uses inactivated bacterial organism. 
+WARN	annotation_whitespace	VO:0001214	IAO:0000115	Bacterial vaccine that uses inactivated bacterial organism. 
 WARN	annotation_whitespace	VO:0001215	IAO:0000115	"an anti-reproductive vaccine for cattle. The vaccine is based on the established principle that antibodies to the hypothalamic releasing hormone, gonadotrophin releasing hormone (GnRH) block the action of GnRH on pituitary secretion of luteinizing hormone and follicle stimulating hormone, leading to gonadal atrophy in mammals. The vaccine comprises an immunogenic GnRH:ovalbumin conjugate formulated in a novel double adjuvant system and is administered in a two-dose treatment regimen. "
 WARN	annotation_whitespace	VO:0001395	IAO:0000115	a vaccine that contains two or more individual vaccines. 
+WARN	annotation_whitespace	VO:0002031	IAO:0000116	"JZ: it may be same as term VO:0002048, USDA: 12C2.50, current USDA numbers are not correct since manufacturer is not same. "
 WARN	annotation_whitespace	VO:0002115	IAO:0000115	A horse Encephalomyelitis-Influenza-West Nile Virus vaccine that is inactivated and manufactured by Wyeth Pharmaceuticals Inc. 
 WARN	annotation_whitespace	VO:0002483	IAO:0000115	"A horse vaccine that protects against EEE, VEE, WEE, influenza virius infection, and West Nile virus infection. "
 WARN	annotation_whitespace	VO:0003016	IAO:0000115	"A route of administration that located in the stomach, so that the material is taken into body through stomach directly. "
@@ -232,6 +233,7 @@ WARN	annotation_whitespace	VO:0003247	IAO:0000115	The site that is the part of t
 WARN	annotation_whitespace	VO:0003336	IAO:0000115	a vaccine-induced down-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. 
 WARN	annotation_whitespace	VO:0003348	IAO:0000115	A vaccine-induced up-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. 
 WARN	annotation_whitespace	VO:0003674	IAO:0000115	Vaccine component that is used to deliver genetic code into the cells to produce antigen. 
+WARN	annotation_whitespace	VO:0004089	IAO:0000115	Earlier investigational version of a smallpox vaccine developed by Acambis. It was part of the development process that led to the creation of ACAM2000. 
 WARN	annotation_whitespace	VO:0004400	IAO:0000115	"An autologous dendritic cell vaccine with potential immunostimulatory activity. Dendritic cells harvested from a prostate cancer patient are transfected with the mRNA encoding for prostate specific antigen (PSA), a tumor marker secreted by prostatic epithelial and ductal cells. When reintroduced back to the patient, these PSA RNA pulsed autologous dendritic cells may elicit a cytotoxic T-cell (CTL) response against PSA-positive prostate cancer cells. "
 WARN	annotation_whitespace	VO:0006094	IAO:0000116	"Chemical Nature: Nucleic acid
 Mechanism of Action: TLR9 agonist
@@ -285,9 +287,12 @@ WARN	annotation_whitespace	VO:0007733	IAO:0000115	"A cancer vaccine that consist
 WARN	annotation_whitespace	VO:0007735	IAO:0000115	"A cancer vaccine made with GMCSF transgene that directly stimulates increased expression of tumor antigen(s) and enhances dendritic cell migration to the vaccination site. TGFβ2 blockade following intracellular TGFβ2 antisense gene expression reduces production of immune inhibiting activity at the vaccine site. This vaccine integrates enhancement of an anticancer immune response concurrently with a reduction in cancer-induced immune suppression. Autologous cancer cells are harvested from patients with advanced refractory cancer, and a TGFβ2 antisense / GMCSF expression vector plasmid is constructed. The autologous cancer tissue is irradiated and electrocorporated with the vector. "
 WARN	annotation_whitespace	VO:0007740	IAO:0000115	"A cancer vaccine that is composed of dendritic cells pulsed with tumor cells lysates that stimulate a potent and specific cell mediated anti-tumor immune response. It can be used in combination with high-dose chemotherapy and hematopoietic stem cell transplantation (HSCT). The combination may increase overall survival and progression-free survival for patients with high-risk pediatric and young adult tumors (localized solid tumors such as, sarcoma, neuroblastoma, and Wilms' tumor). "
 WARN	annotation_whitespace	VO:0007748	IAO:0000115	USA licensed vaccine for veterinary uses approved by USDA. 
+WARN	annotation_whitespace	VO:0010008	IAO:0000115	Vaccine role that is characteristic of an inactivated vaccine. 
+WARN	annotation_whitespace	VO:0010038	IAO:0000115	Vaccine role that is characteristic of a live attenuated vaccine. 
 WARN	annotation_whitespace	VO:0010252	IAO:0000115	A variable representing dose representing the vaccination 
 WARN	annotation_whitespace	VO:0010259	IAO:0000115	A variable representing the vaccine preservative 
 WARN	annotation_whitespace	VO:0010272	IAO:0000115	A measurment datum that records the method of sacrifice (i.e. killing). 
+WARN	annotation_whitespace	VO:0010487	IAO:0000115	Licensed human smallpox virus vaccine that uses vaccinia virus. 
 WARN	annotation_whitespace	VO:0010735	IAO:0000115	A Measles-Mumps-Rubella-Vericella vaccine that is live attenuated and manufactured by GlaxoSmithKline Biologicals. 
 WARN	annotation_whitespace	VO:0021164	IAO:0000115	A varicella-zoster virus live vaccine designed to prevent shingles (herpes zoster). 
 WARN	duplicate_exact_synonym	VO:0010365	IAO:0000118	
@@ -301,106 +306,6 @@ WARN	duplicate_exact_synonym	VO:0010335	IAO:0000118
 WARN	duplicate_exact_synonym	VO:0010352	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0000436	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0001144	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020358	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020359	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020360	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020361	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020362	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020363	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020364	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020365	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020366	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020367	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020368	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020369	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020370	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020371	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020372	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020373	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020374	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020375	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020376	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020377	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020378	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020379	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020380	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020381	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020382	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020383	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020384	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020385	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020386	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020387	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020388	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020389	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020390	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020391	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020392	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020393	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020394	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020395	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020396	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020397	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020398	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020399	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020400	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020401	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020402	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020403	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020404	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020405	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020406	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020407	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020408	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020410	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020411	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020412	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020413	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020414	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020415	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020416	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020417	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020418	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020419	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020421	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020423	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020424	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020425	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020426	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020427	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020428	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020429	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020430	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020431	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020433	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020435	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020436	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020437	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020438	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020439	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020440	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020441	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020442	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020443	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020444	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020447	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020448	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020449	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020450	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020451	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020452	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020453	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020454	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020455	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020456	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020457	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020458	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020460	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020462	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020464	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020466	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020467	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0020468	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0010347	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0010357	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0010358	IAO:0000118	
@@ -423,8 +328,6 @@ WARN	duplicate_exact_synonym	VO:0000642	IAO:0000118
 WARN	duplicate_exact_synonym	VO:0010336	IAO:0000118	
 WARN	duplicate_exact_synonym	NCBITaxon:117565	oboInOwl:hasExactSynonym	
 WARN	duplicate_exact_synonym	NCBITaxon:7898	oboInOwl:hasExactSynonym	
-WARN	duplicate_exact_synonym	VO:0000942	IAO:0000118	
-WARN	duplicate_exact_synonym	VO:0003169	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0000738	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0003106	IAO:0000118	
 WARN	duplicate_exact_synonym	VO:0010362	IAO:0000118	
@@ -465,11 +368,14 @@ WARN	duplicate_label_synonym	VO:0006004	IAO:0000118	cholera live attenuated
 WARN	duplicate_label_synonym	VO:0006005	IAO:0000118	diphtheria antitoxin
 WARN	duplicate_label_synonym	VO:0006022	IAO:0000118	influenza nasal unspecified formulation
 WARN	duplicate_label_synonym	VO:0006044	IAO:0000118	Pneumococcal Conjugate unspecified formulation
+WARN	duplicate_label_synonym	VO:0006049	IAO:0000118	rheumatic fever vaccine
+WARN	duplicate_label_synonym	VO:0006051	IAO:0000118	rotavirus live tetravalent vaccine
 WARN	duplicate_label_synonym	VO:0006067	IAO:0000118	SARS-COV-2 (COVID-19) vaccine UNSPECIFIED
 WARN	duplicate_label_synonym	VO:0006076	IAO:0000118	tetanus toxoid not adsorbed
 WARN	duplicate_label_synonym	VO:0006077	IAO:0000118	tetanus toxoid unspecified formulation
 WARN	duplicate_label_synonym	VO:0006078	IAO:0000118	Tick-borne encephalitis vaccine (non-US)
 WARN	duplicate_label_synonym	VO:0006091	IAO:0000118	Ebola unspecified
+WARN	duplicate_label_synonym	VO:0010473	IAO:0000118	nonmechanistic correlate of immune protection
 WARN	duplicate_label_synonym	VO:0011303	IAO:0000118	FliC
 WARN	duplicate_label_synonym	VO:0015341	IAO:0000118	Vaqta
 WARN	duplicate_label_synonym	VO:0015342	IAO:0000118	Epaxal
@@ -1032,8 +938,6 @@ WARN	invalid_xref	VO:0002026	oboInOwl:hasDbXref	USDA: 4595.25
 WARN	invalid_xref	VO:0002027	oboInOwl:hasDbXref	USDA: 4599.00
 WARN	invalid_xref	VO:0002028	oboInOwl:hasDbXref	USDA: 12A5.20
 WARN	invalid_xref	VO:0002029	oboInOwl:hasDbXref	USDA: 1861.01
-WARN	invalid_xref	VO:0002031	oboInOwl:hasDbXref	USDA: 12C8.42
-WARN	invalid_xref	VO:0002031	oboInOwl:hasDbXref	USDA: 12C8.44
 WARN	invalid_xref	VO:0002032	oboInOwl:hasDbXref	USDA: 1061.R0
 WARN	invalid_xref	VO:0002033	oboInOwl:hasDbXref	USDA: 10M1.10
 WARN	invalid_xref	VO:0002034	oboInOwl:hasDbXref	USDA: 10M1.11
@@ -2708,6 +2612,7 @@ WARN	missing_definition	CHEBI:30911	IAO:0000115
 WARN	missing_definition	CHEBI:33130	IAO:0000115	
 WARN	missing_definition	CHEBI:37586	IAO:0000115	
 WARN	missing_definition	DOID:1789	IAO:0000115	
+WARN	missing_definition	DOID:1936	IAO:0000115	
 WARN	missing_definition	FMA:12278	IAO:0000115	
 WARN	missing_definition	IAO:0000114	IAO:0000115	
 WARN	missing_definition	IAO:0000426	IAO:0000115	
@@ -2744,6 +2649,7 @@ WARN	missing_definition	NCBITaxon:10334	IAO:0000115
 WARN	missing_definition	NCBITaxon:10335	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10345	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10357	IAO:0000115	
+WARN	missing_definition	NCBITaxon:10358	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10359	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10366	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10386	IAO:0000115	
@@ -2801,6 +2707,7 @@ WARN	missing_definition	NCBITaxon:11149	IAO:0000115
 WARN	missing_definition	NCBITaxon:11153	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11157	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11158	IAO:0000115	
+WARN	missing_definition	NCBITaxon:11216	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11229	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11234	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11241	IAO:0000115	
@@ -2915,6 +2822,7 @@ WARN	missing_definition	NCBITaxon:186537	IAO:0000115
 WARN	missing_definition	NCBITaxon:186625	IAO:0000115	
 WARN	missing_definition	NCBITaxon:186778	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1868215	IAO:0000115	
+WARN	missing_definition	NCBITaxon:186938	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1891747	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1903411	IAO:0000115	
 WARN	missing_definition	NCBITaxon:194	IAO:0000115	
@@ -2984,6 +2892,7 @@ WARN	missing_definition	NCBITaxon:28344	IAO:0000115
 WARN	missing_definition	NCBITaxon:28450	IAO:0000115	
 WARN	missing_definition	NCBITaxon:286	IAO:0000115	
 WARN	missing_definition	NCBITaxon:287	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2871093	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2895623	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2901879	IAO:0000115	
 WARN	missing_definition	NCBITaxon:29176	IAO:0000115	
@@ -3019,8 +2928,10 @@ WARN	missing_definition	NCBITaxon:33213	IAO:0000115
 WARN	missing_definition	NCBITaxon:33317	IAO:0000115	
 WARN	missing_definition	NCBITaxon:33340	IAO:0000115	
 WARN	missing_definition	NCBITaxon:333774	IAO:0000115	
+WARN	missing_definition	NCBITaxon:3344809	IAO:0000115	
 WARN	missing_definition	NCBITaxon:33550	IAO:0000115	
 WARN	missing_definition	NCBITaxon:33554	IAO:0000115	
+WARN	missing_definition	NCBITaxon:3379134	IAO:0000115	
 WARN	missing_definition	NCBITaxon:33892	IAO:0000115	
 WARN	missing_definition	NCBITaxon:34085	IAO:0000115	
 WARN	missing_definition	NCBITaxon:353210	IAO:0000115	
@@ -3063,6 +2974,7 @@ WARN	missing_definition	NCBITaxon:452646	IAO:0000115
 WARN	missing_definition	NCBITaxon:464095	IAO:0000115	
 WARN	missing_definition	NCBITaxon:470137	IAO:0000115	
 WARN	missing_definition	NCBITaxon:4751	IAO:0000115	
+WARN	missing_definition	NCBITaxon:476	IAO:0000115	
 WARN	missing_definition	NCBITaxon:483179	IAO:0000115	
 WARN	missing_definition	NCBITaxon:487	IAO:0000115	
 WARN	missing_definition	NCBITaxon:50294	IAO:0000115	
@@ -3243,7 +3155,6 @@ WARN	missing_definition	OGG:3000888772	IAO:0000115
 WARN	missing_definition	OGG:3001197075	IAO:0000115	
 WARN	missing_definition	OGMS:0000060	IAO:0000115	
 WARN	missing_definition	OPMI:0000441	IAO:0000115	
-WARN	missing_definition	OPMI:0000446	IAO:0000115	
 WARN	missing_definition	RO:0002086	IAO:0000115	
 WARN	missing_definition	RO:0002091	IAO:0000115	
 WARN	missing_definition	RO:0002092	IAO:0000115	
@@ -3471,7 +3382,6 @@ WARN	missing_definition	VO:0000360	IAO:0000115
 WARN	missing_definition	VO:0000361	IAO:0000115	
 WARN	missing_definition	VO:0000364	IAO:0000115	
 WARN	missing_definition	VO:0000365	IAO:0000115	
-WARN	missing_definition	VO:0000370	IAO:0000115	
 WARN	missing_definition	VO:0000373	IAO:0000115	
 WARN	missing_definition	VO:0000374	IAO:0000115	
 WARN	missing_definition	VO:0000378	IAO:0000115	
@@ -3585,7 +3495,6 @@ WARN	missing_definition	VO:0000720	IAO:0000115
 WARN	missing_definition	VO:0000723	IAO:0000115	
 WARN	missing_definition	VO:0000724	IAO:0000115	
 WARN	missing_definition	VO:0000729	IAO:0000115	
-WARN	missing_definition	VO:0000730	IAO:0000115	
 WARN	missing_definition	VO:0000733	IAO:0000115	
 WARN	missing_definition	VO:0000734	IAO:0000115	
 WARN	missing_definition	VO:0000738	IAO:0000115	
@@ -5160,7 +5069,6 @@ WARN	missing_definition	VO:0003224	IAO:0000115
 WARN	missing_definition	VO:0003225	IAO:0000115	
 WARN	missing_definition	VO:0003226	IAO:0000115	
 WARN	missing_definition	VO:0003227	IAO:0000115	
-WARN	missing_definition	VO:0003229	IAO:0000115	
 WARN	missing_definition	VO:0003230	IAO:0000115	
 WARN	missing_definition	VO:0003231	IAO:0000115	
 WARN	missing_definition	VO:0003232	IAO:0000115	
@@ -5306,6 +5214,7 @@ WARN	missing_definition	VO:0003385	IAO:0000115
 WARN	missing_definition	VO:0003386	IAO:0000115	
 WARN	missing_definition	VO:0003387	IAO:0000115	
 WARN	missing_definition	VO:0003388	IAO:0000115	
+WARN	missing_definition	VO:0003389	IAO:0000115	
 WARN	missing_definition	VO:0003391	IAO:0000115	
 WARN	missing_definition	VO:0003392	IAO:0000115	
 WARN	missing_definition	VO:0003395	IAO:0000115	
@@ -5391,7 +5300,6 @@ WARN	missing_definition	VO:0003480	IAO:0000115
 WARN	missing_definition	VO:0003481	IAO:0000115	
 WARN	missing_definition	VO:0003482	IAO:0000115	
 WARN	missing_definition	VO:0003483	IAO:0000115	
-WARN	missing_definition	VO:0003484	IAO:0000115	
 WARN	missing_definition	VO:0003485	IAO:0000115	
 WARN	missing_definition	VO:0003486	IAO:0000115	
 WARN	missing_definition	VO:0003487	IAO:0000115	
@@ -5442,7 +5350,6 @@ WARN	missing_definition	VO:0003535	IAO:0000115
 WARN	missing_definition	VO:0003550	IAO:0000115	
 WARN	missing_definition	VO:0003551	IAO:0000115	
 WARN	missing_definition	VO:0003552	IAO:0000115	
-WARN	missing_definition	VO:0003553	IAO:0000115	
 WARN	missing_definition	VO:0003554	IAO:0000115	
 WARN	missing_definition	VO:0003555	IAO:0000115	
 WARN	missing_definition	VO:0003556	IAO:0000115	
@@ -5970,7 +5877,6 @@ WARN	missing_definition	VO:0004085	IAO:0000115
 WARN	missing_definition	VO:0004086	IAO:0000115	
 WARN	missing_definition	VO:0004087	IAO:0000115	
 WARN	missing_definition	VO:0004088	IAO:0000115	
-WARN	missing_definition	VO:0004089	IAO:0000115	
 WARN	missing_definition	VO:0004090	IAO:0000115	
 WARN	missing_definition	VO:0004091	IAO:0000115	
 WARN	missing_definition	VO:0004092	IAO:0000115	
@@ -6912,8 +6818,6 @@ WARN	missing_definition	VO:0006023	IAO:0000115
 WARN	missing_definition	VO:0006024	IAO:0000115	
 WARN	missing_definition	VO:0006025	IAO:0000115	
 WARN	missing_definition	VO:0006026	IAO:0000115	
-WARN	missing_definition	VO:0006027	IAO:0000115	
-WARN	missing_definition	VO:0006028	IAO:0000115	
 WARN	missing_definition	VO:0006029	IAO:0000115	
 WARN	missing_definition	VO:0006030	IAO:0000115	
 WARN	missing_definition	VO:0006031	IAO:0000115	
@@ -6934,7 +6838,6 @@ WARN	missing_definition	VO:0006045	IAO:0000115
 WARN	missing_definition	VO:0006046	IAO:0000115	
 WARN	missing_definition	VO:0006047	IAO:0000115	
 WARN	missing_definition	VO:0006048	IAO:0000115	
-WARN	missing_definition	VO:0006049	IAO:0000115	
 WARN	missing_definition	VO:0006050	IAO:0000115	
 WARN	missing_definition	VO:0006051	IAO:0000115	
 WARN	missing_definition	VO:0006052	IAO:0000115	
@@ -7289,14 +7192,14 @@ WARN	missing_definition	VO:0010461	IAO:0000115
 WARN	missing_definition	VO:0010462	IAO:0000115	
 WARN	missing_definition	VO:0010465	IAO:0000115	
 WARN	missing_definition	VO:0010466	IAO:0000115	
-WARN	missing_definition	VO:0010467	IAO:0000115	
 WARN	missing_definition	VO:0010468	IAO:0000115	
 WARN	missing_definition	VO:0010469	IAO:0000115	
 WARN	missing_definition	VO:0010470	IAO:0000115	
 WARN	missing_definition	VO:0010471	IAO:0000115	
 WARN	missing_definition	VO:0010472	IAO:0000115	
-WARN	missing_definition	VO:0010473	IAO:0000115	
-WARN	missing_definition	VO:0010474	IAO:0000115	
+WARN	missing_definition	VO:0010475	IAO:0000115	
+WARN	missing_definition	VO:0010476	IAO:0000115	
+WARN	missing_definition	VO:0010482	IAO:0000115	
 WARN	missing_definition	VO:0010632	IAO:0000115	
 WARN	missing_definition	VO:0010705	IAO:0000115	
 WARN	missing_definition	VO:0010706	IAO:0000115	
@@ -7882,7 +7785,6 @@ WARN	missing_definition	VO:0011304	IAO:0000115
 WARN	missing_definition	VO:0011305	IAO:0000115	
 WARN	missing_definition	VO:0011306	IAO:0000115	
 WARN	missing_definition	VO:0011307	IAO:0000115	
-WARN	missing_definition	VO:0011308	IAO:0000115	
 WARN	missing_definition	VO:0011309	IAO:0000115	
 WARN	missing_definition	VO:0011310	IAO:0000115	
 WARN	missing_definition	VO:0011311	IAO:0000115	
@@ -8015,7 +7917,6 @@ WARN	missing_definition	VO:0011443	IAO:0000115
 WARN	missing_definition	VO:0011444	IAO:0000115	
 WARN	missing_definition	VO:0011445	IAO:0000115	
 WARN	missing_definition	VO:0011446	IAO:0000115	
-WARN	missing_definition	VO:0011447	IAO:0000115	
 WARN	missing_definition	VO:0011448	IAO:0000115	
 WARN	missing_definition	VO:0011449	IAO:0000115	
 WARN	missing_definition	VO:0011450	IAO:0000115	
@@ -13972,6 +13873,7 @@ WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_childhood_cancer_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/doid#GOLD	rdfs:subPropertyOf	
@@ -14181,16 +14083,12 @@ INFO	lowercase_definition	VO:0000368	IAO:0000115	a vaccine organism that is live
 INFO	lowercase_definition	VO:0000371	IAO:0000115	quaternary vaccination is a vaccination that is performed at the fourth  time in a row.
 INFO	lowercase_definition	VO:0000383	IAO:0000115	a vaccine-induced T cell interferon-gramm production that results from the addition of a vaccine adjuvant
 INFO	lowercase_definition	VO:0000389	IAO:0000115	viral vaccine that is used to protect against Feline panleukopenia virus infection
-INFO	lowercase_definition	VO:0000391	IAO:0000115	bacterial vaccine that is used to protect against Leptospira spp. infection
 INFO	lowercase_definition	VO:0000392	IAO:0000115	a Campylobacter bacterial vaccine that is used to protect against Campylobacter fetus infection
 INFO	lowercase_definition	VO:0000393	IAO:0000115	bacterial vaccine that is used to protect against Pseudomonas aeruginosa infection
-INFO	lowercase_definition	VO:0000394	IAO:0000115	a Bordetella bacterial vaccine that is used to protect against Bordetella bronchiseptica infection
 INFO	lowercase_definition	VO:0000419	IAO:0000115	a Varicella-zoster virus vaccine that is live attenuated.
 INFO	lowercase_definition	VO:0000420	IAO:0000115	a vaccine component that originates from an organism such as a pathogen or a modified organism.
 INFO	lowercase_definition	VO:0000424	IAO:0000115	a pneumococcal vaccine that is formed using polyvalent polysaccharides
 INFO	lowercase_definition	VO:0000426	IAO:0000115	period of persistence of vaccine induced immune response is a temporal interval during which a vaccine-induced immune response continuously exists. This term is related to the process 'persistence of vaccine induced immune response'.
-INFO	lowercase_definition	VO:0000433	IAO:0000115	a Smallpox virus vaccine that uses vaccinia virus
-INFO	lowercase_definition	VO:0000437	IAO:0000115	"a bacterial vaccine against Moraxella bovis infection. Moraxella bovis is a Gram-negative, aerobic, oxidase-positive diplococcus that is implicated in infectious bovine keratoconjunctivitis, an eye disease of cattle, also colloquially known as Pink Eye."
 INFO	lowercase_definition	VO:0000438	IAO:0000115	a Moraxella bovis vaccine that is prepared using a bacterial bacterin.
 INFO	lowercase_definition	VO:0000439	IAO:0000115	a USA licensed vaccine role that indicates the vaccine is for veterinary uses.
 INFO	lowercase_definition	VO:0000440	IAO:0000115	vaccine approval process is a processual entity that involves approval of a vaccine.
@@ -14199,7 +14097,6 @@ INFO	lowercase_definition	VO:0000447	IAO:0000115	a viral vaccine vector that use
 INFO	lowercase_definition	VO:0000448	IAO:0000115	"a Salmonella vaccine against infection with S. paratyphi, which causes paratyphoid fevers. Paratyphoid fevers are a group of enteric illnesses caused by serotypic strains of the Salmonella genus of bacteria, S. Paratyphi."
 INFO	lowercase_definition	VO:0000455	IAO:0000115	a vaccine that is used for prevention against a disease.
 INFO	lowercase_definition	VO:0000460	IAO:0000115	an influenza virus vaccine against equine influenza viral infection
-INFO	lowercase_definition	VO:0000463	IAO:0000115	a bacterial vaccine against infection with Coxiella burnetii which causes Q fever
 INFO	lowercase_definition	VO:0000465	IAO:0000115	a S. aureus vaccine that uses bacterin as the protective antigen. 
 INFO	lowercase_definition	VO:0000467	IAO:0000115	a S. aureus vaccine that uses the bacterial phage lysate as the protective antigen. 
 INFO	lowercase_definition	VO:0000468	IAO:0000115	a Mycoplasma gallisepticum vaccine that uses bacterin as the protective antigen
@@ -14225,7 +14122,6 @@ INFO	lowercase_definition	VO:0000545	IAO:0000115	a population of human beings wh
 INFO	lowercase_definition	VO:0000546	IAO:0000115	a population group that are vaccinated with a specific vaccine
 INFO	lowercase_definition	VO:0000556	IAO:0000115	"a vaccine that is designed to immunize against two or more strains of the same microorganism, or against two or more microorganisms."
 INFO	lowercase_definition	VO:0000563	IAO:0000115	a combination vaccine that is used against both bacterial and viral infections.
-INFO	lowercase_definition	VO:0000566	IAO:0000115	a bacterial vaccine against Vibrio infection
 INFO	lowercase_definition	VO:0000571	IAO:0000115	a viral vaccine vector that uses an AAV virus as the vector.
 INFO	lowercase_definition	VO:0000572	IAO:0000115	vaccination protocol is the protocol of a vaccination procedure.
 INFO	lowercase_definition	VO:0000575	IAO:0000115	vaccine candidate is a processed material that is designed to prevent or ameliorate a disorder in a target organism by modulating adaptive immune responses in that organism by administrating the vaccine.
@@ -14236,11 +14132,9 @@ INFO	lowercase_definition	VO:0000586	IAO:0000115	a multivalent vaccine that is d
 INFO	lowercase_definition	VO:0000587	IAO:0000115	a bacterial vaccine against infection of Bordetella bacterial infection
 INFO	lowercase_definition	VO:0000590	IAO:0000115	vaccine preparation is a manufacturing process to produce a vaccine.
 INFO	lowercase_definition	VO:0000600	IAO:0000115	an orthopoxvirus vaccine vector that uses vaccinia virus as the vector
-INFO	lowercase_definition	VO:0000604	IAO:0000115	a bacterial vaccine against Mycoplasma bacterial infection
 INFO	lowercase_definition	VO:0000610	IAO:0000115	a vaccine vector that uses a virus as the vector.
 INFO	lowercase_definition	VO:0000611	IAO:0000115	bacterial vaccine that is used to protect against Haemophilus parasuis infection
 INFO	lowercase_definition	VO:0000612	IAO:0000115	a virulence of vaccine that shows a virulent pheontype of the organism as the major component of a vaccine. The virulent phenotype means that an vaccine organism is virulent and is able to cause a pathogenic phenotype in a host organism.
-INFO	lowercase_definition	VO:0000620	IAO:0000115	bacterial vaccine that is used to protect against Pasteurella multocida infection
 INFO	lowercase_definition	VO:0000622	IAO:0000115	a vaccine antigen role that inheres in a vaccine antigen which is capable of inducing protective immunity. 
 INFO	lowercase_definition	VO:0000635	IAO:0000115	a licensed vaccine with license for human use.
 INFO	lowercase_definition	VO:0000637	IAO:0000115	bacterial vaccine that is used to protect against Flavobacterium columnare infection
@@ -14265,7 +14159,6 @@ INFO	lowercase_definition	VO:0000823	IAO:0000115	a bacterial vaccine against V. 
 INFO	lowercase_definition	VO:0000855	IAO:0000115	"a vaccine residual that is used to inactivate bacteria and viruses or to detoxify bacterial toxins. For example, formaldehyde is a frequently used inactivation agent in vaccine preparation."
 INFO	lowercase_definition	VO:0000856	IAO:0000115	"a vaccine residual that is generatead from cell culture for vaccine preparation. Examples include: antibiotics, sensitizing substances, bacterial and cellular residuals, and adventitious agents."
 INFO	lowercase_definition	VO:0000864	IAO:0000115	a licensed status that occurs in Canada.
-INFO	lowercase_definition	VO:0000865	IAO:0000115	a bacterial vaccine against Porphyromonas gulae infection
 INFO	lowercase_definition	VO:0000880	IAO:0000115	pCLF4 is a Bacillus anthracis vaccine that contains the N-terminal region (amino acids [aa] 10-254) of Bacillus anthracis LF cloned into the pCI expression plasmid.
 INFO	lowercase_definition	VO:0000885	IAO:0000115	"a role inhers in a vaccine component that when added into a vccine formmulation, it can prevent the growth of bacteria or fungi that inadvertently may be introduced into the vaccine during administrating process or the manufacturing process."
 INFO	lowercase_definition	VO:0000910	IAO:0000115	vaccine allergen is a material entity that is capable of stimulating a type-I hypersensitivity reaction in atopic individuals who has been vaccinated with a vaccine.
@@ -14332,21 +14225,18 @@ INFO	lowercase_definition	VO:0001081	IAO:0000115	an adenovirus vaccine vector th
 INFO	lowercase_definition	VO:0001082	IAO:0000115	"an adenovirus vaccine vector that contains a deletion of the gp64 gene. As a result of the deletion, this vector is unable to propagate infection from cell to cell, and this defect results from both a severe reduction in the production of budded virions and the absence of GP64 on virions."
 INFO	lowercase_definition	VO:0001083	IAO:0000115	protozoan vaccine that is used to protect against Giardia intestinalis infection
 INFO	lowercase_definition	VO:0001084	IAO:0000115	a viral vaccine vector that uses a baculovirus as the vector 
-INFO	lowercase_definition	VO:0001085	IAO:0000115	a Chlamydia bacterial vaccine against C. abortus infection
 INFO	lowercase_definition	VO:0001086	IAO:0000115	an adenovirus vaccine vector that uses a complex adenovirus as the vector strain.
 INFO	lowercase_definition	VO:0001087	IAO:0000115	an adenovirus vaccine vector that uses a human adenovirus as the vector strain.
 INFO	lowercase_definition	VO:0001088	IAO:0000115	a viral vaccine vector that uses a murine leukemia virus as the vaccine vector
 INFO	lowercase_definition	VO:0001093	IAO:0000115	a vaccinia vaccine vector that uses the highly attenuated NYVAC  as vector
 INFO	lowercase_definition	VO:0001095	IAO:0000115	"passive immunization by injecting a recipient with pre-made antibody, antitoxin, epitope, etc."
 INFO	lowercase_definition	VO:0001102	IAO:0000115	a viral vaccine vector that uses a retroviral strain
-INFO	lowercase_definition	VO:0001105	IAO:0000115	a bacterial vaccine against Lawsonia intracellularis infection
 INFO	lowercase_definition	VO:0001106	IAO:0000115	a poxvirus vaccine vector that uses a swinepox virus as the vector
 INFO	lowercase_definition	VO:0001107	IAO:0000115	a vaccinia virus vector that uses the Modified Vaccinia Ankara (MVA) virus. 
 INFO	lowercase_definition	VO:0001108	IAO:0000115	a poxvirus vaccine vector that uses an ORF virus which is a parapoxvirus.
 INFO	lowercase_definition	VO:0001109	IAO:0000115	a vaccinia virus vector that uses the MVTT vaccine strain as the vector. MVTT is an attenuated vaccine strain. 
 INFO	lowercase_definition	VO:0001110	IAO:0000115	a fertility vaccine that enhance fertility in sheep.
 INFO	lowercase_definition	VO:0001112	IAO:0000115	a viral vaccine vector that uses a bovine parainfluenza virus strain as vector
-INFO	lowercase_definition	VO:0001114	IAO:0000115	a Bordetella bacterial vaccine against infection of B. avium
 INFO	lowercase_definition	VO:0001115	IAO:0000115	a poxvirus vaccine vector that uses an attenuated capripoxvirus strain as the vaccine vector
 INFO	lowercase_definition	VO:0001118	IAO:0000115	a bacterial vaccine vector that uses a Corynebacterium pseudotuberculosis strain as the vaccine vector
 INFO	lowercase_definition	VO:0001121	IAO:0000115	a viral vaccine vector that uses a rhabdovirus-based viral strain as the vaccine vector
@@ -14367,7 +14257,6 @@ INFO	lowercase_definition	VO:0001141	IAO:0000115	a recombinant vaccine vector th
 INFO	lowercase_definition	VO:0001143	IAO:0000115	a poxvirus vaccine vector that uses an avipox virus as the vector
 INFO	lowercase_definition	VO:0001145	IAO:0000115	vaccine being viable is a vaccine viability that indicates a vaccine uses live organism.
 INFO	lowercase_definition	VO:0001146	IAO:0000115	a poxvirus vaccine vector that uses an orthopox virus as the vector
-INFO	lowercase_definition	VO:0001151	IAO:0000115	bacterial vaccine that is used to protect against Piscirickettsia salmonis infection
 INFO	lowercase_definition	VO:0001156	IAO:0000115	"a vaccine against avian pathogenic Escherichia coli (APEC) infection, a major problem for the poultry industry in the world."
 INFO	lowercase_definition	VO:0001162	IAO:0000115	specification of time interval after vaccination for challenge is a plan specification that specifies the time interval after vacciation for challenge
 INFO	lowercase_definition	VO:0001163	IAO:0000115	pathogen challenge protocol is a protocol that is used for a pathogen challenge process.
@@ -14384,12 +14273,9 @@ INFO	lowercase_definition	VO:0001187	IAO:0000115	a vaccination that occurs in th
 INFO	lowercase_definition	VO:0001209	IAO:0000115	vaccine protection efficacy measurement is an assay that measures the protection efficayc of a vaccine.
 INFO	lowercase_definition	VO:0001210	IAO:0000115	a subunit vaccien that uses LPS as protective antigen
 INFO	lowercase_definition	VO:0001211	IAO:0000115	viral vaccine that is used to protect against African swine fever virus infection
-INFO	lowercase_definition	VO:0001214	IAO:0000115	a bacterial vaccine that uses inactivated bacterial organism. 
 INFO	lowercase_definition	VO:0001215	IAO:0000115	"an anti-reproductive vaccine for cattle. The vaccine is based on the established principle that antibodies to the hypothalamic releasing hormone, gonadotrophin releasing hormone (GnRH) block the action of GnRH on pituitary secretion of luteinizing hormone and follicle stimulating hormone, leading to gonadal atrophy in mammals. The vaccine comprises an immunogenic GnRH:ovalbumin conjugate formulated in a novel double adjuvant system and is administered in a two-dose treatment regimen. "
-INFO	lowercase_definition	VO:0001217	IAO:0000115	a bacterial vaccine that is live and attenuated
 INFO	lowercase_definition	VO:0001220	IAO:0000115	a viral vaccine that is live attenuated
 INFO	lowercase_definition	VO:0001221	IAO:0000115	a B. abortus vaccine that uses subunit antigen
-INFO	lowercase_definition	VO:0001230	IAO:0000115	a bacterial vaccine against Treponema pallidum infection
 INFO	lowercase_definition	VO:0001252	IAO:0000115	"is a bacterial toxin (usually an exotoxin) whose toxicity has been weakened or suppressed either by chemical (formalin) or heat treatment, while other properties, typically immunogenicity, are maintained."
 INFO	lowercase_definition	VO:0001255	IAO:0000115	a subunit vaccine that uses polysaccharide as protective antigen
 INFO	lowercase_definition	VO:0001346	IAO:0000115	a vaccine preservative that contains formaldehyde.
@@ -14423,7 +14309,6 @@ INFO	lowercase_definition	VO:0001481	IAO:0000115	viral vaccine that is used to p
 INFO	lowercase_definition	VO:0001482	IAO:0000115	viral vaccine that is used to protect against Bovine herpesvirus 1 infection
 INFO	lowercase_definition	VO:0001486	IAO:0000115	viral vaccine that is used to protect against Equid herpesvirus 1 infection
 INFO	lowercase_definition	VO:0001487	IAO:0000115	viral vaccine that is used to protect against Feline herpesvirus 1 (Felid herpesvirus 1) infection
-INFO	lowercase_definition	VO:0001488	IAO:0000115	viral vaccine that is used to protect against Gallid herpesvirus 1 infection
 INFO	lowercase_definition	VO:0001489	IAO:0000115	viral vaccine that is used to protect against Canine adenovirus type 1 (Canine adenovirus 1) infection
 INFO	lowercase_definition	VO:0001490	IAO:0000115	viral vaccine that is used to protect against Canine Adenovirus Type 2 (Canine adenovirus 2) infection
 INFO	lowercase_definition	VO:0001491	IAO:0000115	viral vaccine that is used to protect against Bovine papillomavirus infection
@@ -14446,7 +14331,6 @@ INFO	lowercase_definition	VO:0001508	IAO:0000115	viral vaccine that is used to p
 INFO	lowercase_definition	VO:0001509	IAO:0000115	viral vaccine that is used to protect against Feline calicivirus infection
 INFO	lowercase_definition	VO:0001510	IAO:0000115	viral vaccine that is used to protect against Chicken Anemia Virus infection
 INFO	lowercase_definition	VO:0001511	IAO:0000115	viral vaccine that is used to protect against Porcine respiratory and reproductive syndrome virus (Porcine reproductive and respiratory syndrome virus) infection
-INFO	lowercase_definition	VO:0001512	IAO:0000115	bacterial vaccine that is used to protect against Riemerella anatipestifer infection
 INFO	lowercase_definition	VO:0001513	IAO:0000115	viral vaccine that is used to protect against Avian Reovirus (Avian orthoreovirus) infection
 INFO	lowercase_definition	VO:0001514	IAO:0000115	viral vaccine that is used to protect against avian pneumovirus (avian metapneumovirus) infection
 INFO	lowercase_definition	VO:0001515	IAO:0000115	viral vaccine that is used to protect against Bluetongue virus infection
@@ -14455,7 +14339,6 @@ INFO	lowercase_definition	VO:0001517	IAO:0000115	viral vaccine that is used to p
 INFO	lowercase_definition	VO:0001518	IAO:0000115	viral vaccine that is used to protect against Psittacid herpesvirus 1 infection
 INFO	lowercase_definition	VO:0001520	IAO:0000115	viral vaccine that is used to protect against Infectious salmon anemia virus infection
 INFO	lowercase_definition	VO:0001522	IAO:0000115	viral vaccine that is used to protect against Avian Encephalomyelitis Virus infection
-INFO	lowercase_definition	VO:0001523	IAO:0000115	bacterial vaccine that is used to protect against Mannheimia haemolytica infection
 INFO	lowercase_definition	VO:0001524	IAO:0000115	viral vaccine that is used to protect against Porcine circovirus 2 infection
 INFO	lowercase_definition	VO:0001525	IAO:0000115	viral vaccine that is used to protect against Duck enteritis virus (Anatid herpesvirus 1) infection
 INFO	lowercase_definition	VO:0001526	IAO:0000115	viral vaccine that is used to protect against Canine parainfluenza virus infection
@@ -14465,7 +14348,6 @@ INFO	lowercase_definition	VO:0002424	IAO:0000115	"a viral vaccine against horse 
 INFO	lowercase_definition	VO:0002513	IAO:0000115	a malaria vaccine that protects against malaria caused by Plasmodium berghei.
 INFO	lowercase_definition	VO:0002514	IAO:0000115	a malaria vaccine that protects against malaria caused by Plasmodium yoelii.
 INFO	lowercase_definition	VO:0002788	IAO:0000115	a bacterial vaccine against Streptococcus suis infection
-INFO	lowercase_definition	VO:0002789	IAO:0000115	a diphtheria vaccine against infection with Corynebacterium pseudotuberculosis
 INFO	lowercase_definition	VO:0002925	IAO:0000115	a Brucella vaccine against infection wtih B. ovis
 INFO	lowercase_definition	VO:0003018	IAO:0000115	vaccination that occurs in the intagastric route.
 INFO	lowercase_definition	VO:0003019	IAO:0000115	vaccination process that occurs in intradermal route.
@@ -14494,7 +14376,6 @@ INFO	lowercase_definition	VO:0003060	IAO:0000115	viral vaccine that is used to p
 INFO	lowercase_definition	VO:0003061	IAO:0000115	viral vaccine that is used to protect against Bovine viral diarrhea virus 2 infection
 INFO	lowercase_definition	VO:0003092	IAO:0000115	"monovalent vaccine agianst poliomyelitis for infants 6-12 weeks of age, all immunized children up to 18 years of age, and high risk adults."
 INFO	lowercase_definition	VO:0003096	IAO:0000115	a Diphthpheria-Tetanus Absorbed vaccine for children 7 years of age and adults.
-INFO	lowercase_definition	VO:0003102	IAO:0000115	a hexavalent vaccine that has been withrawn on June 2012 by the European commission
 INFO	lowercase_definition	VO:0003138	IAO:0000115	"a licensed N. meningitidis vaccine that includes meningococcal polysaccharides from Groups A, C, Y and W-135 combined, and is manufactured by GSK."
 INFO	lowercase_definition	VO:0003336	IAO:0000115	a vaccine-induced down-regulation gene expression that occurs in live attenuated vaccine and compared with the host system infected with live wild type virulent strain which is the parent strain of this live attenuated vaccine. 
 INFO	lowercase_definition	VO:0003961	IAO:0000115	"replication defective simian adenoviral vector expressing KH, a self-cleaving polyprotein comprising L. donovani KMP-11 and HASPB"
@@ -14512,6 +14393,7 @@ INFO	lowercase_definition	VO:0007098	IAO:0000115	"rime/boost vaccination proved 
 INFO	lowercase_definition	VO:0007287	IAO:0000115	"cancer vaccine consisting of autologous dendritic cells transfected with autologous tumor mRNA and the human CD40 ligand (CD40L) gene with immunostimulatory and antitumor activities. Vaccination with autologous dendritic cell-autologous tumor mRNA-human CD40L vaccine may elicit a cytotoxic T cell response against tumor cells from which the autologous tumor mRNA was derived. When expressed by dendritic cells, tumor antigens and the co-stimulatory molecule CD40L, which binds to CD40 receptors on antigen presenting cells (APC), facilitate both humoral and cellular immune responses against tumor cells."
 INFO	lowercase_definition	VO:0010446	IAO:0000115	human papillomavirus vaccine with license for human use.
 INFO	lowercase_definition	VO:0010456	IAO:0000115	yellow fever virus vaccine with license for human use.
+INFO	lowercase_definition	VO:0010489	IAO:0000115	malaria vaccine is licensed for use in humans.
 INFO	lowercase_definition	VO:0010751	IAO:0000115	a protein from a bacterium
 INFO	lowercase_definition	VO:0010754	IAO:0000115	a protein from a virus
 INFO	lowercase_definition	VO:0010755	IAO:0000115	a protein from a parasite
