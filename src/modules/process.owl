@@ -2667,7 +2667,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
         <obo:IAO_0000115>Process profile that reflects a pattern of a specific immune response.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>immune response profile</rdfs:label>
     </owl:Class>
     
@@ -2676,13 +2676,13 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <!-- http://purl.obolibrary.org/obo/VO_0005309 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
-        <obo:IAO_0000115>An immune profile that is characterized by the presence of Type 1 T helper (Th1) cells that produce interferon-gamma, interleukin (IL)-2, and tumor necrosis factor (TNF)-beta, which activate macrophages and are responsible for cell-mediated immunity and phagocyte-dependent protective responses.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010493"/>
+        <obo:IAO_0000115>An immune profile that is characterized by mainly presence of Type 1 T helper (Th1) cells that produce interferon-gamma, interleukin (IL)-2, and tumor necrosis factor (TNF)-beta, which activate macrophages and are responsible for cell-mediated immunity and phagocyte-dependent protective responses.</obo:IAO_0000115>
         <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
-        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>Th1-biased immune profile</rdfs:label>
     </owl:Class>
     
@@ -2691,13 +2691,13 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <!-- http://purl.obolibrary.org/obo/VO_0005310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
-        <obo:IAO_0000115>An immune profile that is characterized by the presence of T type 2 Th (Th2) cells that produce IL-4, IL-5, IL-10, and IL-13, which are responsible for strong antibody production, eosinophil activation, and inhibition of several macrophage functions, thus providing phagocyte-independent protective responses.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010494"/>
+        <obo:IAO_0000115>An immune profile that is characterized by mainly presence of T type 2 Th (Th2) cells that produce IL-4, IL-5, IL-10, and IL-13, which are responsible for strong antibody production, eosinophil activation, and inhibition of several macrophage functions, thus providing phagocyte-independent protective responses.</obo:IAO_0000115>
         <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
-        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>Th2-biased immune profile</rdfs:label>
     </owl:Class>
     
@@ -2712,7 +2712,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
-        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>Th1/Th2 mixed immune profile</rdfs:label>
     </owl:Class>
     
@@ -2726,7 +2726,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_17_cell</obo:IAO_0000119>
-        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>Th17 immune profile</rdfs:label>
     </owl:Class>
     
@@ -2740,7 +2740,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
-        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>Th1/Th17 mixed immune profile</rdfs:label>
     </owl:Class>
     
@@ -2785,7 +2785,7 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
-        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>Th1/Th2/Th17 mixed immune profile</rdfs:label>
     </owl:Class>
     
@@ -3062,8 +3062,127 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010492">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005313"/>
-        <oboInOwl:inSubset>process profile</oboInOwl:inSubset>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>Th17-biased immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010493">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000115>An immune profile that is characterized by the presence of Type 1 T helper (Th1) cells that produce interferon-gamma, interleukin (IL)-2, and tumor necrosis factor (TNF)-beta, which activate macrophages and are responsible for cell-mediated immunity and phagocyte-dependent protective responses.</obo:IAO_0000115>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Th1 immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010494">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000115>An immune profile that is characterized by the presence of T type 2 Th (Th2) cells that produce IL-4, IL-5, IL-10, and IL-13, which are responsible for strong antibody production, eosinophil activation, and inhibition of several macrophage functions, thus providing phagocyte-independent protective responses.</obo:IAO_0000115>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Th2 immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Anti-inflammatory immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Tfh/Th17 mixed immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Tfh immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010498">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Th1/Th2/Tfh mixed immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010499">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Th1/Th2/Th17/Tfh mixed immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Th2/Th17 mixed immune profile </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Treg immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010501"/>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Treg-biased immune profile</rdfs:label>
     </owl:Class>
     
 
