@@ -104,13 +104,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
+        <obo:IAO_0000115>An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <oboInOwl:hasExactSynonym>natural protein</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>native protein</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000000001</oboInOwl:id>
-        <rdfs:comment>The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
+        <rdfs:comment>Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (&quot;protein-containing molecular entity&quot;). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
         <rdfs:label>protein</rdfs:label>
     </owl:Class>
     
@@ -128,6 +128,26 @@
         <oboInOwl:id>PR:000001096</oboInOwl:id>
         <rdfs:comment>Category=family.</rdfs:comment>
         <rdfs:label>Toll-like receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1751</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CD281</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TIL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TLR1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Toll/interleukin-1 receptor-like protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>KIAA0012</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001151</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 1</rdfs:label>
     </owl:Class>
     
 
@@ -187,6 +207,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000001156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1755</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>TLR5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Toll/interleukin-1 receptor-like protein 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>TIL3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001156</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR6 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1756</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CD286</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TLR6</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>PR:000001157</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 6</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000001158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001158">
@@ -222,6 +277,144 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000001160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+        <obo:IAO_0000115>A Toll-like receptor that is a translation product of the human TLR9 gene or a 1:1 ortholog thereof. Non-methylated CpG motifs, present in viral and bacterial DNA, are one of many pathogen-associated molecular patterns (PAMP) recognized by the mammalian innate immune system. Recognition of this PAMP occurs through a specific interaction with Toll-like receptor 9 and this interaction can induce cytokine responses that influence both innate and adaptive immune responses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1759</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CD289</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TLR9</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>UNQ5798/PRO19605</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001160</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>Toll-like receptor 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human CLEC6A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:2928</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>C-type lectin superfamily member 10</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CLEC6A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DC-associated C-type lectin 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dectin-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dendritic cell-associated C-type lectin 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CLECSF10</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Clec4n</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>DECTIN2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001806</oboInOwl:id>
+        <rdfs:comment>Category=gene. Requested by=CL.</rdfs:comment>
+        <rdfs:label>C-type lectin domain family 6 member A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001807">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human CLEC7A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:2927</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>C-type lectin superfamily member 12</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CD369</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CLEC7A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DC-associated C-type lectin 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>beta-glucan receptor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dectin-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dendritic cell-associated C-type lectin 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>BGR</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>CLECSF12</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>DECTIN1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>UNQ539/PRO1082</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000001807</oboInOwl:id>
+        <rdfs:comment>Category=gene. Requested by=CL.</rdfs:comment>
+        <rdfs:label>C-type lectin domain family 7 member A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003874">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human AIM2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:2923</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>AIM2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ifi-210</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>absent in melanoma 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interferon-inducible protein 210</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interferon-inducible protein p210</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Gm1313</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Ifi210</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000003874</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>interferon-inducible protein AIM2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human CLEC4E gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:2929</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>C-type lectin superfamily member 9</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CLEC4E</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>macrophage-inducible C-type lectin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CLECSF9</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>MINCLE</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>UNQ218/PRO244</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000005570</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>C-type lectin domain family 4 member E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008910">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human IFIH1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:2921</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>IFIH1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MDA-5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RIG-I-like receptor 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RLR-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RNA helicase-DEAD box protein 116</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>helicard</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>helicase with 2 CARD domains</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interferon induced with helicase C domain protein 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interferon-induced with helicase C domain protein 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>melanoma differentiation-associated protein 5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>murabutide down-regulated protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>MDA5</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>RH116</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000008910</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>interferon-induced helicase C domain-containing protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000011271 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011271">
@@ -251,6 +444,44 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000011305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human NOD1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1762</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>NOD1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>caspase recruitment domain-containing protein 4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CARD4</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000011305</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>nucleotide-binding oligomerization domain-containing protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human NOD2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1763</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>NOD2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>caspase recruitment domain-containing protein 15</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inflammatory bowel disease protein 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CARD15</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>IBD1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000011306</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>nucleotide-binding oligomerization domain-containing protein 2</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000015399 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015399">
@@ -262,6 +493,70 @@
         <oboInOwl:id>PR:000015399</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
         <rdfs:label>superoxide dismutase [Cu-Zn]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000026296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000026296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human CLEC9A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasExactSynonym>CD370</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CLEC9A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>UNQ9341/PRO34046</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000026296</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>C-type lectin domain family 9 member A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human RIGI gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:2920</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ATP-dependent RNA helicase DDX58</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DEAD box protein 58</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RIG-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RIG-I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RIG-I-like receptor 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RIGI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RLR-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RNA sensor RIG-I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>probable ATP-dependent RNA helicase DDX58</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>retinoic acid-inducible gene 1 protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>retinoic acid-inducible gene I protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>DDX58</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000029394</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>antiviral innate immune response receptor RIG-I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000030833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000030833">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>A protein that is a translation product of the human CGAS gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasExactSynonym>2&apos;3&apos;-cGAMP synthase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CGAS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mab-21 domain-containing protein 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cGAMP synthase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>C6orf150</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>MB21D1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000030833</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>protein MB21D1</rdfs:label>
     </owl:Class>
     
 
