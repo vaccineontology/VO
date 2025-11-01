@@ -597,6 +597,20 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001336">
+        <obo:IAO_0000115>A combination vaccine adjuvant and is based on the combination of Monophosphoryl Lipid A(MPL), QS21 (a purified fraction of Saponin extracted from Quillarja Saponaria), and a proprietary oil in water emulsion.</obo:IAO_0000115>
+        <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.pasteur.fr/applications/euroconf/vaccins/vaccins-abs.html</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0001264"/>
+        <rdfs:label>obsolete AS-2 vaccine adjuvant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0001459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001459">

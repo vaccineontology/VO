@@ -524,10 +524,11 @@ The range of this relation is a organism.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0005377 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005377">
-        <obo:IAO_0000112>A vaccine adjuvant T-vant has molecular receptor of TLR4. Reference: https://vac.niaid.nih.gov/view?id=61.</obo:IAO_0000112>
-        <obo:IAO_0000115>An object property that represents a relation between a material entity and a molecular entitiy that serves as the molecular receptor to the material entity.</obo:IAO_0000115>
+        <obo:IAO_0000112>The vaccine adjuvant T-vant targets the molecular receptor TLR4. Reference: https://vac.niaid.nih.gov/view?id=61.</obo:IAO_0000112>
+        <obo:IAO_0000115>An object property that represents a relation in which a material entity specifically interacts with or targets a molecular entity acting as a receptor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <rdfs:label>has molecular receptor</rdfs:label>
+        <rdfs:label>target receptor</rdfs:label>
     </owl:ObjectProperty>
     
 
