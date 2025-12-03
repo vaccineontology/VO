@@ -2409,6 +2409,25 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0003154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003154">
+        <obo:IAO_0000115>A CpG DNA vaccine adjuvant that is a short, synthetic, unmethylated CpG oligodeoxynucleotide (CpG ODN) with immunostimulatory activity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Kallan Roan</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>ISS 1018 CpG ODN</obo:IAO_0000118>
+        <obo:IAO_0000118>ISS 1018 CpG oligodeoxynucleotide</obo:IAO_0000118>
+        <obo:IAO_0000118>ISS-1018</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.cancer.gov/publications/dictionaries/cancer-drug/def/iss-1018-cpg-oligodeoxynucleotide</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.drugbank.ca/drugs/DB05463</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0005514"/>
+        <rdfs:label>obsolete ISS 1018 CpG ODN vaccine adjuvant</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0003228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003228">
@@ -2567,6 +2586,22 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0005394"/>
         <rdfs:label>obsolete COH04S1</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005684">
+        <obo:IAO_0000115>Biodegradable poly(DL-lactic-co-glycolic acid).</obo:IAO_0000115>
+        <obo:IAO_0000117>Yuping Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>PLGA</obo:IAO_0000118>
+        <obo:IAO_0000118>poly(lactic-co-glycolic acid)</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:25957906</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0005683"/>
+        <rdfs:label>obsolete PLGA vaccine adjuvant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     

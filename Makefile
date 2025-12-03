@@ -88,6 +88,7 @@ MODULE_NAMES := vaccine\
  vo_FDA\
  vo_USDA\
  vo_VAC\
+ vo_VAXJO\
  vo_VIOLIN\
  obsolete
 
