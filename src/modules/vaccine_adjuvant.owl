@@ -5628,7 +5628,13 @@ https://clinicaltrials.gov/ct2/show/NCT03715985</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001159"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that is a lipid-based nanosuspension of a synthetic TLR7/8 ligand that facilitates adsorption to aluminum oxyhydroxide via the structural properties of the helper lipid employed.</obo:IAO_0000115>
@@ -5655,6 +5661,7 @@ https://clinicaltrials.gov/ct2/show/NCT05781542</obo:IAO_0000116>
         <obo:IAO_0000117>Valerie Soza</obo:IAO_0000117>
         <obo:IAO_0000117>Wolfgang Leitner</obo:IAO_0000117>
         <obo:IAO_0000118>3M-052-AF</obo:IAO_0000118>
+        <obo:IAO_0000118>3M052-AF </obo:IAO_0000118>
         <obo:IAO_0000119>https://clinicaltrials.gov/ct2/show/NCT04177355</obo:IAO_0000119>
         <obo:IAO_0000119>https://clinicaltrials.gov/ct2/show/NCT04915768</obo:IAO_0000119>
         <obo:IAO_0000119>https://clinicaltrials.gov/ct2/show/NCT05471076</obo:IAO_0000119>
@@ -5762,7 +5769,7 @@ https://clinicaltrials.gov/ct2/show/NCT05370040</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant is an oil-in-water emulsion that induces Th1-based immune response.</obo:IAO_0000115>
@@ -6787,7 +6794,7 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>C60(OH)22 is a synthetic vaccine adjuvant Th1-biased immune profile.</obo:IAO_0000115>
