@@ -38,7 +38,7 @@ VO:0001250,monophosphoryl lipid A vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,mi
 VO:0001251,LTK63 vaccine mutant,vaccine adjuvant,Vaxjo 1.0,E. coli LT toxin derived vaccine adjuvant,LTK63 Vaccine Mutant Adjuvant,An E. coli LT toxin derived vaccine adjuvant that is a mutant form of LT containing a Ser-Lys substitution in position 63 which has been shown to be totally devoid of toxicity stable to protease treatment and able to act as mucosal adjuvant.,PMID:9607006|PMID:10790422|PMID:17920733,Samantha G. Sayers,LTK63 is an enzymatically inactive mutant of the heat-labile enterotoxin of Escherichia coli. It can be used as a potent mucosal adjuvant.,,,Th2/Th17 mixed immune profile ,,
 VO:0001259,killed Corynebacterium parvum vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,microbial derivative vaccine adjuvant,,A microbial derivative vaccine adjuvant derived from heat-killed Corynebacterium parvum.,PMID:5483667|PMID:4596278|PMID:7591056,Samantha G. Sayers,,,Toll-like receptor 2 | Toll-like receptor 4,Th1-biased immune profile,,
 VO:0001260,Titermax Gold vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,emulsion vaccine adjuvant,Titermax Gold|TiterMax Gold Adjuvant,"An emulsion vaccine adjuvant which is a water-in-oil adjuvant with CRL-8300 (a block copolymer), squalene, and sorbitan monooleate.",,Samantha G. Sayers,,,,Th1/Th2 mixed immune profile,,
-VO:0001261,DDA vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,synthetic vaccine adjuvant,Dimethyl dioctadecyl ammonium bromide|DDA Adjuvant,"A synthetic vaccine adjuvant that is dimethyldioctadecylammonium bromide (DDA), a lipophilic quaternary ammonium salt known as a good adjuvant when co-administered systemically or nasally with an antigen.",PMID:1439129,Samantha G. Sayers,,,,Th1-biased immune profile,,
+VO:0001261,DDA vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,synthetic vaccine adjuvant,Dimethyl dioctadecyl ammonium bromide|DDA Adjuvant,"A synthetic vaccine adjuvant that is dimethyldioctadecylammonium bromide (DDA), a lipophilic quaternary ammonium salt known as a good adjuvant when co-administered systemically or nasally with an antigen.",PMID:1439129,Samantha G. Sayers,,,C-type lectin domain family 4 member E,Th1-biased immune profile,,
 VO:0001262,cationic liposomal vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,liposome-based vaccine adjuvant,Cationic Liposomal Vaccine Adjuvant,A liposome-based vaccine adjuvant that have a positive surface charge.,PMID:19874860,Samantha G. Sayers,,,C-type lectin domain family 4 member E,Th1-biased immune profile,,
 VO:0001263,QuilA vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,tensoactive compound vaccine adjuvant,,A tenosactive compound vaccine adjuvant that contains purified extract from the bark of the South American tree Quillaja saponaria Molina.,PMID:7551218,Samantha G. Sayers,,,,Th1-biased immune profile,,
 VO:0001264,AS02 vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,combination vaccine adjuvant,,"A combination vaccine adjuvant comprised of monophosphoryl lipid A (MPL), QS21 and an oil in water emulsion.",PMID:15780441|PMID:15187142,Samantha G. Sayers,"monophosphoryl lipid A (MPL), QS21 and an oil in water emulsion.",,Toll-like receptor 4,Th1-biased immune profile,,
@@ -187,7 +187,7 @@ Receptor: CLR (Dectin, Mincle)
 Mechanism of Action: None/Unknown
 Immune profile induced: Th17-component
 Other Features/Characteristics: None
-Point of Contact: Kendal Ryter, U. Montana & Inimmune",,,Th17-biased immune profile,,
+Point of Contact: Kendal Ryter, U. Montana & Inimmune",,C-type lectin domain family 4 member E,Th17-biased immune profile,,
 VO:0005283,TQL-1055 vaccine adjuvant,vaccine adjuvant,VAC,saponin vaccine adjuvant,TQL-1055,,,Melissa Malhame|Wolfgang Leitner|Amogh Madireddi|Oliver He,"Chemical Nature: Small molecule and Synthetic derivative of natural compound
 Receptor: Unknown and NLRP3
 Mechanism of Action: Presumably the same as QS-21 in the absence of dose-limiting toxicity
@@ -211,7 +211,7 @@ Receptor: CLR (Dectin, Mincle) and NAIP
 Mechanism of Action: Activation of Dectin-2-expressing innate immune cells; dual targeting of injection site and draining lymph node.
 Immune profile induced: Mixed Th1/Th2
 Other Features/Characteristics: Promotes antibody epitope spreading
-Point of Contact: Ivan Zanoni, Boston Children's Hospital",,,Th1/Th2 mixed immune profile,,
+Point of Contact: Ivan Zanoni, Boston Children's Hospital",,C-type lectin domain family 4 member E | C-type lectin domain family 6 member A,Th1/Th2 mixed immune profile,,
 VO:0005287,LiT4 vaccine adjuvant,vaccine adjuvant,VAC,combination vaccine adjuvant,LiT4,,,Darrick Carter|Wolfgang Leitner|Amogh Madireddi|Oliver He,"Chemical Nature: Combination Adjuvant
 Receptor: TLR4
 Mechanism of Action: TLR4 agonist plus potential inflammasome
@@ -448,10 +448,10 @@ VO:0005357,Advax-CpG vaccine adjuvant,vaccine adjuvant,AdjuvareDB,CpG DNA vaccin
 Mechanism of Action: (1) complement, (2) dendritic cells, (3) other/unknown, (4) TLR9 Immune profile induced: mixed Th1
 Other Features/Characteristics: (1) induces CD8 T cells, (2) provides innate protection, (3) anti-inflammatory, (4) promotes antibody affinity maturation, (5) effective in newborns, (6) high stability
 By routes: SQ, IM
-Point of Contact: Nikolai Petrovsky, Vaxine LTD",,,Th1-biased immune profile,,
+Point of Contact: Nikolai Petrovsky, Vaxine LTD",,Toll-like receptor 9,Th1-biased immune profile,,
 VO:0005358,AS01B vaccine adjuvant,vaccine adjuvant,AdjuvareDB,AS01 vaccine adjuvant,AS01B,"A combination vaccine adjuvant includes 3-O-desacyl-4'-monophosphoryl lipid A (MPL) from Salmonella minnesota and a saponin molecule (QS-21) purified from plant extract Quillaja saponaria Molina, combined in a liposomal formulation consisting of dioleoyl phosphatidylcholine (DOPC) and cholesterol in phosphate-buffered saline solution.","https://www.fda.gov/media/107538/download#:~:text=The%20AS01B%20adjuvant%20suspension%20is,DOPC)%20and%20cholesterol%20in%20phosphate%2D",Randi Vita|Oliver He,,,Toll-like receptor 4,,,
 VO:0005359,AS02A vaccine adjuvant,vaccine adjuvant,AdjuvareDB,AS02 vaccine adjuvant,AS02A,"An AS02 vaccine adjuvant contains 50 ug MPL and 50ug QS21, 250uL of SB62 (oil/water emulsion) in phosphate buffered saline (PBS) per volume of 0.5 mL.",https://clinicaltrials.gov/ct2/show/NCT00308061,,,,Toll-like receptor 4,,,
-VO:0005360,chitosan vaccine adjuvant,vaccine adjuvant,AdjuvareDB,carbohydrate vaccine adjuvant,Chitosan,A carbohydrate vaccine adjuvant that is aminoglycan consisting of beta-(1->4)-linked D-glucosamine residues and induces Th1/Th17 mixed immune profile.,CHEBI:16261|PMID:24346613|PMID:34973993,Randi Vita|Oliver He|Le Liu,,,,Th1/Th17 mixed immune profile,,
+VO:0005360,chitosan vaccine adjuvant,vaccine adjuvant,AdjuvareDB,carbohydrate vaccine adjuvant,Chitosan,A carbohydrate vaccine adjuvant that is aminoglycan consisting of beta-(1->4)-linked D-glucosamine residues and induces Th1/Th17 mixed immune profile.,CHEBI:16261|PMID:24346613|PMID:34973993,Randi Vita|Oliver He|Le Liu,,,protein MB21D1,Th1/Th17 mixed immune profile,,
 VO:0005361,Montanide IMS 1313 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,Montanide vaccine adjuvant,IMS 1313 N VGPR|IMS-1313|Montanide IMS 1313,A Montanide vaccine adjuvant that is a water-dispersed liquid IMS 1313 nanoparticle combined with an immuno-stimulating compound.,https://scialert.net/abstract/?doi=ijps.2018.167.174,Randi Vita|Oliver He,,,,,,
 VO:0005362,Montanide ISA 206 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,Montanide vaccine adjuvant,ISA-206|Montanide ISA 206,A water-dispersed liquid nanoparticle combined with an immuno-stimulating compound.,PMID:8961504,Randi Vita|Oliver He,,,,,,
 VO:0005363,Montanide ISA 50 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,Montanide vaccine adjuvant,ISA-50|Montanide ISA 50,"A Montanide vaccine adjuvant that Mannide oleate derivative in a mineral oil solution ( Seppic SA, France).",http://vetarhiv.vef.unizg.hr/papers/74-2/raman.pdf,Randi Vita|Oliver He,,,,,,
@@ -531,7 +531,7 @@ Point of Contact: Christopher Fox, AAHI
 Clinical trials:
 https://clinicaltrials.gov/ct2/show/NCT04177355
 https://clinicaltrials.gov/ct2/show/NCT04915768
-https://clinicaltrials.gov/ct2/show/NCT05197712",,,Th1-biased immune profile,,
+https://clinicaltrials.gov/ct2/show/NCT05197712",,Toll-like receptor 7 | Toll-like receptor 8,Th1-biased immune profile,,
 VO:0005388,SWE vaccine adjuvant,vaccine adjuvant,VAC,emulsion vaccine adjuvant,SWE,,https://www.ncbi.nlm.nih.gov/pubmed/?term=30849373|https://www.ncbi.nlm.nih.gov/pubmed/?term=32411401,Patrice Dubois|Wolfgang Leitner|Oliver He,"Chemical Nature: (1) emulsion
 Mechanism of Action: unknown
 Immune profile induced: Th1/Th17
@@ -732,7 +732,7 @@ Point of Contact: Taegyan Kang, Progeneer
 Pubmed References:
 https://www.ncbi.nlm.nih.gov/pubmed/?term=36635335
 
-Ongoing clinical trials: n/a",,,Th1-biased immune profile,,
+Ongoing clinical trials: n/a",,Toll-like receptor 7 | Toll-like receptor 8,Th1-biased immune profile,,
 VO:0005473,CAF09b vaccine adjuvant,vaccine adjuvant,VAC,liposome-based vaccine adjuvant,CAF09b,A vaccine adjuvant that is a lipid-based vaccine adjuvent based on cationic surfactant dimethyl-dioctadecyl ammonium (DDA) combined with C-type lectin agonist monomycoloyl glycerol (MMG) and TLR3 agonist poly I:C. CAF09b is able to induce CD8+ T-cell response.,https://clinicaltrials.gov/ct2/show/NCT03715985|https://www.ncbi.nlm.nih.gov/pubmed/?term=33352684|https://www.ncbi.nlm.nih.gov/pubmed/?term=35036074|https://www.ncbi.nlm.nih.gov/pubmed/?term=35163772,Gabriel Kristian Pedersen|Ari Joffe|Wolfgang Leitner|Oliver He,"Chemical Nature: Liposome
 Mechanism of Action: n/a
 Immune profile induced: n/a
@@ -870,7 +870,7 @@ Pubmed References:
 https://www.ncbi.nlm.nih.gov/pubmed/?term=33735218
 
 Ongoing clinical trials:
-none",https://github.com/vaccineontology/VO/issues/731,,Th1/Th2 mixed immune profile,,
+none",https://github.com/vaccineontology/VO/issues/731,C-type lectin domain family 6 member A | C-type lectin domain family 4 member E,Th1/Th2 mixed immune profile,,
 VO:0005509,IL-12-MOP (CTX-1796) vaccine adjuvant,vaccine adjuvant,VAC,nucleic acid vaccine adjuvant,IL-12-MOP (CTX-1796),Nucleic acid vaccine adjuvant that targets on cytokine receptor to induce a Th1-based response.,Pubmed:39047117,Nilufer kosar|Jie Zheng|Romain Micol,"Chemical Nature: nucleic acid
 Mechanism of Action: Cytokine Receptor
 Immune profile induced: Th1-biased
@@ -1024,7 +1024,7 @@ VO:0005557,CDG vaccine adjuvant,vaccine adjuvant,AdjuvareDB,microbial derivative
 VO:0005558,CGAMP vaccine adjuvant,vaccine adjuvant,AdjuvareDB,nucleic acid vaccine adjuvant,CGAMP,CGAMP is a nucleic acid vaccine adjuvant that produces a mixed Th1/Th2 response.,PMID:23989956|PMID:36420215,Josh Monickaraj,,,protein MB21D1,Th1/Th2 mixed immune profile,,
 VO:0005559,Chitin vaccine adjuvant,vaccine adjuvant,AdjuvareDB,carbohydrate vaccine adjuvant,Chitin,"Carbohydrate vaccine adjuvant that induces bisaed Th2 response, but also smaller Th1/Th17 responses",PMID:20656945,Josh Monickaraj,,,C-type lectin domain family 7 member A | Toll-like receptor 2 | protein MB21D1,Th2-biased immune profile,,
 VO:0005560,CITCO vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,CITCO,CITCO is a cytokine vaccine adjuvant that induces Th1-biased immune profile.,PMID:33233444,Le Liu,,,,Th1-biased immune profile,,
-VO:0005573,CL429 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,CL429,CL429 is a synthetic vaccine adjuvant Th1-biased immune profile.,PMID:30470547,Taiyu Lin,,,Toll-like receptor 2 | Toll-like receptor 6 | Toll-like receptor 9,Th1-biased immune profile,,
+VO:0005573,CL429 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,CL429,CL429 is a synthetic vaccine adjuvant Th1-biased immune profile and stimulate TLR2 and NOD2 to enhance immune responses when used in vaccines.   ,PMID:30470547,Taiyu Lin,,,Toll-like receptor 2 | nucleotide-binding oligomerization domain-containing protein 2 ,Th1-biased immune profile,,
 VO:0005574,CnB vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,CnB,CnB is a synthetic vaccine adjuvant that induces Th1 response.,PMID:21447603|PMID:22652401,Josh Monickaraj,,,,Th1-biased immune profile,,
 VO:0005575,CoVaccine HT™ vaccine adjuvant,vaccine adjuvant,AdjuvareDB,emulsion vaccine adjuvant,CoVaccine HT™,CoVaccine HT™ is a emulsion vaccine adjuvant that induces Th1-biased immune profile.,PMID:33688645,Le Liu,,,Toll-like receptor 2 | Toll-like receptor 4,Th1-biased immune profile,,
 VO:0005576,CPG 7909 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,CpG DNA vaccine adjuvant,CPG 7909,CPG 7909 is a CpG DNA vaccine adjuvant that induces Th1-biased immune profile.,PMID:37696935,Le Liu,,,Toll-like receptor 9,Th1-biased immune profile,,
@@ -1099,13 +1099,13 @@ VO:0005644,L-NAME vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine
 VO:0005645,L-siRNA vaccine adjuvant,vaccine adjuvant,AdjuvareDB,nucleic acid vaccine adjuvant,L-siRNA,L-siRNA is a nucleic acid vaccine adjuvant Th1-biased immune profile.,PMID:31214204,Taiyu Lin,,,Toll-like receptor 4,Th1-biased immune profile,,
 VO:0005646,LIGHT vaccine adjuvant,vaccine adjuvant,AdjuvareDB,cytokine vaccine adjuvant,LIGHT,"A member of the TNF superfamily that acts as a costimulatory molecule, promoting the proliferation of human naïve T cells.",PMID:24435162,Yuping Zheng,,,,Th1-biased immune profile,,
 VO:0005647,Listeriolysin O vaccine adjuvant,vaccine adjuvant,AdjuvareDB,microbial derivative vaccine adjuvant,Listeriolysin O,Listeriolysin O is a microbial derivative vaccine adjuvant Th1-biased immune profile.,PMID:31298809,Taiyu Lin,,,Toll-like receptor 2,Th1-biased immune profile,,
-VO:0005648,LP-GMP vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,LP-GMP,LP-GMP is a synthetic vaccine adjuvant Th1-biased immune profile.,PMID:30127384,Taiyu Lin,,,protein MB21D1,Th1-biased immune profile,,
+VO:0005648,LP-GMP vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,LP-GMP,LP-GMP is a synthetic vaccine adjuvant Th1-biased immune profile.,PMID:30127384,Taiyu Lin,,,protein MB21D1 | Toll-like receptor 2 ,Th1-biased immune profile,,
 VO:0005649,LT-IIb vaccine adjuvant,vaccine adjuvant,Vaxjo 1.0,E. coli LT toxin derived vaccine adjuvant,LT-IIb,LT-IIb is a E. coli LT toxin derived vaccine adjuvant that induces mixed Th1/Th2 response.,PMID: 25536061,Josh Monickaraj,,,,Th1/Th2 mixed immune profile,,
 VO:0005650,Man-TLR7 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,Man-TLR7,Man-TLR7 is a synthetic vaccine adjuvant that induces Th1-biased immune profile.,PMID:34634664,Le Liu,,,Toll-like receptor 7,Th1-biased immune profile,,
 VO:0005651,MCP-3 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,cytokine vaccine adjuvant,MCP-3,MCP-3 is a cytokine vaccine adjuvant that induces Th1 response.,PMID:11529662|PMID:11781181|PMID:17074853,Josh Monickaraj,,,,Th1-biased immune profile,,
 VO:0005652,MDA5 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,MDA5,MDA5 is a synthetic vaccine adjuvant that induces a Th1 response.,PMID:23227156,Josh Monickaraj,,,antiviral innate immune response receptor RIG-I,Th1-biased immune profile,,
 VO:0005653,MDP-1 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,muramyl dipeptide vaccine adjuvant,MDP-1,MDP-1 is a muramyl dipeptide vaccine adjuvant that induces Th1 response.,PMID:20497569,Josh Monickaraj,,,nucleotide-binding oligomerization domain-containing protein 2 | Toll-like receptor 9,Th1-biased immune profile,,
-VO:0005654,mesoporous silica nanoparticle vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,mesoporous silica nanoparticle,A plain mesoporous silica (MS) nanoparticle.,PMID:27226038,Yuping Zheng,,,interferon-inducible protein AIM2,Th1/Th2 mixed immune profile,,
+VO:0005654,mesoporous silica nanoparticle vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,mesoporous silica nanoparticle,A plain mesoporous silica (MS) nanoparticle.,PMID:27226038,Yuping Zheng,,,,Th1/Th2 mixed immune profile,,
 VO:0005655,MIP-2 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,cytokine vaccine adjuvant,MIP-2,MIP-2 is a cytokine vaccine adjuvant that induces a Th1 response.,PMID:11134269,Josh Monickaraj,,,,Th1-biased immune profile,,
 VO:0005656,MMG-1 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,microbial derivative vaccine adjuvant,MMG-1,MMG-1 is a microbial derivative vaccine adjuvant Th1-biased immune profile.,PMID:29964134,Taiyu Lin,,,C-type lectin domain family 4 member E,Th1-biased immune profile,,
 VO:0005657,MSP-102 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,microbial derivative vaccine adjuvant,MSP-102,"MSP-102, an engineered FLAGELLIN variant, demonstrated enhanced immunostimulatory effects as an adjuvant. Its efficacy was verified through co-administration with the RBD protein of the COVID-19 virus and the HA protein of the influenza virus, confirming its potential in vaccine formulations. It is a microbial derivative vaccine adjuvant that induces mixed Th1/Th2 response.",https://vac.niaid.nih.gov/view?id=96,Josh Monickaraj,"Chemical Nature: Protein
@@ -1209,7 +1209,7 @@ VO:0005745,TLR7 agonist vaccine adjuvant,vaccine adjuvant,category,vaccine adjuv
 VO:0005746,L. polysaccharide vaccine adjuvant,vaccine adjuvant,AdjuvareDB,carbohydrate vaccine adjuvant,L. polysaccharide,L. polysaccharide is a carbohydrate vaccine adjuvant that induces Th1/Th2 mixed immune profile.,PMID:35698367,Le Liu,,,,Th1/Th2 mixed immune profile,,
 VO:0005747,TLR8 agonist vaccine adjuvant,vaccine adjuvant,category,vaccine adjuvant,,Vaccine adjuvant that stimulates TLR8 to enhance the immune response to vaccination.,,Jie Zheng,,,Toll-like receptor 8,,,('vaccine adjuvant' and 'target receptor' some 'Toll-like receptor 8')
 VO:0005748,TLR9 agonist vaccine adjuvant,vaccine adjuvant,category,vaccine adjuvant,,Vaccine adjuvant that stimulates TLR9 to enhance the immune response to vaccination.,,Jie Zheng,,,Toll-like receptor 9,,,('vaccine adjuvant' and 'target receptor' some 'Toll-like receptor 9')
-VO:0005749,NS-TLR vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,NS-TLR,NS-TLR is a synthetic vaccine adjuvant Th1-biased immune profile.,PMID:31276378,Taiyu Lin,,,,Th1-biased immune profile,,
+VO:0005749,NS-TLR vaccine adjuvant,vaccine adjuvant,AdjuvareDB,synthetic vaccine adjuvant,NS-TLR,NS-TLR is a synthetic vaccine adjuvant Th1-biased immune profile.,PMID:31276378,Taiyu Lin,,,Toll-like receptor 7,Th1-biased immune profile,,
 VO:0005750,SBAS2 vaccine adjuvant,vaccine adjuvant,AdjuvareDB,AS02 vaccine adjuvant,SBAS2,AS02 vaccine adjuvant that induces Th1 response,PMID:12576434,Josh Monickaraj,,,Toll-like receptor 4,Th1-biased immune profile,,
 VO:0005751,TFPR1 vaccine adjuvant,vaccine adjuvant,LLM,animal-derived vaccine adjuvant,TFPR1,"Vaccine adjuvant derived from snake venom that activates the innate immune response by binding and engaging Toll-like receptor 2 (TLR2) on immune cells, which leads to the activation of dendritic cells and enhances antigen presentation.",PMID:34960154|PMID:31629567,Josh Monickaraj|Hasin Rehana,,,Toll-like receptor 2,Th1-biased immune profile,,
 VO:0005752,Murabutide vaccine adjuvant,vaccine adjuvant,LLM,peptide vaccine adjuvant,Murabutide,"Murabutide induces an additive effect on immunogenicity when formulated together with Advax, initiating a sequence of events starting with the recognition of murabutide by pattern recognition receptors (PRRs) like TLRs.",PMID:24554695,Josh Monickaraj|Hasin Rehana,,,nucleotide-binding oligomerization domain-containing protein 2,Th1-biased immune profile,,

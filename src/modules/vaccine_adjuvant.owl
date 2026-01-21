@@ -189,12 +189,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PR_000003874 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003874"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PR_000005570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005570"/>
@@ -1071,6 +1065,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A synthetic vaccine adjuvant that is dimethyldioctadecylammonium bromide (DDA), a lipophilic quaternary ammonium salt known as a good adjuvant when co-administered systemically or nasally with an antigen.</obo:IAO_0000115>
@@ -3145,6 +3145,12 @@ Point of Contact: Dennis Carson, UCSD</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010492"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000116>Chemical Nature: Small molecule
 Receptor: CLR (Dectin, Mincle)
 Mechanism of Action: None/Unknown
@@ -3271,6 +3277,18 @@ Point of Contact: Darrick Carter, PAI Life Sciences</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116>Chemical Nature: (1) Natural compound, (2) Carbohydrate, (3) Combination adjuvant
@@ -4363,6 +4381,12 @@ Point of Contact: Elizabeth Norton, Tulane University</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001160"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that includes an inulin-based polysaccharide (Advax) and a CpG oligodeoxynucleotide (ODN).</obo:IAO_0000115>
         <obo:IAO_0000116>Pubmed References:Chemical Nature: (1) combination adjuvant
 Mechanism of Action: (1) complement, (2) dendritic cells, (3) other/unknown, (4) TLR9 Immune profile induced: mixed Th1
@@ -4433,6 +4457,12 @@ Point of Contact: Nikolai Petrovsky, Vaxine LTD</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005314"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000030833"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A carbohydrate vaccine adjuvant that is aminoglycan consisting of beta-(1-&gt;4)-linked D-glucosamine residues and induces Th1/Th17 mixed immune profile.</obo:IAO_0000115>
@@ -5038,6 +5068,18 @@ Point of Contact: Christopher Fox, AAHI</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000116>Chemical Nature: small molecule
 Mechanism of Action: innate immune activation
 Immune profile induced: Th1-biased
@@ -5551,6 +5593,18 @@ https://clinicaltrials.gov/ct2/show/NCT02118077</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that induces CD8 T cells and provides innate protection.</obo:IAO_0000115>
         <obo:IAO_0000116>Chemical Nature: small molecule
 Mechanism of Action: Innate Immune Activation
@@ -5940,6 +5994,18 @@ none</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000005570"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Combination vaccine adjuvant contains both Bl-Eng2 and adjuplex vaccine adjuvants and is able to induce a mixed Th1/Th2 response.</obo:IAO_0000115>
@@ -7360,16 +7426,10 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011306"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001160"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>CL429 is a synthetic vaccine adjuvant Th1-biased immune profile.</obo:IAO_0000115>
+        <obo:IAO_0000115>CL429 is a synthetic vaccine adjuvant Th1-biased immune profile and stimulate TLR2 and NOD2 to enhance immune responses when used in vaccines.   </obo:IAO_0000115>
         <obo:IAO_0000117>Taiyu Lin</obo:IAO_0000117>
         <obo:IAO_0000118>CL429</obo:IAO_0000118>
         <obo:IAO_0000119>PMID:30470547</obo:IAO_0000119>
@@ -9090,6 +9150,12 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001153"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000030833"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9237,12 +9303,6 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000003874"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A plain mesoporous silica (MS) nanoparticle.</obo:IAO_0000115>
@@ -11503,6 +11563,12 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>NS-TLR is a synthetic vaccine adjuvant Th1-biased immune profile.</obo:IAO_0000115>
