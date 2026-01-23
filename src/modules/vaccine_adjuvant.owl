@@ -6860,7 +6860,7 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001155"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>C60(OH)22 is a synthetic vaccine adjuvant Th1-biased immune profile.</obo:IAO_0000115>
@@ -7773,7 +7773,7 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010500"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Cholera toxin subunit B (CTB) is a protein that can be used as a genetic adjuvant to enhance immune responses.</obo:IAO_0000115>
@@ -9883,6 +9883,12 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005377"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000011305"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>PI-sRI is a synthetic vaccine adjuvant that induces Th1 response.</obo:IAO_0000115>
