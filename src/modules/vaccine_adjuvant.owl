@@ -628,12 +628,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000118"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A microbial derivative vaccine adjuvant that is derived from E. coli heat labile toxin LT.</obo:IAO_0000115>
         <obo:IAO_0000117>Josh Monickaraj</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
@@ -1286,12 +1280,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001271">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001355"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>An emulsion vaccine adjuvant developed by Montanide.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -2653,12 +2641,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000118"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005310"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A microbial derivative vaccine adjuvant that is derived from cholera toxin.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -2766,12 +2748,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001353">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010499"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that contains active cytokine compound.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -2785,12 +2761,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005376"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that is composed of differnt compounds under more than one category.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -2804,12 +2774,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001355">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
         <rdfs:label>emulsion vaccine adjuvant</rdfs:label>
     </owl:Class>
@@ -2820,12 +2784,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001356">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that serves as a particulate antigen delivery system.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -2839,12 +2797,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001357">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005376"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that contains synthetic material.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
@@ -2859,12 +2811,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010498"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that includes tensioactive material. Tensioactive materials, surfactants or active surface agents are chemical substances with a polar-non polar structure. These substances have a tendency to locate themselves at the surface creating an adsorbed monomolecular layer on the interface.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -2880,12 +2826,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000580"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine adjuvant that is primarily composed of carbohydrates.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -2899,12 +2839,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001353"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A cytokine vaccine adjuvant that includes IFN-gamma.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
@@ -12994,18 +12928,6 @@ none</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0010496 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010496"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010498 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010498"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010499 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010499"/>
     
 
 
