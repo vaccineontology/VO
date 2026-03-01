@@ -309,6 +309,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000458">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>E. coli heat-labile enterotoxin B-subunit (LB-T) vaccine</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:11500434</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/835"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004144"/>
+        <rdfs:label>obsolete E. coli LB-T vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000489 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000489">
@@ -456,6 +471,19 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000116>The term &apos;gene&apos; has appears in several ontologies, such as Sequence Ontology (SO) and Protein Ontology (PRO). We may choose to use a &apos;gene&apos; term from other ontologies. The &apos;gene&apos; term in SO has ID: SO:0000704.</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label>obsolete gene</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000898">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/835"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0011476"/>
+        <rdfs:label>obsolete Theileria annulata vaccine by local veterinary institutes</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -2824,6 +2852,22 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010718">
+        <obo:IAO_0000115>A poliovirus vaccine that contains inactivtated Poliomyelitis to prevent disease caused from the vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Hector Guzman-Orozco</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/835"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
+        <rdfs:label>obsolete Inactivated Poliomyelitis vaccine - IPV</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0010727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010727">
@@ -2958,6 +3002,19 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/737"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019362"/>
         <rdfs:label>obsolete 1 ML Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015279">
+        <obo:IAO_0000117>OHDSI Vaccine WG</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0000233 rdf:resource="https://github.com/vaccineontology/VO/issues/835"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0019502"/>
+        <rdfs:label>obsolete Hepatitis A Vaccine (Inactivated) Strain HM175 1440 UNT/ML Prefilled Syringe</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
