@@ -203,15 +203,15 @@ VO:0000621,laboratory animal model of vaccine research,VO:0000616,animal model o
 VO:0000140,agglutinating antibody role,VO:0000148,antibody role,role,,,,,,,,,,,,,,Oliver He,,,,
 VO:0000397,neutralizing antibody role,VO:0000148,antibody role,role,,,,,,,,,,,,,,Oliver He,,,,
 VO:0000457,protective antigen role,OBI:0000237,antigen role,role,,,,,,,,,,,,An antigen that stimulates protective immunity when used in vivo.,,Oliver He,,,,
-VO:0000812,USA licensed vaccine role,VO:0000630,licensed vaccine role,role,,,,,,,,,,,,a licensed vaccine role that indicates the vaccine occurs in USA.,,Oliver He,,,,
-VO:0000864,Canada licensed vaccine role,VO:0000630,licensed vaccine role,role,,,,,,,,,,,,a licensed status that occurs in Canada.,,Oliver He,,,,
+VO:0000812,USA licensed vaccine role,VO:0000630,licensed vaccine role,role,,,,,,,,,,,,Licensed vaccine role that indicates the vaccine occurs in USA.,,Oliver He,,,,
+VO:0000864,Canada licensed vaccine role,VO:0000630,licensed vaccine role,role,,,,,,,,,,,,Licensed status that occurs in Canada.,,Oliver He,,,,
 VO:0000148,antibody role,BFO:0000023,role,role,,,,,,,,,,,,,,Oliver He,,,,
 VO:0000441,vaccine candidate role,BFO:0000023,role,role,,,,,,,,,,,,"Role of a material entity in an investigation, which has not been experimentally or clinically verified to induce a protection or treatment in vivo in a recipient organism. ",,Bjoern Peters|Oliver He,,"This role should be a subclass of 'test substance role', which will be mireoted from OBI by OntoFox.",,
 VO:0000615,vaccine role,BFO:0000023,role,role,,,,,,,,,,,,Role that inheres in a prepared material entity that is designed to induce protection or treatment for a disease or infection. ,,Oliver He,,,,
 VO:0000616,animal model of vaccine research,BFO:0000023,role,role,,,,,,,,,,,,"Animal model of vaccine research is a role played by some organism (e.g., mouse) that is used for vaccine research.",,Oliver He,,,,
 VO:0000617,vaccine component role,BFO:0000023,role,role,,,,,,('part of' some vaccine),,,,,,A role that inheres in a material entity that becomes an ingredient of a vaccine. ,,Oliver He,,,,
 VO:0001275,immunization target role,BFO:0000023,role,role,,,,,,,,,,,,"A role that represents a target (i.e., some disorder) of immunization.",,Oliver He|Allen Xiang,,,,
-VO:0001361,virmugen role,BFO:0000023,role,role,,,,,,,,,,,,"a role that is inherenced in a gene that can be mutated in a virulent pathogen, leading to an attenuated strain serving as a live attenuated vaccine strain.",,Oliver He|Asiyah Yu Lin,,,,
+VO:0001361,virmugen role,BFO:0000023,role,role,,,,,,,,,,,,"A role that is inherenced in a gene that can be mutated in a virulent pathogen, leading to an attenuated strain serving as a live attenuated vaccine strain.",,Oliver He|Asiyah Yu Lin,,,,
 VO:0005272,TLR7 receptor role,BFO:0000023,role,role,,,,,,,,,,,,A role of a material entity that binds to TLR7 and activates the receptor for pathogen recognition and activation of innate immunity.,https://en.wikipedia.org/wiki/TLR7,Oliver He,Toll-like receptor 7 agonist role,TLR7 agonist role,,
 VO:0005274,Th1 immunity stimulatory role,BFO:0000023,role,role,,,,,,,,,,,,,https://en.wikipedia.org/wiki/T_helper_cell,,,,,
 VO:0005275,Th2 immunity stimulatory role,BFO:0000023,role,role,,,,,,,,,,,,,https://en.wikipedia.org/wiki/T_helper_cell,,,,,
@@ -222,8 +222,8 @@ VO:0005307,TLR2 receptor role,BFO:0000023,role,role,,,,,,,,,,,,A role of a mater
 VO:0005378,NLRP3 receptor role,BFO:0000023,role,role,,,,,,,,,,,,A role of a material entity that binds to NLRP3.,https://en.wikipedia.org/wiki/NLRP3,Oliver He,,,,
 VO:0000692,peptide vaccine role,VO:0000624,subunit vaccine role,role,,,,,,,,,,,,A subunit vaccine role that indicates the vaccine being a peptide vaccine. ,,Jie Zheng,,,,
 VO:0001274,vaccine recipient role,OBI:0000444,target of material addition role,role,,immunization,,,,organism,,,,immunization,,Role that inheres in an organism that is the target of a vaccine administration (vaccination process).,,Oliver He|Allen Xiang|Barry Smith|Jie Zheng|Anna Maria Masci,,,,https://github.com/vaccineontology/VO/issues/677
-VO:0000194,FDA licensed vaccine role,VO:0000812,USA licensed vaccine role,role,,,,,,,,,,,,a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. ,,Oliver He,,,,
-VO:0000439,USDA licensed vaccine role,VO:0000812,USA licensed vaccine role,role,,,,,,,,,,,,a USA licensed vaccine role that indicates the vaccine is for veterinary uses.,,Oliver He,,,,
+VO:0000194,FDA licensed vaccine role,VO:0000812,USA licensed vaccine role,role,,,,,,,,,,,,USA licensed vaccine role that inheres in a vaccine approved by the US FDA for use in humans in the USA.,,Oliver He,,,,
+VO:0000439,USDA licensed vaccine role,VO:0000812,USA licensed vaccine role,role,,,,,,,,,,,,USA licensed vaccine role that indicates the vaccine is for veterinary uses.,,Oliver He,,,,
 VO:0000147,vaccine adjuvant role,VO:0000415,vaccine additive role,role,,,,,,,,,,,,an adjuvant role that inheres in a vaccine component which is added as part of a vaccine and induces enhanced adaptive immune response to the vaccine antigen. ,,Oliver He,,,"The Latin ""adjuvans"" means to help, particularly to reach a goal.
 
 Adjuvant therapy for cancer is surgery followed by chemotherapy or radiation to help decrease the risk of the cancer recurring (coming back).
