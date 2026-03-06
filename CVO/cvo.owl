@@ -16,7 +16,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2025-07-06/cvo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2026-03-06/cvo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor>Chris mungall</dc:contributor>
         <dc:contributor>Erica Marcos</dc:contributor>
@@ -62,7 +62,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">Vaccine Ontology Cancer Vaccine View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2025-07-06</owl:versionInfo>
+        <owl:versionInfo>2026-03-06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -6912,7 +6912,7 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
-        <obo:IAO_0000115>a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. </obo:IAO_0000115>
+        <obo:IAO_0000115>USA licensed vaccine role that inheres in a vaccine approved by the US FDA for use in humans in the USA.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>FDA licensed vaccine role</rdfs:label>
@@ -8187,7 +8187,7 @@ Ref: Baylor NW and Midthum K. Regulation and testing of vaccines. In: Vaccines (
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000812">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-        <obo:IAO_0000115>a licensed vaccine role that indicates the vaccine occurs in USA.</obo:IAO_0000115>
+        <obo:IAO_0000115>Licensed vaccine role that indicates the vaccine occurs in USA.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>USA licensed vaccine role</rdfs:label>
