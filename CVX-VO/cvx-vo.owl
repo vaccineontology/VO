@@ -17,7 +17,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/vo/cvx-vo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2025-07-06/cvx-vo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/vo/releases/2026-03-06/cvx-vo.owl"/>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
@@ -26,7 +26,7 @@
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:title xml:lang="en">Vaccine Ontology CVX code View</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo>2025-07-06</owl:versionInfo>
+        <owl:versionInfo>2026-03-06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1491,6 +1491,17 @@ The range of this relation is a organism.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0005312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0005312">
+        <obo:IAO_0000115>An object property that represents a relation between a material entity (such as vaccine or vaccine adjuvant) and an immune profile where the material entity can induce the immune profile in a host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label>induces immune profile</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0010396 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0010396">
@@ -2242,6 +2253,49 @@ The range of this relation is a organism.</obo:IAO_0000115>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">immaterial entity</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:BFO_0000179>process-profile</obo:BFO_0000179>
+        <obo:BFO_0000180>ProcessProfile</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">On a somewhat higher level of complexity are what we shall call rate process profiles, which are the targets of selective abstraction focused not on determinate quality magnitudes plotted over time, but rather on certain ratios between these magnitudes and elapsed times. A speed process profile, for example, is represented by a graph plotting against time the ratio of distance covered per unit of time. Since rates may change, and since such changes, too, may have rates of change, we have to deal here with a hierarchy of process profile universals at successive levels</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">One important sub-family of rate process profiles is illustrated by the beat or frequency profiles of cyclical processes, illustrated by the 60 beats per minute beating process of John’s heart, or the 120 beats per minute drumming process involved in one of John’s performances in a rock band, and so on. Each such process includes what we shall call a beat process profile instance as part, a subtype of rate process profile in which the salient ratio is not distance covered but rather number of beat cycles per unit of time. Each beat process profile instance instantiates the determinable universal beat process profile. But it also instantiates multiple more specialized universals at lower levels of generality, selected from   rate process profilebeat process profileregular beat process profile3 bpm beat process profile4 bpm beat process profileirregular beat process profileincreasing beat process profileand so on.In the case of a regular beat process profile, a rate can be assigned in the simplest possible fashion by dividing the number of cycles by the length of the temporal region occupied by the beating process profile as a whole. Irregular process profiles of this sort, for example as identified in the clinic, or in the readings on an aircraft instrument panel, are often of diagnostic significance.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">The simplest type of process profiles are what we shall call ‘quality process profiles’, which are the process profiles which serve as the foci of the sort of selective abstraction that is involved when measurements are made of changes in single qualities, as illustrated, for example, by process profiles of mass, temperature, aortic pressure, and so on.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])</obo:IAO_0000115>
+        <obo:IAO_0000600 xml:lang="en">b process_profile_of c holds when b proper_occurrent_part_of c&amp; there is some proper_occurrent_part d of c which has no parts in common with b &amp; is mutually dependent on b&amp; is such that b, c and d occupy the same temporal region (axiom label in BFO2 Reference: [094-005])</obo:IAO_0000600>
+        <obo:IAO_0000602>(forall (x y) (if (processProfileOf x y) (and (properContinuantPartOf x y) (exists (z t) (and (properOccurrentPartOf z y) (TemporalRegion t) (occupiesSpatioTemporalRegion x t) (occupiesSpatioTemporalRegion y t) (occupiesSpatioTemporalRegion z t) (not (exists (w) (and (occurrentPartOf w x) (occurrentPartOf w z))))))))) // axiom label in BFO2 CLIF: [094-005] </obo:IAO_0000602>
+        <obo:IAO_0000602>(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">process profile</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">b is a process_profile =Def. there is some process c such that b process_profile_of c (axiom label in BFO2 Reference: [093-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/093-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">b process_profile_of c holds when b proper_occurrent_part_of c&amp; there is some proper_occurrent_part d of c which has no parts in common with b &amp; is mutually dependent on b&amp; is such that b, c and d occupy the same temporal region (axiom label in BFO2 Reference: [094-005])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/094-005"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x y) (if (processProfileOf x y) (and (properContinuantPartOf x y) (exists (z t) (and (properOccurrentPartOf z y) (TemporalRegion t) (occupiesSpatioTemporalRegion x t) (occupiesSpatioTemporalRegion y t) (occupiesSpatioTemporalRegion z t) (not (exists (w) (and (occurrentPartOf w x) (occurrentPartOf w z))))))))) // axiom label in BFO2 CLIF: [094-005] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/094-005"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(iff (ProcessProfile a) (exists (b) (and (Process b) (processProfileOf a b)))) // axiom label in BFO2 CLIF: [093-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/093-002"/>
+    </owl:Axiom>
     
 
 
@@ -7881,13 +7935,13 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
+        <obo:IAO_0000115>An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <oboInOwl:hasExactSynonym>natural protein</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>native protein</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000000001</oboInOwl:id>
-        <rdfs:comment>The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
+        <rdfs:comment>Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (&quot;protein-containing molecular entity&quot;). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
         <rdfs:label>protein</rdfs:label>
     </owl:Class>
     
@@ -10486,9 +10540,7 @@ http://biotech.about.com/b/2008/09/03/gardasil-safety-of-genetically-engineered-
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -10882,15 +10934,13 @@ http://biotech.about.com/b/2008/09/03/gardasil-safety-of-genetically-engineered-
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000742"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -11602,7 +11652,6 @@ http://biotech.about.com/b/2008/09/03/gardasil-safety-of-genetically-engineered-
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000484"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000743"/>
@@ -13867,7 +13916,7 @@ An adjuvant is a substance that helps and enhances the pharmacological effect of
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000812"/>
-        <obo:IAO_0000115>a USA licensed vaccine role that inheres ina vaccine approven to be by the US FDA to be used for humans in the USA. </obo:IAO_0000115>
+        <obo:IAO_0000115>USA licensed vaccine role that inheres in a vaccine approved by the US FDA for use in humans in the USA.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>FDA licensed vaccine role</rdfs:label>
@@ -15319,12 +15368,6 @@ http://sourceforge.net/tracker/?func=detail&amp;aid=2873643&amp;group_id=76834&a
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000850"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000147"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine component is a chemical substance added to a vaccine to enhance and direct the immune response to a protective antigen. Vaccine adjuvants may cause a range of serious side-effects.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000117>Paola Roncaglia</obo:IAO_0000117>
@@ -17206,14 +17249,13 @@ However, even this may not be comprehensive. </rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000743">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000742"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010439"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -17892,7 +17934,7 @@ However, even this may not be comprehensive. </rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000812">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-        <obo:IAO_0000115>a licensed vaccine role that indicates the vaccine occurs in USA.</obo:IAO_0000115>
+        <obo:IAO_0000115>Licensed vaccine role that indicates the vaccine occurs in USA.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>USA licensed vaccine role</rdfs:label>
@@ -18022,7 +18064,7 @@ Ref: Finn TM and Egan W, in Vaccines fifth edition, 2008. Page 73.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000864">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-        <obo:IAO_0000115>a licensed status that occurs in Canada.</obo:IAO_0000115>
+        <obo:IAO_0000115>Licensed status that occurs in Canada.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>role</oboInOwl:inSubset>
         <rdfs:label>Canada licensed vaccine role</rdfs:label>
@@ -19631,6 +19673,12 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001355"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An emusion vaccine adjuvant that contains alpha-tocopherol and squalene, two biodegradable polyprenyls, in an oil-in-water emulsion.</obo:IAO_0000115>
         <obo:IAO_0000117>Samantha G. Sayers</obo:IAO_0000117>
         <obo:IAO_0000118>AS03</obo:IAO_0000118>
@@ -19638,6 +19686,7 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
         <obo:VO_0005438>801</obo:VO_0005438>
         <obo:VO_1000000>AS03 Adjuvant</obo:VO_1000000>
         <obo:VO_1000001>AS03 Adjuvant</obo:VO_1000001>
+        <oboInOwl:hasDbXref>https://violinet.org/vaxjo/vaxjo_detail.php?c_vaxjo_id=76</oboInOwl:hasDbXref>
         <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
         <rdfs:label>AS03 vaccine adjuvant</rdfs:label>
     </owl:Class>
@@ -25610,13 +25659,11 @@ over.</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000943"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -30752,6 +30799,21 @@ over.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0003834 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0003834">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000664"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
@@ -30791,6 +30853,12 @@ over.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_138950"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A poliovirus vaccine that contains inactivtated Poliomyelitis to prevent disease caused from the vaccine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
+        <obo:IAO_0000117>Hector Guzman-Orozco</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>IPV</obo:IAO_0000118>
+        <obo:VO_0003099>Inactived Poliomyelitis Vaccine - IPV</obo:VO_0003099>
         <obo:VO_0005438>10</obo:VO_0005438>
         <obo:VO_0010151>40213160</obo:VO_0010151>
         <obo:VO_1000000>poliovirus vaccine, inactivated</obo:VO_1000000>
@@ -35252,6 +35320,33 @@ over.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0005308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000144"/>
+        <obo:IAO_0000115>Process profile that reflects a pattern of a specific immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>immune response profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0005311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000115>An immune profile that is characterized by the presense of both Type 1 and Type 2 T helper  (Th1 and Th2) cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Amogh Madireddi</obo:IAO_0000117>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/T_helper_cell</obo:IAO_0000119>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10579123/</obo:IAO_0000119>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>Th1/Th2 mixed immune profile</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0005323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005323">
@@ -36516,9 +36611,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
     <!-- http://purl.obolibrary.org/obo/VO_0005465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005465">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -36903,16 +36996,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000563"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000732"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -43060,16 +43151,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000744"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -43181,16 +43270,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000195"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000744"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010437"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -50827,16 +50914,14 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000362"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000561"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000712"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000714"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000742"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001214"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0003834"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010435"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010436"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010445"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010447"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
