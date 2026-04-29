@@ -1,3 +1,7 @@
+Extraction of OMOP subset from VO
+
+- [Extraction of Classification terms](https://github.com/vaccineontology/VO/tree/master/OMOP_classification/classification_terms)
+categorical terms for OMOP terms
 1. Retrieve OMOP intermediate terms from VO using SPARQL
 
 Run following command under VO git repository:
