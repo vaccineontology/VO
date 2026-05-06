@@ -12190,6 +12190,30 @@ https://clinicaltrials.gov/ct2/show/NCT05506969</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0005780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0005780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001354"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0005312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0005309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A combination vaccine adjuvant combining delta inulin, CpG oligonucleotide and murabutide that induces Th1 immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000118>Advax4</obo:IAO_0000118>
+        <obo:IAO_0000118>Advax4 delta inulin combination adjuvant</obo:IAO_0000118>
+        <obo:IAO_0000118>Advax‑4</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:28937879</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:35214766</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/826</obo:IAO_0000233>
+        <oboInOwl:inSubset>vaccine adjuvant</oboInOwl:inSubset>
+        <rdfs:label>Advax4 vaccine adjuvant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0006092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0006092">
