@@ -3187,6 +3187,19 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005308"/>
+        <obo:IAO_0000115>An immune response profile that acts as a specific and predictive molecular fingerprint of a specific immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/845</obo:IAO_0000233>
+        <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
+        <rdfs:label>immune signature</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0010702 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010702">
