@@ -7,8 +7,16 @@ GO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/GO_0002250 #adaptive immune response
 http://purl.obolibrary.org/obo/GO_0002385 #mucosal immune response
+http://purl.obolibrary.org/obo/GO_0002251 #organ or tissue specific immune response
+http://purl.obolibrary.org/obo/GO_0045087 #innate immune response
+http://purl.obolibrary.org/obo/GO_0006959 #humoral immune response
 http://purl.obolibrary.org/obo/GO_0006955 #immune response
-http://purl.obolibrary.org/obo/GO_0050896 #response to stimulus
+http://purl.obolibrary.org/obo/GO_0002376 #immune system process
+http://purl.obolibrary.org/obo/GO_0019882 #antigen processing and presentation
+http://purl.obolibrary.org/obo/GO_0002450 #B cell antigen processing and presentation
+http://purl.obolibrary.org/obo/GO_0002457 #T cell antigen processing and presentation
+http://purl.obolibrary.org/obo/GO_0002468 #dendritic cell antigen processing and presentation
+http://purl.obolibrary.org/obo/GO_0002472 #macrophage antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 
 http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
@@ -20,21 +28,15 @@ http://purl.obolibrary.org/obo/GO_0071742 #IgE immunoglobulin complex
 http://purl.obolibrary.org/obo/GO_0071753 #IgM immunoglobulin complex
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/GO_0006955 #immune response
-subClassOf http://purl.obolibrary.org/obo/GO_0050896 #response to stimulus
-http://purl.obolibrary.org/obo/GO_0050896 #response to stimulus
-subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
 
-http://purl.obolibrary.org/obo/GO_0019814 #immunoglobulin complex
-subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
 http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 
 
 
 [Source term retrieval setting]
-includeNoIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
 includeAllAnnotationProperties

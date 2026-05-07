@@ -130,6 +130,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
         <obo:IAO_0000115>An immune response mediated by cells expressing specific receptors for antigens produced through a somatic diversification process, and allowing for an enhanced secondary response to subsequent exposures to the same antigen (immunological memory).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1280218</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Adaptive_immune_system</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>acquired immune response</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>immune memory response</oboInOwl:hasExactSynonym>
@@ -140,10 +141,45 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0002251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+        <obo:IAO_0000115>An immune response taking place in an organ or tissues such as the liver, brain, mucosa, or nervous system tissues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>immune response in organ or tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002251</oboInOwl:id>
+        <rdfs:label>organ or tissue specific immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any process involved in the development or functioning of the immune system, an organismal system for calibrated responses to potential internal or invasive threats.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Immune_system</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002376</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_mouse"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_pir"/>
+        <rdfs:comment>Note that this term is a direct child of &apos;biological_process ; GO:0008150&apos; because some immune system processes are types of cellular process (GO:0009987), whereas others are types of multicellular organism process (GO:0032501).</rdfs:comment>
+        <rdfs:label>immune system process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0002385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002385">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002251"/>
         <obo:IAO_0000115>An immune response taking place in mucosal tissues, including those of the intestinal tract, nasal and upper respiratory tract, and genital tract.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <oboInOwl:hasAlternativeId>GO:0002386</oboInOwl:hasAlternativeId>
@@ -158,9 +194,68 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0002450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019882"/>
+        <obo:IAO_0000115>The process in which a B cell expresses antigen (peptide or lipid) on its cell surface in association with an MHC protein complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>B lymphocyte antigen processing and presentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B-cell antigen processing and presentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B-lymphocyte antigen processing and presentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002450</oboInOwl:id>
+        <rdfs:label>B cell antigen processing and presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019882"/>
+        <obo:IAO_0000115>The process in which a T cell expresses antigen (peptide or lipid) on its cell surface in association with an MHC protein complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasExactSynonym>T lymphocyte antigen processing and presentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T-cell antigen processing and presentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T-lymphocyte antigen processing and presentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002457</oboInOwl:id>
+        <rdfs:label>T cell antigen processing and presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019882"/>
+        <obo:IAO_0000115>The process in which a dendritic cell expresses antigen (peptide or lipid) on its cell surface in association with an MHC protein complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002468</oboInOwl:id>
+        <rdfs:label>dendritic cell antigen processing and presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002472">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019882"/>
+        <obo:IAO_0000115>The process in which a macrophage expresses antigen (peptide or lipid) on its cell surface in association with an MHC protein complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0002472</oboInOwl:id>
+        <rdfs:label>macrophage antigen processing and presentation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002376"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
         <obo:IAO_0000115>Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -168,6 +263,20 @@
         <oboInOwl:id>GO:0006955</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_drosophila"/>
         <rdfs:label>immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006959">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+        <obo:IAO_0000115>An immune response mediated through a body fluid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasDbXref>Wikipedia:Humoral_immunity</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0006959</oboInOwl:id>
+        <rdfs:label>humoral immune response</rdfs:label>
     </owl:Class>
     
 
@@ -220,6 +329,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0019882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019882">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002376"/>
+        <obo:IAO_0000115>The process in which an antigen-presenting cell expresses antigen (peptide or lipid) on its cell surface in association with an MHC protein complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0030333</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Antigen_presentation</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>antigen presentation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>antigen processing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0019882</oboInOwl:id>
+        <rdfs:label>antigen processing and presentation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991">
@@ -246,6 +372,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0045087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006955"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098542"/>
+        <obo:IAO_0000115>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0002226</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-168249</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Innate_immune_system</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>innate immunity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nonspecific immune response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0045087</oboInOwl:id>
+        <rdfs:label>innate immune response</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0050896 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050896">
@@ -265,6 +410,22 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_prokaryote_ribbon"/>
         <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.</rdfs:comment>
         <rdfs:label>response to stimulus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
+        <obo:IAO_0000115>Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus from another living organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:hasAlternativeId>GO:0009613</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0042828</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0051707</oboInOwl:id>
+        <rdfs:label>response to other organism</rdfs:label>
     </owl:Class>
     
 
@@ -354,6 +515,30 @@
         <oboInOwl:id>GO:0071753</oboInOwl:id>
         <rdfs:comment>Note that an IgM immunoglobulin complex has the function of antigen binding if a suitable antigen is available.</rdfs:comment>
         <rdfs:label>IgM immunoglobulin complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050896"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051707"/>
+        <obo:IAO_0000115>Reactions triggered in response to the presence of another organism that act to protect the cell or organism from damage caused by that organism.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22173</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <oboInOwl:created_by>dos</oboInOwl:created_by>
+        <oboInOwl:creation_date>2013-11-11T12:59:11Z</oboInOwl:creation_date>
+        <oboInOwl:hasAlternativeId>GO:0009814</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasNarrowSynonym>defence response incompatible interaction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>defence response to pathogen, incompatible interaction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>defense response, incompatible interaction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>resistance response to pathogen</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>GO:0098542</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/go#goslim_prokaryote"/>
+        <rdfs:label>defense response to other organism</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
