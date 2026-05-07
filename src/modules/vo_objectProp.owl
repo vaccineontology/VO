@@ -160,9 +160,11 @@ infection_of X = infection and has_part some (organism X and has_disposition som
     <!-- http://purl.obolibrary.org/obo/VO_0000462 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000462">
-        <obo:IAO_0000115>An object property that specifies a process that is induced by vaccination of a vaccine</obo:IAO_0000115>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <obo:IAO_0000115>An object property that specifies a process that is induced by a vaccine</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <rdfs:label>induced by vaccination of</rdfs:label>
+        <rdfs:label>induced by vaccine</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -566,10 +568,10 @@ The range of this relation is a organism.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0010396 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0010396">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0010395"/>
         <obo:IAO_0000117>Ellen Zhang</obo:IAO_0000117>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Xingxian Li</obo:IAO_0000117>
-        <obo:IAO_0000233>flu season</obo:IAO_0000233>
         <rdfs:label>has flu season</rdfs:label>
     </owl:ObjectProperty>
     
@@ -578,8 +580,8 @@ The range of this relation is a organism.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0015002 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0015002">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0015077"/>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000233>brand name</obo:IAO_0000233>
         <rdfs:label>has drug brand name</rdfs:label>
     </owl:ObjectProperty>
     
@@ -588,8 +590,8 @@ The range of this relation is a organism.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0015007 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0015007">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0015061"/>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000233>drug form</obo:IAO_0000233>
         <rdfs:label>has drug dose form</rdfs:label>
     </owl:ObjectProperty>
     
@@ -598,8 +600,8 @@ The range of this relation is a organism.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0015018 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0015018">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/VO_0015076"/>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000233>drug package</obo:IAO_0000233>
         <rdfs:label>has drug package</rdfs:label>
     </owl:ObjectProperty>
     
@@ -608,8 +610,8 @@ The range of this relation is a organism.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0015021 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0015021">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000233>organization</obo:IAO_0000233>
         <rdfs:label>has drug supplier</rdfs:label>
     </owl:ObjectProperty>
     
@@ -650,6 +652,12 @@ The range of this relation is a organism.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000718 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000718"/>
@@ -683,6 +691,30 @@ The range of this relation is a organism.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/VO_0001274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001274"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010395"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015061"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015076"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0015077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015077"/>
 </rdf:RDF>
 
 

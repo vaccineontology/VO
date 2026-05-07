@@ -44,7 +44,7 @@ VO:0001243,immunizes recipient,Object property,,immunization for host|vaccine im
 'processed material' and (is_specified_output_of some 'vaccine preparation') and ('has function' some ('vaccine function' and ('is realized by' only ('vaccine immunization' and (realizes some ('vaccine recipient role' and (role_of some 'organism')))))))).
 The domain of this relation is a vaccine.
 The range of this relation is a organism.",Asiyah Yu Lin|Oliver He|Barry Smith|Jie Zheng|Anna Maria Masci,,,vaccine,('organism' and 'has role' some 'vaccine recipient role'),
-VO:0000462,induced by vaccination of,Object property,,,An object property that specifies a process that is induced by vaccination of a vaccine,Oliver He,,,,,
+VO:0000462,induced by vaccine,Object property,,,An object property that specifies a process that is induced by a vaccine,Oliver He,,,process,vaccine,
 VO:0005312,induces immune profile,Object property,,,An object property that represents a relation between a material entity (such as vaccine or vaccine adjuvant) and an immune profile where the material entity can induce the immune profile in a host.,Oliver He|Amogh Madireddi,,,,,
 VO:0000445,infection_of,Object property,,,A relation between a disorder and an infectious pathogen.,Oliver He|Allen Xiang|Melanie Courtot|Bjoern Peters|Alan Ruttenburg,"The relation 'infection_of' is introduced to represent an infection caused by an infectious pathogen. A pathogen infection is a disorder. Since the number of pathogens is large, there are numerous infections. To make the description of a specific infection simple, the shortcut term 'infection_of' is defined: 
 infection_of X = infection and has_part some (organism X and has_disposition some infectious disposition)",,,,
@@ -54,11 +54,11 @@ VO:0000547,vaccinated in route,Object property,,,An object property that specifi
 VO:0005562,vaccine immunity response transferrable to organism,Object property,,,"A relation between a vaccine X and organism Y where the vaccine X generates an immune response in a vaccinated organism and the immune product (e.g., antibody) can be transferred to the organism Y",,,,,,
 VO:0000799,vaccine organism has mutation,Object property,,,"An object property that represents a mutational relation between a vaccine organism and another material (e.g., gene or protein). the mutated material initially exists in the original wildtype organism. ",Oliver He,,,,,
 VO:0000537,vaccine organism secretes,Object property,,,"An object property that indicates a secretion of a material (e.g., protein) from a vaccine organism.",Oliver He,,,vaccine,,
-VO:0015002,has drug brand name,Object property,,,,Jie Zheng,,,,,brand name
-VO:0015007,has drug dose form,Object property,,,,Jie Zheng,,,,,drug form
-VO:0015018,has drug package,Object property,,,,Jie Zheng,,,,,drug package
-VO:0015021,has drug supplier,Object property,,,,Jie Zheng,,,,,organization
-VO:0010396,has flu season,Object property,,,,Jie Zheng|Xingxian Li|Ellen Zhang,,,,,flu season
+VO:0015002,has drug brand name,Object property,,,,Jie Zheng,,,,drug brand name,
+VO:0015007,has drug dose form,Object property,,,,Jie Zheng,,,,drug dose form,
+VO:0015018,has drug package,Object property,,,,Jie Zheng,,,,drug package,
+VO:0015021,has drug supplier,Object property,,,,Jie Zheng,,,,organization,
+VO:0010396,has flu season,Object property,,,,Jie Zheng|Xingxian Li|Ellen Zhang,,,,flu season,
 VO:0003390,test in lab animal model,Object property,,,"A shortcut relation that is equivalent to:
 ('vaccine' and 'has function' some ('vaccine function' and ('is realized by' some ('vaccine immunization' and 'has participant' some ('organism' and 'has role' some 'laboratory animal model role'))))).
 The domain of this relation is a vaccine.

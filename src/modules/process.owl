@@ -172,6 +172,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0000462 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/VO_0000462"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -192,6 +198,72 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000144 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000144"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002250"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002251"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002385"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002450"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002457"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002468"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002472"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006959"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019882"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0045087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045087"/>
     
 
 
@@ -405,10 +477,27 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000012"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0002450"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002450"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>vaccine-induced B cell antigen processing and presentation</rdfs:label>
+        <rdfs:label>B cell vaccine antigen processing and presentation</rdfs:label>
     </owl:Class>
     
 
@@ -493,7 +582,24 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000106"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0002457"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002457"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>T cell vaccine antigen processing and presentation</rdfs:label>
@@ -524,10 +630,27 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0002250"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002250"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>vaccine-induced adaptive immune response</rdfs:label>
+        <rdfs:label>adaptive immune response to vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -809,11 +932,29 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000287">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006955"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000288"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An immune system process that is realized in the calibrated response of the recipient to a vaccine.</obo:IAO_0000115>
         <obo:IAO_0000116>The definition of this term is based on the definition of &apos;immune response (GO:0006955)&apos; . It is a child term of this GO term.</obo:IAO_0000116>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>vaccine immune response</obo:IAO_0000118>
         <obo:IAO_0000118>vaccine-induced host immune response</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>vaccine-induced immune response</rdfs:label>
@@ -1095,7 +1236,24 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000387 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000387">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000408"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0002385"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002385"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>mucosal immune response to vaccine</rdfs:label>
@@ -1119,7 +1277,24 @@
     <!-- http://purl.obolibrary.org/obo/VO_0000408 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000408">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0002251"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002251"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
         <rdfs:label>organ or tissue specific immune response to vaccine</rdfs:label>
@@ -1666,12 +1841,29 @@ The best way to determine if a vaccine is effective is to test it in a randomize
     <!-- http://purl.obolibrary.org/obo/VO_0000632 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000632">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000135"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006959"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006959"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Vaccine induced immue response mediated hrough a body fluid</obo:IAO_0000115>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <obo:IAO_0000118>vaccine-induced antibody mediated immune response</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>vaccine-induced humoral immune response</rdfs:label>
+        <rdfs:label>humoral immune response to vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -2878,10 +3070,27 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
     <!-- http://purl.obolibrary.org/obo/VO_0010461 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010461">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000287"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045087"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045087"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
-        <rdfs:label>vaccine-induced innate immune response</rdfs:label>
+        <rdfs:label>innate immune response to vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -3196,6 +3405,87 @@ http://www.medicines.org.uk/guides/priorix/Vaccinations%20%28all%29/ </rdfs:comm
         <obo:IAO_0000233>https://github.com/vaccineontology/VO/issues/845</obo:IAO_0000233>
         <oboInOwl:inSubset>immune response profile</oboInOwl:inSubset>
         <rdfs:label>immune signature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010504">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019882"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000288"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
+        <rdfs:label>vaccine antigen processing and presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010505">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0002468"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002468"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
+        <rdfs:label>dendritic cell vaccine antigen processing and presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010506">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0002472"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002472"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0000462"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:inSubset>vaccine-induced response</oboInOwl:inSubset>
+        <rdfs:label>macrophage vaccine antigen processing and presentation</rdfs:label>
     </owl:Class>
     
 
