@@ -3607,6 +3607,18 @@ of minimal anatomy terminology and NCBI taxonomy... Eventually, this term chicke
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0010510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0010507"/>
+        <obo:IAO_0000115>A polysaccharide vaccine role inheres in a vaccine designed to protect against Gram-negative bacterial infections by targeting the sugar complexes embedded in the pathogen&apos;s outer cell membrane.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <oboInOwl:inSubset>vaccine role</oboInOwl:inSubset>
+        <rdfs:label>lipopolysaccharide vaccine role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0015061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0015061">
