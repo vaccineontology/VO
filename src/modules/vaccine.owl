@@ -255,12 +255,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16412 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16412"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_16842 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16842"/>
@@ -414,12 +408,6 @@
     <!-- http://purl.obolibrary.org/obo/DOID_11054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11054"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_11077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11077"/>
     
 
 
@@ -1893,24 +1881,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_234 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_234"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_235 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_236 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_236"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560319"/>
@@ -1992,18 +1962,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_29176 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29176"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29459 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29461 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29461"/>
     
 
 
@@ -2892,12 +2850,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9900 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9900"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9901 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9901"/>
     
 
 
@@ -3946,239 +3898,6 @@ Reference: http://www.violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=157&
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>killed vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000018 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000154"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A Brucella abortus vaccine that expresses Cu/Zn SOD with DNA plasmid pcDNA. </obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>PMID:15039330</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus DNA vaccine pcDNA-SOD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000794"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9901"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/VO_0000890"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Brucella abortus vaccine RB51 is a Brucella abortus vaccine that is licensed in the USA since 1992.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus RB51</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella RB-51</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella RB51</obo:IAO_0000118>
-        <obo:IAO_0000118>SRB51</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:10534009</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:11193615</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:11500423</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:11504226</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:11504238</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:11553603</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:11768128</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:12119140</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:12438380</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:12704101</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:1439207</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:16713034</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:17653832</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:17894637</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:18836016</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:1908158</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:19362381</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:19439382</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:7622248</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:7806364</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:7927779</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:8039890</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:8740701</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:8890203</obo:IAO_0000119>
-        <obo:IAO_0000119>WEB: http://rb51.com</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus vaccine RB51</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A live attenuated Brucella abortus vaccine that is licensed and used in many countries.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>Brucella S19</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella strain-19</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:11058778</obo:IAO_0000119>
-        <obo:IAO_0000119>PMID:8039890</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus vaccine strain 19</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000025">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_234"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000165"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_234"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A vaccine that protects against Brucella that causes brucellosis in animals and humans.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>brucellosis vaccine</obo:IAO_0000118>
-        <oboInOwl:hasDbXref>MeSH: D002004</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -8902,40 +8621,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000108">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000109">
@@ -9776,12 +9461,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000154 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000154"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000160">
@@ -9876,12 +9555,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>bacterial vaccine</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000166 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000166"/>
     
 
 
@@ -10302,86 +9975,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000300 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000300">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis strain VTRM1</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis strain VTRM1 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000303 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000303">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001136"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. suis VTRS1</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella suis strain VTRS1</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17428946</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella suis strain VTRS1 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000307 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000307">
@@ -10460,86 +10053,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000311 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000311">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001223"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16412"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis lipopolysaccharide vaccine</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis lipopolysaccharide vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000312 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000312">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001223"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis LPS-GBOMP noncovalent complex vaccine</obo:IAO_0000118>
-        <obo:IAO_0000118>B. melitensis LPS-GBOMP subunit vaccine</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:8723881</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis LPS-GBOMP noncovalent complex vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000315">
@@ -10567,141 +10080,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
         <obo:IAO_0000118>killed vaccine</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>inactivated vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000321 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000321">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000154"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus DNA vaccine expressing BCSP31, SOD and L7/L12</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17570767</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus DNA vaccine encoding BCSP31, SOD and L7/L12</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000323 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000956"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010928"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>recombinant B. abortus L7/L12 vaccine</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:8873388</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus conjugate vaccine using L7/L12</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001226"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010939"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis DNA vaccine encoding Omp31</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17428946</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis DNA vaccine encoding Omp31</rdfs:label>
     </owl:Class>
     
 
@@ -10738,64 +10116,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     <!-- http://purl.obolibrary.org/obo/VO_0000333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000333"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000338 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000338">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0002561"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A B. melitensis vaccine that is recombinant B. melitensis Rev. 1 vaccine with the bp26 deletion. It has similar vaccine efficacy to Rev. 1. Its advantage compared to Rev. 1 is that this feature of bp26 deletion promotes diagnosis. PMID:17070627.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis bp26 deletion vaccine</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella CGV26</obo:IAO_0000118>
-        <obo:IAO_0000118>CGV26</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:16519974</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis bp26 deletion vaccine</rdfs:label>
-    </owl:Class>
     
 
 
@@ -10858,86 +10178,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     <!-- http://purl.obolibrary.org/obo/VO_0000344 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000344"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000345 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000345">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis WR201</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis WR201 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000347 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000347">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus bacA mutant</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella abortus bacA mutant</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17196866</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus bacA mutant vaccine</rdfs:label>
-    </owl:Class>
     
 
 
@@ -11125,50 +10365,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000358 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>Brucella rSurA protein vaccine</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella recombinant SurA protein</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17686554</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella recombinant SurA protein vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000362">
@@ -11302,177 +10498,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>profertility vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000373 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000373">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000119>PMID:17686554</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella recombinant DnaK protein vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000374 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000374">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>divalent DNA B. abortus vaccine using L7/L12 and Omp16</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:16622210</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>divalent DNA Brucella abortus vaccine using L7/L12 and Omp16</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000385 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000385">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus DNA vaccine encoding L7/L12 and P39</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:16537031</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus DNA vaccine encoding L7/L12 and P39</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000386 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000386">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>attenuated Brucella abortus with deletion of znuA</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:16790759</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>attenuated Brucella abortus with deletion of znuA vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -11665,51 +10690,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000398 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000398">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A live attenuated Brucella melitensis vaccine that is composed of live Brucella melitensis attenuated mutant vjbR::Tn5 (BMEII1116) delivered using a microsphere delivery system.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>microencapsulated B. melitensis mutant vaccine</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:18362129</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:comment>The deletion of vjbR gene in Brucella melitensis strain 16M made a live attenuated vaccine and provided significance protection against mice</rdfs:comment>
-        <rdfs:label>microencapsulated Brucella melitensis mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000400 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000400">
@@ -11763,82 +10743,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/AIDSVAX</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>AIDSVAX vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000403 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000403">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>complex of porin and S-LPS from  B. abortus strain 2308</obo:IAO_0000118>
-        <obo:IAO_0000118>porin-S-LPS from B. abortus strain 2308</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:2844673</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>porin-S-LPS from Brucella abortus strain 2308 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000404 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000404">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus RB51WboA</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella abortus RB51WboA</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:15327798</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus RB51WboA vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -11900,55 +10804,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
         <obo:IAO_0000118>AIDSVAX B/E</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>AIDSVAX B/E vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000407 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000407">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000957"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000166"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>recombinant O. anthropi 49237SOD</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:11953393</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>recombinant O. anthropi 49237SOD vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -12064,138 +10919,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
         <rdfs:comment>ATC code:J07BB02</rdfs:comment>
         <rdfs:comment>As well as the active antigen derived from A/California/7/2009 (H1N1), the vaccine contains an immunologic adjuvant AS03 which consists of DL-alpha-tocopherol (vitamin E), squalene and polysorbate 80. Thiomersal (thimerosal) is added as a preservative. Being manufactured in chicken eggs, it contains trace amounts of egg proteins. Additional important non-medicinal ingredients are formaldehyde, sodium deoxycholate, and sucrose. (http://en.wikipedia.org/wiki/Pandemrix)</rdfs:comment>
         <rdfs:label>Pandemrix vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000411 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000411">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001223"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis Bp26 and Tf protein vaccine</obo:IAO_0000118>
-        <obo:IAO_0000118>B. melitensis Bp26 and trigger factor</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17239499</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis Bp26 and Tf protein vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000412 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000412">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001223"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010948"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A Brucella subunit vaccine that uses recombinant Brucella melitensis 16M P39, a putative periplasmic binding protein.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis P39 recombinant protein vaccine</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:11447155</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis P39 recombinant protein vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000413 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000413">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>rBLSOmp31</obo:IAO_0000118>
-        <obo:IAO_0000118>recombinant chimera BLSOmp31</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17442465</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>recombinant chimera BLSOmp31 vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -12419,48 +11142,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000421 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000421">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010927"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus pcDNA-BLS</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus pcDNA-BLS</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000422 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000422">
@@ -12489,44 +11170,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
         <oboInOwl:hasDbXref>UMLS_CUI:C0796561</oboInOwl:hasDbXref>
         <oboInOwl:inSubset>cancer vaccine</oboInOwl:inSubset>
         <rdfs:label>melanoma vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000423 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000423">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>escheriosome-encapsulated B. abortus L7/L12</obo:IAO_0000118>
-        <obo:IAO_0000118>escheriosome-mediated delivery of B. abortus L7/L12</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17931756</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>escheriosome-mediated delivery of Brucella abortus L7/L12 vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -12801,49 +11444,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000436 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000436">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001226"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis DNA vaccine encoding Omp31 boosted with Omp31</obo:IAO_0000118>
-        <obo:IAO_0000118>pCIBLSOmp31</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis DNA vaccine encoding Omp31 boosted with Omp31</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000437 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000437">
@@ -12973,49 +11573,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
         <obo:IAO_0000119>WEB: http://www.jefferspet.com/%252332moraxella-bovis-bacterin-piliguard-pinkeye-1-trivalent/camid/liv/cp/16435/</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Moraxella Bovis Bacterin Piliguard Pinkeye-1 trivalent vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000450 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000450">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>Brucella vaccine using nonpathogenic alphaproteobacteria</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17715332</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>NPAP Brucella vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -16003,51 +14560,6 @@ https://www.fda.gov/BiologicsBloodVaccines/Vaccines/ApprovedProducts/ucm112854.h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000633 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000633">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A B. melitensis vaccine that is recombinant B. melitensis Rev. 1 vaccine with the p39 gene deletion.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis Rev. 1 P39 deletion mutant</obo:IAO_0000118>
-        <obo:IAO_0000118>B. melitensis Rev. 1 with P39 deletion</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:9784574</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis Rev. 1 with P39 deletion vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000635 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000635">
@@ -17671,108 +16183,6 @@ However, even this may not be comprehensive. </rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000709 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000709">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000710 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000710">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010963"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9935"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>Brucella melitensis Rev 1</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella melitensis Rev. 1B. melitensis strain Rev. 1</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:13416171</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis strain Rev. 1 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000712 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000712">
@@ -17837,168 +16247,6 @@ However, even this may not be comprehensive. </rdfs:comment>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Canada licensed human vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000720 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000720">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000154"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus strain RB51SOD</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella abortus strain RB51SOD</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:10816475</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus strain RB51SOD vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000721 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000721">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29461"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Brucella vaccine against infection wtih B. suis</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella suis vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000722 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000722">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001136"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000630"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9823"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An orally administrable brucellosis vaccine that was was developed in China. It is effective for oral vaccination of sheep, goats, cattle and pigs.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>Brucella suis S2</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella suis strain 2</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:3541425</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella suis strain 2 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000723 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000723">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9940"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus strain 45/20</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella abortus strain 45/20</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:8236802</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus strain 45/20 vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -20369,12 +18617,6 @@ However, even this may not be comprehensive. </rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000794 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000794"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000807 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000807"/>
@@ -20687,45 +18929,6 @@ However, even this may not be comprehensive. </rdfs:comment>
         <obo:IAO_0000119>PMID:15258286</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>DNA and poxvirus priming-boosting SIV vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000826 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000826">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A B. abortus vaccine that is recombinant B. abortus strain 19 vaccine with the p39 gene deletion.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus S19 P39 deletion mutant</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella abortus S19 with P39 deletion</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:9784574</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus S19 with P39 deletion vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -23557,89 +21760,6 @@ marker vaccine</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0000956 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000956">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000108"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000625"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>B. abortus vaccine that uses a conjugate vaccine format</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus conjugate vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0000957 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000957">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000108"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>B. abortus vaccine that uses a recombinant vector. </obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>Herpes simplex virus type 1</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus recombinant vector vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0000958 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000958">
@@ -26147,47 +24267,6 @@ marker vaccine</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0001127 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001127">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000025"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_234"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>live attenuated Brucella vaccine is a live attenuated vaccine that protects against a Brucella infection.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>live attenuated Brucella vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0001130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001130">
@@ -26213,129 +24292,6 @@ marker vaccine</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Actinobacillus pleuropneumoniae vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001134 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001134">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000108"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>live attenuated Brucella vaccine is a live attenuated vaccine that protects against a Brucella abortus infection.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>live attenuated Brucella abortus vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001135 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001135">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000709"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>live attenuated Brucella vaccine is a live attenuated vaccine that protects against a Brucella melitensis infection.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>live attenuated Brucella melitensis vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001136 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001136">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000721"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000721"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29461"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>live attenuated Brucella vaccine is a live attenuated vaccine that protects against a Brucella suis infection.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>live attenuated Brucella suis vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -26482,37 +24438,6 @@ marker vaccine</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0001144 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001144">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001226"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>pCIBLSOmp31</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17600596</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella DNA vaccine encoding chimera BLSOmp31</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0001151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001151">
@@ -26600,33 +24525,6 @@ marker vaccine</obo:IAO_0000116>
         <obo:IAO_0000118>Androvax</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Androvax vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001154 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000323"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>B. abortus L7/L12 is a B. abortus subunit vaccine using L7/L12 that is formed by recombinant Human Serum Albumin (HAS)-L7/L12 fusion protein.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus HSA-L7/L12</obo:IAO_0000118>
-        <obo:IAO_0000118>Brucella abortus Human serum albumin (HAS)-L7/L12</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:19293473</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus HSA-L7/L12 vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -26893,135 +24791,6 @@ marker vaccine</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>E. coli DNA vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001171 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001171">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0002561"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0002567"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>B. melitensis bp26 and omp31 deletion vaccine is a Brucella melitensis vaccine that has double deletions of bp26 and omp31.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis Rev. 1 with bp26 and omp31 deletions</obo:IAO_0000118>
-        <obo:IAO_0000118>CGV2631</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17070627</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis Rev. 1 with bp26 and omp31 deletions vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001172 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000325"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>pCIOmp31 is a B. melitensis DNA vaccine expressing Omp31 that uses the pCI plasmid.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>pCIOmp31</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:16177328</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>pCIOmp31 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001173 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000325"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>pTargeTomp31 is a B. melitensis DNA vaccine expressing Omp31  that uses the pTargeT mammalian expression system vector (Promega, USA).</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>pTargeTomp31</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:17014873</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>pTargeTomp31 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001175 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000323"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>B. abortus L7/L12 fused to MBP is a B. abortus subunit vaccine using L7/L12 that uses recombinant L7/L12 fused on maltose binding protein MBP.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus L7/L12 fused to MBP</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:8873388</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus L7/L12 fused to MBP vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -27383,34 +25152,6 @@ marker vaccine</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0001208 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001208">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000323"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>B. abortus BLS-L7/L12 is a B. abortus subunit vaccine using L7/L12 that is made as a recombinant BLS-L7/L12 fusion protein vaccine.</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus BLS-L7/L12</obo:IAO_0000118>
-        <obo:IAO_0000118>recombinant Brucella BLS-L7/L12 fusion protein vaccine</obo:IAO_0000118>
-        <obo:IAO_0000118>recombinant Brucella lumazine synthase and L7/L12 fusion protein vaccine</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:19596411</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus BLS-L7/L12 vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0001210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001210">
@@ -27642,47 +25383,6 @@ marker vaccine</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0001221 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001221">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000108"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>a B. abortus vaccine that uses subunit antigen</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus subunit vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0001222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001222">
@@ -27718,46 +25418,6 @@ marker vaccine</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0001223 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001223">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000709"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis subunit vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0001224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001224">
@@ -27785,86 +25445,6 @@ marker vaccine</obo:IAO_0000116>
         <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Viral hemorrhagic septicemia virus vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001225 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001225">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000108"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus DNA vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001226 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001226">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000709"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis DNA vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -28541,96 +26121,6 @@ marker vaccine</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0001256 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001256"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000118>Brucella BFR antigen vaccine</obo:IAO_0000118>
-        <obo:IAO_0000118>recombinant Brucella abortus Bfr protein vaccine</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:11447155</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus subunit vaccine using Bfr</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001326 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001326">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000118>Brucella abortus Omp16 vaccine</obo:IAO_0000118>
-        <obo:IAO_0000119>PMID:18981242</obo:IAO_0000119>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus subunit vaccine using Omp16</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001327 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001327">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001226"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000118>B. melitensis DNA vaccine encoding Bp26 and Tf</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis DNA vaccine encoding Bp26 and Tf</rdfs:label>
-    </owl:Class>
     
 
 
@@ -33427,165 +30917,6 @@ marker vaccine</obo:IAO_0000116>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Bovine Virus Diarrhea Modified Live Virus Vaccine (USDA: 1201.22)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001575 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001575">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000022"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000439"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/VO_0000890"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella Abortus Strain 19, Live Culture Vaccine (USDA: 1251.01)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001576 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001576">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000022"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000439"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/VO_0000890"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella Abortus Strain 19, Live Culture, Reduced Dose Vaccine (USDA: 1251.02)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0001577 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001577">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000021"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000452"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000439"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/VO_0000890"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella Abortus Strain RB-51, Live Culture Vaccine (USDA: 1261.00)</rdfs:label>
     </owl:Class>
     
 
@@ -71025,30 +68356,6 @@ Recommendations for the production and control of influenza vaccine (inactivated
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0002561 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002561"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0002565 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002565"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0002566 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002566"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0002567 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002567"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0002766 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002766">
@@ -72163,35 +69470,6 @@ Recommendations for the production and control of influenza vaccine (inactivated
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0002810 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002810">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus and B. melitensis mutants with unmarked deletion of asp24, virB2, or manBA</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:comment>A asp24 mutation in Brucella abortus is attenuated and provides significant protection in mice</rdfs:comment>
-        <rdfs:comment>A virB2 mutant is attenuated in Brucella melitensis and provides protection in mice</rdfs:comment>
-        <rdfs:comment>Mutants manB and manA were attenuated in Brucella melitensis and provided protection against challenge in mice&apos;s livers</rdfs:comment>
-        <rdfs:comment>Unmarked rough B. abortus and B. melitensis deletion mutants of manBA (including manA and manB) were attenuated. These mutants provided protection against virulent Brucella challenge in mice</rdfs:comment>
-        <rdfs:label>Brucella abortus and Brucella melitensis mutants with unmarked deletion of asp24, virB2, or manBA vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0002811 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002811">
@@ -72229,144 +69507,6 @@ Recommendations for the production and control of influenza vaccine (inactivated
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0002812 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002812">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:comment>Brucella DeltaexsA mutant showed decreased survival in mice compared to the survival of parental strain S2308. This demonstrated that ExsA is critical for full bacterial virulence. The B. abortus exsA deletion mutant was used as a live vaccine candidate. Challenge experiments revealed that the exsA mutant strain induced superior protective immunity in BALB/c mice compared to the protective immunity induced by strain S19 or RB51</rdfs:comment>
-        <rdfs:label>Brucella abortus exsA mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0002818 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002818">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:comment>A pgk mutant is attenuated in mice and induces significant protection from challenge with wild type B. abortus</rdfs:comment>
-        <rdfs:label>Brucella abortus pgk mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0002819 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002819">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:comment>A pgm mutant is attenuated in mice and induces significant protection from challenge with wild type B. abortus</rdfs:comment>
-        <rdfs:label>Brucella abortus pgm mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0002820 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002820">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001135"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis WR201 (16MΔpurEK)</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:comment>A purE/purK mutant of B. melitensis 16M was attenuated in mice when given intraperitoneally. Nine weeks after immunization, mice were protected from challenge with wild type B. melitensis</rdfs:comment>
-        <rdfs:comment>Mice infected with delta purE201 developed only five to eight times normal spleen weight at 1 week p.i. and produced no interleukin-6 in their serum, which is much lower than the mice infected with the parental strain (16M)</rdfs:comment>
-        <rdfs:label>Brucella melitensis WR201 (16MΔpurEK) vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0002823 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002823">
@@ -72400,38 +69540,6 @@ Recommendations for the production and control of influenza vaccine (inactivated
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pubmed/12956615</obo:IAO_0000119>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>arthritis vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0002824 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002824">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001134"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <obo:IAO_0000118>live attenuated B. abortus with deletion of znuA</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:comment>Deletion of gene znuA attenuates Brucella abortus and this live attenuated vaccine was challenged in mice. These mice showed significantly fewer spenic CFU</rdfs:comment>
-        <rdfs:label>live attenuated Brucella abortus with deletion of znuA vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -74691,41 +71799,6 @@ Recommendations for the production and control of influenza vaccine (inactivated
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:comment>An envZ mutant (SC433) is greatly decreased in virulence in macaque monkeys, though some mild clinical signs were still recorded. This mutant is also highly protective against a challenge of wild type S. flexneri delivered 1 month after inoculation</rdfs:comment>
         <rdfs:label>Shigella flexneri envZ mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0002925 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002925">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_236"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000025"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_236"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>a Brucella vaccine against infection wtih B. ovis</obo:IAO_0000115>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella ovis vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -131124,153 +128197,6 @@ over.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0004000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0002561"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis bp26 mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0002566"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A omp25 mutant is attenuated and provides protection against challenge in mice</obo:IAO_0000115>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis omp25 mutant vaccine</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis omp25 mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0002567"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A omp31 mutant in Brucella melitensis was attenuated and provided protection against challenge in mice</obo:IAO_0000115>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis omp31 mutant vaccine</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis omp31 mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0004003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004003">
@@ -135633,69 +132559,6 @@ over.</obo:IAO_0000115>
         <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>shiga toxin 2 B subunit vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004146 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0002925"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_236"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella ovis microparticle subunit vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>Live, Attenuated Rifampin-Resistant Rough Mutants of Brucella melitensis</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>live, attenuated Rifampin-resistant rough mutants of Brucella melitensis vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -140151,58 +137014,6 @@ over.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0004277 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004277">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001039"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0002565"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A mucR mutant has a significantly reduced degree of colonization in mice and protects against wild type B. melitensis 16M</obo:IAO_0000115>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis mucR mutant vaccine</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis mucR mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0004278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004278">
@@ -140443,43 +137254,6 @@ over.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0004283 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004283">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus S19 vjbR mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0004284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004284">
@@ -140507,88 +137281,6 @@ over.</obo:IAO_0000115>
         <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>African Swine Fever Virus 9GL mutant vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004285 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004285">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>Recombinant B. abortus CobB protein with CFA/IFA adjuvant</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>recombinant Brucella abortus CobB protein vaccine with CFA/IFA adjuvant</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004286 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004286">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000636"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>Recombinant B. abortus AsnC protein with CFA/IFA adjuvant</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>recombinant Brucella abortus AsnC protein vaccine with CFA/IFA adjuvant</rdfs:label>
     </owl:Class>
     
 
@@ -144782,270 +141474,6 @@ over.</obo:IAO_0000115>
         <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Marburg virus recombinant vector vaccine MBGV GP</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004392 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004392">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus DNA vaccine pcDNA3.1-p39-L7/L12 encoding p39-L7/L12 fusion protein</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus DNA vaccine pcDNA3.1-p39-L7/L12 encoding p39-L7/L12 fusion protein</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004393 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004393">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus DNA vaccine pcDNA3-SOD encoding Cu-Zn SOD</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus DNA vaccine pcDNA3-SOD encoding Cu-Zn SOD</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004394 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004394">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis DNA vaccine pCI-Omp31</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis DNA vaccine pCI-Omp31</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004395 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004395">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis DNA vaccine pCIBLSOmp31 encoding BLSOmp31 (fusion protein)</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis DNA vaccine pCIBLSOmp31 encoding BLSOmp31 (fusion protein)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004396 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004396">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis DNA vaccine p-Omp25</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis DNA vaccine p-Omp25</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004397 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004397">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000709"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29459"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. melitensis DNA vaccine p-ialB</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella melitensis DNA vaccine p-ialB</rdfs:label>
     </owl:Class>
     
 
@@ -151038,50 +147466,6 @@ over.</obo:IAO_0000115>
         <obo:IAO_0000118>B. pertussis DNA vaccine pcDNA/S1</obo:IAO_0000118>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Borrelia pertussis DNA vaccine pcDNA/S1</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0004546 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0004546">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000108"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000117>Ronak Sutariya</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus DNA vaccine pVF278</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus DNA vaccine pVF278</rdfs:label>
     </owl:Class>
     
 
@@ -234718,12 +231102,6 @@ immunogen: ROT</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0010908 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010908"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0010910 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010910"/>
@@ -234802,18 +231180,6 @@ immunogen: ROT</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0010927 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010927"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010928 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010928"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0010936 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010936"/>
@@ -234823,12 +231189,6 @@ immunogen: ROT</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0010937 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010937"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010939 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010939"/>
     
 
 
@@ -234853,12 +231213,6 @@ immunogen: ROT</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0010944 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010944"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010948 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010948"/>
     
 
 
@@ -234901,12 +231255,6 @@ immunogen: ROT</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0010960 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010960"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010963 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010963"/>
     
 
 
@@ -237362,49 +233710,6 @@ immunogen: ROT</obo:IAO_0000116>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Bovine leukemia virus DNA vaccine encoding Tax</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0011380 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011380">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001225"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010908"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
-        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>B. abortus DNA vaccine encoding RplL and Omp16</obo:IAO_0000118>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus DNA vaccine encoding RplL and Omp16</rdfs:label>
     </owl:Class>
     
 
