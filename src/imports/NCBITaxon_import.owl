@@ -1169,6 +1169,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2732545"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000004"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Flavivirus (arbovirus group B)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Flaviviridae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11072">
@@ -1550,6 +1565,22 @@
         <oboInOwl:hasExactSynonym>human RSV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>human respiratory syncytial virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11157"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000004"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:11267</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Filovirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Filoviridae</rdfs:label>
     </owl:Class>
     
 
@@ -2548,6 +2579,23 @@
         <oboInOwl:hasRelatedSynonym>Roccus labrax</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sciaena labrax</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Dicentrarchus labrax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203692"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000003"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11075904</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11542017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:1917844</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Spirochaetales</rdfs:label>
     </owl:Class>
     
 
@@ -4385,6 +4433,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000005"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <oboInOwl:hasDbXref>GC_ID:11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28066370</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32373076</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35335701</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37395662</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:8573514</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Brucella</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_235">
@@ -4479,6 +4546,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11158"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000024"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:260963</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Avulavirinae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560076">
@@ -4493,10 +4575,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11158"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000024"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_subfamily"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:39744</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Rubulavirinae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560319">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560069"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:11176</oboInOwl:hasAlternativeId>
         <oboInOwl:hasBroadSynonym>NDV</oboInOwl:hasBroadSynonym>
@@ -4517,7 +4614,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560602 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560602">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560080"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <oboInOwl:hasAlternativeId>NCBITaxon:11161</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>NCBITaxon:1979165</oboInOwl:hasAlternativeId>
@@ -5252,7 +5349,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3044472 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3044472">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_548681"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000004"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
@@ -5268,7 +5365,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3044782 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3044782">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2732545"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11050"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000005"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
@@ -5278,6 +5375,40 @@
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Flavivirus</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Orthoflavivirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3044783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3044783">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11266"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000005"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:186537</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Marburgvirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Orthomarburgvirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3045051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3045051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11266"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000006"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+        <oboInOwl:hasAlternativeId>NCBITaxon:11268</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:205488</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>NCBITaxon:2809377</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Ebolavirus sp.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Orthoebolavirus sp.</rdfs:label>
     </owl:Class>
     
 
@@ -5974,7 +6105,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3703990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3703990">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28211"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_234"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000010"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon#_species_group"/>
@@ -6693,6 +6824,20 @@
         <oboInOwl:hasExactSynonym>Brucella melitensis strain ATCC 23457</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Brucella melitensis ATCC 23457</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_548681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_548681">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000003"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_order"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Herpesvirales</rdfs:label>
     </owl:Class>
     
 
@@ -7856,7 +8001,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_64895 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_64895">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203692"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_136"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000005"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
