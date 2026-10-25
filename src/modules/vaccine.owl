@@ -801,12 +801,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_9210 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9210"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_9256 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9256"/>
@@ -1755,12 +1749,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_186537 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1891747 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1891747"/>
@@ -1827,12 +1815,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_205488 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_206351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_206351"/>
@@ -1881,6 +1863,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560069"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560080"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560319"/>
@@ -1890,12 +1884,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2560602 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2560602"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_260963 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_260963"/>
     
 
 
@@ -1980,6 +1968,18 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_29546 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29546"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3044783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3045051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
     
 
 
@@ -2082,12 +2082,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_38568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_38568"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39744 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39744"/>
     
 
 
@@ -16313,7 +16307,7 @@ However, even this may not be comprehensive. </rdfs:comment>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -16328,7 +16322,7 @@ However, even this may not be comprehensive. </rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A viral vaccine that protects against infection with Ebola virus.</obo:IAO_0000115>
@@ -18226,7 +18220,7 @@ However, even this may not be comprehensive. </rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An Ebola virus vaccine that is composed of VEE replicon particle (VRP) encoding Ebola virus GP protein.</obo:IAO_0000115>
@@ -18263,7 +18257,7 @@ However, even this may not be comprehensive. </rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18308,7 +18302,7 @@ However, even this may not be comprehensive. </rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18353,7 +18347,7 @@ However, even this may not be comprehensive. </rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18398,7 +18392,7 @@ However, even this may not be comprehensive. </rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -18449,7 +18443,7 @@ However, even this may not be comprehensive. </rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -28828,6 +28822,17 @@ marker vaccine</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/VO_0001527 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001527">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560069"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000609"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -28838,7 +28843,7 @@ marker vaccine</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_260963"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>viral vaccine that is used to protect against Avian Paramyxovirus infection</obo:IAO_0000115>
@@ -32098,7 +32103,7 @@ marker vaccine</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_260963"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -32145,7 +32150,7 @@ marker vaccine</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_260963"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -66813,7 +66818,7 @@ marker vaccine</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_260963"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Asiyah Yu Lin</obo:IAO_0000117>
@@ -96832,7 +96837,7 @@ over.</obo:IAO_0000115>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39744"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560080"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -96841,7 +96846,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39744"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560080"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine that is used against an infection by a pathogen under Rubulavirus.</obo:IAO_0000115>
@@ -129492,7 +129497,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -129547,7 +129552,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -130801,7 +130806,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -130826,7 +130831,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -131867,7 +131872,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -131887,7 +131892,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -132055,7 +132060,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -132081,7 +132086,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -132101,7 +132106,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -132127,7 +132132,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -132179,7 +132184,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -132328,7 +132333,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -132347,7 +132352,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -135142,7 +135147,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_260963"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2560069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -139214,7 +139219,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -139257,7 +139262,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -139295,7 +139300,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -139333,7 +139338,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -141053,7 +141058,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -141096,7 +141101,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -141139,7 +141144,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -141182,7 +141187,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -141231,7 +141236,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -141318,7 +141323,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -141367,7 +141372,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -141398,7 +141403,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -141429,7 +141434,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -141460,7 +141465,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -148134,7 +148139,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -150493,7 +150498,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -150801,7 +150806,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -150891,7 +150896,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -150917,7 +150922,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -150943,7 +150948,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -150975,7 +150980,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -151372,7 +151377,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An Ebola virus vaccine that uses a recombinant vesicular stomatitis virus (rVSV) vector expressing an Ebola filovirus glycoprotein</obo:IAO_0000115>
@@ -151404,7 +151409,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -153085,7 +153090,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -155744,7 +155749,7 @@ over.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Ningxian Fan</obo:IAO_0000117>
@@ -179113,7 +179118,7 @@ administered prior to exposure or within two weeks after exposure.</obo:IAO_0000
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>Ebola unspecified</obo:IAO_0000118>
@@ -221020,7 +221025,7 @@ Immunization Route: Intramuscular injection (i.m.)</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -233937,7 +233942,7 @@ immunogen: ROT</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An Ebola virus vaccine that is composed of VEE replicon particle (VRP) encoding Ebola virus NP protein.</obo:IAO_0000115>
@@ -234144,7 +234149,7 @@ immunogen: ROT</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
@@ -236691,7 +236696,7 @@ immunogen: ROT</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3045051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>Allen Xiang</obo:IAO_0000117>
@@ -240478,7 +240483,7 @@ immunogen: ROT</obo:IAO_0000116>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -240487,7 +240492,7 @@ immunogen: ROT</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186537"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3044783"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A vaccine that protects against Marburg Virus.</obo:IAO_0000115>
@@ -444066,12 +444071,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -444163,12 +444162,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -449101,12 +449094,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -449198,12 +449185,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -449305,12 +449286,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -450068,12 +450043,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -450165,12 +450134,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -450272,12 +450235,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -450921,12 +450878,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -451033,12 +450984,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -451141,12 +451086,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -454407,12 +454346,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -454504,12 +454437,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -455498,12 +455425,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -455595,12 +455516,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -456886,12 +456801,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -456998,12 +456907,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -457095,12 +456998,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -459539,12 +459436,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -459858,12 +459749,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -459937,12 +459822,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -513676,12 +513555,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -567655,12 +567528,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -629620,12 +629487,6 @@ immunogen: ROT</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001243"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
@@ -629723,12 +629584,6 @@ immunogen: ROT</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8781"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
