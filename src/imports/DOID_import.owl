@@ -42,12 +42,6 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
@@ -96,9 +90,21 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
     
 
 
@@ -203,7 +209,7 @@
         <oboInOwl:hasDbXref>ICD10CM:A84.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:063.2</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D004675</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:16901001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:16901001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0014054</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Central European encephalitis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Far Eastern TBE</oboInOwl:hasExactSynonym>
@@ -257,7 +263,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
         <obo:IAO_0000115 xml:lang="en">A cancer that is classified based on the organ it starts in.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>snadendla</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-06-13T03:28:33Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>MESH:D009371</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -274,7 +279,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
         <obo:IAO_0000115 xml:lang="en">A cancer that is classified by the type of cell from which it is derived.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>snadendla</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-06-13T03:28:50Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0050687</oboInOwl:id>
@@ -290,7 +294,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_707"/>
         <obo:IAO_0000115 xml:lang="en">A B-cell lymphocytic neoplasm due to CD5 positive antigen-naive pregerminal center B-cell within the mantle zone that surrounds normal germinal center follicles.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date>2012-09-18T02:00:45Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>GARD:6969</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICDO:9673/3</oboInOwl:hasDbXref>
@@ -318,8 +321,8 @@
         <oboInOwl:hasDbXref>MESH:D008223</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3208</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7065</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:118600007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:414628006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:269627002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:414628006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024299</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0598798</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">lymphoid cancer</oboInOwl:hasExactSynonym>
@@ -340,7 +343,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
         <obo:IAO_0000115 xml:lang="en">An immune system cancer that is located_in the lymphatic system and is characterized by uncontrolled cellular proliferation of lymphoid tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-05-11T01:05:14Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0060073</oboInOwl:id>
@@ -356,7 +358,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2914"/>
         <obo:IAO_0000115 xml:lang="en">An organ system cancer located_in the immune system that is characterized by uncontrolled cellular proliferation in organs of the immune system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-06-08T01:11:18Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>ICDO:9392/3</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -374,7 +375,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
         <obo:IAO_0000115 xml:lang="en">An organ system benign neoplam that is located_in the thoracic cavity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-07-15T01:55:57Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0060097</oboInOwl:id>
@@ -390,7 +390,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_17"/>
         <obo:IAO_0000115 xml:lang="en">An organ system cancer located_in the muscular and skeletal organs and characterized by uncontrolled cellular proliferation of the musculoskeletal organs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-07-15T02:30:51Z</oboInOwl:creation_date>
         <oboInOwl:hasAlternativeId>DOID:0060124</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym xml:lang="en">skeletal system cancer</oboInOwl:hasExactSynonym>
@@ -407,11 +406,10 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3119"/>
         <obo:IAO_0000115 xml:lang="en">A gastrointestinal system cancer that is located_in the pharynx.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-07-27T01:26:34Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>MESH:D010610</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3325</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126685009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126685009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0031347</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">pharyngeal neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">pharynx neoplasm</oboInOwl:hasExactSynonym>
@@ -425,6 +423,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0060859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060859">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050338"/>
+        <obo:IAO_0000115 xml:lang="en">A primary bacterial infectious disease caused by the bacteria of the genus Salmonella. It has symptoms diarrhea, fever, vomiting, and abdominal cramps 12 to 72 hours after infection. In most cases, the illness lasts four to seven days, and most people recover without treatment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:A02.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:003.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Salmonella infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060859</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <rdfs:label xml:lang="en">salmonellosis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0080001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080001">
@@ -434,11 +449,13 @@
         <oboInOwl:hasAlternativeId>DOID:1290</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICD10CM:M89.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D001847</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:76069003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C214795</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:76069003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0005940</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym xml:lang="en">skeletal disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>DOID:0080001</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">bone disease</rdfs:label>
     </owl:Class>
     
@@ -495,24 +512,40 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080600">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A Coronavirus infectious disease that is characterized by fever, cough and shortness of breath and that has_material_basis_in SARS-CoV-2, a subtype of Betacoronavirus pandemicum.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A Coronavirus infectious disease that is characterized by fever, cough and shortness of breath and that has_material_basis_in Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), a subtype of Betacoronavirus pandemicum.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:U07.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D000086382</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C171133</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:840539006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:840539006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C5203670</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">2019 Novel Coronavirus (2019-nCoV)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">2019-nCoV infection</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">COVID19</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">SARS-CoV-2 infection</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">Wuhan coronavirus infection</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">Wuhan seafood market pneumonia virus infection</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0080600</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">COVID-19</rdfs:label>
+        <skos:exactMatch>ICD10CM:U07.1</skos:exactMatch>
+        <skos:exactMatch>MESH:D000086382</skos:exactMatch>
+        <skos:exactMatch>NCI:C171133</skos:exactMatch>
+        <skos:exactMatch>UMLS_CUI:C5203670</skos:exactMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_184"/>
+        <obo:IAO_0000115 xml:lang="en">A bone cancer that has_material_basis_in abnormally proliferating cells derives from embryonic mesoderm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080639</oboInOwl:id>
+        <rdfs:label xml:lang="en">bone sarcoma</rdfs:label>
     </owl:Class>
     
 
@@ -547,7 +580,7 @@
         <oboInOwl:hasDbXref>ICD10CM:C17</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:152.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7523</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:363509000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:363509000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153425</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:10154</oboInOwl:id>
@@ -569,7 +602,7 @@
         <oboInOwl:hasDbXref>ICD9CM:159.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D007414</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4572</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93838000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93838000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0346627</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant intestinal tumors</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm of intestine</oboInOwl:hasExactSynonym>
@@ -587,14 +620,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_77"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in inflammation located in salivary gland, has_material_basis_in Mumps rubulavirus, which is transmitted by droplet spread of saliva or mucus from the mouth, nose, or throat of an infected person, or transmitted by contaminated fomites. The infection has symptom fever, has symptom headache, has symptom muscle aches, has symptom tiredness, has symptom loss of appetite, has symptom swollen and tender salivary glands under the ears or jaw on one or both sides of the face.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in inflammation located in salivary gland, has_material_basis_in Mumps rubulavirus (Orthorubulavirus parotitidis), which is transmitted by droplet spread of saliva or mucus from the mouth, nose, or throat of an infected person, or transmitted by contaminated fomites. The infection has symptom fever, has symptom headache, has symptom muscle aches, has symptom tiredness, has symptom loss of appetite, has symptom swollen and tender salivary glands under the ears or jaw on one or both sides of the face.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7116</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:B26</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:072</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D009107</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C29888</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154352008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154352008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0026780</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:10264</oboInOwl:id>
@@ -638,8 +671,8 @@
         <oboInOwl:hasDbXref>NCI:C3343</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7378</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:1331</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126906006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93974005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126906006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93974005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0033578</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0376358</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">NGP - new growth of prostate</oboInOwl:hasExactSynonym>
@@ -673,7 +706,7 @@
         <oboInOwl:hasDbXref>ICD10CM:A49.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D001424</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2890</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:87628006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:87628006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0004623</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:104</oboInOwl:id>
@@ -708,13 +741,16 @@
         <oboInOwl:hasDbXref>ICD9CM:151.6</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D013274</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MIM:613659</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194069</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194070</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3387</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9331</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126824007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:269459004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:269460009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93717002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:94074003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126824007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93717002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93818001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93867004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:94074003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024623</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0038356</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153421</oboInOwl:hasDbXref>
@@ -743,13 +779,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
         <obo:IAO_0000115 xml:lang="en">A tauopathy that is characterized by memory lapses, confusion, emotional instability and progressive loss of mental ability and results in progressive memory loss, impaired thinking, disorientation, and changes in personality and mood starting and leads in advanced cases to a profound decline in cognitive and physical functioning and is marked histologically by the degeneration of brain neurons especially in the cerebral cortex and by the presence of neurofibrillary tangles and plaques containing beta-amyloid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:0110051</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GARD:10254</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:G30</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:331.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>KEGG:05010</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D000544</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2866</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:73768007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:73768007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0002395</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Alzheimer disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Alzheimers dementia</oboInOwl:hasExactSynonym>
@@ -776,7 +813,7 @@
         <oboInOwl:hasDbXref>ICD9CM:062.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D004672</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34577</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:266194002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:266194002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0014057</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Japanese B encephalitis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -798,7 +835,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D010049</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C26841</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:5552004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:5552004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0029928</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:1100</oboInOwl:id>
@@ -824,8 +861,8 @@
         <oboInOwl:hasDbXref>MIM:109800</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2901</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9334</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126885006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:363455001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126885006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:363455001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0005684</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0005695</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">bladder cancer</oboInOwl:hasExactSynonym>
@@ -848,7 +885,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-        <obo:IAO_0000115 xml:lang="en">A brucellosis that involves an infection caused by Brucella suis [NCBITaxon:29461] in swine and humans. The disease has_symptom fever, has_symptom chills, has_symptom malaise, has_symptom diaphoresis, has_symptom arthralgia, has_symptom myalgia, has_symptom headache, has_symptom anorexia, and has_symptom fatigue.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A brucellosis that involves an infection caused by Brucella suis in swine and humans. The disease has_symptom fever, has_symptom chills, has_symptom malaise, has_symptom diaphoresis, has_symptom arthralgia, has_symptom myalgia, has_symptom headache, has_symptom anorexia, and has_symptom fatigue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:11076</oboInOwl:id>
@@ -872,7 +909,7 @@
         <oboInOwl:hasDbXref>ICD9CM:023</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D002006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C84602</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154296006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154296006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0006309</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Maltese fever</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">undulant fever</oboInOwl:hasExactSynonym>
@@ -903,7 +940,7 @@
         <oboInOwl:hasDbXref>ICD9CM:083.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D011778</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34970</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:266205000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:266205000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0034362</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Infection due to Coxiella burnetii</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -928,7 +965,7 @@
         <oboInOwl:hasDbXref>ICD10CM:C49</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:171.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICDO:8800/3</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93765001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93765001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153519</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">connective and soft tissue neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">tumor of soft tissue and skeleton</oboInOwl:hasExactSynonym>
@@ -952,7 +989,7 @@
         <oboInOwl:hasAlternativeId>DOID:11751</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>KEGG:05133</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D001885</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:26484003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:26484003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0006015</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">WC - Whooping cough</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bordetella infection</oboInOwl:hasExactSynonym>
@@ -986,14 +1023,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in inflammation located in brain or located in spinal cord, has_material_basis_in Rabies virus, which is transmitted by bite of an infected animal, or transmitted by contact of mucous membranes with saliva of an infected animal. The infection has symptom fever, has symptom headache, has symptom prickling or itching sensation at the site of bite, has symptom anxiety, has symptom confusion, has symptom agitation, has symptom delirium, has symptom difficulty swallowing, has symptom hydrophobia, and has symptom paralysis.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in inflammation located in brain or located in spinal cord, has_material_basis_in viruses in the genus Lyssavirus, which are transmitted by bite of an infected animal, or transmitted by contact of mucous membranes with saliva of an infected animal. The infection has symptom fever, has symptom headache, has symptom prickling or itching sensation at the site of bite, has symptom anxiety, has symptom confusion, has symptom agitation, has symptom delirium, has symptom difficulty swallowing, has symptom hydrophobia, and has symptom paralysis. Most human cases of rabies are caused by the Rabies virus (Lyssavirus rabies) transmitted from dogs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7516</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:A82</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:071</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D011818</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C28182</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:14168008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:14168008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0034494</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Lyssa</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -1018,7 +1055,7 @@
         <oboInOwl:hasDbXref>ICD9CM:037</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D013742</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C85185</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154312006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154312006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0039614</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Infection due to Clostridium tetani</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">clostridial tetanus</oboInOwl:hasExactSynonym>
@@ -1042,7 +1079,7 @@
         <oboInOwl:hasAlternativeId>DOID:4132</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GARD:1875</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D003354</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:397434007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:397434007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0010153</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">corynebacterium infection</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -1068,8 +1105,8 @@
         <oboInOwl:hasDbXref>MESH:D008193</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D020852</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C45161</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154376000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:715507005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154376000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:715507005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024198</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0752235</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Bannwarth syndrome</oboInOwl:hasExactSynonym>
@@ -1103,8 +1140,8 @@
         <oboInOwl:hasDbXref>MESH:D018317</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3321</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4972</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126980002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:189946005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126980002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:189946005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0031118</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0206727</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">neoplasm of peripheral nerve</oboInOwl:hasExactSynonym>
@@ -1128,7 +1165,7 @@
         <oboInOwl:hasDbXref>GARD:12425</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D006258</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3077</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:255055008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:255055008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0018671</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">head and neck neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">head and neck tumours</oboInOwl:hasExactSynonym>
@@ -1160,8 +1197,8 @@
         <oboInOwl:hasDbXref>MESH:D005833</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3053</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4913</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126907002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:188207007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126907002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:188207007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0017416</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153585</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0699889</oboInOwl:hasDbXref>
@@ -1187,7 +1224,7 @@
         <oboInOwl:hasDbXref>ICD10CM:T78.40</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D006967</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3114</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:257550005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:257550005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0020517</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">allergic hypersensitivity disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">hypersensitivity</oboInOwl:hasExactSynonym>
@@ -1212,7 +1249,7 @@
         <oboInOwl:hasDbXref>ICD9CM:061</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D003715</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34528</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:38362002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:38362002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0011311</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Dengue Fever</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">breakbone fever</oboInOwl:hasExactSynonym>
@@ -1243,7 +1280,7 @@
         <oboInOwl:hasDbXref>MESH:D008288</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34797</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:673</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154374002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154374002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024530</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">induced malaria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -1269,7 +1306,7 @@
         <oboInOwl:hasDbXref>ICDO:9800/3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D007938</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3161</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:255049003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:255049003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0023418</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:1240</oboInOwl:id>
@@ -1284,13 +1321,13 @@
     <!-- http://purl.obolibrary.org/obo/DOID_12549 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12549">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in liver, has_material_basis_in Hepatitis A virus (Hepatovirus ahepa), which is transmitted_by ingestion of contaminated food or water, or transmitted_by direct contact with an infected person. The infection has_symptom fever, has_symptom fatigue, has_symptom loss of appetite, has_symptom nausea, has_symptom vomiting, has_symptom abdominal pain, has_symptom clay-colored bowel movements, has_symptom joint pain, and has_symptom jaundice.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1884"/>
+        <obo:IAO_0000115 xml:lang="en">A viral hepatitis that results_in inflammation located_in liver, has_material_basis_in Hepatitis A virus (Hepatovirus ahepa), which is transmitted_by ingestion of contaminated food or water, or transmitted_by direct contact with an infected person. The infection has_symptom fever, has_symptom fatigue, has_symptom loss of appetite, has_symptom nausea, has_symptom vomiting, has_symptom abdominal pain, has_symptom clay-colored bowel movements, has_symptom joint pain, and has_symptom jaundice.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:12547</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>MESH:D006506</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3096</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:40468003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:40468003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0019159</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Viral hepatitis, type A</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -1307,11 +1344,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in upper respiratory tract or located_in lower respiratory tract, has_material_basis_in Human respiratory syncytial virus, which is transmitted_by droplet spread of nasal secretions from an infected person while coughing or sneezing, or transmitted_by contaminated fomites. The infection has_symptom runny nose, has_symptom fever, has_symptom cough, has_symptom wheezing, and has_symptom respiratory distress.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in upper respiratory tract or located_in lower respiratory tract, has_material_basis_in Human respiratory syncytial virus (Orthopneumovirus hominis), which is transmitted_by droplet spread of nasal secretions from an infected person while coughing or sneezing, or transmitted_by contaminated fomites. The infection has_symptom runny nose, has_symptom fever, has_symptom cough, has_symptom wheezing, and has_symptom respiratory distress.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D018357</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3354</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186750007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:186750007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0035235</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">RSV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">respiratory syncytial virus</oboInOwl:hasExactSynonym>
@@ -1320,6 +1357,16 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">respiratory syncytial virus infectious disease</rdfs:label>
+        <skos:exactMatch>MESH:D018357</skos:exactMatch>
+        <skos:exactMatch>NCI:C3354</skos:exactMatch>
+        <skos:exactMatch>UMLS_CUI:C0035235</skos:exactMatch>
+        <skos:relatedMatch>ICD10CM:B97.4</skos:relatedMatch>
+        <skos:relatedMatch>ICD10CM:J12.1</skos:relatedMatch>
+        <skos:relatedMatch>ICD10CM:J20.5</skos:relatedMatch>
+        <skos:relatedMatch>ICD10CM:J21.0</skos:relatedMatch>
+        <skos:relatedMatch>ICD9CM:079.6</skos:relatedMatch>
+        <skos:relatedMatch>ICD9CM:466.11</skos:relatedMatch>
+        <skos:relatedMatch>ICD9CM:480.1</skos:relatedMatch>
     </owl:Class>
     
 
@@ -1344,9 +1391,9 @@
         <oboInOwl:hasDbXref>NCI:C3568</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C5115</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7710</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126952004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:428061005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93727008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126952004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:428061005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93727008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0006118</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153633</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0220624</oboInOwl:hasDbXref>
@@ -1403,10 +1450,11 @@
         <oboInOwl:hasDbXref>MIM:612571</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MIM:612593</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MIM:614210</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187860004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187864008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187868006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187874006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194105</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187860004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187864008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187868006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187874006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024624</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153491</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153492</oboInOwl:hasDbXref>
@@ -1416,6 +1464,7 @@
         <oboInOwl:id>DOID:1324</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
         <rdfs:label xml:lang="en">lung cancer</rdfs:label>
     </owl:Class>
@@ -1434,7 +1483,7 @@
         <oboInOwl:hasDbXref>ICD9CM:002.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D014435</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C35089</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186091002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:186091002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0041466</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Typhoid</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -1470,7 +1519,7 @@
         <oboInOwl:hasDbXref>ICD10CM:H44.12</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:360.13</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34587</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:57100005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:57100005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0014238</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Ectoparasitic disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">parasitemia</oboInOwl:hasExactSynonym>
@@ -1494,7 +1543,7 @@
         <oboInOwl:hasDbXref>ICD9CM:084.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D016778</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34798</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:62676009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:62676009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024535</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Malaria fever, subtertian</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">falciparum malaria</oboInOwl:hasExactSynonym>
@@ -1512,11 +1561,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14456">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-        <obo:IAO_0000115 xml:lang="en">A brucellosis that involves an infection caused by Brucella melitensis [NCBITaxon:29459] in cattle, goats, sheep and humans. The disease has_symptom fever, has_symptom malaise, has_symptom anorexia, has_symptom limb pain and has_symptom back pain.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A brucellosis that involves an infection caused by Brucella melitensis in cattle, goats, sheep and humans. The disease has_symptom fever, has_symptom malaise, has_symptom anorexia, has_symptom limb pain and has_symptom back pain.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:A23.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:023.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186305007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:186305007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0302362</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:14456</oboInOwl:id>
@@ -1532,12 +1581,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14457">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-        <obo:IAO_0000115 xml:lang="en">A brucellosis that involves an infection caused by Brucella abortus [NCBITaxon:235] in cattle and humans. The disease has_symptom fever, has_symptom chills, has_symptom sweats, has_symptom weight loss, has_symptom malaise, has_symptom headaches, has_symptom myalgia, and has_symptom arthralgia.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A brucellosis that involves an infection caused by Brucella abortus in cattle and humans. The disease has_symptom fever, has_symptom chills, has_symptom sweats, has_symptom weight loss, has_symptom malaise, has_symptom headaches, has_symptom myalgia, and has_symptom arthralgia.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:A23.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:023.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D002007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:427795000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:427795000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0302363</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:14457</oboInOwl:id>
@@ -1578,7 +1627,7 @@
         <oboInOwl:hasDbXref>ICD10CM:A00</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D002771</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186087007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:186087007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0008354</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Cholera - Vibrio cholerae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Cholera due to Vibrio cholerae</oboInOwl:hasExactSynonym>
@@ -1647,7 +1696,7 @@
         <oboInOwl:hasAlternativeId>DOID:3226</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICD10CM:J98</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:519</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:155603009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:155603009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0029582</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:1579</oboInOwl:id>
@@ -1676,8 +1725,8 @@
         <oboInOwl:hasDbXref>ICD9CM:390-392.99</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D012213</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34984</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:155265007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:274095001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:155265007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:274095001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0035436</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0264743</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">ACUTE RHEUMATIC FEVER</oboInOwl:hasExactSynonym>
@@ -1707,7 +1756,7 @@
         <oboInOwl:hasDbXref>MESH:D001943</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MIM:114480</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9335</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:254837009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:254837009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0006142</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">breast tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm of breast</oboInOwl:hasExactSynonym>
@@ -1740,7 +1789,7 @@
         <oboInOwl:hasDbXref>ICDO:8000/3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D009369</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9305</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:269513004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:269513004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0006826</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumor</oboInOwl:hasExactSynonym>
@@ -1768,7 +1817,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D009140</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C107377</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:268047003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:268047003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0026857</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:17</oboInOwl:id>
@@ -1794,8 +1843,8 @@
         <oboInOwl:hasDbXref>MESH:D004701</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3010</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3575</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:127015005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93780007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:127015005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93780007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0014132</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153658</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Endocrine tumor</oboInOwl:hasExactSynonym>
@@ -1851,14 +1900,17 @@
         <oboInOwl:hasDbXref>ICD9CM:157.8</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>KEGG:05212</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D010190</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194090</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194091</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3305</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:1333</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:217074</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126859007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187796007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93715005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93823001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:94082003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126859007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187796007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93715005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93823001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:94082003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0030297</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153458</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153459</oboInOwl:hasDbXref>
@@ -1919,7 +1971,7 @@
         <oboInOwl:hasAlternativeId>DOID:3348</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>MESH:D001859</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9343</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126537000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126537000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0005967</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">CA - bone cancer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bone neoplasm</oboInOwl:hasExactSynonym>
@@ -1939,6 +1991,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_1884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1884">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_409"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
+        <obo:IAO_0000115 xml:lang="en">A hepatitis that involves viral infection causing inflammation of the liver.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:12548</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1331</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1885</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>MESH:D006524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0019194</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Viral hepatitis with hepatic coma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">animal viral hepatitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">human viral hepatitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1884</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
+        <rdfs:label xml:lang="en">viral hepatitis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_1909 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1909">
@@ -1950,7 +2025,7 @@
         <oboInOwl:hasDbXref>KEGG:05218</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D008545</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3224</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:2092003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:2092003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0025202</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Naevocarcinoma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant melanoma</oboInOwl:hasExactSynonym>
@@ -1991,13 +2066,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1936">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+        <obo:IAO_0000115 xml:lang="en">An arteriosclerotic cardiovascular disease that is characterized by the build-up of fatty material and calcium deposition in the arterial wall resulting in partial or complete occlusion of the arterial lumen. Disease is located within the tunica intima of large and small arteries.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>EFO:0003914</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:I70</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:440</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D050197</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C35768</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:155414001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:155414001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0004153</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:1936</oboInOwl:id>
@@ -2023,8 +2099,8 @@
         <oboInOwl:hasDbXref>MESH:D005185</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3032</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7480</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126916003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93794008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126916003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93794008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0015558</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153579</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">fallopian tube neoplasm</oboInOwl:hasExactSynonym>
@@ -2056,8 +2132,8 @@
         <oboInOwl:hasDbXref>MESH:D012004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7418</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9382</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:254582000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93984006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:254582000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93984006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007113</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0949022</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">carcinoma of rectum</oboInOwl:hasExactSynonym>
@@ -2086,7 +2162,7 @@
         <obo:IAO_0000115 xml:lang="en">A musculoskeletal system cancer that is located_in connective tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D009372</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126598008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126598008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0027656</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Tumour of connective tissue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">connective tissue neoplasm</oboInOwl:hasExactSynonym>
@@ -2103,8 +2179,8 @@
     <!-- http://purl.obolibrary.org/obo/DOID_2043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in liver, has_material_basis_in Hepatitis B virus (Orthohepadnavirus hominoidei), which is transmitted_by sexual contact, blood transfusions, or fomites like needles or syringes. The infection has_symptom fever, fatigue, loss of appetite, nausea, vomiting, abdominal pain, clay-colored bowel movements, joint pain, and jaundice.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1884"/>
+        <obo:IAO_0000115 xml:lang="en">A viral hepatitis that results_in inflammation located_in liver, has_material_basis_in Hepatitis B virus (Orthohepadnavirus hominoidei), which is transmitted_by sexual contact, blood transfusions, or fomites like needles or syringes. The infection has_symptom fever, fatigue, loss of appetite, nausea, vomiting, abdominal pain, clay-colored bowel movements, joint pain, and jaundice.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:12591</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:12592</oboInOwl:hasAlternativeId>
@@ -2112,7 +2188,7 @@
         <oboInOwl:hasDbXref>EFO:0004197</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D006509</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3097</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:66071002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:66071002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0019163</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">chronic hepatitis B</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">hepatitis B infection</oboInOwl:hasExactSynonym>
@@ -2135,7 +2211,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:396</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:021.8</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186298002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:186298002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0029835</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:2123</oboInOwl:id>
@@ -2160,7 +2236,7 @@
         <oboInOwl:hasDbXref>ICD9CM:153</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D003110</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9242</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:363406005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:363406005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007102</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:219</oboInOwl:id>
@@ -2180,7 +2256,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD9CM:629.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D005831</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:38233001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:38233001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0017411</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:229</oboInOwl:id>
@@ -2209,9 +2285,9 @@
         <oboInOwl:hasDbXref>NCI:C7431</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:213500</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:213517</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:123843001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:372117006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93934004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:123843001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:372117006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93934004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0919267</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1140680</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1299247</oboInOwl:hasDbXref>
@@ -2247,7 +2323,7 @@
         <oboInOwl:hasAlternativeId>DOID:2532</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>MESH:D019337</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C27134</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:414388001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:414388001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0376544</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Hematologic malignancy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Hematologic neoplasm</oboInOwl:hasExactSynonym>
@@ -2286,8 +2362,8 @@
         <oboInOwl:hasDbXref>NCI:C120456</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3150</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7548</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126880001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93849006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126880001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93849006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0022665</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0494158</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0740457</oboInOwl:hasDbXref>
@@ -2315,7 +2391,7 @@
         <oboInOwl:hasDbXref>ICD9CM:259.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D004700</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:67432001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:67432001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0014130</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:28</oboInOwl:id>
@@ -2339,7 +2415,7 @@
         <oboInOwl:hasDbXref>EFO:0000540</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:D89.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:279.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154782004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154782004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0041806</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:2914</oboInOwl:id>
@@ -2362,7 +2438,7 @@
         <oboInOwl:hasDbXref>ICDO:8140/3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D000230</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2852</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:35917007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:35917007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0001418</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:299</oboInOwl:id>
@@ -2386,9 +2462,9 @@
         <oboInOwl:hasDbXref>MESH:D009375</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2916</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3709</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:188083002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:269513004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:71298006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:188083002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:269513004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:71298006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007097</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0553707</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1368683</oboInOwl:hasDbXref>
@@ -2419,7 +2495,7 @@
         <oboInOwl:hasDbXref>NCI:C129295</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C39750</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9094</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:63634009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:63634009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0017636</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0278878</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1514422</oboInOwl:hasDbXref>
@@ -2451,8 +2527,8 @@
         <oboInOwl:hasDbXref>MESH:D001254</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4951</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C60781</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:189914005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:99131000119108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:189914005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:99131000119108</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0004114</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0750935</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Astrocytic tumor</oboInOwl:hasExactSynonym>
@@ -2483,7 +2559,7 @@
         <oboInOwl:hasDbXref>ICD9CM:192.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D009380</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C35562</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:188306000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:188306000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0027665</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153643</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1334956</oboInOwl:hasDbXref>
@@ -2509,6 +2585,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D004066</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3959</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:1290917001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0267792</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">liver and biliary tract disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -2534,9 +2611,9 @@
         <oboInOwl:hasDbXref>MESH:D005770</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3052</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4890</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:128348002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:276806006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:428905002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:128348002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:276806006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:428905002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0012243</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0017185</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0685938</oboInOwl:hasDbXref>
@@ -2565,7 +2642,7 @@
         <oboInOwl:hasDbXref>ICD9CM:059.01</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D045908</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C128421</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:240466002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:186582008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0276180</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">monkeypox</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -2576,6 +2653,7 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#zoonotic_infectious_disease"/>
         <rdfs:comment xml:lang="en">November 2022 WHO name update.</rdfs:comment>
         <rdfs:label xml:lang="en">mpox</rdfs:label>
+        <skos:broadMatch>ORDO:438279</skos:broadMatch>
     </owl:Class>
     
 
@@ -2589,7 +2667,7 @@
         <oboInOwl:hasDbXref>ICD10CM:G96.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D002493</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2934</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:267144009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:267144009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007682</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:331</oboInOwl:id>
@@ -2605,7 +2683,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_3347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3347">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080639"/>
         <obo:IAO_0000115 xml:lang="en">A bone sarcoma that is located_in bone that has_material_basis_in cells of mesenchymal origin. It usually involves bones and less frequently extraosseous sites. It often involves the long bones (particularly distal femur, proximal tibia, and proximal humerus).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:183</oboInOwl:hasAlternativeId>
@@ -2616,7 +2694,7 @@
         <oboInOwl:hasDbXref>MIM:259500</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9145</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:668</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:189878003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:408387006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0029463</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0206639</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Osteogenic sarcoma</oboInOwl:hasExactSynonym>
@@ -2658,9 +2736,9 @@
         <oboInOwl:hasDbXref>NCI:C7542</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7806</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9341</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:134210007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:73676002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:76909002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:134210007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:73676002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:76909002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0553580</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0684337</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0796547</oboInOwl:hasDbXref>
@@ -2700,7 +2778,7 @@
         <oboInOwl:hasDbXref>ICD9CM:621.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D014591</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C26907</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:237068005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:237068005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0042131</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:345</oboInOwl:id>
@@ -2715,7 +2793,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3571">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080355"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_170"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_409"/>
         <obo:IAO_0000115 xml:lang="en">A hepatobiliary system cancer that is located_in the liver.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:12300</oboInOwl:hasAlternativeId>
@@ -2728,11 +2806,12 @@
         <oboInOwl:hasDbXref>ICD9CM:155.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:155.2</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D008113</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C190593</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34803</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7692</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126851005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187771009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93870000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126851005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187771009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93870000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0023903</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024620</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0345904</oboInOwl:hasDbXref>
@@ -2777,8 +2856,8 @@
         <oboInOwl:hasDbXref>MESH:D016543</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4627</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9293</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126951006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93744007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126951006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93744007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0085136</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0348374</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">CNS neoplasm</oboInOwl:hasExactSynonym>
@@ -2808,8 +2887,8 @@
         <oboInOwl:hasDbXref>MESH:D014594</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3435</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3552</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126908007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:371973000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126908007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:371973000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0042138</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153567</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">CA - cancer of uterus</oboInOwl:hasExactSynonym>
@@ -2838,7 +2917,7 @@
         <obo:IAO_0000115 xml:lang="en">A stomach carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>NCI:C4004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:408647009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:408647009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0278701</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">adenocarcinoma of stomach</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">stomach adenocarcinoma</oboInOwl:hasExactSynonym>
@@ -2864,8 +2943,8 @@
         <oboInOwl:hasDbXref>MESH:D005834</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3054</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C8561</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126895004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:363515000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126895004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:363515000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0017417</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153606</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">male genital cancer</oboInOwl:hasExactSynonym>
@@ -2895,7 +2974,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>EFO:0001071</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4878</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154485001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154485001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0684249</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">cancer of lung</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -2919,7 +2998,7 @@
         <oboInOwl:hasDbXref>KEGG:05223</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D002289</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2926</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:254637007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:254637007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007131</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">NSCLC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Non-small cell lung cancer</oboInOwl:hasExactSynonym>
@@ -2947,7 +3026,7 @@
         <oboInOwl:hasAlternativeId>DOID:9902</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GARD:7827</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D014375</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:15202009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:15202009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0041295</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:399</oboInOwl:id>
@@ -2969,7 +3048,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:C68.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:189.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:448233000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:448233000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0348371</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:3996</oboInOwl:id>
@@ -2986,13 +3065,38 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2991</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:64572001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:64572001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0012634</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:4</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:2164</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2165</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:46</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:K76.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:573.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3196</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:62857009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0023895</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">disorder of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">hepatic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:409</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">liver disease</rdfs:label>
     </owl:Class>
     
 
@@ -3027,7 +3131,7 @@
         <oboInOwl:hasDbXref>ICD10CM:A98.4</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D019142</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C36171</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:123323003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:123323003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0282687</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Ebola</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Ebola disease</oboInOwl:hasExactSynonym>
@@ -3057,8 +3161,8 @@
         <oboInOwl:hasDbXref>MIM:603956</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2940</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9311</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:123841004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:254885005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:123841004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:254885005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007847</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007873</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">cervical neoplasm</oboInOwl:hasExactSynonym>
@@ -3091,7 +3195,7 @@
         <oboInOwl:hasDbXref>MESH:D001650</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2898</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7483</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93790004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93790004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0005396</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153453</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Ca extrahepatic bile ducts</oboInOwl:hasExactSynonym>
@@ -3115,7 +3219,7 @@
         <oboInOwl:hasDbXref>ICD10CM:N50.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:608.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D005832</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:64557000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:64557000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0017412</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:48</oboInOwl:id>
@@ -3132,7 +3236,7 @@
         <obo:IAO_0000115 xml:lang="en">A bile duct carcinoma that derives_from epithelial cells of glandular origin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>NCI:C27813</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:70179006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:70179006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1370800</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:4896</oboInOwl:id>
@@ -3152,7 +3256,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D001650</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C27814</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:70179006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:70179006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0740277</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:4897</oboInOwl:id>
@@ -3174,7 +3278,7 @@
         <oboInOwl:hasDbXref>MESH:D018281</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4436</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C8265</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:70179006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:70179006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0206698</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0280725</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">adult primary Cholangiocarcinoma</oboInOwl:hasExactSynonym>
@@ -3192,16 +3296,15 @@
     <!-- http://purl.obolibrary.org/obo/DOID_4953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4953">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_574"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in destruction located in motor neurons, has_material_basis_in Human poliovirus 1, has_material_basis_in Human poliovirus 2, or has_material_basis_in Human poliovirus 3, which are transmitted by ingestion of food or water contaminated with feces, or transmitted by direct contact with the oral secretions. The infection has symptom fever, has symptom sore throat, has symptom headache, has symptom vomiting, has symptom fatigue, has symptom neck stiffness, has symptom muscle spasms, and has symptom acute flaccid paralysis.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in destruction located in motor neurons and has_material_basis_in Human poliovirus 1, 2, or 3, serotypes of Enterovirus coxsackiepol, which are transmitted by ingestion of food or water contaminated with feces, or transmitted by direct contact with the oral secretions. The infection has symptom fever, has symptom sore throat, has symptom headache, has symptom vomiting, has symptom fatigue, has symptom neck stiffness, has symptom muscle spasms, and has symptom acute flaccid paralysis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7413</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:A80</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:045</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D011051</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C35550</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:54839009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:54839009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0032371</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:4953</oboInOwl:id>
@@ -3225,7 +3328,7 @@
         <oboInOwl:hasDbXref>EFO:0004251</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:D47.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D009196</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:128925001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:128925001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0027022</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">bone Marrow tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bone marrow neoplasm</oboInOwl:hasExactSynonym>
@@ -3267,12 +3370,12 @@
         <oboInOwl:hasDbXref>NCI:C3534</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3535</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4764</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126817006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187729008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93656003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93877002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93895004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:94119000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126817006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187729008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93656003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93877002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93895004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:94119000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0014859</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153413</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153414</oboInOwl:hasDbXref>
@@ -3308,13 +3411,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_526">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in destruction of immune system, leading to life-threatening opportunistic infections and cancers, has_material_basis_in Human immunodeficiency virus 1 or has_material_basis_in Human immunodeficiency virus 2, which are transmitted by sexual contact, transmitted by transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted by congenital method, and transmitted by contaminated needles. The virus infects helper T cells (CD4+ T cells) which are directly or indirectly destroyed, macrophages, and dendritic cells. The infection has symptom diarrhea, has symptom fatigue, has symptom fever, has symptom vaginal yeast infection, has symptom headache, has symptom mouth sores, has symptom muscle aches, has symptom sore throat, and has symptom swollen lymph glands.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results in destruction of immune system, leading to life-threatening opportunistic infections and cancers, has_material_basis_in Human immunodeficiency virus 1 (Lentivirus humimdef1) or Human immunodeficiency virus 2 (Lentivirus humimdef2), which are transmitted by sexual contact, transmitted by transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted by congenital method, and transmitted by contaminated needles. The virus infects helper T cells (CD4+ T cells) which are directly or indirectly destroyed, macrophages, and dendritic cells. The infection has symptom diarrhea, has symptom fatigue, has symptom fever, has symptom vaginal yeast infection, has symptom headache, has symptom mouth sores, has symptom muscle aches, has symptom sore throat, and has symptom swollen lymph glands.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>ICD10CM:B20</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:042-042.99</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D015658</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3108</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:86406008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:86406008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0019693</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">HIV infection</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -3343,7 +3446,7 @@
         <oboInOwl:hasDbXref>ICD9CM:569.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D007410</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C26801</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:266483008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:266483008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0021831</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:5295</oboInOwl:id>
@@ -3364,7 +3467,7 @@
         <oboInOwl:hasDbXref>MESH:D055752</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MIM:182280</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4917</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:254632001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:254632001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0149925</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:5409</oboInOwl:id>
@@ -3385,7 +3488,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>EFO:0000178</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4911</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154446008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154446008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0699791</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">cancer of the stomach</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">carcinoma of stomach</oboInOwl:hasExactSynonym>
@@ -3410,7 +3513,7 @@
         <oboInOwl:hasDbXref>MESH:D000077195</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MIM:275355</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34447</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:716659002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:716659002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1168401</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">carcinoma of the head and neck</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">squamous cell carcinoma of the head and neck</oboInOwl:hasExactSynonym>
@@ -3422,6 +3525,7 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:comment xml:lang="en">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <rdfs:label xml:lang="en">head and neck squamous cell carcinoma</rdfs:label>
+        <skos:exactMatch>MIM:275355</skos:exactMatch>
     </owl:Class>
     
 
@@ -3454,13 +3558,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_635">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_526"/>
-        <obo:IAO_0000115 xml:lang="en">A Human immunodeficiency virus infectious disease that results_in reduction in the numbers of CD4-bearing helper T cells below 200 per microliter of blood or 14% of all lymphocytes thereby rendering the subject highly vulnerable to life-threatening infections and cancers, has_material_basis_in Human immunodeficiency virus 1 or has_material_basis_in Human immunodeficiency virus 2, which are transmitted_by sexual contact, transmitted_by transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted_by congenital method, and transmitted_by contaminated needles. Opportunistic infections are common in people with AIDS.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A Human immunodeficiency virus infectious disease that results_in reduction in the numbers of CD4-bearing helper T cells below 200 per microliter of blood or 14% of all lymphocytes thereby rendering the subject highly vulnerable to life-threatening infections and cancers, has_material_basis_in Human immunodeficiency virus 1 (Lentivirus humimdef1) or Human immunodeficiency virus 2 (Lentivirus humimdef2), which are transmitted_by sexual contact, transmitted_by transfer of blood, semen, vaginal fluid, pre-ejaculate, or breast milk, transmitted_by congenital method, and transmitted_by contaminated needles. Opportunistic infections are common in people with AIDS.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>EFO:0000765</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:B20</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D000163</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2851</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:62479008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:62479008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0001175</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">AIDS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">acquired Immune deficiency</oboInOwl:hasExactSynonym>
@@ -3484,7 +3588,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>MESH:D003240</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C26729</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:201432001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:201432001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0009782</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">connective tissue disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">disorder of connective tissue</oboInOwl:hasExactSynonym>
@@ -3504,7 +3608,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>EFO:0000200</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D010265</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:71390001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:71390001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1136084</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Plasma cell dyscrasia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Plasma cell tumour</oboInOwl:hasExactSynonym>
@@ -3530,7 +3634,7 @@
         <oboInOwl:hasDbXref>MIM:114550</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3099</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:88673</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154469006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154469006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C2239176</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Hepatoma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -3591,7 +3695,7 @@
         <oboInOwl:hasDbXref>GARD:5877</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D016393</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3457</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:109979007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:109979007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0079731</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">B-cell lymphocytic neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -3614,7 +3718,7 @@
         <oboInOwl:hasDbXref>ICD9CM:289.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D006402</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C26323</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154785002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154785002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0018939</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Blood disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Blood dyscrasia</oboInOwl:hasExactSynonym>
@@ -3647,7 +3751,7 @@
         <oboInOwl:hasDbXref>ICD9CM:022</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D000881</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C84565</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154295005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154295005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0003175</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:7427</oboInOwl:id>
@@ -3673,7 +3777,7 @@
         <oboInOwl:hasDbXref>MESH:D009447</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3270</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:635</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:432328008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:432328008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0027819</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:769</oboInOwl:id>
@@ -3698,7 +3802,7 @@
         <oboInOwl:hasDbXref>ICD10CM:K92.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:520-579.99</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D004066</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:53619000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:53619000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0012242</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">GIT disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Gastroenteropathy</oboInOwl:hasExactSynonym>
@@ -3729,7 +3833,7 @@
         <oboInOwl:hasDbXref>ICD9CM:487</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D007251</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C53482</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:155559006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:155559006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0021400</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Influenza with other manifestations</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">flu</oboInOwl:hasExactSynonym>
@@ -3752,7 +3856,7 @@
         <oboInOwl:hasDbXref>ICD10CM:M19.90</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D001168</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2883</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:372091005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:372091005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0003864</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Inflammatory disorder of joint</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -3777,7 +3881,7 @@
         <oboInOwl:hasDbXref>ICD10CM:J98.4</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D008171</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3198</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:266374002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:266374002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0024115</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:850</oboInOwl:id>
@@ -3794,7 +3898,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8536">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in nerve fiber, has_material_basis_in Human herpesvirus 3, which reactivates after appearing as chickenpox in childhood. The virus is transmitted_by direct contact with the rash, which can develop into chickenpox in newly-infected individuals. The infection has_symptom rash which is followed by blisters, has_symptom headache, has_symptom fever, has_symptom malaise, has_symptom itching, has_symptom burning pain, and has_symptom paresthesia.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in nerve fiber, has_material_basis_in Human herpesvirus 3 (Varicellovirus humanalpha3), which reactivates after appearing as chickenpox in childhood. The virus is transmitted_by direct contact with the rash, which can develop into chickenpox in newly-infected individuals. The infection has_symptom rash which is followed by blisters, has_symptom headache, has_symptom fever, has_symptom malaise, has_symptom itching, has_symptom burning pain, and has_symptom paresthesia.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:8554</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:8555</oboInOwl:hasAlternativeId>
@@ -3805,7 +3909,7 @@
         <oboInOwl:hasDbXref>ICD9CM:053</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D006562</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C71079</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186514003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:4740000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0019360</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Shingles</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">herpes zona</oboInOwl:hasExactSynonym>
@@ -3814,6 +3918,11 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">herpes zoster</rdfs:label>
+        <skos:exactMatch>ICD10CM:B02</skos:exactMatch>
+        <skos:exactMatch>ICD9CM:053</skos:exactMatch>
+        <skos:exactMatch>MESH:D006562</skos:exactMatch>
+        <skos:exactMatch>NCI:C71079</skos:exactMatch>
+        <skos:exactMatch>UMLS_CUI:C0019360</skos:exactMatch>
     </owl:Class>
     
 
@@ -3829,23 +3938,12 @@
         <oboInOwl:hasAlternativeId>DOID:8949</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:9168</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICD10CM:C10</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD10CM:C10.2</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD10CM:C10.3</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD10CM:C10.8</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:146</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9CM:146.5</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9CM:146.6</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9CM:146.7</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C7398</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187686007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93933005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93971002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93933005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153382</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS_CUI:C0153388</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS_CUI:C0153389</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS_CUI:C0153390</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Oropharyngeal carcinoma</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">malignant Oropharyngeal tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">malignant oropharyngeal tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumor of oropharynx</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumour of mesopharynx</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">oropharyngeal cancer</oboInOwl:hasExactSynonym>
@@ -3854,6 +3952,11 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">oropharynx cancer</rdfs:label>
+        <skos:exactMatch>ICD10CM:C10</skos:exactMatch>
+        <skos:exactMatch>ICD9CM:146</skos:exactMatch>
+        <skos:exactMatch>NCI:C7398</skos:exactMatch>
+        <skos:exactMatch>UMLS_CUI:C0153382</skos:exactMatch>
+        <skos:relatedMatch>MESH:D009959</skos:relatedMatch>
     </owl:Class>
     
 
@@ -3862,19 +3965,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8622">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in skin, has_material_basis_in Measles virus, which is transmitted_by contact with oronasal secretions, or semen of an infected person. The infection has_symptom fever, has_symptom cough, has_symptom coryza, has_symptom conjunctivitis, and has_symptom maculopapular, erythematous rash.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in skin, has_material_basis_in Measles virus (Morbillivirus hominis), which is transmitted_by contact with oronasal secretions, or semen of an infected person. The infection has_symptom fever, has_symptom cough, has_symptom coryza, has_symptom conjunctivitis, and has_symptom maculopapular, erythematous rash.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:8621</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:8963</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:9112</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref>GARD:3434</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:B05</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:055</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D008457</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C96406</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154338006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154338006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0025007</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">morbilli</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">rubeola</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:8622</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
@@ -3895,7 +3998,7 @@
         <oboInOwl:hasDbXref>ICD9CM:349.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D009422</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C26835</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:155262005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:155262005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0027765</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:863</oboInOwl:id>
@@ -3912,7 +4015,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8659">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_934"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in skin, has_material_basis_in Human herpesvirus 3, which is transmitted_by direct contact with secretions from the rash, or transmitted_by droplet spread of respiratory secretions. The infection has_symptom anorexia, has_symptom myalgia, has_symptom nausea, has_symptom fever, has_symptom headache, has_symptom sore throat, and has_symptom blisters.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in infection located_in skin, has_material_basis_in Human herpesvirus 3 (Varicellovirus humanalpha3), which is transmitted_by direct contact with secretions from the rash, or transmitted_by droplet spread of respiratory secretions. The infection has_symptom anorexia, has_symptom myalgia, has_symptom nausea, has_symptom fever, has_symptom headache, has_symptom sore throat, and has_symptom blisters.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasAlternativeId>DOID:8658</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:8693</oboInOwl:hasAlternativeId>
@@ -3921,7 +4024,7 @@
         <oboInOwl:hasDbXref>ICD9CM:052</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D002644</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C97132</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:186508005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:186508005</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0008049</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">varicella</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -3929,7 +4032,10 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">chickenpox</rdfs:label>
+        <skos:exactMatch>ICD10CM:B01.9</skos:exactMatch>
         <skos:exactMatch>MESH:D002644</skos:exactMatch>
+        <skos:exactMatch>NCI:C97132</skos:exactMatch>
+        <skos:exactMatch>UMLS_CUI:C0008049</skos:exactMatch>
     </owl:Class>
     
 
@@ -3946,15 +4052,20 @@
         <oboInOwl:hasDbXref>ICD9CM:050</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D012899</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C35027</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:266193008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:266193008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0037354</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym xml:lang="en">Ordinary smallpox</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:8736</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <rdfs:label xml:lang="en">smallpox</rdfs:label>
+        <skos:broadMatch>ORDO:438279</skos:broadMatch>
+        <skos:exactMatch>ICD10CM:B03</skos:exactMatch>
+        <skos:exactMatch>ICD9CM:050</skos:exactMatch>
+        <skos:exactMatch>MESH:D012899</skos:exactMatch>
+        <skos:exactMatch>NCI:C35027</skos:exactMatch>
+        <skos:exactMatch>UMLS_CUI:C0037354</skos:exactMatch>
     </owl:Class>
     
 
@@ -3971,7 +4082,7 @@
         <oboInOwl:hasDbXref>ICD9CM:482.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D018410</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C26704</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:53084003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:53084003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0004626</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Pneumonia due to other gram-negative bacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">gram-negative pneumonia</oboInOwl:hasExactSynonym>
@@ -4006,7 +4117,7 @@
         <oboInOwl:hasDbXref>ICD9CM:056</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D012409</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C85051</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:266192003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:266192003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0035920</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">german measles</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -4022,16 +4133,17 @@
     <!-- http://purl.obolibrary.org/obo/DOID_9210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9210">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4953"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_574"/>
-        <obo:IAO_0000115 xml:lang="en">A viral infectious disease that results_in inflammation located_in facial nerve, which leads to paralysis of one side of the face, has_material_basis_in Human herpesvirus 3, which reactivates after appearing as chickenpox in childhood. The infection has_symptom vesicular rash of the ear or mouth, has_symptom tinnitus, has_symptom vertigo, has_symptom otalgia, and has_symptom headache.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_8536"/>
+        <obo:IAO_0000115 xml:lang="en">A herpes zoster that results_in inflammation located_in facial nerve, which leads to paralysis of one side of the face, has_material_basis_in Human herpesvirus 3 (Varicellovirus humanalpha3), which reactivates after appearing as chickenpox in childhood. The infection has_symptom vesicular rash of the ear or mouth, has_symptom tinnitus, has_symptom vertigo, has_symptom otalgia, and has_symptom headache.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:hasDbXref>GARD:7525</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:B02.21</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:053.11</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D016697</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C84763</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:21954000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:3020</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:21954000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0017409</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Geniculate herpes zoster</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Herpes zoster auricularis</oboInOwl:hasExactSynonym>
@@ -4040,13 +4152,21 @@
         <oboInOwl:hasExactSynonym xml:lang="en">Ramsay Hunt syndrome type II</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Ramsey Hunt syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">geniculate neuralgia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">herpes zoster oticus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">nervus intermedius neuralgia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:9210</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_infectious_disease_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <rdfs:label xml:lang="en">herpes zoster oticus</rdfs:label>
+        <rdfs:label xml:lang="en">Ramsay Hunt syndrome</rdfs:label>
+        <skos:exactMatch>GARD:7525</skos:exactMatch>
+        <skos:exactMatch>ICD10CM:B02.21</skos:exactMatch>
+        <skos:exactMatch>ICD9CM:053.11</skos:exactMatch>
+        <skos:exactMatch>MESH:D016697</skos:exactMatch>
+        <skos:exactMatch>NCI:C84763</skos:exactMatch>
+        <skos:exactMatch>ORDO:3020</skos:exactMatch>
+        <skos:exactMatch>UMLS_CUI:C0017409</skos:exactMatch>
     </owl:Class>
     
 
@@ -4063,8 +4183,8 @@
         <oboInOwl:hasDbXref>MIM:114500</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2956</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4978</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:126837005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93854002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:126837005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93854002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0009404</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0346629</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -4109,20 +4229,22 @@
         <oboInOwl:hasDbXref>MESH:D009303</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MIM:161550</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MIM:607107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194054</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C194057</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9321</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:150</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187692001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187693006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:187700006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:363398003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:93919005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:94078000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187693006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:187700006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:363398003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:93919005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:94078000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153392</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153393</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153394</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153395</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0153396</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS_CUI:C0238301</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Nasopharyngeal carcinoma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant Nasopharyngeal tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm of nasopharynx</oboInOwl:hasExactSynonym>
@@ -4153,8 +4275,8 @@
         <oboInOwl:hasDbXref>MESH:D014777</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3439</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C34396</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:34014006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:40610006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:34014006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:40610006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0003723</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0042769</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Viral Infection</oboInOwl:hasExactSynonym>
@@ -4182,7 +4304,7 @@
         <oboInOwl:hasDbXref>ICD9CM:250</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D003920</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2985</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:267467004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:267467004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0011849</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">diabetes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -4205,7 +4327,7 @@
         <oboInOwl:hasDbXref>ICD9CM:320</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D016920</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C118297</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:267680008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:267680008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0085437</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:9470</oboInOwl:id>
@@ -4232,7 +4354,7 @@
         <oboInOwl:hasDbXref>MIM:254500</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3242</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:29073</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:94705007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:94705007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0026764</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">myeloma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
@@ -4259,7 +4381,7 @@
         <oboInOwl:hasDbXref>ICD9CM:060</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D015004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C35547</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154345006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2025_09_01:154345006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0043395</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Sylvatic yellow fever</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Yellow fever, sylvan</oboInOwl:hasExactSynonym>
