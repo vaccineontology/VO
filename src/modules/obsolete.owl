@@ -552,6 +552,21 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0001172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001172">
+        <obo:IAO_0000115>Brucella melitensis DNA vaccine expressing Omp31 that uses the pCI plasmid.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>pCIOmp31</obo:IAO_0000118>
+        <obo:IAO_0000119>PMID:16177328</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0004394"/>
+        <rdfs:label>obsolete pCIOmp31 vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0001216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0001216">
@@ -1514,6 +1529,22 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/VO_0002820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002820">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
+        <obo:IAO_0000118>B. melitensis WR201 (16MΔpurEK)</obo:IAO_0000118>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000345"/>
+        <rdfs:comment>A purE/purK mutant of B. melitensis 16M was attenuated in mice when given intraperitoneally. Nine weeks after immunization, mice were protected from challenge with wild type B. melitensis</rdfs:comment>
+        <rdfs:comment>Mice infected with delta purE201 developed only five to eight times normal spleen weight at 1 week p.i. and produced no interleukin-6 in their serum, which is much lower than the mice infected with the parental strain (16M)</rdfs:comment>
+        <rdfs:label>obsolete Brucella melitensis WR201 (16MΔpurEK) vaccine</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0002821 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002821">
@@ -1539,6 +1570,21 @@ a vaccine-associated gene that exists in a pathogen and has been engineered for 
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0002810"/>
         <rdfs:comment>A virB2 mutant is attenuated in Brucella melitensis and provides protection in mice</rdfs:comment>
         <rdfs:label>obsolete B. abortus and B. melitensis mutants with unmarked deletion of asp24, virB2, or manBA</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0002824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0002824">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000117>Rebecca Racz</obo:IAO_0000117>
+        <obo:IAO_0000118>live attenuated B. abortus with deletion of znuA</obo:IAO_0000118>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/VO_0000386"/>
+        <rdfs:comment>Deletion of gene znuA attenuates Brucella abortus and this live attenuated vaccine was challenged in mice. These mice showed significantly fewer spenic CFU</rdfs:comment>
+        <rdfs:label>obsolete live attenuated Brucella abortus with deletion of znuA vaccine</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
