@@ -6814,6 +6814,7 @@
         <obo:IAO_0000117>VaxAgent </obo:IAO_0000117>
         <obo:IAO_0000119>PMID:2118744</obo:IAO_0000119>
         <obo:IAO_0000119>PMID:2504086</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:7960111</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-10-25T08:06:33Z</terms:date>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Brucella abortus recombinant BCSP20 subunit vaccine</rdfs:label>
@@ -8629,51 +8630,6 @@
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-10-25T08:06:33Z</terms:date>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
         <rdfs:label>Brucella abortus BCSP 0-70 subunit vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0009098 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0009098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0001221"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000208"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000624"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0001011"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003355"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_235"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/VO_0003390"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Brucella abortus subunit vaccine using Brucella abortus recombinant BCSP20 subunit vaccine. Acylation decreased. Acylation increased igg antibodies and altered serologic responses.</obo:IAO_0000115>
-        <obo:IAO_0000117> Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>VaxAgent </obo:IAO_0000117>
-        <obo:IAO_0000119>PMID:7960111</obo:IAO_0000119>
-        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-10-25T08:06:33Z</terms:date>
-        <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>Brucella abortus recombinant BCSP20 subunit vaccine</rdfs:label>
     </owl:Class>
     
 
@@ -19048,7 +19004,7 @@
         <obo:IAO_0000119>PMID:40152064</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-10-25T08:06:33Z</terms:date>
         <oboInOwl:inSubset>vaccine</oboInOwl:inSubset>
-        <rdfs:label>live attenuated Brucella ovis delta abcBA vaccine</rdfs:label>
+        <rdfs:label>live attenuated Brucella ovis delta abcBA vaccine with adjuvant</rdfs:label>
     </owl:Class>
     
 
@@ -24700,7 +24656,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Brucella melitensis subunit vaccine using flic protein antigen adsorbed onto calcium phosphate nanoparticles of about 90 nm size with spherical shape and smooth surface. Immunized mice showed significant cellular and humoral. Increased ratio of specific igg2a (th1-associated) to igg1 (th2-associated) antibodies.</obo:IAO_0000115>
+        <obo:IAO_0000115>Brucella melitensis subunit vaccine containing 7alpha-HSDH.</obo:IAO_0000115>
         <obo:IAO_0000117> Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>VaxAgent </obo:IAO_0000117>
         <obo:IAO_0000118>7α-HSDH calcium phosphate nanoparticle-adsorbed vaccine</obo:IAO_0000118>
@@ -24746,7 +24702,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Brucella melitensis subunit vaccine using flic protein antigen adsorbed onto calcium phosphate nanoparticles of about 90 nm size with spherical shape and smooth surface. Immunized mice showed significant cellular and humoral. Increased ratio of specific igg2a (th1-associated) to igg1 (th2-associated) antibodies.</obo:IAO_0000115>
+        <obo:IAO_0000115>Brucella melitensis subunit vaccine containing BhuA.</obo:IAO_0000115>
         <obo:IAO_0000117> Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>VaxAgent </obo:IAO_0000117>
         <obo:IAO_0000118>BhuA calcium phosphate nanoparticle-adsorbed vaccine</obo:IAO_0000118>
@@ -24792,7 +24748,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Brucella melitensis subunit vaccine using flic protein antigen adsorbed onto calcium phosphate nanoparticles of about 90 nm size with spherical shape and smooth surface. Immunized mice showed significant cellular and humoral. Increased ratio of specific igg2a (th1-associated) to igg1 (th2-associated) antibodies.</obo:IAO_0000115>
+        <obo:IAO_0000115>Brucella melitensis subunit vaccine containing FliC.</obo:IAO_0000115>
         <obo:IAO_0000117> Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>VaxAgent </obo:IAO_0000117>
         <obo:IAO_0000118>FliC calcium phosphate nanoparticle-adsorbed vaccine</obo:IAO_0000118>
@@ -24838,7 +24794,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Brucella melitensis subunit vaccine using flic protein antigen adsorbed onto calcium phosphate nanoparticles of about 90 nm size with spherical shape and smooth surface. Immunized mice showed significant cellular and humoral. Increased ratio of specific igg2a (th1-associated) to igg1 (th2-associated) antibodies.</obo:IAO_0000115>
+        <obo:IAO_0000115>Brucella melitensis subunit vaccine containing poly B multi-epitope subunit.</obo:IAO_0000115>
         <obo:IAO_0000117> Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>VaxAgent </obo:IAO_0000117>
         <obo:IAO_0000118>poly B calcium phosphate nanoparticle-adsorbed vaccine</obo:IAO_0000118>
@@ -24884,7 +24840,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Brucella melitensis subunit vaccine using flic protein antigen adsorbed onto calcium phosphate nanoparticles of about 90 nm size with spherical shape and smooth surface. Immunized mice showed significant cellular and humoral. Increased ratio of specific igg2a (th1-associated) to igg1 (th2-associated) antibodies.</obo:IAO_0000115>
+        <obo:IAO_0000115>Brucella melitensis subunit vaccine containing T multi-epitope subunit vaccine.</obo:IAO_0000115>
         <obo:IAO_0000117> Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>VaxAgent </obo:IAO_0000117>
         <obo:IAO_0000118>poly T calcium phosphate nanoparticle-adsorbed vaccine</obo:IAO_0000118>
